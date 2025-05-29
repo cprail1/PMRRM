@@ -3674,7 +3674,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT162</systemName>
-      <comment>Will eventually be Osage siding to pocket</comment>
+      <userName>Osage Pocket Upper</userName>
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT167</systemName>
@@ -6154,8 +6154,7 @@
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Off">
       <systemName>IT3</systemName>
-      <userName>Osage Pocket Upper</userName>
-      <comment>Stand-in until this is separately wired</comment>
+      <comment>Not in use.</comment>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Off">
       <systemName>IT104</systemName>
@@ -15781,7 +15780,7 @@
     </layoutturnout>
     <layoutturnout ident="TO18" type="LH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1280.0" ycen="50.0" xa="1270.0" ya="40.0" xb="1310.0" yb="40.0" xc="1290.0" yc="60.0" xd="1250.0" yd="60.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHXOverXml" turnoutname="A B straight" blockname="Bend CP1-R" blockcname="Bend CP2" blockdname="Bend CP2" connectaname="T140" connectbname="T85" connectcname="T86" connectdname="T83" />
     <layoutturnout ident="TO45" type="LH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1305.0" ycen="70.0" xa="1295.0" ya="60.0" xb="1335.0" yb="60.0" xc="1315.0" yc="80.0" xd="1275.0" yd="80.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHXOverXml" turnoutname="B C Straight" blockname="Bend CP2" blockcname="Bend CP3-R" blockdname="Bend CP3-R" connectaname="T86" connectbname="T90" connectcname="T136" connectdname="T72" />
-    <layoutturnout ident="TO17" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="295.0" ycen="305.0" xa="315.0" ya="305.0" xb="275.0" yb="305.0" xc="285.0" yc="285.0" xd="315.0" yd="305.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Osage crossover" secondturnoutname="Osage Pocket Upper" secondturnoutinverted="true" blockname="Osage Approach" connectaname="T10" connectbname="T11" connectcname="T12">
+    <layoutturnout ident="TO17" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="295.0" ycen="305.0" xa="315.0" ya="305.0" xb="275.0" yb="305.0" xc="285.0" yc="285.0" xd="315.0" yd="305.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Osage crossover" blockname="Osage Approach" connectaname="T10" connectbname="T11" connectcname="T12">
       <sensorB>NX-OM-EB</sensorB>
     </layoutturnout>
     <layoutturnout ident="TO83" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="245.0" ycen="285.0" xa="225.0" ya="285.0" xb="265.0" yb="285.0" xc="265.0" yc="265.0" xd="225.0" yd="285.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Osage Pocket Upper" blockname="Osage Siding" connectaname="T2" connectbname="T12" connectcname="T30">
