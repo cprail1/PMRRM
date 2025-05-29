@@ -1,0 +1,72 @@
+@startuml
+!pragma layout smetana
+
+database githubMain [
+    GitHub bobjacobsen/PMRRM
+]
+
+note right of githubMain : Master copy
+
+frame bob [
+    Bob's laptop
+]
+
+together {
+    frame pmrrmMain [
+        electricalcrew PMRRM
+    ]
+    
+    frame pmrrmSnapshot [
+        electricalcrew PMRRM-snapshot
+    ]
+    
+    frame pmrrmPeter [
+        electricalcrew PMRRM-test
+    ]
+}
+
+database githubPeter [
+    GitHub cprail1/PMRRM
+]
+
+githubMain --> githubPeter
+
+note left of githubPeter : Development copy
+
+frame peterLaptop [
+    Peter's computer(s)
+]
+
+together {
+collections dispatcher [
+   dispatcher "Dispatcher *" profiles
+]
+
+collections electricalcrew [
+   electricalcrew "Dispatcher *" profiles
+]
+
+collections electricalcrewtest [
+   electricalcrew "Test *" profiles
+]
+
+}
+
+githubMain <--> bob
+
+githubMain <--> pmrrmMain
+githubMain --> pmrrmSnapshot
+
+githubMain --> peterLaptop
+githubPeter --> bob
+
+githubPeter<--> peterLaptop
+githubPeter<--> pmrrmPeter
+
+pmrrmSnapshot --> dispatcher
+pmrrmMain <--> electricalcrew
+pmrrmPeter <--> electricalcrewtest
+
+
+
+@enduml

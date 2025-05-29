@@ -1,0 +1,34 @@
+@startuml
+
+database githubMain [
+    GitHub bobjacobsen/PMRRM
+]
+
+note left of githubMain : Master copy
+
+frame bob [
+    Bob's laptop
+]
+
+database githubPeter [
+    GitHub cprail1/PMRRM
+]
+
+githubMain -[bold]-> githubPeter : GitHub synch
+
+note right of githubPeter : Development copy
+
+frame peterLaptop [
+    Peter's computer(s)
+]
+
+githubMain <-- bob : " git push"
+
+githubPeter --> bob : git fetch\ngit merge
+
+githubPeter -[bold]-> peterLaptop : git pull
+
+githubPeter <-[bold]- peterLaptop : " git push"
+
+
+@enduml
