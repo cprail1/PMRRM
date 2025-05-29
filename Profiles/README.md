@@ -18,23 +18,31 @@ There are three profiles here:
      
  ## Process for updating
  
- These are the steps for updating WIP to Complex and Simple. These steps are done from the electricalcrew account which has write access to the relevant files
+ These are the steps for updating some tested WIP in the ~electricalcrew/PMRRM-snapshot directory to Complex and Simple. These steps are done from the electricalcrew account which has write access to the relevant files
  
-  - If development has accidentally checked in its extra options, edit them out, commit and push:
-    - In profile.xml, enable the "DisableMenuItems.py" script loading
-    - Directly edit Dispatcher_Work_in_Progress.jmri/profile/profile.properties to have "jmri-configurexml.enableStoreCheck=false"
+  - Check for any changes in ~electricalcrew/PMRRM-snapshot/Profile/ and cope.
+  - If there's any updates to be included in the update, check that branch out in the ~electricalcrew/PMRRM-snapshot/Profile/ directory
+  - In the ~electricalcrew/PMRRM-snapshot/Profile/Dispatcher-Work-in-Progress directory:
+    - Copy the DispatcherDefault.xml file to ~electricalcrew/PMRRM/Profile/Simple and ~electricalcrew/PMRRM/Profile/Simple; this is the one being promoted
+    - Make sure any new startup steps are added to the profile.xml files in those profiles
+    - Copy over all the scripts being used at startup to ensure the most recent versions
+    - If development has accidentally checked in its extra options, edit them out, commit and push:
+      - In profile.xml, enable the "DisableMenuItems.py" script loading
+      - Directly edit Dispatcher_Work_in_Progress.jmri/profile/profile.properties to have "jmri-configurexml.enableStoreCheck=false"
     
-  - Tag the repository with the date, e.v. 2025-05-23-some-comment
-  
-  - Update the ~electricalcrew/PMRRM-snapshot sub-repository to that tag. This updates all three profiles in the dispatch account. 
-  
-  - Back in the ~electricalcrew/PMRRM repository, move files down through the directories:
-  
-    - Copy the Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml to Dispatcher_Simple.jmri and Dispatcher_Complex.jmri
+  - Confirm from the electricalcrew account that all three accounts are working. Fix as needed.
+    - basic launching
+    - proper steps in startup
+    - check that menu items are disabled
+    - none have "check files on shutdown" configured
+    - LT100 at Xerox behaving as required for the profile
+
+  - Commit all that.  
     
-    - If there are new or modified .py files in Dispatcher_Work_in_Progress.jmri, copy those to the other two profiles after checking for conflicts
-      - Add those to the startup profile.xml as needed
-      
+  - Tag the repository with the date, e.g. 2025-05-23-snapshot
+  
+  - Update the ~electricalcrew/PMRRM-snapshot repository to that tag. This updates all three profiles in the dispatch account. 
+  
   - Sign into the dispatch account and check that each of the three profiles for
     - basic launching
     - proper steps in startup
