@@ -2830,7 +2830,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="true" automate="Off">
       <systemName>LT38</systemName>
-      <userName>Kelso siding</userName>
+      <userName>Kelso Industrial</userName>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -2850,7 +2850,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT40</systemName>
-      <userName>Kelso junk yard</userName>
+      <userName>Kelso Woodworking</userName>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -3675,6 +3675,12 @@
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT162</systemName>
       <userName>Osage Pocket Upper</userName>
+      <properties>
+        <property>
+          <key>Send ON/OFF</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT167</systemName>
@@ -3845,6 +3851,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT188</systemName>
+      <userName>Whiskey Storage</userName>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -3872,6 +3879,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT195</systemName>
+      <userName>Whiskey Silo</userName>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -6383,7 +6391,7 @@
       <systemName>IM64</systemName>
       <userName>Vista 3</userName>
     </memory>
-    <memory value="8:59 AM">
+    <memory value="6:42 PM">
       <systemName>IMCURRENTTIME</systemName>
     </memory>
     <memory value="1.0">
@@ -10690,9 +10698,9 @@
       <routeOutputTurnout systemName="Hudson tanks" state="CLOSED" />
       <routeOutputTurnout systemName="Hudson W siding" state="CLOSED" />
       <routeOutputTurnout systemName="Jackson E siding" state="CLOSED" />
-      <routeOutputTurnout systemName="Kelso siding" state="CLOSED" />
+      <routeOutputTurnout systemName="Kelso Industrial" state="CLOSED" />
       <routeOutputTurnout systemName="Jackson W siding" state="CLOSED" />
-      <routeOutputTurnout systemName="Kelso junk yard" state="CLOSED" />
+      <routeOutputTurnout systemName="Kelso Woodworking" state="CLOSED" />
       <routeOutputTurnout systemName="Lake" state="CLOSED" />
       <routeOutputTurnout systemName="Midway E F" state="CLOSED" />
       <routeOutputTurnout systemName="Midway E Engine pocket" state="CLOSED" />
@@ -10848,13 +10856,15 @@
       <routeOutputTurnout systemName="MW Team 2" state="CLOSED" />
       <routeOutputTurnout systemName="MW Team 1" state="CLOSED" />
       <routeOutputTurnout systemName="159 ES" state="CLOSED" />
-      <routeOutputTurnout systemName="LT167" state="CLOSED" />
+      <routeOutputTurnout systemName="Powderhorn house" state="CLOSED" />
       <routeOutputTurnout systemName="LT168" state="THROWN" />
       <routeOutputTurnout systemName="Staging" state="CLOSED" />
       <routeOutputTurnout systemName="Sierra E 2" state="CLOSED" />
       <routeOutputTurnout systemName="Sierra W 2" state="CLOSED" />
       <routeOutputTurnout systemName="Troy station" state="CLOSED" />
       <routeOutputTurnout systemName="LT184" state="CLOSED" />
+      <routeOutputTurnout systemName="Whiskey Storage" state="CLOSED" />
+      <routeOutputTurnout systemName="Whiskey Silo" state="CLOSED" />
       <routeOutputTurnout systemName="LT200" state="CLOSED" />
       <routeOutputTurnout systemName="LT201" state="CLOSED" />
       <routeOutputTurnout systemName="LT202" state="CLOSED" />
@@ -16061,19 +16071,19 @@
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Thu May 29 08:58:20 EDT 2025</date>
+      <date>Thu May 29 18:36:39 EDT 2025</date>
       <filename>PanelPro (v5.11.6)</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Thu May 29 08:58:24 EDT 2025</date>
+      <date>Thu May 29 18:36:47 EDT 2025</date>
       <filename>/Users/jake/Library/Mobile Documents/com~apple~CloudDocs/Trains/PMRRM_Work_Dir/git_repos/PMRRM/Profiles/Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Thu May 29 08:59:13 EDT 2025</date>
+      <date>Thu May 29 18:42:38 EDT 2025</date>
       <filename>/Users/jake/Library/Mobile Documents/com~apple~CloudDocs/Trains/PMRRM_Work_Dir/git_repos/PMRRM/Profiles/Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
     </operation>
   </filehistory>
-  <!--Written by JMRI version 5.11.6plus+jake+20250529T1258Z+Rbf52ad3f90b on Thu May 29 08:59:13 EDT 2025-->
+  <!--Written by JMRI version 5.11.6plus+jake+20250529T2236Z+Rdde714576a1 on Thu May 29 18:42:38 EDT 2025-->
 </layout-config>
