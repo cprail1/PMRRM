@@ -36,6 +36,10 @@ def findItem(menu, itemName) :
 
 # this includes a delay to make sure the window is created if run during startup
 class MenuItemDisable(jmri.jmrit.automat.AbstractAutomaton) :
+    log = org.slf4j.LoggerFactory.getLogger(
+            "jmri.jmrit.jython.exec.script.MenuItemDisable"
+        )
+        
     def handle(self):
         self.waitMsec(8000)
 
@@ -90,8 +94,8 @@ class MenuItemDisable(jmri.jmrit.automat.AbstractAutomaton) :
         if loconetMenu is not None: # skip if run on some other connection
            
             # Find items within that menu and disable it
-            monitorSlots = findItem(loconetMenu, "Monitor Slots")
-            monitorSlots.disable()
+            #monitorSlots = findItem(loconetMenu, "Monitor Slots")
+            #monitorSlots.disable()
             
             configure = findItem(loconetMenu, "Configure BDL16/BDL162/BDL168")
             configure.disable()
@@ -151,19 +155,21 @@ class MenuItemDisable(jmri.jmrit.automat.AbstractAutomaton) :
         # Now proceed to the Layout Editor "Dispatcher" window
         frame = jmri.util.JmriJFrame.getFrame("PMRRM Dispatcher")
         
-        fileMenu = findMenu(frame, "File")      
-        fileMenu.disable()
+        if frame != None :
+            fileMenu = findMenu(frame, "File")      
+            fileMenu.disable()
+    
+            optMenu = findMenu(frame, "Options")      
+            optMenu.disable()
+            optMenu.setEnabled(False)  # defeats the accelerator cmd-E
+    
+            toolsMenu = findMenu(frame, "Tools")      
+            toolsMenu.disable()
 
-        optMenu = findMenu(frame, "Options")      
-        optMenu.disable()
-        optMenu.setEnabled(False)  # defeats the accelerator cmd-E
+        else :
+            self.log.warn("Did not find PMRRM Dispatcher window")
 
-        toolsMenu = findMenu(frame, "Tools")      
-        toolsMenu.disable()
-
-        org.slf4j.LoggerFactory.getLogger(
-            "jmri.jmrit.jython.exec.script.MenuItemDisable"
-        ).info("Menu update complete")
+        self.log.info("Menu update complete")
 
 # create one of these
 a = MenuItemDisable()
