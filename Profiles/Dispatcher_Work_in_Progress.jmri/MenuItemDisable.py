@@ -61,7 +61,7 @@ class MenuItemDisable(jmri.jmrit.automat.AbstractAutomaton) :
             item.disable()
 
         else :
-            print "Did not find File menu"
+            self.log.warn("Did not find File menu")
             
         toolsMenu = findMenu(frame, "Tools")
 
@@ -77,7 +77,7 @@ class MenuItemDisable(jmri.jmrit.automat.AbstractAutomaton) :
             startWiThrottle.disable()
             
         else :
-            print "Did not find Tools menu"
+            self.log.warn("Did not find Tools menu")
         
 
         rosterMenu = findMenu(frame, "Roster")      
@@ -146,7 +146,7 @@ class MenuItemDisable(jmri.jmrit.automat.AbstractAutomaton) :
             configure.disable()
 
         else :
-            print "Did not find LocoNet menu"
+            self.log.warn("Did not find LocoNet menu")
             
         debugMenu = findMenu(frame, "Debug")      
         debugMenu.disable()
