@@ -6391,7 +6391,7 @@
       <systemName>IM64</systemName>
       <userName>Vista 3</userName>
     </memory>
-    <memory value="6:42 PM">
+    <memory value="6:42 AM">
       <systemName>IMCURRENTTIME</systemName>
     </memory>
     <memory value="1.0">
@@ -10661,6 +10661,24 @@
       <userName>AUTOBLK:147</userName>
     </layoutblock>
   </layoutblocks>
+  <signalelements class="jmri.jmrit.blockboss.configurexml.BlockBossLogicProviderXml">
+    <signalelement signal="E Xerox Main" mode="2" watchedturnout="Xerox E" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false">
+      <sensorname>Xerox main</sensorname>
+      <comment />
+    </signalelement>
+    <signalelement signal="W Xerox Main" mode="2" watchedturnout="Xerox E" watchedsignal1="W Whiskey Main" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false">
+      <sensorname>W-X</sensorname>
+      <comment />
+    </signalelement>
+    <signalelement signal="E Xerox siding" mode="3" watchedturnout="Xerox E" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false">
+      <sensorname>Xerox main</sensorname>
+      <comment />
+    </signalelement>
+    <signalelement signal="W Xerox Siding" mode="3" watchedturnout="Xerox E" watchedsignal1="W Whiskey Main" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false">
+      <sensorname>W-X</sensorname>
+      <comment />
+    </signalelement>
+  </signalelements>
   <routes class="jmri.managers.configurexml.DefaultRouteManagerXml">
     <route userName="Mainline Init" addedDelay="250">
       <systemName>IO:AUTO:0001</systemName>
@@ -16071,19 +16089,19 @@
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Thu May 29 18:36:39 EDT 2025</date>
+      <date>Fri May 30 06:24:14 EDT 2025</date>
       <filename>PanelPro (v5.11.6)</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Thu May 29 18:36:47 EDT 2025</date>
+      <date>Fri May 30 06:24:21 EDT 2025</date>
       <filename>/Users/jake/Library/Mobile Documents/com~apple~CloudDocs/Trains/PMRRM_Work_Dir/git_repos/PMRRM/Profiles/Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Thu May 29 18:42:38 EDT 2025</date>
+      <date>Fri May 30 06:42:33 EDT 2025</date>
       <filename>/Users/jake/Library/Mobile Documents/com~apple~CloudDocs/Trains/PMRRM_Work_Dir/git_repos/PMRRM/Profiles/Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
     </operation>
   </filehistory>
-  <!--Written by JMRI version 5.11.6plus+jake+20250529T2236Z+Rdde714576a1 on Thu May 29 18:42:38 EDT 2025-->
+  <!--Written by JMRI version 5.11.6plus+jake+20250530T1024Z+Rdde714576a1 on Fri May 30 06:42:33 EDT 2025-->
 </layout-config>
