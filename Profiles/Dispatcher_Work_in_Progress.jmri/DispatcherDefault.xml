@@ -2461,7 +2461,7 @@
     <defaultthrownspeed>Restricted</defaultthrownspeed>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT1</systemName>
-      <userName>AF A to Bend 1</userName>
+      <userName>Bend Alhambra chk AF A to Bend 1</userName>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -2471,7 +2471,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT2</systemName>
-      <userName>A B straight</userName>
+      <userName>Bend East A to B</userName>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -2481,7 +2481,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT3</systemName>
-      <userName>B C Straight</userName>
+      <userName>Bend East B C Straight</userName>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -2491,7 +2491,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT4</systemName>
-      <userName>Bend 4 to 3</userName>
+      <userName>Bend East 4 to 3</userName>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -2501,7 +2501,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT5</systemName>
-      <userName>Bend 3 to 2</userName>
+      <userName>Bend West 3 to 2</userName>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -2511,7 +2511,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT6</systemName>
-      <userName>Intermodal</userName>
+      <userName>Alhambra Intermodal (check) mt be Bend</userName>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -2521,7 +2521,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT7</systemName>
-      <userName>Bend 3 to 4</userName>
+      <userName>Bend West 3 to 4</userName>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -2531,7 +2531,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT8</systemName>
-      <userName>Bend 2 to 1</userName>
+      <userName>Bend West 2 to 1</userName>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -2561,7 +2561,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT11</systemName>
-      <userName>Power Plant</userName>
+      <userName>Colton Power plant</userName>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -2631,7 +2631,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT18</systemName>
-      <userName>Grain</userName>
+      <userName>Colton Grain silo</userName>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -2641,7 +2641,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT19</systemName>
-      <userName>Tanks</userName>
+      <userName>Colton Oil Cans unload</userName>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -2760,7 +2760,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT31</systemName>
-      <userName>Tyson Steel</userName>
+      <userName>Gary Tyson Steel</userName>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -2790,7 +2790,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT34</systemName>
-      <userName>Hudson tanks</userName>
+      <userName>Hudson Oil Cans load 1</userName>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -2800,7 +2800,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT35</systemName>
-      <userName>Hudson tanks 2</userName>
+      <userName>Hudson Oil Cans Load 2</userName>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -2905,7 +2905,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT50</systemName>
-      <userName>Lake</userName>
+      <userName>Midway E freight approach</userName>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -3005,7 +3005,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT60</systemName>
-      <userName>Narrows</userName>
+      <userName>Midway W freight approach</userName>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -3015,7 +3015,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT61</systemName>
-      <userName>Osage pocket</userName>
+      <userName>Osage pocket E</userName>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -3025,7 +3025,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT62</systemName>
-      <userName>Osage crossover</userName>
+      <userName>Osage E</userName>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -3045,7 +3045,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT64</systemName>
-      <userName>McSweeney</userName>
+      <userName>McSweeney branch</userName>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -3075,7 +3075,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT67</systemName>
-      <userName>Pocket crossover</userName>
+      <userName>Powderhorn pocket crossover</userName>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -3085,7 +3085,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT68</systemName>
-      <userName>Powderhorn crossover</userName>
+      <userName>Powderhorn crossover main</userName>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -3624,7 +3624,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT154</systemName>
-      <userName>ME Team 1</userName>
+      <userName>Midway E Team 1</userName>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -3634,7 +3634,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT155</systemName>
-      <userName>ME Team 2</userName>
+      <userName>Midway E Team 2</userName>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -3644,7 +3644,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT156</systemName>
-      <userName>MW Team 2</userName>
+      <userName>Midway W Team 2</userName>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -3654,7 +3654,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT157</systemName>
-      <userName>MW Team 1</userName>
+      <userName>Midway W Team 1</userName>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -3664,7 +3664,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT159</systemName>
-      <userName>159 ES</userName>
+      <userName>Midway W approach to ES Engine Service</userName>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -3674,7 +3674,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT162</systemName>
-      <userName>Osage Pocket Upper</userName>
+      <userName>Osage pocket W</userName>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -3684,7 +3684,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT167</systemName>
-      <userName>Powderhorn house</userName>
+      <userName>Powderhorn housetrack</userName>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -3703,7 +3703,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT170</systemName>
-      <userName>Staging</userName>
+      <userName>Redcliff Staging</userName>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -3851,7 +3851,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT188</systemName>
-      <userName>Whiskey Storage</userName>
+      <userName>Whiskey Grain storage</userName>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -3879,7 +3879,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT195</systemName>
-      <userName>Whiskey Silo</userName>
+      <userName>Whiskey Grain silo</userName>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -5807,7 +5807,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT800</systemName>
-      <userName>Yards Power Relay Test</userName>
+      <userName>Yards All Power Relay TEST ONLY</userName>
       <comment>This controls all the relays in all the yards for testing purposes</comment>
       <properties>
         <property>
@@ -5818,7 +5818,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT801</systemName>
-      <userName>Trk 1 Power</userName>
+      <userName>Midway yd trk 1 Power</userName>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -5828,7 +5828,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT802</systemName>
-      <userName>Trk 2 Power</userName>
+      <userName>Midway yd trk 2 Power</userName>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -5838,7 +5838,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT803</systemName>
-      <userName>Trk 3 Power</userName>
+      <userName>Midway yd trk 3 Power</userName>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -5848,7 +5848,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT804</systemName>
-      <userName>Trk 4 Power</userName>
+      <userName>Midway yd trk 4 Power</userName>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -5858,7 +5858,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT805</systemName>
-      <userName>Trk 5 Power</userName>
+      <userName>Midway yd trk 5 Power</userName>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -5868,7 +5868,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT806</systemName>
-      <userName>Trk 6 Power</userName>
+      <userName>Midway yd trk 6 Power</userName>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -5977,7 +5977,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT900</systemName>
-      <userName>MW Frt L1</userName>
+      <userName>Midway Frt L1</userName>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -5987,7 +5987,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT901</systemName>
-      <userName>MW Frt L2</userName>
+      <userName>Midway Frt L2</userName>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -5997,7 +5997,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT902</systemName>
-      <userName>MW Frt L3</userName>
+      <userName>Midway Frt L3</userName>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -6007,7 +6007,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT903</systemName>
-      <userName>MW Frt L4</userName>
+      <userName>Midway Frt L4</userName>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -6017,7 +6017,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT904</systemName>
-      <userName>MW Frt L5</userName>
+      <userName>Midway Frt L5</userName>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -6027,7 +6027,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT905</systemName>
-      <userName>MW Frt L6</userName>
+      <userName>Midway Frt L6</userName>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -6391,7 +6391,7 @@
       <systemName>IM64</systemName>
       <userName>Vista 3</userName>
     </memory>
-    <memory value="3:06 PM">
+    <memory value="3:51 PM">
       <systemName>IMCURRENTTIME</systemName>
     </memory>
     <memory value="1.0">
@@ -7658,12 +7658,12 @@
       <path todir="64" fromdir="128" block="IB1" />
       <path todir="128" fromdir="64" block="IB35">
         <beansetting setting="4">
-          <turnout systemName="Osage pocket" />
+          <turnout systemName="Osage pocket E" />
         </beansetting>
       </path>
       <path todir="64" fromdir="128" block="IB36">
         <beansetting setting="2">
-          <turnout systemName="Osage pocket" />
+          <turnout systemName="Osage pocket E" />
         </beansetting>
       </path>
     </block>
@@ -7679,7 +7679,7 @@
       </path>
       <path todir="64" fromdir="128" block="IB36">
         <beansetting setting="2">
-          <turnout systemName="Osage crossover" />
+          <turnout systemName="Osage E" />
         </beansetting>
       </path>
     </block>
@@ -7695,12 +7695,12 @@
       </path>
       <path todir="64" fromdir="128" block="IB35">
         <beansetting setting="4">
-          <turnout systemName="Osage Pocket Upper" />
+          <turnout systemName="Osage pocket W" />
         </beansetting>
       </path>
       <path todir="64" fromdir="128" block="IB36">
         <beansetting setting="2">
-          <turnout systemName="Osage Pocket Upper" />
+          <turnout systemName="Osage pocket W" />
         </beansetting>
       </path>
     </block>
@@ -7745,12 +7745,12 @@
           <turnout systemName="Redcliff W" />
         </beansetting>
         <beansetting setting="2">
-          <turnout systemName="Staging" />
+          <turnout systemName="Redcliff Staging" />
         </beansetting>
       </path>
       <path todir="128" fromdir="64" block="IB82">
         <beansetting setting="4">
-          <turnout systemName="Staging" />
+          <turnout systemName="Redcliff Staging" />
         </beansetting>
       </path>
     </block>
@@ -7927,13 +7927,13 @@
       <permissive>no</permissive>
       <path todir="160" fromdir="80" block="IB22">
         <beansetting setting="4">
-          <turnout systemName="Pocket crossover" />
+          <turnout systemName="Powderhorn pocket crossover" />
         </beansetting>
       </path>
       <path todir="64" fromdir="128" block="IB54" />
       <path todir="160" fromdir="80" block="IB93">
         <beansetting setting="2">
-          <turnout systemName="Pocket crossover" />
+          <turnout systemName="Powderhorn pocket crossover" />
         </beansetting>
       </path>
     </block>
@@ -8024,7 +8024,7 @@
           <turnout systemName="Powderhorn pocket" />
         </beansetting>
         <beansetting setting="2">
-          <turnout systemName="McSweeney" />
+          <turnout systemName="McSweeney branch" />
         </beansetting>
       </path>
       <path todir="144" fromdir="96" block="IB22">
@@ -8035,12 +8035,12 @@
           <turnout systemName="Powderhorn pocket" />
         </beansetting>
         <beansetting setting="2">
-          <turnout systemName="McSweeney" />
+          <turnout systemName="McSweeney branch" />
         </beansetting>
       </path>
       <path todir="160" fromdir="80" block="IB91">
         <beansetting setting="4">
-          <turnout systemName="McSweeney" />
+          <turnout systemName="McSweeney branch" />
         </beansetting>
       </path>
       <path todir="160" fromdir="80" block="IB93">
@@ -8048,7 +8048,7 @@
           <turnout systemName="Powderhorn pocket" />
         </beansetting>
         <beansetting setting="2">
-          <turnout systemName="McSweeney" />
+          <turnout systemName="McSweeney branch" />
         </beansetting>
       </path>
     </block>
@@ -8067,23 +8067,23 @@
           <turnout systemName="Powderhorn E" />
         </beansetting>
         <beansetting setting="2">
-          <turnout systemName="Powderhorn house" />
+          <turnout systemName="Powderhorn housetrack" />
         </beansetting>
         <beansetting setting="2">
-          <turnout systemName="Powderhorn crossover" />
+          <turnout systemName="Powderhorn crossover main" />
         </beansetting>
       </path>
       <path todir="80" fromdir="160" block="IB22">
         <beansetting setting="4">
-          <turnout systemName="Powderhorn crossover" />
+          <turnout systemName="Powderhorn crossover main" />
         </beansetting>
       </path>
       <path todir="64" fromdir="128" block="IB92">
         <beansetting setting="4">
-          <turnout systemName="Powderhorn house" />
+          <turnout systemName="Powderhorn housetrack" />
         </beansetting>
         <beansetting setting="2">
-          <turnout systemName="Powderhorn crossover" />
+          <turnout systemName="Powderhorn crossover main" />
         </beansetting>
       </path>
     </block>
@@ -8097,12 +8097,12 @@
           <turnout systemName="Powderhorn W" />
         </beansetting>
         <beansetting setting="2">
-          <turnout systemName="Powderhorn crossover" />
+          <turnout systemName="Powderhorn crossover main" />
         </beansetting>
       </path>
       <path todir="80" fromdir="160" block="IB15">
         <beansetting setting="4">
-          <turnout systemName="Pocket crossover" />
+          <turnout systemName="Powderhorn pocket crossover" />
         </beansetting>
       </path>
       <path todir="96" fromdir="144" block="IB20">
@@ -8113,12 +8113,12 @@
           <turnout systemName="LT168" />
         </beansetting>
         <beansetting setting="2">
-          <turnout systemName="Pocket crossover" />
+          <turnout systemName="Powderhorn pocket crossover" />
         </beansetting>
       </path>
       <path todir="160" fromdir="80" block="IB21">
         <beansetting setting="4">
-          <turnout systemName="Powderhorn crossover" />
+          <turnout systemName="Powderhorn crossover main" />
         </beansetting>
       </path>
       <path todir="64" fromdir="128" block="IB94">
@@ -8126,7 +8126,7 @@
           <turnout systemName="LT168" />
         </beansetting>
         <beansetting setting="2">
-          <turnout systemName="Pocket crossover" />
+          <turnout systemName="Powderhorn pocket crossover" />
         </beansetting>
       </path>
     </block>
@@ -8346,7 +8346,7 @@
       </path>
       <path todir="144" fromdir="96" block="IB59">
         <beansetting setting="4">
-          <turnout systemName="ME Team 1" />
+          <turnout systemName="Midway E Team 1" />
         </beansetting>
       </path>
       <path todir="32" fromdir="16" block="IB65">
@@ -8356,7 +8356,7 @@
       </path>
       <path todir="16" fromdir="32" block="IB75">
         <beansetting setting="4">
-          <turnout systemName="MW Team 1" />
+          <turnout systemName="Midway W Team 1" />
         </beansetting>
       </path>
     </block>
@@ -8436,12 +8436,12 @@
       <occupancysensor>Osage pocket</occupancysensor>
       <path todir="64" fromdir="128" block="IB2">
         <beansetting setting="4">
-          <turnout systemName="Osage pocket" />
+          <turnout systemName="Osage pocket E" />
         </beansetting>
       </path>
       <path todir="128" fromdir="64" block="IB4">
         <beansetting setting="4">
-          <turnout systemName="Osage Pocket Upper" />
+          <turnout systemName="Osage pocket W" />
         </beansetting>
       </path>
     </block>
@@ -8452,20 +8452,20 @@
       <occupancysensor>Osage approach</occupancysensor>
       <path todir="128" fromdir="64" block="IB2">
         <beansetting setting="2">
-          <turnout systemName="Osage pocket" />
+          <turnout systemName="Osage pocket E" />
         </beansetting>
       </path>
       <path todir="128" fromdir="64" block="IB3">
         <beansetting setting="2">
-          <turnout systemName="Osage crossover" />
+          <turnout systemName="Osage E" />
         </beansetting>
       </path>
       <path todir="128" fromdir="64" block="IB4">
         <beansetting setting="2">
-          <turnout systemName="Osage Pocket Upper" />
+          <turnout systemName="Osage pocket W" />
         </beansetting>
         <beansetting setting="4">
-          <turnout systemName="Osage crossover" />
+          <turnout systemName="Osage E" />
         </beansetting>
       </path>
     </block>
@@ -8514,7 +8514,7 @@
       <occupancysensor>Bend 2</occupancysensor>
       <path todir="64" fromdir="128" block="IB:AUTO:0023">
         <beansetting setting="2">
-          <turnout systemName="Bend 2 to 1" />
+          <turnout systemName="Bend West 2 to 1" />
         </beansetting>
       </path>
       <path todir="128" fromdir="64" block="IB:AUTO:0036">
@@ -8530,7 +8530,7 @@
       <occupancysensor>Bend 3</occupancysensor>
       <path todir="64" fromdir="128" block="IB:AUTO:0029">
         <beansetting setting="2">
-          <turnout systemName="Bend 3 to 4" />
+          <turnout systemName="Bend West 3 to 4" />
         </beansetting>
       </path>
       <path todir="128" fromdir="64" block="IB:AUTO:0035">
@@ -8775,12 +8775,12 @@
           <turnout systemName="Gary W siding" />
         </beansetting>
         <beansetting setting="2">
-          <turnout systemName="Tyson Steel" />
+          <turnout systemName="Gary Tyson Steel" />
         </beansetting>
       </path>
       <path todir="128" fromdir="64" block="IB89">
         <beansetting setting="4">
-          <turnout systemName="Tyson Steel" />
+          <turnout systemName="Gary Tyson Steel" />
         </beansetting>
       </path>
     </block>
@@ -8836,7 +8836,7 @@
           <turnout systemName="Hudson E siding" />
         </beansetting>
         <beansetting setting="2">
-          <turnout systemName="Hudson tanks" />
+          <turnout systemName="Hudson Oil Cans load 1" />
         </beansetting>
       </path>
       <path todir="128" fromdir="64" block="IB67">
@@ -8846,7 +8846,7 @@
       </path>
       <path todir="64" fromdir="128" block="IB90">
         <beansetting setting="4">
-          <turnout systemName="Hudson tanks" />
+          <turnout systemName="Hudson Oil Cans load 1" />
         </beansetting>
       </path>
     </block>
@@ -8856,7 +8856,7 @@
       <permissive>no</permissive>
       <path todir="96" fromdir="144" block="IB31">
         <beansetting setting="4">
-          <turnout systemName="ME Team 1" />
+          <turnout systemName="Midway E Team 1" />
         </beansetting>
       </path>
       <path todir="144" fromdir="96" block="IB60" />
@@ -8868,12 +8868,12 @@
       <path todir="96" fromdir="144" block="IB59" />
       <path todir="128" fromdir="64" block="IB85">
         <beansetting setting="4">
-          <turnout systemName="ME Team 2" />
+          <turnout systemName="Midway E Team 2" />
         </beansetting>
       </path>
       <path todir="128" fromdir="64" block="IB86">
         <beansetting setting="2">
-          <turnout systemName="ME Team 2" />
+          <turnout systemName="Midway E Team 2" />
         </beansetting>
       </path>
     </block>
@@ -9144,17 +9144,17 @@
       <permissive>no</permissive>
       <path todir="32" fromdir="16" block="IB31">
         <beansetting setting="4">
-          <turnout systemName="MW Team 1" />
+          <turnout systemName="Midway W Team 1" />
         </beansetting>
       </path>
       <path todir="64" fromdir="128" block="IB83">
         <beansetting setting="4">
-          <turnout systemName="MW Team 2" />
+          <turnout systemName="Midway W Team 2" />
         </beansetting>
       </path>
       <path todir="64" fromdir="128" block="IB84">
         <beansetting setting="2">
-          <turnout systemName="MW Team 2" />
+          <turnout systemName="Midway W Team 2" />
         </beansetting>
       </path>
     </block>
@@ -9225,7 +9225,7 @@
       <permissive>no</permissive>
       <path todir="64" fromdir="128" block="IB6">
         <beansetting setting="4">
-          <turnout systemName="Staging" />
+          <turnout systemName="Redcliff Staging" />
         </beansetting>
       </path>
     </block>
@@ -9235,7 +9235,7 @@
       <permissive>no</permissive>
       <path todir="128" fromdir="64" block="IB75">
         <beansetting setting="4">
-          <turnout systemName="MW Team 2" />
+          <turnout systemName="Midway W Team 2" />
         </beansetting>
       </path>
     </block>
@@ -9245,7 +9245,7 @@
       <permissive>no</permissive>
       <path todir="128" fromdir="64" block="IB75">
         <beansetting setting="2">
-          <turnout systemName="MW Team 2" />
+          <turnout systemName="Midway W Team 2" />
         </beansetting>
       </path>
     </block>
@@ -9255,7 +9255,7 @@
       <permissive>no</permissive>
       <path todir="64" fromdir="128" block="IB60">
         <beansetting setting="4">
-          <turnout systemName="ME Team 2" />
+          <turnout systemName="Midway E Team 2" />
         </beansetting>
       </path>
     </block>
@@ -9265,7 +9265,7 @@
       <permissive>no</permissive>
       <path todir="64" fromdir="128" block="IB60">
         <beansetting setting="2">
-          <turnout systemName="ME Team 2" />
+          <turnout systemName="Midway E Team 2" />
         </beansetting>
       </path>
     </block>
@@ -9290,7 +9290,7 @@
       <permissive>no</permissive>
       <path todir="64" fromdir="128" block="IB55">
         <beansetting setting="4">
-          <turnout systemName="Tyson Steel" />
+          <turnout systemName="Gary Tyson Steel" />
         </beansetting>
       </path>
     </block>
@@ -9300,7 +9300,7 @@
       <permissive>no</permissive>
       <path todir="128" fromdir="64" block="IB58">
         <beansetting setting="4">
-          <turnout systemName="Hudson tanks" />
+          <turnout systemName="Hudson Oil Cans load 1" />
         </beansetting>
       </path>
     </block>
@@ -9310,7 +9310,7 @@
       <permissive>no</permissive>
       <path todir="80" fromdir="160" block="IB20">
         <beansetting setting="4">
-          <turnout systemName="McSweeney" />
+          <turnout systemName="McSweeney branch" />
         </beansetting>
       </path>
     </block>
@@ -9320,7 +9320,7 @@
       <permissive>no</permissive>
       <path todir="128" fromdir="64" block="IB21">
         <beansetting setting="4">
-          <turnout systemName="Powderhorn house" />
+          <turnout systemName="Powderhorn housetrack" />
         </beansetting>
       </path>
     </block>
@@ -9330,7 +9330,7 @@
       <permissive>no</permissive>
       <path todir="80" fromdir="160" block="IB15">
         <beansetting setting="2">
-          <turnout systemName="Pocket crossover" />
+          <turnout systemName="Powderhorn pocket crossover" />
         </beansetting>
       </path>
       <path todir="80" fromdir="160" block="IB20">
@@ -9867,30 +9867,30 @@
       <permissive>no</permissive>
       <path todir="128" fromdir="64" block="IB40">
         <beansetting setting="2">
-          <turnout systemName="Bend 2 to 1" />
+          <turnout systemName="Bend West 2 to 1" />
         </beansetting>
       </path>
       <path todir="128" fromdir="64" block="IB:AUTO:0024">
         <beansetting setting="4">
-          <turnout systemName="Bend 2 to 1" />
+          <turnout systemName="Bend West 2 to 1" />
         </beansetting>
       </path>
       <path todir="64" fromdir="128" block="IB:AUTO:0026">
         <beansetting setting="4">
-          <turnout systemName="A B straight" />
+          <turnout systemName="Bend East A to B" />
         </beansetting>
         <beansetting setting="2">
-          <turnout systemName="Bend 3 to 2" />
+          <turnout systemName="Bend West 3 to 2" />
         </beansetting>
       </path>
       <path todir="64" fromdir="128" block="IB:AUTO:0029">
         <beansetting setting="4">
-          <turnout systemName="Bend 3 to 2" />
+          <turnout systemName="Bend West 3 to 2" />
         </beansetting>
       </path>
       <path todir="128" fromdir="64" block="IB:AUTO:0030">
         <beansetting setting="4">
-          <turnout systemName="B C Straight" />
+          <turnout systemName="Bend East B C Straight" />
         </beansetting>
       </path>
     </block>
@@ -9901,12 +9901,12 @@
       <path todir="128" fromdir="64" block="IB39" />
       <path todir="64" fromdir="128" block="IB:AUTO:0023">
         <beansetting setting="4">
-          <turnout systemName="Bend 2 to 1" />
+          <turnout systemName="Bend West 2 to 1" />
         </beansetting>
       </path>
       <path todir="64" fromdir="128" block="IB:AUTO:0026">
         <beansetting setting="2">
-          <turnout systemName="Bend 2 to 1" />
+          <turnout systemName="Bend West 2 to 1" />
         </beansetting>
       </path>
     </block>
@@ -9916,7 +9916,7 @@
       <permissive>no</permissive>
       <path todir="128" fromdir="64" block="IB:AUTO:0023">
         <beansetting setting="4">
-          <turnout systemName="A B straight" />
+          <turnout systemName="Bend East A to B" />
         </beansetting>
       </path>
       <path todir="128" fromdir="64" block="IB:AUTO:0024" />
@@ -9928,12 +9928,12 @@
       <path todir="128" fromdir="64" block="IB42" />
       <path todir="64" fromdir="128" block="IB:AUTO:0029">
         <beansetting setting="4">
-          <turnout systemName="Bend 3 to 4" />
+          <turnout systemName="Bend West 3 to 4" />
         </beansetting>
       </path>
       <path todir="128" fromdir="64" block="IB:AUTO:0030">
         <beansetting setting="4">
-          <turnout systemName="Bend 4 to 3" />
+          <turnout systemName="Bend East 4 to 3" />
         </beansetting>
       </path>
     </block>
@@ -9943,23 +9943,23 @@
       <permissive>no</permissive>
       <path todir="128" fromdir="64" block="IB41">
         <beansetting setting="2">
-          <turnout systemName="Bend 3 to 4" />
+          <turnout systemName="Bend West 3 to 4" />
         </beansetting>
         <beansetting setting="2">
-          <turnout systemName="Bend 3 to 2" />
+          <turnout systemName="Bend West 3 to 2" />
         </beansetting>
       </path>
       <path todir="128" fromdir="64" block="IB:AUTO:0023">
         <beansetting setting="4">
-          <turnout systemName="Bend 3 to 2" />
+          <turnout systemName="Bend West 3 to 2" />
         </beansetting>
       </path>
       <path todir="128" fromdir="64" block="IB:AUTO:0028">
         <beansetting setting="4">
-          <turnout systemName="Bend 3 to 4" />
+          <turnout systemName="Bend West 3 to 4" />
         </beansetting>
         <beansetting setting="2">
-          <turnout systemName="Bend 3 to 2" />
+          <turnout systemName="Bend West 3 to 2" />
         </beansetting>
       </path>
       <path todir="16" fromdir="32" block="IB:AUTO:0030" />
@@ -9970,12 +9970,12 @@
       <permissive>no</permissive>
       <path todir="64" fromdir="128" block="IB:AUTO:0023">
         <beansetting setting="4">
-          <turnout systemName="B C Straight" />
+          <turnout systemName="Bend East B C Straight" />
         </beansetting>
       </path>
       <path todir="64" fromdir="128" block="IB:AUTO:0028">
         <beansetting setting="4">
-          <turnout systemName="Bend 4 to 3" />
+          <turnout systemName="Bend East 4 to 3" />
         </beansetting>
       </path>
       <path todir="32" fromdir="16" block="IB:AUTO:0029" />
@@ -10689,24 +10689,24 @@
     <route userName="Mainline Init" addedDelay="250">
       <systemName>IO:AUTO:0001</systemName>
       <userName>Mainline Init</userName>
-      <routeOutputTurnout systemName="AF A to Bend 1" state="CLOSED" />
-      <routeOutputTurnout systemName="A B straight" state="CLOSED" />
-      <routeOutputTurnout systemName="B C Straight" state="CLOSED" />
-      <routeOutputTurnout systemName="Bend 4 to 3" state="CLOSED" />
-      <routeOutputTurnout systemName="Bend 3 to 2" state="CLOSED" />
-      <routeOutputTurnout systemName="Intermodal" state="CLOSED" />
-      <routeOutputTurnout systemName="Bend 3 to 4" state="CLOSED" />
-      <routeOutputTurnout systemName="Bend 2 to 1" state="CLOSED" />
+      <routeOutputTurnout systemName="Bend Alhambra chk AF A to Bend 1" state="CLOSED" />
+      <routeOutputTurnout systemName="Bend East A to B" state="CLOSED" />
+      <routeOutputTurnout systemName="Bend East B C Straight" state="CLOSED" />
+      <routeOutputTurnout systemName="Bend East 4 to 3" state="CLOSED" />
+      <routeOutputTurnout systemName="Bend West 3 to 2" state="CLOSED" />
+      <routeOutputTurnout systemName="Alhambra Intermodal (check) mt be Bend" state="CLOSED" />
+      <routeOutputTurnout systemName="Bend West 3 to 4" state="CLOSED" />
+      <routeOutputTurnout systemName="Bend West 2 to 1" state="CLOSED" />
       <routeOutputTurnout systemName="Colton Ind E" state="CLOSED" />
-      <routeOutputTurnout systemName="Power Plant" state="CLOSED" />
+      <routeOutputTurnout systemName="Colton Power plant" state="CLOSED" />
       <routeOutputTurnout systemName="Colton E 1 to 2" state="CLOSED" />
       <routeOutputTurnout systemName="Colton E 4 to 3" state="CLOSED" />
       <routeOutputTurnout systemName="Colton E 2 to 3" state="CLOSED" />
       <routeOutputTurnout systemName="Colton W 3 to 2" state="CLOSED" />
       <routeOutputTurnout systemName="Colton W 2 to 1" state="CLOSED" />
       <routeOutputTurnout systemName="Colton W 3 to 4" state="CLOSED" />
-      <routeOutputTurnout systemName="Grain" state="CLOSED" />
-      <routeOutputTurnout systemName="Tanks" state="CLOSED" />
+      <routeOutputTurnout systemName="Colton Grain silo" state="CLOSED" />
+      <routeOutputTurnout systemName="Colton Oil Cans unload" state="CLOSED" />
       <routeOutputTurnout systemName="Colton Ind W" state="CLOSED" />
       <routeOutputTurnout systemName="Delta 2 to 1" state="CLOSED" />
       <routeOutputTurnout systemName="Delta 3 to 2" state="CLOSED" />
@@ -10716,16 +10716,16 @@
       <routeOutputTurnout systemName="Echo 2" state="CLOSED" />
       <routeOutputTurnout systemName="Echo 1" state="CLOSED" />
       <routeOutputTurnout systemName="Gary E siding" state="CLOSED" />
-      <routeOutputTurnout systemName="Tyson Steel" state="CLOSED" />
+      <routeOutputTurnout systemName="Gary Tyson Steel" state="CLOSED" />
       <routeOutputTurnout systemName="Hudson E siding" state="CLOSED" />
       <routeOutputTurnout systemName="Gary W siding" state="CLOSED" />
-      <routeOutputTurnout systemName="Hudson tanks" state="CLOSED" />
+      <routeOutputTurnout systemName="Hudson Oil Cans load 1" state="CLOSED" />
       <routeOutputTurnout systemName="Hudson W siding" state="CLOSED" />
       <routeOutputTurnout systemName="Jackson E siding" state="CLOSED" />
       <routeOutputTurnout systemName="Kelso Industrial" state="CLOSED" />
       <routeOutputTurnout systemName="Jackson W siding" state="CLOSED" />
       <routeOutputTurnout systemName="Kelso Woodworking" state="CLOSED" />
-      <routeOutputTurnout systemName="Lake" state="CLOSED" />
+      <routeOutputTurnout systemName="Midway E freight approach" state="CLOSED" />
       <routeOutputTurnout systemName="Midway E F" state="CLOSED" />
       <routeOutputTurnout systemName="Midway E Engine pocket" state="CLOSED" />
       <routeOutputTurnout systemName="Midway E P approach" state="CLOSED" />
@@ -10735,16 +10735,16 @@
       <routeOutputTurnout systemName="Midway W P1" state="CLOSED" />
       <routeOutputTurnout systemName="Midway W Yard" state="CLOSED" />
       <routeOutputTurnout systemName="Midway W Eng Svc" state="CLOSED" />
-      <routeOutputTurnout systemName="Narrows" state="CLOSED" />
-      <routeOutputTurnout systemName="Osage pocket" state="CLOSED" />
-      <routeOutputTurnout systemName="Osage Pocket Upper" state="CLOSED" />
-      <routeOutputTurnout systemName="Osage crossover" state="CLOSED" />
+      <routeOutputTurnout systemName="Midway W freight approach" state="CLOSED" />
+      <routeOutputTurnout systemName="Osage pocket E" state="CLOSED" />
+      <routeOutputTurnout systemName="Osage pocket W" state="CLOSED" />
+      <routeOutputTurnout systemName="Osage E" state="CLOSED" />
       <routeOutputTurnout systemName="Osage W" state="CLOSED" />
-      <routeOutputTurnout systemName="McSweeney" state="CLOSED" />
+      <routeOutputTurnout systemName="McSweeney branch" state="CLOSED" />
       <routeOutputTurnout systemName="Powderhorn pocket" state="CLOSED" />
       <routeOutputTurnout systemName="Powderhorn E" state="CLOSED" />
-      <routeOutputTurnout systemName="Pocket crossover" state="CLOSED" />
-      <routeOutputTurnout systemName="Powderhorn crossover" state="CLOSED" />
+      <routeOutputTurnout systemName="Powderhorn pocket crossover" state="CLOSED" />
+      <routeOutputTurnout systemName="Powderhorn crossover main" state="CLOSED" />
       <routeOutputTurnout systemName="Powderhorn W" state="CLOSED" />
       <routeOutputTurnout systemName="Redcliff E" state="CLOSED" />
       <routeOutputTurnout systemName="Redcliff W" state="CLOSED" />
@@ -10875,20 +10875,20 @@
     <route userName="Aux Init" addedDelay="250">
       <systemName>IO:AUTO:0015</systemName>
       <userName>Aux Init</userName>
-      <routeOutputTurnout systemName="ME Team 1" state="CLOSED" />
-      <routeOutputTurnout systemName="ME Team 2" state="CLOSED" />
-      <routeOutputTurnout systemName="MW Team 2" state="CLOSED" />
-      <routeOutputTurnout systemName="MW Team 1" state="CLOSED" />
-      <routeOutputTurnout systemName="159 ES" state="CLOSED" />
-      <routeOutputTurnout systemName="Powderhorn house" state="CLOSED" />
+      <routeOutputTurnout systemName="Midway E Team 1" state="CLOSED" />
+      <routeOutputTurnout systemName="Midway E Team 2" state="CLOSED" />
+      <routeOutputTurnout systemName="Midway W Team 2" state="CLOSED" />
+      <routeOutputTurnout systemName="Midway W Team 1" state="CLOSED" />
+      <routeOutputTurnout systemName="Midway W approach to ES Engine Service" state="CLOSED" />
+      <routeOutputTurnout systemName="Powderhorn housetrack" state="CLOSED" />
       <routeOutputTurnout systemName="LT168" state="THROWN" />
-      <routeOutputTurnout systemName="Staging" state="CLOSED" />
+      <routeOutputTurnout systemName="Redcliff Staging" state="CLOSED" />
       <routeOutputTurnout systemName="Sierra E 2" state="CLOSED" />
       <routeOutputTurnout systemName="Sierra W 2" state="CLOSED" />
       <routeOutputTurnout systemName="Troy station" state="CLOSED" />
       <routeOutputTurnout systemName="LT184" state="CLOSED" />
-      <routeOutputTurnout systemName="Whiskey Storage" state="CLOSED" />
-      <routeOutputTurnout systemName="Whiskey Silo" state="CLOSED" />
+      <routeOutputTurnout systemName="Whiskey Grain storage" state="CLOSED" />
+      <routeOutputTurnout systemName="Whiskey Grain silo" state="CLOSED" />
       <routeOutputTurnout systemName="LT200" state="CLOSED" />
       <routeOutputTurnout systemName="LT201" state="CLOSED" />
       <routeOutputTurnout systemName="LT202" state="CLOSED" />
@@ -12038,7 +12038,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <turnouticon turnout="Trk 1 Power" x="474" y="49" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="Midway yd trk 1 Power" x="474" y="49" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
         <closed url="program:resources/icons/smallschematics/LEDs/gray.gif" degrees="0" scale="1.0">
           <rotation>0</rotation>
@@ -12055,7 +12055,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="Trk 3 Power" x="476" y="106" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="Midway yd trk 3 Power" x="476" y="106" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
         <closed url="program:resources/icons/smallschematics/LEDs/gray.gif" degrees="0" scale="1.0">
           <rotation>0</rotation>
@@ -12072,7 +12072,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="Trk 4 Power" x="476" y="133" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="Midway yd trk 4 Power" x="476" y="133" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
         <closed url="program:resources/icons/smallschematics/LEDs/gray.gif" degrees="0" scale="1.0">
           <rotation>0</rotation>
@@ -12089,7 +12089,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="Trk 5 Power" x="476" y="158" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="Midway yd trk 5 Power" x="476" y="158" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
         <closed url="program:resources/icons/smallschematics/LEDs/gray.gif" degrees="0" scale="1.0">
           <rotation>0</rotation>
@@ -12106,7 +12106,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="Trk 6 Power" x="475" y="186" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="Midway yd trk 6 Power" x="475" y="186" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
         <closed url="program:resources/icons/smallschematics/LEDs/gray.gif" degrees="0" scale="1.0">
           <rotation>0</rotation>
@@ -12123,7 +12123,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="Trk 2 Power" x="475" y="75" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="Midway yd trk 2 Power" x="475" y="75" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
         <closed url="program:resources/icons/smallschematics/LEDs/gray.gif" degrees="0" scale="1.0">
           <rotation>0</rotation>
@@ -15611,6 +15611,7 @@
     <positionablelabel x="920" y="610" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Storage" size="10" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="895" y="610" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="195" fontFamily="Dialog" fontname="Dialog.bold" size="12" style="1" red="0" green="0" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="955" y="610" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="188 " fontFamily="Dialog" fontname="Dialog.bold" size="12" style="1" red="0" green="0" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="225" y="265" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="162 " fontFamily="Dialog" fontname="Dialog.bold" size="12" style="1" red="0" green="0" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <layoutturnout ident="TO1" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1186.0" ycen="335.0" xa="1206.0" ya="335.0" xb="1166.0" yb="335.0" xc="1166.0" yc="325.0" xd="1206.0" yd="335.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Midway E F" blockname="MEF" connectaname="T1" connectbname="T16" connectcname="T4">
       <sensorB>NX-MEF-WB</sensorB>
     </layoutturnout>
@@ -15629,7 +15630,7 @@
     <layoutturnout ident="TO10" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="760.0" ycen="305.0" xa="740.0" ya="305.0" xb="780.0" yb="305.0" xc="785.0" yc="315.0" xd="740.0" yd="305.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="LT58" blockname="Midway W P1" connectaname="T13" connectbname="T14" connectcname="T15" />
     <layoutturnout ident="TO11" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="805.0" ycen="325.0" xa="825.0" ya="325.0" xb="785.0" yb="325.0" xc="785.0" yc="315.0" xd="825.0" yd="325.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" connectaname="T16" connectbname="T19" connectcname="T15" />
     <layoutturnout ident="TO12" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="655.0" ycen="305.0" xa="636.0" ya="305.0" xb="674.0" yb="305.0" xc="666.0" yc="320.0" xd="636.0" yd="305.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="LT59" blockname="MWP" connectaname="T21" connectbname="T17" connectcname="T18" />
-    <layoutturnout ident="TO13" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="650.0" ycen="325.0" xa="666.0" ya="325.0" xb="634.0" yb="325.0" xc="660.0" yc="338.0" xd="666.0" yd="325.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="159 ES" connectaname="T19" connectbname="T22" connectcname="T152" />
+    <layoutturnout ident="TO13" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="650.0" ycen="325.0" xa="666.0" ya="325.0" xb="634.0" yb="325.0" xc="660.0" yc="338.0" xd="666.0" yd="325.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Midway W approach to ES Engine Service" connectaname="T19" connectbname="T22" connectcname="T152" />
     <layoutturnout ident="TO14" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="525.0" ycen="305.0" xa="505.0" ya="305.0" xb="545.0" yb="305.0" xc="545.0" yc="325.0" xd="505.0" yd="305.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="LT60" blockname="Narrows, Lower" connectaname="T28" connectbname="T21" connectcname="T23">
       <sensorB>NX-MWP-WB</sensorB>
       <sensorC>NX-MWF-WB</sensorC>
@@ -15705,7 +15706,7 @@
       <sensorB>NX-OM-WB</sensorB>
       <sensorC>NX-OS-WB</sensorC>
     </layoutturnout>
-    <layoutturnout ident="TO7" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="320.0" ycen="305.0" xa="335.0" ya="305.0" xb="305.0" yb="305.0" xc="295.0" yc="265.0" xd="335.0" yd="305.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Osage pocket" blockname="Narrows, Upper" connectaname="T9" connectbname="T10" connectcname="T30" />
+    <layoutturnout ident="TO7" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="320.0" ycen="305.0" xa="335.0" ya="305.0" xb="305.0" yb="305.0" xc="295.0" yc="265.0" xd="335.0" yd="305.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Osage pocket E" blockname="Narrows, Upper" connectaname="T9" connectbname="T10" connectcname="T30" />
     <layoutturnout ident="TO19" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1325.0" ycen="550.0" xa="1335.0" ya="550.0" xb="1315.0" yb="550.0" xc="1310.0" yc="530.0" xd="1335.0" yd="550.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Vista E 1" blockname="U-Vw" connectaname="T20" connectbname="T32" connectcname="T34">
       <sensorC>NX-VistaS-EB</sensorC>
     </layoutturnout>
@@ -15716,7 +15717,7 @@
       <sensorB>NX-RedcliffM-EB</sensorB>
       <sensorC>NX-RedcliffS-EB</sensorC>
     </layoutturnout>
-    <layoutturnout ident="TO42" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="85.0" ycen="305.0" xa="105.0" ya="305.0" xb="65.0" yb="305.0" xc="65.0" yc="325.0" xd="105.0" yd="305.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="McSweeney" blockname="O-P" connectaname="T143" connectbname="T142" connectcname="T164" />
+    <layoutturnout ident="TO42" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="85.0" ycen="305.0" xa="105.0" ya="305.0" xb="65.0" yb="305.0" xc="65.0" yc="325.0" xd="105.0" yd="305.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="McSweeney branch" blockname="O-P" connectaname="T143" connectbname="T142" connectcname="T164" />
     <layoutturnout ident="TO43" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1359.0" ycen="441.0" xa="1365.0" ya="441.0" xb="1353.0" yb="441.0" xc="1345.0" yc="459.0" xd="1365.0" yd="441.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Powderhorn pocket" blockname="O-P" connectaname="T157" connectbname="T7" connectcname="T168" />
     <layoutturnout ident="TO50" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="920.0" ycen="40.0" xa="940.0" ya="40.0" xb="900.0" yb="40.0" xc="905.0" yc="25.0" xd="940.0" yd="40.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="LT10" blockname="Bend 1" connectaname="T91" connectbname="T73" connectcname="T181" />
     <layoutturnout ident="TO51" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="900.0" ycen="100.0" xa="920.0" ya="100.0" xb="880.0" yb="100.0" xc="885.0" yc="115.0" xd="920.0" yd="100.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="LT11" blockname="Bend 4" connectaname="T94" connectbname="T74" connectcname="T182" />
@@ -15791,49 +15792,49 @@
     </layoutturnout>
     <layoutturnout ident="TO81" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="515.0" ycen="190.0" xa="541.0" ya="190.0" xb="489.0" yb="190.0" xc="495.0" yc="210.0" xd="541.0" yd="190.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="LT40" blockname="Kelso" connectaname="T124" connectbname="T128" connectcname="T126" />
     <layoutturnout ident="TO56" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="490.0" ycen="440.0" xa="510.0" ya="440.0" xb="470.0" yb="440.0" xc="470.0" yc="420.0" xd="510.0" yd="440.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Troy station" blockname="Troy Main" connectaname="T48" connectbname="T80" connectcname="T87" />
-    <layoutturnout ident="TO58" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1250.0" ycen="441.0" xa="1238.0" ya="441.0" xb="1262.0" yb="441.0" xc="1263.0" yc="453.0" xd="1238.0" yd="441.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Powderhorn house" blockname="Powderhorn M" connectaname="T161" connectbname="T37" connectcname="T159" />
+    <layoutturnout ident="TO58" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1250.0" ycen="441.0" xa="1238.0" ya="441.0" xb="1262.0" yb="441.0" xc="1263.0" yc="453.0" xd="1238.0" yd="441.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Powderhorn housetrack" blockname="Powderhorn M" connectaname="T161" connectbname="T37" connectcname="T159" />
     <layoutturnout ident="TO67" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="4" xcen="1309.0" ycen="417.0" xa="1297.0" ya="417.0" xb="1321.0" yb="417.0" xc="1319.0" yc="426.0" xd="1297.0" yd="417.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="LT168" blockname="Powderhorn S" connectaname="T170" connectbname="T171" connectcname="T38" />
     <layoutturnout ident="TO8" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1300.0" ycen="550.0" xa="1315.0" ya="550.0" xb="1285.0" yb="550.0" xc="1285.0" yc="570.0" xd="1315.0" yd="550.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Vista E 2" blockname="U-Vw" connectaname="T32" connectbname="T59" connectcname="T60">
       <sensorB>NX-VistaM-EB</sensorB>
     </layoutturnout>
-    <layoutturnout ident="TO34" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1012.0" ycen="441.0" xa="1024.0" ya="441.0" xb="1000.0" yb="441.0" xc="1002.0" yc="428.0" xd="1024.0" yd="441.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Staging" blockname="Redcliff Main" connectaname="T41" connectbname="T133" connectcname="T134" />
+    <layoutturnout ident="TO34" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1012.0" ycen="441.0" xa="1024.0" ya="441.0" xb="1000.0" yb="441.0" xc="1002.0" yc="428.0" xd="1024.0" yd="441.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Redcliff Staging" blockname="Redcliff Main" connectaname="T41" connectbname="T133" connectcname="T134" />
     <layoutturnout ident="TO44" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="785.0" ycen="420.0" xa="795.0" ya="420.0" xb="775.0" yb="420.0" xc="765.0" yc="395.0" xd="795.0" yd="420.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Sierra E 2" blockname="Sierra Siding" connectaname="T45" connectbname="T127" connectcname="T131" />
     <layoutturnout ident="TO68" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="675.0" ycen="420.0" xa="665.0" ya="420.0" xb="685.0" yb="420.0" xc="690.0" yc="405.0" xd="665.0" yd="420.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Sierra W 2" blockname="Sierra Siding" connectaname="T112" connectbname="T127" connectcname="T111" />
-    <layoutturnout ident="TO82" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="795.0" ycen="265.0" xa="775.0" ya="265.0" xb="815.0" yb="265.0" xc="810.0" yc="250.0" xd="775.0" yd="265.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="MW Team 1" blockname="Midway P3" connectaname="T24" connectbname="T145" connectcname="T146" />
+    <layoutturnout ident="TO82" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="795.0" ycen="265.0" xa="775.0" ya="265.0" xb="815.0" yb="265.0" xc="810.0" yc="250.0" xd="775.0" yd="265.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Midway W Team 1" blockname="Midway P3" connectaname="T24" connectbname="T145" connectcname="T146" />
     <layoutturnout ident="TO88" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="425.0" ycen="480.0" xa="409.0" ya="480.0" xb="441.0" yb="480.0" xc="445.0" yc="500.0" xd="409.0" yd="480.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="LT184" blockname="Troy 3" connectaname="T52" connectbname="T62" connectcname="T79" />
-    <layoutturnout ident="TO91" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="965.0" ycen="265.0" xa="985.0" ya="265.0" xb="945.0" yb="265.0" xc="950.0" yc="250.0" xd="985.0" yd="265.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="ME Team 1" blockname="Midway P3" connectaname="T144" connectbname="T145" connectcname="T147" />
-    <layoutturnout ident="TO92" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="920.0" ycen="235.0" xa="935.0" ya="235.0" xb="905.0" yb="235.0" xc="910.0" yc="220.0" xd="935.0" yd="235.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="ME Team 2" blockname="AUTOBLK:74" connectaname="T147" connectbname="T151" connectcname="T150" />
-    <layoutturnout ident="TO90" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="825.0" ycen="235.0" xa="810.0" ya="250.0" xb="840.0" yb="220.0" xc="845.0" yc="235.0" xd="810.0" yd="250.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="MW Team 2" blockname="AUTOBLK:75" connectaname="T146" connectbname="T149" connectcname="T148" />
-    <layoutturnout ident="TO73" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1045.0" ycen="210.0" xa="1020.0" ya="210.0" xb="1070.0" yb="210.0" xc="1066.0" yc="230.0" xd="1020.0" yd="210.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Hudson tanks" blockname="Hudson 2" connectaname="T117" connectbname="T156" connectcname="T155" />
-    <layoutturnout ident="TO76" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1220.0" ycen="170.0" xa="1240.0" ya="170.0" xb="1200.0" yb="170.0" xc="1200.0" yc="150.0" xd="1240.0" yd="170.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Tyson Steel" blockname="Gary 2" connectaname="T113" connectbname="T154" connectcname="T153" />
-    <layoutturnout ident="TO46" type="RH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1205.0" ycen="90.0" xa="1180.0" ya="80.0" xb="1213.333325" yb="80.0" xc="1230.0" yc="100.0" xd="1196.666675" yd="100.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHXOverXml" turnoutname="Bend 4 to 3" blockname="Bend CP3-R" blockcname="Bend CP4" blockdname="Bend CP4" connectaname="T57" connectbname="T72" connectcname="T88" connectdname="T84" />
-    <layoutturnout ident="TO47" type="RH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1155.0" ycen="70.0" xa="1130.0" ya="60.0" xb="1163.333325" yb="60.0" xc="1180.0" yc="80.0" xd="1146.666675" yd="80.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHXOverXml" turnoutname="Bend 3 to 2" blockname="Bend CP2" blockcname="Bend CP3-L" blockdname="Bend CP3-L" connectaname="T61" connectbname="T83" connectcname="T57" connectdname="T58" />
-    <layoutturnout ident="TO48" type="RH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1095.0" ycen="50.0" xa="1070.0" ya="40.0" xb="1103.3484831613507" yb="40.0380210562012" xc="1120.0" yc="60.0" xd="1086.6515168386493" yd="59.9619789437988" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHXOverXml" turnoutname="Bend 2 to 1" blockname="Bend CP1-L" blockcname="Bend CP2" blockdname="Bend CP2" connectaname="T91" connectbname="T89" connectcname="T61" connectdname="T92">
+    <layoutturnout ident="TO91" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="965.0" ycen="265.0" xa="985.0" ya="265.0" xb="945.0" yb="265.0" xc="950.0" yc="250.0" xd="985.0" yd="265.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Midway E Team 1" blockname="Midway P3" connectaname="T144" connectbname="T145" connectcname="T147" />
+    <layoutturnout ident="TO92" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="920.0" ycen="235.0" xa="935.0" ya="235.0" xb="905.0" yb="235.0" xc="910.0" yc="220.0" xd="935.0" yd="235.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Midway E Team 2" blockname="AUTOBLK:74" connectaname="T147" connectbname="T151" connectcname="T150" />
+    <layoutturnout ident="TO90" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="825.0" ycen="235.0" xa="810.0" ya="250.0" xb="840.0" yb="220.0" xc="845.0" yc="235.0" xd="810.0" yd="250.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Midway W Team 2" blockname="AUTOBLK:75" connectaname="T146" connectbname="T149" connectcname="T148" />
+    <layoutturnout ident="TO73" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1045.0" ycen="210.0" xa="1020.0" ya="210.0" xb="1070.0" yb="210.0" xc="1066.0" yc="230.0" xd="1020.0" yd="210.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Hudson Oil Cans load 1" blockname="Hudson 2" connectaname="T117" connectbname="T156" connectcname="T155" />
+    <layoutturnout ident="TO76" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1220.0" ycen="170.0" xa="1240.0" ya="170.0" xb="1200.0" yb="170.0" xc="1200.0" yc="150.0" xd="1240.0" yd="170.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Gary Tyson Steel" blockname="Gary 2" connectaname="T113" connectbname="T154" connectcname="T153" />
+    <layoutturnout ident="TO46" type="RH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1205.0" ycen="90.0" xa="1180.0" ya="80.0" xb="1213.333325" yb="80.0" xc="1230.0" yc="100.0" xd="1196.666675" yd="100.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHXOverXml" turnoutname="Bend East 4 to 3" blockname="Bend CP3-R" blockcname="Bend CP4" blockdname="Bend CP4" connectaname="T57" connectbname="T72" connectcname="T88" connectdname="T84" />
+    <layoutturnout ident="TO47" type="RH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1155.0" ycen="70.0" xa="1130.0" ya="60.0" xb="1163.333325" yb="60.0" xc="1180.0" yc="80.0" xd="1146.666675" yd="80.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHXOverXml" turnoutname="Bend West 3 to 2" blockname="Bend CP2" blockcname="Bend CP3-L" blockdname="Bend CP3-L" connectaname="T61" connectbname="T83" connectcname="T57" connectdname="T58" />
+    <layoutturnout ident="TO48" type="RH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1095.0" ycen="50.0" xa="1070.0" ya="40.0" xb="1103.3484831613507" yb="40.0380210562012" xc="1120.0" yc="60.0" xd="1086.6515168386493" yd="59.9619789437988" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHXOverXml" turnoutname="Bend West 2 to 1" blockname="Bend CP1-L" blockcname="Bend CP2" blockdname="Bend CP2" connectaname="T91" connectbname="T89" connectcname="T61" connectdname="T92">
       <sensorA>NX-B1-EB</sensorA>
       <sensorD>NX-B2-EB</sensorD>
     </layoutturnout>
-    <layoutturnout ident="TO49" type="LH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1110.0" ycen="90.0" xa="1100.0" ya="80.0" xb="1140.0" yb="80.0" xc="1120.0" yc="100.0" xd="1080.0" yd="100.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHXOverXml" turnoutname="Bend 3 to 4" blockname="Bend CP3-L" blockcname="Bend CP4" blockdname="Bend CP4" connectaname="T93" connectbname="T58" connectcname="T84" connectdname="T94">
+    <layoutturnout ident="TO49" type="LH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1110.0" ycen="90.0" xa="1100.0" ya="80.0" xb="1140.0" yb="80.0" xc="1120.0" yc="100.0" xd="1080.0" yd="100.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHXOverXml" turnoutname="Bend West 3 to 4" blockname="Bend CP3-L" blockcname="Bend CP4" blockdname="Bend CP4" connectaname="T93" connectbname="T58" connectcname="T84" connectdname="T94">
       <sensorA>NX-B3-EB</sensorA>
       <sensorD>NX-B4-EB</sensorD>
     </layoutturnout>
-    <layoutturnout ident="TO18" type="LH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1280.0" ycen="50.0" xa="1270.0" ya="40.0" xb="1310.0" yb="40.0" xc="1290.0" yc="60.0" xd="1250.0" yd="60.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHXOverXml" turnoutname="A B straight" blockname="Bend CP1-R" blockcname="Bend CP2" blockdname="Bend CP2" connectaname="T140" connectbname="T85" connectcname="T86" connectdname="T83" />
-    <layoutturnout ident="TO45" type="LH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1305.0" ycen="70.0" xa="1295.0" ya="60.0" xb="1335.0" yb="60.0" xc="1315.0" yc="80.0" xd="1275.0" yd="80.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHXOverXml" turnoutname="B C Straight" blockname="Bend CP2" blockcname="Bend CP3-R" blockdname="Bend CP3-R" connectaname="T86" connectbname="T90" connectcname="T136" connectdname="T72" />
-    <layoutturnout ident="TO17" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="295.0" ycen="305.0" xa="315.0" ya="305.0" xb="275.0" yb="305.0" xc="285.0" yc="285.0" xd="315.0" yd="305.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Osage crossover" blockname="Osage Approach" connectaname="T10" connectbname="T11" connectcname="T12">
+    <layoutturnout ident="TO18" type="LH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1280.0" ycen="50.0" xa="1270.0" ya="40.0" xb="1310.0" yb="40.0" xc="1290.0" yc="60.0" xd="1250.0" yd="60.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHXOverXml" turnoutname="Bend East A to B" blockname="Bend CP1-R" blockcname="Bend CP2" blockdname="Bend CP2" connectaname="T140" connectbname="T85" connectcname="T86" connectdname="T83" />
+    <layoutturnout ident="TO45" type="LH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1305.0" ycen="70.0" xa="1295.0" ya="60.0" xb="1335.0" yb="60.0" xc="1315.0" yc="80.0" xd="1275.0" yd="80.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHXOverXml" turnoutname="Bend East B C Straight" blockname="Bend CP2" blockcname="Bend CP3-R" blockdname="Bend CP3-R" connectaname="T86" connectbname="T90" connectcname="T136" connectdname="T72" />
+    <layoutturnout ident="TO17" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="295.0" ycen="305.0" xa="315.0" ya="305.0" xb="275.0" yb="305.0" xc="285.0" yc="285.0" xd="315.0" yd="305.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Osage E" blockname="Osage Approach" connectaname="T10" connectbname="T11" connectcname="T12">
       <sensorB>NX-OM-EB</sensorB>
     </layoutturnout>
-    <layoutturnout ident="TO83" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="245.0" ycen="285.0" xa="225.0" ya="285.0" xb="265.0" yb="285.0" xc="265.0" yc="265.0" xd="225.0" yd="285.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Osage Pocket Upper" blockname="Osage Siding" connectaname="T2" connectbname="T12" connectcname="T30">
+    <layoutturnout ident="TO83" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="245.0" ycen="285.0" xa="225.0" ya="285.0" xb="265.0" yb="285.0" xc="265.0" yc="265.0" xd="225.0" yd="285.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Osage pocket W" blockname="Osage Siding" connectaname="T2" connectbname="T12" connectcname="T30">
       <sensorC>NX-OS-EB</sensorC>
     </layoutturnout>
-    <layoutturnout ident="TO23" type="LH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1203.0" ycen="429.0" xa="1196.90673828125" ya="415.89923095703125" xb="1221.6224317769888" yb="416.0613403008995" xc="1209.09326171875" yc="442.10076904296875" xd="1184.3775682230112" yd="441.9386596991005" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHXOverXml" turnoutname="Powderhorn crossover" blockname="Powderhorn S" blockcname="Powderhorn M" blockdname="Powderhorn M" connectaname="T158" connectbname="T163" connectcname="T161" connectdname="T160" />
-    <layoutturnout ident="TO33" type="LH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1260.0" ycen="401.0" xa="1254.4146728515625" ya="385.76611328125" xb="1276.3305742616785" yb="385.61349481834304" xc="1265.5853271484375" yc="416.23388671875" xd="1243.6694257383215" yd="416.38650518165696" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHXOverXml" turnoutname="Pocket crossover" blockname="AUTOBLK:34" blockcname="Powderhorn S" blockdname="Powderhorn S" connectaname="T165" connectbname="T162" connectcname="T170" connectdname="T163" />
+    <layoutturnout ident="TO23" type="LH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1203.0" ycen="429.0" xa="1196.90673828125" ya="415.89923095703125" xb="1221.6224317769888" yb="416.0613403008995" xc="1209.09326171875" yc="442.10076904296875" xd="1184.3775682230112" yd="441.9386596991005" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHXOverXml" turnoutname="Powderhorn crossover main" blockname="Powderhorn S" blockcname="Powderhorn M" blockdname="Powderhorn M" connectaname="T158" connectbname="T163" connectcname="T161" connectdname="T160" />
+    <layoutturnout ident="TO33" type="LH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1260.0" ycen="401.0" xa="1254.4146728515625" ya="385.76611328125" xb="1276.3305742616785" yb="385.61349481834304" xc="1265.5853271484375" yc="416.23388671875" xd="1243.6694257383215" yd="416.38650518165696" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHXOverXml" turnoutname="Powderhorn pocket crossover" blockname="AUTOBLK:34" blockcname="Powderhorn S" blockdname="Powderhorn S" connectaname="T165" connectbname="T162" connectcname="T170" connectdname="T163" />
     <layoutturnout ident="TO84" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="700.0" ycen="395.0" xa="685.0" ya="410.0" xb="715.0" yb="380.0" xc="722.0" yc="395.0" xd="685.0" yd="410.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="LT273" blockname="AUTOBLK:119" connectaname="T111" connectbname="T132" connectcname="T131" />
     <layoutturnout ident="TO94" type="RH_TURNOUT" hidden="no" disabled="yes" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="543.0" ycen="590.0" xa="573.0" ya="590.0" xb="513.0" yb="590.0" xc="523.0" yc="580.0" xd="573.0" yd="590.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Yazoo X2-Y1,2" blockname="AUTOBLK:53" connectaname="T173" connectbname="T191" connectcname="T187" />
     <layoutturnout ident="TO95" type="WYE_TURNOUT" hidden="no" disabled="yes" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="498.0" ycen="570.0" xa="483.0" ya="570.0" xb="513.0" yb="575.0" xc="513.0" yc="565.0" xd="483.0" yd="565.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutWyeXml" turnoutname="Yazoo middle wye" blockname="AUTOBLK:131" connectaname="T189" connectbname="T187" connectcname="T186" />
     <layoutturnout ident="TO96" type="LH_TURNOUT" hidden="no" disabled="yes" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="548.0" ycen="550.0" xa="588.0" ya="550.0" xb="508.0" yb="550.0" xc="528.0" yc="560.0" xd="588.0" yd="550.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Yazoo X1-Y2,3" blockname="AUTOBLK:132" connectaname="T172" connectbname="T188" connectcname="T186" />
     <layoutturnout ident="TO97" type="RH_XOVER" hidden="no" disabled="yes" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="451.0" ycen="560.0" xa="418.0" ya="550.0" xb="461.990643773056" yb="549.9692382723905" xc="484.0" yc="570.0" xd="440.009356226944" yd="570.0307617276095" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHXOverXml" turnoutname="Yazoo 2-3 xover" blockname="AUTOBLK:135" connectaname="T192" connectbname="T188" connectcname="T189" connectdname="T190" />
     <layoutturnout ident="TO98" type="LH_XOVER" hidden="no" disabled="yes" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="408.0" ycen="580.0" xa="398.0" ya="570.0" xb="438.0" yb="570.0" xc="418.0" yc="590.0" xd="378.0" yd="590.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHXOverXml" turnoutname="Yazoo 2-1 xover" blockname="AUTOBLK:137" connectaname="T193" connectbname="T190" connectcname="T191" connectdname="T194" />
-    <layoutturnout ident="TO85" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="915.0" ycen="590.0" xa="930.0" ya="590.0" xb="900.0" yb="590.0" xc="905.0" yc="605.0" xd="930.0" yd="590.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Whiskey Silo" blockname="AUTOBLK:112" connectaname="T175" connectbname="T174" connectcname="T177" />
-    <layoutturnout ident="TO86" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="955.0" ycen="590.0" xa="965.0" ya="590.0" xb="945.0" yb="590.0" xc="945.0" yc="605.0" xd="965.0" yd="590.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Whiskey Storage" blockname="AUTOBLK:113" connectaname="T68" connectbname="T175" connectcname="T176" />
+    <layoutturnout ident="TO85" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="915.0" ycen="590.0" xa="930.0" ya="590.0" xb="900.0" yb="590.0" xc="905.0" yc="605.0" xd="930.0" yd="590.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Whiskey Grain silo" blockname="AUTOBLK:112" connectaname="T175" connectbname="T174" connectcname="T177" />
+    <layoutturnout ident="TO86" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="955.0" ycen="590.0" xa="965.0" ya="590.0" xb="945.0" yb="590.0" xc="945.0" yc="605.0" xd="965.0" yd="590.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Whiskey Grain storage" blockname="AUTOBLK:113" connectaname="T68" connectbname="T175" connectcname="T176" />
     <tracksegment ident="T1" blockname="MEF" connect1name="TO3" type1="TURNOUT_C" connect2name="TO1" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T3" blockname="MEP" connect1name="TO3" type1="TURNOUT_B" connect2name="TO5" type2="TURNOUT_B" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T4" connect1name="TO1" type1="TURNOUT_C" connect2name="TO2" type2="TURNOUT_B" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
@@ -16125,9 +16126,9 @@
     </operation>
     <operation>
       <type>Store</type>
-      <date>Sat May 31 15:06:18 PDT 2025</date>
+      <date>Sat May 31 15:51:43 PDT 2025</date>
       <filename>D:\OneDrive\GitHub\PMRRM\Profiles\Dispatcher_Work_in_Progress.jmri\DispatcherDefault.xml</filename>
     </operation>
   </filehistory>
-  <!--Written by JMRI version 5.11.6plus+jenkins+20250523T2119Z+Ree989c135e on Sat May 31 15:06:18 PDT 2025-->
+  <!--Written by JMRI version 5.11.6plus+jenkins+20250523T2119Z+Ree989c135e on Sat May 31 15:51:43 PDT 2025-->
 </layout-config>
