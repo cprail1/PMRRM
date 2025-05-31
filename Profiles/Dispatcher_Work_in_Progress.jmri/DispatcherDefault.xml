@@ -6391,7 +6391,7 @@
       <systemName>IM64</systemName>
       <userName>Vista 3</userName>
     </memory>
-    <memory value="3:03 PM">
+    <memory value="3:06 PM">
       <systemName>IMCURRENTTIME</systemName>
     </memory>
     <memory value="1.0">
@@ -12306,10 +12306,10 @@
     <positionablelabel x="320" y="420" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="82 " fontFamily="Dialog" fontname="Dialog.bold" size="12" style="1" red="0" green="0" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <tooltip>Text Label</tooltip>
     </positionablelabel>
-    <positionablelabel x="1320" y="575" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="85 " fontFamily="Dialog" fontname="Dialog.bold" size="12" style="1" red="0" green="0" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+    <positionablelabel x="1315" y="555" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="85 " fontFamily="Dialog" fontname="Dialog.bold" size="12" style="1" red="0" green="0" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <tooltip>Text Label</tooltip>
     </positionablelabel>
-    <positionablelabel x="1305" y="555" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="86 " fontFamily="Dialog" fontname="Dialog.bold" size="12" style="1" red="0" green="0" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+    <positionablelabel x="1295" y="555" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="86 " fontFamily="Dialog" fontname="Dialog.bold" size="12" style="1" red="0" green="0" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <tooltip>Text Label</tooltip>
     </positionablelabel>
     <positionablelabel x="1110" y="555" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="94 " fontFamily="Dialog" fontname="Dialog.bold" size="12" style="1" red="0" green="0" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
@@ -15793,7 +15793,7 @@
     <layoutturnout ident="TO56" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="490.0" ycen="440.0" xa="510.0" ya="440.0" xb="470.0" yb="440.0" xc="470.0" yc="420.0" xd="510.0" yd="440.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Troy station" blockname="Troy Main" connectaname="T48" connectbname="T80" connectcname="T87" />
     <layoutturnout ident="TO58" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1250.0" ycen="441.0" xa="1238.0" ya="441.0" xb="1262.0" yb="441.0" xc="1263.0" yc="453.0" xd="1238.0" yd="441.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Powderhorn house" blockname="Powderhorn M" connectaname="T161" connectbname="T37" connectcname="T159" />
     <layoutturnout ident="TO67" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="4" xcen="1309.0" ycen="417.0" xa="1297.0" ya="417.0" xb="1321.0" yb="417.0" xc="1319.0" yc="426.0" xd="1297.0" yd="417.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="LT168" blockname="Powderhorn S" connectaname="T170" connectbname="T171" connectcname="T38" />
-    <layoutturnout ident="TO8" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1305.0" ycen="550.0" xa="1320.0" ya="550.0" xb="1290.0" yb="550.0" xc="1290.0" yc="570.0" xd="1320.0" yd="550.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Vista E 2" blockname="U-Vw" connectaname="T32" connectbname="T59" connectcname="T60">
+    <layoutturnout ident="TO8" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1300.0" ycen="550.0" xa="1315.0" ya="550.0" xb="1285.0" yb="550.0" xc="1285.0" yc="570.0" xd="1315.0" yd="550.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Vista E 2" blockname="U-Vw" connectaname="T32" connectbname="T59" connectcname="T60">
       <sensorB>NX-VistaM-EB</sensorB>
     </layoutturnout>
     <layoutturnout ident="TO34" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1012.0" ycen="441.0" xa="1024.0" ya="441.0" xb="1000.0" yb="441.0" xc="1002.0" yc="428.0" xd="1024.0" yd="441.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Staging" blockname="Redcliff Main" connectaname="T41" connectbname="T133" connectcname="T134" />
@@ -15873,7 +15873,7 @@
     <tracksegment ident="T54" blockname="Upton Main" connect1name="TO31" type1="TURNOUT_B" connect2name="TO32" type2="TURNOUT_B" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T55" blockname="Upton Siding" connect1name="TO31" type1="TURNOUT_C" connect2name="TO32" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T59" blockname="Vista Main" connect1name="TO8" type1="TURNOUT_B" connect2name="TO36" type2="TURNOUT_B" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T60" blockname="Vista 3" connect1name="TO8" type1="TURNOUT_C" connect2name="TO36" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T60" blockname="Vista 3" connect1name="TO8" type1="TURNOUT_C" connect2name="TO36" type2="TURNOUT_C" dashed="yes" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T63" blockname="V-W" connect1name="TO20" type1="TURNOUT_A" connect2name="TO37" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T64" blockname="Whiskey Main" connect1name="TO37" type1="TURNOUT_B" connect2name="TO39" type2="TURNOUT_B" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T65" blockname="V-W" connect1name="TO37" type1="TURNOUT_C" connect2name="TO38" type2="TURNOUT_A" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
@@ -16125,9 +16125,9 @@
     </operation>
     <operation>
       <type>Store</type>
-      <date>Sat May 31 15:03:19 PDT 2025</date>
+      <date>Sat May 31 15:06:18 PDT 2025</date>
       <filename>D:\OneDrive\GitHub\PMRRM\Profiles\Dispatcher_Work_in_Progress.jmri\DispatcherDefault.xml</filename>
     </operation>
   </filehistory>
-  <!--Written by JMRI version 5.11.6plus+jenkins+20250523T2119Z+Ree989c135e on Sat May 31 15:03:19 PDT 2025-->
+  <!--Written by JMRI version 5.11.6plus+jenkins+20250523T2119Z+Ree989c135e on Sat May 31 15:06:18 PDT 2025-->
 </layout-config>
