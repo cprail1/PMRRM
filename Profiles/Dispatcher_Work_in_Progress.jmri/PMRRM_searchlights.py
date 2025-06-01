@@ -100,7 +100,7 @@ class ControlAbsSearchlight (jmri.jmrit.automat.AbstractAutomaton) :
         # invoke on layout thread
         jmri.util.ThreadingUtil.runOnLayout(workOnLayout(self.blocks, self.turnouts, self.local, self.next, self.next2))
 
-        self.waitChange(self.beans)  # run again when something changes or after a delay (just in case)?
+        self.waitChange(self.beans, 4000)  # run again when something changes or after a delay (just in case)?
         
         return True
 
