@@ -39,7 +39,9 @@ class ControlDualSemaphore (jmri.jmrit.automat.AbstractAutomaton) :
         self.lastBeans = []
         self.log = LoggerFactory.getLogger("PMRRM_semaphores");
         
-        # Printing the equivalent STL goes here
+        # print checks
+        if None in self.blocks : print self.name, " has null block"
+        if None in self.turnouts : print self.name, " has null turnout"
         
         return
         
@@ -135,7 +137,7 @@ a.setName("W Osage Sem")
 a.upper    = signals.getSignalHead("W Osage Sem")
 a.lower    = signals.getSignalHead("W Osage Sem L")
 a.blocks   = [sensors.getSensor("Osage main"), sensors.getSensor("Osage approach")]
-a.turnouts = [turnouts.getTurnout("Osage W"), turnouts.getTurnout("Osage crossover"), turnouts.getTurnout("Osage pocket")]
+a.turnouts = [turnouts.getTurnout("Osage W"), turnouts.getTurnout("Osage E"), turnouts.getTurnout("Osage pocket E")]
 a.next     = signals.getSignalHead("W UN Sem")
 a.start()
 
@@ -144,7 +146,7 @@ a.setName("W OP Sem")
 a.upper    = signals.getSignalHead("W OP Sem")
 a.lower    = signals.getSignalHead("W OP Sem L")
 a.blocks   = [sensors.getSensor("O-P")]
-a.turnouts = [turnouts.getTurnout("McSweeney")]
+a.turnouts = [turnouts.getTurnout("McSweeney branch")]
 a.next     = signals.getSignalHead("W Osage Sem")
 a.start()
 
@@ -153,7 +155,7 @@ a.setName("W Powder Sem")
 a.upper    = signals.getSignalHead("W Powder Sem")
 a.lower    = signals.getSignalHead("W Powder Sem L")
 a.blocks   = [sensors.getSensor("Powderhorn main")]
-a.turnouts = [turnouts.getTurnout("Powderhorn W"), turnouts.getTurnout("Powderhorn E"), turnouts.getTurnout("Powderhorn house"), turnouts.getTurnout("Powderhorn pocket"), turnouts.getTurnout("Powderhorn crossover")]
+a.turnouts = [turnouts.getTurnout("Powderhorn W"), turnouts.getTurnout("Powderhorn E"), turnouts.getTurnout("Powderhorn housetrack"), turnouts.getTurnout("Powderhorn pocket"), turnouts.getTurnout("Powderhorn crossover main")]
 a.next     = signals.getSignalHead("W OP Sem")
 a.start()
 
@@ -171,7 +173,7 @@ a.setName("W Redcliff Sem")
 a.upper    = signals.getSignalHead("W Redcliff Sem")
 a.lower    = signals.getSignalHead("W Redcliff Sem L")
 a.blocks   = [sensors.getSensor("Redcliff main")]
-a.turnouts = [turnouts.getTurnout("Redcliff W"), turnouts.getTurnout("Redcliff E"), turnouts.getTurnout("Staging")]
+a.turnouts = [turnouts.getTurnout("Redcliff W"), turnouts.getTurnout("Redcliff E"), turnouts.getTurnout("Redcliff Staging")]
 a.next     = signals.getSignalHead("E RP Sem")
 a.start()
 
@@ -210,7 +212,7 @@ a.setName("E Redcliff Sem")
 a.upper    = signals.getSignalHead("E Redcliff Sem")
 a.lower    = signals.getSignalHead("E Redcliff Sem L")
 a.blocks   = [sensors.getSensor("Redcliff main")]
-a.turnouts = [turnouts.getTurnout("Redcliff W"), turnouts.getTurnout("Redcliff E"), turnouts.getTurnout("Staging")]
+a.turnouts = [turnouts.getTurnout("Redcliff W"), turnouts.getTurnout("Redcliff E"), turnouts.getTurnout("Redcliff Staging")]
 a.next     = signals.getSignalHead("E RS Sem")
 a.start()
 
@@ -228,7 +230,7 @@ a.setName("E Powder Sem")
 a.upper    = signals.getSignalHead("E Powder Sem")
 a.lower    = signals.getSignalHead("E Powder Sem L")
 a.blocks   = [sensors.getSensor("Powderhorn main")]
-a.turnouts = [turnouts.getTurnout("Powderhorn W"), turnouts.getTurnout("Powderhorn E"), turnouts.getTurnout("Powderhorn house"), turnouts.getTurnout("Powderhorn pocket"), turnouts.getTurnout("Powderhorn crossover")]
+a.turnouts = [turnouts.getTurnout("Powderhorn W"), turnouts.getTurnout("Powderhorn E"), turnouts.getTurnout("Powderhorn housetrack"), turnouts.getTurnout("Powderhorn pocket"), turnouts.getTurnout("Powderhorn crossover main")]
 a.next     = signals.getSignalHead("E Quartz Sem")
 a.start()
 
@@ -237,7 +239,7 @@ a.setName("E OP Sem")
 a.upper    = signals.getSignalHead("E OP Sem")
 a.lower    = signals.getSignalHead("E OP Sem L")
 a.blocks   = [sensors.getSensor("O-P")]
-a.turnouts = [turnouts.getTurnout("McSweeney")]
+a.turnouts = [turnouts.getTurnout("McSweeney branch")]
 a.next     = signals.getSignalHead("E Powder Sem")
 a.start()
 
@@ -246,7 +248,7 @@ a.setName("E Osage Sem")
 a.upper    = signals.getSignalHead("E Osage Sem")
 a.lower    = signals.getSignalHead("E Osage Sem L")
 a.blocks   = [sensors.getSensor("Osage main"), sensors.getSensor("Osage approach")]
-a.turnouts = [turnouts.getTurnout("Osage W"), turnouts.getTurnout("Osage crossover"), turnouts.getTurnout("Osage pocket")]
+a.turnouts = [turnouts.getTurnout("Osage W"), turnouts.getTurnout("Osage E"), turnouts.getTurnout("Osage pocket E")]
 a.next     = signals.getSignalHead("E OP Sem")
 a.start()
 
