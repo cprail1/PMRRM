@@ -6409,7 +6409,7 @@
       <systemName>IM64</systemName>
       <userName>Vista 3</userName>
     </memory>
-    <memory value="12:12 PM">
+    <memory value="12:32 PM">
       <systemName>IMCURRENTTIME</systemName>
     </memory>
     <memory value="1.0">
@@ -7975,12 +7975,6 @@
           <turnout systemName="Troy E 2" />
         </beansetting>
       </path>
-      <path todir="16" fromdir="32" block="IB151">
-        <beansetting setting="4">
-          <turnout systemName="Troy E 1" />
-        </beansetting>
-      </path>
-      <path todir="32" fromdir="16" block="IB151" />
       <path todir="160" fromdir="80" block="IB157">
         <beansetting setting="2">
           <turnout systemName="Troy E 3" />
@@ -9200,12 +9194,6 @@
       <path todir="64" fromdir="128" block="IB10">
         <beansetting setting="4">
           <turnout systemName="Troy E 3" />
-        </beansetting>
-      </path>
-      <path todir="32" fromdir="16" block="IB24" />
-      <path todir="32" fromdir="16" block="IB24">
-        <beansetting setting="2">
-          <turnout systemName="Troy W 2" />
         </beansetting>
       </path>
       <path todir="128" fromdir="64" block="IB24">
@@ -11502,6 +11490,10 @@
         <destination type="sensor" item="NX-B3-EB" nxType="fullinterlocking" uniqueid="IN:5af08033-f5e2-48e6-9998-0b0e95b70903" />
         <destination type="sensor" item="NX-B4-EB" nxType="fullinterlocking" uniqueid="IN:167fcfff-7ea7-4386-a878-610a046daec7" />
       </source>
+      <source type="sensor" item="NX-Troy3-WB">
+        <destination type="sensor" item="NX-UptonM-WB" nxType="fullinterlocking" uniqueid="IN:2a02c45a-5436-47a3-8fb1-d5c506820b4f" />
+        <destination type="sensor" item="NX-UptonS-WB" nxType="fullinterlocking" uniqueid="IN:6fb4ffe0-485e-4146-bb4c-9993f4080200" />
+      </source>
       <source type="sensor" item="NX-XeroxM-EB">
         <destination type="sensor" item="NX-WhiskeyM-EB" nxType="fullinterlocking" uniqueid="IN:1ab54d75-2a51-440e-a624-c7fd814b96cf" />
         <destination type="sensor" item="NX-WhiskeyS-EB" nxType="fullinterlocking" uniqueid="IN:896f1429-ddb5-4e1a-9088-60f31c92b39a" />
@@ -11541,6 +11533,24 @@
       <source type="sensor" item="NX-VistaS-EB">
         <destination type="sensor" item="NX-UptonM-EB" nxType="fullinterlocking" uniqueid="IN:0754752d-b948-4dfd-9aff-ac97b7b916ec" />
         <destination type="sensor" item="NX-UptonS-EB" nxType="fullinterlocking" uniqueid="IN:8efdb6aa-9358-4221-8660-93d06c76c5f9" />
+      </source>
+      <source type="sensor" item="NX-TroyM-WB">
+        <destination type="sensor" item="NX-UptonM-WB" nxType="fullinterlocking" uniqueid="IN:8e9fb68b-2b5a-49cd-a6ba-01b4b82693bc" />
+        <destination type="sensor" item="NX-UptonS-WB" nxType="fullinterlocking" uniqueid="IN:776440c5-f68e-43ae-925f-86af66f17b42" />
+      </source>
+      <source type="sensor" item="NX-TroyS-WB">
+        <destination type="sensor" item="NX-UptonM-WB" nxType="fullinterlocking" uniqueid="IN:5df3d26a-c14d-4245-bb3e-3004e64cebeb" />
+        <destination type="sensor" item="NX-UptonS-WB" nxType="fullinterlocking" uniqueid="IN:ed382306-38a1-4c97-b947-859c875e5578" />
+      </source>
+      <source type="sensor" item="NX-TroyM-EB">
+        <destination type="sensor" item="NX-SierraM-EB" nxType="fullinterlocking" uniqueid="IN:13253142-5f7d-4451-a128-c29b99bae7d6" />
+        <destination type="sensor" item="NX-SierraS-EB" nxType="fullinterlocking" uniqueid="IN:704ba25b-fd3f-4522-b175-7ed6096e07da" />
+      </source>
+      <source type="sensor" item="NX-SierraM-WB">
+        <destination type="sensor" item="NX-TroyM-WB" nxType="fullinterlocking" uniqueid="IN:8981c674-e5f9-4c99-9086-7108380a66bd" />
+      </source>
+      <source type="sensor" item="NX-SierraS-WB">
+        <destination type="sensor" item="NX-TroyM-WB" nxType="fullinterlocking" uniqueid="IN:136515d1-f582-4205-9424-4abab9695d99" />
       </source>
       <source type="sensor" item="NX-SierraM-EB">
         <destination type="sensor" item="NX-RedcliffM-EB" nxType="fullinterlocking" uniqueid="IN:c194b509-3acf-4f56-877c-396926d71e01" />
@@ -11589,10 +11599,12 @@
         <destination type="sensor" item="NX-OS-EB" nxType="fullinterlocking" uniqueid="IN:bdaf200a-70b8-4ac0-8c18-44b8927cbc5b" />
       </source>
       <source type="sensor" item="NX-UptonM-EB">
+        <destination type="sensor" item="NX-TroyM-EB" nxType="fullinterlocking" uniqueid="IN:09153c7c-4104-4ab5-aa78-525bfcbab0e7" />
         <destination type="sensor" item="NX-SierraM-EB" nxType="fullinterlocking" uniqueid="IN:252b52fe-57e3-4bab-8e97-497802f32805" />
         <destination type="sensor" item="NX-SierraS-EB" nxType="fullinterlocking" uniqueid="IN:06efeed8-c0d0-4d65-9b8e-1a307536f09b" />
       </source>
       <source type="sensor" item="NX-UptonS-EB">
+        <destination type="sensor" item="NX-TroyM-EB" nxType="fullinterlocking" uniqueid="IN:f4f5bc6f-c9ef-4904-8482-cd8ed3ae699f" />
         <destination type="sensor" item="NX-SierraM-EB" nxType="fullinterlocking" uniqueid="IN:0e981054-09a7-4623-9f8d-093d3d6b3f73" />
         <destination type="sensor" item="NX-SierraS-EB" nxType="fullinterlocking" uniqueid="IN:7d55db15-484c-475c-b7a8-274b95ffb6c4" />
       </source>
@@ -11664,16 +11676,19 @@
       <source type="sensor" item="NX-E3-WB">
         <destination type="sensor" item="NX-HM-WB" nxType="fullinterlocking" uniqueid="IN:c38eb0de-1812-4914-adbd-7bfdcc8f51c2" />
         <destination type="sensor" item="NX-HS-WB" nxType="fullinterlocking" uniqueid="IN:2a9c1596-a189-4c58-8ede-bb5c4a29b5f6" />
+        <destination type="sensor" item="NX-GM-WB" nxType="fullinterlocking" uniqueid="IN:053b64c2-0221-406f-bc06-1cda88fba154" />
         <destination type="sensor" item="NX-HM-EB" nxType="fullinterlocking" uniqueid="IN:3f7d27b4-3838-4c97-9726-c2cc875cc0a3" />
       </source>
       <source type="sensor" item="NX-E2-WB">
         <destination type="sensor" item="NX-HM-WB" nxType="fullinterlocking" uniqueid="IN:aae83f2a-df32-4960-b8e7-2e5a1aab1fbc" />
         <destination type="sensor" item="NX-HS-WB" nxType="fullinterlocking" uniqueid="IN:20e8bc10-41bf-44e4-844f-9a4f63fc86db" />
+        <destination type="sensor" item="NX-GM-WB" nxType="fullinterlocking" uniqueid="IN:2728ee6f-ba15-44ea-8cf4-1746a0af308b" />
         <destination type="sensor" item="NX-HM-EB" nxType="fullinterlocking" uniqueid="IN:b23fa078-9b9f-4639-9e68-7a5dde0f4868" />
       </source>
       <source type="sensor" item="NX-E1-WB">
         <destination type="sensor" item="NX-HM-WB" nxType="fullinterlocking" uniqueid="IN:c70fe05a-913e-4ca6-9d11-23361a223ef0" />
         <destination type="sensor" item="NX-HS-WB" nxType="fullinterlocking" uniqueid="IN:a74cd502-84a9-4680-8424-aa70541a4b45" />
+        <destination type="sensor" item="NX-GM-WB" nxType="fullinterlocking" uniqueid="IN:9bb9f19c-c54e-4152-838a-0b3d7f877063" />
         <destination type="sensor" item="NX-HM-EB" nxType="fullinterlocking" uniqueid="IN:f6be2c7e-77c7-4724-b348-39f80fc4b40a" />
       </source>
       <source type="sensor" item="NX-HM-WB">
@@ -16025,36 +16040,6 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-Troy3-EB" x="290" y="525" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
-      <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="90" scale="1.0">
-        <rotation>0</rotation>
-      </active>
-      <inactive url="program:resources/icons/smallschematics/tracksegments/circuit-empty.gif" degrees="90" scale="1.0">
-        <rotation>0</rotation>
-      </inactive>
-      <unknown url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="90" scale="1.0">
-        <rotation>0</rotation>
-      </unknown>
-      <inconsistent url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="90" scale="1.0">
-        <rotation>0</rotation>
-      </inconsistent>
-      <iconmaps />
-    </sensoricon>
-    <sensoricon sensor="NX-TroyS-EB" x="311" y="495" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
-      <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="90" scale="1.0">
-        <rotation>0</rotation>
-      </active>
-      <inactive url="program:resources/icons/smallschematics/tracksegments/circuit-empty.gif" degrees="90" scale="1.0">
-        <rotation>0</rotation>
-      </inactive>
-      <unknown url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="90" scale="1.0">
-        <rotation>0</rotation>
-      </unknown>
-      <inconsistent url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="90" scale="1.0">
-        <rotation>0</rotation>
-      </inconsistent>
-      <iconmaps />
-    </sensoricon>
     <sensoricon sensor="NX-Troy3-WB" x="220" y="525" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="270" scale="1.0">
         <rotation>0</rotation>
@@ -16066,6 +16051,51 @@
         <rotation>0</rotation>
       </unknown>
       <inconsistent url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="270" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <sensoricon sensor="NX-TroyM-EB" x="335" y="485" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="90" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/smallschematics/tracksegments/circuit-empty.gif" degrees="90" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="90" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="90" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <sensoricon sensor="NX-TroyS-EB" x="315" y="505" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="90" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/smallschematics/tracksegments/circuit-empty.gif" degrees="90" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="90" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="90" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <sensoricon sensor="NX-Troy3-EB" x="290" y="525" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="90" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/smallschematics/tracksegments/circuit-empty.gif" degrees="90" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="90" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="90" scale="1.0">
         <rotation>0</rotation>
       </inconsistent>
       <iconmaps />
@@ -16280,7 +16310,7 @@
     <layoutturnout ident="TO85" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="580.0" ycen="655.0" xa="595.0" ya="655.0" xb="565.0" yb="655.0" xc="565.0" yc="670.0" xd="595.0" yd="655.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Whiskey Grain silo" blockname="AUTOBLK:112" connectaname="T175" connectbname="T174" connectcname="T177" />
     <layoutturnout ident="TO86" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="635.0" ycen="655.0" xa="645.0" ya="655.0" xb="625.0" yb="655.0" xc="625.0" yc="670.0" xd="645.0" yd="655.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Whiskey Grain storage" blockname="AUTOBLK:113" connectaname="T68" connectbname="T175" connectcname="T176" />
     <layoutturnout ident="TO87" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1060.0" ycen="225.0" xa="1050.0" ya="215.0" xb="1070.0" yb="235.0" xc="1080.0" yc="225.0" xd="1050.0" yd="215.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Hudson Oil Cans Load 2" blockname="AUTOBLK:67" connectaname="T155" connectbname="T179" connectcname="T180" />
-    <layoutturnout ident="TO93" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="345.0" ycen="510.0" xa="355.0" ya="500.0" xb="335.0" yb="520.0" xc="325.0" yc="510.0" xd="355.0" yd="500.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Troy E 2" blockname="S-T" connectaname="T196" connectbname="T197" connectcname="T201">
+    <layoutturnout ident="TO93" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="345.0" ycen="510.0" xa="355.0" ya="500.0" xb="335.0" yb="520.0" xc="325.0" yc="510.0" xd="355.0" yd="500.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Troy E 2" blockname="S-T" connectaname="T205" connectbname="T197" connectcname="T201">
       <sensorC>NX-TroyS-EB</sensorC>
     </layoutturnout>
     <layoutturnout ident="TO99" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="325.0" ycen="530.0" xa="335.0" ya="520.0" xb="315.0" yb="540.0" xc="305.0" yc="530.0" xd="335.0" yd="520.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Troy E 3" blockname="S-T" connectaname="T197" connectbname="T204" connectcname="T200">
@@ -16295,7 +16325,9 @@
     <layoutturnout ident="TO100" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="140.0" ycen="490.0" xa="120.0" ya="490.0" xb="160.0" yb="490.0" xc="150.0" yc="500.0" xd="120.0" yd="490.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Troy W 1" blockname="T-U" connectaname="T53" connectbname="T202" connectcname="T198">
       <sensorB>NX-TroyM-WB</sensorB>
     </layoutturnout>
-    <layoutturnout ident="TO89" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="365.0" ycen="490.0" xa="380.0" ya="490.0" xb="350.0" yb="490.0" xc="355.0" yc="500.0" xd="380.0" yd="490.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Troy E 1" blockname="S-T" connectaname="T47" connectbname="T207" connectcname="T205" />
+    <layoutturnout ident="TO89" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="365.0" ycen="490.0" xa="380.0" ya="490.0" xb="350.0" yb="490.0" xc="355.0" yc="500.0" xd="380.0" yd="490.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Troy E 1" blockname="S-T" connectaname="T47" connectbname="T207" connectcname="T205">
+      <sensorB>NX-TroyM-EB</sensorB>
+    </layoutturnout>
     <layoutturnout ident="TO103" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="315.0" ycen="490.0" xa="330.0" ya="490.0" xb="300.0" yb="490.0" xc="300.0" yc="470.0" xd="330.0" yd="490.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Troy station" blockname="Troy Main" connectaname="T207" connectbname="T202" connectcname="T208" />
     <tracksegment ident="T1" blockname="MEF" connect1name="TO3" type1="TURNOUT_C" connect2name="TO1" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T3" blockname="MEP" connect1name="TO3" type1="TURNOUT_B" connect2name="TO5" type2="TURNOUT_B" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
@@ -16546,16 +16578,15 @@
       </decorations>
     </tracksegment>
     <tracksegment ident="T195" blockname="AUTOBLK:123" connect1name="A22" type1="POS_POINT" connect2name="A25" type2="POS_POINT" dashed="yes" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T196" blockname="S-T" connect1name="TO93" type1="TURNOUT_A" connect2name="A27" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T197" blockname="S-T" connect1name="TO99" type1="TURNOUT_A" connect2name="TO93" type2="TURNOUT_B" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T199" blockname="T-U" connect1name="TO101" type1="TURNOUT_B" connect2name="TO102" type2="TURNOUT_A" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T198" blockname="T-U" connect1name="TO100" type1="TURNOUT_C" connect2name="TO101" type2="TURNOUT_A" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T200" blockname="Troy 3" connect1name="TO102" type1="TURNOUT_C" connect2name="TO99" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T201" blockname="Troy Siding" connect1name="TO101" type1="TURNOUT_C" connect2name="TO93" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T203" blockname="T-U" connect1name="TO102" type1="TURNOUT_B" connect2name="A24" type2="POS_POINT" dashed="yes" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T205" blockname="AUTOBLK:166" connect1name="TO89" type1="TURNOUT_C" connect2name="A27" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T203" blockname="T-U" connect1name="TO102" type1="TURNOUT_B" connect2name="EB34" type2="POS_POINT" dashed="yes" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T205" blockname="S-T" connect1name="TO89" type1="TURNOUT_C" connect2name="TO93" type2="TURNOUT_A" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T207" blockname="Troy Main" connect1name="TO89" type1="TURNOUT_B" connect2name="TO103" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T204" blockname="AUTOBLK:172" connect1name="TO99" type1="TURNOUT_B" connect2name="A26" type2="POS_POINT" dashed="yes" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T204" blockname="AUTOBLK:172" connect1name="TO99" type1="TURNOUT_B" connect2name="EB26" type2="POS_POINT" dashed="yes" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T208" blockname="AUTOBLK:173" connect1name="TO103" type1="TURNOUT_C" connect2name="EB13" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
       <decorations>
         <bumper end="stop" color="#000000" linewidth="8" length="8" />
@@ -16619,27 +16650,26 @@
     <positionablepoint ident="A11" type="ANCHOR" x="64.0" y="490.0" connect1name="T53" connect2name="T178" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="EB36" type="END_BUMPER" x="1145.0" y="225.0" connect1name="T180" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A22" type="ANCHOR" x="1120.0" y="155.0" connect1name="T195" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A24" type="ANCHOR" x="220.0" y="540.0" connect1name="T203" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A26" type="ANCHOR" x="300.0" y="555.0" connect1name="T204" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A27" type="ANCHOR" x="355.0" y="500.0" connect1name="T196" connect2name="T205" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB34" type="END_BUMPER" x="220.0" y="540.0" connect1name="T203" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB26" type="END_BUMPER" x="300.0" y="555.0" connect1name="T204" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="EB13" type="END_BUMPER" x="275.0" y="470.0" connect1name="T208" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
   </LayoutEditor>
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Mon Jun 02 12:04:39 PDT 2025</date>
+      <date>Mon Jun 02 12:13:18 PDT 2025</date>
       <filename>PanelPro (v5.11.6)</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Mon Jun 02 12:04:48 PDT 2025</date>
+      <date>Mon Jun 02 12:13:27 PDT 2025</date>
       <filename>/D:/OneDrive/GitHub/PMRRM/Profiles/Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Mon Jun 02 12:12:13 PDT 2025</date>
+      <date>Mon Jun 02 12:32:45 PDT 2025</date>
       <filename>D:\OneDrive\GitHub\PMRRM\Profiles\Dispatcher_Work_in_Progress.jmri\DispatcherDefault.xml</filename>
     </operation>
   </filehistory>
-  <!--Written by JMRI version 5.11.6plus+jenkins+20250523T2119Z+Ree989c135e on Mon Jun 02 12:12:13 PDT 2025-->
+  <!--Written by JMRI version 5.11.6plus+jenkins+20250523T2119Z+Ree989c135e on Mon Jun 02 12:32:45 PDT 2025-->
 </layout-config>
