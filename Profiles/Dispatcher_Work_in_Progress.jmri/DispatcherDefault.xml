@@ -6409,7 +6409,7 @@
       <systemName>IM64</systemName>
       <userName>Vista 3</userName>
     </memory>
-    <memory value="10:41 PM">
+    <memory value="10:48 PM">
       <systemName>IMCURRENTTIME</systemName>
     </memory>
     <memory value="1.0">
@@ -11466,6 +11466,7 @@
         <destination type="sensor" item="NX-E3-WB" nxType="fullinterlocking" uniqueid="IN:eac069fe-2cfc-4452-964b-e7dd61d2b45f" />
         <destination type="sensor" item="NX-E2-WB" nxType="fullinterlocking" uniqueid="IN:bc381269-9c14-480a-9f75-d104fcd7667b" />
         <destination type="sensor" item="NX-E1-WB" nxType="fullinterlocking" uniqueid="IN:ec961a96-c398-49dd-8081-fa0688066271" />
+        <destination type="sensor" item="NX-E3-EB" nxType="fullinterlocking" uniqueid="IN:a1212229-ca5c-4260-a72d-2f9630301cef" />
       </source>
       <source type="sensor" item="NX-D1-EB">
         <destination type="sensor" item="NX-B1-EB" nxType="fullinterlocking" uniqueid="IN:93c671ef-afb7-4859-9f67-d128b963f027" />
@@ -11494,6 +11495,10 @@
       <source type="sensor" item="NX-Troy3-WB">
         <destination type="sensor" item="NX-UptonM-WB" nxType="fullinterlocking" uniqueid="IN:2a02c45a-5436-47a3-8fb1-d5c506820b4f" />
         <destination type="sensor" item="NX-UptonS-WB" nxType="fullinterlocking" uniqueid="IN:6fb4ffe0-485e-4146-bb4c-9993f4080200" />
+      </source>
+      <source type="sensor" item="NX-Troy3-EB">
+        <destination type="sensor" item="NX-SierraM-EB" nxType="fullinterlocking" uniqueid="IN:0147a495-0c51-4d47-a97d-4a01255d4b49" />
+        <destination type="sensor" item="NX-SierraS-EB" nxType="fullinterlocking" uniqueid="IN:ac5c50fe-a5e3-4707-b7fd-943e09e52e97" />
       </source>
       <source type="sensor" item="NX-XeroxM-EB">
         <destination type="sensor" item="NX-WhiskeyM-EB" nxType="fullinterlocking" uniqueid="IN:1ab54d75-2a51-440e-a624-c7fd814b96cf" />
@@ -11547,11 +11552,19 @@
         <destination type="sensor" item="NX-SierraM-EB" nxType="fullinterlocking" uniqueid="IN:13253142-5f7d-4451-a128-c29b99bae7d6" />
         <destination type="sensor" item="NX-SierraS-EB" nxType="fullinterlocking" uniqueid="IN:704ba25b-fd3f-4522-b175-7ed6096e07da" />
       </source>
+      <source type="sensor" item="NX-TroyS-EB">
+        <destination type="sensor" item="NX-SierraM-EB" nxType="fullinterlocking" uniqueid="IN:ee0e5792-723e-4903-b55e-87cba713e7b3" />
+        <destination type="sensor" item="NX-SierraS-EB" nxType="fullinterlocking" uniqueid="IN:08370f23-1a43-4ad4-a8f5-d2422bb5dbeb" />
+      </source>
       <source type="sensor" item="NX-SierraM-WB">
+        <destination type="sensor" item="NX-Troy3-WB" nxType="fullinterlocking" uniqueid="IN:8ed5129f-37be-4ad0-bf3e-a35e241c8190" />
         <destination type="sensor" item="NX-TroyM-WB" nxType="fullinterlocking" uniqueid="IN:8981c674-e5f9-4c99-9086-7108380a66bd" />
+        <destination type="sensor" item="NX-TroyS-WB" nxType="fullinterlocking" uniqueid="IN:0d4ebb1a-11f4-4347-9185-571d5862f69b" />
       </source>
       <source type="sensor" item="NX-SierraS-WB">
+        <destination type="sensor" item="NX-Troy3-WB" nxType="fullinterlocking" uniqueid="IN:5096b8d8-3b11-46a2-b200-f845793601fd" />
         <destination type="sensor" item="NX-TroyM-WB" nxType="fullinterlocking" uniqueid="IN:136515d1-f582-4205-9424-4abab9695d99" />
+        <destination type="sensor" item="NX-TroyS-WB" nxType="fullinterlocking" uniqueid="IN:b32c48b5-3d26-4548-a263-7296e0ccf727" />
       </source>
       <source type="sensor" item="NX-SierraM-EB">
         <destination type="sensor" item="NX-RedcliffM-EB" nxType="fullinterlocking" uniqueid="IN:c194b509-3acf-4f56-877c-396926d71e01" />
@@ -11600,12 +11613,16 @@
         <destination type="sensor" item="NX-OS-EB" nxType="fullinterlocking" uniqueid="IN:bdaf200a-70b8-4ac0-8c18-44b8927cbc5b" />
       </source>
       <source type="sensor" item="NX-UptonM-EB">
+        <destination type="sensor" item="NX-Troy3-EB" nxType="fullinterlocking" uniqueid="IN:a475e3e8-b206-4f16-997a-a023e8a00124" />
         <destination type="sensor" item="NX-TroyM-EB" nxType="fullinterlocking" uniqueid="IN:09153c7c-4104-4ab5-aa78-525bfcbab0e7" />
+        <destination type="sensor" item="NX-TroyS-EB" nxType="fullinterlocking" uniqueid="IN:6cac4abe-f303-459f-8b48-c66b835212d2" />
         <destination type="sensor" item="NX-SierraM-EB" nxType="fullinterlocking" uniqueid="IN:252b52fe-57e3-4bab-8e97-497802f32805" />
         <destination type="sensor" item="NX-SierraS-EB" nxType="fullinterlocking" uniqueid="IN:06efeed8-c0d0-4d65-9b8e-1a307536f09b" />
       </source>
       <source type="sensor" item="NX-UptonS-EB">
+        <destination type="sensor" item="NX-Troy3-EB" nxType="fullinterlocking" uniqueid="IN:352ba6e9-6b2b-46b7-afd4-c25124676e03" />
         <destination type="sensor" item="NX-TroyM-EB" nxType="fullinterlocking" uniqueid="IN:f4f5bc6f-c9ef-4904-8482-cd8ed3ae699f" />
+        <destination type="sensor" item="NX-TroyS-EB" nxType="fullinterlocking" uniqueid="IN:2d4eeebf-e3c0-48a7-9efc-d58beb040047" />
         <destination type="sensor" item="NX-SierraM-EB" nxType="fullinterlocking" uniqueid="IN:0e981054-09a7-4623-9f8d-093d3d6b3f73" />
         <destination type="sensor" item="NX-SierraS-EB" nxType="fullinterlocking" uniqueid="IN:7d55db15-484c-475c-b7a8-274b95ffb6c4" />
       </source>
@@ -16652,19 +16669,19 @@
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Mon Jun 02 22:37:22 EDT 2025</date>
+      <date>Mon Jun 02 22:42:14 EDT 2025</date>
       <filename>PanelPro (v5.11.6)</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Mon Jun 02 22:37:26 EDT 2025</date>
+      <date>Mon Jun 02 22:42:17 EDT 2025</date>
       <filename>/Users/jake/Library/Mobile Documents/com~apple~CloudDocs/Trains/PMRRM_Work_Dir/git_repos/PMRRM/Profiles/Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Mon Jun 02 22:41:13 EDT 2025</date>
+      <date>Mon Jun 02 22:48:19 EDT 2025</date>
       <filename>/Users/jake/Library/Mobile Documents/com~apple~CloudDocs/Trains/PMRRM_Work_Dir/git_repos/PMRRM/Profiles/Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
     </operation>
   </filehistory>
-  <!--Written by JMRI version 5.11.6plus+jake+20250603T0237Z+R8954fcfb18d on Mon Jun 02 22:41:13 EDT 2025-->
+  <!--Written by JMRI version 5.11.6plus+jake+20250603T0242Z+R8954fcfb18d on Mon Jun 02 22:48:19 EDT 2025-->
 </layout-config>
