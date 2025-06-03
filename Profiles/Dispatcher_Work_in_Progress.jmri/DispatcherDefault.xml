@@ -8261,7 +8261,7 @@
         <beansetting setting="4">
           <turnout systemName="Powderhorn E" />
         </beansetting>
-        <beansetting setting="2">
+        <beansetting setting="4">
           <turnout systemName="LT168" />
         </beansetting>
         <beansetting setting="2">
@@ -8274,7 +8274,7 @@
         </beansetting>
       </path>
       <path todir="64" fromdir="128" block="IB94">
-        <beansetting setting="4">
+        <beansetting setting="2">
           <turnout systemName="LT168" />
         </beansetting>
         <beansetting setting="2">
@@ -9477,7 +9477,7 @@
       <userName>AUTOBLK:111</userName>
       <permissive>no</permissive>
       <path todir="128" fromdir="64" block="IB22">
-        <beansetting setting="4">
+        <beansetting setting="2">
           <turnout systemName="LT168" />
         </beansetting>
       </path>
@@ -16649,19 +16649,19 @@
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Tue Jun 03 12:21:10 EDT 2025</date>
+      <date>Tue Jun 03 13:37:37 EDT 2025</date>
       <filename>PanelPro (v5.11.6)</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Tue Jun 03 12:21:23 EDT 2025</date>
+      <date>Tue Jun 03 13:37:41 EDT 2025</date>
       <filename>/Users/jake/Library/Mobile Documents/com~apple~CloudDocs/Trains/PMRRM_Work_Dir/git_repos/PMRRM/Profiles/Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Tue Jun 03 12:23:43 EDT 2025</date>
+      <date>Tue Jun 03 13:37:58 EDT 2025</date>
       <filename>/Users/jake/Library/Mobile Documents/com~apple~CloudDocs/Trains/PMRRM_Work_Dir/git_repos/PMRRM/Profiles/Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
     </operation>
   </filehistory>
-  <!--Written by JMRI version 5.11.6plus+jake+20250603T1621Z+R8954fcfb18d on Tue Jun 03 12:23:43 EDT 2025-->
+  <!--Written by JMRI version 5.11.6plus+jake+20250603T1737Z+R8954fcfb18d on Tue Jun 03 13:37:58 EDT 2025-->
 </layout-config>
