@@ -2465,6 +2465,14 @@
       <userName>NX-Troy3-EB</userName>
     </sensor>
     <sensor inverted="false">
+      <systemName>IS112</systemName>
+      <userName>NX-HS-EB</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS113</systemName>
+      <userName>NX-GS-WB</userName>
+    </sensor>
+    <sensor inverted="false">
       <systemName>ISCLOCKRUNNING</systemName>
     </sensor>
   </sensors>
@@ -6409,7 +6417,7 @@
       <systemName>IM64</systemName>
       <userName>Vista 3</userName>
     </memory>
-    <memory value="10:59 PM">
+    <memory value="7:09 AM">
       <systemName>IMCURRENTTIME</systemName>
     </memory>
     <memory value="1.0">
@@ -11500,6 +11508,12 @@
         <destination type="sensor" item="NX-SierraM-EB" nxType="fullinterlocking" uniqueid="IN:0147a495-0c51-4d47-a97d-4a01255d4b49" />
         <destination type="sensor" item="NX-SierraS-EB" nxType="fullinterlocking" uniqueid="IN:ac5c50fe-a5e3-4707-b7fd-943e09e52e97" />
       </source>
+      <source type="sensor" item="NX-HS-EB">
+        <destination type="sensor" item="NX-GM-EB" nxType="fullinterlocking" uniqueid="IN:49a6ca52-e951-4b5b-9f4c-26ce6d6816bc" />
+      </source>
+      <source type="sensor" item="NX-GS-WB">
+        <destination type="sensor" item="NX-HM-WB" nxType="fullinterlocking" uniqueid="IN:6d164caf-7ad7-4143-92f5-bd5d358dc6c3" />
+      </source>
       <source type="sensor" item="NX-XeroxM-EB">
         <destination type="sensor" item="NX-WhiskeyM-EB" nxType="fullinterlocking" uniqueid="IN:1ab54d75-2a51-440e-a624-c7fd814b96cf" />
         <destination type="sensor" item="NX-WhiskeyS-EB" nxType="fullinterlocking" uniqueid="IN:896f1429-ddb5-4e1a-9088-60f31c92b39a" />
@@ -11670,14 +11684,14 @@
         <destination type="sensor" item="NX-JS-EB" nxType="fullinterlocking" uniqueid="IN:f94afe9d-57a6-482e-a842-90a8132e17c9" />
       </source>
       <source type="sensor" item="NX-JM-EB">
+        <destination type="sensor" item="NX-HS-EB" nxType="fullinterlocking" uniqueid="IN:34892065-b922-49aa-8156-1205aa3c8500" />
         <destination type="sensor" item="NX-GM-EB" nxType="fullinterlocking" uniqueid="IN:592ea1c4-8085-48a7-a93a-dbde7051a0d8" />
         <destination type="sensor" item="NX-GS-EB" nxType="fullinterlocking" uniqueid="IN:c83d0eae-e49a-4140-9d2d-0bc54e5643c4" />
-        <destination type="sensor" item="NX-GM-WB" nxType="fullinterlocking" uniqueid="IN:0acfad3b-e18e-40af-a9d9-b8443d8d4163" />
       </source>
       <source type="sensor" item="NX-JS-EB">
+        <destination type="sensor" item="NX-HS-EB" nxType="fullinterlocking" uniqueid="IN:78f2944e-069f-45a0-ae74-c68734dab6f6" />
         <destination type="sensor" item="NX-GM-EB" nxType="fullinterlocking" uniqueid="IN:3dd2c0f6-af0d-42d3-aca3-fdaef6544883" />
         <destination type="sensor" item="NX-GS-EB" nxType="fullinterlocking" uniqueid="IN:3ebf336a-8267-4a09-bddd-6d980b74f3fd" />
-        <destination type="sensor" item="NX-GM-WB" nxType="fullinterlocking" uniqueid="IN:c73efb55-a63d-4976-a354-b3ac779e2ee7" />
       </source>
       <source type="sensor" item="NX-GM-EB">
         <destination type="sensor" item="NX-E1-EB" nxType="fullinterlocking" uniqueid="IN:69997e03-339f-4152-8777-92d88d74c32b" />
@@ -11692,22 +11706,22 @@
         <destination type="sensor" item="NX-E3-EB" nxType="fullinterlocking" uniqueid="IN:aae40a95-fc05-421a-b15b-a356b684ec81" />
       </source>
       <source type="sensor" item="NX-E3-WB">
+        <destination type="sensor" item="NX-HS-EB" nxType="fullinterlocking" uniqueid="IN:80beb26a-3dbb-41d6-a395-ee8119e816e3" />
+        <destination type="sensor" item="NX-GS-WB" nxType="fullinterlocking" uniqueid="IN:5f72afe9-e0a4-45ef-8ed8-53a3c6e78710" />
         <destination type="sensor" item="NX-HM-WB" nxType="fullinterlocking" uniqueid="IN:c38eb0de-1812-4914-adbd-7bfdcc8f51c2" />
         <destination type="sensor" item="NX-HS-WB" nxType="fullinterlocking" uniqueid="IN:2a9c1596-a189-4c58-8ede-bb5c4a29b5f6" />
-        <destination type="sensor" item="NX-GM-WB" nxType="fullinterlocking" uniqueid="IN:053b64c2-0221-406f-bc06-1cda88fba154" />
-        <destination type="sensor" item="NX-HM-EB" nxType="fullinterlocking" uniqueid="IN:3f7d27b4-3838-4c97-9726-c2cc875cc0a3" />
       </source>
       <source type="sensor" item="NX-E2-WB">
+        <destination type="sensor" item="NX-HS-EB" nxType="fullinterlocking" uniqueid="IN:4ee03a22-9874-4cd0-bfa5-558545e131f1" />
+        <destination type="sensor" item="NX-GS-WB" nxType="fullinterlocking" uniqueid="IN:faf709c7-3c06-41fb-ab6c-2818824233e1" />
         <destination type="sensor" item="NX-HM-WB" nxType="fullinterlocking" uniqueid="IN:aae83f2a-df32-4960-b8e7-2e5a1aab1fbc" />
         <destination type="sensor" item="NX-HS-WB" nxType="fullinterlocking" uniqueid="IN:20e8bc10-41bf-44e4-844f-9a4f63fc86db" />
-        <destination type="sensor" item="NX-GM-WB" nxType="fullinterlocking" uniqueid="IN:2728ee6f-ba15-44ea-8cf4-1746a0af308b" />
-        <destination type="sensor" item="NX-HM-EB" nxType="fullinterlocking" uniqueid="IN:b23fa078-9b9f-4639-9e68-7a5dde0f4868" />
       </source>
       <source type="sensor" item="NX-E1-WB">
+        <destination type="sensor" item="NX-HS-EB" nxType="fullinterlocking" uniqueid="IN:bcc86d20-b558-4ac6-8b95-c6ab0862352e" />
+        <destination type="sensor" item="NX-GS-WB" nxType="fullinterlocking" uniqueid="IN:521d2729-9d8c-48dc-a978-d8e0086aea71" />
         <destination type="sensor" item="NX-HM-WB" nxType="fullinterlocking" uniqueid="IN:c70fe05a-913e-4ca6-9d11-23361a223ef0" />
         <destination type="sensor" item="NX-HS-WB" nxType="fullinterlocking" uniqueid="IN:a74cd502-84a9-4680-8424-aa70541a4b45" />
-        <destination type="sensor" item="NX-GM-WB" nxType="fullinterlocking" uniqueid="IN:9bb9f19c-c54e-4152-838a-0b3d7f877063" />
-        <destination type="sensor" item="NX-HM-EB" nxType="fullinterlocking" uniqueid="IN:f6be2c7e-77c7-4724-b348-39f80fc4b40a" />
       </source>
       <source type="sensor" item="NX-HM-WB">
         <destination type="sensor" item="NX-JM-WB" nxType="fullinterlocking" uniqueid="IN:164151bf-19d2-4612-8b0b-77bed3cb5186" />
@@ -11753,12 +11767,6 @@
         <destination type="sensor" item="NX-MEP1-WB" nxType="fullinterlocking" uniqueid="IN:f97202dd-77ee-4ae6-b577-f3e5c303ea24" />
         <destination type="sensor" item="NX-MEP2-WB" nxType="fullinterlocking" uniqueid="IN:bb070eb7-40b7-4d7f-8d9d-9b813a4db866" />
         <destination type="sensor" item="NX-MEP3-WB" nxType="fullinterlocking" uniqueid="IN:f9691d6f-d8cf-4458-be27-e2a64599d833" />
-      </source>
-      <source type="sensor" item="NX-GM-WB">
-        <destination type="sensor" item="NX-GM-EB" nxType="fullinterlocking" uniqueid="IN:b63386d9-2a49-4df2-9af1-dffe158843d3" />
-      </source>
-      <source type="sensor" item="NX-HM-EB">
-        <destination type="sensor" item="NX-HM-WB" nxType="fullinterlocking" uniqueid="IN:82898a07-ffb7-4559-8377-965ae73e672c" />
       </source>
       <source type="sensor" item="NX-E1-EB">
         <destination type="sensor" item="NX-D1-EB" nxType="fullinterlocking" uniqueid="IN:caf28fde-258b-48de-b169-fa9c3c432329" />
@@ -14875,36 +14883,6 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-HM-EB" x="1145" y="165" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
-      <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="270" scale="1.0">
-        <rotation>0</rotation>
-      </active>
-      <inactive url="program:resources/icons/smallschematics/tracksegments/circuit-empty.gif" degrees="270" scale="1.0">
-        <rotation>0</rotation>
-      </inactive>
-      <unknown url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="270" scale="1.0">
-        <rotation>0</rotation>
-      </unknown>
-      <inconsistent url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="270" scale="1.0">
-        <rotation>0</rotation>
-      </inconsistent>
-      <iconmaps />
-    </sensoricon>
-    <sensoricon sensor="NX-GM-WB" x="1170" y="205" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="92" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
-      <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="92" scale="1.0">
-        <rotation>0</rotation>
-      </active>
-      <inactive url="program:resources/icons/smallschematics/tracksegments/circuit-empty.gif" degrees="92" scale="1.0">
-        <rotation>0</rotation>
-      </inactive>
-      <unknown url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="92" scale="1.0">
-        <rotation>0</rotation>
-      </unknown>
-      <inconsistent url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="92" scale="1.0">
-        <rotation>0</rotation>
-      </inconsistent>
-      <iconmaps />
-    </sensoricon>
     <signalheadicon signalhead="W Osage Sem" x="70" y="365" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="180" clickmode="3" litmode="false" class="jmri.jmrit.display.configurexml.SignalHeadIconXml">
       <icons>
         <held url="program:resources/icons/smallschematics/searchlights/left-held-short.gif" degrees="180" scale="1.0">
@@ -16118,6 +16096,36 @@
       <iconmaps />
     </sensoricon>
     <positionablelabel x="260" y="450" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Troy Depot" fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <sensoricon sensor="NX-GS-WB" x="1145" y="165" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="270" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/smallschematics/tracksegments/circuit-empty.gif" degrees="270" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="270" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="270" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <sensoricon sensor="NX-HS-EB" x="1170" y="205" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="90" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/smallschematics/tracksegments/circuit-empty.gif" degrees="90" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="90" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="90" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
     <layoutturnout ident="TO1" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1110.0" ycen="390.0" xa="1130.0" ya="390.0" xb="1090.0" yb="390.0" xc="1090.0" yc="380.0" xd="1130.0" yd="390.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Midway E F" blockname="MEF" connectaname="T1" connectbname="T16" connectcname="T4">
       <sensorB>NX-MEF-WB</sensorB>
     </layoutturnout>
@@ -16265,10 +16273,10 @@
       <sensorC>NX-GS-EB</sensorC>
     </layoutturnout>
     <layoutturnout ident="TO74" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1210.0" ycen="190.0" xa="1230.0" ya="190.0" xb="1190.0" yb="190.0" xc="1190.0" yc="210.0" xd="1230.0" yd="190.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Hudson E siding" blockname="Gary 1" connectaname="T114" connectbname="T115" connectcname="T156">
-      <sensorC>NX-GM-WB</sensorC>
+      <sensorC>NX-HS-EB</sensorC>
     </layoutturnout>
     <layoutturnout ident="TO75" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1120.0" ycen="190.0" xa="1100.0" ya="190.0" xb="1140.0" yb="190.0" xc="1135.0" yc="170.0" xd="1100.0" yd="190.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Gary W siding" blockname="Hudson 1" connectaname="T116" connectbname="T115" connectcname="T154">
-      <sensorC>NX-HM-EB</sensorC>
+      <sensorC>NX-GS-WB</sensorC>
     </layoutturnout>
     <layoutturnout ident="TO77" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1000.0" ycen="190.0" xa="980.0" ya="190.0" xb="1020.0" yb="190.0" xc="1015.0" yc="210.0" xd="980.0" yd="190.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="LT36" blockname="Incline E" connectaname="T119" connectbname="T116" connectcname="T117">
       <sensorB>NX-HM-WB</sensorB>
@@ -16668,19 +16676,19 @@
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Mon Jun 02 22:49:02 EDT 2025</date>
+      <date>Tue Jun 03 07:03:10 EDT 2025</date>
       <filename>PanelPro (v5.11.6)</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Mon Jun 02 22:49:06 EDT 2025</date>
+      <date>Tue Jun 03 07:03:14 EDT 2025</date>
       <filename>/Users/jake/Library/Mobile Documents/com~apple~CloudDocs/Trains/PMRRM_Work_Dir/git_repos/PMRRM/Profiles/Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Mon Jun 02 22:59:19 EDT 2025</date>
+      <date>Tue Jun 03 07:09:16 EDT 2025</date>
       <filename>/Users/jake/Library/Mobile Documents/com~apple~CloudDocs/Trains/PMRRM_Work_Dir/git_repos/PMRRM/Profiles/Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
     </operation>
   </filehistory>
-  <!--Written by JMRI version 5.11.6plus+jake+20250603T0248Z+R8954fcfb18d on Mon Jun 02 22:59:19 EDT 2025-->
+  <!--Written by JMRI version 5.11.6plus+jake+20250603T1103Z+R8954fcfb18d on Tue Jun 03 07:09:16 EDT 2025-->
 </layout-config>
