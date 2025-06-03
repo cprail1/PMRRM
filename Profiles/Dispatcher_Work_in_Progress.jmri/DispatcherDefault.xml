@@ -3720,6 +3720,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT168</systemName>
+      <userName>Powderhorn work track spur</userName>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -3841,6 +3842,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT184</systemName>
+      <userName>Troy W 3</userName>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -6250,7 +6252,7 @@
       <systemName>IM16</systemName>
       <userName>Redcliff Siding</userName>
     </memory>
-    <memory value="">
+    <memory>
       <systemName>IM17</systemName>
       <userName>Redcliff Main</userName>
     </memory>
@@ -6417,7 +6419,7 @@
       <systemName>IM64</systemName>
       <userName>Vista 3</userName>
     </memory>
-    <memory value="12:23 PM">
+    <memory value="2:14 PM">
       <systemName>IMCURRENTTIME</systemName>
     </memory>
     <memory value="1.0">
@@ -8262,7 +8264,7 @@
           <turnout systemName="Powderhorn E" />
         </beansetting>
         <beansetting setting="4">
-          <turnout systemName="LT168" />
+          <turnout systemName="Powderhorn work track spur" />
         </beansetting>
         <beansetting setting="2">
           <turnout systemName="Powderhorn pocket crossover" />
@@ -8275,7 +8277,7 @@
       </path>
       <path todir="64" fromdir="128" block="IB94">
         <beansetting setting="2">
-          <turnout systemName="LT168" />
+          <turnout systemName="Powderhorn work track spur" />
         </beansetting>
         <beansetting setting="2">
           <turnout systemName="Powderhorn pocket crossover" />
@@ -8338,7 +8340,7 @@
       </path>
       <path todir="64" fromdir="128" block="IB71">
         <beansetting setting="4">
-          <turnout systemName="LT184" />
+          <turnout systemName="Troy W 3" />
         </beansetting>
         <beansetting setting="2">
           <turnout systemName="Troy W 2" />
@@ -9215,7 +9217,7 @@
       </path>
       <path todir="128" fromdir="64" block="IB24">
         <beansetting setting="4">
-          <turnout systemName="LT184" />
+          <turnout systemName="Troy W 3" />
         </beansetting>
       </path>
     </block>
@@ -9478,7 +9480,7 @@
       <permissive>no</permissive>
       <path todir="128" fromdir="64" block="IB22">
         <beansetting setting="2">
-          <turnout systemName="LT168" />
+          <turnout systemName="Powderhorn work track spur" />
         </beansetting>
       </path>
     </block>
@@ -9979,7 +9981,7 @@
       <permissive>no</permissive>
       <path todir="128" fromdir="64" block="IB71">
         <beansetting setting="4">
-          <turnout systemName="LT184" />
+          <turnout systemName="Troy W 3" />
         </beansetting>
       </path>
       <path todir="64" fromdir="128" block="IB120" />
@@ -11292,12 +11294,12 @@
       <routeOutputTurnout systemName="Midway W Team 1" state="CLOSED" />
       <routeOutputTurnout systemName="Midway W approach to ES Engine Service" state="CLOSED" />
       <routeOutputTurnout systemName="Powderhorn housetrack" state="CLOSED" />
-      <routeOutputTurnout systemName="LT168" state="CLOSED" />
+      <routeOutputTurnout systemName="Powderhorn work track spur" state="CLOSED" />
       <routeOutputTurnout systemName="Redcliff Staging" state="CLOSED" />
       <routeOutputTurnout systemName="Sierra E 2" state="CLOSED" />
       <routeOutputTurnout systemName="Sierra W 2" state="CLOSED" />
       <routeOutputTurnout systemName="Troy station" state="CLOSED" />
-      <routeOutputTurnout systemName="LT184" state="CLOSED" />
+      <routeOutputTurnout systemName="Troy W 3" state="CLOSED" />
       <routeOutputTurnout systemName="Whiskey Grain storage" state="CLOSED" />
       <routeOutputTurnout systemName="Whiskey Grain silo" state="CLOSED" />
       <routeOutputTurnout systemName="LT200" state="CLOSED" />
@@ -16317,7 +16319,7 @@
     <layoutturnout ident="TO101" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="160.0" ycen="510.0" xa="150.0" ya="500.0" xb="170.0" yb="520.0" xc="180.0" yc="510.0" xd="150.0" yd="500.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Troy W 2" blockname="T-U" connectaname="T198" connectbname="T199" connectcname="T201">
       <sensorC>NX-TroyS-WB</sensorC>
     </layoutturnout>
-    <layoutturnout ident="TO102" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="180.0" ycen="530.0" xa="170.0" ya="520.0" xb="190.0" yb="540.0" xc="215.0" yc="530.0" xd="170.0" yd="520.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="LT184" blockname="T-U" connectaname="T199" connectbname="T203" connectcname="T200">
+    <layoutturnout ident="TO102" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="180.0" ycen="530.0" xa="170.0" ya="520.0" xb="190.0" yb="540.0" xc="215.0" yc="530.0" xd="170.0" yd="520.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Troy W 3" blockname="T-U" connectaname="T199" connectbname="T203" connectcname="T200">
       <sensorC>NX-Troy3-WB</sensorC>
     </layoutturnout>
     <layoutturnout ident="TO100" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="140.0" ycen="490.0" xa="120.0" ya="490.0" xb="160.0" yb="490.0" xc="150.0" yc="500.0" xd="120.0" yd="490.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Troy W 1" blockname="T-U" connectaname="T53" connectbname="T202" connectcname="T198">
@@ -16327,7 +16329,7 @@
       <sensorB>NX-TroyM-EB</sensorB>
     </layoutturnout>
     <layoutturnout ident="TO103" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="315.0" ycen="490.0" xa="330.0" ya="490.0" xb="300.0" yb="490.0" xc="300.0" yc="470.0" xd="330.0" yd="490.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Troy station" blockname="Troy Main" connectaname="T207" connectbname="T202" connectcname="T208" />
-    <layoutturnout ident="TO27" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="4" xcen="1195.0" ycen="470.0" xa="1180.0" ya="470.0" xb="1210.0" yb="470.0" xc="1210.0" yc="460.0" xd="1180.0" yd="470.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="LT168" blockname="Powderhorn S" connectaname="T170" connectbname="T38" connectcname="T171" />
+    <layoutturnout ident="TO27" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="4" xcen="1195.0" ycen="470.0" xa="1180.0" ya="470.0" xb="1210.0" yb="470.0" xc="1210.0" yc="460.0" xd="1180.0" yd="470.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Powderhorn work track spur" blockname="Powderhorn S" connectaname="T170" connectbname="T38" connectcname="T171" />
     <tracksegment ident="T1" blockname="MEF" connect1name="TO3" type1="TURNOUT_C" connect2name="TO1" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T3" blockname="MEP" connect1name="TO3" type1="TURNOUT_B" connect2name="TO5" type2="TURNOUT_B" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T4" connect1name="TO1" type1="TURNOUT_C" connect2name="TO2" type2="TURNOUT_B" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
@@ -16649,19 +16651,19 @@
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Tue Jun 03 13:37:37 EDT 2025</date>
+      <date>Tue Jun 03 13:39:20 EDT 2025</date>
       <filename>PanelPro (v5.11.6)</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Tue Jun 03 13:37:41 EDT 2025</date>
+      <date>Tue Jun 03 13:39:23 EDT 2025</date>
       <filename>/Users/jake/Library/Mobile Documents/com~apple~CloudDocs/Trains/PMRRM_Work_Dir/git_repos/PMRRM/Profiles/Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Tue Jun 03 13:37:58 EDT 2025</date>
+      <date>Tue Jun 03 14:14:38 EDT 2025</date>
       <filename>/Users/jake/Library/Mobile Documents/com~apple~CloudDocs/Trains/PMRRM_Work_Dir/git_repos/PMRRM/Profiles/Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
     </operation>
   </filehistory>
-  <!--Written by JMRI version 5.11.6plus+jake+20250603T1737Z+R8954fcfb18d on Tue Jun 03 13:37:58 EDT 2025-->
+  <!--Written by JMRI version 5.11.6plus+jake+20250603T1739Z+R8954fcfb18d on Tue Jun 03 14:14:38 EDT 2025-->
 </layout-config>
