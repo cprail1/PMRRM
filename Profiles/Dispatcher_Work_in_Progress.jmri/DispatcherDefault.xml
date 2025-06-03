@@ -6348,7 +6348,7 @@
     <memory>
       <systemName>IM45</systemName>
     </memory>
-    <memory value="">
+    <memory>
       <systemName>IM46</systemName>
     </memory>
     <memory>
@@ -6409,7 +6409,7 @@
       <systemName>IM64</systemName>
       <userName>Vista 3</userName>
     </memory>
-    <memory value="10:48 PM">
+    <memory value="10:59 PM">
       <systemName>IMCURRENTTIME</systemName>
     </memory>
     <memory value="1.0">
@@ -13140,7 +13140,6 @@
     <memoryicon memory="IM50" x="205" y="25" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="0" green="255" blue="0" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>IM50</tooltip>
     </memoryicon>
-    <BlockContentsIcon blockcontents="GH" x="1155" y="180" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" selectable="no" class="jmri.jmrit.display.configurexml.BlockContentsIconXml" />
     <sensoricon sensor="Main Init" x="1105" y="650" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <tooltip>Main Init (IS20)</tooltip>
       <active url="program:resources/icons/USS/plate/levers/codeButton-Active.gif" degrees="0" scale="1.0">
@@ -16669,19 +16668,19 @@
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Mon Jun 02 22:42:14 EDT 2025</date>
+      <date>Mon Jun 02 22:49:02 EDT 2025</date>
       <filename>PanelPro (v5.11.6)</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Mon Jun 02 22:42:17 EDT 2025</date>
+      <date>Mon Jun 02 22:49:06 EDT 2025</date>
       <filename>/Users/jake/Library/Mobile Documents/com~apple~CloudDocs/Trains/PMRRM_Work_Dir/git_repos/PMRRM/Profiles/Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Mon Jun 02 22:48:19 EDT 2025</date>
+      <date>Mon Jun 02 22:59:19 EDT 2025</date>
       <filename>/Users/jake/Library/Mobile Documents/com~apple~CloudDocs/Trains/PMRRM_Work_Dir/git_repos/PMRRM/Profiles/Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
     </operation>
   </filehistory>
-  <!--Written by JMRI version 5.11.6plus+jake+20250603T0242Z+R8954fcfb18d on Mon Jun 02 22:48:19 EDT 2025-->
+  <!--Written by JMRI version 5.11.6plus+jake+20250603T0248Z+R8954fcfb18d on Mon Jun 02 22:59:19 EDT 2025-->
 </layout-config>
