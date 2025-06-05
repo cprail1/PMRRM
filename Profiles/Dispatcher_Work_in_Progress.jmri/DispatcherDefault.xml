@@ -6308,7 +6308,7 @@
       <systemName>IM30</systemName>
       <userName>Vista - Whiskey</userName>
     </memory>
-    <memory>
+    <memory value="CPKCS 9100">
       <systemName>IM31</systemName>
       <userName>Whiskey Main</userName>
     </memory>
@@ -6419,7 +6419,7 @@
       <systemName>IM64</systemName>
       <userName>Vista 3</userName>
     </memory>
-    <memory value="8:54 PM">
+    <memory value="9:12 PM">
       <systemName>IMCURRENTTIME</systemName>
     </memory>
     <memory value="1.0">
@@ -12912,7 +12912,7 @@
     <memoryicon memory="Vista - Whiskey" x="745" y="600" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog.bolditalic" size="12" style="3" red="0" green="255" blue="0" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>Whiskey - Vista</tooltip>
     </memoryicon>
-    <memoryicon memory="Whiskey Main" x="580" y="600" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog.bolditalic" size="12" style="3" red="0" green="255" blue="0" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+    <memoryicon memory="Whiskey Main" x="580" y="600" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog.bolditalic" size="12" style="3" red="255" green="255" blue="0" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>Whiskey Main</tooltip>
     </memoryicon>
     <memoryicon memory="Whiskey Siding" x="580" y="620" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog.bolditalic" size="12" style="3" red="0" green="255" blue="0" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
@@ -16110,6 +16110,9 @@
     <positionablelabel x="485" y="325" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="West passenger approach " fontFamily="Dialog" fontname="Dialog.plain" size="8" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="505" y="395" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="West freight approach " fontFamily="Dialog" fontname="Dialog.plain" size="8" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="1110" y="400" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="East freight approach " fontFamily="Dialog" fontname="Dialog.plain" size="8" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="705" y="340" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="MAIN 1" fontFamily="Dialog" fontname="Dialog.bold" size="8" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="720" y="320" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="MAIN 2" fontFamily="Dialog" fontname="Dialog.bold" size="8" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="750" y="300" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="MAIN 3" fontFamily="Dialog" fontname="Dialog.bold" size="8" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <layoutturnout ident="TO1" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1110.0" ycen="390.0" xa="1130.0" ya="390.0" xb="1090.0" yb="390.0" xc="1090.0" yc="380.0" xd="1130.0" yd="390.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Midway E F" blockname="MEF" connectaname="T1" connectbname="T16" connectcname="T4">
       <sensorB>NX-MEF-WB</sensorB>
     </layoutturnout>
@@ -16670,9 +16673,9 @@
     </operation>
     <operation>
       <type>Store</type>
-      <date>Wed Jun 04 20:54:58 PDT 2025</date>
+      <date>Wed Jun 04 21:12:14 PDT 2025</date>
       <filename>D:\OneDrive\GitHub\PMRRM\Profiles\Dispatcher_Work_in_Progress.jmri\DispatcherDefault.xml</filename>
     </operation>
   </filehistory>
-  <!--Written by JMRI version 5.11.6plus+jenkins+20250523T2119Z+Ree989c135e on Wed Jun 04 20:54:58 PDT 2025-->
+  <!--Written by JMRI version 5.11.6plus+jenkins+20250523T2119Z+Ree989c135e on Wed Jun 04 21:12:14 PDT 2025-->
 </layout-config>
