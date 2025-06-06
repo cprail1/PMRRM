@@ -6427,7 +6427,7 @@
       <systemName>IM64</systemName>
       <userName>Vista 3</userName>
     </memory>
-    <memory value="4:09 PM">
+    <memory value="4:12 PM">
       <systemName>IMCURRENTTIME</systemName>
     </memory>
     <memory value="1.0">
@@ -8217,7 +8217,11 @@
           <turnout systemName="Whiskey E 1" />
         </beansetting>
       </path>
-      <path todir="128" fromdir="64" block="IB26" />
+      <path todir="128" fromdir="64" block="IB26">
+        <beansetting setting="2">
+          <turnout systemName="Whiskey W 1" />
+        </beansetting>
+      </path>
     </block>
     <block systemName="IB19" length="5842.0" curve="0">
       <systemName>IB19</systemName>
@@ -8486,10 +8490,17 @@
       <userName>W-X</userName>
       <permissive>no</permissive>
       <occupancysensor>W-X</occupancysensor>
-      <path todir="64" fromdir="128" block="IB18" />
+      <path todir="64" fromdir="128" block="IB18">
+        <beansetting setting="2">
+          <turnout systemName="Whiskey W 1" />
+        </beansetting>
+      </path>
       <path todir="64" fromdir="128" block="IB19">
         <beansetting setting="2">
           <turnout systemName="Whiskey W 2" />
+        </beansetting>
+        <beansetting setting="4">
+          <turnout systemName="Whiskey W 1" />
         </beansetting>
       </path>
       <path todir="160" fromdir="80" block="IB27">
@@ -8505,6 +8516,9 @@
       <path todir="96" fromdir="144" block="IB70">
         <beansetting setting="4">
           <turnout systemName="Whiskey W 2" />
+        </beansetting>
+        <beansetting setting="4">
+          <turnout systemName="Whiskey W 1" />
         </beansetting>
       </path>
     </block>
@@ -11960,10 +11974,12 @@
       </source>
       <source type="sensor" item="NX-VistaM-WB">
         <destination type="sensor" item="NX-WhiskeyS2-WB" nxType="fullinterlocking" uniqueid="IN:9f4ca04b-5a21-4152-bb33-ece97493cd92" />
+        <destination type="sensor" item="NX-WhiskeyM-WB" nxType="fullinterlocking" uniqueid="IN:f8efc36f-e8aa-4dab-98aa-bf640d7f2481" />
         <destination type="sensor" item="NX-WhiskeyS1-WB" nxType="fullinterlocking" uniqueid="IN:345e344d-c9d4-4a6b-82d8-65d154d4a9c2" />
       </source>
       <source type="sensor" item="NX-VistaS-WB">
         <destination type="sensor" item="NX-WhiskeyS2-WB" nxType="fullinterlocking" uniqueid="IN:830cbc99-9b2f-46d0-bc35-2b050d653cdf" />
+        <destination type="sensor" item="NX-WhiskeyM-WB" nxType="fullinterlocking" uniqueid="IN:95085c0b-dc18-4bdd-82d3-f790f519fba7" />
         <destination type="sensor" item="NX-WhiskeyS1-WB" nxType="fullinterlocking" uniqueid="IN:24c7cf28-2452-4d91-9da4-09d30194c91e" />
       </source>
       <source type="sensor" item="NX-VistaM-EB">
@@ -17151,19 +17167,19 @@
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Fri Jun 06 16:06:18 PDT 2025</date>
+      <date>Fri Jun 06 16:10:08 PDT 2025</date>
       <filename>PanelPro (v5.11.6)</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Fri Jun 06 16:06:27 PDT 2025</date>
+      <date>Fri Jun 06 16:10:18 PDT 2025</date>
       <filename>/D:/OneDrive/GitHub/PMRRM/Profiles/Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Fri Jun 06 16:09:24 PDT 2025</date>
+      <date>Fri Jun 06 16:12:48 PDT 2025</date>
       <filename>D:\OneDrive\GitHub\PMRRM\Profiles\Dispatcher_Work_in_Progress.jmri\DispatcherDefault.xml</filename>
     </operation>
   </filehistory>
-  <!--Written by JMRI version 5.11.6plus+jenkins+20250523T2119Z+Ree989c135e on Fri Jun 06 16:09:24 PDT 2025-->
+  <!--Written by JMRI version 5.11.6plus+jenkins+20250523T2119Z+Ree989c135e on Fri Jun 06 16:12:48 PDT 2025-->
 </layout-config>
