@@ -15,3 +15,4 @@ for layoutEditor in layoutPanels :
     for positionable in layoutEditor.getContents() :
         if positionable.getForeground() == colorMatch :
             positionable.setVisible(False)
+    layoutEditor.repaint()

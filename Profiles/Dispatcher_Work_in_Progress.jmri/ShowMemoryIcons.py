@@ -15,3 +15,4 @@ layoutPanels = panelMenu.getList(jmri.jmrit.display.layoutEditor.LayoutEditor)
 for layoutEditor in layoutPanels :
     for memoryIcon in layoutEditor.getMemoryLabelList() :
         memoryIcon.setBorder(javax.swing.BorderFactory.createLineBorder(java.awt.Color.yellow))
+    layoutEditor.repaint()
