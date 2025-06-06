@@ -6419,7 +6419,7 @@
       <systemName>IM64</systemName>
       <userName>Vista 3</userName>
     </memory>
-    <memory value="7:59 AM">
+    <memory value="8:11 AM">
       <systemName>IMCURRENTTIME</systemName>
     </memory>
     <memory value="1.0">
@@ -8204,7 +8204,11 @@
       <userName>Whiskey Main</userName>
       <permissive>no</permissive>
       <occupancysensor>Whiskey main</occupancysensor>
-      <path todir="64" fromdir="128" block="IB25" />
+      <path todir="64" fromdir="128" block="IB25">
+        <beansetting setting="2">
+          <turnout systemName="Whiskey E 1" />
+        </beansetting>
+      </path>
       <path todir="128" fromdir="64" block="IB26">
         <beansetting setting="2">
           <turnout systemName="LT99" />
@@ -8221,7 +8225,11 @@
           <turnout systemName="Whiskey E 2" />
         </beansetting>
       </path>
-      <path todir="128" fromdir="64" block="IB26" />
+      <path todir="128" fromdir="64" block="IB26">
+        <beansetting setting="2">
+          <turnout systemName="Whiskey W 2" />
+        </beansetting>
+      </path>
     </block>
     <block systemName="IB20" length="10160.0" curve="0">
       <systemName>IB20</systemName>
@@ -8439,10 +8447,17 @@
           <turnout systemName="LT94" />
         </beansetting>
       </path>
-      <path todir="128" fromdir="64" block="IB18" />
+      <path todir="128" fromdir="64" block="IB18">
+        <beansetting setting="2">
+          <turnout systemName="Whiskey E 1" />
+        </beansetting>
+      </path>
       <path todir="128" fromdir="64" block="IB19">
         <beansetting setting="2">
           <turnout systemName="Whiskey E 2" />
+        </beansetting>
+        <beansetting setting="4">
+          <turnout systemName="Whiskey E 1" />
         </beansetting>
       </path>
       <path todir="64" fromdir="128" block="IB66">
@@ -8457,6 +8472,9 @@
         <beansetting setting="4">
           <turnout systemName="Whiskey E 2" />
         </beansetting>
+        <beansetting setting="4">
+          <turnout systemName="Whiskey E 1" />
+        </beansetting>
       </path>
     </block>
     <block systemName="IB26" length="6096.0" curve="1">
@@ -8470,6 +8488,9 @@
         </beansetting>
       </path>
       <path todir="64" fromdir="128" block="IB19">
+        <beansetting setting="2">
+          <turnout systemName="Whiskey W 2" />
+        </beansetting>
         <beansetting setting="4">
           <turnout systemName="LT99" />
         </beansetting>
@@ -8485,6 +8506,9 @@
         </beansetting>
       </path>
       <path todir="96" fromdir="144" block="IB70">
+        <beansetting setting="4">
+          <turnout systemName="Whiskey W 2" />
+        </beansetting>
         <beansetting setting="4">
           <turnout systemName="LT99" />
         </beansetting>
@@ -9267,6 +9291,9 @@
         </beansetting>
       </path>
       <path todir="144" fromdir="96" block="IB26">
+        <beansetting setting="4">
+          <turnout systemName="Whiskey W 2" />
+        </beansetting>
         <beansetting setting="2">
           <turnout systemName="Whiskey Grain silo" />
         </beansetting>
@@ -11279,10 +11306,6 @@
       <systemName>ILB136</systemName>
       <userName>AUTOBLK:136</userName>
     </layoutblock>
-    <layoutblock systemName="ILB137" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="white">
-      <systemName>ILB137</systemName>
-      <userName>AUTOBLK:137</userName>
-    </layoutblock>
     <layoutblock systemName="ILB138" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="white">
       <systemName>ILB138</systemName>
       <userName>Yazoo Lead 3</userName>
@@ -11546,7 +11569,6 @@
       <routeOutputTurnout systemName="Midway W Eng Svc" state="CLOSED" />
       <routeOutputTurnout systemName="Midway W freight approach" state="CLOSED" />
       <routeOutputTurnout systemName="Osage pocket E" state="CLOSED" />
-      <routeOutputTurnout systemName="Osage pocket W" state="CLOSED" />
       <routeOutputTurnout systemName="Osage E" state="CLOSED" />
       <routeOutputTurnout systemName="Osage W" state="CLOSED" />
       <routeOutputTurnout systemName="McSweeney branch" state="CLOSED" />
@@ -11574,6 +11596,8 @@
       <routeOutputTurnout systemName="Whiskey W 2" state="CLOSED" />
       <routeOutputTurnout systemName="Whiskey W 1" state="CLOSED" />
       <routeOutputTurnout systemName="Xerox E" state="CLOSED" />
+      <routeOutputTurnout systemName="Osage pocket W" state="CLOSED" />
+      <routeOutputSensor systemName="Main Init 1" state="INACTIVE" />
       <routeSensor systemName="IS20" mode="onActive" />
       <turnoutsAlignedSensor name="Main Init Done" />
     </route>
@@ -11715,6 +11739,7 @@
       <routeOutputTurnout systemName="LT215" state="CLOSED" />
       <routeOutputTurnout systemName="LT216" state="CLOSED" />
       <routeOutputTurnout systemName="LT273" state="THROWN" />
+      <routeOutputSensor systemName="Aux Init" state="INACTIVE" />
       <routeSensor systemName="IS18" mode="onActive" />
       <turnoutsAlignedSensor name="Main 2 Done" />
     </route>
@@ -17094,19 +17119,19 @@
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Fri Jun 06 07:35:42 EDT 2025</date>
+      <date>Fri Jun 06 07:59:46 EDT 2025</date>
       <filename>PanelPro (v5.11.6)</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Fri Jun 06 07:35:46 EDT 2025</date>
+      <date>Fri Jun 06 07:59:50 EDT 2025</date>
       <filename>/Users/jake/Library/Mobile Documents/com~apple~CloudDocs/Trains/PMRRM_Work_Dir/git_repos/PMRRM/Profiles/Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Fri Jun 06 07:59:06 EDT 2025</date>
+      <date>Fri Jun 06 08:11:51 EDT 2025</date>
       <filename>/Users/jake/Library/Mobile Documents/com~apple~CloudDocs/Trains/PMRRM_Work_Dir/git_repos/PMRRM/Profiles/Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
     </operation>
   </filehistory>
-  <!--Written by JMRI version 5.11.6plus+jake+20250606T1135Z+R8954fcfb18d on Fri Jun 06 07:59:06 EDT 2025-->
+  <!--Written by JMRI version 5.11.6plus+jake+20250606T1159Z+R8954fcfb18d on Fri Jun 06 08:11:51 EDT 2025-->
 </layout-config>
