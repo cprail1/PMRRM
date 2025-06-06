@@ -2473,6 +2473,14 @@
       <userName>NX-GS-WB</userName>
     </sensor>
     <sensor inverted="false">
+      <systemName>IS114</systemName>
+      <userName>NX-WhiskeyS2-WB</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>IS115</systemName>
+      <userName>NX-WhiskeyS2-EB</userName>
+    </sensor>
+    <sensor inverted="false">
       <systemName>ISCLOCKRUNNING</systemName>
     </sensor>
   </sensors>
@@ -6419,7 +6427,7 @@
       <systemName>IM64</systemName>
       <userName>Vista 3</userName>
     </memory>
-    <memory value="8:11 AM">
+    <memory value="9:23 AM">
       <systemName>IMCURRENTTIME</systemName>
     </memory>
     <memory value="1.0">
@@ -11938,13 +11946,19 @@
       <source type="sensor" item="NX-GS-WB">
         <destination type="sensor" item="NX-HM-WB" nxType="fullinterlocking" uniqueid="IN:6d164caf-7ad7-4143-92f5-bd5d358dc6c3" />
       </source>
+      <source type="sensor" item="NX-WhiskeyS2-EB">
+        <destination type="sensor" item="NX-VistaM-EB" nxType="fullinterlocking" uniqueid="IN:3c334da8-4adf-497c-918a-748b9615895c" />
+        <destination type="sensor" item="NX-VistaS-EB" nxType="fullinterlocking" uniqueid="IN:cfae4711-7aaa-4b38-a603-58554df752ae" />
+      </source>
       <source type="sensor" item="NX-XeroxM1-EB">
+        <destination type="sensor" item="NX-WhiskeyS2-EB" nxType="fullinterlocking" uniqueid="IN:eda46616-5624-4054-a211-25a28989b91e" />
         <destination type="sensor" item="NX-WhiskeyM-EB" nxType="fullinterlocking" uniqueid="IN:2a3e9138-ce43-4e30-94fb-6f6b6c7ff71a" />
         <destination type="sensor" item="NX-WhiskeyS1-EB" nxType="fullinterlocking" uniqueid="IN:80d56c95-7a94-4054-965a-db117beddef9" />
         <destination type="sensor" item="NX-VistaM-EB" nxType="fullinterlocking" uniqueid="IN:b7b44a79-fa14-40ea-ae72-af8197f6a1ed" />
         <destination type="sensor" item="NX-VistaS-EB" nxType="fullinterlocking" uniqueid="IN:d58aedbb-7ba8-44f8-aa37-e8902b538472" />
       </source>
       <source type="sensor" item="NX-XeroxM2-EB">
+        <destination type="sensor" item="NX-WhiskeyS2-EB" nxType="fullinterlocking" uniqueid="IN:9aae4b7d-3b8c-4637-8a14-830de4e3cfdd" />
         <destination type="sensor" item="NX-WhiskeyM-EB" nxType="fullinterlocking" uniqueid="IN:ec9c1a61-118d-41ea-b857-c107feb5f83c" />
         <destination type="sensor" item="NX-WhiskeyS1-EB" nxType="fullinterlocking" uniqueid="IN:2dae39ab-c313-45ee-b884-0a1f2d4536f5" />
         <destination type="sensor" item="NX-VistaM-EB" nxType="fullinterlocking" uniqueid="IN:3b86ca50-263d-43a5-bac9-cafd932f6416" />
@@ -11959,10 +11973,12 @@
         <destination type="sensor" item="NX-VistaS-EB" nxType="fullinterlocking" uniqueid="IN:116c1426-9fd9-4bbb-bc6d-8a6093bb1af9" />
       </source>
       <source type="sensor" item="NX-VistaM-WB">
+        <destination type="sensor" item="NX-WhiskeyS2-WB" nxType="fullinterlocking" uniqueid="IN:9f4ca04b-5a21-4152-bb33-ece97493cd92" />
         <destination type="sensor" item="NX-WhiskeyM-WB" nxType="fullinterlocking" uniqueid="IN:b07aaba8-eb82-4ff5-ae74-71a9918068c5" />
         <destination type="sensor" item="NX-WhiskeyS1-WB" nxType="fullinterlocking" uniqueid="IN:345e344d-c9d4-4a6b-82d8-65d154d4a9c2" />
       </source>
       <source type="sensor" item="NX-VistaS-WB">
+        <destination type="sensor" item="NX-WhiskeyS2-WB" nxType="fullinterlocking" uniqueid="IN:830cbc99-9b2f-46d0-bc35-2b050d653cdf" />
         <destination type="sensor" item="NX-WhiskeyM-WB" nxType="fullinterlocking" uniqueid="IN:9c1fbd98-413e-4cdb-9930-0f8f6c711ff3" />
         <destination type="sensor" item="NX-WhiskeyS1-WB" nxType="fullinterlocking" uniqueid="IN:24c7cf28-2452-4d91-9da4-09d30194c91e" />
       </source>
@@ -13050,7 +13066,7 @@
       <tooltip>Text Label</tooltip>
     </positionablelabel>
   </paneleditor>
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="PMRRM Dispatcher" x="0" y="25" windowheight="1415" windowwidth="2560" panelheight="810" panelwidth="1570" sliders="yes" scrollable="both" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="yes" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclethrowncolor="orange" turnoutcirclesize="2" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="yes" redBackground="192" greenBackground="192" blueBackground="192" gridSize="5" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="PMRRM Dispatcher" x="0" y="25" windowheight="1415" windowwidth="2560" panelheight="809" panelwidth="1572" sliders="yes" scrollable="both" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="yes" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclethrowncolor="orange" turnoutcirclesize="2" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="yes" redBackground="192" greenBackground="192" blueBackground="192" gridSize="5" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="PMRRC NX DS 4a mod update" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
       <mainBallastWidth>0</mainBallastWidth>
@@ -16518,6 +16534,36 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
+    <sensoricon sensor="NX-WhiskeyS2-WB" x="545" y="650" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="315" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="315" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/smallschematics/tracksegments/circuit-empty.gif" degrees="315" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="315" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="315" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <sensoricon sensor="NX-WhiskeyS2-EB" x="635" y="650" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="45" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="45" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/smallschematics/tracksegments/circuit-empty.gif" degrees="45" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="45" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="45" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
     <layoutturnout ident="TO1" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1215.0" ycen="400.0" xa="1225.0" ya="400.0" xb="1205.0" yb="400.0" xc="1195.0" yc="390.0" xd="1225.0" yd="400.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Midway E F" blockname="MEF" connectaname="T1" connectbname="T16" connectcname="T4">
       <sensorB>NX-MEF-WB</sensorB>
     </layoutturnout>
@@ -16585,12 +16631,14 @@
     </layoutturnout>
     <layoutturnout ident="TO38" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="670.0" ycen="635.0" xa="680.0" ya="635.0" xb="660.0" yb="635.0" xc="660.0" yc="645.0" xd="680.0" yd="635.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Whiskey E 2" blockname="V-W" connectaname="T65" connectbname="T66" connectcname="T68">
       <sensorB>NX-WhiskeyS1-EB</sensorB>
+      <sensorC>NX-WhiskeyS2-EB</sensorC>
     </layoutturnout>
     <layoutturnout ident="TO39" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="490.0" ycen="615.0" xa="470.0" ya="615.0" xb="510.0" yb="615.0" xc="510.0" yc="635.0" xd="470.0" yd="615.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="LT99" blockname="W-X" connectaname="T69" connectbname="T64" connectcname="T67">
       <sensorB>NX-WhiskeyM-WB</sensorB>
     </layoutturnout>
     <layoutturnout ident="TO40" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="520.0" ycen="635.0" xa="510.0" ya="635.0" xb="530.0" yb="635.0" xc="530.0" yc="645.0" xd="510.0" yd="635.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Whiskey W 2" blockname="W-X" connectaname="T67" connectbname="T66" connectcname="T174">
       <sensorB>NX-WhiskeyS1-WB</sensorB>
+      <sensorC>NX-WhiskeyS2-WB</sensorC>
     </layoutturnout>
     <layoutturnout ident="TO41" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="380.0" ycen="615.0" xa="405.0" ya="615.0" xb="355.0" yb="615.0" xc="365.0" yc="630.0" xd="405.0" yd="615.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Xerox E" blockname="W-X" connectaname="T69" connectbname="T70" connectcname="T71">
       <sensorB>NX-XeroxM1-EB</sensorB>
@@ -17119,19 +17167,19 @@
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Fri Jun 06 07:59:46 EDT 2025</date>
+      <date>Fri Jun 06 09:18:53 EDT 2025</date>
       <filename>PanelPro (v5.11.6)</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Fri Jun 06 07:59:50 EDT 2025</date>
+      <date>Fri Jun 06 09:18:57 EDT 2025</date>
       <filename>/Users/jake/Library/Mobile Documents/com~apple~CloudDocs/Trains/PMRRM_Work_Dir/git_repos/PMRRM/Profiles/Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Fri Jun 06 08:11:51 EDT 2025</date>
+      <date>Fri Jun 06 09:23:57 EDT 2025</date>
       <filename>/Users/jake/Library/Mobile Documents/com~apple~CloudDocs/Trains/PMRRM_Work_Dir/git_repos/PMRRM/Profiles/Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
     </operation>
   </filehistory>
-  <!--Written by JMRI version 5.11.6plus+jake+20250606T1159Z+R8954fcfb18d on Fri Jun 06 08:11:51 EDT 2025-->
+  <!--Written by JMRI version 5.11.6plus+jake+20250606T1318Z+R8954fcfb18d on Fri Jun 06 09:23:57 EDT 2025-->
 </layout-config>
