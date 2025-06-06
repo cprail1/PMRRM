@@ -6419,7 +6419,7 @@
       <systemName>IM64</systemName>
       <userName>Vista 3</userName>
     </memory>
-    <memory value="9:26 PM">
+    <memory value="10:21 PM">
       <systemName>IMCURRENTTIME</systemName>
     </memory>
     <memory value="1.0">
@@ -8220,11 +8220,7 @@
       <userName>Whiskey Siding 1</userName>
       <permissive>no</permissive>
       <occupancysensor>Whiskey siding 1</occupancysensor>
-      <path todir="64" fromdir="128" block="IB25">
-        <beansetting setting="2">
-          <turnout systemName="LT95" />
-        </beansetting>
-      </path>
+      <path todir="64" fromdir="128" block="IB25" />
       <path todir="128" fromdir="64" block="IB26">
         <beansetting setting="2">
           <turnout systemName="LT98" />
@@ -8450,9 +8446,6 @@
         </beansetting>
       </path>
       <path todir="128" fromdir="64" block="IB19">
-        <beansetting setting="2">
-          <turnout systemName="LT95" />
-        </beansetting>
         <beansetting setting="4">
           <turnout systemName="LT96" />
         </beansetting>
@@ -8470,18 +8463,12 @@
           <turnout systemName="Whiskey Grain storage" />
         </beansetting>
         <beansetting setting="4">
-          <turnout systemName="LT95" />
-        </beansetting>
-        <beansetting setting="4">
           <turnout systemName="LT96" />
         </beansetting>
       </path>
       <path todir="128" fromdir="64" block="IB100">
         <beansetting setting="4">
           <turnout systemName="Whiskey Grain storage" />
-        </beansetting>
-        <beansetting setting="4">
-          <turnout systemName="LT95" />
         </beansetting>
         <beansetting setting="4">
           <turnout systemName="LT96" />
@@ -9758,7 +9745,7 @@
       <permissive>no</permissive>
       <path todir="144" fromdir="96" block="IB136" />
       <path todir="128" fromdir="64" block="IB140" />
-      <path todir="96" fromdir="144" block="IB144" />
+      <path todir="16" fromdir="32" block="IB144" />
     </block>
     <block systemName="IB110" length="0.0" curve="0">
       <systemName>IB110</systemName>
@@ -10105,6 +10092,7 @@
       <systemName>IB142</systemName>
       <userName>AUTOBLK:157</userName>
       <permissive>no</permissive>
+      <path todir="144" fromdir="96" block="IB149" />
       <path todir="96" fromdir="144" block="IB153" />
     </block>
     <block systemName="IB143" length="0.0" curve="0">
@@ -10117,8 +10105,8 @@
       <systemName>IB144</systemName>
       <userName>AUTOBLK:159</userName>
       <permissive>no</permissive>
-      <path todir="144" fromdir="96" block="IB109" />
-      <path todir="96" fromdir="144" block="IB154" />
+      <path todir="32" fromdir="16" block="IB109" />
+      <path todir="32" fromdir="16" block="IB154" />
     </block>
     <block systemName="IB145" length="0.0" curve="0">
       <systemName>IB145</systemName>
@@ -10138,7 +10126,7 @@
       <systemName>IB147</systemName>
       <userName>AUTOBLK:162</userName>
       <permissive>no</permissive>
-      <path todir="16" fromdir="32" block="IB148" />
+      <path todir="128" fromdir="64" block="IB148" />
       <path todir="128" fromdir="64" block="IB150" />
       <path todir="64" fromdir="128" block="IB172" />
       <path todir="64" fromdir="128" block="IB175" />
@@ -10155,6 +10143,7 @@
       <userName>AUTOBLK:164</userName>
       <permissive>no</permissive>
       <path todir="144" fromdir="96" block="IB110" />
+      <path todir="96" fromdir="144" block="IB142" />
     </block>
     <block systemName="IB150" length="0.0" curve="0">
       <systemName>IB150</systemName>
@@ -10183,15 +10172,15 @@
       <userName>AUTOBLK:168</userName>
       <permissive>no</permissive>
       <path todir="144" fromdir="96" block="IB142" />
-      <path todir="128" fromdir="64" block="IB159" />
-      <path todir="128" fromdir="64" block="IB162" />
+      <path todir="16" fromdir="32" block="IB159" />
+      <path todir="96" fromdir="144" block="IB162" />
     </block>
     <block systemName="IB154" length="0.0" curve="0">
       <systemName>IB154</systemName>
       <userName>AUTOBLK:169</userName>
       <permissive>no</permissive>
-      <path todir="144" fromdir="96" block="IB144" />
-      <path todir="64" fromdir="128" block="IB159" />
+      <path todir="16" fromdir="32" block="IB144" />
+      <path todir="16" fromdir="32" block="IB159" />
       <path todir="96" fromdir="144" block="IB164" />
     </block>
     <block systemName="IB155" length="0.0" curve="0">
@@ -10206,7 +10195,7 @@
       <systemName>IB156</systemName>
       <userName>AUTOBLK:171</userName>
       <permissive>no</permissive>
-      <path todir="16" fromdir="32" block="IB163" />
+      <path todir="32" fromdir="16" block="IB163" />
       <path todir="144" fromdir="96" block="IB164" />
       <path todir="96" fromdir="144" block="IB166" />
     </block>
@@ -10259,7 +10248,7 @@
       <userName>AUTOBLK:178</userName>
       <permissive>no</permissive>
       <path todir="32" fromdir="16" block="IB155" />
-      <path todir="32" fromdir="16" block="IB156" />
+      <path todir="16" fromdir="32" block="IB156" />
     </block>
     <block systemName="IB164" length="0.0" curve="0">
       <systemName>IB164</systemName>
@@ -10552,6 +10541,11 @@
       <userName>Bend CP1-L</userName>
       <permissive>no</permissive>
       <path todir="128" fromdir="64" block="IB39" />
+      <path todir="64" fromdir="128" block="IB151">
+        <beansetting setting="2">
+          <turnout systemName="Bend West 2 to 1" />
+        </beansetting>
+      </path>
       <path todir="64" fromdir="128" block="IB:AUTO:0023">
         <beansetting setting="4">
           <turnout systemName="Bend West 2 to 1" />
@@ -11083,10 +11077,6 @@
       <systemName>ILB82</systemName>
       <userName>AUTOBLK:82</userName>
     </layoutblock>
-    <layoutblock systemName="ILB83" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="white">
-      <systemName>ILB83</systemName>
-      <userName>Bend CP1-R</userName>
-    </layoutblock>
     <layoutblock systemName="ILB84" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="white">
       <systemName>ILB84</systemName>
       <userName>Bend CP3-L</userName>
@@ -11199,25 +11189,9 @@
       <systemName>ILB111</systemName>
       <userName>AUTOBLK:111</userName>
     </layoutblock>
-    <layoutblock systemName="ILB112" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="white">
-      <systemName>ILB112</systemName>
-      <userName>AUTOBLK:112</userName>
-    </layoutblock>
-    <layoutblock systemName="ILB113" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="white">
-      <systemName>ILB113</systemName>
-      <userName>AUTOBLK:113</userName>
-    </layoutblock>
     <layoutblock systemName="ILB114" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="white">
       <systemName>ILB114</systemName>
       <userName>AUTOBLK:114</userName>
-    </layoutblock>
-    <layoutblock systemName="ILB115" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="white">
-      <systemName>ILB115</systemName>
-      <userName>AUTOBLK:115</userName>
-    </layoutblock>
-    <layoutblock systemName="ILB116" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="white">
-      <systemName>ILB116</systemName>
-      <userName>AUTOBLK:116</userName>
     </layoutblock>
     <layoutblock systemName="ILB117" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="white">
       <systemName>ILB117</systemName>
@@ -11290,6 +11264,10 @@
     <layoutblock systemName="ILB134" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="white">
       <systemName>ILB134</systemName>
       <userName>AUTOBLK:134</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB135" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="white">
+      <systemName>ILB135</systemName>
+      <userName>AUTOBLK:164</userName>
     </layoutblock>
     <layoutblock systemName="ILB136" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="white">
       <systemName>ILB136</systemName>
@@ -11379,10 +11357,6 @@
       <systemName>ILB160</systemName>
       <userName>AUTOBLK:160</userName>
     </layoutblock>
-    <layoutblock systemName="ILB161" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="white">
-      <systemName>ILB161</systemName>
-      <userName>AUTOBLK:161</userName>
-    </layoutblock>
     <layoutblock systemName="ILB162" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="white">
       <systemName>ILB162</systemName>
       <userName>AUTOBLK:162</userName>
@@ -11430,14 +11404,6 @@
     <layoutblock systemName="ILB174" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="white">
       <systemName>ILB174</systemName>
       <userName>AUTOBLK:174</userName>
-    </layoutblock>
-    <layoutblock systemName="ILB175" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="white">
-      <systemName>ILB175</systemName>
-      <userName>AUTOBLK:175</userName>
-    </layoutblock>
-    <layoutblock systemName="ILB176" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="white">
-      <systemName>ILB176</systemName>
-      <userName>AUTOBLK:176</userName>
     </layoutblock>
     <layoutblock systemName="ILB177" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="white">
       <systemName>ILB177</systemName>
@@ -11941,292 +11907,12 @@
         <destination type="sensor" item="NX-HM-WB" nxType="fullinterlocking" uniqueid="IN:6d164caf-7ad7-4143-92f5-bd5d358dc6c3" />
       </source>
       <source type="sensor" item="NX-XeroxM1-EB">
-        <destination type="sensor" item="NX-WhiskeyM-EB" nxType="fullinterlocking" uniqueid="IN:1ab54d75-2a51-440e-a624-c7fd814b96cf" />
-        <destination type="sensor" item="NX-WhiskeyS1-EB" nxType="fullinterlocking" uniqueid="IN:896f1429-ddb5-4e1a-9088-60f31c92b39a" />
         <destination type="sensor" item="NX-VistaM-EB" nxType="fullinterlocking" uniqueid="IN:b7b44a79-fa14-40ea-ae72-af8197f6a1ed" />
         <destination type="sensor" item="NX-VistaS-EB" nxType="fullinterlocking" uniqueid="IN:d58aedbb-7ba8-44f8-aa37-e8902b538472" />
       </source>
       <source type="sensor" item="NX-XeroxM2-EB">
-        <destination type="sensor" item="NX-WhiskeyM-EB" nxType="fullinterlocking" uniqueid="IN:b78a9b83-34fb-46d6-b4f6-387174d09c9b" />
-        <destination type="sensor" item="NX-WhiskeyS1-EB" nxType="fullinterlocking" uniqueid="IN:179260ef-f825-4478-b347-0ee23b9d37eb" />
         <destination type="sensor" item="NX-VistaM-EB" nxType="fullinterlocking" uniqueid="IN:3b86ca50-263d-43a5-bac9-cafd932f6416" />
         <destination type="sensor" item="NX-VistaS-EB" nxType="fullinterlocking" uniqueid="IN:d174a1cf-0091-478d-8c6e-10c51ca07421" />
-      </source>
-      <source type="sensor" item="NX-WhiskeyM-EB">
-        <destination type="sensor" item="NX-VistaM-EB" nxType="fullinterlocking" uniqueid="IN:6d3d9c46-7668-41e0-b6f9-08edfc3383b2" />
-        <destination type="sensor" item="NX-VistaS-EB" nxType="fullinterlocking" uniqueid="IN:ba50de45-cefb-4bc9-8139-9f7e3909e9a9" />
-        <destination type="sensor" item="NX-UptonM-EB" nxType="fullinterlocking" uniqueid="IN:149cc8d8-702a-426b-956c-b20772f43f12" />
-        <destination type="sensor" item="NX-UptonS-EB" nxType="fullinterlocking" uniqueid="IN:07b92046-12c0-41ad-8eb7-9e3c1407cd7b" />
-      </source>
-      <source type="sensor" item="NX-WhiskeyS1-EB">
-        <destination type="sensor" item="NX-VistaM-EB" nxType="fullinterlocking" uniqueid="IN:4f670fc9-4748-4029-9067-f2892a4f9181" />
-        <destination type="sensor" item="NX-VistaS-EB" nxType="fullinterlocking" uniqueid="IN:c19e91d0-e43d-45fe-8371-2f228f67ae51" />
-        <destination type="sensor" item="NX-UptonM-EB" nxType="fullinterlocking" uniqueid="IN:7723a9d8-aca0-4225-9dc9-1f06ed573c61" />
-        <destination type="sensor" item="NX-UptonS-EB" nxType="fullinterlocking" uniqueid="IN:5a1ee227-94f9-4339-b971-f137f6978d0b" />
-      </source>
-      <source type="sensor" item="NX-VistaM-WB">
-        <destination type="sensor" item="NX-WhiskeyM-WB" nxType="fullinterlocking" uniqueid="IN:4d7e841b-b2e0-4f3b-b235-2f54bed83791" />
-        <destination type="sensor" item="NX-WhiskeyS1-WB" nxType="fullinterlocking" uniqueid="IN:87e66751-6677-4eef-845d-4d96124fb521" />
-      </source>
-      <source type="sensor" item="NX-VistaS-WB">
-        <destination type="sensor" item="NX-WhiskeyM-WB" nxType="fullinterlocking" uniqueid="IN:325a4900-742e-427a-b5e1-00eb4d40bf04" />
-        <destination type="sensor" item="NX-WhiskeyS1-WB" nxType="fullinterlocking" uniqueid="IN:2564c194-ce81-45c1-9a0f-94ceb1e35d03" />
-      </source>
-      <source type="sensor" item="NX-VistaM-EB">
-        <destination type="sensor" item="NX-UptonM-EB" nxType="fullinterlocking" uniqueid="IN:bc53951a-67d2-43c6-bd76-262cfa629544" />
-        <destination type="sensor" item="NX-UptonS-EB" nxType="fullinterlocking" uniqueid="IN:34dfa582-27d2-465c-95c5-9df1332aa874" />
-      </source>
-      <source type="sensor" item="NX-VistaS-EB">
-        <destination type="sensor" item="NX-UptonM-EB" nxType="fullinterlocking" uniqueid="IN:0754752d-b948-4dfd-9aff-ac97b7b916ec" />
-        <destination type="sensor" item="NX-UptonS-EB" nxType="fullinterlocking" uniqueid="IN:8efdb6aa-9358-4221-8660-93d06c76c5f9" />
-      </source>
-      <source type="sensor" item="NX-TroyM-WB">
-        <destination type="sensor" item="NX-UptonM-WB" nxType="fullinterlocking" uniqueid="IN:8e9fb68b-2b5a-49cd-a6ba-01b4b82693bc" />
-        <destination type="sensor" item="NX-UptonS-WB" nxType="fullinterlocking" uniqueid="IN:776440c5-f68e-43ae-925f-86af66f17b42" />
-      </source>
-      <source type="sensor" item="NX-TroyS-WB">
-        <destination type="sensor" item="NX-UptonM-WB" nxType="fullinterlocking" uniqueid="IN:5df3d26a-c14d-4245-bb3e-3004e64cebeb" />
-        <destination type="sensor" item="NX-UptonS-WB" nxType="fullinterlocking" uniqueid="IN:ed382306-38a1-4c97-b947-859c875e5578" />
-      </source>
-      <source type="sensor" item="NX-TroyM-EB">
-        <destination type="sensor" item="NX-SierraM-EB" nxType="fullinterlocking" uniqueid="IN:13253142-5f7d-4451-a128-c29b99bae7d6" />
-        <destination type="sensor" item="NX-SierraS-EB" nxType="fullinterlocking" uniqueid="IN:704ba25b-fd3f-4522-b175-7ed6096e07da" />
-      </source>
-      <source type="sensor" item="NX-TroyS-EB">
-        <destination type="sensor" item="NX-SierraM-EB" nxType="fullinterlocking" uniqueid="IN:ee0e5792-723e-4903-b55e-87cba713e7b3" />
-        <destination type="sensor" item="NX-SierraS-EB" nxType="fullinterlocking" uniqueid="IN:08370f23-1a43-4ad4-a8f5-d2422bb5dbeb" />
-      </source>
-      <source type="sensor" item="NX-SierraM-WB">
-        <destination type="sensor" item="NX-Troy3-WB" nxType="fullinterlocking" uniqueid="IN:8ed5129f-37be-4ad0-bf3e-a35e241c8190" />
-        <destination type="sensor" item="NX-TroyM-WB" nxType="fullinterlocking" uniqueid="IN:8981c674-e5f9-4c99-9086-7108380a66bd" />
-        <destination type="sensor" item="NX-TroyS-WB" nxType="fullinterlocking" uniqueid="IN:0d4ebb1a-11f4-4347-9185-571d5862f69b" />
-      </source>
-      <source type="sensor" item="NX-SierraS-WB">
-        <destination type="sensor" item="NX-Troy3-WB" nxType="fullinterlocking" uniqueid="IN:5096b8d8-3b11-46a2-b200-f845793601fd" />
-        <destination type="sensor" item="NX-TroyM-WB" nxType="fullinterlocking" uniqueid="IN:136515d1-f582-4205-9424-4abab9695d99" />
-        <destination type="sensor" item="NX-TroyS-WB" nxType="fullinterlocking" uniqueid="IN:b32c48b5-3d26-4548-a263-7296e0ccf727" />
-      </source>
-      <source type="sensor" item="NX-SierraM-EB">
-        <destination type="sensor" item="NX-RedcliffM-EB" nxType="fullinterlocking" uniqueid="IN:c194b509-3acf-4f56-877c-396926d71e01" />
-        <destination type="sensor" item="NX-RedcliffS-EB" nxType="fullinterlocking" uniqueid="IN:13e75877-d65c-419c-882f-92b2a9163ad8" />
-      </source>
-      <source type="sensor" item="NX-SierraS-EB">
-        <destination type="sensor" item="NX-RedcliffM-EB" nxType="fullinterlocking" uniqueid="IN:7ef5e9b3-c1ac-4e39-8c1d-88b6e304db60" />
-        <destination type="sensor" item="NX-RedcliffS-EB" nxType="fullinterlocking" uniqueid="IN:530fb48d-b182-4845-8855-418e8a4cf927" />
-      </source>
-      <source type="sensor" item="NX-RedcliffM-WB">
-        <destination type="sensor" item="NX-SierraM-WB" nxType="fullinterlocking" uniqueid="IN:165e6b30-53a1-4d99-bd28-ef09e2ab1df9" />
-        <destination type="sensor" item="NX-SierraS-WB" nxType="fullinterlocking" uniqueid="IN:9dc311e6-1501-4121-945d-86a28a1587e2" />
-      </source>
-      <source type="sensor" item="NX-RedcliffS-WB">
-        <destination type="sensor" item="NX-SierraM-WB" nxType="fullinterlocking" uniqueid="IN:3c169274-8ec8-403e-9943-ca3a89087202" />
-        <destination type="sensor" item="NX-SierraS-WB" nxType="fullinterlocking" uniqueid="IN:8eed9fb3-d278-43e4-8b4a-fb4c5bd4c8fa" />
-      </source>
-      <source type="sensor" item="NX-RedcliffM-EB">
-        <destination type="sensor" item="NX-PDM-EB" nxType="fullinterlocking" uniqueid="IN:64d7914f-f22b-4e5f-8878-4ecfde422c06" />
-        <destination type="sensor" item="NX-PDS-EB" nxType="fullinterlocking" uniqueid="IN:5a5d677b-e68f-4e5c-ac46-15ba29f53d4c" />
-      </source>
-      <source type="sensor" item="NX-RedcliffS-EB">
-        <destination type="sensor" item="NX-PDM-EB" nxType="fullinterlocking" uniqueid="IN:2e336261-e1e0-4c26-bb4c-056b0f75a37e" />
-        <destination type="sensor" item="NX-PDS-EB" nxType="fullinterlocking" uniqueid="IN:ed13ac35-b8f2-4712-b0ef-0ce5a0341629" />
-      </source>
-      <source type="sensor" item="NX-PDM-WB">
-        <destination type="sensor" item="NX-RedcliffM-WB" nxType="fullinterlocking" uniqueid="IN:ebc959ba-7a5e-42a6-a863-8094b1de711f" />
-        <destination type="sensor" item="NX-RedcliffS-WB" nxType="fullinterlocking" uniqueid="IN:f5b3aaca-b07e-4562-97fc-b3451adcdd05" />
-      </source>
-      <source type="sensor" item="NX-PDS-WB">
-        <destination type="sensor" item="NX-RedcliffM-WB" nxType="fullinterlocking" uniqueid="IN:8e5faf84-c3b3-42ed-95e3-758616d676e6" />
-        <destination type="sensor" item="NX-RedcliffS-WB" nxType="fullinterlocking" uniqueid="IN:07be4992-1eef-41e8-b4e7-72a0dc652278" />
-      </source>
-      <source type="sensor" item="NX-PDM-EB">
-        <destination type="sensor" item="NX-OM-EB" nxType="fullinterlocking" uniqueid="IN:34d5f432-6252-4969-ba64-034b03557905" />
-        <destination type="sensor" item="NX-MEP1-WB" nxType="fullinterlocking" uniqueid="IN:a6649882-127f-474f-87f3-2b60bba29268" />
-        <destination type="sensor" item="NX-MEP2-WB" nxType="fullinterlocking" uniqueid="IN:032c6e4f-493c-4cdc-b0e9-964dc3c4b0ef" />
-        <destination type="sensor" item="NX-MEP3-WB" nxType="fullinterlocking" uniqueid="IN:e1af22ff-9775-4813-aef8-0831e53dd7e8" />
-      </source>
-      <source type="sensor" item="NX-PDS-EB">
-        <destination type="sensor" item="NX-OM-EB" nxType="fullinterlocking" uniqueid="IN:6139fad1-f1b0-4824-9ab7-f4ed51f1539b" />
-        <destination type="sensor" item="NX-MEP1-WB" nxType="fullinterlocking" uniqueid="IN:186c5a5b-8fec-4728-b66c-74866f7c053f" />
-        <destination type="sensor" item="NX-MEP2-WB" nxType="fullinterlocking" uniqueid="IN:14344d84-538f-4b54-8661-395f3625b0ac" />
-        <destination type="sensor" item="NX-MEP3-WB" nxType="fullinterlocking" uniqueid="IN:e3f47e12-1f17-41b3-bca3-72ec08513d18" />
-      </source>
-      <source type="sensor" item="NX-UptonM-EB">
-        <destination type="sensor" item="NX-Troy3-EB" nxType="fullinterlocking" uniqueid="IN:a475e3e8-b206-4f16-997a-a023e8a00124" />
-        <destination type="sensor" item="NX-TroyM-EB" nxType="fullinterlocking" uniqueid="IN:09153c7c-4104-4ab5-aa78-525bfcbab0e7" />
-        <destination type="sensor" item="NX-TroyS-EB" nxType="fullinterlocking" uniqueid="IN:6cac4abe-f303-459f-8b48-c66b835212d2" />
-        <destination type="sensor" item="NX-SierraM-EB" nxType="fullinterlocking" uniqueid="IN:252b52fe-57e3-4bab-8e97-497802f32805" />
-        <destination type="sensor" item="NX-SierraS-EB" nxType="fullinterlocking" uniqueid="IN:06efeed8-c0d0-4d65-9b8e-1a307536f09b" />
-      </source>
-      <source type="sensor" item="NX-UptonS-EB">
-        <destination type="sensor" item="NX-Troy3-EB" nxType="fullinterlocking" uniqueid="IN:352ba6e9-6b2b-46b7-afd4-c25124676e03" />
-        <destination type="sensor" item="NX-TroyM-EB" nxType="fullinterlocking" uniqueid="IN:f4f5bc6f-c9ef-4904-8482-cd8ed3ae699f" />
-        <destination type="sensor" item="NX-TroyS-EB" nxType="fullinterlocking" uniqueid="IN:2d4eeebf-e3c0-48a7-9efc-d58beb040047" />
-        <destination type="sensor" item="NX-SierraM-EB" nxType="fullinterlocking" uniqueid="IN:0e981054-09a7-4623-9f8d-093d3d6b3f73" />
-        <destination type="sensor" item="NX-SierraS-EB" nxType="fullinterlocking" uniqueid="IN:7d55db15-484c-475c-b7a8-274b95ffb6c4" />
-      </source>
-      <source type="sensor" item="NX-UptonM-WB">
-        <destination type="sensor" item="NX-WhiskeyM-WB" nxType="fullinterlocking" uniqueid="IN:fc4e61a2-cbbf-423e-a022-31ba0a7ed7c8" />
-        <destination type="sensor" item="NX-WhiskeyS1-WB" nxType="fullinterlocking" uniqueid="IN:fdffa573-6e83-4a29-b990-16f12320cd08" />
-        <destination type="sensor" item="NX-VistaM-WB" nxType="fullinterlocking" uniqueid="IN:281a5842-9eed-4a6b-82f2-d320fc94337e" />
-        <destination type="sensor" item="NX-VistaS-WB" nxType="fullinterlocking" uniqueid="IN:c6a6956f-f4a6-482c-ad14-f6eea05db535" />
-      </source>
-      <source type="sensor" item="NX-UptonS-WB">
-        <destination type="sensor" item="NX-WhiskeyM-WB" nxType="fullinterlocking" uniqueid="IN:3a16edd9-36ba-461c-b9a8-21d085977698" />
-        <destination type="sensor" item="NX-WhiskeyS1-WB" nxType="fullinterlocking" uniqueid="IN:d37bf1a2-9782-4ffb-bfa6-6efbd95b0c48" />
-        <destination type="sensor" item="NX-VistaM-WB" nxType="fullinterlocking" uniqueid="IN:8a29ae4d-f59c-42e1-abf2-eccb514d4926" />
-        <destination type="sensor" item="NX-VistaS-WB" nxType="fullinterlocking" uniqueid="IN:d860991d-532a-4664-af18-aa2a883758fc" />
-      </source>
-      <source type="sensor" item="NX-OM-WB">
-        <destination type="sensor" item="NX-PDM-WB" nxType="fullinterlocking" uniqueid="IN:c9b03146-7bd8-41ae-b0a2-28e659edad94" />
-        <destination type="sensor" item="NX-PDS-WB" nxType="fullinterlocking" uniqueid="IN:cfd10b17-f347-40c2-a091-2ae2828f4429" />
-      </source>
-      <source type="sensor" item="NX-OS-WB">
-        <destination type="sensor" item="NX-PDM-WB" nxType="fullinterlocking" uniqueid="IN:b35a0a88-b842-446b-8b65-99f36595cdc1" />
-        <destination type="sensor" item="NX-PDS-WB" nxType="fullinterlocking" uniqueid="IN:70972111-950f-496a-8f3e-2da5a0487d6a" />
-      </source>
-      <source type="sensor" item="NX-OM-EB">
-        <destination type="sensor" item="NX-MEP1-WB" nxType="fullinterlocking" uniqueid="IN:fa9ac2b0-fab5-43bd-9b00-b2b4820c5d40" />
-        <destination type="sensor" item="NX-MEP2-WB" nxType="fullinterlocking" uniqueid="IN:d8c4f887-50cc-4b08-a1be-03c98893178b" />
-        <destination type="sensor" item="NX-MEP3-WB" nxType="fullinterlocking" uniqueid="IN:ae11b0a9-d4de-4591-8b89-431b57df1ddb" />
-      </source>
-      <source type="sensor" item="NX-MWP-WB">
-        <destination type="sensor" item="NX-OM-WB" nxType="fullinterlocking" uniqueid="IN:83c3ad96-3b51-4c6c-a7c1-076a4caf9b19" />
-        <destination type="sensor" item="NX-OS-WB" nxType="fullinterlocking" uniqueid="IN:02b0b0e0-8417-48ec-9981-842055b8f507" />
-      </source>
-      <source type="sensor" item="NX-MWF-WB">
-        <destination type="sensor" item="NX-OM-WB" nxType="fullinterlocking" uniqueid="IN:40e3884c-c5cd-4568-a222-39b18dcb79dd" />
-        <destination type="sensor" item="NX-OS-WB" nxType="fullinterlocking" uniqueid="IN:252432ac-063a-4332-a806-a1ad28b33c47" />
-      </source>
-      <source type="sensor" item="NX-MEP-EB">
-        <destination type="sensor" item="NX-JM-EB" nxType="fullinterlocking" uniqueid="IN:9a783a3f-029c-42ab-b18e-ef7f5cbf9a3d" />
-        <destination type="sensor" item="NX-JS-EB" nxType="fullinterlocking" uniqueid="IN:30235e43-e08a-4e97-847d-dc8c22d98931" />
-      </source>
-      <source type="sensor" item="NX-MEF-EB">
-        <destination type="sensor" item="NX-JM-EB" nxType="fullinterlocking" uniqueid="IN:356283f7-2074-4311-af3a-d732df9f64b1" />
-        <destination type="sensor" item="NX-JS-EB" nxType="fullinterlocking" uniqueid="IN:f94afe9d-57a6-482e-a842-90a8132e17c9" />
-      </source>
-      <source type="sensor" item="NX-JM-EB">
-        <destination type="sensor" item="NX-HS-EB" nxType="fullinterlocking" uniqueid="IN:34892065-b922-49aa-8156-1205aa3c8500" />
-        <destination type="sensor" item="NX-GM-EB" nxType="fullinterlocking" uniqueid="IN:592ea1c4-8085-48a7-a93a-dbde7051a0d8" />
-        <destination type="sensor" item="NX-GS-EB" nxType="fullinterlocking" uniqueid="IN:c83d0eae-e49a-4140-9d2d-0bc54e5643c4" />
-      </source>
-      <source type="sensor" item="NX-JS-EB">
-        <destination type="sensor" item="NX-HS-EB" nxType="fullinterlocking" uniqueid="IN:78f2944e-069f-45a0-ae74-c68734dab6f6" />
-        <destination type="sensor" item="NX-GM-EB" nxType="fullinterlocking" uniqueid="IN:3dd2c0f6-af0d-42d3-aca3-fdaef6544883" />
-        <destination type="sensor" item="NX-GS-EB" nxType="fullinterlocking" uniqueid="IN:3ebf336a-8267-4a09-bddd-6d980b74f3fd" />
-      </source>
-      <source type="sensor" item="NX-GM-EB">
-        <destination type="sensor" item="NX-E1-EB" nxType="fullinterlocking" uniqueid="IN:69997e03-339f-4152-8777-92d88d74c32b" />
-        <destination type="sensor" item="NX-E2-EB" nxType="fullinterlocking" uniqueid="IN:26972da8-5924-473f-b5a7-8f9fae05a5a5" />
-        <destination type="sensor" item="NX-E3-EB" nxType="fullinterlocking" uniqueid="IN:73c2f48f-9458-42c8-88e2-0dde2b894035" />
-        <destination type="sensor" item="NX-B1-EB" nxType="fullinterlocking" uniqueid="IN:816b11ab-0000-4cde-abbd-8502afe27210" />
-        <destination type="sensor" item="NX-B2-EB" nxType="fullinterlocking" uniqueid="IN:75f76c80-35ea-484a-bdf5-fa39c1f8a2de" />
-      </source>
-      <source type="sensor" item="NX-GS-EB">
-        <destination type="sensor" item="NX-E1-EB" nxType="fullinterlocking" uniqueid="IN:38442d81-1678-4ff2-9ac8-2f9a4241a93c" />
-        <destination type="sensor" item="NX-E2-EB" nxType="fullinterlocking" uniqueid="IN:388aa23d-c5ae-4c52-88c4-bffe986ba067" />
-        <destination type="sensor" item="NX-E3-EB" nxType="fullinterlocking" uniqueid="IN:aae40a95-fc05-421a-b15b-a356b684ec81" />
-      </source>
-      <source type="sensor" item="NX-E3-WB">
-        <destination type="sensor" item="NX-HS-EB" nxType="fullinterlocking" uniqueid="IN:80beb26a-3dbb-41d6-a395-ee8119e816e3" />
-        <destination type="sensor" item="NX-GS-WB" nxType="fullinterlocking" uniqueid="IN:5f72afe9-e0a4-45ef-8ed8-53a3c6e78710" />
-        <destination type="sensor" item="NX-HM-WB" nxType="fullinterlocking" uniqueid="IN:c38eb0de-1812-4914-adbd-7bfdcc8f51c2" />
-        <destination type="sensor" item="NX-HS-WB" nxType="fullinterlocking" uniqueid="IN:2a9c1596-a189-4c58-8ede-bb5c4a29b5f6" />
-      </source>
-      <source type="sensor" item="NX-E2-WB">
-        <destination type="sensor" item="NX-HS-EB" nxType="fullinterlocking" uniqueid="IN:4ee03a22-9874-4cd0-bfa5-558545e131f1" />
-        <destination type="sensor" item="NX-GS-WB" nxType="fullinterlocking" uniqueid="IN:faf709c7-3c06-41fb-ab6c-2818824233e1" />
-        <destination type="sensor" item="NX-HM-WB" nxType="fullinterlocking" uniqueid="IN:aae83f2a-df32-4960-b8e7-2e5a1aab1fbc" />
-        <destination type="sensor" item="NX-HS-WB" nxType="fullinterlocking" uniqueid="IN:20e8bc10-41bf-44e4-844f-9a4f63fc86db" />
-      </source>
-      <source type="sensor" item="NX-E1-WB">
-        <destination type="sensor" item="NX-HS-EB" nxType="fullinterlocking" uniqueid="IN:bcc86d20-b558-4ac6-8b95-c6ab0862352e" />
-        <destination type="sensor" item="NX-GS-WB" nxType="fullinterlocking" uniqueid="IN:521d2729-9d8c-48dc-a978-d8e0086aea71" />
-        <destination type="sensor" item="NX-HM-WB" nxType="fullinterlocking" uniqueid="IN:c70fe05a-913e-4ca6-9d11-23361a223ef0" />
-        <destination type="sensor" item="NX-HS-WB" nxType="fullinterlocking" uniqueid="IN:a74cd502-84a9-4680-8424-aa70541a4b45" />
-      </source>
-      <source type="sensor" item="NX-HM-WB">
-        <destination type="sensor" item="NX-JM-WB" nxType="fullinterlocking" uniqueid="IN:164151bf-19d2-4612-8b0b-77bed3cb5186" />
-        <destination type="sensor" item="NX-JS-WB" nxType="fullinterlocking" uniqueid="IN:77e15b5d-2045-466d-b197-df7bc581478d" />
-      </source>
-      <source type="sensor" item="NX-HS-WB">
-        <destination type="sensor" item="NX-JM-WB" nxType="fullinterlocking" uniqueid="IN:d22af6f3-223f-4b17-a040-04982c164eed" />
-        <destination type="sensor" item="NX-JS-WB" nxType="fullinterlocking" uniqueid="IN:eca682e4-70b7-4a9c-a5e8-d80430d9b70a" />
-      </source>
-      <source type="sensor" item="NX-JM-WB">
-        <destination type="sensor" item="NX-MWP1-EB" nxType="fullinterlocking" uniqueid="IN:7de020df-3554-4f88-8883-4562b40003a2" />
-        <destination type="sensor" item="NX-MWP2-EB" nxType="fullinterlocking" uniqueid="IN:e306c69a-a522-41f6-bcc7-a12b3bf5e397" />
-        <destination type="sensor" item="NX-MWP3-EB" nxType="fullinterlocking" uniqueid="IN:4dec22f0-79b2-415a-b2f3-3b4fd2af3577" />
-      </source>
-      <source type="sensor" item="NX-JS-WB">
-        <destination type="sensor" item="NX-MWP1-EB" nxType="fullinterlocking" uniqueid="IN:d919c75c-e825-4c08-81fb-532a5a117e86" />
-        <destination type="sensor" item="NX-MWP2-EB" nxType="fullinterlocking" uniqueid="IN:99790e25-a450-44e8-9e82-82f12b28d8a3" />
-        <destination type="sensor" item="NX-MWP3-EB" nxType="fullinterlocking" uniqueid="IN:469e72b0-f44f-4bd4-b350-34e265e635c1" />
-      </source>
-      <source type="sensor" item="NX-MEF-WB">
-        <destination type="sensor" item="NX-MEF-EB" nxType="fullinterlocking" uniqueid="IN:71b565f9-3014-494f-9099-8847a57641f4" />
-      </source>
-      <source type="sensor" item="NX-MEP1-WB">
-        <destination type="sensor" item="NX-MEP-EB" nxType="fullinterlocking" uniqueid="IN:4fde1917-3b12-437e-b974-143fd6bcfe85" />
-      </source>
-      <source type="sensor" item="NX-MEP2-WB">
-        <destination type="sensor" item="NX-MEP-EB" nxType="fullinterlocking" uniqueid="IN:be25fef2-d7b4-45b5-98b6-3d6a1b7a5a45" />
-      </source>
-      <source type="sensor" item="NX-MEP3-WB">
-        <destination type="sensor" item="NX-MEP-EB" nxType="fullinterlocking" uniqueid="IN:99de9862-a950-43db-a672-23c7b1d192dd" />
-      </source>
-      <source type="sensor" item="NX-MWP1-EB">
-        <destination type="sensor" item="NX-MWP-WB" nxType="fullinterlocking" uniqueid="IN:06caaf78-cf07-4f5d-a830-62a6f7e5b506" />
-      </source>
-      <source type="sensor" item="NX-MWP2-EB">
-        <destination type="sensor" item="NX-MWP-WB" nxType="fullinterlocking" uniqueid="IN:bf3a8bf3-0709-444d-a4d6-3268176da1d8" />
-      </source>
-      <source type="sensor" item="NX-MWP3-EB">
-        <destination type="sensor" item="NX-MWP-WB" nxType="fullinterlocking" uniqueid="IN:333316dd-fc86-41a5-bd64-4778472193e8" />
-      </source>
-      <source type="sensor" item="NX-E1-EB">
-        <destination type="sensor" item="NX-D1-EB" nxType="fullinterlocking" uniqueid="IN:caf28fde-258b-48de-b169-fa9c3c432329" />
-        <destination type="sensor" item="NX-D2-EB" nxType="fullinterlocking" uniqueid="IN:556c274e-57f1-45fe-9279-5f7bcce5240d" />
-        <destination type="sensor" item="NX-D3-EB" nxType="fullinterlocking" uniqueid="IN:3d06c882-b71c-4a14-bdc2-d48e9bc81498" />
-        <destination type="sensor" item="NX-D4-EB" nxType="fullinterlocking" uniqueid="IN:901eb351-d547-45e0-8b88-16e8ffa587de" />
-      </source>
-      <source type="sensor" item="NX-E2-EB">
-        <destination type="sensor" item="NX-D1-EB" nxType="fullinterlocking" uniqueid="IN:b8248057-bb86-4fc2-aecd-374e95e41730" />
-        <destination type="sensor" item="NX-D2-EB" nxType="fullinterlocking" uniqueid="IN:665b2a7a-9309-4bdf-a951-c31e1f321dde" />
-        <destination type="sensor" item="NX-D3-EB" nxType="fullinterlocking" uniqueid="IN:b05054e9-93f2-4c21-b1a3-dcee322665a2" />
-        <destination type="sensor" item="NX-D4-EB" nxType="fullinterlocking" uniqueid="IN:7a54e6a9-73ec-4adc-b91d-5316561c5213" />
-      </source>
-      <source type="sensor" item="NX-E3-EB">
-        <destination type="sensor" item="NX-D3-EB" nxType="fullinterlocking" uniqueid="IN:0895b871-1f78-4d3a-8056-f44dfaebee9d" />
-        <destination type="sensor" item="NX-D4-EB" nxType="fullinterlocking" uniqueid="IN:dc44ed32-2931-4d8b-8dab-37b07fe9d438" />
-      </source>
-      <source type="sensor" item="NX-B1-WB">
-        <destination type="sensor" item="NX-D2-WB" nxType="fullinterlocking" uniqueid="IN:9f5721fc-7a88-44d3-9434-efa46a19db24" />
-        <destination type="sensor" item="NX-D3-WB" nxType="fullinterlocking" uniqueid="IN:5bb8af48-4623-47bc-a948-4ae45e1daf44" />
-        <destination type="sensor" item="NX-D4-WB" nxType="fullinterlocking" uniqueid="IN:d41cb905-a19f-48ff-8b00-380024f60931" />
-        <destination type="sensor" item="NX-D1-WB" nxType="fullinterlocking" uniqueid="IN:6e666360-84de-4255-9e52-4acc5fdeddfa" />
-      </source>
-      <source type="sensor" item="NX-B2-WB">
-        <destination type="sensor" item="NX-D2-WB" nxType="fullinterlocking" uniqueid="IN:2fe6fadf-86ea-4ab1-9c13-85244d7d4e78" />
-        <destination type="sensor" item="NX-D3-WB" nxType="fullinterlocking" uniqueid="IN:365e71e5-7368-4ada-b1b8-aaf7ce60e78b" />
-        <destination type="sensor" item="NX-D4-WB" nxType="fullinterlocking" uniqueid="IN:20e19665-31a2-416f-9e16-1accc1f9f965" />
-        <destination type="sensor" item="NX-D1-WB" nxType="fullinterlocking" uniqueid="IN:80d607bd-b29f-4474-a065-31dcaa12fe87" />
-      </source>
-      <source type="sensor" item="NX-B3-WB">
-        <destination type="sensor" item="NX-D2-WB" nxType="fullinterlocking" uniqueid="IN:b80e253e-c9a1-4cd3-be88-08f7cb2e107c" />
-        <destination type="sensor" item="NX-D3-WB" nxType="fullinterlocking" uniqueid="IN:d428beed-38b6-40a4-bdf4-bcc623df8c4c" />
-        <destination type="sensor" item="NX-D4-WB" nxType="fullinterlocking" uniqueid="IN:ced708bd-2c16-4d78-b264-4ee35062049c" />
-        <destination type="sensor" item="NX-D1-WB" nxType="fullinterlocking" uniqueid="IN:00a22bb6-27b1-4b9f-9b95-cdc37bd1d512" />
-      </source>
-      <source type="sensor" item="NX-B4-WB">
-        <destination type="sensor" item="NX-D2-WB" nxType="fullinterlocking" uniqueid="IN:e27c4a79-3e07-4acb-8984-0590463cdcb9" />
-        <destination type="sensor" item="NX-D3-WB" nxType="fullinterlocking" uniqueid="IN:1aa77c00-8192-45c3-bd6e-aa12fdb24a2e" />
-        <destination type="sensor" item="NX-D4-WB" nxType="fullinterlocking" uniqueid="IN:54f77c28-7095-4056-8d2f-e0f2afbbbfca" />
-        <destination type="sensor" item="NX-D1-WB" nxType="fullinterlocking" uniqueid="IN:82d17a37-de41-4762-9dac-6ef6ea3d4975" />
-      </source>
-      <source type="sensor" item="NX-D1-WB">
-        <destination type="sensor" item="NX-E2-WB" nxType="fullinterlocking" uniqueid="IN:4d17b0dc-1590-4d6e-bf67-4588e8be9100" />
-        <destination type="sensor" item="NX-E1-WB" nxType="fullinterlocking" uniqueid="IN:62cff0bd-4e64-4d9e-818b-875795cbe5ab" />
       </source>
     </layoutPanel>
   </entryexitpairs>
@@ -13595,70 +13281,6 @@
     </sensoricon>
     <sensoricon sensor="NX-XeroxM2-EB" x="325" y="650" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <tooltip>NX-XeroxS-EB (IS22)</tooltip>
-      <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="90" scale="1.0">
-        <rotation>0</rotation>
-      </active>
-      <inactive url="program:resources/icons/smallschematics/tracksegments/circuit-empty.gif" degrees="90" scale="1.0">
-        <rotation>0</rotation>
-      </inactive>
-      <unknown url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="90" scale="1.0">
-        <rotation>0</rotation>
-      </unknown>
-      <inconsistent url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="90" scale="1.0">
-        <rotation>0</rotation>
-      </inconsistent>
-      <iconmaps />
-    </sensoricon>
-    <sensoricon sensor="NX-WhiskeyM-WB" x="520" y="610" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
-      <tooltip>NX-WhiskeyM-WB (IS25)</tooltip>
-      <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="270" scale="1.0">
-        <rotation>0</rotation>
-      </active>
-      <inactive url="program:resources/icons/smallschematics/tracksegments/circuit-empty.gif" degrees="270" scale="1.0">
-        <rotation>0</rotation>
-      </inactive>
-      <unknown url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="270" scale="1.0">
-        <rotation>0</rotation>
-      </unknown>
-      <inconsistent url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="270" scale="1.0">
-        <rotation>0</rotation>
-      </inconsistent>
-      <iconmaps />
-    </sensoricon>
-    <sensoricon sensor="NX-WhiskeyS1-WB" x="540" y="630" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
-      <tooltip>NX-WhiskeyS-WB (IS26)</tooltip>
-      <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="270" scale="1.0">
-        <rotation>0</rotation>
-      </active>
-      <inactive url="program:resources/icons/smallschematics/tracksegments/circuit-empty.gif" degrees="270" scale="1.0">
-        <rotation>0</rotation>
-      </inactive>
-      <unknown url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="270" scale="1.0">
-        <rotation>0</rotation>
-      </unknown>
-      <inconsistent url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="270" scale="1.0">
-        <rotation>0</rotation>
-      </inconsistent>
-      <iconmaps />
-    </sensoricon>
-    <sensoricon sensor="NX-WhiskeyM-EB" x="655" y="610" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
-      <tooltip>NX-WhiskeyM-EB (IS27)</tooltip>
-      <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="90" scale="1.0">
-        <rotation>0</rotation>
-      </active>
-      <inactive url="program:resources/icons/smallschematics/tracksegments/circuit-empty.gif" degrees="90" scale="1.0">
-        <rotation>0</rotation>
-      </inactive>
-      <unknown url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="90" scale="1.0">
-        <rotation>0</rotation>
-      </unknown>
-      <inconsistent url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="90" scale="1.0">
-        <rotation>0</rotation>
-      </inconsistent>
-      <iconmaps />
-    </sensoricon>
-    <sensoricon sensor="NX-WhiskeyS1-EB" x="635" y="630" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
-      <tooltip>NX-WhiskeyS-EB (IS28)</tooltip>
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="90" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -16357,7 +15979,7 @@
     <positionablelabel x="545" y="675" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Silo" size="10" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="605" y="675" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Storage " size="10" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="575" y="660" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="195 " fontFamily="Dialog" fontname="Dialog.plain" size="10" style="0" red="0" green="0" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="630" y="660" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="188 " fontFamily="Dialog" fontname="Dialog.plain" size="10" style="0" red="0" green="0" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="630" y="671" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="188 " fontFamily="Dialog" fontname="Dialog.plain" size="10" style="0" red="0" green="0" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="245" y="315" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="162 " fontFamily="Dialog" fontname="Dialog.plain" size="10" style="0" red="0" green="0" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="784" y="450" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Staging " fontFamily="Dialog" fontname="Dialog.plain" size="10" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <sensoricon sensor="Control Blue Text" x="955" y="660" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
@@ -16603,18 +16225,10 @@
     <layoutturnout ident="TO36" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="840.0" ycen="615.0" xa="840.0" ya="615.0" xb="840.0" yb="615.0" xc="855.0" yc="635.0" xd="840.0" yd="615.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="LT93" blockname="V-W" connectaname="T33" connectbname="T59" connectcname="T60">
       <sensorB>NX-VistaM-WB</sensorB>
     </layoutturnout>
-    <layoutturnout ident="TO37" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="700.0" ycen="615.0" xa="720.0" ya="615.0" xb="680.0" yb="615.0" xc="680.0" yc="635.0" xd="720.0" yd="615.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="LT96" blockname="V-W" connectaname="T63" connectbname="T64" connectcname="T65">
-      <sensorB>NX-WhiskeyM-EB</sensorB>
-    </layoutturnout>
-    <layoutturnout ident="TO38" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="670.0" ycen="635.0" xa="680.0" ya="635.0" xb="660.0" yb="635.0" xc="650.0" yc="655.0" xd="680.0" yd="635.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" blockname="V-W" connectaname="T65" connectbname="T66" connectcname="T68">
-      <sensorB>NX-WhiskeyS1-EB</sensorB>
-    </layoutturnout>
-    <layoutturnout ident="TO39" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="490.0" ycen="615.0" xa="470.0" ya="615.0" xb="510.0" yb="615.0" xc="510.0" yc="635.0" xd="470.0" yd="615.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="LT99" blockname="W-X" connectaname="T69" connectbname="T64" connectcname="T67">
-      <sensorB>NX-WhiskeyM-WB</sensorB>
-    </layoutturnout>
-    <layoutturnout ident="TO40" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="520.0" ycen="635.0" xa="510.0" ya="635.0" xb="530.0" yb="635.0" xc="540.0" yc="655.0" xd="510.0" yd="635.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="LT98" blockname="W-X" connectaname="T67" connectbname="T66" connectcname="T174">
-      <sensorB>NX-WhiskeyS1-WB</sensorB>
-    </layoutturnout>
+    <layoutturnout ident="TO37" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="700.0" ycen="615.0" xa="720.0" ya="615.0" xb="680.0" yb="615.0" xc="680.0" yc="635.0" xd="720.0" yd="615.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="LT96" blockname="V-W" connectaname="T63" connectbname="T64" connectcname="T65" />
+    <layoutturnout ident="TO38" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="670.0" ycen="635.0" xa="680.0" ya="635.0" xb="660.0" yb="635.0" xc="660.0" yc="655.0" xd="680.0" yd="635.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Whiskey E 2" blockname="V-W" connectaname="T65" connectbname="T66" connectcname="T68" />
+    <layoutturnout ident="TO39" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="490.0" ycen="615.0" xa="470.0" ya="615.0" xb="510.0" yb="615.0" xc="510.0" yc="635.0" xd="470.0" yd="615.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="LT99" blockname="W-X" connectaname="T69" connectbname="T64" connectcname="T67" />
+    <layoutturnout ident="TO40" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="520.0" ycen="635.0" xa="510.0" ya="635.0" xb="530.0" yb="635.0" xc="540.0" yc="655.0" xd="510.0" yd="635.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="LT98" blockname="W-X" connectaname="T67" connectbname="T66" connectcname="T174" />
     <layoutturnout ident="TO41" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="380.0" ycen="615.0" xa="405.0" ya="615.0" xb="355.0" yb="615.0" xc="365.0" yc="630.0" xd="405.0" yd="615.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Xerox E" blockname="W-X" connectaname="T69" connectbname="T70" connectcname="T71">
       <sensorB>NX-XeroxM1-EB</sensorB>
       <sensorC>NX-XeroxM2-EB</sensorC>
@@ -16740,7 +16354,7 @@
     <layoutturnout ident="TO95" type="WYE_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="180.0" ycen="635.0" xa="165.0" ya="635.0" xb="195.0" yb="641.0" xc="195.0" yc="629.0" xd="165.0" yd="629.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutWyeXml" turnoutname="Yazoo middle wye" blockname="AUTOBLK:131" connectaname="T189" connectbname="T187" connectcname="T186" />
     <layoutturnout ident="TO96" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="225.0" ycen="615.0" xa="250.0" ya="615.0" xb="200.0" yb="615.0" xc="205.0" yc="625.0" xd="250.0" yd="615.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Yazoo X1-Y2,3" blockname="AUTOBLK:132" connectaname="T70" connectbname="T188" connectcname="T186" />
     <layoutturnout ident="TO97" type="RH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="115.0" ycen="625.0" xa="85.0" ya="615.0" xb="124.99999" yb="615.0" xc="145.0" yc="635.0" xd="105.00001" yd="635.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHXOverXml" turnoutname="Yazoo 2-3 xover" blockname="Yazoo Lead 3" blockcname="Yazoo Lead 2" blockdname="Yazoo Lead 2" connectaname="T192" connectbname="T188" connectcname="T189" connectdname="T190" />
-    <layoutturnout ident="TO98" type="LH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="65.0" ycen="645.0" xa="55.333343" ya="635.0" xb="94.0" yb="635.0" xc="74.666657" yc="655.0" xd="36.0" yd="655.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHXOverXml" turnoutname="Yazoo 2-1 xover" blockname="AUTOBLK:137" connectaname="T193" connectbname="T190" connectcname="T191" connectdname="T194" />
+    <layoutturnout ident="TO98" type="LH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="65.0" ycen="645.0" xa="55.333343505859375" ya="635.0" xb="93.99996948242188" yb="635.0" xc="74.66665649414062" yc="655.0" xd="36.000030517578125" yd="655.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHXOverXml" turnoutname="Yazoo 2-1 xover" blockname="AUTOBLK:137" connectaname="T193" connectbname="T190" connectcname="T191" connectdname="T194" />
     <layoutturnout ident="TO85" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="580.0" ycen="655.0" xa="595.0" ya="655.0" xb="565.0" yb="655.0" xc="565.0" yc="670.0" xd="595.0" yd="655.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Whiskey Grain silo" blockname="Whiskey Siding 2" connectaname="T175" connectbname="T174" connectcname="T177" />
     <layoutturnout ident="TO86" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="635.0" ycen="655.0" xa="645.0" ya="655.0" xb="625.0" yb="655.0" xc="620.0" yc="670.0" xd="645.0" yd="655.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Whiskey Grain storage" blockname="V-W" connectaname="T68" connectbname="T175" connectcname="T176" />
     <layoutturnout ident="TO87" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="709.0" ycen="225.0" xa="699.0" ya="215.0" xb="719.0" yb="235.0" xc="729.0" yc="225.0" xd="699.0" yd="215.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Hudson Oil Cans Load 2" blockname="AUTOBLK:67" connectaname="T155" connectbname="T179" connectcname="T180" />
@@ -16776,8 +16390,8 @@
     <layoutturnout ident="TO88" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1310.0" ycen="180.0" xa="1300.0" ya="170.0" xb="1320.0" yb="190.0" xc="1320.0" yc="180.0" xd="1300.0" yd="170.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" blockname="AUTOBLK:169" connectaname="T87" connectbname="T209" connectcname="T88" />
     <layoutturnout ident="TO104" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1355.0" ycen="200.0" xa="1349.0" ya="193.0" xb="1361.0" yb="207.0" xc="1355.0" yc="215.0" xd="1349.0" yd="193.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" blockname="AUTOBLK:170" connectaname="T139" connectbname="T210" connectcname="T206" />
     <layoutturnout ident="TO105" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1355.0" ycen="225.0" xa="1361.0" ya="232.0" xb="1349.0" yb="218.0" xc="1355.0" yc="210.0" xd="1361.0" yd="232.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" blockname="AUTOBLK:171" connectaname="T211" connectbname="T209" connectcname="T206" />
-    <layoutturnout ident="TO106" type="RH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1469.0" ycen="70.0" xa="1436.0" ya="60.0" xb="1480.0" yb="60.0" xc="1502.0" yc="80.0" xd="1458.0" yd="80.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHXOverXml" blockname="AUTOBLK:160" connectaname="T218" connectbname="T220" connectcname="T221" connectdname="T219" />
-    <layoutturnout ident="TO107" type="LH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1354.0" ycen="70.0" xa="1344.00001" ya="60.0" xb="1384.0" yb="60.0" xc="1363.99999" yc="80.0" xd="1324.0" yd="80.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHXOverXml" blockname="AUTOBLK:162" connectaname="T213" connectbname="T218" connectcname="T215" connectdname="T212" />
+    <layoutturnout ident="TO106" type="RH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1469.0" ycen="70.0" xa="1436.0" ya="60.0" xb="1479.999989" yb="60.0" xc="1502.0" yc="80.0" xd="1458.000011" yd="80.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHXOverXml" blockname="AUTOBLK:160" connectaname="T218" connectbname="T220" connectcname="T221" connectdname="T219" />
+    <layoutturnout ident="TO107" type="LH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1354.0" ycen="70.0" xa="1344.0" ya="60.0" xb="1384.0" yb="60.0" xc="1364.0" yc="80.0" xd="1324.0" yd="80.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHXOverXml" blockname="AUTOBLK:162" connectaname="T213" connectbname="T218" connectcname="T215" connectdname="T212" />
     <layoutturnout ident="TO108" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1155.0" ycen="40.0" xa="1135.0" ya="40.0" xb="1175.0" yb="40.0" xc="1175.0" yc="20.0" xd="1135.0" yd="40.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" blockname="AUTOBLK:166" connectaname="T89" connectbname="T140" connectcname="T214" />
     <layoutturnout ident="TO109" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1445.0" ycen="80.0" xa="1455.0" ya="80.0" xb="1435.0" yb="80.0" xc="1436.0" yc="95.0" xd="1455.0" yd="80.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" blockname="AUTOBLK:185" connectaname="T219" connectbname="T216" connectcname="T217" />
     <layoutturnout ident="TO110" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1384.0" ycen="80.0" xa="1369.0" ya="80.0" xb="1399.0" yb="80.0" xc="1400.0" yc="95.0" xd="1369.0" yd="80.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" blockname="AUTOBLK:186" connectaname="T215" connectbname="T216" connectcname="T217" />
@@ -17136,19 +16750,19 @@
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Thu Jun 05 19:33:44 PDT 2025</date>
+      <date>Thu Jun 05 22:05:11 PDT 2025</date>
       <filename>PanelPro (v5.11.6)</filename>
     </operation>
     <operation>
-      <type>Load OK</type>
-      <date>Thu Jun 05 19:33:57 PDT 2025</date>
+      <type>Load with errors</type>
+      <date>Thu Jun 05 22:06:10 PDT 2025</date>
       <filename>/D:/OneDrive/GitHub/PMRRM/Profiles/Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Thu Jun 05 21:26:39 PDT 2025</date>
+      <date>Thu Jun 05 22:21:15 PDT 2025</date>
       <filename>D:\OneDrive\GitHub\PMRRM\Profiles\Dispatcher_Work_in_Progress.jmri\DispatcherDefault.xml</filename>
     </operation>
   </filehistory>
-  <!--Written by JMRI version 5.11.6plus+jenkins+20250523T2119Z+Ree989c135e on Thu Jun 05 21:26:39 PDT 2025-->
+  <!--Written by JMRI version 5.11.6plus+jenkins+20250523T2119Z+Ree989c135e on Thu Jun 05 22:21:15 PDT 2025-->
 </layout-config>
