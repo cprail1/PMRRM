@@ -2830,7 +2830,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT34</systemName>
-      <userName>Hudson Oil Cans load 1</userName>
+      <userName>Hudson Oil Cans load 2</userName>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -2840,7 +2840,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT35</systemName>
-      <userName>Hudson Oil Cans load 2</userName>
+      <userName>Hudson Oil Cans load 1</userName>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -6434,7 +6434,7 @@
       <systemName>IM64</systemName>
       <userName>Vista 3</userName>
     </memory>
-    <memory value="9:25 AM">
+    <memory value="1:09 PM">
       <systemName>IMCURRENTTIME</systemName>
     </memory>
     <memory value="1.0">
@@ -9084,7 +9084,7 @@
           <turnout systemName="Hudson E siding" />
         </beansetting>
         <beansetting setting="2">
-          <turnout systemName="Hudson Oil Cans load 1" />
+          <turnout systemName="Hudson Oil Cans load 2" />
         </beansetting>
       </path>
       <path todir="128" fromdir="64" block="IB67">
@@ -9094,7 +9094,7 @@
       </path>
       <path todir="144" fromdir="96" block="IB132">
         <beansetting setting="4">
-          <turnout systemName="Hudson Oil Cans load 1" />
+          <turnout systemName="Hudson Oil Cans load 2" />
         </beansetting>
       </path>
     </block>
@@ -9730,7 +9730,7 @@
       <permissive>no</permissive>
       <path todir="128" fromdir="64" block="IB132">
         <beansetting setting="2">
-          <turnout systemName="Hudson Oil Cans load 2" />
+          <turnout systemName="Hudson Oil Cans load 1" />
         </beansetting>
       </path>
     </block>
@@ -9740,7 +9740,7 @@
       <permissive>no</permissive>
       <path todir="128" fromdir="64" block="IB132">
         <beansetting setting="4">
-          <turnout systemName="Hudson Oil Cans load 2" />
+          <turnout systemName="Hudson Oil Cans load 1" />
         </beansetting>
       </path>
     </block>
@@ -10065,12 +10065,12 @@
       <path todir="96" fromdir="144" block="IB58" />
       <path todir="64" fromdir="128" block="IB104">
         <beansetting setting="2">
-          <turnout systemName="Hudson Oil Cans load 2" />
+          <turnout systemName="Hudson Oil Cans load 1" />
         </beansetting>
       </path>
       <path todir="64" fromdir="128" block="IB105">
         <beansetting setting="4">
-          <turnout systemName="Hudson Oil Cans load 2" />
+          <turnout systemName="Hudson Oil Cans load 1" />
         </beansetting>
       </path>
     </block>
@@ -11029,11 +11029,11 @@
       <systemName>ILB57</systemName>
       <userName>Hudson 2</userName>
     </layoutblock>
-    <layoutblock systemName="ILB58" occupancysensor="Irvine E" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="IM42">
+    <layoutblock systemName="ILB58" occupancysensor="Irvine E" occupiedsense="2" trackcolor="#BEBEFF" occupiedcolor="red" extracolor="green" memory="IM42">
       <systemName>ILB58</systemName>
       <userName>Incline E</userName>
     </layoutblock>
-    <layoutblock systemName="ILB59" occupancysensor="Irvine W" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="IM41">
+    <layoutblock systemName="ILB59" occupancysensor="Irvine W" occupiedsense="2" trackcolor="#BEBEFF" occupiedcolor="red" extracolor="green" memory="IM41">
       <systemName>ILB59</systemName>
       <userName>Incline W</userName>
     </layoutblock>
@@ -11045,11 +11045,11 @@
       <systemName>ILB61</systemName>
       <userName>Jackson 2</userName>
     </layoutblock>
-    <layoutblock systemName="ILB62" occupancysensor="Kelso" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="IM38">
+    <layoutblock systemName="ILB62" occupancysensor="Kelso" occupiedsense="2" trackcolor="#BEBEFF" occupiedcolor="red" extracolor="green" memory="IM38">
       <systemName>ILB62</systemName>
       <userName>Kelso</userName>
     </layoutblock>
-    <layoutblock systemName="ILB63" occupancysensor="Lake" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="IM37">
+    <layoutblock systemName="ILB63" occupancysensor="Lake" occupiedsense="2" trackcolor="#BEBEFF" occupiedcolor="red" extracolor="green" memory="IM37">
       <systemName>ILB63</systemName>
       <userName>Lake</userName>
     </layoutblock>
@@ -11574,7 +11574,7 @@
       <routeOutputTurnout systemName="Gary Tyson Steel" state="CLOSED" />
       <routeOutputTurnout systemName="Hudson E siding" state="CLOSED" />
       <routeOutputTurnout systemName="Gary W siding" state="CLOSED" />
-      <routeOutputTurnout systemName="Hudson Oil Cans load 1" state="CLOSED" />
+      <routeOutputTurnout systemName="Hudson Oil Cans load 2" state="CLOSED" />
       <routeOutputTurnout systemName="Hudson W siding" state="CLOSED" />
       <routeOutputTurnout systemName="Jackson E siding" state="CLOSED" />
       <routeOutputTurnout systemName="Kelso Industrial" state="CLOSED" />
@@ -13131,7 +13131,7 @@
       <tooltip>Text Label</tooltip>
     </positionablelabel>
   </paneleditor>
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="PMRRM Dispatcher" x="0" y="25" windowheight="970" windowwidth="1920" panelheight="781" panelwidth="1572" sliders="yes" scrollable="both" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="yes" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclethrowncolor="orange" turnoutcirclesize="2" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="yes" redBackground="192" greenBackground="192" blueBackground="192" gridSize="5" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="PMRRM Dispatcher" x="1" y="25" windowheight="970" windowwidth="1920" panelheight="768" panelwidth="1500" sliders="yes" scrollable="both" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="yes" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclethrowncolor="orange" turnoutcirclesize="2" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="yes" redBackground="192" greenBackground="192" blueBackground="192" gridSize="5" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="PMRRC NX DS 4a mod update" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
       <mainBallastWidth>0</mainBallastWidth>
@@ -13236,16 +13236,16 @@
     <positionablelabel x="115" y="500" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="82 " fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <tooltip>Text Label</tooltip>
     </positionablelabel>
-    <positionablelabel x="1000" y="620" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="85 " fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+    <positionablelabel x="1010" y="620" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="85 " fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <tooltip>Text Label</tooltip>
     </positionablelabel>
-    <positionablelabel x="980" y="620" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="86 " fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+    <positionablelabel x="975" y="620" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="86 " fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <tooltip>Text Label</tooltip>
     </positionablelabel>
     <positionablelabel x="795" y="620" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="94 " fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <tooltip>Text Label</tooltip>
     </positionablelabel>
-    <positionablelabel x="820" y="620" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="93 " fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+    <positionablelabel x="825" y="620" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="93 " fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <tooltip>Text Label</tooltip>
     </positionablelabel>
     <positionablelabel x="565" y="690" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="WHISKEY " fontFamily="Dialog" fontname="Dialog" size="14" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
@@ -13431,10 +13431,10 @@
     <positionablelabel x="635" y="115" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Grain " fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <tooltip>Text Label</tooltip>
     </positionablelabel>
-    <positionablelabel x="500" y="115" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Oil cans" fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+    <positionablelabel x="460" y="115" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Oil cans  " fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <tooltip>Text Label</tooltip>
     </positionablelabel>
-    <positionablelabel x="285" y="100" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Branch Line " fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+    <positionablelabel x="265" y="105" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Branch Line " fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <tooltip>Text Label</tooltip>
     </positionablelabel>
     <positionablelabel x="345" y="115" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="DELTA " fontFamily="Dialog" fontname="Dialog" size="14" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
@@ -13548,7 +13548,7 @@
     <positionablelabel x="755" y="170" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="33 " fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <tooltip>Text Label</tooltip>
     </positionablelabel>
-    <positionablelabel x="679" y="215" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="34 " fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+    <positionablelabel x="690" y="225" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="34 " fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <tooltip>Text Label</tooltip>
     </positionablelabel>
     <positionablelabel x="630" y="195" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="36 " fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
@@ -16374,7 +16374,7 @@
       <iconmaps />
     </sensoricon>
     <positionablelabel x="820" y="665" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Show Optional Information" fontFamily="Dialog" fontname="Dialog" size="12" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="694" y="230" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="35" fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="680" y="215" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="35" fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="515" y="390" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="NARROWS " fontFamily="Dialog" fontname="Dialog" size="14" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="75" y="400" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="BRANCH " fontFamily="Dialog" fontname="Dialog" size="11" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="1295" y="520" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Helper return  " fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
@@ -16519,7 +16519,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <positionablelabel x="1480" y="715" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Corner" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1408" y="694" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Corner" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="1235" y="365" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Power spur  " fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="1215" y="325" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="East passenger approach " size="8" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="590" y="325" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="West passenger approach " fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
@@ -16628,7 +16628,6 @@
     </sensoricon>
     <positionablelabel x="570" y="195" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="EAST  " size="8" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="475" y="195" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="WEST  " size="8" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="1381" y="27" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="1 = nothing" size="10" style="0" red="0" green="0" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="1060" y="15" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="6" fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <layoutturnout ident="TO1" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1215.0" ycen="400.0" xa="1225.0" ya="400.0" xb="1205.0" yb="400.0" xc="1195.0" yc="390.0" xd="1225.0" yd="400.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Midway E F" blockname="MEF" connectaname="T226" connectbname="T16" connectcname="T4">
       <sensorB>NX-MEF-WB</sensorB>
@@ -16810,7 +16809,7 @@
     <layoutturnout ident="TO91" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="982.0" ycen="315.0" xa="1002.0" ya="315.0" xb="962.0" yb="315.0" xc="967.0" yc="300.0" xd="1002.0" yd="315.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Midway E Team 1" blockname="Midway P3" connectaname="T144" connectbname="T145" connectcname="T147" />
     <layoutturnout ident="TO92" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="937.0" ycen="285.0" xa="952.0" ya="285.0" xb="922.0" yb="285.0" xc="927.0" yc="270.0" xd="952.0" yd="285.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Midway E Team 2" blockname="AUTOBLK:74" connectaname="T147" connectbname="T151" connectcname="T150" />
     <layoutturnout ident="TO90" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="842.0" ycen="285.0" xa="827.0" ya="300.0" xb="857.0" yb="270.0" xc="862.0" yc="285.0" xd="827.0" yd="300.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Midway W Team 2" blockname="AUTOBLK:75" connectaname="T146" connectbname="T149" connectcname="T148" />
-    <layoutturnout ident="TO73" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="694.0" ycen="210.0" xa="669.0" ya="210.0" xb="719.0" yb="210.0" xc="704.0" yc="220.0" xd="669.0" yd="210.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Hudson Oil Cans load 1" blockname="Hudson 2" connectaname="T117" connectbname="T156" connectcname="T155" />
+    <layoutturnout ident="TO73" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="694.0" ycen="210.0" xa="669.0" ya="210.0" xb="719.0" yb="210.0" xc="704.0" yc="220.0" xd="669.0" yd="210.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Hudson Oil Cans load 2" blockname="Hudson 2" connectaname="T117" connectbname="T156" connectcname="T155" />
     <layoutturnout ident="TO76" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="869.0" ycen="170.0" xa="884.0" ya="170.0" xb="854.0" yb="170.0" xc="854.0" yc="155.0" xd="884.0" yd="170.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Gary Tyson Steel" blockname="Gary 2" connectaname="T113" connectbname="T154" connectcname="T153" />
     <layoutturnout ident="TO47" type="RH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1075.0" ycen="70.0" xa="1049.0" ya="60.0" xb="1083.7750516570018" yb="60.28896735894675" xc="1101.0" yc="80.0" xd="1066.2249483429982" yd="79.71103264105325" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHXOverXml" turnoutname="Bend West 3 to 2" blockname="Bend CP2" blockcname="Bend CP3-L" blockdname="Bend CP3-L" connectaname="T61" connectbname="T72" connectcname="T57" connectdname="T58" />
     <layoutturnout ident="TO48" type="RH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1010.0" ycen="50.0" xa="985.0" ya="40.0" xb="1018.3484831613508" yb="40.0380210562012" xc="1035.0" yc="60.0" xd="1001.6515168386492" yd="59.9619789437988" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHXOverXml" turnoutname="Bend West 2 to 1" blockname="Bend CP1-L" blockcname="Bend CP2" blockdname="Bend CP2" connectaname="T91" connectbname="T89" connectcname="T61" connectdname="T92">
@@ -16834,7 +16833,7 @@
     <layoutturnout ident="TO98" type="LH_XOVER" hidden="no" disabled="yes" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="105.0" ycen="645.0" xa="98.33334350585938" ya="635.0" xb="124.99996948242188" yb="635.0" xc="111.66665649414062" yc="655.0" xd="85.00003051757812" yd="655.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHXOverXml" turnoutname="Yazoo 2-1 xover" blockname="Zion Lead 2" blockbname="Yazoo Lead 2" blockcname="Yazoo Lead 1" blockdname="Zion Lead 1" connectaname="T224" connectbname="T190" connectcname="T191" connectdname="T194" />
     <layoutturnout ident="TO85" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="yes" showtooltip="yes" continuing="2" xcen="580.0" ycen="655.0" xa="595.0" ya="655.0" xb="565.0" yb="655.0" xc="570.0" yc="665.0" xd="595.0" yd="655.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Whiskey Grain silo" blockname="Whiskey Siding 2" connectaname="T175" connectbname="T23" connectcname="T177" />
     <layoutturnout ident="TO86" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="635.0" ycen="655.0" xa="650.0" ya="655.0" xb="620.0" yb="655.0" xc="625.0" yc="665.0" xd="650.0" yd="655.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Whiskey Grain storage" blockname="Whiskey Siding 2" connectaname="T68" connectbname="T175" connectcname="T176" />
-    <layoutturnout ident="TO87" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="709.0" ycen="225.0" xa="699.0" ya="215.0" xb="719.0" yb="235.0" xc="729.0" yc="225.0" xd="699.0" yd="215.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Hudson Oil Cans load 2" blockname="AUTOBLK:67" connectaname="T155" connectbname="T179" connectcname="T180" />
+    <layoutturnout ident="TO87" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="709.0" ycen="225.0" xa="699.0" ya="215.0" xb="719.0" yb="235.0" xc="729.0" yc="225.0" xd="699.0" yd="215.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Hudson Oil Cans load 1" blockname="AUTOBLK:67" connectaname="T155" connectbname="T179" connectcname="T180" />
     <layoutturnout ident="TO93" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="4" xcen="307.0" ycen="510.0" xa="312.0" ya="505.0" xb="302.0" yb="515.0" xc="287.0" yc="510.0" xd="312.0" yd="505.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Troy E 2" blockname="S-T" connectaname="T205" connectbname="T197" connectcname="T201">
       <sensorC>NX-TroyS-EB</sensorC>
     </layoutturnout>
@@ -17208,7 +17207,7 @@
     <positionablepoint ident="EB25" type="END_BUMPER" x="1305.0" y="475.0" connect1name="T48" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="EB28" type="END_BUMPER" x="825.0" y="20.0" connect1name="T181" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="EB29" type="END_BUMPER" x="820.0" y="120.0" connect1name="T182" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="EB8" type="END_BUMPER" x="515.0" y="120.0" connect1name="T183" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB8" type="END_BUMPER" x="510.0" y="125.0" connect1name="T183" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="EB30" type="END_BUMPER" x="630.0" y="120.0" connect1name="T184" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="EB31" type="END_BUMPER" x="610.0" y="20.0" connect1name="T185" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="EB27" type="END_BUMPER" x="30.0" y="635.0" connect1name="T193" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
@@ -17251,19 +17250,19 @@
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Sat Jun 07 09:24:00 PDT 2025</date>
+      <date>Sat Jun 07 13:00:14 PDT 2025</date>
       <filename>PanelPro (v5.8.0)</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Sat Jun 07 09:24:10 PDT 2025</date>
-      <filename>/Users/electricalcrew/PMRRM/Profiles/Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
+      <date>Sat Jun 07 13:00:23 PDT 2025</date>
+      <filename>/Users/electricalcrewchief/PMRRM/Profiles/Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Sat Jun 07 09:26:00 PDT 2025</date>
-      <filename>/Users/electricalcrew/PMRRM/Profiles/Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
+      <date>Sat Jun 07 13:09:04 PDT 2025</date>
+      <filename>/Users/electricalcrewchief/PMRRM/Profiles/Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
     </operation>
   </filehistory>
-  <!--Written by JMRI version 5.8+Rbc21ce2ce7 on Sat Jun 07 09:26:00 PDT 2025-->
+  <!--Written by JMRI version 5.8+Rbc21ce2ce7 on Sat Jun 07 13:09:04 PDT 2025-->
 </layout-config>
