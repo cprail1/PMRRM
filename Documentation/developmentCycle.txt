@@ -21,3 +21,31 @@ When you're done for a while and want to publish your changes (which is would be
 
 7) Email your co-developer(s) to make sure they hear about what you've changed
 
+
+----
+
+To update profiles in the PMRRM Mac Mini:
+
+A) Sign on to the electricalcrew account.
+
+B) Open the Terminal application from the Dock (icon bar). You'll be typing commands on the window that this opens. In the commands we tell you to type below, omit the quotes. Hit return after each command.
+
+C) Depending on which set of profiles you want to update, type one of the following
+    - If you want to update the set used by electricalcrew: "cd ~/PMRRM". Note the tilde. 
+    - If you want to update the set used by dispatcher: "cd ~/PMRRM-snapshot". Note the tilde.
+    
+D) Type "git status". This will show if there are any modified files under the "Changes not staged for commit:" heading.
+
+E) If there are any modified files, type "git stash"
+
+F) Depending on where you want to update from:
+    - If you want the latest from the main repository, type "git fetch" then "git checkout main"
+    - If you want to use the latest from the cprail1 repository, type "git fetch cprail1", then "git checkout cprail1/main"
+    
+G) If you did "git stash" in the previous E step, type "git stash pop"
+
+H) If and only if you get any messages about conflicts, you can abort the stash pop by typing "git reset --hard" (that's two dashes in front of 'hard').  That should leave you with a working setup, but you should also call for help so somebody can check what went wrong.
+
+
+
+
