@@ -6,40 +6,46 @@ There are three profiles here:
  - Dispatcher Work in Progress - the development profile.  Once it's reached a stable point and been used for sufficient operations, this is copied to Dispatcher Complex to update that.
  - Dispatcher Simple - a _visually_ simplified version of Dispatcher Complex.  The content is basically the same, and is updated from Dispatcher Work in Progress in a similar way.  The visual simplification is done via a script run at startup which disables and hides certain panel icons.
  
- These profiles use the JMRI local-override mechanism so that they can run on different hardware (or as a simulator) on different machines.  These local configurations are also kept in Git.
+ These profiles use the JMRI local-override mechanism so that they can run on different hardware (or as a simulator) on different machines.  
  
  Images, configuration (panel) files and script files are stored at the top level in each profile.  There's no cross-loading between profiles so that they can be independently updated.
  
- ## Repository Deplpoyment at PMRRM
+ ## Repository Deployment at PMRRM
  
- At the Museum, there are two checkouts of this repository under the electricalcrew account:
+ At the Museum, there are two clones of this repository under the electricalcrew account:
  - ~electricalcrew/PMRRM - This is the checkout for development and alpha testing
  - ~electricalcrew/PMRRM-snapshot - Contains the specific checked-out tag used for beta testing (the WIP profile) and operations (the Simple and Complex profiles)
-     
- ## Process for updating
+
+There's also a user-specific clone in the electricalcrewchief account.
+
+ ## Process for updating from in-use WIP profile to Simple and Complex.
  
- These are the steps for updating some tested WIP in the ~electricalcrew/PMRRM-snapshot directory to Complex and Simple. These steps are done from the electricalcrew account which has write access to the relevant files
+ These are the steps for updating some tested set of files in the Dispatcher_WIP profile in the ~electricalcrew/PMRRM-snapshot directory to Dispatcher_Complex and Dispatcher_Simple. These steps are done from the electricalcrew account which has write access to the relevant files. The net effect is to make changes in the HEAD of Simple and Complex from the specific tag being used for WIP.
  
   - Check for any changes in ~electricalcrew/PMRRM-snapshot/Profile/ and cope.
-  - If there's any updates to be included in the update, check that branch out in the ~electricalcrew/PMRRM-snapshot/Profile/ directory
+  
+  - If there's any branched changes to be included in the update, check that branch out in the ~electricalcrew/PMRRM-snapshot/Profile/ directory
+  
   - In the ~electricalcrew/PMRRM-snapshot/Profile/Dispatcher-Work-in-Progress directory:
-    - Copy the DispatcherDefault.xml file to ~electricalcrew/PMRRM/Profile/Simple and ~electricalcrew/PMRRM/Profile/Simple; this is the one being promoted
-    - Make sure any new startup steps are added to the profile.xml files in those profiles
-    - Copy over all the scripts being used at startup to ensure the most recent versions
-    - If development has accidentally checked in its extra options, edit them out, commit and push:
-      - In profile.xml, enable the "DisableMenuItems.py" script loading
+    - Copy the DispatcherDefault.xml file to ~electricalcrew/PMRRM/Profile/Dispatcher-Simple and ~electricalcrew/PMRRM/Profile/Dispatcher-Complex; this is the one being promoted
+    - To match startup options, copy the profile/profile.xml file from the WIP profile directory to the Simple and Complex profile directories.
+    - Copy over all the scripts being used at startup to ensure the most recent versions are present
+    - If development has accidentally checked in any extra options, edit them out, commit and push:
       - Directly edit Dispatcher_Work_in_Progress.jmri/profile/profile.properties to have "jmri-configurexml.enableStoreCheck=false"
+    - Check again that everything is committed and pushed
     
-  - Confirm from the electricalcrew account that all three accounts are working. Fix as needed.
+  - Check out into the ~electricalcrew/PMRRM clone
+  
+  - Confirm from the electricalcrew account that all three profiles are working. Fix as needed.
     - basic launching
     - proper steps in startup
     - check that menu items are disabled
     - none have "check files on shutdown" configured
     - LT100 at Xerox behaving as required for the profile
 
-  - Commit all that.  
+  - Commit and push any changes
     
-  - Tag the repository with the date, e.g. 2025-05-23-snapshot
+  - Tag the repository with the date, e.g. 2025-05-23-snapshot. `git push --tags` to move that tag to the main repository.
   
   - Update the ~electricalcrew/PMRRM-snapshot repository to that tag. This updates all three profiles in the dispatch account. 
   
