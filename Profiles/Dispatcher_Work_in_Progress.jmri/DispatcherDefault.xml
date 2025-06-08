@@ -6197,12 +6197,8 @@
     <defaultthrownspeed>Restricted</defaultthrownspeed>
     <turnout feedback="DIRECT" inverted="false" automate="Off">
       <systemName>IT1</systemName>
-      <userName>Mainline Init</userName>
+      <userName>Mainline Init unused ?</userName>
       <comment>Initializes main line turnouts to safe position</comment>
-    </turnout>
-    <turnout feedback="DIRECT" inverted="false" automate="Off">
-      <systemName>IT2</systemName>
-      <userName>Sensor Init</userName>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Off">
       <systemName>IT3</systemName>
@@ -15076,17 +15072,17 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-MWF-WB" x="585" y="375" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="300" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
-      <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="300" scale="1.0">
+    <sensoricon sensor="NX-MWF-WB" x="585" y="375" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
-      <inactive url="program:resources/icons/smallschematics/tracksegments/circuit-empty.gif" degrees="300" scale="1.0">
+      <inactive url="program:resources/icons/smallschematics/tracksegments/circuit-empty.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </inactive>
-      <unknown url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="300" scale="1.0">
+      <unknown url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </unknown>
-      <inconsistent url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="300" scale="1.0">
+      <inconsistent url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </inconsistent>
       <iconmaps />
@@ -16441,10 +16437,10 @@
         <rotation>0</rotation>
       </icon>
     </positionablelabel>
-    <positionablelabel x="545" y="675" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Silo" fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="595" y="675" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Storage " fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="575" y="660" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="195 " fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="640" y="660" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="188 " fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="545" y="680" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Silo" fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="590" y="680" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Storage " fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="570" y="670" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="195 " fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="620" y="670" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="188 " fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="240" y="315" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="162 " fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="784" y="450" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Staging " fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <sensoricon sensor="Control Blue Text" x="960" y="660" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
@@ -16640,7 +16636,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-WhiskeyM-WB" x="520" y="610" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-WhiskeyM-WB" x="515" y="610" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="270" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -16685,32 +16681,32 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-WhiskeyS2-WB" x="545" y="650" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="315" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
-      <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="315" scale="1.0">
+    <sensoricon sensor="NX-WhiskeyS2-WB" x="550" y="650" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
-      <inactive url="program:resources/icons/smallschematics/tracksegments/circuit-empty.gif" degrees="315" scale="1.0">
+      <inactive url="program:resources/icons/smallschematics/tracksegments/circuit-empty.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </inactive>
-      <unknown url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="315" scale="1.0">
+      <unknown url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </unknown>
-      <inconsistent url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="315" scale="1.0">
+      <inconsistent url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-WhiskeyS2-EB" x="635" y="650" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="45" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
-      <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="45" scale="1.0">
+    <sensoricon sensor="NX-WhiskeyS2-EB" x="630" y="650" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
-      <inactive url="program:resources/icons/smallschematics/tracksegments/circuit-empty.gif" degrees="45" scale="1.0">
+      <inactive url="program:resources/icons/smallschematics/tracksegments/circuit-empty.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </inactive>
-      <unknown url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="45" scale="1.0">
+      <unknown url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </unknown>
-      <inconsistent url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="45" scale="1.0">
+      <inconsistent url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </inconsistent>
       <iconmaps />
@@ -16787,7 +16783,7 @@
       <sensorB>NX-WhiskeyS1-EB</sensorB>
       <sensorC>NX-WhiskeyS2-EB</sensorC>
     </layoutturnout>
-    <layoutturnout ident="TO39" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="490.0" ycen="615.0" xa="470.0" ya="615.0" xb="510.0" yb="615.0" xc="510.0" yc="635.0" xd="470.0" yd="615.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Whiskey W 1" blockname="W-X" connectaname="T69" connectbname="T64" connectcname="T67">
+    <layoutturnout ident="TO39" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="490.0" ycen="615.0" xa="475.0" ya="615.0" xb="505.0" yb="615.0" xc="510.0" yc="635.0" xd="475.0" yd="615.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Whiskey W 1" blockname="W-X" connectaname="T69" connectbname="T64" connectcname="T67">
       <sensorB>NX-WhiskeyM-WB</sensorB>
     </layoutturnout>
     <layoutturnout ident="TO40" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="520.0" ycen="635.0" xa="510.0" ya="635.0" xb="530.0" yb="635.0" xc="530.0" yc="645.0" xd="510.0" yd="635.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Whiskey W 2" blockname="W-X" connectaname="T67" connectbname="T66" connectcname="T174">
@@ -16921,7 +16917,7 @@
     <layoutturnout ident="TO97" type="RH_XOVER" hidden="no" disabled="yes" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="145.0" ycen="625.0" xa="120.0" ya="615.0" xb="153.333325" yb="615.0" xc="170.0" yc="635.0" xd="136.666675" yd="635.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHXOverXml" turnoutname="Yazoo 2-3 xover" blockname="Yazoo Lead 3" blockcname="Yazoo Lead 2" blockdname="Yazoo Lead 2" connectaname="T223" connectbname="T188" connectcname="T189" connectdname="T190" />
     <layoutturnout ident="TO98" type="LH_XOVER" hidden="no" disabled="yes" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="105.0" ycen="645.0" xa="98.33334350585938" ya="635.0" xb="124.99996948242188" yb="635.0" xc="111.66665649414062" yc="655.0" xd="85.00003051757812" yd="655.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHXOverXml" turnoutname="Yazoo 2-1 xover" blockname="Zion Lead 2" blockbname="Yazoo Lead 2" blockcname="Yazoo Lead 1" blockdname="Zion Lead 1" connectaname="T224" connectbname="T190" connectcname="T191" connectdname="T194" />
     <layoutturnout ident="TO85" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="yes" showtooltip="yes" continuing="2" xcen="580.0" ycen="655.0" xa="595.0" ya="655.0" xb="565.0" yb="655.0" xc="570.0" yc="665.0" xd="595.0" yd="655.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Whiskey Grain silo" blockname="Whiskey Siding 2" connectaname="T175" connectbname="T23" connectcname="T177" />
-    <layoutturnout ident="TO86" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="635.0" ycen="655.0" xa="650.0" ya="655.0" xb="620.0" yb="655.0" xc="625.0" yc="665.0" xd="650.0" yd="655.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Whiskey Grain storage" blockname="Whiskey Siding 2" connectaname="T68" connectbname="T175" connectcname="T176" />
+    <layoutturnout ident="TO86" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="625.0" ycen="655.0" xa="650.0" ya="655.0" xb="600.0" yb="655.0" xc="615.0" yc="665.0" xd="650.0" yd="655.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Whiskey Grain storage" blockname="Whiskey Siding 2" connectaname="T68" connectbname="T175" connectcname="T176" />
     <layoutturnout ident="TO87" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="709.0" ycen="225.0" xa="699.0" ya="215.0" xb="719.0" yb="235.0" xc="729.0" yc="225.0" xd="699.0" yd="215.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Hudson Oil Cans load 2" blockname="AUTOBLK:67" connectaname="T155" connectbname="T179" connectcname="T180" />
     <layoutturnout ident="TO93" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="4" xcen="307.0" ycen="510.0" xa="312.0" ya="505.0" xb="302.0" yb="515.0" xc="287.0" yc="510.0" xd="312.0" yd="505.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Troy E 2" blockname="S-T" connectaname="T205" connectbname="T197" connectcname="T201">
       <sensorC>NX-TroyS-EB</sensorC>
@@ -17252,7 +17248,7 @@
     </tracksegment>
     <tracksegment ident="T222" blockname="T-U" connect1name="A17" type1="POS_POINT" connect2name="TO31" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T223" blockname="Zion Lead 3" connect1name="A23" type1="POS_POINT" connect2name="TO97" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T224" blockname="Zion Lead 2" connect1name="A26" type1="POS_POINT" connect2name="TO98" type2="TURNOUT_A" dashed="yes" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T224" blockname="Zion Lead 2" connect1name="A26" type1="POS_POINT" connect2name="TO98" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T225" blockname="Zion Lead 1" connect1name="A27" type1="POS_POINT" connect2name="EB39" type2="POS_POINT" dashed="yes" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T194" blockname="AUTOBLK:83" connect1name="TO98" type1="TURNOUT_D" connect2name="A27" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T226" blockname="MEF" connect1name="A28" type1="POS_POINT" connect2name="TO1" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
@@ -17302,7 +17298,7 @@
     <positionablepoint ident="EB27" type="END_BUMPER" x="30.0" y="635.0" connect1name="T193" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="EB7" type="END_BUMPER" x="30.0" y="615.0" connect1name="T192" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="EB39" type="END_BUMPER" x="30.0" y="655.0" connect1name="T225" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="EB9" type="END_BUMPER" x="600.0" y="670.0" connect1name="T172" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB9" type="END_BUMPER" x="590.0" y="670.0" connect1name="T172" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="EB12" type="END_BUMPER" x="540.0" y="670.0" connect1name="T173" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A11" type="ANCHOR" x="40.0" y="490.0" connect1name="T53" connect2name="T178" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="EB36" type="END_BUMPER" x="794.0" y="225.0" connect1name="T180" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
@@ -17325,7 +17321,7 @@
     <positionablepoint ident="EB3" type="END_BUMPER" x="1455.0" y="60.0" connect1name="T220" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="EB4" type="END_BUMPER" x="1455.0" y="80.0" connect1name="T221" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A3" type="ANCHOR" x="540.0" y="655.0" connect1name="T174" connect2name="T23" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A5" type="ANCHOR" x="620.0" y="670.0" connect1name="T176" connect2name="T172" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A5" type="ANCHOR" x="610.0" y="670.0" connect1name="T176" connect2name="T172" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A16" type="ANCHOR" x="565.0" y="670.0" connect1name="T177" connect2name="T173" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A17" type="ANCHOR" x="1400.0" y="615.0" connect1name="T178" connect2name="T222" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A23" type="ANCHOR" x="75.0" y="615.0" connect1name="T192" connect2name="T223" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
