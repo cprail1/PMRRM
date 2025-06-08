@@ -43,6 +43,11 @@ class MenuItemDisable(jmri.jmrit.automat.AbstractAutomaton) :
     def handle(self):
         self.waitMsec(8000)
 
+        thisUser = java.lang.System.getProperty("user.name")
+        desiredUser = "dispatch"
+        if thisUser != desiredUser:
+            self.log.info("Skip disabling memu items because user '{}' is not '{}'", thisUser, desiredUser)
+            
         # start with the PanelPro window
         
         # find the frame containing the menus to disable
