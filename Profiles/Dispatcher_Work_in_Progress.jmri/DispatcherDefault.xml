@@ -9524,7 +9524,7 @@
       <permissive>no</permissive>
       <path todir="64" fromdir="128" block="IB141">
         <beansetting setting="2">
-          <turnout systemName="Kill Bend East A to B LT2 partner" />
+          <turnout systemName="Bend East A to B LT2 partner" />
         </beansetting>
       </path>
       <path todir="128" fromdir="64" block="IB167" />
@@ -9635,8 +9635,16 @@
       <userName>AUTOBLK:107</userName>
       <permissive>no</permissive>
       <path todir="128" fromdir="64" block="IB38" />
-      <path todir="64" fromdir="128" block="IB120" />
-      <path todir="16" fromdir="32" block="IB124" />
+      <path todir="64" fromdir="128" block="IB120">
+        <beansetting setting="4">
+          <turnout systemName="Bend East 4 to 3 partner" />
+        </beansetting>
+      </path>
+      <path todir="16" fromdir="32" block="IB124">
+        <beansetting setting="2">
+          <turnout systemName="Bend East 4 to 3 partner" />
+        </beansetting>
+      </path>
     </block>
     <block systemName="IB91" length="0.0" curve="0">
       <systemName>IB91</systemName>
@@ -9719,8 +9727,16 @@
       <systemName>IB97</systemName>
       <userName>AUTOBLK:114</userName>
       <permissive>no</permissive>
-      <path todir="16" fromdir="32" block="IB124" />
-      <path todir="128" fromdir="64" block="IB126" />
+      <path todir="16" fromdir="32" block="IB124">
+        <beansetting setting="4">
+          <turnout systemName="Bend East 4 to 3" />
+        </beansetting>
+      </path>
+      <path todir="128" fromdir="64" block="IB126">
+        <beansetting setting="2">
+          <turnout systemName="Bend East 4 to 3" />
+        </beansetting>
+      </path>
       <path todir="96" fromdir="144" block="IB134" />
     </block>
     <block systemName="IB98" length="0.0" curve="0">
@@ -9819,9 +9835,17 @@
       <systemName>IB107</systemName>
       <userName>AUTOBLK:124</userName>
       <permissive>no</permissive>
-      <path todir="144" fromdir="96" block="IB134" />
+      <path todir="144" fromdir="96" block="IB134">
+        <beansetting setting="2">
+          <turnout systemName="APW storage 2 chk name" />
+        </beansetting>
+      </path>
       <path todir="96" fromdir="144" block="IB136" />
-      <path todir="128" fromdir="64" block="IB137" />
+      <path todir="128" fromdir="64" block="IB137">
+        <beansetting setting="4">
+          <turnout systemName="APW storage 2 chk name" />
+        </beansetting>
+      </path>
     </block>
     <block systemName="IB108" length="0.0" curve="0">
       <systemName>IB108</systemName>
@@ -9838,8 +9862,16 @@
       <systemName>IB109</systemName>
       <userName>AUTOBLK:126</userName>
       <permissive>no</permissive>
-      <path todir="144" fromdir="96" block="IB136" />
-      <path todir="128" fromdir="64" block="IB140" />
+      <path todir="144" fromdir="96" block="IB136">
+        <beansetting setting="2">
+          <turnout systemName="APW storage 1 chk name" />
+        </beansetting>
+      </path>
+      <path todir="128" fromdir="64" block="IB140">
+        <beansetting setting="4">
+          <turnout systemName="APW storage 1 chk name" />
+        </beansetting>
+      </path>
       <path todir="16" fromdir="32" block="IB144" />
     </block>
     <block systemName="IB110" length="0.0" curve="0">
@@ -9987,7 +10019,11 @@
       <systemName>IB120</systemName>
       <userName>AUTOBLK:136</userName>
       <permissive>no</permissive>
-      <path todir="128" fromdir="64" block="IB90" />
+      <path todir="128" fromdir="64" block="IB90">
+        <beansetting setting="4">
+          <turnout systemName="Bend East 4 to 3 partner" />
+        </beansetting>
+      </path>
       <path todir="64" fromdir="128" block="IB110" />
     </block>
     <block systemName="IB121" length="0.0" curve="0">
@@ -10044,8 +10080,16 @@
       <systemName>IB124</systemName>
       <userName>AUTOBLK:140</userName>
       <permissive>no</permissive>
-      <path todir="32" fromdir="16" block="IB90" />
-      <path todir="32" fromdir="16" block="IB97" />
+      <path todir="32" fromdir="16" block="IB90">
+        <beansetting setting="2">
+          <turnout systemName="Bend East 4 to 3 partner" />
+        </beansetting>
+      </path>
+      <path todir="32" fromdir="16" block="IB97">
+        <beansetting setting="4">
+          <turnout systemName="Bend East 4 to 3" />
+        </beansetting>
+      </path>
     </block>
     <block systemName="IB125" length="0.0" curve="0">
       <systemName>IB125</systemName>
@@ -10069,7 +10113,11 @@
       <systemName>IB126</systemName>
       <userName>AUTOBLK:142</userName>
       <permissive>no</permissive>
-      <path todir="64" fromdir="128" block="IB97" />
+      <path todir="64" fromdir="128" block="IB97">
+        <beansetting setting="2">
+          <turnout systemName="Bend East 4 to 3" />
+        </beansetting>
+      </path>
       <path todir="128" fromdir="64" block="IB:AUTO:0028">
         <beansetting setting="2">
           <turnout systemName="Bend West 3 to 4" />
@@ -10140,7 +10188,7 @@
       </path>
       <path todir="64" fromdir="128" block="IB141">
         <beansetting setting="4">
-          <turnout systemName="Kill Bend East A to B LT2 partner" />
+          <turnout systemName="Bend East A to B LT2 partner" />
         </beansetting>
       </path>
     </block>
@@ -10170,7 +10218,11 @@
       <userName>AUTOBLK:149</userName>
       <permissive>no</permissive>
       <path todir="144" fromdir="96" block="IB97" />
-      <path todir="96" fromdir="144" block="IB107" />
+      <path todir="96" fromdir="144" block="IB107">
+        <beansetting setting="2">
+          <turnout systemName="APW storage 2 chk name" />
+        </beansetting>
+      </path>
     </block>
     <block systemName="IB135" length="0.0" curve="0">
       <systemName>IB135</systemName>
@@ -10186,13 +10238,21 @@
       <userName>AUTOBLK:151</userName>
       <permissive>no</permissive>
       <path todir="144" fromdir="96" block="IB107" />
-      <path todir="96" fromdir="144" block="IB109" />
+      <path todir="96" fromdir="144" block="IB109">
+        <beansetting setting="2">
+          <turnout systemName="APW storage 1 chk name" />
+        </beansetting>
+      </path>
     </block>
     <block systemName="IB137" length="0.0" curve="0">
       <systemName>IB137</systemName>
       <userName>AUTOBLK:152</userName>
       <permissive>no</permissive>
-      <path todir="64" fromdir="128" block="IB107" />
+      <path todir="64" fromdir="128" block="IB107">
+        <beansetting setting="4">
+          <turnout systemName="APW storage 2 chk name" />
+        </beansetting>
+      </path>
     </block>
     <block systemName="IB138" length="0.0" curve="0">
       <systemName>IB138</systemName>
@@ -10208,7 +10268,11 @@
       <systemName>IB140</systemName>
       <userName>AUTOBLK:155</userName>
       <permissive>no</permissive>
-      <path todir="64" fromdir="128" block="IB109" />
+      <path todir="64" fromdir="128" block="IB109">
+        <beansetting setting="4">
+          <turnout systemName="APW storage 1 chk name" />
+        </beansetting>
+      </path>
     </block>
     <block systemName="IB141" length="0.0" curve="0">
       <systemName>IB141</systemName>
@@ -10216,12 +10280,12 @@
       <permissive>no</permissive>
       <path todir="128" fromdir="64" block="IB79">
         <beansetting setting="2">
-          <turnout systemName="Kill Bend East A to B LT2 partner" />
+          <turnout systemName="Bend East A to B LT2 partner" />
         </beansetting>
       </path>
       <path todir="128" fromdir="64" block="IB131">
         <beansetting setting="4">
-          <turnout systemName="Kill Bend East A to B LT2 partner" />
+          <turnout systemName="Bend East A to B LT2 partner" />
         </beansetting>
       </path>
       <path todir="64" fromdir="128" block="IB152" />
@@ -10231,7 +10295,11 @@
       <userName>AUTOBLK:157</userName>
       <permissive>no</permissive>
       <path todir="144" fromdir="96" block="IB149" />
-      <path todir="96" fromdir="144" block="IB153" />
+      <path todir="96" fromdir="144" block="IB153">
+        <beansetting setting="2">
+          <turnout systemName="APW Xover W" />
+        </beansetting>
+      </path>
     </block>
     <block systemName="IB143" length="0.0" curve="0">
       <systemName>IB143</systemName>
@@ -10339,8 +10407,16 @@
       <systemName>IB153</systemName>
       <userName>AUTOBLK:168</userName>
       <permissive>no</permissive>
-      <path todir="144" fromdir="96" block="IB142" />
-      <path todir="16" fromdir="32" block="IB159" />
+      <path todir="144" fromdir="96" block="IB142">
+        <beansetting setting="2">
+          <turnout systemName="APW Xover W" />
+        </beansetting>
+      </path>
+      <path todir="16" fromdir="32" block="IB159">
+        <beansetting setting="4">
+          <turnout systemName="APW Xover W" />
+        </beansetting>
+      </path>
       <path todir="96" fromdir="144" block="IB162" />
     </block>
     <block systemName="IB154" length="0.0" curve="0">
@@ -10348,23 +10424,47 @@
       <userName>AUTOBLK:169</userName>
       <permissive>no</permissive>
       <path todir="16" fromdir="32" block="IB144" />
-      <path todir="16" fromdir="32" block="IB159" />
-      <path todir="96" fromdir="144" block="IB164" />
+      <path todir="16" fromdir="32" block="IB159">
+        <beansetting setting="4">
+          <turnout systemName="APW Xover W partner" />
+        </beansetting>
+      </path>
+      <path todir="96" fromdir="144" block="IB164">
+        <beansetting setting="2">
+          <turnout systemName="APW Xover W partner" />
+        </beansetting>
+      </path>
     </block>
     <block systemName="IB155" length="0.0" curve="0">
       <systemName>IB155</systemName>
       <userName>AUTOBLK:170</userName>
       <permissive>no</permissive>
       <path todir="144" fromdir="96" block="IB162" />
-      <path todir="16" fromdir="32" block="IB163" />
-      <path todir="96" fromdir="144" block="IB165" />
+      <path todir="16" fromdir="32" block="IB163">
+        <beansetting setting="4">
+          <turnout systemName="APW Xover E partner" />
+        </beansetting>
+      </path>
+      <path todir="96" fromdir="144" block="IB165">
+        <beansetting setting="2">
+          <turnout systemName="APW Xover E partner" />
+        </beansetting>
+      </path>
     </block>
     <block systemName="IB156" length="0.0" curve="0">
       <systemName>IB156</systemName>
       <userName>AUTOBLK:171</userName>
       <permissive>no</permissive>
-      <path todir="32" fromdir="16" block="IB163" />
-      <path todir="144" fromdir="96" block="IB164" />
+      <path todir="32" fromdir="16" block="IB163">
+        <beansetting setting="4">
+          <turnout systemName="APW Xover E" />
+        </beansetting>
+      </path>
+      <path todir="144" fromdir="96" block="IB164">
+        <beansetting setting="2">
+          <turnout systemName="APW Xover E" />
+        </beansetting>
+      </path>
       <path todir="96" fromdir="144" block="IB166" />
     </block>
     <block systemName="IB157" length="0.0" curve="0">
@@ -10391,8 +10491,16 @@
       <systemName>IB159</systemName>
       <userName>AUTOBLK:174</userName>
       <permissive>no</permissive>
-      <path todir="32" fromdir="16" block="IB153" />
-      <path todir="32" fromdir="16" block="IB154" />
+      <path todir="32" fromdir="16" block="IB153">
+        <beansetting setting="4">
+          <turnout systemName="APW Xover W" />
+        </beansetting>
+      </path>
+      <path todir="32" fromdir="16" block="IB154">
+        <beansetting setting="4">
+          <turnout systemName="APW Xover W partner" />
+        </beansetting>
+      </path>
     </block>
     <block systemName="IB160" length="0.0" curve="0">
       <systemName>IB160</systemName>
@@ -10415,21 +10523,41 @@
       <systemName>IB163</systemName>
       <userName>AUTOBLK:178</userName>
       <permissive>no</permissive>
-      <path todir="32" fromdir="16" block="IB155" />
-      <path todir="16" fromdir="32" block="IB156" />
+      <path todir="32" fromdir="16" block="IB155">
+        <beansetting setting="4">
+          <turnout systemName="APW Xover E partner" />
+        </beansetting>
+      </path>
+      <path todir="16" fromdir="32" block="IB156">
+        <beansetting setting="4">
+          <turnout systemName="APW Xover E" />
+        </beansetting>
+      </path>
     </block>
     <block systemName="IB164" length="0.0" curve="0">
       <systemName>IB164</systemName>
       <userName>AUTOBLK:179</userName>
       <permissive>no</permissive>
-      <path todir="144" fromdir="96" block="IB154" />
-      <path todir="96" fromdir="144" block="IB156" />
+      <path todir="144" fromdir="96" block="IB154">
+        <beansetting setting="2">
+          <turnout systemName="APW Xover W partner" />
+        </beansetting>
+      </path>
+      <path todir="96" fromdir="144" block="IB156">
+        <beansetting setting="2">
+          <turnout systemName="APW Xover E" />
+        </beansetting>
+      </path>
     </block>
     <block systemName="IB165" length="0.0" curve="0">
       <systemName>IB165</systemName>
       <userName>AUTOBLK:180</userName>
       <permissive>no</permissive>
-      <path todir="144" fromdir="96" block="IB155" />
+      <path todir="144" fromdir="96" block="IB155">
+        <beansetting setting="2">
+          <turnout systemName="APW Xover E partner" />
+        </beansetting>
+      </path>
     </block>
     <block systemName="IB166" length="0.0" curve="0">
       <systemName>IB166</systemName>
@@ -16789,7 +16917,7 @@
     <layoutturnout ident="TO1" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1215.0" ycen="400.0" xa="1225.0" ya="400.0" xb="1205.0" yb="400.0" xc="1195.0" yc="390.0" xd="1225.0" yd="400.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Midway E F" blockname="MEF" connectaname="T226" connectbname="T16" connectcname="T4">
       <sensorB>NX-MEF-WB</sensorB>
     </layoutturnout>
-    <layoutturnout ident="TO2" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1155.0" ycen="380.0" xa="1140.0" ya="380.0" xb="1170.0" yb="380.0" xc="1170.0" yc="370.0" xd="1140.0" yd="380.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="LT52" connectaname="T5" connectbname="T4" connectcname="T8" />
+    <layoutturnout ident="TO2" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1155.0" ycen="385.0" xa="1140.0" ya="385.0" xb="1170.0" yb="385.0" xc="1170.0" yc="375.0" xd="1140.0" yd="385.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="LT52" connectaname="T5" connectbname="T4" connectcname="T8" />
     <layoutturnout ident="TO3" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1342.0" ycen="355.0" xa="1364.0" ya="355.0" xb="1320.0" yb="355.0" xc="1320.0" yc="375.0" xd="1364.0" yd="355.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Lake" blockname="Lake" connectaname="T129" connectbname="T3" connectcname="T1">
       <sensorB>NX-MEP-EB</sensorB>
       <sensorC>NX-MEF-EB</sensorC>
@@ -16987,7 +17115,7 @@
     <layoutturnout ident="TO95" type="WYE_TURNOUT" hidden="no" disabled="yes" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="190.0" ycen="635.0" xa="180.0" ya="635.0" xb="200.0" yb="640.33837890625" xc="200.0" yc="629.66162109375" xd="180.0" yd="629.66162109375" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutWyeXml" turnoutname="Yazoo middle wye" blockname="AUTOBLK:131" connectaname="T189" connectbname="T187" connectcname="T186" />
     <layoutturnout ident="TO96" type="LH_TURNOUT" hidden="no" disabled="yes" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="220.0" ycen="615.0" xa="245.0" ya="615.0" xb="195.0" yb="615.0" xc="205.0" yc="625.0" xd="245.0" yd="615.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Yazoo X1-Y2,3" blockname="AUTOBLK:132" connectaname="T70" connectbname="T188" connectcname="T186" />
     <layoutturnout ident="TO97" type="RH_XOVER" hidden="no" disabled="yes" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="145.0" ycen="625.0" xa="120.0" ya="615.0" xb="153.333325" yb="615.0" xc="170.0" yc="635.0" xd="136.666675" yd="635.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHXOverXml" turnoutname="Yazoo 2-3 xover" blockname="Yazoo Lead 3" blockcname="Yazoo Lead 2" blockdname="Yazoo Lead 2" connectaname="T223" connectbname="T188" connectcname="T189" connectdname="T190" />
-    <layoutturnout ident="TO98" type="LH_XOVER" hidden="no" disabled="yes" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="105.0" ycen="645.0" xa="98.33334350585938" ya="635.0" xb="124.99996948242188" yb="635.0" xc="111.66665649414062" yc="655.0" xd="85.00003051757812" yd="655.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHXOverXml" turnoutname="Yazoo 2-1 xover" blockname="Zion Lead 2" blockbname="Yazoo Lead 2" blockcname="Yazoo Lead 1" blockdname="Zion Lead 1" connectaname="T224" connectbname="T190" connectcname="T191" connectdname="T194" />
+    <layoutturnout ident="TO98" type="LH_XOVER" hidden="no" disabled="yes" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="105.0" ycen="645.0" xa="98.33333999999999" ya="635.0" xb="125.0" yb="635.0" xc="111.66666000000001" yc="655.0" xd="85.0" yd="655.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHXOverXml" turnoutname="Yazoo 2-1 xover" blockname="Zion Lead 2" blockbname="Yazoo Lead 2" blockcname="Yazoo Lead 1" blockdname="Zion Lead 1" connectaname="T224" connectbname="T190" connectcname="T191" connectdname="T194" />
     <layoutturnout ident="TO85" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="yes" showtooltip="yes" continuing="2" xcen="580.0" ycen="655.0" xa="595.0" ya="655.0" xb="565.0" yb="655.0" xc="570.0" yc="665.0" xd="595.0" yd="655.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Whiskey Grain silo" blockname="Whiskey Siding 2" connectaname="T175" connectbname="T23" connectcname="T177" />
     <layoutturnout ident="TO86" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="625.0" ycen="655.0" xa="650.0" ya="655.0" xb="600.0" yb="655.0" xc="615.0" yc="665.0" xd="650.0" yd="655.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Whiskey Grain storage" blockname="Whiskey Siding 2" connectaname="T68" connectbname="T175" connectcname="T176" />
     <layoutturnout ident="TO87" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="709.0" ycen="225.0" xa="699.0" ya="215.0" xb="719.0" yb="235.0" xc="729.0" yc="225.0" xd="699.0" yd="215.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Hudson Oil Cans load 2" blockname="AUTOBLK:67" connectaname="T155" connectbname="T179" connectcname="T180" />
@@ -17012,15 +17140,15 @@
     <layoutturnout ident="TO103" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="277.0" ycen="490.0" xa="292.0" ya="490.0" xb="262.0" yb="490.0" xc="262.0" yc="470.0" xd="292.0" yd="490.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Troy station" blockname="Troy Main" connectaname="T207" connectbname="T202" connectcname="T208" />
     <layoutturnout ident="TO27" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="4" xcen="1250.0" ycen="470.0" xa="1235.0" ya="470.0" xb="1265.0" yb="470.0" xc="1265.0" yc="460.0" xd="1235.0" yd="470.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Powderhorn work track spur" blockname="Powderhorn S" connectaname="T170" connectbname="T38" connectcname="T171" />
     <layoutturnout ident="TO28" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="485.0" ycen="450.0" xa="470.0" ya="450.0" xb="500.0" yb="450.0" xc="500.0" yc="430.0" xd="470.0" yd="450.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="LT273" blockname="AUTOBLK:52" connectaname="T49" connectbname="T131" connectcname="T132" />
-    <layoutturnout ident="TO29" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="4" xcen="1125.0" ycen="80.0" xa="1115.0" ya="80.0" xb="1135.0" yb="80.0" xc="1135.0" yc="90.0" xd="1115.0" yd="80.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Bend East 4 to 3 partner" blockname="AUTOBLK:107" connectaname="T57" connectbname="T50" connectcname="T51" />
+    <layoutturnout ident="TO29" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="4" xcen="1125.0" ycen="80.0" xa="1115.0" ya="80.0" xb="1135.0" yb="80.0" xc="1135.0" yc="90.0" xd="1115.0" yd="80.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Bend East 4 to 3 partner" secondturnoutname="Bend East 4 to 3" blockname="AUTOBLK:107" connectaname="T57" connectbname="T50" connectcname="T51" />
     <layoutturnout ident="TO30" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="4" xcen="1145.0" ycen="100.0" xa="1155.0" ya="110.0" xb="1135.0" yb="90.0" xc="1113.0" yc="100.0" xd="1155.0" yd="110.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Bend East 4 to 3" secondturnoutname="Bend East 4 to 3 partner" secondturnoutinverted="true" blockname="AUTOBLK:114" connectaname="T90" connectbname="T51" connectcname="T52" />
     <layoutturnout ident="TO46" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="4" xcen="1150.0" ycen="80.0" xa="1140.0" ya="80.0" xb="1160.0" yb="80.0" xc="1180.0" yc="110.0" xd="1140.0" yd="80.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Bend East B C Straight LT3 crossover partner" secondturnoutname="Bend East B C Straight" blockname="AUTOBLK:127" connectaname="T50" connectbname="T80" connectcname="T106" />
-    <layoutturnout ident="TO45" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="4" xcen="1235.0" ycen="60.0" xa="1245.0" ya="60.0" xb="1225.0" yb="60.0" xc="1215.0" yc="40.0" xd="1245.0" yd="60.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Bend East A to B LT2 partner" blockname="AUTOBLK:156" connectaname="T196" connectbname="T136" connectcname="T62" />
+    <layoutturnout ident="TO45" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="4" xcen="1235.0" ycen="60.0" xa="1245.0" ya="60.0" xb="1225.0" yb="60.0" xc="1215.0" yc="40.0" xd="1245.0" yd="60.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Bend East A to B LT2 partner" secondturnoutname="Bend East A to B" blockname="AUTOBLK:156" connectaname="T196" connectbname="T136" connectcname="T62" />
     <layoutturnout ident="TO56" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1190.0" ycen="145.0" xa="1195.0" ya="150.0" xb="1185.0" yb="140.0" xc="1175.0" yc="145.0" xd="1195.0" yd="150.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="APW storage 2 chk name" blockname="AUTOBLK:124" connectaname="T84" connectbname="T83" connectcname="T85" />
     <layoutturnout ident="TO67" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1210.0" ycen="165.0" xa="1215.0" ya="170.0" xb="1205.0" yb="160.0" xc="1190.0" yc="165.0" xd="1215.0" yd="170.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="APW storage 1 chk name" blockname="AUTOBLK:126" connectaname="T87" connectbname="T84" connectcname="T86" />
     <layoutturnout ident="TO84" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1250.0" ycen="180.0" xa="1260.0" ya="190.0" xb="1240.0" yb="170.0" xc="1235.0" yc="180.0" xd="1260.0" yd="190.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="APW Xover W" secondturnoutname="APW Xover W partner" blockname="AUTOBLK:168" connectaname="T139" connectbname="T111" connectcname="T88" />
     <layoutturnout ident="TO88" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1225.0" ycen="180.0" xa="1215.0" ya="170.0" xb="1235.0" yb="190.0" xc="1235.0" yc="180.0" xd="1215.0" yd="170.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="APW Xover W partner" blockname="AUTOBLK:169" connectaname="T87" connectbname="T209" connectcname="T88" />
-    <layoutturnout ident="TO104" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1270.0" ycen="200.0" xa="1264.0" ya="193.0" xb="1276.0" yb="207.0" xc="1270.0" yc="215.0" xd="1264.0" yd="193.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="APW Xover E partner" blockname="AUTOBLK:170" connectaname="T139" connectbname="T210" connectcname="T206" />
+    <layoutturnout ident="TO104" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1270.0" ycen="200.0" xa="1264.0" ya="193.0" xb="1276.0" yb="207.0" xc="1270.0" yc="215.0" xd="1264.0" yd="193.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="APW Xover E partner" secondturnoutname="APW Xover E" blockname="AUTOBLK:170" connectaname="T139" connectbname="T210" connectcname="T206" />
     <layoutturnout ident="TO105" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1270.0" ycen="225.0" xa="1276.0" ya="232.0" xb="1264.0" yb="218.0" xc="1270.0" yc="210.0" xd="1276.0" yd="232.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="APW Xover E" secondturnoutname="APW Xover E partner" blockname="AUTOBLK:171" connectaname="T211" connectbname="T209" connectcname="T206" />
     <layoutturnout ident="TO106" type="RH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1420.0" ycen="70.0" xa="1395.0" ya="60.0" xb="1428.333325" yb="60.0" xc="1445.0" yc="80.0" xd="1411.666675" yd="80.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHXOverXml" turnoutname="AFE Xover east" blockname="AUTOBLK:160" connectaname="T218" connectbname="T220" connectcname="T221" connectdname="T219" />
     <layoutturnout ident="TO107" type="LH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1325.0" ycen="70.0" xa="1315.0" ya="60.0" xb="1355.0" yb="60.0" xc="1335.0" yc="80.0" xd="1295.0" yd="80.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHXOverXml" turnoutname="AFE Xover west" blockname="AUTOBLK:162" connectaname="T213" connectbname="T218" connectcname="T215" connectdname="T79" />
