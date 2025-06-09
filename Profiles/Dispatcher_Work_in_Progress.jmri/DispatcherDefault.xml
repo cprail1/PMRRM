@@ -6416,10 +6416,10 @@
     <memory>
       <systemName>IM40</systemName>
     </memory>
-    <memory>
+    <memory value="qwert">
       <systemName>IM41</systemName>
     </memory>
-    <memory>
+    <memory value="Morn">
       <systemName>IM42</systemName>
     </memory>
     <memory>
@@ -6446,7 +6446,7 @@
     <memory>
       <systemName>IM50</systemName>
     </memory>
-    <memory>
+    <memory value="Foo">
       <systemName>IM51</systemName>
       <userName>Vista - Upton East</userName>
     </memory>
@@ -8652,7 +8652,7 @@
       <userName>Midway Main3 station</userName>
       <permissive>no</permissive>
       <occupancysensor>Midway Main 3</occupancysensor>
-      <path todir="32" fromdir="16" block="IB32">
+      <path todir="128" fromdir="64" block="IB32">
         <beansetting setting="4">
           <turnout systemName="Midway W P2" />
         </beansetting>
@@ -8662,7 +8662,7 @@
           <turnout systemName="Midway E Team 1" />
         </beansetting>
       </path>
-      <path todir="32" fromdir="16" block="IB65">
+      <path todir="64" fromdir="128" block="IB65">
         <beansetting setting="4">
           <turnout systemName="LT55" />
         </beansetting>
@@ -8694,7 +8694,7 @@
           <turnout systemName="LT59" />
         </beansetting>
       </path>
-      <path todir="16" fromdir="32" block="IB31">
+      <path todir="64" fromdir="128" block="IB31">
         <beansetting setting="4">
           <turnout systemName="Midway W P2" />
         </beansetting>
@@ -8798,8 +8798,8 @@
       <systemName>IB38</systemName>
       <userName>AUTOBLK:37</userName>
       <permissive>no</permissive>
-      <path todir="64" fromdir="128" block="IB90" />
-      <path todir="128" fromdir="64" block="IB:AUTO:0029" />
+      <path todir="32" fromdir="16" block="IB90" />
+      <path todir="32" fromdir="16" block="IB:AUTO:0029" />
     </block>
     <block systemName="IB39" length="6096.0" curve="0">
       <systemName>IB39</systemName>
@@ -8911,12 +8911,6 @@
       <userName>Delta 3</userName>
       <permissive>no</permissive>
       <occupancysensor>Delta 3</occupancysensor>
-      <path todir="128" fromdir="64" block="IB51" />
-      <path todir="64" fromdir="128" block="IB:AUTO:0014">
-        <beansetting setting="2">
-          <turnout systemName="Delta 3 to 2" />
-        </beansetting>
-      </path>
       <path todir="128" fromdir="64" block="IB:AUTO:0014">
         <beansetting setting="2">
           <turnout systemName="Delta 4 to 3" />
@@ -9284,7 +9278,7 @@
           <turnout systemName="LT54" />
         </beansetting>
       </path>
-      <path todir="16" fromdir="32" block="IB31">
+      <path todir="128" fromdir="64" block="IB31">
         <beansetting setting="4">
           <turnout systemName="LT55" />
         </beansetting>
@@ -9635,14 +9629,14 @@
       <systemName>IB90</systemName>
       <userName>AUTOBLK:107</userName>
       <permissive>no</permissive>
-      <path todir="128" fromdir="64" block="IB38" />
-      <path todir="64" fromdir="128" block="IB120">
-        <beansetting setting="4">
+      <path todir="16" fromdir="32" block="IB38" />
+      <path todir="128" fromdir="64" block="IB120">
+        <beansetting setting="2">
           <turnout systemName="Bend East 4 to 3 partner" />
         </beansetting>
       </path>
       <path todir="16" fromdir="32" block="IB124">
-        <beansetting setting="2">
+        <beansetting setting="4">
           <turnout systemName="Bend East 4 to 3 partner" />
         </beansetting>
       </path>
@@ -9702,7 +9696,7 @@
         </beansetting>
       </path>
       <path todir="128" fromdir="64" block="IB130" />
-      <path todir="64" fromdir="128" block="IB131">
+      <path todir="16" fromdir="32" block="IB131">
         <beansetting setting="4">
           <turnout systemName="Bend East A to B" />
         </beansetting>
@@ -9741,7 +9735,7 @@
         </beansetting>
       </path>
       <path todir="64" fromdir="128" block="IB121" />
-      <path todir="128" fromdir="64" block="IB127">
+      <path todir="64" fromdir="128" block="IB127">
         <beansetting setting="4">
           <turnout systemName="Bend East B C Straight" />
         </beansetting>
@@ -9876,8 +9870,8 @@
       <systemName>IB110</systemName>
       <userName>AUTOBLK:127</userName>
       <permissive>no</permissive>
-      <path todir="128" fromdir="64" block="IB120" />
-      <path todir="64" fromdir="128" block="IB127">
+      <path todir="64" fromdir="128" block="IB120" />
+      <path todir="128" fromdir="64" block="IB127">
         <beansetting setting="4">
           <turnout systemName="Bend East B C Straight LT3 crossover partner" />
         </beansetting>
@@ -10017,12 +10011,12 @@
       <systemName>IB120</systemName>
       <userName>AUTOBLK:136</userName>
       <permissive>no</permissive>
-      <path todir="128" fromdir="64" block="IB90">
-        <beansetting setting="4">
+      <path todir="64" fromdir="128" block="IB90">
+        <beansetting setting="2">
           <turnout systemName="Bend East 4 to 3 partner" />
         </beansetting>
       </path>
-      <path todir="64" fromdir="128" block="IB110" />
+      <path todir="128" fromdir="64" block="IB110" />
     </block>
     <block systemName="IB121" length="0.0" curve="0">
       <systemName>IB121</systemName>
@@ -10079,7 +10073,7 @@
       <userName>AUTOBLK:140</userName>
       <permissive>no</permissive>
       <path todir="32" fromdir="16" block="IB90">
-        <beansetting setting="2">
+        <beansetting setting="4">
           <turnout systemName="Bend East 4 to 3 partner" />
         </beansetting>
       </path>
@@ -10126,12 +10120,12 @@
       <systemName>IB127</systemName>
       <userName>AUTOBLK:143</userName>
       <permissive>no</permissive>
-      <path todir="64" fromdir="128" block="IB98">
+      <path todir="128" fromdir="64" block="IB98">
         <beansetting setting="4">
           <turnout systemName="Bend East B C Straight" />
         </beansetting>
       </path>
-      <path todir="128" fromdir="64" block="IB110">
+      <path todir="64" fromdir="128" block="IB110">
         <beansetting setting="4">
           <turnout systemName="Bend East B C Straight LT3 crossover partner" />
         </beansetting>
@@ -10177,12 +10171,12 @@
       <systemName>IB131</systemName>
       <userName>AUTOBLK:147</userName>
       <permissive>no</permissive>
-      <path todir="128" fromdir="64" block="IB95">
+      <path todir="32" fromdir="16" block="IB95">
         <beansetting setting="4">
           <turnout systemName="Bend East A to B" />
         </beansetting>
       </path>
-      <path todir="64" fromdir="128" block="IB141">
+      <path todir="32" fromdir="16" block="IB141">
         <beansetting setting="4">
           <turnout systemName="Bend East A to B LT2 partner" />
         </beansetting>
@@ -10282,7 +10276,7 @@
           <turnout systemName="Bend East A to B LT2 partner" />
         </beansetting>
       </path>
-      <path todir="128" fromdir="64" block="IB131">
+      <path todir="16" fromdir="32" block="IB131">
         <beansetting setting="4">
           <turnout systemName="Bend East A to B LT2 partner" />
         </beansetting>
@@ -10411,19 +10405,19 @@
           <turnout systemName="APW Xover W" />
         </beansetting>
       </path>
-      <path todir="16" fromdir="32" block="IB159">
+      <path todir="128" fromdir="64" block="IB159">
         <beansetting setting="4">
           <turnout systemName="APW Xover W" />
         </beansetting>
       </path>
-      <path todir="96" fromdir="144" block="IB162" />
+      <path todir="16" fromdir="32" block="IB162" />
     </block>
     <block systemName="IB154" length="0.0" curve="0">
       <systemName>IB154</systemName>
       <userName>AUTOBLK:169</userName>
       <permissive>no</permissive>
       <path todir="16" fromdir="32" block="IB144" />
-      <path todir="16" fromdir="32" block="IB159">
+      <path todir="64" fromdir="128" block="IB159">
         <beansetting setting="4">
           <turnout systemName="APW Xover W partner" />
         </beansetting>
@@ -10438,7 +10432,7 @@
       <systemName>IB155</systemName>
       <userName>AUTOBLK:170</userName>
       <permissive>no</permissive>
-      <path todir="144" fromdir="96" block="IB162" />
+      <path todir="16" fromdir="32" block="IB162" />
       <path todir="16" fromdir="32" block="IB163">
         <beansetting setting="4">
           <turnout systemName="APW Xover E partner" />
@@ -10454,7 +10448,7 @@
       <systemName>IB156</systemName>
       <userName>AUTOBLK:171</userName>
       <permissive>no</permissive>
-      <path todir="32" fromdir="16" block="IB163">
+      <path todir="16" fromdir="32" block="IB163">
         <beansetting setting="4">
           <turnout systemName="APW Xover E" />
         </beansetting>
@@ -10490,12 +10484,12 @@
       <systemName>IB159</systemName>
       <userName>AUTOBLK:174</userName>
       <permissive>no</permissive>
-      <path todir="32" fromdir="16" block="IB153">
+      <path todir="64" fromdir="128" block="IB153">
         <beansetting setting="4">
           <turnout systemName="APW Xover W" />
         </beansetting>
       </path>
-      <path todir="32" fromdir="16" block="IB154">
+      <path todir="128" fromdir="64" block="IB154">
         <beansetting setting="4">
           <turnout systemName="APW Xover W partner" />
         </beansetting>
@@ -10515,8 +10509,8 @@
       <systemName>IB162</systemName>
       <userName>AUTOBLK:177</userName>
       <permissive>no</permissive>
-      <path todir="144" fromdir="96" block="IB153" />
-      <path todir="96" fromdir="144" block="IB155" />
+      <path todir="32" fromdir="16" block="IB153" />
+      <path todir="32" fromdir="16" block="IB155" />
     </block>
     <block systemName="IB163" length="0.0" curve="0">
       <systemName>IB163</systemName>
@@ -10527,7 +10521,7 @@
           <turnout systemName="APW Xover E partner" />
         </beansetting>
       </path>
-      <path todir="16" fromdir="32" block="IB156">
+      <path todir="32" fromdir="16" block="IB156">
         <beansetting setting="4">
           <turnout systemName="APW Xover E" />
         </beansetting>
@@ -10929,7 +10923,7 @@
       <systemName>IB:AUTO:0029</systemName>
       <userName>Bend CP3-L</userName>
       <permissive>no</permissive>
-      <path todir="64" fromdir="128" block="IB38" />
+      <path todir="16" fromdir="32" block="IB38" />
       <path todir="128" fromdir="64" block="IB41">
         <beansetting setting="2">
           <turnout systemName="Bend West 3 to 4" />
@@ -12225,7 +12219,7 @@
       <userName>System Logix</userName>
     </logix>
   </logixs>
-  <timebase class="jmri.jmrit.simpleclock.configurexml.SimpleTimebaseXml" time="Thu Aug 18 09:37:18 PDT 2016" rate="1.0" startrate="1.0" run="yes" master="yes" sync="no" correct="no" display="no" startstopped="no" startrunning="yes" startsettime="no" startclockoption="0" showbutton="no" startsetrate="yes" />
+  <timebase class="jmri.jmrit.simpleclock.configurexml.SimpleTimebaseXml" time="Thu Aug 18 12:37:18 EDT 2016" rate="1.0" startrate="1.0" run="yes" master="yes" sync="no" correct="no" display="no" startstopped="no" startrunning="yes" startsettime="no" startclockoption="0" showbutton="no" startsetrate="yes" />
   <entryexitpairs class="jmri.jmrit.entryexit.configurexml.EntryExitPairsXml">
     <layoutPanel name="PMRRM Dispatcher">
       <source type="sensor" item="NX-D2-WB">
@@ -13413,7 +13407,7 @@
       <tooltip>Text Label</tooltip>
     </positionablelabel>
   </paneleditor>
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="PMRRM Dispatcher" x="-8" y="-8" windowheight="1168" windowwidth="1936" panelheight="768" panelwidth="1496" sliders="yes" scrollable="both" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="yes" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclethrowncolor="orange" turnoutcirclesize="2" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="yes" redBackground="192" greenBackground="192" blueBackground="192" gridSize="5" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="PMRRM Dispatcher" x="0" y="25" windowheight="1415" windowwidth="2560" panelheight="768" panelwidth="1496" sliders="yes" scrollable="both" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="yes" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclethrowncolor="orange" turnoutcirclesize="2" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="yes" redBackground="192" greenBackground="192" blueBackground="192" gridSize="5" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="PMRRC NX DS 4a mod update" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
       <mainBallastWidth>0</mainBallastWidth>
@@ -13593,106 +13587,106 @@
     <positionablelabel x="1335" y="495" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="65 " fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <tooltip>Text Label</tooltip>
     </positionablelabel>
-    <memoryicon memory="IM1" x="895" y="340" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog.bolditalic" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+    <memoryicon memory="IM1" x="895" y="340" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>IM1</tooltip>
     </memoryicon>
-    <memoryicon memory="IM2" x="895" y="320" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog.bolditalic" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+    <memoryicon memory="IM2" x="895" y="320" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>IM2</tooltip>
     </memoryicon>
-    <memoryicon memory="IM3" x="895" y="300" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog.bolditalic" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+    <memoryicon memory="IM3" x="895" y="300" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>IM3</tooltip>
     </memoryicon>
-    <memoryicon memory="IM4" x="625" y="335" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog.bolditalic" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+    <memoryicon memory="IM4" x="625" y="335" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>IM4</tooltip>
     </memoryicon>
-    <memoryicon memory="IM6" x="495" y="335" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog.bolditalic" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+    <memoryicon memory="IM6" x="495" y="335" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>IM6</tooltip>
     </memoryicon>
-    <memoryicon memory="IM7" x="420" y="335" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog.bolditalic" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+    <memoryicon memory="IM7" x="420" y="335" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>IM7</tooltip>
     </memoryicon>
-    <memoryicon memory="IM8" x="325" y="330" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog.bolditalic" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+    <memoryicon memory="IM8" x="325" y="330" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>IM8</tooltip>
     </memoryicon>
-    <memoryicon memory="IM9" x="270" y="340" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog.bolditalic" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+    <memoryicon memory="IM9" x="270" y="340" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>IM9</tooltip>
     </memoryicon>
-    <memoryicon memory="IM10" x="320" y="295" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog.bolditalic" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+    <memoryicon memory="IM10" x="320" y="295" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>IM10</tooltip>
     </memoryicon>
-    <memoryicon memory="IM11" x="225" y="315" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog.bolditalic" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+    <memoryicon memory="IM11" x="225" y="315" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>IM11</tooltip>
     </memoryicon>
-    <memoryicon memory="Powderhorn - Osage" x="85" y="335" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog.bolditalic" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+    <memoryicon memory="Powderhorn - Osage" x="85" y="335" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>Powderhorn - Osage</tooltip>
     </memoryicon>
-    <memoryicon memory="Powderhorn main" x="1200" y="470" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog.bolditalic" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+    <memoryicon memory="Powderhorn main" x="1200" y="470" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>Powderhorn main</tooltip>
     </memoryicon>
-    <memoryicon memory="Powderhorn siding" x="1200" y="455" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog.bolditalic" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+    <memoryicon memory="Powderhorn siding" x="1200" y="455" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>Powderhorn siding</tooltip>
     </memoryicon>
-    <memoryicon memory="Redcliff - Powderhorn" x="925" y="470" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog.bolditalic" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+    <memoryicon memory="Redcliff - Powderhorn" x="925" y="470" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>Redcliff - Powderhorn</tooltip>
     </memoryicon>
-    <memoryicon memory="Redcliff Siding" x="795" y="500" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog.bolditalic" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+    <memoryicon memory="Redcliff Siding" x="795" y="500" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>Redcliff Siding</tooltip>
     </memoryicon>
-    <memoryicon memory="Redcliff Main" x="765" y="470" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog.bolditalic" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+    <memoryicon memory="Redcliff Main" x="765" y="470" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>Redcliff Main</tooltip>
     </memoryicon>
-    <memoryicon memory="Sierra - Redcliff" x="650" y="475" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog.bolditalic" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+    <memoryicon memory="Sierra - Redcliff" x="650" y="475" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>Sierra - Redcliff</tooltip>
     </memoryicon>
-    <memoryicon memory="Sierra Main" x="530" y="475" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog.bolditalic" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+    <memoryicon memory="Sierra Main" x="530" y="475" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>Sierra Main</tooltip>
     </memoryicon>
-    <memoryicon memory="Sierra Siding" x="530" y="450" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog.bolditalic" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+    <memoryicon memory="Sierra Siding" x="530" y="450" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>Sierra Siding</tooltip>
     </memoryicon>
-    <memoryicon memory="IM21" x="380" y="470" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog.bolditalic" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+    <memoryicon memory="IM21" x="380" y="470" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>Troy - Sierra</tooltip>
     </memoryicon>
-    <memoryicon memory="Troy Main" x="200" y="470" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog.bolditalic" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+    <memoryicon memory="Troy Main" x="200" y="470" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>Troy Main</tooltip>
     </memoryicon>
-    <memoryicon memory="Troy Sidng" x="225" y="495" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog.bolditalic" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+    <memoryicon memory="Troy Sidng" x="225" y="495" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>Troy Siding</tooltip>
     </memoryicon>
-    <memoryicon memory="Upton - Troy" x="60" y="470" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog.bolditalic" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+    <memoryicon memory="Upton - Troy" x="60" y="470" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>Upton - Troy</tooltip>
     </memoryicon>
-    <memoryicon memory="Upton Main" x="1240" y="600" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog.bolditalic" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+    <memoryicon memory="Upton Main" x="1240" y="600" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>Upton Main</tooltip>
     </memoryicon>
-    <memoryicon memory="Upton Siding" x="1240" y="575" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog.bolditalic" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+    <memoryicon memory="Upton Siding" x="1240" y="575" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>Upton Siding</tooltip>
     </memoryicon>
-    <memoryicon memory="Vista - Upton West" x="1070" y="595" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog.bolditalic" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+    <memoryicon memory="Vista - Upton West" x="1070" y="595" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>Vista - Upton West</tooltip>
     </memoryicon>
-    <memoryicon memory="Vista Main" x="910" y="600" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog.bolditalic" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+    <memoryicon memory="Vista Main" x="910" y="600" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>Vista Main</tooltip>
     </memoryicon>
-    <memoryicon memory="Vista Siding" x="910" y="575" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog.bolditalic" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+    <memoryicon memory="Vista Siding" x="910" y="575" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>Vista Siding</tooltip>
     </memoryicon>
-    <memoryicon memory="Vista - Whiskey" x="750" y="595" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog.bolditalic" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+    <memoryicon memory="Vista - Whiskey" x="750" y="595" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>Whiskey - Vista</tooltip>
     </memoryicon>
-    <memoryicon memory="Whiskey Main" x="595" y="595" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog.bolditalic" size="12" style="3" red="255" green="255" blue="0" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+    <memoryicon memory="Whiskey Main" x="595" y="595" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="0" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>Whiskey Main</tooltip>
     </memoryicon>
-    <memoryicon memory="Whiskey Siding" x="595" y="620" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog.bolditalic" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+    <memoryicon memory="Whiskey Siding" x="595" y="620" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>Whiskey Siding</tooltip>
     </memoryicon>
-    <memoryicon memory="Whiskey - Xerox" x="440" y="595" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog.bolditalic" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+    <memoryicon memory="Whiskey - Xerox" x="440" y="595" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>Xerox - Whiskey</tooltip>
     </memoryicon>
-    <memoryicon memory="Xerox Main" x="280" y="595" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog.bolditalic" size="12" style="3" red="255" green="255" blue="0" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+    <memoryicon memory="Xerox Main" x="280" y="595" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="0" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>Xerox Main</tooltip>
     </memoryicon>
-    <memoryicon memory="Xerox Siding" x="280" y="635" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog.bolditalic" size="12" style="3" red="255" green="255" blue="0" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+    <memoryicon memory="Xerox Siding" x="280" y="635" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="0" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>Xerox Siding</tooltip>
     </memoryicon>
     <positionablelabel x="1347" y="360" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="50 " fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
@@ -13857,49 +13851,49 @@
     <positionablelabel x="885" y="390" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="MIDWAY " fontFamily="Dialog" fontname="Dialog" size="14" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <tooltip>Text Label</tooltip>
     </positionablelabel>
-    <memoryicon memory="IM36" x="1225" y="335" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog.bolditalic" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+    <memoryicon memory="IM36" x="1225" y="335" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>IM36</tooltip>
     </memoryicon>
-    <memoryicon memory="IM37" x="1371" y="331" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog.bolditalic" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+    <memoryicon memory="IM37" x="1371" y="331" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>IM37</tooltip>
     </memoryicon>
-    <memoryicon memory="IM38" x="170" y="170" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog.bolditalic" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+    <memoryicon memory="IM38" x="170" y="170" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>IM38</tooltip>
     </memoryicon>
-    <memoryicon memory="IM39" x="330" y="170" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog.bolditalic" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+    <memoryicon memory="IM39" x="330" y="170" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>IM39</tooltip>
     </memoryicon>
-    <memoryicon memory="IM40" x="329" y="195" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog.bolditalic" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+    <memoryicon memory="IM40" x="329" y="195" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>IM40</tooltip>
     </memoryicon>
-    <memoryicon memory="IM41" x="485" y="170" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog.bolditalic" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+    <memoryicon memory="IM41" x="485" y="170" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>IM41</tooltip>
     </memoryicon>
-    <memoryicon memory="IM42" x="575" y="170" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog.bolditalic" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+    <memoryicon memory="IM42" x="575" y="170" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>IM42</tooltip>
     </memoryicon>
-    <memoryicon memory="IM43" x="735" y="170" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog.bolditalic" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+    <memoryicon memory="IM43" x="735" y="170" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>IM43</tooltip>
     </memoryicon>
-    <memoryicon memory="IM44" x="735" y="195" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog.bolditalic" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+    <memoryicon memory="IM44" x="735" y="195" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>IM44</tooltip>
     </memoryicon>
-    <memoryicon memory="IM45" x="910" y="150" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog.bolditalic" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+    <memoryicon memory="IM45" x="910" y="150" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>IM45</tooltip>
     </memoryicon>
-    <memoryicon memory="IM46" x="910" y="175" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog.bolditalic" size="10" style="3" red="0" green="255" blue="0" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+    <memoryicon memory="IM46" x="910" y="175" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="10" style="3" red="0" green="255" blue="0" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>IM46</tooltip>
     </memoryicon>
-    <memoryicon memory="IM47" x="1050" y="170" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog.bolditalic" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+    <memoryicon memory="IM47" x="1050" y="170" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>IM47</tooltip>
     </memoryicon>
-    <memoryicon memory="IM48" x="235" y="65" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog.bolditalic" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+    <memoryicon memory="IM48" x="235" y="65" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>IM48</tooltip>
     </memoryicon>
-    <memoryicon memory="IM49" x="235" y="45" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog.bolditalic" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+    <memoryicon memory="IM49" x="235" y="45" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>IM49</tooltip>
     </memoryicon>
-    <memoryicon memory="IM50" x="235" y="25" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog.bolditalic" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+    <memoryicon memory="IM50" x="235" y="25" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>IM50</tooltip>
     </memoryicon>
     <sensoricon sensor="Main Init 1" x="1105" y="660" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
@@ -13918,7 +13912,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <memoryicon memory="Vista - Upton East" x="1130" y="595" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog.bolditalic" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+    <memoryicon memory="Vista - Upton East" x="1130" y="595" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>Vista - Upton East</tooltip>
     </memoryicon>
     <sensoricon sensor="NX-XeroxM1-EB" x="340" y="610" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
@@ -14310,7 +14304,7 @@
     <memoryicon memory="IM54" x="555" y="65" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="0" red="0" green="255" blue="0" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>IM54</tooltip>
     </memoryicon>
-    <memoryicon memory="IM55" x="555" y="85" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog.bolditalic" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+    <memoryicon memory="IM55" x="555" y="85" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>IM55</tooltip>
     </memoryicon>
     <memoryicon memory="IM56" x="920" y="20" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="2" red="0" green="255" blue="0" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
@@ -15020,8 +15014,8 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <memoryicon memory="IM60" x="1260" y="380" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog.bolditalic" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif" />
-    <memoryicon memory="IM61" x="625" y="360" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog.bolditalic" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif" />
+    <memoryicon memory="IM60" x="1260" y="380" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif" />
+    <memoryicon memory="IM61" x="625" y="360" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif" />
     <signalheadicon signalhead="W Xerox Main" x="320" y="625" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" clickmode="3" litmode="false" class="jmri.jmrit.display.configurexml.SignalHeadIconXml">
       <icons>
         <held url="program:resources/icons/smallschematics/searchlights/left-held-short.gif" degrees="0" scale="1.0">
@@ -15934,7 +15928,7 @@
       </icons>
       <iconmaps />
     </signalheadicon>
-    <memoryicon memory="Troy 3" x="225" y="515" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog.bolditalic" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+    <memoryicon memory="Troy 3" x="225" y="515" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>Troy 3</tooltip>
     </memoryicon>
     <sensoricon sensor="NX-E1-EB" x="290" y="35" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
@@ -17083,7 +17077,7 @@
     <layoutturnout ident="TO64" type="RH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="380.0" ycen="70.0" xa="355.0" ya="60.0" xb="388.333325" yb="60.0" xc="405.0" yc="80.0" xd="371.666675" yd="80.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHXOverXml" turnoutname="Delta 3 to 2" blockname="CP D2" blockcname="CP D3" blockdname="CP D3" connectaname="T78" connectbname="T77" connectcname="T76" connectdname="T105">
       <sensorD>NX-E3-EB</sensorD>
     </layoutturnout>
-    <layoutturnout ident="TO65" type="RH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="335.0" ycen="50.0" xa="305.0" ya="40.0" xb="345.0" yb="40.0" xc="365.0" yc="60.0" xd="325.0" yd="60.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHXOverXml" turnoutname="Delta 2 to 1" blockname="CP DL1" blockcname="CP D2" blockdname="CP D2" connectaname="T103" connectbname="T102" connectcname="T78" connectdname="T104">
+    <layoutturnout ident="TO65" type="RH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="335.0" ycen="50.0" xa="305.0" ya="40.0" xb="344.99999" yb="40.0" xc="365.0" yc="60.0" xd="325.00001" yd="60.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHXOverXml" turnoutname="Delta 2 to 1" blockname="CP DL1" blockcname="CP D2" blockdname="CP D2" connectaname="T103" connectbname="T102" connectcname="T78" connectdname="T104">
       <sensorA>NX-E1-EB</sensorA>
       <sensorD>NX-E2-EB</sensorD>
     </layoutturnout>
@@ -17138,7 +17132,7 @@
     <layoutturnout ident="TO90" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="842.0" ycen="285.0" xa="827.0" ya="300.0" xb="857.0" yb="270.0" xc="862.0" yc="285.0" xd="827.0" yd="300.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Midway W Team 2" blockname="AUTOBLK:75" connectaname="T146" connectbname="T149" connectcname="T148" />
     <layoutturnout ident="TO73" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="694.0" ycen="210.0" xa="669.0" ya="210.0" xb="719.0" yb="210.0" xc="704.0" yc="220.0" xd="669.0" yd="210.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Hudson Oil Cans load 1" blockname="Hudson 2" connectaname="T117" connectbname="T156" connectcname="T155" />
     <layoutturnout ident="TO76" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="869.0" ycen="170.0" xa="884.0" ya="170.0" xb="854.0" yb="170.0" xc="854.0" yc="155.0" xd="884.0" yd="170.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Gary Tyson Steel" blockname="Gary 2" connectaname="T113" connectbname="T154" connectcname="T153" />
-    <layoutturnout ident="TO47" type="RH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1075.0" ycen="70.0" xa="1050.0" ya="60.0" xb="1083.1844384240026" yb="59.63920887167215" xc="1100.0" yc="80.0" xd="1066.8155615759974" yd="80.36079112832785" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHXOverXml" turnoutname="Bend West 3 to 2" blockname="Bend CP2" blockcname="Bend CP3-L" blockdname="Bend CP3-L" connectaname="T61" connectbname="T72" connectcname="T57" connectdname="T58" />
+    <layoutturnout ident="TO47" type="RH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1075.0" ycen="70.0" xa="1050.0" ya="60.0" xb="1083.1844388400334" yb="59.63920984953721" xc="1100.0" yc="80.0" xd="1066.8155611599666" yd="80.36079015046279" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHXOverXml" turnoutname="Bend West 3 to 2" blockname="Bend CP2" blockcname="Bend CP3-L" blockdname="Bend CP3-L" connectaname="T61" connectbname="T72" connectcname="T57" connectdname="T58" />
     <layoutturnout ident="TO48" type="RH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1010.0" ycen="50.0" xa="985.0" ya="40.0" xb="1018.3484831613508" yb="40.0380210562012" xc="1035.0" yc="60.0" xd="1001.6515168386492" yd="59.9619789437988" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHXOverXml" turnoutname="Bend West 2 to 1" blockname="Bend CP1-L" blockcname="Bend CP2" blockdname="Bend CP2" connectaname="T91" connectbname="T89" connectcname="T61" connectdname="T92">
       <sensorA>NX-B1-EB</sensorA>
       <sensorD>NX-B2-EB</sensorD>
@@ -17182,8 +17176,8 @@
     <layoutturnout ident="TO103" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="277.0" ycen="490.0" xa="292.0" ya="490.0" xb="262.0" yb="490.0" xc="262.0" yc="470.0" xd="292.0" yd="490.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Troy station" blockname="Troy Main" connectaname="T207" connectbname="T202" connectcname="T208" />
     <layoutturnout ident="TO27" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="4" xcen="1250.0" ycen="470.0" xa="1235.0" ya="470.0" xb="1265.0" yb="470.0" xc="1265.0" yc="460.0" xd="1235.0" yd="470.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Powderhorn work track spur" blockname="Powderhorn S" connectaname="T170" connectbname="T38" connectcname="T171" />
     <layoutturnout ident="TO28" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="485.0" ycen="450.0" xa="470.0" ya="450.0" xb="500.0" yb="450.0" xc="500.0" yc="430.0" xd="470.0" yd="450.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="LT273" blockname="AUTOBLK:52" connectaname="T49" connectbname="T131" connectcname="T132" />
-    <layoutturnout ident="TO29" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="4" xcen="1120.0" ycen="80.0" xa="1100.0" ya="80.0" xb="1140.0" yb="80.0" xc="1130.0" yc="90.0" xd="1100.0" yd="80.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Bend East 4 to 3 partner" blockname="AUTOBLK:107" connectaname="T57" connectbname="T50" connectcname="T51" />
-    <layoutturnout ident="TO30" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="4" xcen="1140.0" ycen="100.0" xa="1150.0" ya="110.0" xb="1130.0" yb="90.0" xc="1108.0" yc="100.0" xd="1150.0" yd="110.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Bend East 4 to 3" secondturnoutname="Bend East 4 to 3 partner" secondturnoutinverted="true" blockname="AUTOBLK:114" connectaname="T90" connectbname="T51" connectcname="T52" />
+    <layoutturnout ident="TO29" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1120.0" ycen="80.0" xa="1100.0" ya="80.0" xb="1140.0" yb="80.0" xc="1130.0" yc="90.0" xd="1100.0" yd="80.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Bend East 4 to 3 partner" secondturnoutname="Bend East 4 to 3" blockname="AUTOBLK:107" connectaname="T57" connectbname="T50" connectcname="T51" />
+    <layoutturnout ident="TO30" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="4" xcen="1140.0" ycen="100.0" xa="1150.0" ya="110.0" xb="1130.0" yb="90.0" xc="1108.0" yc="100.0" xd="1150.0" yd="110.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Bend East 4 to 3" secondturnoutname="Bend East 4 to 3 partner" blockname="AUTOBLK:114" connectaname="T90" connectbname="T51" connectcname="T52" />
     <layoutturnout ident="TO46" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="4" xcen="1150.0" ycen="80.0" xa="1130.0" ya="80.0" xb="1170.0" yb="80.0" xc="1180.0" yc="110.0" xd="1130.0" yd="80.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Bend East B C Straight LT3 crossover partner" secondturnoutname="Bend East B C Straight" blockname="AUTOBLK:127" connectaname="T50" connectbname="T80" connectcname="T106" />
     <layoutturnout ident="TO45" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="4" xcen="1200.0" ycen="60.0" xa="1215.0" ya="60.0" xb="1185.0" yb="60.0" xc="1180.0" yc="40.0" xd="1215.0" yd="60.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Bend East A to B LT2 partner" secondturnoutname="Bend East A to B" blockname="AUTOBLK:156" connectaname="T196" connectbname="T136" connectcname="T62" />
     <layoutturnout ident="TO56" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1185.0" ycen="145.0" xa="1190.0" ya="150.0" xb="1180.0" yb="140.0" xc="1170.0" yc="145.0" xd="1190.0" yd="150.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="APW storage 2 chk name" blockname="AUTOBLK:124" connectaname="T84" connectbname="T83" connectcname="T85" />
