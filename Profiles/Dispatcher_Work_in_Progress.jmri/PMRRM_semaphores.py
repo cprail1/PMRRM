@@ -25,23 +25,36 @@ class ControlDualSemaphore (jmri.jmrit.automat.AbstractAutomaton) :
         
         self.minAcceptableTime = 200
         
+        self.log = LoggerFactory.getLogger("PMRRM_semaphores");
+
+        # print checks
+        if self.upper == None : self.log.error("semaphore {} has null upper head", self.name)
+        if self.lower == None : self.log.error("semaphore {} has null lower head", self.name)
+        if None in self.blocks : 
+            self.log.error("semaphore {}  has null block", self.name)
+            i = 1
+            for item in self.blocks :
+                if item == None : self.log.error("       item {}", i)
+                i = i+1
+        if None in self.turnouts : 
+            self.log.error("semaphore {}  has null turnout", self.name)
+            i = 1
+            for item in self.blocks :
+                if item == None : self.log.error("        item {}", i)
+                i = i+1
+
         # create a list of inputs to watch
         self.beans = []
         self.beans.extend(self.blocks)
         self.beans.extend(self.turnouts)
         if self.next and self.next != False : self.beans.append(self.next)
-        
+                
         # Remember the current state of the beans for a later waitCheck
         self.waitChangePrecheck(self.beans)
         
         self.lastTime = self.current_milli_time() - self.minAcceptableTime # subtract to skip warning on 1st cycle
         self.priorBeans = []
         self.lastBeans = []
-        self.log = LoggerFactory.getLogger("PMRRM_semaphores");
-        
-        # print checks
-        if None in self.blocks : print self.name, " has null block"
-        if None in self.turnouts : print self.name, " has null turnout"
         
         return
         
@@ -145,7 +158,7 @@ a = ControlDualSemaphore()
 a.setName("W OP Sem")
 a.upper    = signals.getSignalHead("W OP Sem")
 a.lower    = signals.getSignalHead("W OP Sem L")
-a.blocks   = [sensors.getSensor("O-P")]
+a.blocks   = [sensors.getSensor("Osage-Powderhorn")]
 a.turnouts = [turnouts.getTurnout("McSweeney branch")]
 a.next     = signals.getSignalHead("W Osage Sem")
 a.start()
@@ -181,7 +194,7 @@ a = ControlDualSemaphore()
 a.setName("W R-S Sem")
 a.upper    = signals.getSignalHead("W R-S Sem")
 a.lower    = signals.getSignalHead("W R-S Sem L")
-a.blocks   = [sensors.getSensor("R-S")]
+a.blocks   = [sensors.getSensor("Redcliff-Sierra")]
 a.turnouts = []
 a.next     = signals.getSignalHead("W Redcliff Sem")
 a.start()
@@ -202,7 +215,7 @@ a = ControlDualSemaphore()
 a.setName("E RS Sem")
 a.upper    = signals.getSignalHead("E RS Sem")
 a.lower    = signals.getSignalHead("E RS Sem L")
-a.blocks   = [sensors.getSensor("R-S")]
+a.blocks   = [sensors.getSensor("Redcliff-Sierra")]
 a.turnouts = []
 a.next     = signals.getSignalHead("E Sierra Sem")
 a.start()
@@ -238,7 +251,7 @@ a = ControlDualSemaphore()
 a.setName("E OP Sem")
 a.upper    = signals.getSignalHead("E OP Sem")
 a.lower    = signals.getSignalHead("E OP Sem L")
-a.blocks   = [sensors.getSensor("O-P")]
+a.blocks   = [sensors.getSensor("Osage-Powderhorn")]
 a.turnouts = [turnouts.getTurnout("McSweeney branch")]
 a.next     = signals.getSignalHead("E Powder Sem")
 a.start()
