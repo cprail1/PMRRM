@@ -2041,63 +2041,63 @@
     </globalDebounceTimers>
     <sensor inverted="false">
       <systemName>IS1</systemName>
-      <userName>Frt 1</userName>
+      <userName>MidwayYd E Frt 1 routing</userName>
     </sensor>
     <sensor inverted="false">
       <systemName>IS2</systemName>
-      <userName>Frt 2</userName>
+      <userName>MidwayYd E Frt 2 routing</userName>
     </sensor>
     <sensor inverted="false">
       <systemName>IS3</systemName>
-      <userName>Frt 3</userName>
+      <userName>MidwayYd E Frt 3 routing</userName>
     </sensor>
     <sensor inverted="false">
       <systemName>IS4</systemName>
-      <userName>Frt 4</userName>
+      <userName>MidwayYd E Frt 4 routing</userName>
     </sensor>
     <sensor inverted="false">
       <systemName>IS5</systemName>
-      <userName>Frt 5</userName>
+      <userName>MidwayYd E Frt 5 routing</userName>
     </sensor>
     <sensor inverted="false">
       <systemName>IS6</systemName>
-      <userName>Frt 6</userName>
+      <userName>MidwayYd E Frt 6 routing</userName>
     </sensor>
     <sensor inverted="false">
       <systemName>IS7</systemName>
-      <userName>Frt 7</userName>
+      <userName>MidwayYd E Frt 7 routing</userName>
     </sensor>
     <sensor inverted="false">
       <systemName>IS8</systemName>
-      <userName>Frt 1:7</userName>
+      <userName>MidwayYd E Frt 1:7 routing</userName>
     </sensor>
     <sensor inverted="false">
       <systemName>IS9</systemName>
-      <userName>W Frt 1</userName>
+      <userName>MidwayYd W Frt 1 routing</userName>
     </sensor>
     <sensor inverted="false">
       <systemName>IS10</systemName>
-      <userName>W Frt 2</userName>
+      <userName>MidwayYd W Frt 2 routing</userName>
     </sensor>
     <sensor inverted="false">
       <systemName>IS11</systemName>
-      <userName>W Frt 3</userName>
+      <userName>MidwayYd W Frt 3 routing</userName>
     </sensor>
     <sensor inverted="false">
       <systemName>IS12</systemName>
-      <userName>W Frt 4</userName>
+      <userName>MidwayYd W Frt 4 routing</userName>
     </sensor>
     <sensor inverted="false">
       <systemName>IS13</systemName>
-      <userName>W Frt 5</userName>
+      <userName>MidwayYd W Frt 5 routing</userName>
     </sensor>
     <sensor inverted="false">
       <systemName>IS14</systemName>
-      <userName>W Frt 6</userName>
+      <userName>MidwayYd W Frt 6 routing</userName>
     </sensor>
     <sensor inverted="false">
       <systemName>IS15</systemName>
-      <userName>W Frt 7</userName>
+      <userName>MidwayYd W Frt 7 routing</userName>
     </sensor>
     <sensor inverted="false">
       <systemName>IS18</systemName>
@@ -3996,6 +3996,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT203</systemName>
+      <userName>MidwayYd E-F1,F2</userName>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -4005,6 +4006,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT204</systemName>
+      <userName>MidwayYd E-F3,F2</userName>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -4014,6 +4016,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT205</systemName>
+      <userName>MidwayYd E-F ladder, F5</userName>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -4023,6 +4026,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT206</systemName>
+      <userName>MidwayYd E-upper cross over stockyards</userName>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -4032,6 +4036,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT207</systemName>
+      <userName>MidwayYd E-lower cross over stockyards</userName>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -4059,6 +4064,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT210</systemName>
+      <userName>MidwayYd W-F1,F2</userName>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -4068,6 +4074,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT211</systemName>
+      <userName>MidwayYd W-F2,F3</userName>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -4077,6 +4084,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT212</systemName>
+      <userName>MidwayYd W-F3,F4</userName>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -4086,6 +4094,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT213</systemName>
+      <userName>MidwayYd W-F4,F5</userName>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -4095,6 +4104,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT214</systemName>
+      <userName>MidwayYd W-F5,F6</userName>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -4104,6 +4114,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT215</systemName>
+      <userName>MidwayYd W-F6,F7</userName>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -4660,6 +4671,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT445</systemName>
+      <userName>Narrows Intermediate Westward Servo 1A</userName>
       <comment>SignalHead:IH88:Red</comment>
       <properties>
         <property>
@@ -4674,6 +4686,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT446</systemName>
+      <userName>Narrows Intermediate Westward Servo 1B</userName>
       <comment>SignalHead:IH88:Green</comment>
       <properties>
         <property>
@@ -4688,6 +4701,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT447</systemName>
+      <userName>Narrows Intermediate Westward Servo 2A</userName>
       <comment>SignalHead:IH89:Red</comment>
       <properties>
         <property>
@@ -4702,6 +4716,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT448</systemName>
+      <userName>Narrows Intermediate Westward Servo 2B</userName>
       <comment>SignalHead:IH89:Green</comment>
       <properties>
         <property>
@@ -4716,6 +4731,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT449</systemName>
+      <userName>Narrows Intermediate Eastward Servo 1A</userName>
       <comment>SignalHead:IH90:Red</comment>
       <properties>
         <property>
@@ -4730,6 +4746,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT450</systemName>
+      <userName>Narrows Intermediate Eastward Servo 1B</userName>
       <comment>SignalHead:IH90:Green</comment>
       <properties>
         <property>
@@ -4744,6 +4761,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT451</systemName>
+      <userName>Narrows Intermediate Eastward Servo 2A</userName>
       <comment>SignalHead:IH91:Red</comment>
       <properties>
         <property>
@@ -4758,6 +4776,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT452</systemName>
+      <userName>Narrows Intermediate Eastward Servo 2B</userName>
       <comment>SignalHead:IH91:Green</comment>
       <properties>
         <property>
@@ -4772,6 +4791,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT453</systemName>
+      <userName>East Osage Westward Servo 1A</userName>
       <comment>SignalHead:IH106:Red</comment>
       <properties>
         <property>
@@ -4782,6 +4802,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT454</systemName>
+      <userName>East Osage Westward Servo 1B</userName>
       <comment>SignalHead:IH106:Green</comment>
       <properties>
         <property>
@@ -4792,6 +4813,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT455</systemName>
+      <userName>East Osage Westward Servo 2A</userName>
       <comment>SignalHead:IH107:Red</comment>
       <properties>
         <property>
@@ -4802,6 +4824,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT456</systemName>
+      <userName>East Osage Westward Servo 2B</userName>
       <comment>SignalHead:IH107:Green</comment>
       <properties>
         <property>
@@ -4812,6 +4835,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT457</systemName>
+      <userName>East Osage Eastward Servo 1A</userName>
       <comment>SignalHead:IH92:Red</comment>
       <properties>
         <property>
@@ -4826,6 +4850,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT458</systemName>
+      <userName>East Osage Eastward Servo 1B</userName>
       <comment>SignalHead:IH92:Green</comment>
       <properties>
         <property>
@@ -4840,6 +4865,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT459</systemName>
+      <userName>East Osage Eastward Servo 2A</userName>
       <comment>SignalHead:IH93:Red</comment>
       <properties>
         <property>
@@ -4854,6 +4880,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT460</systemName>
+      <userName>East Osage Eastward Servo 2B</userName>
       <comment>SignalHead:IH93:Green</comment>
       <properties>
         <property>
@@ -4868,6 +4895,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT461</systemName>
+      <userName>West Osage Westward Servo 1A</userName>
       <comment>SignalHead:IH94:Red</comment>
       <properties>
         <property>
@@ -4882,6 +4910,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT462</systemName>
+      <userName>West Osage Westward Servo 1B</userName>
       <comment>SignalHead:IH94:Green</comment>
       <properties>
         <property>
@@ -4896,6 +4925,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT463</systemName>
+      <userName>West Osage Westward Servo 2A</userName>
       <comment>SignalHead:IH95:Red</comment>
       <properties>
         <property>
@@ -4910,6 +4940,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT464</systemName>
+      <userName>West Osage Westward Servo 2B</userName>
       <comment>SignalHead:IH95:Green</comment>
       <properties>
         <property>
@@ -4924,6 +4955,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT465</systemName>
+      <userName>West Osage Eastward Servo 1A</userName>
       <comment>SignalHead:IH98:Red</comment>
       <properties>
         <property>
@@ -4934,6 +4966,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT466</systemName>
+      <userName>West Osage Eastward Servo 1B</userName>
       <comment>SignalHead:IH98:Green</comment>
       <properties>
         <property>
@@ -4944,6 +4977,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT467</systemName>
+      <userName>West Osage Eastward Servo 2A</userName>
       <comment>SignalHead:IH99:Red</comment>
       <properties>
         <property>
@@ -4954,6 +4988,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT468</systemName>
+      <userName>West Osage Eastward Servo 2B</userName>
       <comment>SignalHead:IH99:Green</comment>
       <properties>
         <property>
@@ -4964,6 +4999,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT469</systemName>
+      <userName>East Powderhorn Westward Servo 1A</userName>
       <comment>SignalHead:IH100:Red</comment>
       <properties>
         <property>
@@ -4974,6 +5010,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT470</systemName>
+      <userName>East Powderhorn Westward Servo 1B</userName>
       <comment>SignalHead:IH100:Green</comment>
       <properties>
         <property>
@@ -4984,6 +5021,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT471</systemName>
+      <userName>East Powderhorn Westward Servo 2A</userName>
       <comment>SignalHead:IH101:Red</comment>
       <properties>
         <property>
@@ -4994,6 +5032,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT472</systemName>
+      <userName>East Powderhorn Westward Servo 2B</userName>
       <comment>SignalHead:IH101:Green</comment>
       <properties>
         <property>
@@ -5004,6 +5043,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT473</systemName>
+      <userName>East Powderhorn Eastward Servo 1A</userName>
       <comment>SignalHead:IH96:Red</comment>
       <properties>
         <property>
@@ -5018,6 +5058,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT474</systemName>
+      <userName>East Powderhorn Eastward Servo 1B</userName>
       <comment>SignalHead:IH96:Green</comment>
       <properties>
         <property>
@@ -5032,6 +5073,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT475</systemName>
+      <userName>East Powderhorn Eastward Servo 2A</userName>
       <comment>SignalHead:IH97:Red</comment>
       <properties>
         <property>
@@ -5046,6 +5088,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT476</systemName>
+      <userName>East Powderhorn Eastward Servo 2B</userName>
       <comment>SignalHead:IH97:Green</comment>
       <properties>
         <property>
@@ -5060,6 +5103,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT477</systemName>
+      <userName>West Powderhorn Westward Servo 1A</userName>
       <comment>SignalHead:IH108:Red</comment>
       <properties>
         <property>
@@ -5070,6 +5114,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT478</systemName>
+      <userName>West Powderhorn Westward Servo 1B</userName>
       <comment>SignalHead:IH108:Green</comment>
       <properties>
         <property>
@@ -5080,6 +5125,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT479</systemName>
+      <userName>West Powderhorn Westward Servo 2A</userName>
       <comment>SignalHead:IH109:Red</comment>
       <properties>
         <property>
@@ -5090,6 +5136,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT480</systemName>
+      <userName>West Powderhorn Westward Servo 2B</userName>
       <comment>SignalHead:IH109:Green</comment>
       <properties>
         <property>
@@ -5100,6 +5147,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT481</systemName>
+      <userName>West Powderhorn Eastward Servo 1A</userName>
       <comment>SignalHead:IH108:Red</comment>
       <properties>
         <property>
@@ -5110,6 +5158,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT482</systemName>
+      <userName>West Powderhorn Eastward Servo 1B</userName>
       <comment>SignalHead:IH108:Green</comment>
       <properties>
         <property>
@@ -5120,6 +5169,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT483</systemName>
+      <userName>West Powderhorn Eastward Servo 2A</userName>
       <comment>SignalHead:IH109:Red</comment>
       <properties>
         <property>
@@ -5130,6 +5180,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT484</systemName>
+      <userName>West Powderhorn Eastward Servo 2B</userName>
       <comment>SignalHead:IH109:Green</comment>
       <properties>
         <property>
@@ -5140,6 +5191,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT485</systemName>
+      <userName>Quartz Intermediate Westward Servo 1A</userName>
       <comment>SignalHead:IH110:Red</comment>
       <properties>
         <property>
@@ -5150,6 +5202,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT486</systemName>
+      <userName>Quartz Intermediate Westward Servo 1B</userName>
       <comment>SignalHead:IH110:Green</comment>
       <properties>
         <property>
@@ -5160,6 +5213,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT487</systemName>
+      <userName>Quartz Intermediate Westward Servo 2A</userName>
       <comment>SignalHead:IH111:Red</comment>
       <properties>
         <property>
@@ -5170,6 +5224,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT488</systemName>
+      <userName>Quartz Intermediate Westward Servo 2B</userName>
       <comment>SignalHead:IH111:Green</comment>
       <properties>
         <property>
@@ -5179,7 +5234,24 @@
       </properties>
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
+      <systemName>LT489</systemName>
+      <userName>Quartz Intermediate Eastward Servo 1A</userName>
+    </turnout>
+    <turnout feedback="MONITORING" inverted="false" automate="Off">
+      <systemName>LT490</systemName>
+      <userName>Quartz Intermediate Eastward Servo 1B</userName>
+    </turnout>
+    <turnout feedback="MONITORING" inverted="false" automate="Off">
+      <systemName>LT491</systemName>
+      <userName>Quartz Intermediate Eastward Servo 2A</userName>
+    </turnout>
+    <turnout feedback="MONITORING" inverted="false" automate="Off">
+      <systemName>LT492</systemName>
+      <userName>Quartz Intermediate Eastward Servo 2B</userName>
+    </turnout>
+    <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT493</systemName>
+      <userName>East Red Cliff Westward Servo 1A</userName>
       <comment>SignalHead:IH114:Red</comment>
       <properties>
         <property>
@@ -5190,6 +5262,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT494</systemName>
+      <userName>East Red Cliff Westward Servo 1B</userName>
       <comment>SignalHead:IH114:Red</comment>
       <properties>
         <property>
@@ -5200,6 +5273,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT495</systemName>
+      <userName>East Red Cliff Westward Servo 2A</userName>
       <comment>SignalHead:IH115:Red</comment>
       <properties>
         <property>
@@ -5210,6 +5284,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT496</systemName>
+      <userName>East Red Cliff Westward Servo 2B</userName>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -5219,6 +5294,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT497</systemName>
+      <userName>East Red Cliff Eastward Servo 1A</userName>
       <comment>SignalHead:IH112:Red</comment>
       <properties>
         <property>
@@ -5229,6 +5305,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT498</systemName>
+      <userName>East Red Cliff Eastward Servo 1B</userName>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -5238,6 +5315,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT499</systemName>
+      <userName>East Red Cliff Eastward Servo 2A</userName>
       <comment>SignalHead:IH113:Red</comment>
       <properties>
         <property>
@@ -5248,6 +5326,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT500</systemName>
+      <userName>East Red Cliff Eastward Servo 2B</userName>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -5257,6 +5336,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT501</systemName>
+      <userName>West Red Cliff Westward Servo 1A</userName>
       <comment>SignalHead:IH102:Red</comment>
       <properties>
         <property>
@@ -5267,6 +5347,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT502</systemName>
+      <userName>West Red Cliff Westward Servo 1B</userName>
       <comment>SignalHead:IH102:Green</comment>
       <properties>
         <property>
@@ -5277,6 +5358,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT503</systemName>
+      <userName>West Red Cliff Westward Servo 2A</userName>
       <comment>SignalHead:IH103:Red</comment>
       <properties>
         <property>
@@ -5287,6 +5369,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT504</systemName>
+      <userName>West Red Cliff Westward Servo 2B</userName>
       <comment>SignalHead:IH103:Green</comment>
       <properties>
         <property>
@@ -5297,6 +5380,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT505</systemName>
+      <userName>West Red Cliff Eastward Servo 1A</userName>
       <comment>SignalHead:IH104:Red</comment>
       <properties>
         <property>
@@ -5307,6 +5391,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT506</systemName>
+      <userName>West Red Cliff Eastward Servo 1B</userName>
       <comment>SignalHead:IH104:Green</comment>
       <properties>
         <property>
@@ -5317,6 +5402,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT507</systemName>
+      <userName>West Red Cliff Eastward Servo 2A</userName>
       <comment>SignalHead:IH105:Red</comment>
       <properties>
         <property>
@@ -5327,6 +5413,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT508</systemName>
+      <userName>West Red Cliff Eastward Servo 2B</userName>
       <comment>SignalHead:IH105:Green</comment>
       <properties>
         <property>
@@ -5337,6 +5424,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT509</systemName>
+      <userName>East Sierra Westward Servo 1A</userName>
       <comment>E Sierra Sem Red</comment>
       <properties>
         <property>
@@ -5347,6 +5435,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT510</systemName>
+      <userName>East Sierra Westward Servo 1B</userName>
       <comment>E Sierra Sem Green</comment>
       <properties>
         <property>
@@ -5357,6 +5446,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT511</systemName>
+      <userName>East Sierra Westward Servo 2A</userName>
       <comment>E Sierra L Sem Red</comment>
       <properties>
         <property>
@@ -5367,6 +5457,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT512</systemName>
+      <userName>East Sierra Westward Servo 2B</userName>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -5376,6 +5467,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT513</systemName>
+      <userName>East Sierra Eastward Servo 1A</userName>
       <comment>SignalHead:IH86:Red</comment>
       <properties>
         <property>
@@ -5386,6 +5478,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT514</systemName>
+      <userName>East Sierra Eastward Servo 1B</userName>
       <comment>SignalHead:IH86 :Red</comment>
       <properties>
         <property>
@@ -5400,6 +5493,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT515</systemName>
+      <userName>East Sierra Eastward Servo 2A</userName>
       <comment>SignalHead:IH87 :Red</comment>
       <properties>
         <property>
@@ -5414,6 +5508,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT516</systemName>
+      <userName>East Sierra Eastward Servo 2B</userName>
       <comment>SignalHead:IH87 :Green</comment>
       <properties>
         <property>
@@ -6778,223 +6873,223 @@
       <systemName>IH86</systemName>
       <userName>W R-S Sem</userName>
       <comment>513 514</comment>
-      <turnoutname defines="green">LT514</turnoutname>
-      <turnoutname defines="red">LT513</turnoutname>
+      <turnoutname defines="green">East Sierra Eastward Servo 1B</turnoutname>
+      <turnoutname defines="red">East Sierra Eastward Servo 1A</turnoutname>
     </signalhead>
     <signalhead class="jmri.implementation.configurexml.DoubleTurnoutSignalHeadXml">
       <systemName>IH87</systemName>
       <userName>W R-S Sem L</userName>
       <comment>515 516</comment>
-      <turnoutname defines="green">LT516</turnoutname>
-      <turnoutname defines="red">LT515</turnoutname>
+      <turnoutname defines="green">East Sierra Eastward Servo 2B</turnoutname>
+      <turnoutname defines="red">East Sierra Eastward Servo 2A</turnoutname>
     </signalhead>
     <signalhead class="jmri.implementation.configurexml.DoubleTurnoutSignalHeadXml">
       <systemName>IH88</systemName>
       <userName>E UN Sem</userName>
-      <turnoutname defines="green">LT446</turnoutname>
+      <turnoutname defines="green">Narrows Intermediate Westward Servo 1B</turnoutname>
       <turnoutname defines="red">LT445</turnoutname>
     </signalhead>
     <signalhead class="jmri.implementation.configurexml.DoubleTurnoutSignalHeadXml">
       <systemName>IH89</systemName>
       <userName>E UN Sem L</userName>
-      <turnoutname defines="green">LT448</turnoutname>
-      <turnoutname defines="red">LT447</turnoutname>
+      <turnoutname defines="green">Narrows Intermediate Westward Servo 2B</turnoutname>
+      <turnoutname defines="red">Narrows Intermediate Westward Servo 2A</turnoutname>
     </signalhead>
     <signalhead class="jmri.implementation.configurexml.DoubleTurnoutSignalHeadXml">
       <systemName>IH90</systemName>
       <userName>W LN Sem</userName>
       <comment>449 450</comment>
-      <turnoutname defines="green">LT450</turnoutname>
-      <turnoutname defines="red">LT449</turnoutname>
+      <turnoutname defines="green">Narrows Intermediate Eastward Servo 1B</turnoutname>
+      <turnoutname defines="red">Narrows Intermediate Eastward Servo 1A</turnoutname>
     </signalhead>
     <signalhead class="jmri.implementation.configurexml.DoubleTurnoutSignalHeadXml">
       <systemName>IH91</systemName>
       <userName>W LN Sem L</userName>
       <comment>451 452</comment>
-      <turnoutname defines="green">LT452</turnoutname>
-      <turnoutname defines="red">LT451</turnoutname>
+      <turnoutname defines="green">Narrows Intermediate Eastward Servo 2B</turnoutname>
+      <turnoutname defines="red">Narrows Intermediate Eastward Servo 2A</turnoutname>
     </signalhead>
     <signalhead class="jmri.implementation.configurexml.DoubleTurnoutSignalHeadXml">
       <systemName>IH92</systemName>
       <userName>W UN Sem</userName>
       <comment>457 458</comment>
-      <turnoutname defines="green">LT458</turnoutname>
-      <turnoutname defines="red">LT457</turnoutname>
+      <turnoutname defines="green">East Osage Eastward Servo 1B</turnoutname>
+      <turnoutname defines="red">East Osage Eastward Servo 1A</turnoutname>
     </signalhead>
     <signalhead class="jmri.implementation.configurexml.DoubleTurnoutSignalHeadXml">
       <systemName>IH93</systemName>
       <userName>W UN Sem L</userName>
       <comment>459 460</comment>
-      <turnoutname defines="green">LT460</turnoutname>
-      <turnoutname defines="red">LT459</turnoutname>
+      <turnoutname defines="green">East Osage Eastward Servo 2B</turnoutname>
+      <turnoutname defines="red">East Osage Eastward Servo 2A</turnoutname>
     </signalhead>
     <signalhead class="jmri.implementation.configurexml.DoubleTurnoutSignalHeadXml">
       <systemName>IH94</systemName>
       <userName>E OP Sem</userName>
       <comment>461 462</comment>
-      <turnoutname defines="green">LT462</turnoutname>
-      <turnoutname defines="red">LT461</turnoutname>
+      <turnoutname defines="green">West Osage Westward Servo 1B</turnoutname>
+      <turnoutname defines="red">West Osage Westward Servo 1A</turnoutname>
     </signalhead>
     <signalhead class="jmri.implementation.configurexml.DoubleTurnoutSignalHeadXml">
       <systemName>IH95</systemName>
       <userName>E OP Sem L</userName>
       <comment>463 464</comment>
-      <turnoutname defines="green">LT464</turnoutname>
-      <turnoutname defines="red">LT463</turnoutname>
+      <turnoutname defines="green">West Osage Westward Servo 2B</turnoutname>
+      <turnoutname defines="red">West Osage Westward Servo 2A</turnoutname>
     </signalhead>
     <signalhead class="jmri.implementation.configurexml.DoubleTurnoutSignalHeadXml">
       <systemName>IH96</systemName>
       <userName>W OP Sem</userName>
       <comment>473 474</comment>
-      <turnoutname defines="green">LT474</turnoutname>
-      <turnoutname defines="red">LT473</turnoutname>
+      <turnoutname defines="green">East Powderhorn Eastward Servo 1B</turnoutname>
+      <turnoutname defines="red">East Powderhorn Eastward Servo 1A</turnoutname>
     </signalhead>
     <signalhead class="jmri.implementation.configurexml.DoubleTurnoutSignalHeadXml">
       <systemName>IH97</systemName>
       <userName>W OP Sem L</userName>
       <comment>475 476</comment>
-      <turnoutname defines="green">LT476</turnoutname>
-      <turnoutname defines="red">LT475</turnoutname>
+      <turnoutname defines="green">East Powderhorn Eastward Servo 2B</turnoutname>
+      <turnoutname defines="red">East Powderhorn Eastward Servo 2A</turnoutname>
     </signalhead>
     <signalhead class="jmri.implementation.configurexml.DoubleTurnoutSignalHeadXml">
       <systemName>IH98</systemName>
       <userName>W Osage Sem</userName>
       <comment>465 466</comment>
-      <turnoutname defines="green">LT466</turnoutname>
-      <turnoutname defines="red">LT465</turnoutname>
+      <turnoutname defines="green">West Osage Eastward Servo 1B</turnoutname>
+      <turnoutname defines="red">West Osage Eastward Servo 1A</turnoutname>
     </signalhead>
     <signalhead class="jmri.implementation.configurexml.DoubleTurnoutSignalHeadXml">
       <systemName>IH99</systemName>
       <userName>W Osage Sem L</userName>
       <comment>467 468</comment>
-      <turnoutname defines="green">LT468</turnoutname>
-      <turnoutname defines="red">LT467</turnoutname>
+      <turnoutname defines="green">West Osage Eastward Servo 2B</turnoutname>
+      <turnoutname defines="red">West Osage Eastward Servo 2A</turnoutname>
     </signalhead>
     <signalhead class="jmri.implementation.configurexml.DoubleTurnoutSignalHeadXml">
       <systemName>IH100</systemName>
       <userName>E Powder Sem</userName>
       <comment>469 470</comment>
-      <turnoutname defines="green">LT470</turnoutname>
-      <turnoutname defines="red">LT469</turnoutname>
+      <turnoutname defines="green">East Powderhorn Westward Servo 1B</turnoutname>
+      <turnoutname defines="red">East Powderhorn Westward Servo 1A</turnoutname>
     </signalhead>
     <signalhead class="jmri.implementation.configurexml.DoubleTurnoutSignalHeadXml">
       <systemName>IH101</systemName>
       <userName>E Powder Sem L</userName>
       <comment>471 472</comment>
-      <turnoutname defines="green">LT472</turnoutname>
-      <turnoutname defines="red">LT471</turnoutname>
+      <turnoutname defines="green">East Powderhorn Westward Servo 2B</turnoutname>
+      <turnoutname defines="red">East Powderhorn Westward Servo 2A</turnoutname>
     </signalhead>
     <signalhead class="jmri.implementation.configurexml.DoubleTurnoutSignalHeadXml">
       <systemName>IH102</systemName>
       <userName>E RS Sem</userName>
       <comment>501 502</comment>
-      <turnoutname defines="green">LT502</turnoutname>
-      <turnoutname defines="red">LT501</turnoutname>
+      <turnoutname defines="green">West Red Cliff Westward Servo 1B</turnoutname>
+      <turnoutname defines="red">West Red Cliff Westward Servo 1A</turnoutname>
     </signalhead>
     <signalhead class="jmri.implementation.configurexml.DoubleTurnoutSignalHeadXml">
       <systemName>IH103</systemName>
       <userName>E RS Sem L</userName>
       <comment>503 504</comment>
-      <turnoutname defines="green">LT504</turnoutname>
-      <turnoutname defines="red">LT503</turnoutname>
+      <turnoutname defines="green">West Red Cliff Westward Servo 2B</turnoutname>
+      <turnoutname defines="red">West Red Cliff Westward Servo 2A</turnoutname>
     </signalhead>
     <signalhead class="jmri.implementation.configurexml.DoubleTurnoutSignalHeadXml">
       <systemName>IH104</systemName>
       <userName>W Redcliff Sem</userName>
       <comment>505 506</comment>
-      <turnoutname defines="green">LT506</turnoutname>
-      <turnoutname defines="red">LT505</turnoutname>
+      <turnoutname defines="green">West Red Cliff Eastward Servo 1B</turnoutname>
+      <turnoutname defines="red">West Red Cliff Eastward Servo 1A</turnoutname>
     </signalhead>
     <signalhead class="jmri.implementation.configurexml.DoubleTurnoutSignalHeadXml">
       <systemName>IH105</systemName>
       <userName>W Redcliff Sem L</userName>
       <comment>507 508</comment>
-      <turnoutname defines="green">LT508</turnoutname>
-      <turnoutname defines="red">LT507</turnoutname>
+      <turnoutname defines="green">West Red Cliff Eastward Servo 2B</turnoutname>
+      <turnoutname defines="red">West Red Cliff Eastward Servo 2A</turnoutname>
     </signalhead>
     <signalhead class="jmri.implementation.configurexml.DoubleTurnoutSignalHeadXml">
       <systemName>IH106</systemName>
       <userName>E Osage Sem</userName>
       <comment>453 454</comment>
-      <turnoutname defines="green">LT454</turnoutname>
-      <turnoutname defines="red">LT453</turnoutname>
+      <turnoutname defines="green">East Osage Westward Servo 1B</turnoutname>
+      <turnoutname defines="red">East Osage Westward Servo 1A</turnoutname>
     </signalhead>
     <signalhead class="jmri.implementation.configurexml.DoubleTurnoutSignalHeadXml">
       <systemName>IH107</systemName>
       <userName>E Osage Sem L</userName>
       <comment>455 456</comment>
-      <turnoutname defines="green">LT456</turnoutname>
-      <turnoutname defines="red">LT455</turnoutname>
+      <turnoutname defines="green">East Osage Westward Servo 2B</turnoutname>
+      <turnoutname defines="red">East Osage Westward Servo 2A</turnoutname>
     </signalhead>
     <signalhead class="jmri.implementation.configurexml.DoubleTurnoutSignalHeadXml">
       <systemName>IH108</systemName>
       <userName>W Powder Sem</userName>
       <comment>481 482</comment>
-      <turnoutname defines="green">LT482</turnoutname>
-      <turnoutname defines="red">LT481</turnoutname>
+      <turnoutname defines="green">West Powderhorn Eastward Servo 1B</turnoutname>
+      <turnoutname defines="red">West Powderhorn Eastward Servo 1A</turnoutname>
     </signalhead>
     <signalhead class="jmri.implementation.configurexml.DoubleTurnoutSignalHeadXml">
       <systemName>IH109</systemName>
       <userName>W Powder Sem L</userName>
       <comment>483 484</comment>
-      <turnoutname defines="green">LT484</turnoutname>
-      <turnoutname defines="red">LT483</turnoutname>
+      <turnoutname defines="green">West Powderhorn Eastward Servo 2B</turnoutname>
+      <turnoutname defines="red">West Powderhorn Eastward Servo 2A</turnoutname>
     </signalhead>
     <signalhead class="jmri.implementation.configurexml.DoubleTurnoutSignalHeadXml">
       <systemName>IH110</systemName>
       <userName>E Quartz Sem</userName>
       <comment>477 478</comment>
-      <turnoutname defines="green">LT478</turnoutname>
-      <turnoutname defines="red">LT477</turnoutname>
+      <turnoutname defines="green">West Powderhorn Westward Servo 1B</turnoutname>
+      <turnoutname defines="red">West Powderhorn Westward Servo 1A</turnoutname>
     </signalhead>
     <signalhead class="jmri.implementation.configurexml.DoubleTurnoutSignalHeadXml">
       <systemName>IH111</systemName>
       <userName>E Quartz Sem L</userName>
       <comment>479 480</comment>
-      <turnoutname defines="green">LT480</turnoutname>
-      <turnoutname defines="red">LT479</turnoutname>
+      <turnoutname defines="green">West Powderhorn Westward Servo 2B</turnoutname>
+      <turnoutname defines="red">West Powderhorn Westward Servo 2A</turnoutname>
     </signalhead>
     <signalhead class="jmri.implementation.configurexml.DoubleTurnoutSignalHeadXml">
       <systemName>IH112</systemName>
       <userName>E RP Sem</userName>
       <comment>497 498</comment>
-      <turnoutname defines="green">LT498</turnoutname>
-      <turnoutname defines="red">LT497</turnoutname>
+      <turnoutname defines="green">East Red Cliff Eastward Servo 1B</turnoutname>
+      <turnoutname defines="red">East Red Cliff Eastward Servo 1A</turnoutname>
     </signalhead>
     <signalhead class="jmri.implementation.configurexml.DoubleTurnoutSignalHeadXml">
       <systemName>IH113</systemName>
       <userName>E RP Sem L</userName>
       <comment>499 500</comment>
-      <turnoutname defines="green">LT500</turnoutname>
-      <turnoutname defines="red">LT499</turnoutname>
+      <turnoutname defines="green">East Red Cliff Eastward Servo 2B</turnoutname>
+      <turnoutname defines="red">East Red Cliff Eastward Servo 2A</turnoutname>
     </signalhead>
     <signalhead class="jmri.implementation.configurexml.DoubleTurnoutSignalHeadXml">
       <systemName>IH114</systemName>
       <userName>E Redcliff Sem</userName>
       <comment>493 494</comment>
-      <turnoutname defines="green">LT494</turnoutname>
-      <turnoutname defines="red">LT493</turnoutname>
+      <turnoutname defines="green">East Red Cliff Westward Servo 1B</turnoutname>
+      <turnoutname defines="red">East Red Cliff Westward Servo 1A</turnoutname>
     </signalhead>
     <signalhead class="jmri.implementation.configurexml.DoubleTurnoutSignalHeadXml">
       <systemName>IH115</systemName>
       <userName>E Redcliff Sem L</userName>
       <comment>495 496</comment>
-      <turnoutname defines="green">LT496</turnoutname>
-      <turnoutname defines="red">LT495</turnoutname>
+      <turnoutname defines="green">East Red Cliff Westward Servo 2B</turnoutname>
+      <turnoutname defines="red">East Red Cliff Westward Servo 2A</turnoutname>
     </signalhead>
     <signalhead class="jmri.implementation.configurexml.DoubleTurnoutSignalHeadXml">
       <systemName>IH116</systemName>
       <userName>E Sierra Sem</userName>
       <comment>509 510</comment>
-      <turnoutname defines="green">LT510</turnoutname>
-      <turnoutname defines="red">LT509</turnoutname>
+      <turnoutname defines="green">East Sierra Westward Servo 1B</turnoutname>
+      <turnoutname defines="red">East Sierra Westward Servo 1A</turnoutname>
     </signalhead>
     <signalhead class="jmri.implementation.configurexml.DoubleTurnoutSignalHeadXml">
       <systemName>IH117</systemName>
       <userName>E Sierra Sem L</userName>
       <comment>511 512</comment>
-      <turnoutname defines="green">LT512</turnoutname>
-      <turnoutname defines="red">LT511</turnoutname>
+      <turnoutname defines="green">East Sierra Westward Servo 2B</turnoutname>
+      <turnoutname defines="red">East Sierra Westward Servo 2A</turnoutname>
     </signalhead>
     <signalhead class="jmri.implementation.configurexml.SE8cSignalHeadXml">
       <systemName>IH:SE8C:"LT400";"LT401"</systemName>
@@ -12112,104 +12207,104 @@
       <userName>Frt 1</userName>
       <routeOutputTurnout systemName="LT201" state="THROWN" />
       <routeOutputTurnout systemName="LT202" state="CLOSED" />
-      <routeOutputTurnout systemName="LT203" state="CLOSED" />
-      <routeOutputTurnout systemName="LT205" state="CLOSED" />
+      <routeOutputTurnout systemName="MidwayYd E-F1,F2" state="CLOSED" />
+      <routeOutputTurnout systemName="MidwayYd E-F ladder, F5" state="CLOSED" />
       <routeOutputTurnout systemName="LT209" state="CLOSED" />
-      <routeOutputSensor systemName="Frt 2" state="INACTIVE" />
-      <routeOutputSensor systemName="Frt 3" state="INACTIVE" />
-      <routeOutputSensor systemName="Frt 4" state="INACTIVE" />
-      <routeOutputSensor systemName="Frt 5" state="INACTIVE" />
-      <routeOutputSensor systemName="Frt 6" state="INACTIVE" />
-      <routeOutputSensor systemName="Frt 7" state="INACTIVE" />
-      <routeSensor systemName="Frt 1" mode="onActive" />
+      <routeOutputSensor systemName="MidwayYd E Frt 2 routing" state="INACTIVE" />
+      <routeOutputSensor systemName="MidwayYd E Frt 3 routing" state="INACTIVE" />
+      <routeOutputSensor systemName="MidwayYd E Frt 4 routing" state="INACTIVE" />
+      <routeOutputSensor systemName="MidwayYd E Frt 5 routing" state="INACTIVE" />
+      <routeOutputSensor systemName="MidwayYd E Frt 6 routing" state="INACTIVE" />
+      <routeOutputSensor systemName="MidwayYd E Frt 7 routing" state="INACTIVE" />
+      <routeSensor systemName="MidwayYd E Frt 1 routing" mode="onActive" />
     </route>
     <route userName="Frt 2">
       <systemName>IO:AUTO:0004</systemName>
       <userName>Frt 2</userName>
       <routeOutputTurnout systemName="LT201" state="THROWN" />
       <routeOutputTurnout systemName="LT202" state="CLOSED" />
-      <routeOutputTurnout systemName="LT203" state="THROWN" />
-      <routeOutputTurnout systemName="LT205" state="CLOSED" />
+      <routeOutputTurnout systemName="MidwayYd E-F1,F2" state="THROWN" />
+      <routeOutputTurnout systemName="MidwayYd E-F ladder, F5" state="CLOSED" />
       <routeOutputTurnout systemName="LT209" state="CLOSED" />
-      <routeOutputSensor systemName="Frt 1" state="INACTIVE" />
-      <routeOutputSensor systemName="Frt 3" state="INACTIVE" />
-      <routeOutputSensor systemName="Frt 4" state="INACTIVE" />
-      <routeOutputSensor systemName="Frt 5" state="INACTIVE" />
-      <routeOutputSensor systemName="Frt 6" state="INACTIVE" />
-      <routeOutputSensor systemName="Frt 7" state="INACTIVE" />
-      <routeSensor systemName="Frt 2" mode="onActive" />
+      <routeOutputSensor systemName="MidwayYd E Frt 1 routing" state="INACTIVE" />
+      <routeOutputSensor systemName="MidwayYd E Frt 3 routing" state="INACTIVE" />
+      <routeOutputSensor systemName="MidwayYd E Frt 4 routing" state="INACTIVE" />
+      <routeOutputSensor systemName="MidwayYd E Frt 5 routing" state="INACTIVE" />
+      <routeOutputSensor systemName="MidwayYd E Frt 6 routing" state="INACTIVE" />
+      <routeOutputSensor systemName="MidwayYd E Frt 7 routing" state="INACTIVE" />
+      <routeSensor systemName="MidwayYd E Frt 2 routing" mode="onActive" />
     </route>
     <route userName="Frt 3">
       <systemName>IO:AUTO:0005</systemName>
       <userName>Frt 3</userName>
       <routeOutputTurnout systemName="LT201" state="THROWN" />
       <routeOutputTurnout systemName="LT202" state="CLOSED" />
-      <routeOutputTurnout systemName="LT205" state="CLOSED" />
+      <routeOutputTurnout systemName="MidwayYd E-F ladder, F5" state="CLOSED" />
       <routeOutputTurnout systemName="LT209" state="THROWN" />
-      <routeOutputSensor systemName="Frt 1" state="INACTIVE" />
-      <routeOutputSensor systemName="Frt 2" state="INACTIVE" />
-      <routeOutputSensor systemName="Frt 4" state="INACTIVE" />
-      <routeOutputSensor systemName="Frt 5" state="INACTIVE" />
-      <routeOutputSensor systemName="Frt 6" state="INACTIVE" />
-      <routeOutputSensor systemName="Frt 7" state="INACTIVE" />
-      <routeSensor systemName="Frt 3" mode="onActive" />
+      <routeOutputSensor systemName="MidwayYd E Frt 1 routing" state="INACTIVE" />
+      <routeOutputSensor systemName="MidwayYd E Frt 2 routing" state="INACTIVE" />
+      <routeOutputSensor systemName="MidwayYd E Frt 4 routing" state="INACTIVE" />
+      <routeOutputSensor systemName="MidwayYd E Frt 5 routing" state="INACTIVE" />
+      <routeOutputSensor systemName="MidwayYd E Frt 6 routing" state="INACTIVE" />
+      <routeOutputSensor systemName="MidwayYd E Frt 7 routing" state="INACTIVE" />
+      <routeSensor systemName="MidwayYd E Frt 3 routing" mode="onActive" />
     </route>
     <route userName="Frt 4">
       <systemName>IO:AUTO:0006</systemName>
       <userName>Frt 4</userName>
       <routeOutputTurnout systemName="LT201" state="THROWN" />
       <routeOutputTurnout systemName="LT202" state="THROWN" />
-      <routeOutputTurnout systemName="LT205" state="CLOSED" />
-      <routeOutputSensor systemName="Frt 1" state="INACTIVE" />
-      <routeOutputSensor systemName="Frt 2" state="INACTIVE" />
-      <routeOutputSensor systemName="Frt 3" state="INACTIVE" />
-      <routeOutputSensor systemName="Frt 5" state="INACTIVE" />
-      <routeOutputSensor systemName="Frt 6" state="INACTIVE" />
-      <routeOutputSensor systemName="Frt 7" state="INACTIVE" />
-      <routeSensor systemName="Frt 4" mode="onActive" />
+      <routeOutputTurnout systemName="MidwayYd E-F ladder, F5" state="CLOSED" />
+      <routeOutputSensor systemName="MidwayYd E Frt 1 routing" state="INACTIVE" />
+      <routeOutputSensor systemName="MidwayYd E Frt 2 routing" state="INACTIVE" />
+      <routeOutputSensor systemName="MidwayYd E Frt 3 routing" state="INACTIVE" />
+      <routeOutputSensor systemName="MidwayYd E Frt 5 routing" state="INACTIVE" />
+      <routeOutputSensor systemName="MidwayYd E Frt 6 routing" state="INACTIVE" />
+      <routeOutputSensor systemName="MidwayYd E Frt 7 routing" state="INACTIVE" />
+      <routeSensor systemName="MidwayYd E Frt 4 routing" mode="onActive" />
     </route>
     <route userName="Frt 5">
       <systemName>IO:AUTO:0007</systemName>
       <userName>Frt 5</userName>
       <routeOutputTurnout systemName="LT201" state="CLOSED" />
-      <routeOutputTurnout systemName="LT205" state="CLOSED" />
-      <routeOutputSensor systemName="Frt 1" state="INACTIVE" />
-      <routeOutputSensor systemName="Frt 2" state="INACTIVE" />
-      <routeOutputSensor systemName="Frt 3" state="INACTIVE" />
-      <routeOutputSensor systemName="Frt 4" state="INACTIVE" />
-      <routeOutputSensor systemName="Frt 6" state="INACTIVE" />
-      <routeOutputSensor systemName="Frt 7" state="INACTIVE" />
-      <routeSensor systemName="Frt 5" mode="onActive" />
+      <routeOutputTurnout systemName="MidwayYd E-F ladder, F5" state="CLOSED" />
+      <routeOutputSensor systemName="MidwayYd E Frt 1 routing" state="INACTIVE" />
+      <routeOutputSensor systemName="MidwayYd E Frt 2 routing" state="INACTIVE" />
+      <routeOutputSensor systemName="MidwayYd E Frt 3 routing" state="INACTIVE" />
+      <routeOutputSensor systemName="MidwayYd E Frt 4 routing" state="INACTIVE" />
+      <routeOutputSensor systemName="MidwayYd E Frt 6 routing" state="INACTIVE" />
+      <routeOutputSensor systemName="MidwayYd E Frt 7 routing" state="INACTIVE" />
+      <routeSensor systemName="MidwayYd E Frt 5 routing" mode="onActive" />
     </route>
     <route userName="Frt 6">
       <systemName>IO:AUTO:0008</systemName>
       <userName>Frt 6</userName>
       <routeOutputTurnout systemName="LT200" state="CLOSED" />
-      <routeOutputTurnout systemName="LT205" state="THROWN" />
-      <routeOutputTurnout systemName="LT206" state="CLOSED" />
-      <routeOutputSensor systemName="Frt 1" state="INACTIVE" />
-      <routeOutputSensor systemName="Frt 2" state="INACTIVE" />
-      <routeOutputSensor systemName="Frt 3" state="INACTIVE" />
-      <routeOutputSensor systemName="Frt 4" state="INACTIVE" />
-      <routeOutputSensor systemName="Frt 5" state="INACTIVE" />
-      <routeOutputSensor systemName="Frt 7" state="INACTIVE" />
-      <routeSensor systemName="Frt 6" mode="onActive" />
+      <routeOutputTurnout systemName="MidwayYd E-F ladder, F5" state="THROWN" />
+      <routeOutputTurnout systemName="MidwayYd E-upper cross over stockyards" state="CLOSED" />
+      <routeOutputSensor systemName="MidwayYd E Frt 1 routing" state="INACTIVE" />
+      <routeOutputSensor systemName="MidwayYd E Frt 2 routing" state="INACTIVE" />
+      <routeOutputSensor systemName="MidwayYd E Frt 3 routing" state="INACTIVE" />
+      <routeOutputSensor systemName="MidwayYd E Frt 4 routing" state="INACTIVE" />
+      <routeOutputSensor systemName="MidwayYd E Frt 5 routing" state="INACTIVE" />
+      <routeOutputSensor systemName="MidwayYd E Frt 7 routing" state="INACTIVE" />
+      <routeSensor systemName="MidwayYd E Frt 6 routing" mode="onActive" />
     </route>
     <route userName="Frt 7">
       <systemName>IO:AUTO:0009</systemName>
       <userName>Frt 7</userName>
       <routeOutputTurnout systemName="LT200" state="THROWN" />
-      <routeOutputTurnout systemName="LT205" state="THROWN" />
-      <routeOutputTurnout systemName="LT206" state="THROWN" />
-      <routeOutputTurnout systemName="LT207" state="CLOSED" />
+      <routeOutputTurnout systemName="MidwayYd E-F ladder, F5" state="THROWN" />
+      <routeOutputTurnout systemName="MidwayYd E-upper cross over stockyards" state="THROWN" />
+      <routeOutputTurnout systemName="MidwayYd E-lower cross over stockyards" state="CLOSED" />
       <routeOutputTurnout systemName="LT208" state="THROWN" />
-      <routeOutputSensor systemName="Frt 1" state="INACTIVE" />
-      <routeOutputSensor systemName="Frt 2" state="INACTIVE" />
-      <routeOutputSensor systemName="Frt 3" state="INACTIVE" />
-      <routeOutputSensor systemName="Frt 4" state="INACTIVE" />
-      <routeOutputSensor systemName="Frt 5" state="INACTIVE" />
-      <routeOutputSensor systemName="Frt 6" state="INACTIVE" />
-      <routeSensor systemName="Frt 7" mode="onActive" />
+      <routeOutputSensor systemName="MidwayYd E Frt 1 routing" state="INACTIVE" />
+      <routeOutputSensor systemName="MidwayYd E Frt 2 routing" state="INACTIVE" />
+      <routeOutputSensor systemName="MidwayYd E Frt 3 routing" state="INACTIVE" />
+      <routeOutputSensor systemName="MidwayYd E Frt 4 routing" state="INACTIVE" />
+      <routeOutputSensor systemName="MidwayYd E Frt 5 routing" state="INACTIVE" />
+      <routeOutputSensor systemName="MidwayYd E Frt 6 routing" state="INACTIVE" />
+      <routeSensor systemName="MidwayYd E Frt 7 routing" mode="onActive" />
     </route>
     <route userName="Aux Init" addedDelay="250">
       <systemName>IO:AUTO:0015</systemName>
@@ -12231,18 +12326,18 @@
       <routeOutputTurnout systemName="LT200" state="CLOSED" />
       <routeOutputTurnout systemName="LT201" state="CLOSED" />
       <routeOutputTurnout systemName="LT202" state="CLOSED" />
-      <routeOutputTurnout systemName="LT203" state="CLOSED" />
-      <routeOutputTurnout systemName="LT205" state="CLOSED" />
-      <routeOutputTurnout systemName="LT206" state="CLOSED" />
-      <routeOutputTurnout systemName="LT207" state="CLOSED" />
+      <routeOutputTurnout systemName="MidwayYd E-F1,F2" state="CLOSED" />
+      <routeOutputTurnout systemName="MidwayYd E-F ladder, F5" state="CLOSED" />
+      <routeOutputTurnout systemName="MidwayYd E-upper cross over stockyards" state="CLOSED" />
+      <routeOutputTurnout systemName="MidwayYd E-lower cross over stockyards" state="CLOSED" />
       <routeOutputTurnout systemName="LT208" state="CLOSED" />
       <routeOutputTurnout systemName="LT209" state="CLOSED" />
-      <routeOutputTurnout systemName="LT210" state="CLOSED" />
-      <routeOutputTurnout systemName="LT211" state="CLOSED" />
-      <routeOutputTurnout systemName="LT212" state="CLOSED" />
-      <routeOutputTurnout systemName="LT213" state="CLOSED" />
-      <routeOutputTurnout systemName="LT214" state="CLOSED" />
-      <routeOutputTurnout systemName="LT215" state="CLOSED" />
+      <routeOutputTurnout systemName="MidwayYd W-F1,F2" state="CLOSED" />
+      <routeOutputTurnout systemName="MidwayYd W-F2,F3" state="CLOSED" />
+      <routeOutputTurnout systemName="MidwayYd W-F3,F4" state="CLOSED" />
+      <routeOutputTurnout systemName="MidwayYd W-F4,F5" state="CLOSED" />
+      <routeOutputTurnout systemName="MidwayYd W-F5,F6" state="CLOSED" />
+      <routeOutputTurnout systemName="MidwayYd W-F6,F7" state="CLOSED" />
       <routeOutputTurnout systemName="LT216" state="CLOSED" />
       <routeOutputTurnout systemName="LT273" state="THROWN" />
       <routeOutputSensor systemName="Aux Init" state="INACTIVE" />
@@ -12252,105 +12347,105 @@
     <route userName="W Frt 1">
       <systemName>IO:AUTO:0016</systemName>
       <userName>W Frt 1</userName>
-      <routeOutputTurnout systemName="LT210" state="CLOSED" />
-      <routeOutputSensor systemName="W Frt 2" state="INACTIVE" />
-      <routeOutputSensor systemName="W Frt 3" state="INACTIVE" />
-      <routeOutputSensor systemName="W Frt 4" state="INACTIVE" />
-      <routeOutputSensor systemName="W Frt 5" state="INACTIVE" />
-      <routeOutputSensor systemName="W Frt 6" state="INACTIVE" />
-      <routeOutputSensor systemName="W Frt 7" state="INACTIVE" />
+      <routeOutputTurnout systemName="MidwayYd W-F1,F2" state="CLOSED" />
+      <routeOutputSensor systemName="MidwayYd W Frt 2 routing" state="INACTIVE" />
+      <routeOutputSensor systemName="MidwayYd W Frt 3 routing" state="INACTIVE" />
+      <routeOutputSensor systemName="MidwayYd W Frt 4 routing" state="INACTIVE" />
+      <routeOutputSensor systemName="MidwayYd W Frt 5 routing" state="INACTIVE" />
+      <routeOutputSensor systemName="MidwayYd W Frt 6 routing" state="INACTIVE" />
+      <routeOutputSensor systemName="MidwayYd W Frt 7 routing" state="INACTIVE" />
       <routeSensor systemName="IS9" mode="onActive" />
     </route>
     <route userName="W Frt 2">
       <systemName>IO:AUTO:0017</systemName>
       <userName>W Frt 2</userName>
-      <routeOutputTurnout systemName="LT210" state="THROWN" />
-      <routeOutputTurnout systemName="LT211" state="THROWN" />
-      <routeOutputSensor systemName="W Frt 1" state="INACTIVE" />
-      <routeOutputSensor systemName="W Frt 3" state="INACTIVE" />
-      <routeOutputSensor systemName="W Frt 4" state="INACTIVE" />
-      <routeOutputSensor systemName="W Frt 5" state="INACTIVE" />
-      <routeOutputSensor systemName="W Frt 6" state="INACTIVE" />
-      <routeOutputSensor systemName="W Frt 7" state="INACTIVE" />
+      <routeOutputTurnout systemName="MidwayYd W-F1,F2" state="THROWN" />
+      <routeOutputTurnout systemName="MidwayYd W-F2,F3" state="THROWN" />
+      <routeOutputSensor systemName="MidwayYd W Frt 1 routing" state="INACTIVE" />
+      <routeOutputSensor systemName="MidwayYd W Frt 3 routing" state="INACTIVE" />
+      <routeOutputSensor systemName="MidwayYd W Frt 4 routing" state="INACTIVE" />
+      <routeOutputSensor systemName="MidwayYd W Frt 5 routing" state="INACTIVE" />
+      <routeOutputSensor systemName="MidwayYd W Frt 6 routing" state="INACTIVE" />
+      <routeOutputSensor systemName="MidwayYd W Frt 7 routing" state="INACTIVE" />
       <routeSensor systemName="IS10" mode="onActive" />
     </route>
     <route userName="W Frt 3">
       <systemName>IO:AUTO:0018</systemName>
       <userName>W Frt 3</userName>
-      <routeOutputTurnout systemName="LT210" state="THROWN" />
-      <routeOutputTurnout systemName="LT211" state="CLOSED" />
-      <routeOutputTurnout systemName="LT212" state="THROWN" />
-      <routeOutputSensor systemName="W Frt 1" state="INACTIVE" />
-      <routeOutputSensor systemName="W Frt 2" state="INACTIVE" />
-      <routeOutputSensor systemName="W Frt 4" state="INACTIVE" />
-      <routeOutputSensor systemName="W Frt 5" state="INACTIVE" />
-      <routeOutputSensor systemName="W Frt 6" state="INACTIVE" />
-      <routeOutputSensor systemName="W Frt 7" state="INACTIVE" />
+      <routeOutputTurnout systemName="MidwayYd W-F1,F2" state="THROWN" />
+      <routeOutputTurnout systemName="MidwayYd W-F2,F3" state="CLOSED" />
+      <routeOutputTurnout systemName="MidwayYd W-F3,F4" state="THROWN" />
+      <routeOutputSensor systemName="MidwayYd W Frt 1 routing" state="INACTIVE" />
+      <routeOutputSensor systemName="MidwayYd W Frt 2 routing" state="INACTIVE" />
+      <routeOutputSensor systemName="MidwayYd W Frt 4 routing" state="INACTIVE" />
+      <routeOutputSensor systemName="MidwayYd W Frt 5 routing" state="INACTIVE" />
+      <routeOutputSensor systemName="MidwayYd W Frt 6 routing" state="INACTIVE" />
+      <routeOutputSensor systemName="MidwayYd W Frt 7 routing" state="INACTIVE" />
       <routeSensor systemName="IS11" mode="onActive" />
     </route>
     <route userName="W Frt 4">
       <systemName>IO:AUTO:0019</systemName>
       <userName>W Frt 4</userName>
-      <routeOutputTurnout systemName="LT210" state="THROWN" />
-      <routeOutputTurnout systemName="LT211" state="CLOSED" />
-      <routeOutputTurnout systemName="LT212" state="CLOSED" />
-      <routeOutputTurnout systemName="LT213" state="THROWN" />
-      <routeOutputSensor systemName="W Frt 1" state="INACTIVE" />
-      <routeOutputSensor systemName="W Frt 2" state="INACTIVE" />
-      <routeOutputSensor systemName="W Frt 3" state="INACTIVE" />
-      <routeOutputSensor systemName="W Frt 5" state="INACTIVE" />
-      <routeOutputSensor systemName="W Frt 6" state="INACTIVE" />
-      <routeOutputSensor systemName="W Frt 7" state="INACTIVE" />
+      <routeOutputTurnout systemName="MidwayYd W-F1,F2" state="THROWN" />
+      <routeOutputTurnout systemName="MidwayYd W-F2,F3" state="CLOSED" />
+      <routeOutputTurnout systemName="MidwayYd W-F3,F4" state="CLOSED" />
+      <routeOutputTurnout systemName="MidwayYd W-F4,F5" state="THROWN" />
+      <routeOutputSensor systemName="MidwayYd W Frt 1 routing" state="INACTIVE" />
+      <routeOutputSensor systemName="MidwayYd W Frt 2 routing" state="INACTIVE" />
+      <routeOutputSensor systemName="MidwayYd W Frt 3 routing" state="INACTIVE" />
+      <routeOutputSensor systemName="MidwayYd W Frt 5 routing" state="INACTIVE" />
+      <routeOutputSensor systemName="MidwayYd W Frt 6 routing" state="INACTIVE" />
+      <routeOutputSensor systemName="MidwayYd W Frt 7 routing" state="INACTIVE" />
       <routeSensor systemName="IS12" mode="onActive" />
     </route>
     <route userName="W Frt 5">
       <systemName>IO:AUTO:0020</systemName>
       <userName>W Frt 5</userName>
-      <routeOutputTurnout systemName="LT210" state="THROWN" />
-      <routeOutputTurnout systemName="LT211" state="CLOSED" />
-      <routeOutputTurnout systemName="LT212" state="CLOSED" />
-      <routeOutputTurnout systemName="LT213" state="CLOSED" />
-      <routeOutputTurnout systemName="LT214" state="THROWN" />
-      <routeOutputSensor systemName="W Frt 1" state="INACTIVE" />
-      <routeOutputSensor systemName="W Frt 2" state="INACTIVE" />
-      <routeOutputSensor systemName="W Frt 3" state="INACTIVE" />
-      <routeOutputSensor systemName="W Frt 4" state="INACTIVE" />
-      <routeOutputSensor systemName="W Frt 6" state="INACTIVE" />
-      <routeOutputSensor systemName="W Frt 7" state="INACTIVE" />
+      <routeOutputTurnout systemName="MidwayYd W-F1,F2" state="THROWN" />
+      <routeOutputTurnout systemName="MidwayYd W-F2,F3" state="CLOSED" />
+      <routeOutputTurnout systemName="MidwayYd W-F3,F4" state="CLOSED" />
+      <routeOutputTurnout systemName="MidwayYd W-F4,F5" state="CLOSED" />
+      <routeOutputTurnout systemName="MidwayYd W-F5,F6" state="THROWN" />
+      <routeOutputSensor systemName="MidwayYd W Frt 1 routing" state="INACTIVE" />
+      <routeOutputSensor systemName="MidwayYd W Frt 2 routing" state="INACTIVE" />
+      <routeOutputSensor systemName="MidwayYd W Frt 3 routing" state="INACTIVE" />
+      <routeOutputSensor systemName="MidwayYd W Frt 4 routing" state="INACTIVE" />
+      <routeOutputSensor systemName="MidwayYd W Frt 6 routing" state="INACTIVE" />
+      <routeOutputSensor systemName="MidwayYd W Frt 7 routing" state="INACTIVE" />
       <routeSensor systemName="IS13" mode="onActive" />
     </route>
     <route userName="W Frt 6">
       <systemName>IO:AUTO:0021</systemName>
       <userName>W Frt 6</userName>
-      <routeOutputTurnout systemName="LT210" state="THROWN" />
-      <routeOutputTurnout systemName="LT211" state="CLOSED" />
-      <routeOutputTurnout systemName="LT212" state="CLOSED" />
-      <routeOutputTurnout systemName="LT213" state="CLOSED" />
-      <routeOutputTurnout systemName="LT214" state="CLOSED" />
-      <routeOutputTurnout systemName="LT215" state="THROWN" />
-      <routeOutputSensor systemName="W Frt 1" state="INACTIVE" />
-      <routeOutputSensor systemName="W Frt 2" state="INACTIVE" />
-      <routeOutputSensor systemName="W Frt 3" state="INACTIVE" />
-      <routeOutputSensor systemName="W Frt 4" state="INACTIVE" />
-      <routeOutputSensor systemName="W Frt 5" state="INACTIVE" />
-      <routeOutputSensor systemName="W Frt 7" state="INACTIVE" />
+      <routeOutputTurnout systemName="MidwayYd W-F1,F2" state="THROWN" />
+      <routeOutputTurnout systemName="MidwayYd W-F2,F3" state="CLOSED" />
+      <routeOutputTurnout systemName="MidwayYd W-F3,F4" state="CLOSED" />
+      <routeOutputTurnout systemName="MidwayYd W-F4,F5" state="CLOSED" />
+      <routeOutputTurnout systemName="MidwayYd W-F5,F6" state="CLOSED" />
+      <routeOutputTurnout systemName="MidwayYd W-F6,F7" state="THROWN" />
+      <routeOutputSensor systemName="MidwayYd W Frt 1 routing" state="INACTIVE" />
+      <routeOutputSensor systemName="MidwayYd W Frt 2 routing" state="INACTIVE" />
+      <routeOutputSensor systemName="MidwayYd W Frt 3 routing" state="INACTIVE" />
+      <routeOutputSensor systemName="MidwayYd W Frt 4 routing" state="INACTIVE" />
+      <routeOutputSensor systemName="MidwayYd W Frt 5 routing" state="INACTIVE" />
+      <routeOutputSensor systemName="MidwayYd W Frt 7 routing" state="INACTIVE" />
       <routeSensor systemName="IS14" mode="onActive" />
     </route>
     <route userName="W Frt 7">
       <systemName>IO:AUTO:0022</systemName>
       <userName>W Frt 7</userName>
-      <routeOutputTurnout systemName="LT210" state="THROWN" />
-      <routeOutputTurnout systemName="LT211" state="CLOSED" />
-      <routeOutputTurnout systemName="LT212" state="CLOSED" />
-      <routeOutputTurnout systemName="LT213" state="CLOSED" />
-      <routeOutputTurnout systemName="LT214" state="CLOSED" />
-      <routeOutputTurnout systemName="LT215" state="CLOSED" />
-      <routeOutputSensor systemName="W Frt 1" state="INACTIVE" />
-      <routeOutputSensor systemName="W Frt 2" state="INACTIVE" />
-      <routeOutputSensor systemName="W Frt 3" state="INACTIVE" />
-      <routeOutputSensor systemName="W Frt 4" state="INACTIVE" />
-      <routeOutputSensor systemName="W Frt 5" state="INACTIVE" />
-      <routeOutputSensor systemName="W Frt 6" state="INACTIVE" />
+      <routeOutputTurnout systemName="MidwayYd W-F1,F2" state="THROWN" />
+      <routeOutputTurnout systemName="MidwayYd W-F2,F3" state="CLOSED" />
+      <routeOutputTurnout systemName="MidwayYd W-F3,F4" state="CLOSED" />
+      <routeOutputTurnout systemName="MidwayYd W-F4,F5" state="CLOSED" />
+      <routeOutputTurnout systemName="MidwayYd W-F5,F6" state="CLOSED" />
+      <routeOutputTurnout systemName="MidwayYd W-F6,F7" state="CLOSED" />
+      <routeOutputSensor systemName="MidwayYd W Frt 1 routing" state="INACTIVE" />
+      <routeOutputSensor systemName="MidwayYd W Frt 2 routing" state="INACTIVE" />
+      <routeOutputSensor systemName="MidwayYd W Frt 3 routing" state="INACTIVE" />
+      <routeOutputSensor systemName="MidwayYd W Frt 4 routing" state="INACTIVE" />
+      <routeOutputSensor systemName="MidwayYd W Frt 5 routing" state="INACTIVE" />
+      <routeOutputSensor systemName="MidwayYd W Frt 6 routing" state="INACTIVE" />
       <routeSensor systemName="IS15" mode="onActive" />
     </route>
     <route userName="Hide Blue Text">
@@ -12859,7 +12954,7 @@
     <positionablelabel x="412" y="189" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Frt 6 " fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <tooltip>Text Label</tooltip>
     </positionablelabel>
-    <turnouticon turnout="LT203" x="627" y="52" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="-135" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="MidwayYd E-F1,F2" x="627" y="52" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="-135" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <tooltip>LT203</tooltip>
       <icons>
         <closed url="program:resources/icons/smallschematics/tracksegments/os-lefthand-east-closed.gif" degrees="225" scale="1.0">
@@ -12913,7 +13008,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="LT205" x="777" y="157" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="MidwayYd E-F ladder, F5" x="777" y="157" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <tooltip>LT205</tooltip>
       <icons>
         <closed url="program:resources/icons/smallschematics/tracksegments/os-lefthand-east-closed.gif" degrees="0" scale="1.0">
@@ -12931,7 +13026,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="LT206" x="734" y="183" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="MidwayYd E-upper cross over stockyards" x="734" y="183" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <tooltip>LT206</tooltip>
       <icons>
         <closed url="program:resources/icons/smallschematics/tracksegments/os-lefthand-east-closed.gif" degrees="0" scale="1.0">
@@ -12949,7 +13044,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="LT206" x="694" y="207" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="MidwayYd E-upper cross over stockyards" x="694" y="207" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <tooltip>LT206</tooltip>
       <icons>
         <closed url="program:resources/icons/smallschematics/tracksegments/os-lefthand-east-closed.gif" degrees="0" scale="1.0">
@@ -13003,7 +13098,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="LT207" x="693" y="255" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="MidwayYd E-lower cross over stockyards" x="693" y="255" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <tooltip>LT207</tooltip>
       <icons>
         <closed url="program:resources/icons/smallschematics/tracksegments/os-righthand-west-closed.gif" degrees="0" scale="1.0">
@@ -13021,7 +13116,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="LT207" x="651" y="232" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="180" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="MidwayYd E-lower cross over stockyards" x="651" y="232" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="180" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <tooltip>LT207</tooltip>
       <icons>
         <closed url="program:resources/icons/smallschematics/tracksegments/os-righthand-west-closed.gif" degrees="180" scale="1.0">
@@ -13075,7 +13170,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <sensoricon sensor="Frt 1" x="566" y="51" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="MidwayYd E Frt 1 routing" x="566" y="51" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <tooltip>Frt 1 (IS1)</tooltip>
       <active url="program:resources/icons/mediumschematics/LEDs/GREENLED.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
@@ -13091,7 +13186,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="Frt 2" x="567" y="70" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="MidwayYd E Frt 2 routing" x="567" y="70" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <tooltip>Frt 2 (IS2)</tooltip>
       <active url="program:resources/icons/mediumschematics/LEDs/GREENLED.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
@@ -13107,7 +13202,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="Frt 3" x="590" y="95" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="MidwayYd E Frt 3 routing" x="590" y="95" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <tooltip>Frt 3 (IS3)</tooltip>
       <active url="program:resources/icons/mediumschematics/LEDs/GREENLED.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
@@ -13123,7 +13218,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="Frt 4" x="625" y="125" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="MidwayYd E Frt 4 routing" x="625" y="125" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <tooltip>Frt 4 (IS4)</tooltip>
       <active url="program:resources/icons/mediumschematics/LEDs/GREENLED.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
@@ -13139,7 +13234,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="Frt 5" x="626" y="152" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="MidwayYd E Frt 5 routing" x="626" y="152" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <tooltip>Frt 5 (IS5)</tooltip>
       <active url="program:resources/icons/mediumschematics/LEDs/GREENLED.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
@@ -13155,7 +13250,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="Frt 6" x="507" y="184" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="MidwayYd E Frt 6 routing" x="507" y="184" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <tooltip>Frt 6 (IS6)</tooltip>
       <active url="program:resources/icons/mediumschematics/LEDs/GREENLED.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
@@ -13171,7 +13266,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="Frt 7" x="624" y="212" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="MidwayYd E Frt 7 routing" x="624" y="212" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <tooltip>Frt 7 (IS7)</tooltip>
       <active url="program:resources/icons/mediumschematics/LEDs/GREENLED.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
@@ -13190,7 +13285,7 @@
     <positionablelabel x="648" y="213" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Frt 7 " fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <tooltip>Text Label</tooltip>
     </positionablelabel>
-    <turnouticon turnout="LT210" x="204" y="49" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="180" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="MidwayYd W-F1,F2" x="204" y="49" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="180" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
         <closed url="program:resources/icons/smallschematics/tracksegments/os-righthand-west-closed.gif" degrees="180" scale="1.0">
           <rotation>0</rotation>
@@ -13207,7 +13302,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="LT211" x="243" y="57" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="45" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="MidwayYd W-F2,F3" x="243" y="57" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="45" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
         <closed url="program:resources/icons/smallschematics/tracksegments/os-lefthand-east-closed.gif" degrees="45" scale="1.0">
           <rotation>0</rotation>
@@ -13224,7 +13319,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="LT212" x="271" y="85" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="45" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="MidwayYd W-F3,F4" x="271" y="85" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="45" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
         <closed url="program:resources/icons/smallschematics/tracksegments/os-lefthand-east-closed.gif" degrees="45" scale="1.0">
           <rotation>0</rotation>
@@ -13241,7 +13336,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="LT213" x="302" y="114" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="45" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="MidwayYd W-F4,F5" x="302" y="114" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="45" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
         <closed url="program:resources/icons/smallschematics/tracksegments/os-lefthand-east-closed.gif" degrees="45" scale="1.0">
           <rotation>0</rotation>
@@ -13258,7 +13353,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="LT214" x="330" y="141" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="45" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="MidwayYd W-F5,F6" x="330" y="141" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="45" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
         <closed url="program:resources/icons/smallschematics/tracksegments/os-lefthand-east-closed.gif" degrees="45" scale="1.0">
           <rotation>0</rotation>
@@ -13275,7 +13370,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="LT215" x="359" y="169" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="45" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="MidwayYd W-F6,F7" x="359" y="169" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="45" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
         <closed url="program:resources/icons/smallschematics/tracksegments/os-lefthand-east-closed.gif" degrees="45" scale="1.0">
           <rotation>0</rotation>
@@ -13292,7 +13387,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="LT215" x="394" y="213" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="MidwayYd W-F6,F7" x="394" y="213" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
         <closed url="program:resources/icons/smallschematics/tracksegments/os-lefthand-east-closed.gif" degrees="0" scale="1.0">
           <rotation>2</rotation>
@@ -13333,7 +13428,7 @@
     <positionablelabel x="335" y="238" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Eng Svs " fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <tooltip>Text Label</tooltip>
     </positionablelabel>
-    <sensoricon sensor="W Frt 1" x="309" y="47" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="MidwayYd W Frt 1 routing" x="309" y="47" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/mediumschematics/LEDs/GREENLED.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -13348,7 +13443,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="W Frt 2" x="335" y="77" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="MidwayYd W Frt 2 routing" x="335" y="77" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/mediumschematics/LEDs/GREENLED.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -13363,7 +13458,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="W Frt 3" x="363" y="106" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="MidwayYd W Frt 3 routing" x="363" y="106" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/mediumschematics/LEDs/GREENLED.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -13378,7 +13473,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="W Frt 4" x="394" y="132" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="MidwayYd W Frt 4 routing" x="394" y="132" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/mediumschematics/LEDs/GREENLED.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -13393,7 +13488,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="W Frt 5" x="415" y="160" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="MidwayYd W Frt 5 routing" x="415" y="160" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/mediumschematics/LEDs/GREENLED.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -13408,7 +13503,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="W Frt 6" x="446" y="188" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="MidwayYd W Frt 6 routing" x="446" y="188" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/mediumschematics/LEDs/GREENLED.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -13564,7 +13659,7 @@
     <positionablelabel x="491" y="256" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="216 " fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <tooltip>Text Label</tooltip>
     </positionablelabel>
-    <sensoricon sensor="W Frt 7" x="475" y="209" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="MidwayYd W Frt 7 routing" x="475" y="209" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/mediumschematics/LEDs/GREENLED.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
