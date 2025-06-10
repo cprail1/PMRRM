@@ -174,7 +174,7 @@ a.start()
 a = ControlAbsSearchlight()
 a.setName("W U-V")
 a.local    = signals.getSignalHead("W U-V")
-a.blocks   = [sensors.getSensor("Upton-Vista Intermediate"), sensors.getSensor("Vista Intermediate-Vista")]
+a.blocks   = [sensors.getSensor("Upton-Vista West"), sensors.getSensor("Upton-Vista East")]
 a.turnouts = []
 a.next     = signals.getSignalHead("W Upton Main")
 a.next2    = False
@@ -250,7 +250,7 @@ a.start()
 a = ControlAbsSearchlight()
 a.setName("E U-V")
 a.local    = signals.getSignalHead("E U-V")
-a.blocks   = [sensors.getSensor("Upton-Vista Intermediate"), sensors.getSensor("Vista Intermediate-Vista")]
+a.blocks   = [sensors.getSensor("Upton-Vista West"), sensors.getSensor("Upton-Vista East")]
 a.turnouts = []
 a.next     = signals.getSignalHead("E Vista Main")
 a.next2    = False
