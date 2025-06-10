@@ -23,7 +23,7 @@
     </sensor>
     <sensor inverted="false">
       <systemName>LS4</systemName>
-      <userName>Midway W Frt approach</userName>
+      <userName>Midway West Frt approach</userName>
     </sensor>
     <sensor inverted="false">
       <systemName>LS5</systemName>
@@ -110,19 +110,19 @@
     </sensor>
     <sensor inverted="false">
       <systemName>LS30</systemName>
-      <userName>Midway Main 3</userName>
+      <userName>Midway Main 3 at Station</userName>
     </sensor>
     <sensor inverted="false">
       <systemName>LS31</systemName>
-      <userName>Midway Main 2</userName>
+      <userName>Midway Main 2 at Station</userName>
     </sensor>
     <sensor inverted="false">
       <systemName>LS32</systemName>
-      <userName>Midway Main 1</userName>
+      <userName>Midway Main 1 at Station</userName>
     </sensor>
     <sensor inverted="false">
       <systemName>LS33</systemName>
-      <userName>U-Vw</userName>
+      <userName>Vista Intermediate-Vista</userName>
       <comment>Check if really is deparate blocks</comment>
     </sensor>
     <sensor inverted="false">
@@ -136,7 +136,7 @@
     </sensor>
     <sensor inverted="false">
       <systemName>LS37</systemName>
-      <userName>S-T</userName>
+      <userName>Sierra-Troy</userName>
     </sensor>
     <sensor inverted="false">
       <systemName>LS38</systemName>
@@ -172,15 +172,15 @@
     </sensor>
     <sensor inverted="false">
       <systemName>LS48</systemName>
-      <userName>V-W</userName>
+      <userName>Vista-Whiskey</userName>
     </sensor>
     <sensor inverted="false">
       <systemName>LS49</systemName>
-      <userName>W-X</userName>
+      <userName>Whiskey-Xerox</userName>
     </sensor>
     <sensor inverted="false">
       <systemName>LS50</systemName>
-      <userName>T-U</userName>
+      <userName>Troy-Upton</userName>
     </sensor>
     <sensor inverted="false">
       <systemName>LS51</systemName>
@@ -192,12 +192,13 @@
     </sensor>
     <sensor inverted="false">
       <systemName>LS53</systemName>
-      <userName>U-Ve</userName>
+      <userName>Upton-Vista Intermediate</userName>
       <comment>Check if it really is two detections</comment>
     </sensor>
     <sensor inverted="false">
       <systemName>LS54</systemName>
-      <userName>R-S</userName>
+      <userName>Redcliff-Sierra</userName>
+      <comment>Redcliff-Sierra</comment>
     </sensor>
     <sensor inverted="false">
       <systemName>LS55</systemName>
@@ -243,7 +244,7 @@
     </sensor>
     <sensor inverted="false">
       <systemName>LS68</systemName>
-      <userName>O-P</userName>
+      <userName>Osage-Powderhorn</userName>
     </sensor>
     <sensor inverted="false">
       <systemName>LS69</systemName>
@@ -410,7 +411,7 @@
     </sensor>
     <sensor inverted="false">
       <systemName>LS117</systemName>
-      <userName>GH</userName>
+      <userName>Gary Hudson overlap main</userName>
     </sensor>
     <sensor inverted="false">
       <systemName>LS118</systemName>
@@ -3301,7 +3302,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT86</systemName>
-      <userName>Vista Main -VistaYard East</userName>
+      <userName>Vista E 2 MainE -VistaYard E</userName>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -3365,7 +3366,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT93</systemName>
-      <userName>Vista Main -VistaYard West</userName>
+      <userName>Vista W 2 MainW -VistaYard W</userName>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -3492,7 +3493,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT106</systemName>
-      <userName>Yazoo 2-3 xover</userName>
+      <userName>Yazoo 2-3 xover upper</userName>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -3502,7 +3503,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT107</systemName>
-      <userName>Yazoo 2-1 xover</userName>
+      <userName>Yazoo 2-1 xover lower</userName>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -3794,6 +3795,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT175</systemName>
+      <userName>Vista Yard E 4</userName>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -3803,6 +3805,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT176</systemName>
+      <userName>Vista Yard W 3</userName>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -3812,6 +3815,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT177</systemName>
+      <userName>Vista Yard W 2</userName>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -3821,6 +3825,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT178</systemName>
+      <userName>Vista Yard W 1</userName>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -3876,6 +3881,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT186</systemName>
+      <userName>Vista Yard E 2</userName>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -3885,6 +3891,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT187</systemName>
+      <userName>Vista Yard E 1</userName>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -3932,6 +3939,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT196</systemName>
+      <userName>Vista Yard Wye asile turnouts</userName>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -3941,6 +3949,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT197</systemName>
+      <userName>Vista Yard Wye mine end</userName>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -3950,6 +3959,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT198</systemName>
+      <userName>Vista Yard E 3</userName>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -6267,12 +6277,12 @@
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Off">
       <systemName>IT86</systemName>
-      <userName>Vista Main -VistaYard East partner</userName>
+      <userName>Vista E 2 MainE -VistaYard E partner</userName>
       <comment>VistaM to yard at east end</comment>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Off">
       <systemName>IT93</systemName>
-      <userName>Vista Main -VistaYard West partner</userName>
+      <userName>Vista W 2 MainW -VistaYard W partner</userName>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Off">
       <systemName>IT104</systemName>
@@ -6386,7 +6396,7 @@
       <systemName>IM29</systemName>
       <userName>Vista Siding</userName>
     </memory>
-    <memory value="">
+    <memory>
       <systemName>IM30</systemName>
       <userName>Vista - Whiskey</userName>
     </memory>
@@ -6455,7 +6465,7 @@
     <memory>
       <systemName>IM50</systemName>
     </memory>
-    <memory value="">
+    <memory>
       <systemName>IM51</systemName>
       <userName>Vista - Upton East</userName>
     </memory>
@@ -8146,7 +8156,7 @@
       <systemName>IB10</systemName>
       <userName>S-T</userName>
       <permissive>no</permissive>
-      <occupancysensor>S-T</occupancysensor>
+      <occupancysensor>Sierra-Troy</occupancysensor>
       <path todir="64" fromdir="128" block="IB8">
         <beansetting setting="2">
           <turnout systemName="Sierra W" />
@@ -8288,12 +8298,12 @@
       <occupancysensor>LS92</occupancysensor>
       <path todir="128" fromdir="64" block="IB25">
         <beansetting setting="2">
-          <turnout systemName="Vista Main -VistaYard West" />
+          <turnout systemName="Vista W 2 MainW -VistaYard W" />
         </beansetting>
       </path>
       <path todir="64" fromdir="128" block="IB72">
         <beansetting setting="2">
-          <turnout systemName="Vista Main -VistaYard East" />
+          <turnout systemName="Vista E 2 MainE -VistaYard E" />
         </beansetting>
       </path>
     </block>
@@ -8349,7 +8359,7 @@
       <systemName>IB20</systemName>
       <userName>O-P</userName>
       <permissive>no</permissive>
-      <occupancysensor>O-P</occupancysensor>
+      <occupancysensor>Osage-Powderhorn</occupancysensor>
       <path todir="64" fromdir="128" block="IB3">
         <beansetting setting="2">
           <turnout systemName="LT63" />
@@ -8481,7 +8491,7 @@
       <systemName>IB23</systemName>
       <userName>R-S</userName>
       <permissive>no</permissive>
-      <occupancysensor>R-S</occupancysensor>
+      <occupancysensor>Redcliff-Sierra</occupancysensor>
       <path todir="64" fromdir="128" block="IB6">
         <beansetting setting="2">
           <turnout systemName="Redcliff W" />
@@ -8507,7 +8517,7 @@
       <systemName>IB24</systemName>
       <userName>T-U</userName>
       <permissive>no</permissive>
-      <occupancysensor>T-U</occupancysensor>
+      <occupancysensor>Troy-Upton</occupancysensor>
       <path todir="64" fromdir="128" block="IB11">
         <beansetting setting="2">
           <turnout systemName="Troy W 1" />
@@ -8547,10 +8557,10 @@
       <systemName>IB25</systemName>
       <userName>V-W</userName>
       <permissive>no</permissive>
-      <occupancysensor>V-W</occupancysensor>
+      <occupancysensor>Vista-Whiskey</occupancysensor>
       <path todir="64" fromdir="128" block="IB16">
         <beansetting setting="2">
-          <turnout systemName="Vista Main -VistaYard West" />
+          <turnout systemName="Vista W 2 MainW -VistaYard W" />
         </beansetting>
         <beansetting setting="2">
           <turnout systemName="LT94" />
@@ -8584,7 +8594,7 @@
       </path>
       <path todir="16" fromdir="32" block="IB161">
         <beansetting setting="4">
-          <turnout systemName="Vista Main -VistaYard West" />
+          <turnout systemName="Vista W 2 MainW -VistaYard W" />
         </beansetting>
         <beansetting setting="2">
           <turnout systemName="LT94" />
@@ -8595,7 +8605,7 @@
       <systemName>IB26</systemName>
       <userName>W-X</userName>
       <permissive>no</permissive>
-      <occupancysensor>W-X</occupancysensor>
+      <occupancysensor>Whiskey-Xerox</occupancysensor>
       <path todir="64" fromdir="128" block="IB18">
         <beansetting setting="2">
           <turnout systemName="Whiskey W 1" />
@@ -8656,7 +8666,7 @@
       <systemName>IB29</systemName>
       <userName>Midway Main1 station</userName>
       <permissive>no</permissive>
-      <occupancysensor>Midway Main 1</occupancysensor>
+      <occupancysensor>Midway Main 1 at Station</occupancysensor>
       <path todir="128" fromdir="64" block="IB33">
         <beansetting setting="2">
           <turnout systemName="LT58" />
@@ -8672,7 +8682,7 @@
       <systemName>IB30</systemName>
       <userName>Midway Main2 station</userName>
       <permissive>no</permissive>
-      <occupancysensor>Midway Main 2</occupancysensor>
+      <occupancysensor>Midway Main 2 at Station</occupancysensor>
       <path todir="128" fromdir="64" block="IB32">
         <beansetting setting="2">
           <turnout systemName="Midway W P2" />
@@ -8688,7 +8698,7 @@
       <systemName>IB31</systemName>
       <userName>Midway Main3 station</userName>
       <permissive>no</permissive>
-      <occupancysensor>Midway Main 3</occupancysensor>
+      <occupancysensor>Midway Main 3 at Station</occupancysensor>
       <path todir="128" fromdir="64" block="IB32">
         <beansetting setting="4">
           <turnout systemName="Midway W P2" />
@@ -8823,7 +8833,7 @@
       <systemName>IB37</systemName>
       <userName>Midway West Freight approach</userName>
       <permissive>no</permissive>
-      <occupancysensor>Midway W Frt approach</occupancysensor>
+      <occupancysensor>Midway West Frt approach</occupancysensor>
       <path todir="128" fromdir="64" block="IB1">
         <beansetting setting="4">
           <turnout systemName="LT60" />
@@ -9080,7 +9090,7 @@
       <systemName>IB53</systemName>
       <userName>GH</userName>
       <permissive>no</permissive>
-      <occupancysensor>GH</occupancysensor>
+      <occupancysensor>Gary Hudson overlap main</occupancysensor>
       <path todir="64" fromdir="128" block="IB56">
         <beansetting setting="2">
           <turnout systemName="Hudson E siding" />
@@ -9338,12 +9348,12 @@
       <permissive>no</permissive>
       <path todir="16" fromdir="32" block="IB182">
         <beansetting setting="4">
-          <turnout systemName="Vista Main -VistaYard East partner" />
+          <turnout systemName="Vista E 2 MainE -VistaYard E partner" />
         </beansetting>
       </path>
       <path todir="64" fromdir="128" block="IB184">
         <beansetting setting="2">
-          <turnout systemName="Vista Main -VistaYard East partner" />
+          <turnout systemName="Vista E 2 MainE -VistaYard E partner" />
         </beansetting>
       </path>
       <path todir="128" fromdir="64" block="IB185" />
@@ -9441,10 +9451,10 @@
       <systemName>IB72</systemName>
       <userName>U-Vw</userName>
       <permissive>no</permissive>
-      <occupancysensor>U-Vw</occupancysensor>
+      <occupancysensor>Vista Intermediate-Vista</occupancysensor>
       <path todir="128" fromdir="64" block="IB16">
         <beansetting setting="2">
-          <turnout systemName="Vista Main -VistaYard East" />
+          <turnout systemName="Vista E 2 MainE -VistaYard E" />
         </beansetting>
         <beansetting setting="2">
           <turnout systemName="Vista E 1" />
@@ -9458,7 +9468,7 @@
       <path todir="64" fromdir="128" block="IB73" />
       <path todir="16" fromdir="32" block="IB182">
         <beansetting setting="4">
-          <turnout systemName="Vista Main -VistaYard East" />
+          <turnout systemName="Vista E 2 MainE -VistaYard E" />
         </beansetting>
         <beansetting setting="2">
           <turnout systemName="Vista E 1" />
@@ -9469,7 +9479,7 @@
       <systemName>IB73</systemName>
       <userName>U-Ve</userName>
       <permissive>no</permissive>
-      <occupancysensor>U-Ve</occupancysensor>
+      <occupancysensor>Upton-Vista Intermediate</occupancysensor>
       <path todir="64" fromdir="128" block="IB13">
         <beansetting setting="2">
           <turnout systemName="Upton W" />
@@ -10033,13 +10043,13 @@
       <permissive>no</permissive>
       <path todir="64" fromdir="128" block="IB122">
         <beansetting setting="2">
-          <turnout systemName="Yazoo 2-3 xover" />
+          <turnout systemName="Yazoo 2-3 xover upper" />
         </beansetting>
       </path>
       <path todir="128" fromdir="64" block="IB123" />
       <path todir="128" fromdir="64" block="IB123">
         <beansetting setting="2">
-          <turnout systemName="Yazoo 2-3 xover" />
+          <turnout systemName="Yazoo 2-3 xover upper" />
         </beansetting>
       </path>
       <path todir="128" fromdir="64" block="IB143" />
@@ -10071,12 +10081,12 @@
           <turnout systemName="Yazoo X1-Y2,3" />
         </beansetting>
         <beansetting setting="2">
-          <turnout systemName="Yazoo 2-3 xover" />
+          <turnout systemName="Yazoo 2-3 xover upper" />
         </beansetting>
       </path>
       <path todir="96" fromdir="144" block="IB123">
         <beansetting setting="4">
-          <turnout systemName="Yazoo 2-3 xover" />
+          <turnout systemName="Yazoo 2-3 xover upper" />
         </beansetting>
       </path>
       <path todir="128" fromdir="64" block="IB143" />
@@ -10088,20 +10098,20 @@
       <path todir="64" fromdir="128" block="IB115" />
       <path todir="144" fromdir="96" block="IB122">
         <beansetting setting="4">
-          <turnout systemName="Yazoo 2-3 xover" />
+          <turnout systemName="Yazoo 2-3 xover upper" />
         </beansetting>
       </path>
       <path todir="128" fromdir="64" block="IB128">
         <beansetting setting="2">
-          <turnout systemName="Yazoo 2-1 xover" />
+          <turnout systemName="Yazoo 2-1 xover lower" />
         </beansetting>
       </path>
       <path todir="160" fromdir="80" block="IB129">
         <beansetting setting="4">
-          <turnout systemName="Yazoo 2-1 xover" />
+          <turnout systemName="Yazoo 2-1 xover lower" />
         </beansetting>
         <beansetting setting="2">
-          <turnout systemName="Yazoo 2-3 xover" />
+          <turnout systemName="Yazoo 2-3 xover upper" />
         </beansetting>
       </path>
     </block>
@@ -10129,12 +10139,12 @@
           <turnout systemName="Yazoo X2-Y1,2" />
         </beansetting>
         <beansetting setting="2">
-          <turnout systemName="Yazoo 2-1 xover" />
+          <turnout systemName="Yazoo 2-1 xover lower" />
         </beansetting>
       </path>
       <path todir="128" fromdir="64" block="IB129">
         <beansetting setting="2">
-          <turnout systemName="Yazoo 2-1 xover" />
+          <turnout systemName="Yazoo 2-1 xover lower" />
         </beansetting>
       </path>
     </block>
@@ -10174,7 +10184,7 @@
       <permissive>no</permissive>
       <path todir="64" fromdir="128" block="IB123">
         <beansetting setting="2">
-          <turnout systemName="Yazoo 2-1 xover" />
+          <turnout systemName="Yazoo 2-1 xover lower" />
         </beansetting>
       </path>
     </block>
@@ -10184,12 +10194,12 @@
       <permissive>no</permissive>
       <path todir="80" fromdir="160" block="IB123">
         <beansetting setting="4">
-          <turnout systemName="Yazoo 2-1 xover" />
+          <turnout systemName="Yazoo 2-1 xover lower" />
         </beansetting>
       </path>
       <path todir="64" fromdir="128" block="IB125">
         <beansetting setting="2">
-          <turnout systemName="Yazoo 2-1 xover" />
+          <turnout systemName="Yazoo 2-1 xover lower" />
         </beansetting>
       </path>
     </block>
@@ -10398,7 +10408,7 @@
       <permissive>no</permissive>
       <path todir="64" fromdir="128" block="IB72">
         <beansetting setting="2">
-          <turnout systemName="Vista Main -VistaYard East" />
+          <turnout systemName="Vista E 2 MainE -VistaYard E" />
         </beansetting>
       </path>
       <path todir="128" fromdir="64" block="IB139" />
@@ -10553,13 +10563,13 @@
       <permissive>no</permissive>
       <path todir="16" fromdir="32" block="IB161">
         <beansetting setting="4">
-          <turnout systemName="Vista Main -VistaYard West partner" />
+          <turnout systemName="Vista W 2 MainW -VistaYard W partner" />
         </beansetting>
       </path>
       <path todir="64" fromdir="128" block="IB168" />
       <path todir="160" fromdir="80" block="IB181">
         <beansetting setting="2">
-          <turnout systemName="Vista Main -VistaYard West partner" />
+          <turnout systemName="Vista W 2 MainW -VistaYard W partner" />
         </beansetting>
       </path>
     </block>
@@ -10569,12 +10579,12 @@
       <permissive>no</permissive>
       <path todir="32" fromdir="16" block="IB25">
         <beansetting setting="4">
-          <turnout systemName="Vista Main -VistaYard West" />
+          <turnout systemName="Vista W 2 MainW -VistaYard W" />
         </beansetting>
       </path>
       <path todir="32" fromdir="16" block="IB160">
         <beansetting setting="4">
-          <turnout systemName="Vista Main -VistaYard West partner" />
+          <turnout systemName="Vista W 2 MainW -VistaYard W partner" />
         </beansetting>
       </path>
     </block>
@@ -10781,7 +10791,7 @@
       <permissive>no</permissive>
       <path todir="80" fromdir="160" block="IB160">
         <beansetting setting="2">
-          <turnout systemName="Vista Main -VistaYard West partner" />
+          <turnout systemName="Vista W 2 MainW -VistaYard W partner" />
         </beansetting>
       </path>
     </block>
@@ -10791,12 +10801,12 @@
       <permissive>no</permissive>
       <path todir="32" fromdir="16" block="IB66">
         <beansetting setting="4">
-          <turnout systemName="Vista Main -VistaYard East partner" />
+          <turnout systemName="Vista E 2 MainE -VistaYard E partner" />
         </beansetting>
       </path>
       <path todir="32" fromdir="16" block="IB72">
         <beansetting setting="4">
-          <turnout systemName="Vista Main -VistaYard East" />
+          <turnout systemName="Vista E 2 MainE -VistaYard E" />
         </beansetting>
       </path>
     </block>
@@ -10811,7 +10821,7 @@
       <permissive>no</permissive>
       <path todir="128" fromdir="64" block="IB66">
         <beansetting setting="2">
-          <turnout systemName="Vista Main -VistaYard East partner" />
+          <turnout systemName="Vista E 2 MainE -VistaYard E partner" />
         </beansetting>
       </path>
     </block>
@@ -11273,7 +11283,7 @@
       <systemName>ILB9</systemName>
       <userName>Sierra Siding</userName>
     </layoutblock>
-    <layoutblock systemName="ILB10" occupancysensor="S-T" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="IM21">
+    <layoutblock systemName="ILB10" occupancysensor="Sierra-Troy" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="IM21">
       <systemName>ILB10</systemName>
       <userName>S-T</userName>
     </layoutblock>
@@ -11313,7 +11323,7 @@
       <systemName>ILB19</systemName>
       <userName>Whiskey Siding 1</userName>
     </layoutblock>
-    <layoutblock systemName="ILB20" occupancysensor="O-P" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Powderhorn - Osage">
+    <layoutblock systemName="ILB20" occupancysensor="Osage-Powderhorn" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Powderhorn - Osage">
       <systemName>ILB20</systemName>
       <userName>O-P</userName>
     </layoutblock>
@@ -11325,23 +11335,23 @@
       <systemName>ILB22</systemName>
       <userName>Powderhorn S</userName>
     </layoutblock>
-    <layoutblock systemName="ILB23" occupancysensor="R-S" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Sierra - Redcliff">
+    <layoutblock systemName="ILB23" occupancysensor="Redcliff-Sierra" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Sierra - Redcliff">
       <systemName>ILB23</systemName>
       <userName>R-S</userName>
     </layoutblock>
-    <layoutblock systemName="ILB24" occupancysensor="Midway Main 1" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="IM1">
+    <layoutblock systemName="ILB24" occupancysensor="Midway Main 1 at Station" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="IM1">
       <systemName>ILB24</systemName>
       <userName>Midway Main1 station</userName>
     </layoutblock>
-    <layoutblock systemName="ILB25" occupancysensor="T-U" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green">
+    <layoutblock systemName="ILB25" occupancysensor="Troy-Upton" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green">
       <systemName>ILB25</systemName>
       <userName>T-U</userName>
     </layoutblock>
-    <layoutblock systemName="ILB26" occupancysensor="V-W" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Vista - Whiskey">
+    <layoutblock systemName="ILB26" occupancysensor="Vista-Whiskey" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Vista - Whiskey">
       <systemName>ILB26</systemName>
       <userName>V-W</userName>
     </layoutblock>
-    <layoutblock systemName="ILB27" occupancysensor="W-X" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Whiskey - Xerox">
+    <layoutblock systemName="ILB27" occupancysensor="Whiskey-Xerox" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Whiskey - Xerox">
       <systemName>ILB27</systemName>
       <userName>W-X</userName>
     </layoutblock>
@@ -11353,11 +11363,11 @@
       <systemName>ILB29</systemName>
       <userName>Xerox Main 1</userName>
     </layoutblock>
-    <layoutblock systemName="ILB30" occupancysensor="Midway Main 2" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="IM2">
+    <layoutblock systemName="ILB30" occupancysensor="Midway Main 2 at Station" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="IM2">
       <systemName>ILB30</systemName>
       <userName>Midway Main2 station</userName>
     </layoutblock>
-    <layoutblock systemName="ILB31" occupancysensor="Midway Main 3" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="white">
+    <layoutblock systemName="ILB31" occupancysensor="Midway Main 3 at Station" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="white">
       <systemName>ILB31</systemName>
       <userName>Midway Main3 station</userName>
     </layoutblock>
@@ -11494,7 +11504,7 @@
       <systemName>ILB64</systemName>
       <userName>Midway West Main Passenger approach</userName>
     </layoutblock>
-    <layoutblock systemName="ILB66" occupancysensor="GH" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green">
+    <layoutblock systemName="ILB66" occupancysensor="Gary Hudson overlap main" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green">
       <systemName>ILB66</systemName>
       <userName>GH</userName>
     </layoutblock>
@@ -11506,15 +11516,15 @@
       <systemName>ILB68</systemName>
       <userName>Troy 3</userName>
     </layoutblock>
-    <layoutblock systemName="ILB69" occupancysensor="U-Vw" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Vista - Upton West">
+    <layoutblock systemName="ILB69" occupancysensor="Vista Intermediate-Vista" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Vista - Upton West">
       <systemName>ILB69</systemName>
       <userName>U-Vw</userName>
     </layoutblock>
-    <layoutblock systemName="ILB70" occupancysensor="U-Ve" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Vista - Upton East">
+    <layoutblock systemName="ILB70" occupancysensor="Upton-Vista Intermediate" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Vista - Upton East">
       <systemName>ILB70</systemName>
       <userName>U-Ve</userName>
     </layoutblock>
-    <layoutblock systemName="ILB71" occupancysensor="Midway W Frt approach" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="IM61">
+    <layoutblock systemName="ILB71" occupancysensor="Midway West Frt approach" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="IM61">
       <systemName>ILB71</systemName>
       <userName>Midway West Freight approach</userName>
     </layoutblock>
@@ -12001,7 +12011,7 @@
       <comment />
     </signalelement>
     <signalelement signal="W Xerox Main" mode="2" watchedturnout="Xerox E" watchedsignal1="W Whiskey Main" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false">
-      <sensorname>W-X</sensorname>
+      <sensorname>Whiskey-Xerox</sensorname>
       <comment />
     </signalelement>
     <signalelement signal="E Xerox siding" mode="3" watchedturnout="Xerox E" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false">
@@ -12009,7 +12019,7 @@
       <comment />
     </signalelement>
     <signalelement signal="W Xerox Siding" mode="3" watchedturnout="Xerox E" watchedsignal1="W Whiskey Main" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false">
-      <sensorname>W-X</sensorname>
+      <sensorname>Whiskey-Xerox</sensorname>
       <comment />
     </signalelement>
   </signalelements>
@@ -12084,8 +12094,8 @@
       <routeOutputTurnout systemName="Upton E" state="CLOSED" />
       <routeOutputTurnout systemName="Upton W" state="CLOSED" />
       <routeOutputTurnout systemName="Vista E 1" state="CLOSED" />
-      <routeOutputTurnout systemName="Vista Main -VistaYard East" state="CLOSED" />
-      <routeOutputTurnout systemName="Vista Main -VistaYard West" state="CLOSED" />
+      <routeOutputTurnout systemName="Vista E 2 MainE -VistaYard E" state="CLOSED" />
+      <routeOutputTurnout systemName="Vista W 2 MainW -VistaYard W" state="CLOSED" />
       <routeOutputTurnout systemName="Vista W 1" state="CLOSED" />
       <routeOutputTurnout systemName="Whiskey E 2" state="CLOSED" />
       <routeOutputTurnout systemName="Whiskey E 1" state="CLOSED" />
@@ -17283,7 +17293,7 @@
     </layoutturnout>
     <layoutturnout ident="TO81" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="180.0" ycen="190.0" xa="194.0" ya="190.0" xb="166.0" yb="190.0" xc="160.0" yc="210.0" xd="194.0" yd="190.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="LT40" blockname="Kelso" connectaname="T124" connectbname="T128" connectcname="T126" />
     <layoutturnout ident="TO58" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1115.0" ycen="490.0" xa="1103.0" ya="490.0" xb="1127.0" yb="490.0" xc="1135.0" yc="510.0" xd="1103.0" yd="490.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Powderhorn housetrack" blockname="Powderhorn M" connectaname="T161" connectbname="T37" connectcname="T159" />
-    <layoutturnout ident="TO8" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1020.0" ycen="615.0" xa="1030.0" ya="615.0" xb="1010.0" yb="615.0" xc="1005.0" yc="630.0" xd="1030.0" yd="615.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Vista Main -VistaYard East" secondturnoutname="Vista Main -VistaYard East partner" blockname="U-Vw" connectaname="T32" connectbname="T59" connectcname="T233">
+    <layoutturnout ident="TO8" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1020.0" ycen="615.0" xa="1030.0" ya="615.0" xb="1010.0" yb="615.0" xc="1005.0" yc="630.0" xd="1030.0" yd="615.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Vista E 2 MainE -VistaYard E" secondturnoutname="Vista E 2 MainE -VistaYard E partner" blockname="U-Vw" connectaname="T32" connectbname="T59" connectcname="T233">
       <sensorB>NX-VistaM-EB</sensorB>
     </layoutturnout>
     <layoutturnout ident="TO34" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="809.0" ycen="490.0" xa="821.0" ya="490.0" xb="797.0" yb="490.0" xc="799.0" yc="475.0" xd="821.0" yd="490.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Redcliff Staging" blockname="Redcliff Main" connectaname="T41" connectbname="T133" connectcname="T134" />
@@ -17313,8 +17323,8 @@
     <layoutturnout ident="TO94" type="RH_TURNOUT" hidden="no" disabled="yes" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="225.0" ycen="655.0" xa="250.0" ya="655.0" xb="200.0" yb="655.0" xc="210.0" yc="645.0" xd="250.0" yd="655.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Yazoo X2-Y1,2" blockname="AUTOBLK:53" connectaname="T20" connectbname="T191" connectcname="T187" />
     <layoutturnout ident="TO95" type="WYE_TURNOUT" hidden="no" disabled="yes" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="190.0" ycen="635.0" xa="180.0" ya="635.0" xb="200.0" yb="640.33837890625" xc="200.0" yc="629.66162109375" xd="180.0" yd="629.66162109375" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutWyeXml" turnoutname="Yazoo middle wye" blockname="AUTOBLK:131" connectaname="T189" connectbname="T187" connectcname="T186" />
     <layoutturnout ident="TO96" type="LH_TURNOUT" hidden="no" disabled="yes" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="220.0" ycen="615.0" xa="245.0" ya="615.0" xb="195.0" yb="615.0" xc="205.0" yc="625.0" xd="245.0" yd="615.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Yazoo X1-Y2,3" blockname="AUTOBLK:132" connectaname="T70" connectbname="T188" connectcname="T186" />
-    <layoutturnout ident="TO97" type="RH_XOVER" hidden="no" disabled="yes" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="145.0" ycen="625.0" xa="130.18560791015625" ya="614.9082641601562" xb="149.99999742090816" yb="614.9999999880595" xc="159.81439208984375" yc="635.0917358398438" xd="140.00000257909184" yd="635.0000000119405" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHXOverXml" turnoutname="Yazoo 2-3 xover" blockname="Yazoo Lead 3" blockcname="Yazoo Lead 2" blockdname="Yazoo Lead 2" connectaname="T223" connectbname="T188" connectcname="T189" connectdname="T190" />
-    <layoutturnout ident="TO98" type="LH_XOVER" hidden="no" disabled="yes" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="105.0" ycen="645.0" xa="98.33334350585938" ya="635.0" xb="124.99996948242188" yb="635.0" xc="111.66665649414062" yc="655.0" xd="85.00003051757812" yd="655.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHXOverXml" turnoutname="Yazoo 2-1 xover" blockname="Zion Lead 2" blockbname="Yazoo Lead 2" blockcname="Yazoo Lead 1" blockdname="Zion Lead 1" connectaname="T224" connectbname="T190" connectcname="T191" connectdname="T194" />
+    <layoutturnout ident="TO97" type="RH_XOVER" hidden="no" disabled="yes" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="145.0" ycen="625.0" xa="130.18560791015625" ya="614.9082641601562" xb="149.99999742090816" yb="614.9999999880595" xc="159.81439208984375" yc="635.0917358398438" xd="140.00000257909184" yd="635.0000000119405" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHXOverXml" turnoutname="Yazoo 2-3 xover upper" blockname="Yazoo Lead 3" blockcname="Yazoo Lead 2" blockdname="Yazoo Lead 2" connectaname="T223" connectbname="T188" connectcname="T189" connectdname="T190" />
+    <layoutturnout ident="TO98" type="LH_XOVER" hidden="no" disabled="yes" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="105.0" ycen="645.0" xa="98.33334350585938" ya="635.0" xb="124.99996948242188" yb="635.0" xc="111.66665649414062" yc="655.0" xd="85.00003051757812" yd="655.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHXOverXml" turnoutname="Yazoo 2-1 xover lower" blockname="Zion Lead 2" blockbname="Yazoo Lead 2" blockcname="Yazoo Lead 1" blockdname="Zion Lead 1" connectaname="T224" connectbname="T190" connectcname="T191" connectdname="T194" />
     <layoutturnout ident="TO85" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="yes" showtooltip="yes" continuing="2" xcen="580.0" ycen="655.0" xa="595.0" ya="655.0" xb="565.0" yb="655.0" xc="570.0" yc="665.0" xd="595.0" yd="655.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Whiskey Grain silo" blockname="Whiskey Siding 2" connectaname="T175" connectbname="T23" connectcname="T177" />
     <layoutturnout ident="TO86" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="625.0" ycen="655.0" xa="650.0" ya="655.0" xb="600.0" yb="655.0" xc="615.0" yc="665.0" xd="650.0" yd="655.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Whiskey Grain storage" blockname="Whiskey Siding 2" connectaname="T68" connectbname="T175" connectcname="T176" />
     <layoutturnout ident="TO87" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="709.0" ycen="225.0" xa="699.0" ya="215.0" xb="719.0" yb="235.0" xc="729.0" yc="225.0" xd="699.0" yd="215.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Hudson Oil Cans load 2" blockname="AUTOBLK:67" connectaname="T155" connectbname="T179" connectcname="T180" />
@@ -17356,11 +17366,11 @@
     <layoutturnout ident="TO110" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1265.0" ycen="80.0" xa="1255.0" ya="80.0" xb="1275.0" yb="80.0" xc="1280.0" yc="95.0" xd="1255.0" yd="80.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="AFE Engine pocket west" blockname="AUTOBLK:186" connectaname="T215" connectbname="T216" connectcname="T217" />
     <layoutturnout ident="TO18" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="4" xcen="1165.0" ycen="60.0" xa="1145.0" ya="60.0" xb="1185.0" yb="60.0" xc="1175.0" yc="70.0" xd="1145.0" yd="60.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Bend East A to B" secondturnoutname="Bend East A to B LT2 partner" blockname="AUTOBLK:112" connectaname="T72" connectbname="T136" connectcname="T130" />
     <layoutturnout ident="TO111" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="4" xcen="1185.0" ycen="80.0" xa="1201.0" ya="80.0" xb="1169.0" yb="80.0" xc="1175.0" yc="70.0" xd="1201.0" yd="80.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Bend East B C Straight" secondturnoutname="Bend East B C Straight LT3 crossover partner" blockname="AUTOBLK:115" connectaname="T79" connectbname="T80" connectcname="T130" />
-    <layoutturnout ident="TO36" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="820.0" ycen="615.0" xa="810.0" ya="615.0" xb="830.0" yb="615.0" xc="830.0" yc="625.0" xd="810.0" yd="615.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Vista Main -VistaYard West" secondturnoutname="Vista Main -VistaYard West partner" blockname="V-W" connectaname="T33" connectbname="T59" connectcname="T232">
+    <layoutturnout ident="TO36" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="820.0" ycen="615.0" xa="810.0" ya="615.0" xb="830.0" yb="615.0" xc="830.0" yc="625.0" xd="810.0" yd="615.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Vista W 2 MainW -VistaYard W" secondturnoutname="Vista W 2 MainW -VistaYard W partner" blockname="V-W" connectaname="T33" connectbname="T59" connectcname="T232">
       <sensorB>NX-VistaM-WB</sensorB>
     </layoutturnout>
-    <layoutturnout ident="TO112" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="840.0" ycen="635.0" xa="850.0" ya="635.0" xb="830.0" yb="635.0" xc="830.0" yc="625.0" xd="850.0" yd="635.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Vista Main -VistaYard West partner" blockname="AUTOBLK:175" connectaname="T60" connectbname="T234" connectcname="T232" />
-    <layoutturnout ident="TO113" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="4" xcen="995.0" ycen="640.0" xa="985.0" ya="650.0" xb="1005.0" yb="630.0" xc="1015.0" yc="640.0" xd="985.0" yd="650.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Vista Main -VistaYard East partner" blockname="AUTOBLK:196" connectaname="T235" connectbname="T233" connectcname="T236" />
+    <layoutturnout ident="TO112" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="840.0" ycen="635.0" xa="850.0" ya="635.0" xb="830.0" yb="635.0" xc="830.0" yc="625.0" xd="850.0" yd="635.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Vista W 2 MainW -VistaYard W partner" blockname="AUTOBLK:175" connectaname="T60" connectbname="T234" connectcname="T232" />
+    <layoutturnout ident="TO113" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="4" xcen="995.0" ycen="640.0" xa="985.0" ya="650.0" xb="1005.0" yb="630.0" xc="1015.0" yc="640.0" xd="985.0" yd="650.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Vista E 2 MainE -VistaYard E partner" blockname="AUTOBLK:196" connectaname="T235" connectbname="T233" connectcname="T236" />
     <tracksegment ident="T1" blockname="Midway East Freight approach" connect1name="TO3" type1="TURNOUT_C" connect2name="A28" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T3" blockname="Midway West Main Passenger approach" connect1name="TO3" type1="TURNOUT_B" connect2name="TO5" type2="TURNOUT_B" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T4" connect1name="TO1" type1="TURNOUT_C" connect2name="TO2" type2="TURNOUT_B" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
@@ -17751,8 +17761,8 @@
     <positionablepoint ident="A31" type="ANCHOR" x="1221.0" y="80.0" connect1name="T79" connect2name="T228" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A33" type="ANCHOR" x="650.0" y="380.0" connect1name="T22" connect2name="T231" westboundsensor="NX-MidwayWestFrtApproach-EB" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="EB2" type="END_BUMPER" x="790.0" y="655.0" connect1name="T234" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="EB43" type="END_BUMPER" x="885.0" y="635.0" connect1name="T60" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="EB42" type="END_BUMPER" x="955.0" y="650.0" connect1name="T235" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB43" type="END_BUMPER" x="890.0" y="635.0" connect1name="T60" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB42" type="END_BUMPER" x="950.0" y="650.0" connect1name="T235" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="EB41" type="END_BUMPER" x="1040.0" y="640.0" connect1name="T236" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
   </LayoutEditor>
 </layout-config>
