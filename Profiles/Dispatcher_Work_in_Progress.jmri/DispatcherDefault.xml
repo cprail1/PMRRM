@@ -3,9 +3,9 @@
 <layout-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/layout-5-5-5.xsd">
   <jmriversion>
     <major>5</major>
-    <minor>11</minor>
-    <test>6</test>
-    <modifier>plus</modifier>
+    <minor>8</minor>
+    <test>0</test>
+    <modifier />
   </jmriversion>
   <sensors class="jmri.jmrix.loconet.configurexml.LnSensorManagerXml">
     <globalDebounceTimers>
@@ -28,6 +28,7 @@
     <sensor inverted="false">
       <systemName>LS5</systemName>
       <userName>Midway West Psg approach</userName>
+      <comment>Ends between x over and p ladder</comment>
     </sensor>
     <sensor inverted="false">
       <systemName>LS6</systemName>
@@ -35,12 +36,12 @@
     </sensor>
     <sensor inverted="false">
       <systemName>LS7</systemName>
-      <userName>Midway PW 2</userName>
-      <comment>Doesn't seem to do anything on panel</comment>
+      <userName>Midway LS7 PW 2</userName>
+      <comment>part of stopping block of west p2 and p3</comment>
     </sensor>
     <sensor inverted="false">
       <systemName>LS8</systemName>
-      <userName>Midway PW 3</userName>
+      <userName>Midway LS6 PW 3</userName>
       <comment>Doesn't seem to do anything on panel</comment>
     </sensor>
     <sensor inverted="false">
@@ -73,40 +74,58 @@
     <sensor inverted="false">
       <systemName>LS18</systemName>
       <userName>Midway East Frt approach</userName>
+      <comment>Includes ladder in freigtht yard east</comment>
     </sensor>
     <sensor inverted="false">
       <systemName>LS19</systemName>
+      <comment>appear unused on BDL152</comment>
     </sensor>
     <sensor inverted="false">
       <systemName>LS20</systemName>
+      <comment>appear unused on BDL152</comment>
     </sensor>
     <sensor inverted="false">
       <systemName>LS21</systemName>
+      <comment>appear unused on BDL152</comment>
     </sensor>
     <sensor inverted="false">
       <systemName>LS22</systemName>
+      <userName>Midway LS22 LT53 passenger 1 2 3 east ladder plus 153</userName>
+      <comment>Midway p East ladder</comment>
     </sensor>
     <sensor inverted="false">
       <systemName>LS23</systemName>
+      <userName>Midway LS23 unknown</userName>
+      <comment>appears wired</comment>
     </sensor>
     <sensor inverted="false">
       <systemName>LS24</systemName>
+      <userName>Midway LS24 power spur plus turnout</userName>
+      <comment>Includes LT52</comment>
     </sensor>
     <sensor inverted="false">
       <systemName>LS25</systemName>
+      <userName>Midway LS25unknown</userName>
+      <comment>appears wired</comment>
     </sensor>
     <sensor inverted="false">
       <systemName>LS26</systemName>
+      <userName>Midway LS26 East freight approach stopping block</userName>
+      <comment>East freight apptoach stopping block to right of 53</comment>
     </sensor>
     <sensor inverted="false">
       <systemName>LS27</systemName>
+      <userName>Midway LS27 E main 1 not on diag</userName>
     </sensor>
     <sensor inverted="false">
       <systemName>LS28</systemName>
+      <userName>Midway LS28 unknown</userName>
+      <comment>appears wired</comment>
     </sensor>
     <sensor inverted="false">
       <systemName>LS29</systemName>
       <userName>Midway East Psg approach</userName>
+      <comment>Stops 18 inches east of LT51</comment>
     </sensor>
     <sensor inverted="false">
       <systemName>LS30</systemName>
@@ -6530,10 +6549,10 @@
     <memory>
       <systemName>IM40</systemName>
     </memory>
-    <memory value="">
+    <memory>
       <systemName>IM41</systemName>
     </memory>
-    <memory value="">
+    <memory>
       <systemName>IM42</systemName>
     </memory>
     <memory>
@@ -6606,7 +6625,7 @@
       <systemName>IM64</systemName>
       <userName>Vista 3</userName>
     </memory>
-    <memory>
+    <memory value="4:29 PM">
       <systemName>IMCURRENTTIME</systemName>
     </memory>
     <memory value="1.0">
@@ -8881,7 +8900,7 @@
       <systemName>IB34</systemName>
       <userName>Midway West Main 2</userName>
       <permissive>no</permissive>
-      <occupancysensor>Midway PW 2</occupancysensor>
+      <occupancysensor>Midway LS7 PW 2</occupancysensor>
     </block>
     <block systemName="IB35" length="508.0" curve="0">
       <systemName>IB35</systemName>
@@ -12476,6 +12495,56 @@
   <signalmastlogics class="jmri.managers.configurexml.DefaultSignalMastLogicManagerXml">
     <logicDelay>500</logicDelay>
   </signalmastlogics>
+  <meters class="jmri.managers.configurexml.AbstractMeterManagerXml">
+    <meter>
+      <systemName>LVDB210(s/n211)InputCurrent</systemName>
+    </meter>
+    <meter>
+      <systemName>LVDB210(s/n211)Voltage</systemName>
+    </meter>
+    <meter>
+      <systemName>LVDB210(s/n37)InputCurrent</systemName>
+    </meter>
+    <meter>
+      <systemName>LVDB210(s/n37)Voltage</systemName>
+    </meter>
+    <meter>
+      <systemName>LVDB210(s/n387)InputCurrent</systemName>
+    </meter>
+    <meter>
+      <systemName>LVDB210(s/n387)Voltage</systemName>
+    </meter>
+    <meter>
+      <systemName>LVDB210(s/n397)InputCurrent</systemName>
+    </meter>
+    <meter>
+      <systemName>LVDB210(s/n397)Voltage</systemName>
+    </meter>
+    <meter>
+      <systemName>LVDB210(s/n407)InputCurrent</systemName>
+    </meter>
+    <meter>
+      <systemName>LVDB210(s/n407)Voltage</systemName>
+    </meter>
+    <meter>
+      <systemName>LVDB210(s/n474)InputCurrent</systemName>
+    </meter>
+    <meter>
+      <systemName>LVDB210(s/n474)Voltage</systemName>
+    </meter>
+    <meter>
+      <systemName>LVDB210(s/n489)InputCurrent</systemName>
+    </meter>
+    <meter>
+      <systemName>LVDB210(s/n489)Voltage</systemName>
+    </meter>
+    <meter>
+      <systemName>LVDCS240(s/n376)InputCurrent</systemName>
+    </meter>
+    <meter>
+      <systemName>LVDCS240(s/n376)Voltage</systemName>
+    </meter>
+  </meters>
   <logixs class="jmri.managers.configurexml.DefaultLogixManagerXml">
     <logix userName="System Logix" enabled="yes">
       <systemName>IX:SYS</systemName>
@@ -12839,7 +12908,7 @@
       </source>
     </layoutPanel>
   </entryexitpairs>
-  <paneleditor class="jmri.jmrit.display.panelEditor.configurexml.PanelEditorXml" name="Midway Yard" x="30" y="29" height="355" width="1079" editable="yes" positionable="yes" showtooltips="yes" controlling="yes" hide="yes" panelmenu="yes" scrollable="none" redBackground="255" greenBackground="255" blueBackground="255">
+  <paneleditor class="jmri.jmrit.display.panelEditor.configurexml.PanelEditorXml" name="Midway Yard" x="-1039" y="29" height="355" width="1079" editable="yes" positionable="yes" showtooltips="yes" controlling="yes" hide="yes" panelmenu="yes" scrollable="none" redBackground="255" greenBackground="255" blueBackground="255">
     <positionablelabel x="664" y="46" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="203 " fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="255" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <tooltip>Text Label</tooltip>
     </positionablelabel>
@@ -13678,7 +13747,7 @@
       <tooltip>Text Label</tooltip>
     </positionablelabel>
   </paneleditor>
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="PMRRM Dispatcher" x="-8" y="-8" windowheight="1168" windowwidth="1936" panelheight="778" panelwidth="1450" sliders="yes" scrollable="both" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="yes" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclethrowncolor="orange" turnoutcirclesize="2" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="yes" redBackground="192" greenBackground="192" blueBackground="192" gridSize="5" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="PMRRM Dispatcher" x="0" y="25" windowheight="970" windowwidth="1920" panelheight="778" panelwidth="1450" sliders="yes" scrollable="both" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="yes" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclethrowncolor="orange" turnoutcirclesize="2" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="yes" redBackground="192" greenBackground="192" blueBackground="192" gridSize="5" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="PMRRC NX DS 4a mod update" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
       <mainBallastWidth>0</mainBallastWidth>
@@ -17868,4 +17937,22 @@
     <positionablepoint ident="EB42" type="END_BUMPER" x="950.0" y="650.0" connect1name="T235" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="EB41" type="END_BUMPER" x="1040.0" y="640.0" connect1name="T236" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
   </LayoutEditor>
+  <filehistory>
+    <operation>
+      <type>app</type>
+      <date>Tue Jun 10 13:24:24 PDT 2025</date>
+      <filename>PanelPro (v5.8.0)</filename>
+    </operation>
+    <operation>
+      <type>Load OK</type>
+      <date>Tue Jun 10 13:24:33 PDT 2025</date>
+      <filename>/Users/electricalcrewchief/PMRRM/Profiles/Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
+    </operation>
+    <operation>
+      <type>Store</type>
+      <date>Tue Jun 10 16:29:38 PDT 2025</date>
+      <filename>/Users/electricalcrewchief/PMRRM/Profiles/Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
+    </operation>
+  </filehistory>
+  <!--Written by JMRI version 5.8+Rbc21ce2ce7 on Tue Jun 10 16:29:38 PDT 2025-->
 </layout-config>
