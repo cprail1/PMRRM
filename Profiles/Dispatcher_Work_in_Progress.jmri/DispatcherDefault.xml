@@ -5973,6 +5973,9 @@
       </properties>
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
+      <systemName>LT725</systemName>
+    </turnout>
+    <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT800</systemName>
       <userName>Yards All Power Relay TEST ONLY</userName>
       <comment>This controls all the relays in all the yards for testing purposes</comment>
@@ -6625,7 +6628,7 @@
       <systemName>IM64</systemName>
       <userName>Vista 3</userName>
     </memory>
-    <memory value="6:23 PM">
+    <memory value="7:31 PM">
       <systemName>IMCURRENTTIME</systemName>
     </memory>
     <memory value="1.0">
@@ -17971,9 +17974,9 @@
     </operation>
     <operation>
       <type>Store</type>
-      <date>Tue Jun 10 18:23:36 PDT 2025</date>
+      <date>Tue Jun 10 19:31:06 PDT 2025</date>
       <filename>/Users/electricalcrewchief/PMRRM/Profiles/Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
     </operation>
   </filehistory>
-  <!--Written by JMRI version 5.8+Rbc21ce2ce7 on Tue Jun 10 18:23:36 PDT 2025-->
+  <!--Written by JMRI version 5.8+Rbc21ce2ce7 on Tue Jun 10 19:31:06 PDT 2025-->
 </layout-config>
