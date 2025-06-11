@@ -3,9 +3,9 @@
 <layout-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/layout-5-5-5.xsd">
   <jmriversion>
     <major>5</major>
-    <minor>8</minor>
-    <test>0</test>
-    <modifier />
+    <minor>11</minor>
+    <test>6</test>
+    <modifier>plus</modifier>
   </jmriversion>
   <sensors class="jmri.jmrix.loconet.configurexml.LnSensorManagerXml">
     <globalDebounceTimers>
@@ -6545,42 +6545,54 @@
     </memory>
     <memory>
       <systemName>IM38</systemName>
+      <userName>Kelso</userName>
     </memory>
     <memory>
       <systemName>IM39</systemName>
+      <userName>Jackson main</userName>
     </memory>
     <memory>
       <systemName>IM40</systemName>
+      <userName>Jackson siding</userName>
     </memory>
-    <memory>
+    <memory value="">
       <systemName>IM41</systemName>
+      <userName>Irvine west</userName>
     </memory>
-    <memory>
+    <memory value="">
       <systemName>IM42</systemName>
+      <userName>Irvine east</userName>
     </memory>
     <memory>
       <systemName>IM43</systemName>
+      <userName>Hudson main</userName>
     </memory>
     <memory>
       <systemName>IM44</systemName>
+      <userName>Hudson siding</userName>
     </memory>
     <memory>
       <systemName>IM45</systemName>
+      <userName>Gary siding</userName>
     </memory>
     <memory>
       <systemName>IM46</systemName>
+      <userName>Gary main</userName>
     </memory>
     <memory>
       <systemName>IM47</systemName>
     </memory>
     <memory>
       <systemName>IM48</systemName>
+      <userName>Echo main 3</userName>
     </memory>
     <memory>
       <systemName>IM49</systemName>
+      <userName>Echo main 2</userName>
     </memory>
     <memory>
       <systemName>IM50</systemName>
+      <userName>Echo main 1</userName>
     </memory>
     <memory>
       <systemName>IM51</systemName>
@@ -6588,27 +6600,35 @@
     </memory>
     <memory>
       <systemName>IM52</systemName>
+      <userName>Delta main 1</userName>
     </memory>
     <memory>
       <systemName>IM53</systemName>
+      <userName>Delta main 2</userName>
     </memory>
     <memory>
       <systemName>IM54</systemName>
+      <userName>Delta main 3</userName>
     </memory>
     <memory>
       <systemName>IM55</systemName>
+      <userName>Delta main 4</userName>
     </memory>
     <memory>
       <systemName>IM56</systemName>
+      <userName>Bend main 1</userName>
     </memory>
     <memory>
       <systemName>IM57</systemName>
+      <userName>Bend main 2</userName>
     </memory>
     <memory>
       <systemName>IM58</systemName>
+      <userName>Bend main 3</userName>
     </memory>
     <memory>
       <systemName>IM59</systemName>
+      <userName>Bend main 4</userName>
     </memory>
     <memory>
       <systemName>IM60</systemName>
@@ -6628,7 +6648,7 @@
       <systemName>IM64</systemName>
       <userName>Vista 3</userName>
     </memory>
-    <memory value="7:31 PM">
+    <memory>
       <systemName>IMCURRENTTIME</systemName>
     </memory>
     <memory value="1.0">
@@ -7986,6 +8006,10 @@
     <block systemName="IB185">
       <systemName>IB185</systemName>
       <userName>AUTOBLK:200</userName>
+    </block>
+    <block systemName="IB186">
+      <systemName>IB186</systemName>
+      <userName>AUTOBLK:65</userName>
     </block>
     <block systemName="IB:AUTO:0004">
       <systemName>IB:AUTO:0004</systemName>
@@ -10948,6 +10972,11 @@
       <permissive>no</permissive>
       <path todir="64" fromdir="128" block="IB66" />
     </block>
+    <block systemName="IB186" length="0.0" curve="0">
+      <systemName>IB186</systemName>
+      <userName>AUTOBLK:65</userName>
+      <permissive>no</permissive>
+    </block>
     <block systemName="IB:AUTO:0004" length="0.0" curve="0">
       <systemName>IB:AUTO:0004</systemName>
       <permissive>no</permissive>
@@ -11513,19 +11542,19 @@
       <systemName>ILB37</systemName>
       <userName>AUTOBLK:37</userName>
     </layoutblock>
-    <layoutblock systemName="ILB38" occupancysensor="LS148" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="IM56">
+    <layoutblock systemName="ILB38" occupancysensor="LS148" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Bend main 1">
       <systemName>ILB38</systemName>
       <userName>Bend 1</userName>
     </layoutblock>
-    <layoutblock systemName="ILB39" occupancysensor="Bend 2" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="IM57">
+    <layoutblock systemName="ILB39" occupancysensor="Bend 2" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Bend main 2">
       <systemName>ILB39</systemName>
       <userName>Bend 2</userName>
     </layoutblock>
-    <layoutblock systemName="ILB40" occupancysensor="Bend 3" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="IM58">
+    <layoutblock systemName="ILB40" occupancysensor="Bend 3" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Bend main 3">
       <systemName>ILB40</systemName>
       <userName>Bend 3</userName>
     </layoutblock>
-    <layoutblock systemName="ILB41" occupancysensor="Bend 4" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="IM59">
+    <layoutblock systemName="ILB41" occupancysensor="Bend 4" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Bend main 4">
       <systemName>ILB41</systemName>
       <userName>Bend 4</userName>
     </layoutblock>
@@ -11533,19 +11562,19 @@
       <systemName>ILB42</systemName>
       <userName>Bend CP2</userName>
     </layoutblock>
-    <layoutblock systemName="ILB43" occupancysensor="Delta 1" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="IM52">
+    <layoutblock systemName="ILB43" occupancysensor="Delta 1" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Delta main 1">
       <systemName>ILB43</systemName>
       <userName>Delta 1</userName>
     </layoutblock>
-    <layoutblock systemName="ILB44" occupancysensor="Delta 2" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="IM53">
+    <layoutblock systemName="ILB44" occupancysensor="Delta 2" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Delta main 2">
       <systemName>ILB44</systemName>
       <userName>Delta 2</userName>
     </layoutblock>
-    <layoutblock systemName="ILB45" occupancysensor="Delta 3" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="IM54">
+    <layoutblock systemName="ILB45" occupancysensor="Delta 3" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Delta main 3">
       <systemName>ILB45</systemName>
       <userName>Delta 3</userName>
     </layoutblock>
-    <layoutblock systemName="ILB46" occupancysensor="Delta 4" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="IM55">
+    <layoutblock systemName="ILB46" occupancysensor="Delta 4" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Delta main 4">
       <systemName>ILB46</systemName>
       <userName>Delta 4</userName>
     </layoutblock>
@@ -11553,15 +11582,15 @@
       <systemName>ILB47</systemName>
       <userName>Bend CP1-L</userName>
     </layoutblock>
-    <layoutblock systemName="ILB48" occupancysensor="Echo 1" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="IM50">
+    <layoutblock systemName="ILB48" occupancysensor="Echo 1" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Echo main 1">
       <systemName>ILB48</systemName>
       <userName>Echo 1</userName>
     </layoutblock>
-    <layoutblock systemName="ILB49" occupancysensor="Echo 2" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="IM49">
+    <layoutblock systemName="ILB49" occupancysensor="Echo 2" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Echo main 2">
       <systemName>ILB49</systemName>
       <userName>Echo 2</userName>
     </layoutblock>
-    <layoutblock systemName="ILB50" occupancysensor="Echo 3" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="IM48">
+    <layoutblock systemName="ILB50" occupancysensor="Echo 3" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Echo main 3">
       <systemName>ILB50</systemName>
       <userName>Echo 3</userName>
     </layoutblock>
@@ -11577,39 +11606,39 @@
       <systemName>ILB53</systemName>
       <userName>AUTOBLK:53</userName>
     </layoutblock>
-    <layoutblock systemName="ILB54" occupancysensor="Gary siding" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="IM45">
+    <layoutblock systemName="ILB54" occupancysensor="Gary siding" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Gary siding">
       <systemName>ILB54</systemName>
       <userName>Gary 2</userName>
     </layoutblock>
-    <layoutblock systemName="ILB55" occupancysensor="Gary main" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="IM46">
+    <layoutblock systemName="ILB55" occupancysensor="Gary main" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Gary main">
       <systemName>ILB55</systemName>
       <userName>Gary 1</userName>
     </layoutblock>
-    <layoutblock systemName="ILB56" occupancysensor="Hudson main" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="IM43">
+    <layoutblock systemName="ILB56" occupancysensor="Hudson main" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Hudson main">
       <systemName>ILB56</systemName>
       <userName>Hudson 1</userName>
     </layoutblock>
-    <layoutblock systemName="ILB57" occupancysensor="Hudson siding" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="IM44">
+    <layoutblock systemName="ILB57" occupancysensor="Hudson siding" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Hudson siding">
       <systemName>ILB57</systemName>
       <userName>Hudson 2</userName>
     </layoutblock>
-    <layoutblock systemName="ILB58" occupancysensor="Irvine E" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="IM42">
+    <layoutblock systemName="ILB58" occupancysensor="Irvine E" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Irvine east">
       <systemName>ILB58</systemName>
       <userName>Irvine East</userName>
     </layoutblock>
-    <layoutblock systemName="ILB59" occupancysensor="Irvine W" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="IM41">
+    <layoutblock systemName="ILB59" occupancysensor="Irvine W" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Irvine west">
       <systemName>ILB59</systemName>
       <userName>Irvine West</userName>
     </layoutblock>
-    <layoutblock systemName="ILB60" occupancysensor="Jackson main" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="IM39">
+    <layoutblock systemName="ILB60" occupancysensor="Jackson main" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Jackson main">
       <systemName>ILB60</systemName>
       <userName>Jackson 1</userName>
     </layoutblock>
-    <layoutblock systemName="ILB61" occupancysensor="Jackson siding" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="IM40">
+    <layoutblock systemName="ILB61" occupancysensor="Jackson siding" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Jackson siding">
       <systemName>ILB61</systemName>
       <userName>Jackson 2</userName>
     </layoutblock>
-    <layoutblock systemName="ILB62" occupancysensor="Kelso" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="IM38">
+    <layoutblock systemName="ILB62" occupancysensor="Kelso" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Kelso">
       <systemName>ILB62</systemName>
       <userName>Kelso</userName>
     </layoutblock>
@@ -12498,56 +12527,6 @@
   <signalmastlogics class="jmri.managers.configurexml.DefaultSignalMastLogicManagerXml">
     <logicDelay>500</logicDelay>
   </signalmastlogics>
-  <meters class="jmri.managers.configurexml.AbstractMeterManagerXml">
-    <meter>
-      <systemName>LVDB210(s/n211)InputCurrent</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDB210(s/n211)Voltage</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDB210(s/n37)InputCurrent</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDB210(s/n37)Voltage</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDB210(s/n387)InputCurrent</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDB210(s/n387)Voltage</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDB210(s/n397)InputCurrent</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDB210(s/n397)Voltage</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDB210(s/n407)InputCurrent</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDB210(s/n407)Voltage</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDB210(s/n474)InputCurrent</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDB210(s/n474)Voltage</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDB210(s/n489)InputCurrent</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDB210(s/n489)Voltage</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDCS240(s/n376)InputCurrent</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDCS240(s/n376)Voltage</systemName>
-    </meter>
-  </meters>
   <logixs class="jmri.managers.configurexml.DefaultLogixManagerXml">
     <logix userName="System Logix" enabled="yes">
       <systemName>IX:SYS</systemName>
@@ -13755,7 +13734,7 @@
       <tooltip>Text Label</tooltip>
     </positionablelabel>
   </paneleditor>
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="PMRRM Dispatcher" x="0" y="25" windowheight="970" windowwidth="1920" panelheight="778" panelwidth="1450" sliders="yes" scrollable="both" editable="yes" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="yes" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclethrowncolor="orange" turnoutcirclesize="2" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="yes" redBackground="192" greenBackground="192" blueBackground="192" gridSize="5" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="PMRRM Dispatcher" x="75" y="18" windowheight="1121" windowwidth="873" panelheight="778" panelwidth="1450" sliders="yes" scrollable="both" editable="yes" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="yes" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclethrowncolor="orange" turnoutcirclesize="2" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="yes" redBackground="192" greenBackground="192" blueBackground="192" gridSize="5" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="PMRRC NX DS 4a mod update" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
       <mainBallastWidth>0</mainBallastWidth>
@@ -14205,44 +14184,44 @@
     <memoryicon memory="IM37" x="1375" y="335" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>IM37</tooltip>
     </memoryicon>
-    <memoryicon memory="IM38" x="170" y="170" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
-      <tooltip>IM38</tooltip>
+    <memoryicon memory="Kelso" x="155" y="175" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+      <tooltip>Kelso</tooltip>
     </memoryicon>
-    <memoryicon memory="IM39" x="330" y="170" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
-      <tooltip>IM39</tooltip>
+    <memoryicon memory="Jackson main" x="330" y="175" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+      <tooltip>Jackson main</tooltip>
     </memoryicon>
-    <memoryicon memory="IM40" x="329" y="195" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
-      <tooltip>IM40</tooltip>
+    <memoryicon memory="Jackson siding" x="329" y="195" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+      <tooltip>Jackson siding</tooltip>
     </memoryicon>
-    <memoryicon memory="IM41" x="485" y="175" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
-      <tooltip>IM41</tooltip>
+    <memoryicon memory="Irvine west" x="485" y="175" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+      <tooltip>Irvine west</tooltip>
     </memoryicon>
-    <memoryicon memory="IM42" x="573" y="170" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
-      <tooltip>IM42</tooltip>
+    <memoryicon memory="Irvine east" x="575" y="175" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+      <tooltip>Irvine east</tooltip>
     </memoryicon>
-    <memoryicon memory="IM43" x="735" y="170" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
-      <tooltip>IM43</tooltip>
+    <memoryicon memory="Hudson main" x="725" y="175" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+      <tooltip>Hudson main</tooltip>
     </memoryicon>
-    <memoryicon memory="IM44" x="735" y="195" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
-      <tooltip>IM44</tooltip>
+    <memoryicon memory="Hudson siding" x="765" y="195" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+      <tooltip>Hudson siding</tooltip>
     </memoryicon>
-    <memoryicon memory="IM45" x="910" y="150" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
-      <tooltip>IM45</tooltip>
+    <memoryicon memory="Gary siding" x="915" y="155" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+      <tooltip>Gary siding</tooltip>
     </memoryicon>
-    <memoryicon memory="IM46" x="910" y="175" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="10" style="3" red="0" green="255" blue="0" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
-      <tooltip>IM46</tooltip>
+    <memoryicon memory="Gary main" x="890" y="175" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="10" style="3" red="0" green="255" blue="0" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+      <tooltip>Gary main</tooltip>
     </memoryicon>
     <memoryicon memory="IM47" x="1050" y="170" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>IM47</tooltip>
     </memoryicon>
-    <memoryicon memory="IM48" x="235" y="65" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
-      <tooltip>IM48</tooltip>
+    <memoryicon memory="Echo main 3" x="235" y="65" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+      <tooltip>Echo 3</tooltip>
     </memoryicon>
-    <memoryicon memory="IM49" x="235" y="45" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
-      <tooltip>IM49</tooltip>
+    <memoryicon memory="Echo main 2" x="235" y="45" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+      <tooltip>Echo main 2</tooltip>
     </memoryicon>
-    <memoryicon memory="IM50" x="235" y="25" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
-      <tooltip>IM50</tooltip>
+    <memoryicon memory="Echo main 1" x="235" y="25" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+      <tooltip>Echo main 1</tooltip>
     </memoryicon>
     <sensoricon sensor="Main Init 1" x="1312" y="670" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <tooltip>Main Init (IS20)</tooltip>
@@ -14579,29 +14558,29 @@
     <positionablelabel x="440" y="450" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="173 " fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <tooltip>Text Label</tooltip>
     </positionablelabel>
-    <memoryicon memory="IM52" x="520" y="20" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="2" red="0" green="255" blue="0" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
-      <tooltip>IM52</tooltip>
+    <memoryicon memory="Delta main 1" x="535" y="25" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="2" red="0" green="255" blue="0" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+      <tooltip>Delta main 1</tooltip>
     </memoryicon>
-    <memoryicon memory="IM53" x="555" y="45" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="0" red="0" green="255" blue="0" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
-      <tooltip>IM53</tooltip>
+    <memoryicon memory="Delta main 2" x="555" y="45" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="0" red="0" green="255" blue="0" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+      <tooltip>Delta main 2</tooltip>
     </memoryicon>
-    <memoryicon memory="IM54" x="555" y="65" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="0" red="0" green="255" blue="0" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
-      <tooltip>IM54</tooltip>
+    <memoryicon memory="Delta main 3" x="555" y="65" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="0" red="0" green="255" blue="0" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+      <tooltip>Delta main 3</tooltip>
     </memoryicon>
-    <memoryicon memory="IM55" x="555" y="85" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
-      <tooltip>IM55</tooltip>
+    <memoryicon memory="Delta main 4" x="555" y="85" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+      <tooltip>Delta main 4</tooltip>
     </memoryicon>
-    <memoryicon memory="IM56" x="900" y="20" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="2" red="0" green="255" blue="0" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
-      <tooltip>IM56</tooltip>
+    <memoryicon memory="Bend main 1" x="900" y="23" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="2" red="0" green="255" blue="0" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+      <tooltip>Bend main 1</tooltip>
     </memoryicon>
-    <memoryicon memory="IM57" x="900" y="45" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="0" red="0" green="255" blue="0" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
-      <tooltip>IM57</tooltip>
+    <memoryicon memory="Bend main 2" x="900" y="45" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="0" red="0" green="255" blue="0" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+      <tooltip>Bend main 2</tooltip>
     </memoryicon>
-    <memoryicon memory="IM58" x="900" y="65" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="0" red="0" green="255" blue="0" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
-      <tooltip>IM58</tooltip>
+    <memoryicon memory="Bend main 3" x="900" y="65" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="0" red="0" green="255" blue="0" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+      <tooltip>Bend main 3</tooltip>
     </memoryicon>
-    <memoryicon memory="IM59" x="900" y="85" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="0" red="0" green="255" blue="0" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
-      <tooltip>IM59</tooltip>
+    <memoryicon memory="Bend main 4" x="900" y="85" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="0" red="0" green="255" blue="0" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+      <tooltip>Bend main 4</tooltip>
     </memoryicon>
     <signalheadicon signalhead="E Troy Main" x="335" y="470" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" clickmode="3" litmode="false" class="jmri.jmrit.display.configurexml.SignalHeadIconXml">
       <tooltip>E Troy Main</tooltip>
@@ -17431,7 +17410,7 @@
       <sensorA>NX-D3-EB</sensorA>
       <sensorD>NX-D4-EB</sensorD>
     </layoutturnout>
-    <layoutturnout ident="TO59" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="570.0" ycen="40.0" xa="550.0" ya="40.0" xb="590.0" yb="40.0" xc="585.0" yc="25.0" xd="550.0" yd="40.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Colton Ind W" blockname="Delta 1" connectaname="T98" connectbname="T82" connectcname="T185" />
+    <layoutturnout ident="TO59" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="580.0" ycen="40.0" xa="565.0" ya="40.0" xb="595.0" yb="40.0" xc="595.0" yc="25.0" xd="565.0" yd="40.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Colton Ind W" blockname="Delta 1" connectaname="T98" connectbname="T82" connectcname="T185" />
     <layoutturnout ident="TO60" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="555.0" ycen="100.0" xa="571.0" ya="100.0" xb="539.0" yb="100.0" xc="540.0" yc="115.0" xd="571.0" yd="100.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="LT19" blockname="Delta 4" connectaname="T29" connectbname="T101" connectcname="T183" />
     <layoutturnout ident="TO61" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="595.0" ycen="100.0" xa="575.0" ya="100.0" xb="615.0" yb="100.0" xc="610.0" yc="115.0" xd="575.0" yd="100.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="LT18" blockname="Delta 4" connectaname="T29" connectbname="T75" connectcname="T184" />
     <layoutturnout ident="TO62" type="LH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="410.0" ycen="50.0" xa="400.0" ya="40.0" xb="440.0" yb="40.0" xc="420.0" yc="60.0" xd="380.0" yd="60.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHXOverXml" turnoutname="Delta 1 to 2" blockname="CP DR1" blockcname="CP D2" blockdname="CP D2" connectaname="T137" connectbname="T98" connectcname="T99" connectdname="T77">
@@ -17961,22 +17940,4 @@
     <positionablepoint ident="EB42" type="END_BUMPER" x="950.0" y="650.0" connect1name="T235" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="EB41" type="END_BUMPER" x="1040.0" y="640.0" connect1name="T236" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
   </LayoutEditor>
-  <filehistory>
-    <operation>
-      <type>app</type>
-      <date>Tue Jun 10 18:10:48 PDT 2025</date>
-      <filename>PanelPro (v5.8.0)</filename>
-    </operation>
-    <operation>
-      <type>Load OK</type>
-      <date>Tue Jun 10 18:10:58 PDT 2025</date>
-      <filename>/Users/electricalcrewchief/PMRRM/Profiles/Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
-    </operation>
-    <operation>
-      <type>Store</type>
-      <date>Tue Jun 10 19:31:06 PDT 2025</date>
-      <filename>/Users/electricalcrewchief/PMRRM/Profiles/Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
-    </operation>
-  </filehistory>
-  <!--Written by JMRI version 5.8+Rbc21ce2ce7 on Tue Jun 10 19:31:06 PDT 2025-->
 </layout-config>
