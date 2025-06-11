@@ -318,11 +318,11 @@
     </sensor>
     <sensor inverted="false">
       <systemName>LS86</systemName>
-      <userName>Troy 3</userName>
+      <userName>Troy siding 2</userName>
     </sensor>
     <sensor inverted="false">
       <systemName>LS87</systemName>
-      <userName>Troy siding</userName>
+      <userName>Troy siding 1</userName>
     </sensor>
     <sensor inverted="false">
       <systemName>LS88</systemName>
@@ -6499,7 +6499,7 @@
     </memory>
     <memory>
       <systemName>IM23</systemName>
-      <userName>Troy sidng</userName>
+      <userName>Troy sidng 1</userName>
     </memory>
     <memory>
       <systemName>IM24</systemName>
@@ -6515,7 +6515,7 @@
     </memory>
     <memory>
       <systemName>IM27</systemName>
-      <userName>Vista - Upton West</userName>
+      <userName>Vista - Upton west</userName>
     </memory>
     <memory>
       <systemName>IM28</systemName>
@@ -6535,7 +6535,7 @@
     </memory>
     <memory>
       <systemName>IM32</systemName>
-      <userName>Whiskey siding</userName>
+      <userName>Whiskey siding 1</userName>
     </memory>
     <memory>
       <systemName>IM33</systemName>
@@ -6611,7 +6611,7 @@
     </memory>
     <memory>
       <systemName>IM51</systemName>
-      <userName>Vista - Upton East</userName>
+      <userName>Vista - Upton east</userName>
     </memory>
     <memory>
       <systemName>IM52</systemName>
@@ -6655,15 +6655,11 @@
     </memory>
     <memory>
       <systemName>IM62</systemName>
-      <userName>Troy 3</userName>
+      <userName>Troy siding 2</userName>
     </memory>
     <memory>
       <systemName>IM63</systemName>
-      <userName>Whiskey 3</userName>
-    </memory>
-    <memory value="">
-      <systemName>IM64</systemName>
-      <userName>Vista 3</userName>
+      <userName>Whiskey siding 2</userName>
     </memory>
     <memory>
       <systemName>IMCURRENTTIME</systemName>
@@ -7331,7 +7327,7 @@
     </block>
     <block systemName="IB12">
       <systemName>IB12</systemName>
-      <userName>Troy Siding</userName>
+      <userName>Troy Siding 1</userName>
     </block>
     <block systemName="IB13">
       <systemName>IB13</systemName>
@@ -7566,7 +7562,7 @@
     </block>
     <block systemName="IB71">
       <systemName>IB71</systemName>
-      <userName>Troy 3</userName>
+      <userName>Troy Siding 2</userName>
     </block>
     <block systemName="IB72">
       <systemName>IB72</systemName>
@@ -8230,7 +8226,7 @@
           <turnout systemName="Powderhorn W" />
         </beansetting>
       </path>
-      <path todir="144" fromdir="96" block="IB82">
+      <path todir="128" fromdir="64" block="IB82">
         <beansetting setting="4">
           <turnout systemName="Redcliff Staging" />
         </beansetting>
@@ -8390,9 +8386,9 @@
     </block>
     <block systemName="IB12" length="6350.0" curve="0">
       <systemName>IB12</systemName>
-      <userName>Troy Siding</userName>
+      <userName>Troy Siding 1</userName>
       <permissive>no</permissive>
-      <occupancysensor>Troy siding</occupancysensor>
+      <occupancysensor>Troy siding 1</occupancysensor>
       <path todir="64" fromdir="128" block="IB10">
         <beansetting setting="2">
           <turnout systemName="Troy E 2" />
@@ -9594,9 +9590,9 @@
     </block>
     <block systemName="IB71" length="6096.0" curve="0">
       <systemName>IB71</systemName>
-      <userName>Troy 3</userName>
+      <userName>Troy Siding 2</userName>
       <permissive>no</permissive>
-      <occupancysensor>Troy 3</occupancysensor>
+      <occupancysensor>Troy siding 2</occupancysensor>
       <path todir="64" fromdir="128" block="IB10">
         <beansetting setting="2">
           <turnout systemName="Troy E 3" />
@@ -9761,7 +9757,7 @@
       <systemName>IB82</systemName>
       <userName>AUTOBLK:95</userName>
       <permissive>no</permissive>
-      <path todir="96" fromdir="144" block="IB5">
+      <path todir="64" fromdir="128" block="IB5">
         <beansetting setting="4">
           <turnout systemName="Redcliff Staging" />
         </beansetting>
@@ -11457,9 +11453,9 @@
       <systemName>ILB11</systemName>
       <userName>Troy Main</userName>
     </layoutblock>
-    <layoutblock systemName="ILB12" occupancysensor="Troy siding" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Troy sidng">
+    <layoutblock systemName="ILB12" occupancysensor="Troy siding 1" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Troy sidng 1">
       <systemName>ILB12</systemName>
-      <userName>Troy Siding</userName>
+      <userName>Troy Siding 1</userName>
     </layoutblock>
     <layoutblock systemName="ILB13" occupancysensor="Upton main" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Upton main">
       <systemName>ILB13</systemName>
@@ -11485,7 +11481,7 @@
       <systemName>ILB18</systemName>
       <userName>Whiskey Main</userName>
     </layoutblock>
-    <layoutblock systemName="ILB19" occupancysensor="Whiskey siding 1" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Whiskey siding">
+    <layoutblock systemName="ILB19" occupancysensor="Whiskey siding 1" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Whiskey siding 1">
       <systemName>ILB19</systemName>
       <userName>Whiskey Siding 1</userName>
     </layoutblock>
@@ -11678,15 +11674,15 @@
       <systemName>ILB67</systemName>
       <userName>AUTOBLK:67</userName>
     </layoutblock>
-    <layoutblock systemName="ILB68" occupancysensor="Troy 3" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Troy 3">
+    <layoutblock systemName="ILB68" occupancysensor="Troy siding 2" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Troy siding 2">
       <systemName>ILB68</systemName>
-      <userName>Troy 3</userName>
+      <userName>Troy Siding 2</userName>
     </layoutblock>
-    <layoutblock systemName="ILB69" occupancysensor="Upton-Vista West" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Vista - Upton West">
+    <layoutblock systemName="ILB69" occupancysensor="Upton-Vista West" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Vista - Upton west">
       <systemName>ILB69</systemName>
       <userName>Upton Vista West</userName>
     </layoutblock>
-    <layoutblock systemName="ILB70" occupancysensor="Upton-Vista East" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Vista - Upton East">
+    <layoutblock systemName="ILB70" occupancysensor="Upton-Vista East" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Vista - Upton east">
       <systemName>ILB70</systemName>
       <userName>Upton-Vista East</userName>
     </layoutblock>
@@ -13997,8 +13993,8 @@
     <memoryicon memory="Troy main" x="205" y="475" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>Troy main</tooltip>
     </memoryicon>
-    <memoryicon memory="Troy sidng" x="225" y="495" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
-      <tooltip>Troy siding</tooltip>
+    <memoryicon memory="Troy sidng 1" x="225" y="495" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+      <tooltip>Troy siding 1</tooltip>
     </memoryicon>
     <memoryicon memory="Upton - Troy" x="60" y="475" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>Upton - Troy</tooltip>
@@ -14009,7 +14005,7 @@
     <memoryicon memory="Upton siding" x="1270" y="580" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>Upton siding</tooltip>
     </memoryicon>
-    <memoryicon memory="Vista - Upton West" x="1105" y="600" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+    <memoryicon memory="Vista - Upton west" x="1105" y="600" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>Vista - Upton West</tooltip>
     </memoryicon>
     <memoryicon memory="Vista main" x="920" y="600" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
@@ -14024,8 +14020,8 @@
     <memoryicon memory="Whiskey main" x="595" y="600" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="0" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>Whiskey main</tooltip>
     </memoryicon>
-    <memoryicon memory="Whiskey siding" x="595" y="620" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
-      <tooltip>Whiskey Siding</tooltip>
+    <memoryicon memory="Whiskey siding 1" x="595" y="620" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+      <tooltip>Whiskey siding 1</tooltip>
     </memoryicon>
     <memoryicon memory="Whiskey - Xerox" x="440" y="600" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>Xerox - Whiskey</tooltip>
@@ -14259,7 +14255,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <memoryicon memory="Vista - Upton East" x="1160" y="600" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+    <memoryicon memory="Vista - Upton east" x="1160" y="600" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>Vista - Upton East</tooltip>
     </memoryicon>
     <sensoricon sensor="NX-XeroxM1-EB" x="340" y="610" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
@@ -16183,8 +16179,8 @@
       </icons>
       <iconmaps />
     </signalheadicon>
-    <memoryicon memory="Troy 3" x="225" y="515" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
-      <tooltip>Troy 3</tooltip>
+    <memoryicon memory="Troy siding 2" x="225" y="515" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+      <tooltip>Troy siding 2</tooltip>
     </memoryicon>
     <sensoricon sensor="NX-E1-EB" x="290" y="35" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="90" scale="1.0">
@@ -16658,8 +16654,8 @@
       </icons>
       <iconmaps />
     </signalheadicon>
-    <memoryicon memory="Whiskey 3" x="595" y="640" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
-      <tooltip>Whiskey 3</tooltip>
+    <memoryicon memory="Whiskey siding 2" x="595" y="640" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+      <tooltip>Whiskey siding 2</tooltip>
     </memoryicon>
     <positionablelabel x="470" y="430" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="273 " fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="1070" y="495" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="68 " fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
@@ -17792,8 +17788,8 @@
     <tracksegment ident="T197" blockname="Sierra-Troy" connect1name="TO99" type1="TURNOUT_A" connect2name="TO93" type2="TURNOUT_B" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T199" blockname="Troy-Upton" connect1name="TO101" type1="TURNOUT_B" connect2name="TO102" type2="TURNOUT_A" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T198" blockname="Troy-Upton" connect1name="TO100" type1="TURNOUT_C" connect2name="TO101" type2="TURNOUT_A" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T200" blockname="Troy 3" connect1name="TO102" type1="TURNOUT_C" connect2name="TO99" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T201" blockname="Troy Siding" connect1name="TO101" type1="TURNOUT_C" connect2name="TO93" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T200" blockname="Troy Siding 2" connect1name="TO102" type1="TURNOUT_C" connect2name="TO99" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T201" blockname="Troy Siding 1" connect1name="TO101" type1="TURNOUT_C" connect2name="TO93" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T203" blockname="Troy-Upton" connect1name="TO102" type1="TURNOUT_B" connect2name="EB34" type2="POS_POINT" dashed="yes" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T205" blockname="Sierra-Troy" connect1name="TO89" type1="TURNOUT_C" connect2name="TO93" type2="TURNOUT_A" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T207" blockname="Troy Main" connect1name="TO89" type1="TURNOUT_B" connect2name="TO103" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
