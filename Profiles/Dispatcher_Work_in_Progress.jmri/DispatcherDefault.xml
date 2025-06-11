@@ -6410,36 +6410,46 @@
   <memories class="jmri.managers.configurexml.DefaultMemoryManagerXml">
     <memory>
       <systemName>IM1</systemName>
+      <userName>Midway main 1 station</userName>
     </memory>
     <memory>
       <systemName>IM2</systemName>
+      <userName>Midway main 2 station</userName>
     </memory>
     <memory>
       <systemName>IM3</systemName>
+      <userName>Midway Main 3 station</userName>
     </memory>
     <memory>
       <systemName>IM4</systemName>
+      <userName>Midway West passenger approach</userName>
     </memory>
     <memory>
       <systemName>IM5</systemName>
     </memory>
     <memory>
       <systemName>IM6</systemName>
+      <userName>Narrows, lower</userName>
     </memory>
     <memory>
       <systemName>IM7</systemName>
+      <userName>Narrows, upper</userName>
     </memory>
     <memory>
       <systemName>IM8</systemName>
+      <userName>Osage east approach</userName>
     </memory>
     <memory>
       <systemName>IM9</systemName>
+      <userName>Osage main</userName>
     </memory>
     <memory>
       <systemName>IM10</systemName>
+      <userName>Osage helper pocket</userName>
     </memory>
     <memory>
       <systemName>IM11</systemName>
+      <userName>Osage siding west</userName>
     </memory>
     <memory>
       <systemName>IM12</systemName>
@@ -6539,9 +6549,11 @@
     </memory>
     <memory>
       <systemName>IM36</systemName>
+      <userName>Midway East passenger approach</userName>
     </memory>
     <memory>
       <systemName>IM37</systemName>
+      <userName>Lake</userName>
     </memory>
     <memory>
       <systemName>IM38</systemName>
@@ -6581,6 +6593,7 @@
     </memory>
     <memory>
       <systemName>IM47</systemName>
+      <userName>Fox</userName>
     </memory>
     <memory>
       <systemName>IM48</systemName>
@@ -6632,9 +6645,11 @@
     </memory>
     <memory>
       <systemName>IM60</systemName>
+      <userName>Midway East freight approach</userName>
     </memory>
     <memory>
       <systemName>IM61</systemName>
+      <userName>Midway West freight approach</userName>
     </memory>
     <memory>
       <systemName>IM62</systemName>
@@ -8192,6 +8207,9 @@
       <occupancysensor>Quartz</occupancysensor>
       <path todir="128" fromdir="64" block="IB6">
         <beansetting setting="2">
+          <turnout systemName="Redcliff Staging" />
+        </beansetting>
+        <beansetting setting="2">
           <turnout systemName="Redcliff E" />
         </beansetting>
       </path>
@@ -8210,6 +8228,14 @@
           <turnout systemName="Powderhorn W" />
         </beansetting>
       </path>
+      <path todir="144" fromdir="96" block="IB82">
+        <beansetting setting="4">
+          <turnout systemName="Redcliff Staging" />
+        </beansetting>
+        <beansetting setting="2">
+          <turnout systemName="Redcliff E" />
+        </beansetting>
+      </path>
     </block>
     <block systemName="IB6" length="6096.0" curve="0">
       <systemName>IB6</systemName>
@@ -8218,20 +8244,12 @@
       <occupancysensor>Redcliff main</occupancysensor>
       <path todir="64" fromdir="128" block="IB5">
         <beansetting setting="2">
-          <turnout systemName="Redcliff E" />
+          <turnout systemName="Redcliff Staging" />
         </beansetting>
       </path>
       <path todir="128" fromdir="64" block="IB23">
         <beansetting setting="2">
           <turnout systemName="Redcliff W" />
-        </beansetting>
-        <beansetting setting="2">
-          <turnout systemName="Redcliff Staging" />
-        </beansetting>
-      </path>
-      <path todir="144" fromdir="96" block="IB82">
-        <beansetting setting="4">
-          <turnout systemName="Redcliff Staging" />
         </beansetting>
       </path>
     </block>
@@ -9741,7 +9759,7 @@
       <systemName>IB82</systemName>
       <userName>AUTOBLK:95</userName>
       <permissive>no</permissive>
-      <path todir="96" fromdir="144" block="IB6">
+      <path todir="96" fromdir="144" block="IB5">
         <beansetting setting="4">
           <turnout systemName="Redcliff Staging" />
         </beansetting>
@@ -11393,19 +11411,19 @@
     </block>
   </blocks>
   <layoutblocks class="jmri.jmrit.display.layoutEditor.configurexml.LayoutBlockManagerXml" blockrouting="yes">
-    <layoutblock systemName="ILB1" occupancysensor="Narrows Lower" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="IM6">
+    <layoutblock systemName="ILB1" occupancysensor="Narrows Lower" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Narrows, lower">
       <systemName>ILB1</systemName>
       <userName>Narrows, Lower</userName>
     </layoutblock>
-    <layoutblock systemName="ILB2" occupancysensor="Narrows Upper" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="IM7">
+    <layoutblock systemName="ILB2" occupancysensor="Narrows Upper" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Narrows, upper">
       <systemName>ILB2</systemName>
       <userName>Narrows, Upper</userName>
     </layoutblock>
-    <layoutblock systemName="ILB3" occupancysensor="Osage main" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="IM9">
+    <layoutblock systemName="ILB3" occupancysensor="Osage main" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Osage main">
       <systemName>ILB3</systemName>
       <userName>Osage Main</userName>
     </layoutblock>
-    <layoutblock systemName="ILB4" occupancysensor="Osage siding" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="IM11">
+    <layoutblock systemName="ILB4" occupancysensor="Osage siding" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Osage siding west">
       <systemName>ILB4</systemName>
       <userName>Osage Siding West</userName>
     </layoutblock>
@@ -11449,7 +11467,7 @@
       <systemName>ILB14</systemName>
       <userName>Upton Siding</userName>
     </layoutblock>
-    <layoutblock systemName="ILB15" occupancysensor="Midway East Frt approach" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="IM60">
+    <layoutblock systemName="ILB15" occupancysensor="Midway East Frt approach" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Midway East freight approach">
       <systemName>ILB15</systemName>
       <userName>Midway East Freight approach</userName>
     </layoutblock>
@@ -11485,7 +11503,7 @@
       <systemName>ILB23</systemName>
       <userName>Redcliff-Sierra</userName>
     </layoutblock>
-    <layoutblock systemName="ILB24" occupancysensor="Midway Main 1 at Station" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="IM1">
+    <layoutblock systemName="ILB24" occupancysensor="Midway Main 1 at Station" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Midway main 1 station">
       <systemName>ILB24</systemName>
       <userName>Midway Main1 station</userName>
     </layoutblock>
@@ -11509,7 +11527,7 @@
       <systemName>ILB29</systemName>
       <userName>Xerox Main 1</userName>
     </layoutblock>
-    <layoutblock systemName="ILB30" occupancysensor="Midway Main 2 at Station" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="IM2">
+    <layoutblock systemName="ILB30" occupancysensor="Midway Main 2 at Station" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Midway main 2 station">
       <systemName>ILB30</systemName>
       <userName>Midway Main2 station</userName>
     </layoutblock>
@@ -11517,7 +11535,7 @@
       <systemName>ILB31</systemName>
       <userName>Midway Main3 station</userName>
     </layoutblock>
-    <layoutblock systemName="ILB32" occupancysensor="Midway West Psg approach" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="IM4">
+    <layoutblock systemName="ILB32" occupancysensor="Midway West Psg approach" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Midway West passenger approach">
       <systemName>ILB32</systemName>
       <userName>Midway West Main Passenger</userName>
     </layoutblock>
@@ -11529,12 +11547,12 @@
       <systemName>ILB34</systemName>
       <userName>AUTOBLK:34</userName>
     </layoutblock>
-    <layoutblock systemName="ILB35" occupancysensor="Osage pocket" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="IM10">
+    <layoutblock systemName="ILB35" occupancysensor="Osage pocket" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Osage helper pocket">
       <systemName>ILB35</systemName>
       <userName>Osage Pocket</userName>
       <metric>20000</metric>
     </layoutblock>
-    <layoutblock systemName="ILB36" occupancysensor="Osage approach" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="IM8">
+    <layoutblock systemName="ILB36" occupancysensor="Osage approach" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Osage east approach">
       <systemName>ILB36</systemName>
       <userName>Osage Approach</userName>
     </layoutblock>
@@ -11594,7 +11612,7 @@
       <systemName>ILB50</systemName>
       <userName>Echo 3</userName>
     </layoutblock>
-    <layoutblock systemName="ILB51" occupancysensor="Fox" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="IM47">
+    <layoutblock systemName="ILB51" occupancysensor="Fox" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Fox">
       <systemName>ILB51</systemName>
       <userName>Fox</userName>
     </layoutblock>
@@ -11642,11 +11660,11 @@
       <systemName>ILB62</systemName>
       <userName>Kelso</userName>
     </layoutblock>
-    <layoutblock systemName="ILB63" occupancysensor="Lake" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="IM37">
+    <layoutblock systemName="ILB63" occupancysensor="Lake" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Lake">
       <systemName>ILB63</systemName>
       <userName>Lake</userName>
     </layoutblock>
-    <layoutblock systemName="ILB64" occupancysensor="Midway East Psg approach" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="IM36">
+    <layoutblock systemName="ILB64" occupancysensor="Midway East Psg approach" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Midway East passenger approach">
       <systemName>ILB64</systemName>
       <userName>Midway West Main Passenger approach</userName>
     </layoutblock>
@@ -11670,7 +11688,7 @@
       <systemName>ILB70</systemName>
       <userName>Upton-Vista East</userName>
     </layoutblock>
-    <layoutblock systemName="ILB71" occupancysensor="Midway West Frt approach" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="IM61">
+    <layoutblock systemName="ILB71" occupancysensor="Midway West Frt approach" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Midway West freight approach">
       <systemName>ILB71</systemName>
       <userName>Midway West Freight approach</userName>
     </layoutblock>
@@ -12657,35 +12675,23 @@
         <destination type="sensor" item="NX-TroyS-WB" nxType="fullinterlocking" uniqueid="IN:bcd55b3e-4cb7-4f4d-aa48-0cb3484765b6" />
       </source>
       <source type="sensor" item="NX-SierraM-EB">
-        <destination type="sensor" item="NX-RedcliffM-EB" nxType="fullinterlocking" uniqueid="IN:c10ad209-f7e1-4cb1-a1e9-0662930d7ba4" />
         <destination type="sensor" item="NX-RedcliffS-EB" nxType="fullinterlocking" uniqueid="IN:e2605320-a2dd-4567-a46c-dac49bb7f450" />
       </source>
       <source type="sensor" item="NX-SierraS-EB">
-        <destination type="sensor" item="NX-RedcliffM-EB" nxType="fullinterlocking" uniqueid="IN:8804b12c-99a9-4391-929d-b785d45ec6f2" />
         <destination type="sensor" item="NX-RedcliffS-EB" nxType="fullinterlocking" uniqueid="IN:6cb10f1d-abb2-42e9-8566-056b55266b1a" />
-      </source>
-      <source type="sensor" item="NX-RedcliffM-WB">
-        <destination type="sensor" item="NX-SierraM-WB" nxType="fullinterlocking" uniqueid="IN:9426521c-ea82-4c67-a9d2-7b592f09108a" />
-        <destination type="sensor" item="NX-SierraS-WB" nxType="fullinterlocking" uniqueid="IN:401defad-c03b-4253-8323-c71ee0ba36e3" />
       </source>
       <source type="sensor" item="NX-RedcliffS-WB">
         <destination type="sensor" item="NX-SierraM-WB" nxType="fullinterlocking" uniqueid="IN:e7c35263-1887-45e9-a9f4-ad9f24747362" />
         <destination type="sensor" item="NX-SierraS-WB" nxType="fullinterlocking" uniqueid="IN:cdc0dc48-0bb6-4cad-9005-2ccd2e533e12" />
-      </source>
-      <source type="sensor" item="NX-RedcliffM-EB">
-        <destination type="sensor" item="NX-PDM-EB" nxType="fullinterlocking" uniqueid="IN:e683ab21-3d64-4cc7-9c5e-7f8e921f0991" />
-        <destination type="sensor" item="NX-PDS-EB" nxType="fullinterlocking" uniqueid="IN:7786a024-a0bc-4c88-afb2-9199077b76eb" />
       </source>
       <source type="sensor" item="NX-RedcliffS-EB">
         <destination type="sensor" item="NX-PDM-EB" nxType="fullinterlocking" uniqueid="IN:b55d47f2-2c38-4fe6-9115-9f0cb213df4b" />
         <destination type="sensor" item="NX-PDS-EB" nxType="fullinterlocking" uniqueid="IN:e4a31114-6042-4cb1-a7f8-9cbf87a74588" />
       </source>
       <source type="sensor" item="NX-PDM-WB">
-        <destination type="sensor" item="NX-RedcliffM-WB" nxType="fullinterlocking" uniqueid="IN:19e7d393-9f4e-46f0-965e-4acd5098516d" />
         <destination type="sensor" item="NX-RedcliffS-WB" nxType="fullinterlocking" uniqueid="IN:3b86b2ac-9321-465d-bcbc-cf57d6244ebe" />
       </source>
       <source type="sensor" item="NX-PDS-WB">
-        <destination type="sensor" item="NX-RedcliffM-WB" nxType="fullinterlocking" uniqueid="IN:9e922409-8b64-4385-b8ad-d861efd3c54c" />
         <destination type="sensor" item="NX-RedcliffS-WB" nxType="fullinterlocking" uniqueid="IN:4e63d344-38bd-474e-9c8c-bfec7ad8a166" />
       </source>
       <source type="sensor" item="NX-PDM-EB">
@@ -13878,7 +13884,7 @@
     <positionablelabel x="1285" y="495" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="66 " fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <tooltip>Text Label</tooltip>
     </positionablelabel>
-    <positionablelabel x="845" y="470" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="70 " fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+    <positionablelabel x="855" y="470" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="70 " fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <tooltip>Text Label</tooltip>
     </positionablelabel>
     <positionablelabel x="735" y="470" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="71 " fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
@@ -13914,37 +13920,37 @@
     <positionablelabel x="1335" y="495" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="65 " fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <tooltip>Text Label</tooltip>
     </positionablelabel>
-    <memoryicon memory="IM1" x="895" y="340" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
-      <tooltip>IM1</tooltip>
+    <memoryicon memory="Midway main 1 station" x="895" y="340" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+      <tooltip>Midway main 1 station</tooltip>
     </memoryicon>
-    <memoryicon memory="IM2" x="895" y="320" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
-      <tooltip>IM2</tooltip>
+    <memoryicon memory="Midway main 2 station" x="895" y="320" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+      <tooltip>Midway main 2 station</tooltip>
     </memoryicon>
-    <memoryicon memory="IM3" x="895" y="300" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
-      <tooltip>IM3</tooltip>
+    <memoryicon memory="Midway Main 3 station" x="895" y="300" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+      <tooltip>Midway Main 3 station</tooltip>
     </memoryicon>
-    <memoryicon memory="IM4" x="625" y="335" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
-      <tooltip>IM4</tooltip>
+    <memoryicon memory="Midway West passenger approach" x="625" y="340" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+      <tooltip>Midway West passenger approach</tooltip>
     </memoryicon>
-    <memoryicon memory="IM6" x="495" y="335" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
-      <tooltip>IM6</tooltip>
+    <memoryicon memory="Narrows, lower" x="495" y="340" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+      <tooltip>Narrows, lower</tooltip>
     </memoryicon>
-    <memoryicon memory="IM7" x="420" y="335" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
-      <tooltip>IM7</tooltip>
+    <memoryicon memory="Narrows, upper" x="420" y="340" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+      <tooltip>Narrows upper</tooltip>
     </memoryicon>
-    <memoryicon memory="IM8" x="325" y="330" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
-      <tooltip>IM8</tooltip>
+    <memoryicon memory="Osage east approach" x="325" y="330" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+      <tooltip>Osage east approach</tooltip>
     </memoryicon>
-    <memoryicon memory="IM9" x="270" y="340" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
-      <tooltip>IM9</tooltip>
+    <memoryicon memory="Osage main" x="270" y="340" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+      <tooltip>Osage main</tooltip>
     </memoryicon>
-    <memoryicon memory="IM10" x="320" y="295" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
-      <tooltip>IM10</tooltip>
+    <memoryicon memory="Osage helper pocket" x="320" y="300" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+      <tooltip>Osage helper pocket</tooltip>
     </memoryicon>
-    <memoryicon memory="IM11" x="225" y="315" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
-      <tooltip>IM11</tooltip>
+    <memoryicon memory="Osage siding west" x="225" y="320" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+      <tooltip>Osage siding west</tooltip>
     </memoryicon>
-    <memoryicon memory="Powderhorn - Osage" x="85" y="335" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+    <memoryicon memory="Powderhorn - Osage" x="85" y="340" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>Powderhorn - Osage</tooltip>
     </memoryicon>
     <memoryicon memory="Powderhorn main" x="1200" y="475" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
@@ -13953,13 +13959,13 @@
     <memoryicon memory="Powderhorn siding" x="1200" y="455" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>Powderhorn siding</tooltip>
     </memoryicon>
-    <memoryicon memory="Redcliff - Powderhorn" x="925" y="470" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+    <memoryicon memory="Redcliff - Powderhorn" x="920" y="475" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>Redcliff - Powderhorn</tooltip>
     </memoryicon>
-    <memoryicon memory="Redcliff Siding" x="795" y="500" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+    <memoryicon memory="Redcliff Siding" x="798" y="496" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>Redcliff Siding</tooltip>
     </memoryicon>
-    <memoryicon memory="Redcliff Main" x="765" y="470" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+    <memoryicon memory="Redcliff Main" x="780" y="475" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>Redcliff Main</tooltip>
     </memoryicon>
     <memoryicon memory="Sierra - Redcliff" x="650" y="475" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
@@ -13968,25 +13974,25 @@
     <memoryicon memory="Sierra Main" x="530" y="475" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>Sierra Main</tooltip>
     </memoryicon>
-    <memoryicon memory="Sierra Siding" x="530" y="450" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+    <memoryicon memory="Sierra Siding" x="530" y="455" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>Sierra Siding</tooltip>
     </memoryicon>
-    <memoryicon memory="IM21" x="380" y="470" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+    <memoryicon memory="IM21" x="380" y="475" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>Troy - Sierra</tooltip>
     </memoryicon>
-    <memoryicon memory="Troy Main" x="200" y="470" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+    <memoryicon memory="Troy Main" x="200" y="475" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>Troy Main</tooltip>
     </memoryicon>
     <memoryicon memory="Troy Sidng" x="225" y="495" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>Troy Siding</tooltip>
     </memoryicon>
-    <memoryicon memory="Upton - Troy" x="60" y="470" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+    <memoryicon memory="Upton - Troy" x="60" y="475" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>Upton - Troy</tooltip>
     </memoryicon>
     <memoryicon memory="Upton Main" x="1269" y="600" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>Upton Main</tooltip>
     </memoryicon>
-    <memoryicon memory="Upton Siding" x="1269" y="575" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+    <memoryicon memory="Upton Siding" x="1270" y="580" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>Upton Siding</tooltip>
     </memoryicon>
     <memoryicon memory="Vista - Upton West" x="1105" y="600" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
@@ -13995,25 +14001,25 @@
     <memoryicon memory="Vista Main" x="920" y="600" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>Vista Main</tooltip>
     </memoryicon>
-    <memoryicon memory="Vista Siding" x="920" y="575" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+    <memoryicon memory="Vista Siding" x="920" y="580" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>Vista Siding</tooltip>
     </memoryicon>
-    <memoryicon memory="Vista - Whiskey" x="750" y="595" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+    <memoryicon memory="Vista - Whiskey" x="755" y="600" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>Whiskey - Vista</tooltip>
     </memoryicon>
-    <memoryicon memory="Whiskey Main" x="595" y="595" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="0" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+    <memoryicon memory="Whiskey Main" x="595" y="600" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="0" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>Whiskey Main</tooltip>
     </memoryicon>
     <memoryicon memory="Whiskey Siding" x="595" y="620" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>Whiskey Siding</tooltip>
     </memoryicon>
-    <memoryicon memory="Whiskey - Xerox" x="440" y="595" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+    <memoryicon memory="Whiskey - Xerox" x="440" y="600" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>Xerox - Whiskey</tooltip>
     </memoryicon>
-    <memoryicon memory="Xerox Main" x="280" y="595" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="0" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+    <memoryicon memory="Xerox Main" x="280" y="600" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="0" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>Xerox Main</tooltip>
     </memoryicon>
-    <memoryicon memory="Xerox Siding" x="280" y="635" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="0" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+    <memoryicon memory="Xerox Siding" x="280" y="640" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="0" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>Xerox Siding</tooltip>
     </memoryicon>
     <positionablelabel x="1347" y="360" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="50 " fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
@@ -14178,11 +14184,11 @@
     <positionablelabel x="885" y="390" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="MIDWAY " fontFamily="Dialog" fontname="Dialog" size="14" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <tooltip>Text Label</tooltip>
     </positionablelabel>
-    <memoryicon memory="IM36" x="1225" y="335" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
-      <tooltip>IM36</tooltip>
+    <memoryicon memory="Midway East passenger approach" x="1225" y="340" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+      <tooltip>Midway East passenger approach</tooltip>
     </memoryicon>
-    <memoryicon memory="IM37" x="1375" y="335" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
-      <tooltip>IM37</tooltip>
+    <memoryicon memory="Lake" x="1375" y="340" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+      <tooltip>Lake</tooltip>
     </memoryicon>
     <memoryicon memory="Kelso" x="155" y="175" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>Kelso</tooltip>
@@ -14211,8 +14217,8 @@
     <memoryicon memory="Gary main" x="890" y="175" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="10" style="3" red="0" green="255" blue="0" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>Gary main</tooltip>
     </memoryicon>
-    <memoryicon memory="IM47" x="1050" y="170" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
-      <tooltip>IM47</tooltip>
+    <memoryicon memory="Fox" x="1045" y="175" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+      <tooltip>Fox</tooltip>
     </memoryicon>
     <memoryicon memory="Echo main 3" x="235" y="65" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>Echo 3</tooltip>
@@ -14338,23 +14344,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-RedcliffM-WB" x="754" y="485" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
-      <tooltip>NX-RedcliffM-WB (IS43)</tooltip>
-      <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="270" scale="1.0">
-        <rotation>0</rotation>
-      </active>
-      <inactive url="program:resources/icons/smallschematics/tracksegments/circuit-empty.gif" degrees="270" scale="1.0">
-        <rotation>0</rotation>
-      </inactive>
-      <unknown url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="270" scale="1.0">
-        <rotation>0</rotation>
-      </unknown>
-      <inconsistent url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="270" scale="1.0">
-        <rotation>0</rotation>
-      </inconsistent>
-      <iconmaps />
-    </sensoricon>
-    <sensoricon sensor="NX-RedcliffS-WB" x="759" y="510" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-RedcliffS-WB" x="755" y="505" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <tooltip>NX-RedcliffS-WB (IS44)</tooltip>
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="270" scale="1.0">
         <rotation>0</rotation>
@@ -14370,23 +14360,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-RedcliffM-EB" x="829" y="485" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
-      <tooltip>NX-RedcliffM-EB (IS45)</tooltip>
-      <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="90" scale="1.0">
-        <rotation>0</rotation>
-      </active>
-      <inactive url="program:resources/icons/smallschematics/tracksegments/circuit-empty.gif" degrees="90" scale="1.0">
-        <rotation>0</rotation>
-      </inactive>
-      <unknown url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="90" scale="1.0">
-        <rotation>0</rotation>
-      </unknown>
-      <inconsistent url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="90" scale="1.0">
-        <rotation>0</rotation>
-      </inconsistent>
-      <iconmaps />
-    </sensoricon>
-    <sensoricon sensor="NX-RedcliffS-EB" x="824" y="510" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-RedcliffS-EB" x="825" y="505" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <tooltip>NX-RedcliffS-EB (IS46)</tooltip>
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="90" scale="1.0">
         <rotation>0</rotation>
@@ -14549,7 +14523,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <positionablelabel x="810" y="470" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="170 " fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+    <positionablelabel x="830" y="460" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="170 " fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <tooltip>Text Label</tooltip>
     </positionablelabel>
     <positionablelabel x="595" y="450" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="172 " fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
@@ -15277,8 +15251,12 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <memoryicon memory="IM60" x="1260" y="380" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif" />
-    <memoryicon memory="IM61" x="625" y="360" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif" />
+    <memoryicon memory="Midway East freight approach" x="1260" y="385" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+      <tooltip>Midway East freight approach</tooltip>
+    </memoryicon>
+    <memoryicon memory="Midway West freight approach" x="625" y="365" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+      <tooltip>Midway West freight approach</tooltip>
+    </memoryicon>
     <signalheadicon signalhead="W Xerox Main" x="320" y="625" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" clickmode="3" litmode="false" class="jmri.jmrit.display.configurexml.SignalHeadIconXml">
       <icons>
         <held url="program:resources/icons/smallschematics/searchlights/left-held-short.gif" degrees="0" scale="1.0">
@@ -17300,6 +17278,36 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
+    <sensoricon sensor="NX-RedcliffM-EB" x="820" y="485" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="90" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/smallschematics/tracksegments/circuit-empty.gif" degrees="90" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="90" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="90" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <sensoricon sensor="NX-RedcliffM-WB" x="755" y="485" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="270" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/smallschematics/tracksegments/circuit-empty.gif" degrees="270" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="270" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="270" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
     <layoutturnout ident="TO1" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1215.0" ycen="400.0" xa="1225.0" ya="400.0" xb="1205.0" yb="400.0" xc="1195.0" yc="390.0" xd="1225.0" yd="400.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Midway E F" blockname="Midway East Freight approach" connectaname="T226" connectbname="T16" connectcname="T4">
       <sensorB>NX-MidwayEastFrtApproach-WB</sensorB>
     </layoutturnout>
@@ -17339,7 +17347,7 @@
       <sensorB>NX-PDM-WB</sensorB>
       <sensorC>NX-PDS-WB</sensorC>
     </layoutturnout>
-    <layoutturnout ident="TO24" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="729.0" ycen="490.0" xa="709.0" ya="490.0" xb="749.0" yb="490.0" xc="754.0" yc="515.0" xd="709.0" yd="490.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Redcliff W" blockname="Redcliff-Sierra" connectaname="T44" connectbname="T133" connectcname="T42">
+    <layoutturnout ident="TO24" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="729.0" ycen="490.0" xa="713.0" ya="490.0" xb="745.0" yb="490.0" xc="750.0" yc="510.0" xd="713.0" yd="490.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Redcliff W" blockname="Redcliff-Sierra" connectaname="T44" connectbname="T133" connectcname="T42">
       <sensorB>NX-RedcliffM-WB</sensorB>
       <sensorC>NX-RedcliffS-WB</sensorC>
     </layoutturnout>
@@ -17388,8 +17396,7 @@
     <layoutturnout ident="TO20" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="795.0" ycen="615.0" xa="785.0" ya="615.0" xb="805.0" yb="615.0" xc="815.0" yc="595.0" xd="785.0" yd="615.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="LT94" blockname="Vista-Whiskey" connectaname="T63" connectbname="T33" connectcname="T34">
       <sensorC>NX-VistaS-WB</sensorC>
     </layoutturnout>
-    <layoutturnout ident="TO35" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="859.0" ycen="490.0" xa="869.0" ya="490.0" xb="849.0" yb="490.0" xc="839.0" yc="515.0" xd="869.0" yd="490.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Redcliff E" blockname="Powderhorn-RedCliff" connectaname="T40" connectbname="T41" connectcname="T42">
-      <sensorB>NX-RedcliffM-EB</sensorB>
+    <layoutturnout ident="TO35" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="859.0" ycen="490.0" xa="869.0" ya="490.0" xb="849.0" yb="490.0" xc="840.0" yc="510.0" xd="869.0" yd="490.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Redcliff E" blockname="Powderhorn-RedCliff" connectaname="T40" connectbname="T41" connectcname="T42">
       <sensorC>NX-RedcliffS-EB</sensorC>
     </layoutturnout>
     <layoutturnout ident="TO42" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="85.0" ycen="355.0" xa="95.0" ya="355.0" xb="75.0" yb="355.0" xc="65.0" yc="375.0" xd="95.0" yd="355.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="McSweeney branch" blockname="Osage-Powderhorn" connectaname="T143" connectbname="T142" connectcname="T164" />
@@ -17471,7 +17478,9 @@
     <layoutturnout ident="TO8" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1020.0" ycen="615.0" xa="1030.0" ya="615.0" xb="1010.0" yb="615.0" xc="1005.0" yc="630.0" xd="1030.0" yd="615.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Vista E 2 MainE -VistaYard E" secondturnoutname="Vista E 2 MainE -VistaYard E partner" blockname="Upton Vista West" connectaname="T32" connectbname="T59" connectcname="T233">
       <sensorB>NX-VistaM-EB</sensorB>
     </layoutturnout>
-    <layoutturnout ident="TO34" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="809.0" ycen="490.0" xa="821.0" ya="490.0" xb="797.0" yb="490.0" xc="799.0" yc="475.0" xd="821.0" yd="490.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Redcliff Staging" blockname="Redcliff Main" connectaname="T41" connectbname="T133" connectcname="T134" />
+    <layoutturnout ident="TO34" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="840.0" ycen="490.0" xa="850.0" ya="490.0" xb="830.0" yb="490.0" xc="830.0" yc="475.0" xd="850.0" yd="490.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Redcliff Staging" blockname="Powderhorn-RedCliff" connectaname="T41" connectbname="T133" connectcname="T134">
+      <sensorB>NX-RedcliffM-EB</sensorB>
+    </layoutturnout>
     <layoutturnout ident="TO44" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="590.0" ycen="470.0" xa="600.0" ya="470.0" xb="580.0" yb="470.0" xc="575.0" yc="450.0" xd="600.0" yd="470.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Sierra E 2" blockname="Sierra Siding" connectaname="T45" connectbname="T127" connectcname="T131" />
     <layoutturnout ident="TO68" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="455.0" ycen="470.0" xa="445.0" ya="470.0" xb="465.0" yb="470.0" xc="470.0" yc="450.0" xd="445.0" yd="470.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Sierra W 2" blockname="Sierra Siding" connectaname="T112" connectbname="T127" connectcname="T49" />
     <layoutturnout ident="TO82" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="812.0" ycen="315.0" xa="804.0" ya="315.0" xb="820.0" yb="315.0" xc="827.0" yc="300.0" xd="804.0" yd="315.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Midway W Team 1" blockname="Midway Main3 station" connectaname="T24" connectbname="T145" connectcname="T146" />
@@ -17571,7 +17580,7 @@
     <tracksegment ident="T37" blockname="Powderhorn M" connect1name="TO21" type1="TURNOUT_B" connect2name="TO58" type2="TURNOUT_B" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T38" blockname="Powderhorn S" connect1name="TO21" type1="TURNOUT_C" connect2name="TO27" type2="TURNOUT_B" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T40" blockname="Powderhorn-RedCliff" connect1name="TO35" type1="TURNOUT_A" connect2name="TO22" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T41" blockname="Redcliff Main" connect1name="TO35" type1="TURNOUT_B" connect2name="TO34" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T41" blockname="Powderhorn-RedCliff" connect1name="TO35" type1="TURNOUT_B" connect2name="TO34" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T42" blockname="Redcliff Siding" connect1name="TO35" type1="TURNOUT_C" connect2name="TO24" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T44" blockname="Redcliff-Sierra" connect1name="TO24" type1="TURNOUT_A" connect2name="TO25" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T45" blockname="Sierra Siding" connect1name="TO25" type1="TURNOUT_C" connect2name="TO44" type2="TURNOUT_A" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
