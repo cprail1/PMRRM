@@ -5988,7 +5988,8 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT801</systemName>
-      <userName>Midway yd trk 1 Power</userName>
+      <userName>Midway Yard track 1 power relay</userName>
+      <comment>T=ON, C=OFF, LCC</comment>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -5998,7 +5999,8 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT802</systemName>
-      <userName>Midway yd trk 2 Power</userName>
+      <userName>Midway Yard track 2 power relay</userName>
+      <comment>T=ON, C=OFF, LCC</comment>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -6008,7 +6010,8 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT803</systemName>
-      <userName>Midway yd trk 3 Power</userName>
+      <userName>Midway Yard track 3 power relay</userName>
+      <comment>T=ON, C=OFF, LCC</comment>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -6018,7 +6021,8 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT804</systemName>
-      <userName>Midway yd trk 4 Power</userName>
+      <userName>Midway Yard track 4 power relay</userName>
+      <comment>T=ON, C=OFF, LCC</comment>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -6028,7 +6032,8 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT805</systemName>
-      <userName>Midway yd trk 5 Power</userName>
+      <userName>Midway Yard track 5 power relay</userName>
+      <comment>T=ON, C=OFF, LCC</comment>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -6038,7 +6043,8 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT806</systemName>
-      <userName>Midway yd trk 6 Power</userName>
+      <userName>Midway Yard track 6 power relay</userName>
+      <comment>T=ON, C=OFF</comment>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -13590,7 +13596,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <turnouticon turnout="Midway yd trk 1 Power" x="474" y="49" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="Midway Yard track 1 power relay" x="474" y="49" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
         <closed url="program:resources/icons/smallschematics/LEDs/gray.gif" degrees="0" scale="1.0">
           <rotation>0</rotation>
@@ -13607,7 +13613,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="Midway yd trk 3 Power" x="476" y="106" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="Midway Yard track 3 power relay" x="476" y="106" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
         <closed url="program:resources/icons/smallschematics/LEDs/gray.gif" degrees="0" scale="1.0">
           <rotation>0</rotation>
@@ -13624,7 +13630,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="Midway yd trk 4 Power" x="476" y="133" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="Midway Yard track 4 power relay" x="476" y="133" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
         <closed url="program:resources/icons/smallschematics/LEDs/gray.gif" degrees="0" scale="1.0">
           <rotation>0</rotation>
@@ -13641,7 +13647,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="Midway yd trk 5 Power" x="476" y="158" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="Midway Yard track 5 power relay" x="476" y="158" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
         <closed url="program:resources/icons/smallschematics/LEDs/gray.gif" degrees="0" scale="1.0">
           <rotation>0</rotation>
@@ -13658,7 +13664,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="Midway yd trk 6 Power" x="475" y="186" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="Midway Yard track 6 power relay" x="475" y="186" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
         <closed url="program:resources/icons/smallschematics/LEDs/gray.gif" degrees="0" scale="1.0">
           <rotation>0</rotation>
@@ -13675,7 +13681,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="Midway yd trk 2 Power" x="475" y="75" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="Midway Yard track 2 power relay" x="475" y="75" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
         <closed url="program:resources/icons/smallschematics/LEDs/gray.gif" degrees="0" scale="1.0">
           <rotation>0</rotation>
