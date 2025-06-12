@@ -9754,9 +9754,17 @@
       <systemName>IB78</systemName>
       <userName>AUTOBLK:83</userName>
       <permissive>no</permissive>
-      <path todir="64" fromdir="128" block="IB96" />
+      <path todir="64" fromdir="128" block="IB96">
+        <beansetting setting="4">
+          <turnout systemName="Branchline to Delta 4" />
+        </beansetting>
+      </path>
       <path todir="128" fromdir="64" block="IB119" />
-      <path todir="64" fromdir="128" block="IB138" />
+      <path todir="64" fromdir="128" block="IB138">
+        <beansetting setting="2">
+          <turnout systemName="Branchline to Delta 4" />
+        </beansetting>
+      </path>
     </block>
     <block systemName="IB79" length="0.0" curve="0">
       <systemName>IB79</systemName>
@@ -9951,7 +9959,11 @@
       <systemName>IB96</systemName>
       <userName>AUTOBLK:113</userName>
       <permissive>no</permissive>
-      <path todir="128" fromdir="64" block="IB78" />
+      <path todir="128" fromdir="64" block="IB78">
+        <beansetting setting="4">
+          <turnout systemName="Branchline to Delta 4" />
+        </beansetting>
+      </path>
       <path todir="64" fromdir="128" block="IB:AUTO:0015">
         <beansetting setting="2">
           <turnout systemName="Delta 4 to 3" />
@@ -10488,7 +10500,11 @@
       <systemName>IB138</systemName>
       <userName>AUTOBLK:153</userName>
       <permissive>no</permissive>
-      <path todir="128" fromdir="64" block="IB78" />
+      <path todir="128" fromdir="64" block="IB78">
+        <beansetting setting="2">
+          <turnout systemName="Branchline to Delta 4" />
+        </beansetting>
+      </path>
     </block>
     <block systemName="IB139" length="0.0" curve="0">
       <systemName>IB139</systemName>
@@ -17380,7 +17396,7 @@
     <positionablelabel x="350" y="430" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Siding detection on layout is incorrect       " fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="365" y="440" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="and reflected incorrectly here too        " fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="635" y="520" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Forestry spur   " fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <layoutturnout ident="TO1" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1215.0" ycen="400.0" xa="1225.0" ya="400.0" xb="1205.0" yb="400.0" xc="1195.0" yc="390.0" xd="1225.0" yd="400.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Midway E F" blockname="Midway East Freight approach" connectaname="T226" connectbname="T16" connectcname="T4">
+    <layoutturnout ident="TO1" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1215.0" ycen="400.0" xa="1225.0" ya="400.0" xb="1205.0" yb="400.0" xc="1195.0" yc="390.0" xd="1225.0" yd="400.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Midway E F" blockname="Midway East Freight approach" connectaname="T226" connectbname="T242" connectcname="T4">
       <sensorB>NX-MidwayEastFrtApproach-WB</sensorB>
     </layoutturnout>
     <layoutturnout ident="TO2" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1145.0" ycen="380.0" xa="1135.0" ya="375.0" xb="1155.0" yb="385.0" xc="1160.0" yc="370.0" xd="1135.0" yd="375.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="LT52" connectaname="T5" connectbname="T4" connectcname="T8" />
@@ -17643,7 +17659,7 @@
     <tracksegment ident="T13" blockname="Midway West Main 1" connect1name="TO9" type1="TURNOUT_B" connect2name="TO10" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T14" blockname="Midway Main1 station" connect1name="TO10" type1="TURNOUT_B" connect2name="TO6" type2="TURNOUT_B" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T15" connect1name="TO10" type1="TURNOUT_C" connect2name="TO11" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T16" blockname="Midway Yard" connect1name="TO11" type1="TURNOUT_A" connect2name="TO1" type2="TURNOUT_B" dashed="yes" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T16" blockname="Midway Yard" connect1name="TO11" type1="TURNOUT_A" connect2name="EB46" type2="POS_POINT" dashed="yes" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T17" blockname="Midway West Main Passenger" connect1name="TO9" type1="TURNOUT_A" connect2name="TO12" type2="TURNOUT_B" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T19" connect1name="TO13" type1="TURNOUT_A" connect2name="TO11" type2="TURNOUT_B" dashed="yes" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T21" blockname="Midway West Main Passenger" connect1name="TO14" type1="TURNOUT_B" connect2name="TO12" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
@@ -17954,6 +17970,7 @@
     <tracksegment ident="T240" blockname="AUTOBLK:113" connect1name="TO115" type1="TURNOUT_B" connect2name="TO63" type2="TURNOUT_D" dashed="yes" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T107" blockname="AUTOBLK:135" connect1name="TO115" type1="TURNOUT_A" connect2name="TO70" type2="TURNOUT_C" dashed="yes" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T241" blockname="AUTOBLK:153" connect1name="EB44" type1="POS_POINT" connect2name="TO115" type2="TURNOUT_C" dashed="yes" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T242" blockname="Midway Yard" connect1name="EB47" type1="POS_POINT" connect2name="TO1" type2="TURNOUT_B" dashed="yes" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <positionablepoint ident="EB1" type="END_BUMPER" x="1227.0" y="370.0" connect1name="T8" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A4" type="ANCHOR" x="462.0" y="355.0" connect1name="T28" connect2name="T9" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A8" type="ANCHOR" x="1075.0" y="190.0" connect1name="T227" connect2name="T118" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
@@ -18035,5 +18052,7 @@
     <positionablepoint ident="EB40" type="END_BUMPER" x="630.0" y="525.0" connect1name="T239" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A37" type="ANCHOR" x="600.0" y="510.0" connect1name="T239" connect2name="T127" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="EB44" type="END_BUMPER" x="470.0" y="120.0" connect1name="T241" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB47" type="END_BUMPER" x="1145.0" y="400.0" connect1name="T242" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB46" type="END_BUMPER" x="870.0" y="380.0" connect1name="T16" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
   </LayoutEditor>
 </layout-config>
