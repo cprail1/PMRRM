@@ -6399,6 +6399,10 @@
       <comment>AFE Xover west</comment>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT23</systemName>
+      <userName>Branchline to Delta 4</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
       <systemName>IT86</systemName>
       <userName>Vista E 2 MainE -VistaYard E partner</userName>
       <comment>VistaM to yard at east end</comment>
@@ -8295,7 +8299,7 @@
           <turnout systemName="Sierra W" />
         </beansetting>
       </path>
-      <path todir="32" fromdir="16" block="IB23">
+      <path todir="64" fromdir="128" block="IB23">
         <beansetting setting="2">
           <turnout systemName="Sierra E" />
         </beansetting>
@@ -8314,12 +8318,6 @@
       <userName>Sierra Siding</userName>
       <permissive>no</permissive>
       <occupancysensor>Sierra siding</occupancysensor>
-      <path todir="64" fromdir="128" block="IB10" />
-      <path todir="128" fromdir="64" block="IB10">
-        <beansetting setting="4">
-          <turnout systemName="Sierra W" />
-        </beansetting>
-      </path>
       <path todir="128" fromdir="64" block="IB10">
         <beansetting setting="2">
           <turnout systemName="Sierra W 2" />
@@ -9233,7 +9231,7 @@
       <permissive>no</permissive>
       <occupancysensor>Echo 3</occupancysensor>
       <path todir="128" fromdir="64" block="IB102" />
-      <path todir="64" fromdir="128" block="IB:AUTO:0007">
+      <path todir="64" fromdir="128" block="IB119">
         <beansetting setting="4">
           <turnout systemName="Echo Street" />
         </beansetting>
@@ -9756,12 +9754,9 @@
       <systemName>IB78</systemName>
       <userName>AUTOBLK:83</userName>
       <permissive>no</permissive>
-      <path todir="128" fromdir="64" block="IB8" />
-      <path todir="64" fromdir="128" block="IB23">
-        <beansetting setting="2">
-          <turnout systemName="Sierra E" />
-        </beansetting>
-      </path>
+      <path todir="64" fromdir="128" block="IB96" />
+      <path todir="128" fromdir="64" block="IB119" />
+      <path todir="64" fromdir="128" block="IB138" />
     </block>
     <block systemName="IB79" length="0.0" curve="0">
       <systemName>IB79</systemName>
@@ -9956,10 +9951,10 @@
       <systemName>IB96</systemName>
       <userName>AUTOBLK:113</userName>
       <permissive>no</permissive>
-      <path todir="64" fromdir="128" block="IB8" />
-      <path todir="128" fromdir="64" block="IB10">
+      <path todir="128" fromdir="64" block="IB78" />
+      <path todir="64" fromdir="128" block="IB:AUTO:0015">
         <beansetting setting="2">
-          <turnout systemName="Sierra W" />
+          <turnout systemName="Delta 4 to 3" />
         </beansetting>
       </path>
     </block>
@@ -10097,12 +10092,12 @@
       <systemName>IB108</systemName>
       <userName>AUTOBLK:125</userName>
       <permissive>no</permissive>
-      <path todir="128" fromdir="64" block="IB10">
+      <path todir="32" fromdir="16" block="IB10">
         <beansetting setting="4">
           <turnout systemName="Sierra W 2" />
         </beansetting>
       </path>
-      <path todir="64" fromdir="128" block="IB76" />
+      <path todir="32" fromdir="16" block="IB76" />
     </block>
     <block systemName="IB109" length="0.0" curve="0">
       <systemName>IB109</systemName>
@@ -10248,7 +10243,12 @@
       <systemName>IB119</systemName>
       <userName>AUTOBLK:135</userName>
       <permissive>no</permissive>
-      <path todir="144" fromdir="96" block="IB:AUTO:0052" />
+      <path todir="128" fromdir="64" block="IB51">
+        <beansetting setting="4">
+          <turnout systemName="Echo Street" />
+        </beansetting>
+      </path>
+      <path todir="64" fromdir="128" block="IB78" />
     </block>
     <block systemName="IB120" length="0.0" curve="0">
       <systemName>IB120</systemName>
@@ -10488,16 +10488,7 @@
       <systemName>IB138</systemName>
       <userName>AUTOBLK:153</userName>
       <permissive>no</permissive>
-      <path todir="64" fromdir="128" block="IB9">
-        <beansetting setting="2">
-          <turnout systemName="Sierra E 2" />
-        </beansetting>
-      </path>
-      <path todir="128" fromdir="64" block="IB9">
-        <beansetting setting="2">
-          <turnout systemName="Sierra W 2" />
-        </beansetting>
-      </path>
+      <path todir="128" fromdir="64" block="IB78" />
     </block>
     <block systemName="IB139" length="0.0" curve="0">
       <systemName>IB139</systemName>
@@ -11056,16 +11047,6 @@
       <systemName>IB:AUTO:0007</systemName>
       <userName>Branch W</userName>
       <permissive>no</permissive>
-      <path todir="128" fromdir="64" block="IB51">
-        <beansetting setting="4">
-          <turnout systemName="Echo Street" />
-        </beansetting>
-      </path>
-      <path todir="64" fromdir="128" block="IB:AUTO:0015">
-        <beansetting setting="2">
-          <turnout systemName="Delta 4 to 3" />
-        </beansetting>
-      </path>
     </block>
     <block systemName="IB:AUTO:0008" length="0.0" curve="0">
       <systemName>IB:AUTO:0008</systemName>
@@ -11188,7 +11169,7 @@
       <userName>CP D4</userName>
       <permissive>no</permissive>
       <path todir="64" fromdir="128" block="IB47" />
-      <path todir="128" fromdir="64" block="IB:AUTO:0007">
+      <path todir="128" fromdir="64" block="IB96">
         <beansetting setting="2">
           <turnout systemName="Delta 4 to 3" />
         </beansetting>
@@ -11726,10 +11707,6 @@
       <systemName>ILB64</systemName>
       <userName>Midway West Main Passenger approach</userName>
     </layoutblock>
-    <layoutblock systemName="ILB65" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="white">
-      <systemName>ILB65</systemName>
-      <userName>AUTOBLK:65</userName>
-    </layoutblock>
     <layoutblock systemName="ILB66" occupancysensor="Gary Hudson overlap main" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green">
       <systemName>ILB66</systemName>
       <userName>GH</userName>
@@ -11770,10 +11747,6 @@
       <systemName>ILB75</systemName>
       <userName>AUTOBLK:75</userName>
     </layoutblock>
-    <layoutblock systemName="ILB76" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="white">
-      <systemName>ILB76</systemName>
-      <userName>Branch W</userName>
-    </layoutblock>
     <layoutblock systemName="ILB77" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="white">
       <systemName>ILB77</systemName>
       <userName>Kelso spur at Jackson</userName>
@@ -11797,6 +11770,10 @@
     <layoutblock systemName="ILB82" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="white">
       <systemName>ILB82</systemName>
       <userName>AUTOBLK:82</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB83" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="white">
+      <systemName>ILB83</systemName>
+      <userName>AUTOBLK:83</userName>
     </layoutblock>
     <layoutblock systemName="ILB84" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="white">
       <systemName>ILB84</systemName>
@@ -11914,6 +11891,10 @@
       <systemName>ILB112</systemName>
       <userName>AUTOBLK:112</userName>
     </layoutblock>
+    <layoutblock systemName="ILB113" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="white">
+      <systemName>ILB113</systemName>
+      <userName>AUTOBLK:113</userName>
+    </layoutblock>
     <layoutblock systemName="ILB114" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="white">
       <systemName>ILB114</systemName>
       <userName>AUTOBLK:114</userName>
@@ -11998,6 +11979,10 @@
       <systemName>ILB134</systemName>
       <userName>AUTOBLK:134</userName>
     </layoutblock>
+    <layoutblock systemName="ILB135" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="white">
+      <systemName>ILB135</systemName>
+      <userName>AUTOBLK:135</userName>
+    </layoutblock>
     <layoutblock systemName="ILB136" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="white">
       <systemName>ILB136</systemName>
       <userName>AUTOBLK:136</userName>
@@ -12065,6 +12050,10 @@
     <layoutblock systemName="ILB152" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="white">
       <systemName>ILB152</systemName>
       <userName>AUTOBLK:152</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB153" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="white">
+      <systemName>ILB153</systemName>
+      <userName>AUTOBLK:153</userName>
     </layoutblock>
     <layoutblock systemName="ILB154" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="white">
       <systemName>ILB154</systemName>
@@ -12664,6 +12653,7 @@
       </source>
       <source type="sensor" item="NX-Troy3-EB">
         <destination type="sensor" item="NX-SierraM-EB" nxType="fullinterlocking" uniqueid="IN:ca1cdfca-6e25-4263-b362-d264644b1794" />
+        <destination type="sensor" item="NX-SierraS-EB" nxType="fullinterlocking" uniqueid="IN:edaedba3-2ae2-4ce4-98aa-3e596899dfd2" />
       </source>
       <source type="sensor" item="NX-HS-EB">
         <destination type="sensor" item="NX-GM-EB" nxType="fullinterlocking" uniqueid="IN:90fddbee-a496-4371-909d-39a96a7d6387" />
@@ -12723,14 +12713,21 @@
       </source>
       <source type="sensor" item="NX-TroyM-EB">
         <destination type="sensor" item="NX-SierraM-EB" nxType="fullinterlocking" uniqueid="IN:288812a9-fc12-4b14-9319-b3fe947585c5" />
+        <destination type="sensor" item="NX-SierraS-EB" nxType="fullinterlocking" uniqueid="IN:6b92737d-2faa-4f37-98ba-8210625c1de4" />
       </source>
       <source type="sensor" item="NX-TroyS-EB">
         <destination type="sensor" item="NX-SierraM-EB" nxType="fullinterlocking" uniqueid="IN:c3e39c9a-22cf-45a3-adec-6ac6b12bdce7" />
+        <destination type="sensor" item="NX-SierraS-EB" nxType="fullinterlocking" uniqueid="IN:572755d5-97ad-40c6-9a5e-86740c64c431" />
       </source>
       <source type="sensor" item="NX-SierraM-WB">
         <destination type="sensor" item="NX-Troy3-WB" nxType="fullinterlocking" uniqueid="IN:753f8b8e-fb4c-46c5-9f92-feab55ea9ded" />
         <destination type="sensor" item="NX-TroyM-WB" nxType="fullinterlocking" uniqueid="IN:a97ddc9d-70af-42b9-a447-29cb96cfe7d5" />
         <destination type="sensor" item="NX-TroyS-WB" nxType="fullinterlocking" uniqueid="IN:09c886a5-a03b-42c9-852e-75a288312acc" />
+      </source>
+      <source type="sensor" item="NX-SierraS-WB">
+        <destination type="sensor" item="NX-Troy3-WB" nxType="fullinterlocking" uniqueid="IN:cc047837-1ad4-4bb1-86cd-4e28ff5b7827" />
+        <destination type="sensor" item="NX-TroyM-WB" nxType="fullinterlocking" uniqueid="IN:c92393d8-e853-496f-b6dd-a318b784361b" />
+        <destination type="sensor" item="NX-TroyS-WB" nxType="fullinterlocking" uniqueid="IN:a451e7f9-828e-4d5f-8ccc-d2647fa8f595" />
       </source>
       <source type="sensor" item="NX-SierraM-EB">
         <destination type="sensor" item="NX-RedcliffM-EB" nxType="fullinterlocking" uniqueid="IN:7af0362f-0f81-4c9e-b72e-26efc7321ae5" />
@@ -12741,10 +12738,18 @@
         <destination type="sensor" item="NX-RedcliffS-EB" nxType="fullinterlocking" uniqueid="IN:822f2bc5-8fb4-4ff7-8b63-f132b6a1f1d0" />
       </source>
       <source type="sensor" item="NX-RedcliffM-WB">
+        <destination type="sensor" item="NX-Troy3-WB" nxType="fullinterlocking" uniqueid="IN:0675233e-ae7d-4b2c-bbaf-31da3af167d0" />
+        <destination type="sensor" item="NX-TroyM-WB" nxType="fullinterlocking" uniqueid="IN:61effffd-7c45-494d-aaa4-df4d34616eaa" />
+        <destination type="sensor" item="NX-TroyS-WB" nxType="fullinterlocking" uniqueid="IN:e0f1318a-23a9-420a-9519-b1750dd08a15" />
         <destination type="sensor" item="NX-SierraM-WB" nxType="fullinterlocking" uniqueid="IN:a291b050-2a3c-4c93-967a-f52cb0ffe193" />
+        <destination type="sensor" item="NX-SierraS-WB" nxType="fullinterlocking" uniqueid="IN:344703be-d85c-4b43-8b69-a9d5f5b04ef7" />
       </source>
       <source type="sensor" item="NX-RedcliffS-WB">
+        <destination type="sensor" item="NX-Troy3-WB" nxType="fullinterlocking" uniqueid="IN:837be655-4f4f-42c4-a01a-a2b6d632b0cd" />
+        <destination type="sensor" item="NX-TroyM-WB" nxType="fullinterlocking" uniqueid="IN:aa99d185-2cb2-48b4-8813-ae469a05c833" />
+        <destination type="sensor" item="NX-TroyS-WB" nxType="fullinterlocking" uniqueid="IN:7d84b5ab-f897-4c8a-97a8-eba26ff3ca80" />
         <destination type="sensor" item="NX-SierraM-WB" nxType="fullinterlocking" uniqueid="IN:6a37eb28-dd88-4649-be65-9a3c82b5c2e2" />
+        <destination type="sensor" item="NX-SierraS-WB" nxType="fullinterlocking" uniqueid="IN:39837d71-2e3d-49aa-b06d-2bda8719a040" />
       </source>
       <source type="sensor" item="NX-RedcliffM-EB">
         <destination type="sensor" item="NX-PDM-EB" nxType="fullinterlocking" uniqueid="IN:01f758f6-919f-4c36-8c91-2f1cc24ed81c" />
@@ -14108,10 +14113,10 @@
     <positionablelabel x="635" y="115" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Grain " fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <tooltip>Text Label</tooltip>
     </positionablelabel>
-    <positionablelabel x="461" y="115" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Oil cans  " fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+    <positionablelabel x="495" y="125" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Oil cans  " fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <tooltip>Text Label</tooltip>
     </positionablelabel>
-    <positionablelabel x="265" y="105" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Branch Line " fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+    <positionablelabel x="260" y="100" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Branch Line " fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <tooltip>Text Label</tooltip>
     </positionablelabel>
     <positionablelabel x="355" y="115" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="DELTA " fontFamily="Dialog" fontname="Dialog" size="14" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
@@ -14195,10 +14200,10 @@
     <positionablelabel x="330" y="20" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="21 " fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <tooltip>Text Label</tooltip>
     </positionablelabel>
-    <positionablelabel x="375" y="85" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="22 " fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+    <positionablelabel x="380" y="80" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="22 " fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <tooltip>Text Label</tooltip>
     </positionablelabel>
-    <positionablelabel x="430" y="105" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="23 " fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+    <positionablelabel x="455" y="80" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="23 " fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <tooltip>Text Label</tooltip>
     </positionablelabel>
     <positionablelabel x="405" y="20" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="24 " fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
@@ -17490,7 +17495,7 @@
       <sensorB>NX-D1-WB</sensorB>
       <sensorC>NX-D2-WB</sensorC>
     </layoutturnout>
-    <layoutturnout ident="TO63" type="RH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="440.0" ycen="90.0" xa="415.0" ya="80.0" xb="448.333325" yb="80.0" xc="465.0" yc="100.0" xd="431.666675" yd="100.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHXOverXml" turnoutname="Delta 4 to 3" blockname="CP D3" blockcname="CP D4" blockdname="CP D4" connectaname="T76" connectbname="T100" connectcname="T101" connectdname="T107">
+    <layoutturnout ident="TO63" type="RH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="440.0" ycen="90.0" xa="410.0" ya="80.0" xb="449.99999" yb="80.0" xc="470.0" yc="100.0" xd="430.00001" yd="100.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHXOverXml" turnoutname="Delta 4 to 3" secondturnoutname="Branchline to Delta 4" secondturnoutinverted="true" blockname="CP D3" blockcname="CP D4" blockdname="CP D4" connectaname="T76" connectbname="T100" connectcname="T101" connectdname="T240">
       <sensorB>NX-D3-WB</sensorB>
       <sensorC>NX-D4-WB</sensorC>
     </layoutturnout>
@@ -17624,6 +17629,7 @@
     <layoutturnout ident="TO112" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="840.0" ycen="635.0" xa="850.0" ya="635.0" xb="830.0" yb="635.0" xc="830.0" yc="625.0" xd="850.0" yd="635.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Vista W 2 MainW -VistaYard W partner" blockname="AUTOBLK:175" connectaname="T60" connectbname="T234" connectcname="T232" />
     <layoutturnout ident="TO113" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="4" xcen="995.0" ycen="640.0" xa="985.0" ya="650.0" xb="1005.0" yb="630.0" xc="1015.0" yc="640.0" xd="985.0" yd="650.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Vista E 2 MainE -VistaYard E partner" blockname="AUTOBLK:196" connectaname="T235" connectbname="T233" connectcname="T236" />
     <layoutturnout ident="TO114" type="RH_TURNOUT" hidden="no" disabled="yes" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="570.0" ycen="490.0" xa="550.0" ya="490.0" xb="590.0" yb="490.0" xc="580.0" yc="500.0" xd="550.0" yd="490.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Bob G guess at Sierra camp spur" blockname="Sierra Main" connectaname="T237" connectbname="T46" connectcname="T127" />
+    <layoutturnout ident="TO115" type="RH_TURNOUT" hidden="no" disabled="yes" disableWhenOccupied="no" showtooltip="yes" continuing="4" xcen="420.0" ycen="100.0" xa="410.0" ya="100.0" xb="430.0" yb="100.0" xc="440.0" yc="120.0" xd="410.0" yd="100.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Branchline to Delta 4" secondturnoutname="Delta 4 to 3" secondturnoutinverted="true" blockname="AUTOBLK:83" connectaname="T107" connectbname="T240" connectcname="T241" />
     <tracksegment ident="T1" blockname="Midway East Freight approach" connect1name="TO3" type1="TURNOUT_C" connect2name="A28" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T3" blockname="Midway West Main Passenger approach" connect1name="TO3" type1="TURNOUT_B" connect2name="TO5" type2="TURNOUT_B" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T4" connect1name="TO1" type1="TURNOUT_C" connect2name="TO2" type2="TURNOUT_B" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
@@ -17727,7 +17733,6 @@
     <tracksegment ident="T128" blockname="Kelso" connect1name="A19" type1="POS_POINT" connect2name="TO81" type2="TURNOUT_B" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T129" blockname="Lake" connect1name="TO3" type1="TURNOUT_A" connect2name="A36" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T135" blockname="Upton Vista West" connect1name="A12" type1="POS_POINT" connect2name="TO19" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T107" blockname="Branch W" connect1name="TO70" type1="TURNOUT_C" connect2name="TO63" type2="TURNOUT_D" dashed="yes" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T123" blockname="Kelso" connect1name="TO79" type1="TURNOUT_C" connect2name="TO80" type2="TURNOUT_A" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T137" blockname="CP DR1" connect1name="A7" type1="POS_POINT" connect2name="TO62" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T138" blockname="Colton CP1-R" connect1name="A15" type1="POS_POINT" connect2name="TO52" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
@@ -17946,6 +17951,9 @@
     </tracksegment>
     <tracksegment ident="T127" blockname="Sierra Forestry spur" connect1name="A37" type1="POS_POINT" connect2name="TO114" type2="TURNOUT_C" dashed="yes" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T238" blockname="Sierra Siding" connect1name="TO44" type1="TURNOUT_B" connect2name="TO68" type2="TURNOUT_B" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T240" blockname="AUTOBLK:113" connect1name="TO115" type1="TURNOUT_B" connect2name="TO63" type2="TURNOUT_D" dashed="yes" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T107" blockname="AUTOBLK:135" connect1name="TO115" type1="TURNOUT_A" connect2name="TO70" type2="TURNOUT_C" dashed="yes" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T241" blockname="AUTOBLK:153" connect1name="EB44" type1="POS_POINT" connect2name="TO115" type2="TURNOUT_C" dashed="yes" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <positionablepoint ident="EB1" type="END_BUMPER" x="1227.0" y="370.0" connect1name="T8" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A4" type="ANCHOR" x="462.0" y="355.0" connect1name="T28" connect2name="T9" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A8" type="ANCHOR" x="1075.0" y="190.0" connect1name="T227" connect2name="T118" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
@@ -18026,5 +18034,6 @@
     <positionablepoint ident="EB41" type="END_BUMPER" x="1040.0" y="640.0" connect1name="T236" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="EB40" type="END_BUMPER" x="630.0" y="525.0" connect1name="T239" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A37" type="ANCHOR" x="600.0" y="510.0" connect1name="T239" connect2name="T127" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB44" type="END_BUMPER" x="470.0" y="120.0" connect1name="T241" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
   </LayoutEditor>
 </layout-config>
