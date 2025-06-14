@@ -6154,6 +6154,27 @@
       </properties>
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
+      <systemName>LT821</systemName>
+    </turnout>
+    <turnout feedback="MONITORING" inverted="false" automate="Off">
+      <systemName>LT822</systemName>
+    </turnout>
+    <turnout feedback="MONITORING" inverted="false" automate="Off">
+      <systemName>LT823</systemName>
+    </turnout>
+    <turnout feedback="MONITORING" inverted="false" automate="Off">
+      <systemName>LT824</systemName>
+    </turnout>
+    <turnout feedback="MONITORING" inverted="false" automate="Off">
+      <systemName>LT825</systemName>
+    </turnout>
+    <turnout feedback="MONITORING" inverted="false" automate="Off">
+      <systemName>LT826</systemName>
+    </turnout>
+    <turnout feedback="MONITORING" inverted="false" automate="Off">
+      <systemName>LT827</systemName>
+    </turnout>
+    <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT900</systemName>
       <userName>Midway Frt L1</userName>
       <properties>
@@ -6588,11 +6609,11 @@
       <systemName>IM40</systemName>
       <userName>Jackson siding</userName>
     </memory>
-    <memory value="">
+    <memory>
       <systemName>IM41</systemName>
       <userName>Irvine west</userName>
     </memory>
-    <memory value="">
+    <memory>
       <systemName>IM42</systemName>
       <userName>Irvine east</userName>
     </memory>
