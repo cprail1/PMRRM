@@ -3756,6 +3756,7 @@
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT168</systemName>
       <userName>Powderhorn work track spur</userName>
+      <comment>Drawn backwards on DS for clarity</comment>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -6401,6 +6402,10 @@
     <turnout feedback="DIRECT" inverted="false" automate="Off">
       <systemName>IT23</systemName>
       <userName>Branchline to Delta 4</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT58</systemName>
+      <userName>Midway LT58 temp partner to be checked</userName>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Off">
       <systemName>IT86</systemName>
@@ -12956,12 +12961,10 @@
         <destination type="sensor" item="NX-JS-WB" nxType="fullinterlocking" uniqueid="IN:fe4f71ba-99d3-4390-bf99-4d66b088f0e6" />
       </source>
       <source type="sensor" item="NX-JM-WB">
-        <destination type="sensor" item="NX-MidwayMain1-WB" nxType="fullinterlocking" uniqueid="IN:c484f07b-e98e-41aa-9fe2-fb50e97eca28" />
         <destination type="sensor" item="NX-MidwayMain2-WB" nxType="fullinterlocking" uniqueid="IN:cace71ea-d788-4c99-ab67-48db5f60ad71" />
         <destination type="sensor" item="NX-MidwayMain3-WB" nxType="fullinterlocking" uniqueid="IN:66d97e82-6d45-4c69-bf3d-f21d76220e4c" />
       </source>
       <source type="sensor" item="NX-JS-WB">
-        <destination type="sensor" item="NX-MidwayMain1-WB" nxType="fullinterlocking" uniqueid="IN:b1000d1a-dfe8-4fac-becd-e7e429054b9c" />
         <destination type="sensor" item="NX-MidwayMain2-WB" nxType="fullinterlocking" uniqueid="IN:21f31f4d-5434-45a1-bd7c-ce5918f7cc87" />
         <destination type="sensor" item="NX-MidwayMain3-WB" nxType="fullinterlocking" uniqueid="IN:25a5be39-ed19-43c9-b136-01a5bb5a41f1" />
       </source>
@@ -12976,9 +12979,6 @@
       </source>
       <source type="sensor" item="NX-MidwayMain3-EB">
         <destination type="sensor" item="NX-MidwayEastPsgApproach-EB" nxType="fullinterlocking" uniqueid="IN:4f538e61-a3c9-4bc0-b9c3-7723511e63bf" />
-      </source>
-      <source type="sensor" item="NX-MidwayMain1-WB">
-        <destination type="sensor" item="NX-MidwayWestPsgApproach-WB" nxType="fullinterlocking" uniqueid="IN:daab55c3-9bd9-46d9-9661-6ea2be55d2d4" />
       </source>
       <source type="sensor" item="NX-MidwayMain2-WB">
         <destination type="sensor" item="NX-MidwayWestPsgApproach-WB" nxType="fullinterlocking" uniqueid="IN:ad48c2d7-ffd7-4017-af7f-642e26ca7341" />
@@ -13885,7 +13885,7 @@
       <tooltip>Text Label</tooltip>
     </positionablelabel>
   </paneleditor>
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="PMRRM Dispatcher" x="53" y="25" windowheight="970" windowwidth="1920" panelheight="778" panelwidth="1450" sliders="yes" scrollable="both" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="yes" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclethrowncolor="orange" turnoutcirclesize="2" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="yes" redBackground="192" greenBackground="192" blueBackground="192" gridSize="5" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="PMRRM Dispatcher" x="0" y="25" windowheight="970" windowwidth="1920" panelheight="778" panelwidth="1450" sliders="yes" scrollable="both" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="yes" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclethrowncolor="orange" turnoutcirclesize="2" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="yes" redBackground="192" greenBackground="192" blueBackground="192" gridSize="5" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="PMRRC NX DS 4a mod update" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
       <mainBallastWidth>0</mainBallastWidth>
@@ -15739,21 +15739,6 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-MidwayMain1-WB" x="805" y="350" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="281" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
-      <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="281" scale="1.0">
-        <rotation>0</rotation>
-      </active>
-      <inactive url="program:resources/icons/smallschematics/tracksegments/circuit-empty.gif" degrees="281" scale="1.0">
-        <rotation>0</rotation>
-      </inactive>
-      <unknown url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="281" scale="1.0">
-        <rotation>0</rotation>
-      </unknown>
-      <inconsistent url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="281" scale="1.0">
-        <rotation>0</rotation>
-      </inconsistent>
-      <iconmaps />
-    </sensoricon>
     <sensoricon sensor="NX-MidwayMain2-WB" x="795" y="330" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="270" scale="1.0">
         <rotation>0</rotation>
@@ -17464,11 +17449,9 @@
     <layoutturnout ident="TO6" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1062.0" ycen="355.0" xa="1074.0" ya="355.0" xb="1050.0" yb="355.0" xc="1047.0" yc="335.0" xd="1074.0" yd="355.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="LT54" blockname="Midway West Main Passenger approach" connectaname="T6" connectbname="T14" connectcname="T27">
       <sensorB>NX-MidwayMain1-EB</sensorB>
     </layoutturnout>
-    <layoutturnout ident="TO9" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="732.0" ycen="355.0" xa="712.0" ya="355.0" xb="752.0" yb="355.0" xc="752.0" yc="335.0" xd="712.0" yd="355.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Midway W P1" blockname="Midway West Main Passenger" connectaname="T17" connectbname="T13" connectcname="T26">
-      <sensorB>NX-MidwayMain1-WB</sensorB>
-    </layoutturnout>
-    <layoutturnout ident="TO10" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="787.0" ycen="355.0" xa="774.0" ya="355.0" xb="800.0" yb="355.0" xc="800.0" yc="366.0" xd="774.0" yd="355.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="LT58" blockname="Midway West Main 1" connectaname="T13" connectbname="T14" connectcname="T15" />
-    <layoutturnout ident="TO11" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="817.0" ycen="380.0" xa="837.0" ya="380.0" xb="797.0" yb="380.0" xc="807.0" yc="370.0" xd="837.0" yd="380.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" connectaname="T16" connectbname="T19" connectcname="T15" />
+    <layoutturnout ident="TO9" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="732.0" ycen="355.0" xa="712.0" ya="355.0" xb="752.0" yb="355.0" xc="752.0" yc="335.0" xd="712.0" yd="355.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Midway W P1" blockname="Midway West Main Passenger" connectaname="T17" connectbname="T13" connectcname="T26" />
+    <layoutturnout ident="TO10" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="787.0" ycen="355.0" xa="774.0" ya="355.0" xb="800.0" yb="355.0" xc="800.0" yc="366.0" xd="774.0" yd="355.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Midway W Yard" secondturnoutname="Midway LT58 temp partner to be checked" blockname="Midway West Main 1" connectaname="T13" connectbname="T14" connectcname="T15" />
+    <layoutturnout ident="TO11" type="RH_TURNOUT" hidden="no" disabled="yes" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="817.0" ycen="380.0" xa="837.0" ya="380.0" xb="797.0" yb="380.0" xc="807.0" yc="370.0" xd="837.0" yd="380.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Midway LT58 temp partner to be checked" connectaname="T16" connectbname="T19" connectcname="T15" />
     <layoutturnout ident="TO12" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="677.0" ycen="355.0" xa="658.0" ya="355.0" xb="696.0" yb="355.0" xc="692.0" yc="375.0" xd="658.0" yd="355.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="LT59" blockname="Midway West Main Passenger" connectaname="T21" connectbname="T17" connectcname="T18" />
     <layoutturnout ident="TO13" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="667.0" ycen="380.0" xa="679.0" ya="380.0" xb="655.0" yb="380.0" xc="682.0" yc="400.0" xd="679.0" yd="380.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Midway W approach to ES Engine Service" connectaname="T19" connectbname="T22" connectcname="T152" />
     <layoutturnout ident="TO14" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="547.0" ycen="355.0" xa="527.0" ya="355.0" xb="567.0" yb="355.0" xc="570.0" yc="380.0" xd="527.0" yd="355.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="LT60" blockname="Narrows, Lower" connectaname="T28" connectbname="T21" connectcname="T231">
