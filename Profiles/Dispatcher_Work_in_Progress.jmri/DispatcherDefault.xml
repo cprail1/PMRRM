@@ -12259,9 +12259,9 @@
     </signalelement>
   </signalelements>
   <routes class="jmri.managers.configurexml.DefaultRouteManagerXml">
-    <route userName="Mainline Init" addedDelay="250">
+    <route userName="Mainline Init route" addedDelay="250">
       <systemName>IO:AUTO:0001</systemName>
-      <userName>Mainline Init</userName>
+      <userName>Mainline Init route</userName>
       <routeOutputTurnout systemName="Bend East A to B" state="CLOSED" />
       <routeOutputTurnout systemName="Bend East B C Straight" state="CLOSED" />
       <routeOutputTurnout systemName="Bend East 4 to 3" state="CLOSED" />
@@ -12445,9 +12445,9 @@
       <routeOutputSensor systemName="MidwayYd E Frt 6 routing" state="INACTIVE" />
       <routeSensor systemName="MidwayYd E Frt 7 routing" mode="onActive" />
     </route>
-    <route userName="Aux Init" addedDelay="250">
+    <route userName="Main 2 init route" addedDelay="250">
       <systemName>IO:AUTO:0015</systemName>
-      <userName>Aux Init</userName>
+      <userName>Main 2 init route</userName>
       <routeOutputTurnout systemName="Midway E Team 1" state="CLOSED" />
       <routeOutputTurnout systemName="Midway E Team 2" state="CLOSED" />
       <routeOutputTurnout systemName="Midway W Team 2" state="CLOSED" />
