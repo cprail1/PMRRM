@@ -2120,11 +2120,7 @@
     </sensor>
     <sensor inverted="false">
       <systemName>IS18</systemName>
-      <userName>Aux Init</userName>
-    </sensor>
-    <sensor inverted="false">
-      <systemName>IS19</systemName>
-      <userName>Main Init 2</userName>
+      <userName>Main init 2</userName>
     </sensor>
     <sensor inverted="false">
       <systemName>IS20</systemName>
@@ -2324,11 +2320,11 @@
     </sensor>
     <sensor inverted="false">
       <systemName>IS69</systemName>
-      <userName>Main Init Done</userName>
+      <userName>Main init 1 Done</userName>
     </sensor>
     <sensor inverted="false">
       <systemName>IS70</systemName>
-      <userName>Main 2 Done</userName>
+      <userName>Main init 2 Done</userName>
     </sensor>
     <sensor inverted="false">
       <systemName>IS71</systemName>
@@ -6167,6 +6163,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT824</systemName>
+      <userName>APW Car Service S6,D-lead</userName>
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT825</systemName>
@@ -6378,53 +6375,14 @@
       <comment>Xover partner turnout</comment>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Off">
-      <systemName>IT10</systemName>
-      <userName>AFE Xover east IT</userName>
-      <comment>Stand-in until LT is identified</comment>
-    </turnout>
-    <turnout feedback="DIRECT" inverted="false" automate="Off">
-      <systemName>IT11</systemName>
-      <userName>AFE Engine pocket east IT</userName>
-      <comment>Stand-in until LT is identified</comment>
-    </turnout>
-    <turnout feedback="DIRECT" inverted="false" automate="Off">
-      <systemName>IT12</systemName>
-      <userName>AFE Engine pocket west IT</userName>
-      <comment>Stand-in until LT is identified</comment>
-    </turnout>
-    <turnout feedback="DIRECT" inverted="false" automate="Off">
-      <systemName>IT13</systemName>
-      <comment>Stand-in until LT is identified</comment>
-    </turnout>
-    <turnout feedback="DIRECT" inverted="false" automate="Off">
-      <systemName>IT14</systemName>
-      <userName>APW storage 2 chk name IT</userName>
-      <comment>AFE Xover west</comment>
-    </turnout>
-    <turnout feedback="DIRECT" inverted="false" automate="Off">
-      <systemName>IT15</systemName>
-      <userName>APW storage 1 chk name IT</userName>
-      <comment>AFE Xover west</comment>
-    </turnout>
-    <turnout feedback="DIRECT" inverted="false" automate="Off">
       <systemName>IT16</systemName>
       <userName>APW Xover W partner</userName>
       <comment>Xover partner turnout</comment>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Off">
-      <systemName>IT17</systemName>
-      <userName>APW Xover W IT</userName>
-      <comment>AFE Xover west</comment>
-    </turnout>
-    <turnout feedback="DIRECT" inverted="false" automate="Off">
       <systemName>IT18</systemName>
       <userName>APW Xover E partner</userName>
       <comment>Xover partner turnout</comment>
-    </turnout>
-    <turnout feedback="DIRECT" inverted="false" automate="Off">
-      <systemName>IT19</systemName>
-      <userName>APW Xover E IT</userName>
-      <comment>AFE Xover west</comment>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Off">
       <systemName>IT23</systemName>
@@ -10121,13 +10079,13 @@
       <permissive>no</permissive>
       <path todir="144" fromdir="96" block="IB134">
         <beansetting setting="2">
-          <turnout systemName="APW storage 2 chk name IT" />
+          <turnout systemName="APW Car Service S6,D-lead" />
         </beansetting>
       </path>
       <path todir="96" fromdir="144" block="IB136" />
       <path todir="128" fromdir="64" block="IB137">
         <beansetting setting="4">
-          <turnout systemName="APW storage 2 chk name IT" />
+          <turnout systemName="APW Car Service S6,D-lead" />
         </beansetting>
       </path>
     </block>
@@ -10147,13 +10105,13 @@
       <userName>AUTOBLK:126</userName>
       <permissive>no</permissive>
       <path todir="144" fromdir="96" block="IB136">
-        <beansetting setting="2">
-          <turnout systemName="APW storage 1 chk name IT" />
+        <beansetting setting="4">
+          <turnout systemName="APW Car Serv D-lead,S1 etc" />
         </beansetting>
       </path>
       <path todir="128" fromdir="64" block="IB140">
-        <beansetting setting="4">
-          <turnout systemName="APW storage 1 chk name IT" />
+        <beansetting setting="2">
+          <turnout systemName="APW Car Serv D-lead,S1 etc" />
         </beansetting>
       </path>
       <path todir="16" fromdir="32" block="IB144" />
@@ -10505,7 +10463,7 @@
       <path todir="144" fromdir="96" block="IB97" />
       <path todir="96" fromdir="144" block="IB107">
         <beansetting setting="2">
-          <turnout systemName="APW storage 2 chk name IT" />
+          <turnout systemName="APW Car Service S6,D-lead" />
         </beansetting>
       </path>
     </block>
@@ -10521,8 +10479,8 @@
       <permissive>no</permissive>
       <path todir="144" fromdir="96" block="IB107" />
       <path todir="96" fromdir="144" block="IB109">
-        <beansetting setting="2">
-          <turnout systemName="APW storage 1 chk name IT" />
+        <beansetting setting="4">
+          <turnout systemName="APW Car Serv D-lead,S1 etc" />
         </beansetting>
       </path>
     </block>
@@ -10532,7 +10490,7 @@
       <permissive>no</permissive>
       <path todir="64" fromdir="128" block="IB107">
         <beansetting setting="4">
-          <turnout systemName="APW storage 2 chk name IT" />
+          <turnout systemName="APW Car Service S6,D-lead" />
         </beansetting>
       </path>
     </block>
@@ -10559,8 +10517,8 @@
       <userName>AUTOBLK:155</userName>
       <permissive>no</permissive>
       <path todir="64" fromdir="128" block="IB109">
-        <beansetting setting="4">
-          <turnout systemName="APW storage 1 chk name IT" />
+        <beansetting setting="2">
+          <turnout systemName="APW Car Serv D-lead,S1 etc" />
         </beansetting>
       </path>
     </block>
@@ -10587,7 +10545,7 @@
       <path todir="144" fromdir="96" block="IB149" />
       <path todir="96" fromdir="144" block="IB153">
         <beansetting setting="2">
-          <turnout systemName="APW Xover W IT" />
+          <turnout systemName="APW West Xover" />
         </beansetting>
       </path>
     </block>
@@ -10611,12 +10569,12 @@
       <path todir="128" fromdir="64" block="IB175" />
       <path todir="128" fromdir="64" block="IB176">
         <beansetting setting="2">
-          <turnout systemName="AFE Xover east IT" />
+          <turnout systemName="AFW East Xover" />
         </beansetting>
       </path>
       <path todir="64" fromdir="128" block="IB177">
         <beansetting setting="2">
-          <turnout systemName="AFE Xover east IT" />
+          <turnout systemName="AFW East Xover" />
         </beansetting>
       </path>
       <path todir="64" fromdir="128" block="IB178" />
@@ -10711,12 +10669,12 @@
       <permissive>no</permissive>
       <path todir="144" fromdir="96" block="IB142">
         <beansetting setting="2">
-          <turnout systemName="APW Xover W IT" />
+          <turnout systemName="APW West Xover" />
         </beansetting>
       </path>
       <path todir="128" fromdir="64" block="IB159">
         <beansetting setting="4">
-          <turnout systemName="APW Xover W IT" />
+          <turnout systemName="APW West Xover" />
         </beansetting>
       </path>
       <path todir="16" fromdir="32" block="IB162" />
@@ -10759,12 +10717,12 @@
       <permissive>no</permissive>
       <path todir="16" fromdir="32" block="IB163">
         <beansetting setting="4">
-          <turnout systemName="APW Xover E IT" />
+          <turnout systemName="APW East Xover" />
         </beansetting>
       </path>
       <path todir="144" fromdir="96" block="IB164">
         <beansetting setting="2">
-          <turnout systemName="APW Xover E IT" />
+          <turnout systemName="APW East Xover" />
         </beansetting>
       </path>
       <path todir="96" fromdir="144" block="IB166" />
@@ -10795,7 +10753,7 @@
       <permissive>no</permissive>
       <path todir="64" fromdir="128" block="IB153">
         <beansetting setting="4">
-          <turnout systemName="APW Xover W IT" />
+          <turnout systemName="APW West Xover" />
         </beansetting>
       </path>
       <path todir="128" fromdir="64" block="IB154">
@@ -10853,7 +10811,7 @@
       </path>
       <path todir="32" fromdir="16" block="IB156">
         <beansetting setting="4">
-          <turnout systemName="APW Xover E IT" />
+          <turnout systemName="APW East Xover" />
         </beansetting>
       </path>
     </block>
@@ -10868,7 +10826,7 @@
       </path>
       <path todir="96" fromdir="144" block="IB156">
         <beansetting setting="2">
-          <turnout systemName="APW Xover E IT" />
+          <turnout systemName="APW East Xover" />
         </beansetting>
       </path>
     </block>
@@ -10921,12 +10879,12 @@
       <permissive>no</permissive>
       <path todir="128" fromdir="64" block="IB173">
         <beansetting setting="2">
-          <turnout systemName="AFE Engine pocket east IT" />
+          <turnout systemName="AFW Engine Pocket East" />
         </beansetting>
       </path>
       <path todir="128" fromdir="64" block="IB174">
         <beansetting setting="4">
-          <turnout systemName="AFE Engine pocket east IT" />
+          <turnout systemName="AFW Engine Pocket East" />
         </beansetting>
       </path>
       <path todir="64" fromdir="128" block="IB176" />
@@ -10938,12 +10896,12 @@
       <path todir="64" fromdir="128" block="IB172" />
       <path todir="64" fromdir="128" block="IB173">
         <beansetting setting="2">
-          <turnout systemName="AFE Engine pocket west IT" />
+          <turnout systemName="AFW Engine Pocket West" />
         </beansetting>
       </path>
       <path todir="64" fromdir="128" block="IB174">
         <beansetting setting="4">
-          <turnout systemName="AFE Engine pocket west IT" />
+          <turnout systemName="AFW Engine Pocket West" />
         </beansetting>
       </path>
     </block>
@@ -10964,12 +10922,12 @@
       <permissive>no</permissive>
       <path todir="64" fromdir="128" block="IB170">
         <beansetting setting="2">
-          <turnout systemName="AFE Engine pocket east IT" />
+          <turnout systemName="AFW Engine Pocket East" />
         </beansetting>
       </path>
       <path todir="128" fromdir="64" block="IB171">
         <beansetting setting="2">
-          <turnout systemName="AFE Engine pocket west IT" />
+          <turnout systemName="AFW Engine Pocket West" />
         </beansetting>
       </path>
     </block>
@@ -10979,12 +10937,12 @@
       <permissive>no</permissive>
       <path todir="64" fromdir="128" block="IB170">
         <beansetting setting="4">
-          <turnout systemName="AFE Engine pocket east IT" />
+          <turnout systemName="AFW Engine Pocket East" />
         </beansetting>
       </path>
       <path todir="128" fromdir="64" block="IB171">
         <beansetting setting="4">
-          <turnout systemName="AFE Engine pocket west IT" />
+          <turnout systemName="AFW Engine Pocket West" />
         </beansetting>
       </path>
     </block>
@@ -11001,7 +10959,7 @@
       <permissive>no</permissive>
       <path todir="64" fromdir="128" block="IB145">
         <beansetting setting="2">
-          <turnout systemName="AFE Xover east IT" />
+          <turnout systemName="AFW East Xover" />
         </beansetting>
       </path>
       <path todir="128" fromdir="64" block="IB170" />
@@ -11012,7 +10970,7 @@
       <permissive>no</permissive>
       <path todir="128" fromdir="64" block="IB145">
         <beansetting setting="2">
-          <turnout systemName="AFE Xover east IT" />
+          <turnout systemName="AFW East Xover" />
         </beansetting>
       </path>
     </block>
@@ -12304,7 +12262,6 @@
     <route userName="Mainline Init" addedDelay="250">
       <systemName>IO:AUTO:0001</systemName>
       <userName>Mainline Init</userName>
-      <routeOutputTurnout systemName="Bend Alhambra NOT USED AF A to Bend 1" state="CLOSED" />
       <routeOutputTurnout systemName="Bend East A to B" state="CLOSED" />
       <routeOutputTurnout systemName="Bend East B C Straight" state="CLOSED" />
       <routeOutputTurnout systemName="Bend East 4 to 3" state="CLOSED" />
@@ -12382,7 +12339,7 @@
       <routeOutputTurnout systemName="Osage pocket W" state="CLOSED" />
       <routeOutputSensor systemName="Main Init 1" state="INACTIVE" />
       <routeSensor systemName="IS20" mode="onActive" />
-      <turnoutsAlignedSensor name="Main Init Done" />
+      <turnoutsAlignedSensor name="Main init 1 Done" />
     </route>
     <route userName="Frt 1">
       <systemName>IO:AUTO:0003</systemName>
@@ -12522,9 +12479,9 @@
       <routeOutputTurnout systemName="MidwayYd W-F6,F7" state="CLOSED" />
       <routeOutputTurnout systemName="LT216" state="CLOSED" />
       <routeOutputTurnout systemName="LT273" state="THROWN" />
-      <routeOutputSensor systemName="Aux Init" state="INACTIVE" />
+      <routeOutputSensor systemName="Main init 2" state="INACTIVE" />
       <routeSensor systemName="IS18" mode="onActive" />
-      <turnoutsAlignedSensor name="Main 2 Done" />
+      <turnoutsAlignedSensor name="Main init 2 Done" />
     </route>
     <route userName="W Frt 1">
       <systemName>IO:AUTO:0016</systemName>
@@ -13868,7 +13825,7 @@
       <tooltip>Text Label</tooltip>
     </positionablelabel>
   </paneleditor>
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="PMRRM Dispatcher" x="-8" y="-8" windowheight="1168" windowwidth="1936" panelheight="778" panelwidth="1450" sliders="yes" scrollable="both" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="yes" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclethrowncolor="orange" turnoutcirclesize="2" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="yes" redBackground="192" greenBackground="192" blueBackground="192" gridSize="5" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="PMRRM Dispatcher" x="-8" y="-8" windowheight="1168" windowwidth="1936" panelheight="783" panelwidth="1450" sliders="yes" scrollable="both" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="yes" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclethrowncolor="orange" turnoutcirclesize="2" turnoutdrawunselectedleg="yes" turnoutbx="7.0" turnoutcx="14.0" turnoutwid="14.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="yes" redBackground="192" greenBackground="192" blueBackground="192" gridSize="5" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="PMRRC NX DS 4a mod update" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
       <mainBallastWidth>0</mainBallastWidth>
@@ -14024,7 +13981,7 @@
     <positionablelabel x="1207" y="620" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="84 " fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <tooltip>Text Label</tooltip>
     </positionablelabel>
-    <positionablelabel x="1240" y="675" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Mainline Init " fontFamily="Dialog" fontname="Dialog" size="12" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+    <positionablelabel x="1235" y="675" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Mainline Init " fontFamily="Dialog" fontname="Dialog" size="12" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <tooltip>Text Label</tooltip>
     </positionablelabel>
     <positionablelabel x="530" y="360" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="60 " fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
@@ -14357,7 +14314,7 @@
     <memoryicon memory="Echo main 1" x="235" y="25" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>Echo main 1</tooltip>
     </memoryicon>
-    <sensoricon sensor="Main Init 1" x="1312" y="670" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="Main Init 1" x="1310" y="670" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <tooltip>Main Init (IS20)</tooltip>
       <active url="program:resources/icons/USS/plate/levers/codeButton-Active.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
@@ -14568,10 +14525,10 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <positionablelabel x="1240" y="700" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Main Init 2 " fontFamily="Dialog" fontname="Dialog" size="12" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+    <positionablelabel x="1235" y="705" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Main 2 Init" fontFamily="Dialog" fontname="Dialog" size="12" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <tooltip>Text Label</tooltip>
     </positionablelabel>
-    <sensoricon sensor="Aux Init" x="1312" y="698" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="Main 2 init " x="1310" y="700" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <tooltip>Aux Init (IS18)</tooltip>
       <active url="program:resources/icons/USS/plate/levers/codeButton-Active.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
@@ -15285,7 +15242,7 @@
       </icons>
       <iconmaps />
     </signalheadicon>
-    <sensoricon sensor="Main Init Done" x="1347" y="673" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="Main init 1 Done" x="1345" y="675" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -15300,7 +15257,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="Main 2 Done" x="1347" y="700" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="Main init 2 Done" x="1345" y="705" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -16713,7 +16670,7 @@
     <positionablelabel x="620" y="670" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="188 " fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="250" y="315" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="162 " fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="784" y="450" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Staging " fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <sensoricon sensor="Control Blue Text" x="1167" y="670" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="Control Blue Text" x="1165" y="670" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/plate/levers/switch-off.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -16728,7 +16685,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <positionablelabel x="1020" y="675" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Show Optional Information" fontFamily="Dialog" fontname="Dialog" size="12" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1015" y="675" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Show Optional Information" fontFamily="Dialog" fontname="Dialog" size="12" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="680" y="215" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="35" fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="515" y="390" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="NARROWS " fontFamily="Dialog" fontname="Dialog" size="14" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="75" y="400" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="BRANCH " fontFamily="Dialog" fontname="Dialog" size="11" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
@@ -16736,7 +16693,7 @@
     <positionablelabel x="1240" y="445" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Helper storage   " fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="1200" y="505" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Depot house track   " fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="485" y="360" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="LOWER  " fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <sensoricon sensor="Show Block Entry Boxes" x="1167" y="695" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="Show Block Entry Boxes" x="1167" y="700" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/plate/levers/switch-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -16751,7 +16708,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <positionablelabel x="1020" y="700" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Show Block Contents Boxes" fontFamily="Dialog" fontname="Dialog" size="12" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1015" y="705" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Show Block Contents Boxes" fontFamily="Dialog" fontname="Dialog" size="12" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="290" y="535" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="76 " fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <sensoricon sensor="NX-TroyM-WB" x="148" y="485" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="270" scale="1.0">
@@ -17663,17 +17620,17 @@
     <layoutturnout ident="TO30" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="4" xcen="1140.0" ycen="100.0" xa="1150.0" ya="110.0" xb="1130.0" yb="90.0" xc="1108.0" yc="100.0" xd="1150.0" yd="110.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Bend East 4 to 3" secondturnoutname="Bend East 4 to 3 partner" blockname="AUTOBLK:114" connectaname="T90" connectbname="T51" connectcname="T52" />
     <layoutturnout ident="TO46" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="4" xcen="1150.0" ycen="80.0" xa="1130.0" ya="80.0" xb="1170.0" yb="80.0" xc="1180.0" yc="110.0" xd="1130.0" yd="80.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Bend East B C Straight LT3 crossover partner" secondturnoutname="Bend East B C Straight" blockname="AUTOBLK:127" connectaname="T50" connectbname="T80" connectcname="T106" />
     <layoutturnout ident="TO45" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="4" xcen="1200.0" ycen="60.0" xa="1215.0" ya="60.0" xb="1185.0" yb="60.0" xc="1180.0" yc="40.0" xd="1215.0" yd="60.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Bend East A to B LT2 partner" secondturnoutname="Bend East A to B" blockname="AUTOBLK:156" connectaname="T196" connectbname="T136" connectcname="T62" />
-    <layoutturnout ident="TO56" type="LH_TURNOUT" hidden="no" disabled="yes" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1185.0" ycen="145.0" xa="1190.0" ya="150.0" xb="1180.0" yb="140.0" xc="1170.0" yc="145.0" xd="1190.0" yd="150.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="APW storage 2 chk name IT" blockname="AUTOBLK:124" connectaname="T84" connectbname="T83" connectcname="T85" />
-    <layoutturnout ident="TO67" type="LH_TURNOUT" hidden="no" disabled="yes" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1200.0" ycen="160.0" xa="1205.0" ya="165.0" xb="1195.0" yb="155.0" xc="1180.0" yc="160.0" xd="1205.0" yd="165.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="APW storage 1 chk name IT" blockname="AUTOBLK:126" connectaname="T87" connectbname="T84" connectcname="T86" />
-    <layoutturnout ident="TO84" type="LH_TURNOUT" hidden="no" disabled="yes" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1245.0" ycen="175.0" xa="1255.0" ya="185.0" xb="1235.0" yb="165.0" xc="1230.0" yc="175.0" xd="1255.0" yd="185.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="APW Xover W IT" secondturnoutname="APW Xover W partner" blockname="AUTOBLK:168" connectaname="T139" connectbname="T111" connectcname="T88" />
+    <layoutturnout ident="TO56" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1185.0" ycen="145.0" xa="1190.0" ya="150.0" xb="1180.0" yb="140.0" xc="1170.0" yc="145.0" xd="1190.0" yd="150.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="APW Car Service S6,D-lead" blockname="AUTOBLK:124" connectaname="T84" connectbname="T83" connectcname="T85" />
+    <layoutturnout ident="TO67" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="4" xcen="1200.0" ycen="160.0" xa="1205.0" ya="165.0" xb="1195.0" yb="155.0" xc="1180.0" yc="160.0" xd="1205.0" yd="165.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="APW Car Serv D-lead,S1 etc" blockname="AUTOBLK:126" connectaname="T87" connectbname="T84" connectcname="T86" />
+    <layoutturnout ident="TO84" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1245.0" ycen="175.0" xa="1255.0" ya="185.0" xb="1235.0" yb="165.0" xc="1230.0" yc="175.0" xd="1255.0" yd="185.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="APW West Xover" secondturnoutname="APW Xover W partner" blockname="AUTOBLK:168" connectaname="T139" connectbname="T111" connectcname="T88" />
     <layoutturnout ident="TO88" type="LH_TURNOUT" hidden="no" disabled="yes" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1215.0" ycen="175.0" xa="1205.0" ya="165.0" xb="1225.0" yb="185.0" xc="1225.0" yc="175.0" xd="1205.0" yd="165.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="APW Xover W partner" blockname="AUTOBLK:169" connectaname="T87" connectbname="T209" connectcname="T88" />
-    <layoutturnout ident="TO104" type="RH_TURNOUT" hidden="no" disabled="yes" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1265.0" ycen="195.0" xa="1255.0" ya="185.0" xb="1275.0" yb="205.0" xc="1265.0" yc="210.0" xd="1255.0" yd="185.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="APW Xover E partner" secondturnoutname="APW Xover E IT" blockname="AUTOBLK:170" connectaname="T139" connectbname="T210" connectcname="T206" />
-    <layoutturnout ident="TO105" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1265.0" ycen="225.0" xa="1270.0" ya="230.0" xb="1260.0" yb="220.0" xc="1265.0" yc="210.0" xd="1270.0" yd="230.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="APW Xover E IT" secondturnoutname="APW Xover E partner" blockname="AUTOBLK:171" connectaname="T211" connectbname="T209" connectcname="T206" />
-    <layoutturnout ident="TO106" type="RH_XOVER" hidden="no" disabled="yes" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1335.0" ycen="70.0" xa="1310.0" ya="60.0" xb="1343.333325" yb="60.0" xc="1360.0" yc="80.0" xd="1326.666675" yd="80.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHXOverXml" turnoutname="AFE Xover east IT" blockname="AUTOBLK:160" connectaname="T218" connectbname="T220" connectcname="T221" connectdname="T219" />
-    <layoutturnout ident="TO107" type="LH_XOVER" hidden="no" disabled="yes" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1250.0" ycen="70.0" xa="1242.3333740234375" ya="60.0" xb="1272.9998779296875" yb="60.0" xc="1257.6666259765625" yc="80.0" xd="1227.0001220703125" yd="80.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHXOverXml" turnoutname="AFW West Crossover" blockname="AUTOBLK:162" connectaname="T213" connectbname="T218" connectcname="T215" connectdname="T228" />
+    <layoutturnout ident="TO104" type="RH_TURNOUT" hidden="no" disabled="yes" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1265.0" ycen="195.0" xa="1255.0" ya="185.0" xb="1275.0" yb="205.0" xc="1265.0" yc="210.0" xd="1255.0" yd="185.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="APW Xover E partner" secondturnoutname="APW East Xover" blockname="AUTOBLK:170" connectaname="T139" connectbname="T210" connectcname="T206" />
+    <layoutturnout ident="TO105" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1265.0" ycen="225.0" xa="1270.0" ya="230.0" xb="1260.0" yb="220.0" xc="1265.0" yc="210.0" xd="1270.0" yd="230.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="APW East Xover" secondturnoutname="APW Xover E partner" blockname="AUTOBLK:171" connectaname="T211" connectbname="T209" connectcname="T206" />
+    <layoutturnout ident="TO106" type="RH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1335.0" ycen="70.0" xa="1310.0" ya="60.0" xb="1343.333325" yb="60.0" xc="1360.0" yc="80.0" xd="1326.666675" yd="80.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHXOverXml" turnoutname="AFW East Xover" blockname="AUTOBLK:160" connectaname="T218" connectbname="T220" connectcname="T221" connectdname="T219" />
+    <layoutturnout ident="TO107" type="LH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1250.0" ycen="70.0" xa="1242.3333740234375" ya="60.0" xb="1272.9998779296875" yb="60.0" xc="1257.6666259765625" yc="80.0" xd="1227.0001220703125" yd="80.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHXOverXml" turnoutname="AFW West Crossover" blockname="AUTOBLK:162" connectaname="T213" connectbname="T218" connectcname="T215" connectdname="T228" />
     <layoutturnout ident="TO108" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1070.0" ycen="40.0" xa="1050.0" ya="40.0" xb="1090.0" yb="40.0" xc="1090.0" yc="20.0" xd="1050.0" yd="40.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Bend to Intermodal" blockname="AUTOBLK:166" connectaname="T89" connectbname="T140" connectcname="T214" />
-    <layoutturnout ident="TO109" type="LH_TURNOUT" hidden="no" disabled="yes" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1315.0" ycen="80.0" xa="1325.0" ya="80.0" xb="1305.0" yb="80.0" xc="1305.0" yc="95.0" xd="1325.0" yd="80.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="AFE Engine pocket east IT" blockname="AUTOBLK:185" connectaname="T219" connectbname="T216" connectcname="T217" />
-    <layoutturnout ident="TO110" type="RH_TURNOUT" hidden="no" disabled="yes" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1265.0" ycen="80.0" xa="1255.0" ya="80.0" xb="1275.0" yb="80.0" xc="1280.0" yc="95.0" xd="1255.0" yd="80.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="AFE Engine pocket west IT" blockname="AUTOBLK:186" connectaname="T215" connectbname="T216" connectcname="T217" />
+    <layoutturnout ident="TO109" type="LH_TURNOUT" hidden="no" disabled="yes" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1315.0" ycen="80.0" xa="1325.0" ya="80.0" xb="1305.0" yb="80.0" xc="1305.0" yc="95.0" xd="1325.0" yd="80.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="AFW Engine Pocket East" blockname="AUTOBLK:185" connectaname="T219" connectbname="T216" connectcname="T217" />
+    <layoutturnout ident="TO110" type="RH_TURNOUT" hidden="no" disabled="yes" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1265.0" ycen="80.0" xa="1255.0" ya="80.0" xb="1275.0" yb="80.0" xc="1280.0" yc="95.0" xd="1255.0" yd="80.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="AFW Engine Pocket West" blockname="AUTOBLK:186" connectaname="T215" connectbname="T216" connectcname="T217" />
     <layoutturnout ident="TO18" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="4" xcen="1165.0" ycen="60.0" xa="1145.0" ya="60.0" xb="1185.0" yb="60.0" xc="1175.0" yc="70.0" xd="1145.0" yd="60.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Bend East A to B" secondturnoutname="Bend East A to B LT2 partner" blockname="AUTOBLK:112" connectaname="T72" connectbname="T136" connectcname="T130" />
     <layoutturnout ident="TO111" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="4" xcen="1185.0" ycen="80.0" xa="1201.0" ya="80.0" xb="1169.0" yb="80.0" xc="1175.0" yc="70.0" xd="1201.0" yd="80.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Bend East B C Straight" secondturnoutname="Bend East B C Straight LT3 crossover partner" blockname="AUTOBLK:115" connectaname="T79" connectbname="T80" connectcname="T130" />
     <layoutturnout ident="TO36" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="820.0" ycen="615.0" xa="810.0" ya="615.0" xb="830.0" yb="615.0" xc="830.0" yc="625.0" xd="810.0" yd="615.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Vista W 2 MainW -VistaYard W" secondturnoutname="Vista W 2 MainW -VistaYard W partner" blockname="Vista-Whiskey" connectaname="T33" connectbname="T59" connectcname="T232">
