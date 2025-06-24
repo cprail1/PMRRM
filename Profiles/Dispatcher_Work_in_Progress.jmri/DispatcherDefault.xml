@@ -9224,7 +9224,11 @@
       <userName>Echo 3</userName>
       <permissive>no</permissive>
       <occupancysensor>Echo 3</occupancysensor>
-      <path todir="128" fromdir="64" block="IB102" />
+      <path todir="128" fromdir="64" block="IB52">
+        <beansetting setting="4">
+          <turnout systemName="Echo 2" />
+        </beansetting>
+      </path>
       <path todir="64" fromdir="128" block="IB119">
         <beansetting setting="4">
           <turnout systemName="Echo Street" />
@@ -9257,6 +9261,14 @@
           <turnout systemName="Echo 1" />
         </beansetting>
       </path>
+      <path todir="64" fromdir="128" block="IB51">
+        <beansetting setting="4">
+          <turnout systemName="Echo 2" />
+        </beansetting>
+        <beansetting setting="4">
+          <turnout systemName="Echo 1" />
+        </beansetting>
+      </path>
       <path todir="128" fromdir="64" block="IB55">
         <beansetting setting="4">
           <turnout systemName="Gary E siding" />
@@ -9265,14 +9277,6 @@
       <path todir="128" fromdir="64" block="IB56">
         <beansetting setting="2">
           <turnout systemName="Gary E siding" />
-        </beansetting>
-      </path>
-      <path todir="64" fromdir="128" block="IB102">
-        <beansetting setting="4">
-          <turnout systemName="Echo 2" />
-        </beansetting>
-        <beansetting setting="4">
-          <turnout systemName="Echo 1" />
         </beansetting>
       </path>
     </block>
@@ -11925,7 +11929,7 @@
       <systemName>ILB118</systemName>
       <userName>AUTOBLK:118</userName>
     </layoutblock>
-    <layoutblock systemName="ILB119" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="white">
+    <layoutblock systemName="ILB119" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green">
       <systemName>ILB119</systemName>
       <userName>AUTOBLK:119</userName>
     </layoutblock>
@@ -12652,12 +12656,12 @@
         <destination type="sensor" item="NX-E1-WB" nxType="fullinterlocking" uniqueid="IN:c3f247a7-3a57-4829-9318-8970b22192dc" />
       </source>
       <source type="sensor" item="NX-D3-WB">
-        <destination type="sensor" item="NX-E3-WB" nxType="fullinterlocking" uniqueid="IN:d7fc2a36-8268-4568-940f-e5c4f2724d3f" />
+        <destination type="sensor" item="NX-E3-WB" nxType="turnoutsetting" uniqueid="IN:c198a902-b112-4039-9e6c-ad25b69180a1" />
         <destination type="sensor" item="NX-E2-WB" nxType="fullinterlocking" uniqueid="IN:d236689d-8382-4555-ad88-198169227baf" />
         <destination type="sensor" item="NX-E1-WB" nxType="fullinterlocking" uniqueid="IN:82476c75-4c05-4b18-88a1-320f7625f7cc" />
       </source>
       <source type="sensor" item="NX-D4-WB">
-        <destination type="sensor" item="NX-E3-WB" nxType="fullinterlocking" uniqueid="IN:66eaa3c7-5acc-42d8-9daa-6e45ca743118" />
+        <destination type="sensor" item="NX-E3-WB" nxType="turnoutsetting" uniqueid="IN:fa06fef3-d3cc-45d6-9c09-1f3d302fe61a" />
         <destination type="sensor" item="NX-E2-WB" nxType="fullinterlocking" uniqueid="IN:22a24c37-37b2-40bd-b574-eac8a3fe16a9" />
         <destination type="sensor" item="NX-E1-WB" nxType="fullinterlocking" uniqueid="IN:b46d110d-7b10-4724-9bbb-82ffb52bcd6b" />
       </source>
@@ -12895,9 +12899,9 @@
         <destination type="sensor" item="NX-E3-EB" nxType="fullinterlocking" uniqueid="IN:186a3172-5966-405a-88de-9a6433b47788" />
       </source>
       <source type="sensor" item="NX-E3-WB">
-        <destination type="sensor" item="NX-GS-WB" nxType="fullinterlocking" uniqueid="IN:3527267a-38b3-4e7a-b254-94c17f77c575" />
-        <destination type="sensor" item="NX-HS-WB" nxType="fullinterlocking" uniqueid="IN:a71223be-2edd-4182-9b3f-c844c06f3fb2" />
-        <destination type="sensor" item="NX-GM-WB" nxType="fullinterlocking" uniqueid="IN:13af55be-73c9-43a2-a60f-35e6086ce047" />
+        <destination type="sensor" item="NX-GS-WB" nxType="turnoutsetting" uniqueid="IN:3acf7206-6d61-46fd-8731-d4b727379137" />
+        <destination type="sensor" item="NX-HS-WB" nxType="turnoutsetting" uniqueid="IN:38fa5bcb-f006-468a-8914-6e020cbad6ba" />
+        <destination type="sensor" item="NX-GM-WB" nxType="turnoutsetting" uniqueid="IN:803ea4ab-722e-473d-beef-865fa0949a20" />
       </source>
       <source type="sensor" item="NX-E2-WB">
         <destination type="sensor" item="NX-GS-WB" nxType="fullinterlocking" uniqueid="IN:de4a7035-72fb-43eb-a7e6-289f2eb09d1c" />
@@ -13848,7 +13852,7 @@
       <tooltip>Text Label</tooltip>
     </positionablelabel>
   </paneleditor>
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="PMRRM Dispatcher" x="99" y="15" windowheight="1135" windowwidth="1616" panelheight="783" panelwidth="1450" sliders="yes" scrollable="both" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="yes" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="green" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclethrowncolor="orange" turnoutcirclesize="2" turnoutdrawunselectedleg="no" turnoutbx="7.0" turnoutcx="14.0" turnoutwid="14.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="yes" redBackground="192" greenBackground="192" blueBackground="192" gridSize="5" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="PMRRM Dispatcher" x="99" y="15" windowheight="1135" windowwidth="1684" panelheight="783" panelwidth="1450" sliders="yes" scrollable="both" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="yes" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="green" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclethrowncolor="orange" turnoutcirclesize="2" turnoutdrawunselectedleg="no" turnoutbx="7.0" turnoutcx="14.0" turnoutwid="14.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="yes" redBackground="192" greenBackground="192" blueBackground="192" gridSize="5" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="PMRRM Dispatcher" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
       <mainBallastWidth>0</mainBallastWidth>
@@ -17173,21 +17177,6 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-E3-WB" x="165" y="75" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
-      <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="270" scale="1.0">
-        <rotation>0</rotation>
-      </active>
-      <inactive url="program:resources/icons/smallschematics/tracksegments/circuit-empty.gif" degrees="270" scale="1.0">
-        <rotation>0</rotation>
-      </inactive>
-      <unknown url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="270" scale="1.0">
-        <rotation>0</rotation>
-      </unknown>
-      <inconsistent url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="270" scale="1.0">
-        <rotation>0</rotation>
-      </inconsistent>
-      <iconmaps />
-    </sensoricon>
     <sensoricon sensor="NX-MidwayWestFrtApproach-EB" x="640" y="375" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="270" scale="1.0">
         <rotation>0</rotation>
@@ -17417,6 +17406,21 @@
     </sensoricon>
     <positionablelabel x="800" y="225" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Tank farm" fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="525" y="440" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Sierra Ranch   " fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <sensoricon sensor="NX-E3-WB" x="168" y="75" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="270" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/smallschematics/tracksegments/circuit-empty.gif" degrees="270" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="270" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="270" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
     <layoutturnout ident="TO1" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1215.0" ycen="400.0" xa="1230.0" ya="400.0" xb="1200.0" yb="400.0" xc="1195.0" yc="390.0" xd="1230.0" yd="400.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Midway E F" blockname="Midway East frt approach" connectaname="T226" connectbname="T242" connectcname="T4" />
     <layoutturnout ident="TO2" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1145.0" ycen="380.0" xa="1135.0" ya="375.0" xb="1155.0" yb="385.0" xc="1160.0" yc="370.0" xd="1135.0" yd="375.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="LT52" connectaname="T5" connectbname="T4" connectcname="T8" />
     <layoutturnout ident="TO3" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1342.0" ycen="355.0" xa="1364.0" ya="355.0" xb="1320.0" yb="355.0" xc="1320.0" yc="375.0" xd="1364.0" yd="355.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Lake" blockname="Lake" connectaname="T129" connectbname="T3" connectcname="T1">
@@ -17962,7 +17966,7 @@
     <tracksegment ident="T136" blockname="AUTOBLK:147" connect1name="TO18" type1="TURNOUT_B" connect2name="TO45" type2="TURNOUT_B" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T212" blockname="Osage siding West" connect1name="A20" type1="POS_POINT" connect2name="TO83" type2="TURNOUT_B" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T228" blockname="AUTOBLK:137" connect1name="A31" type1="POS_POINT" connect2name="TO107" type2="TURNOUT_D" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T110" blockname="AUTOBLK:119" connect1name="TO70" type1="TURNOUT_A" connect2name="TO69" type2="TURNOUT_C" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T110" blockname="Echo 3" connect1name="TO70" type1="TURNOUT_A" connect2name="TO69" type2="TURNOUT_C" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T22" blockname="AUTOBLK:150" connect1name="TO13" type1="TURNOUT_B" connect2name="A33" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T231" blockname="Midway West frt approach" connect1name="TO14" type1="TURNOUT_C" connect2name="A33" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T33" blockname="Vista-Whiskey" connect1name="TO36" type1="TURNOUT_A" connect2name="TO20" type2="TURNOUT_B" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
