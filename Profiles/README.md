@@ -20,7 +20,9 @@ There's also a user-specific clone in the electricalcrewchief account.
 
  ## Process for updating from in-use WIP profile to Simple and Complex.
  
- These are the steps for updating some tested set of files in the Dispatcher_WIP profile in the ~electricalcrew/PMRRM-snapshot directory to Dispatcher_Complex and Dispatcher_Simple. These steps are done from the electricalcrew account which has write access to the relevant files. The net effect is to make changes in the HEAD of Simple and Complex from the specific tag being used for WIP.
+ These are the steps for updating some tested set of files in the Dispatcher_WIP profile in the ~electricalcrew/PMRRM-snapshot directory to Dispatcher_Complex and Dispatcher_Simple. Typically, PMRRM-snapshot is at some previously-applied tag, and is lagging behind the HEAD of the main PMRRM repository.  That's specifically the content that we want to promote from the WIP profile to the Simple and Complex profiles. The net effect is to make changes in the HEAD of Simple and Complex from the specific tag being used for WIP.
+ 
+ These steps are done from the electricalcrew account which has write access to the relevant files. 
  
   - Check for any changes in ~electricalcrew/PMRRM-snapshot/Profile/ and cope.
   
