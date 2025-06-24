@@ -12624,56 +12624,6 @@
   <signalmastlogics class="jmri.managers.configurexml.DefaultSignalMastLogicManagerXml">
     <logicDelay>500</logicDelay>
   </signalmastlogics>
-  <meters class="jmri.managers.configurexml.AbstractMeterManagerXml">
-    <meter>
-      <systemName>LVDB210(s/n211)InputCurrent</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDB210(s/n211)Voltage</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDB210(s/n37)InputCurrent</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDB210(s/n37)Voltage</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDB210(s/n387)InputCurrent</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDB210(s/n387)Voltage</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDB210(s/n397)InputCurrent</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDB210(s/n397)Voltage</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDB210(s/n407)InputCurrent</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDB210(s/n407)Voltage</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDB210(s/n474)InputCurrent</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDB210(s/n474)Voltage</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDB210(s/n489)InputCurrent</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDB210(s/n489)Voltage</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDCS240(s/n376)InputCurrent</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDCS240(s/n376)Voltage</systemName>
-    </meter>
-  </meters>
   <logixs class="jmri.managers.configurexml.DefaultLogixManagerXml">
     <logix userName="Start up initializer" enabled="yes">
       <systemName>IX:RTXINITIALIZER</systemName>
@@ -13898,7 +13848,7 @@
       <tooltip>Text Label</tooltip>
     </positionablelabel>
   </paneleditor>
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="PMRRM Dispatcher" x="0" y="25" windowheight="970" windowwidth="1920" panelheight="783" panelwidth="1450" sliders="yes" scrollable="both" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="yes" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="green" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclethrowncolor="orange" turnoutcirclesize="2" turnoutdrawunselectedleg="no" turnoutbx="7.0" turnoutcx="14.0" turnoutwid="14.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="yes" redBackground="192" greenBackground="192" blueBackground="192" gridSize="5" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="PMRRM Dispatcher" x="99" y="15" windowheight="1135" windowwidth="1616" panelheight="783" panelwidth="1450" sliders="yes" scrollable="both" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="yes" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="green" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclethrowncolor="orange" turnoutcirclesize="2" turnoutdrawunselectedleg="no" turnoutbx="7.0" turnoutcx="14.0" turnoutwid="14.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="yes" redBackground="192" greenBackground="192" blueBackground="192" gridSize="5" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="PMRRM Dispatcher" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
       <mainBallastWidth>0</mainBallastWidth>
@@ -18039,7 +17989,7 @@
     <tracksegment ident="T240" blockname="AUTOBLK:113" connect1name="TO115" type1="TURNOUT_B" connect2name="TO63" type2="TURNOUT_D" dashed="yes" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T107" blockname="AUTOBLK:135" connect1name="TO115" type1="TURNOUT_A" connect2name="TO70" type2="TURNOUT_C" dashed="yes" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T242" blockname="Midway East frt approach" connect1name="TO1" type1="TURNOUT_B" connect2name="EB45" type2="POS_POINT" dashed="yes" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T243" blockname="AUTOBLK:153" connect1name="A38" type1="POS_POINT" connect2name="A39" type2="POS_POINT" dashed="yes" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T243" blockname="AUTOBLK:153" connect1name="EB47" type1="POS_POINT" connect2name="A39" type2="POS_POINT" dashed="yes" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T241" blockname="AUTOBLK:153" connect1name="A39" type1="POS_POINT" connect2name="TO115" type2="TURNOUT_C" dashed="yes" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <positionablepoint ident="EB1" type="END_BUMPER" x="1227.0" y="370.0" connect1name="T8" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A4" type="ANCHOR" x="462.0" y="355.0" connect1name="T28" connect2name="T9" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
@@ -18123,7 +18073,7 @@
     <positionablepoint ident="A37" type="ANCHOR" x="600.0" y="510.0" connect1name="T239" connect2name="T127" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="EB46" type="END_BUMPER" x="870.0" y="380.0" connect1name="T16" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="EB45" type="END_BUMPER" x="1160.0" y="400.0" connect1name="T242" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A38" type="ANCHOR" x="490.0" y="120.0" connect1name="T243" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB47" type="END_BUMPER" x="490.0" y="120.0" connect1name="T243" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A39" type="ANCHOR" x="430.0" y="120.0" connect1name="T243" connect2name="T241" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
   </LayoutEditor>
 </layout-config>
