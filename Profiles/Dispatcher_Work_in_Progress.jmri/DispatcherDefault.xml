@@ -4,7 +4,7 @@
   <jmriversion>
     <major>5</major>
     <minor>11</minor>
-    <test>6</test>
+    <test>7</test>
     <modifier>plus</modifier>
   </jmriversion>
   <sensors class="jmri.jmrix.loconet.configurexml.LnSensorManagerXml">
@@ -12647,7 +12647,7 @@
       <conditionalAction option="1" type="9" systemName="Main init 2 Done" data="4" delay="0" string="" />
     </conditional>
   </conditionals>
-  <timebase class="jmri.jmrit.simpleclock.configurexml.SimpleTimebaseXml" time="Wed Jun 25 17:09:01 PDT 2025" rate="1.0" startrate="1.0" run="yes" master="yes" sync="no" correct="no" display="no" startstopped="no" startrunning="yes" startsettime="no" startclockoption="0" showbutton="no" startsetrate="yes" />
+  <timebase class="jmri.jmrit.simpleclock.configurexml.SimpleTimebaseXml" rate="1.0" startrate="1.0" run="yes" master="yes" sync="no" correct="no" display="no" startstopped="no" startrunning="yes" startsettime="no" startclockoption="0" showbutton="no" startsetrate="yes" />
   <entryexitpairs class="jmri.jmrit.entryexit.configurexml.EntryExitPairsXml">
     <layoutPanel name="PMRRM Dispatcher">
       <source type="sensor" item="NX-D2-WB">
@@ -12655,12 +12655,12 @@
         <destination type="sensor" item="NX-E1-WB" nxType="fullinterlocking" uniqueid="IN:c3f247a7-3a57-4829-9318-8970b22192dc" />
       </source>
       <source type="sensor" item="NX-D3-WB">
-        <destination type="sensor" item="NX-E3-WB" nxType="turnoutsetting" uniqueid="IN:c198a902-b112-4039-9e6c-ad25b69180a1" />
+        <destination type="sensor" item="NX-E3-WB" nxType="fullinterlocking" uniqueid="IN:c198a902-b112-4039-9e6c-ad25b69180a1" />
         <destination type="sensor" item="NX-E2-WB" nxType="fullinterlocking" uniqueid="IN:d236689d-8382-4555-ad88-198169227baf" />
         <destination type="sensor" item="NX-E1-WB" nxType="fullinterlocking" uniqueid="IN:82476c75-4c05-4b18-88a1-320f7625f7cc" />
       </source>
       <source type="sensor" item="NX-D4-WB">
-        <destination type="sensor" item="NX-E3-WB" nxType="turnoutsetting" uniqueid="IN:fa06fef3-d3cc-45d6-9c09-1f3d302fe61a" />
+        <destination type="sensor" item="NX-E3-WB" nxType="fullinterlocking" uniqueid="IN:fa06fef3-d3cc-45d6-9c09-1f3d302fe61a" />
         <destination type="sensor" item="NX-E2-WB" nxType="fullinterlocking" uniqueid="IN:22a24c37-37b2-40bd-b574-eac8a3fe16a9" />
         <destination type="sensor" item="NX-E1-WB" nxType="fullinterlocking" uniqueid="IN:b46d110d-7b10-4724-9bbb-82ffb52bcd6b" />
       </source>
@@ -12898,9 +12898,9 @@
         <destination type="sensor" item="NX-E3-EB" nxType="fullinterlocking" uniqueid="IN:186a3172-5966-405a-88de-9a6433b47788" />
       </source>
       <source type="sensor" item="NX-E3-WB">
-        <destination type="sensor" item="NX-GS-WB" nxType="turnoutsetting" uniqueid="IN:3acf7206-6d61-46fd-8731-d4b727379137" />
-        <destination type="sensor" item="NX-HS-WB" nxType="turnoutsetting" uniqueid="IN:38fa5bcb-f006-468a-8914-6e020cbad6ba" />
-        <destination type="sensor" item="NX-GM-WB" nxType="turnoutsetting" uniqueid="IN:803ea4ab-722e-473d-beef-865fa0949a20" />
+        <destination type="sensor" item="NX-GS-WB" nxType="fullinterlocking" uniqueid="IN:3acf7206-6d61-46fd-8731-d4b727379137" />
+        <destination type="sensor" item="NX-HS-WB" nxType="fullinterlocking" uniqueid="IN:38fa5bcb-f006-468a-8914-6e020cbad6ba" />
+        <destination type="sensor" item="NX-GM-WB" nxType="fullinterlocking" uniqueid="IN:803ea4ab-722e-473d-beef-865fa0949a20" />
       </source>
       <source type="sensor" item="NX-E2-WB">
         <destination type="sensor" item="NX-GS-WB" nxType="fullinterlocking" uniqueid="IN:de4a7035-72fb-43eb-a7e6-289f2eb09d1c" />
@@ -13851,7 +13851,7 @@
       <tooltip>Text Label</tooltip>
     </positionablelabel>
   </paneleditor>
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="PMRRM Dispatcher" x="-8" y="-8" windowheight="1168" windowwidth="1936" panelheight="783" panelwidth="1450" sliders="yes" scrollable="both" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="yes" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="green" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclethrowncolor="orange" turnoutcirclesize="2" turnoutdrawunselectedleg="no" turnoutbx="7.0" turnoutcx="14.0" turnoutwid="14.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="yes" redBackground="192" greenBackground="192" blueBackground="192" gridSize="5" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="PMRRM Dispatcher" x="0" y="38" windowheight="1076" windowwidth="1624" panelheight="783" panelwidth="1450" sliders="yes" scrollable="both" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="yes" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="green" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclethrowncolor="orange" turnoutcirclesize="2" turnoutdrawunselectedleg="no" turnoutbx="7.0" turnoutcx="14.0" turnoutwid="14.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="yes" redBackground="192" greenBackground="192" blueBackground="192" gridSize="5" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="PMRRM Dispatcher" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
       <mainBallastWidth>0</mainBallastWidth>
@@ -17533,7 +17533,7 @@
       <sensorB>NX-D1-WB</sensorB>
       <sensorC>NX-D2-WB</sensorC>
     </layoutturnout>
-    <layoutturnout ident="TO63" type="RH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="440.0" ycen="90.0" xa="410.0" ya="80.0" xb="449.99999" yb="80.0" xc="470.0" yc="100.0" xd="430.00001" yd="100.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHXOverXml" turnoutname="Delta 4 to 3" secondturnoutname="Branchline to Delta 4" secondturnoutinverted="true" blockname="CP D3" blockcname="CP D4" blockdname="CP D4" connectaname="T76" connectbname="T100" connectcname="T101" connectdname="T240">
+    <layoutturnout ident="TO63" type="RH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="450.0" ycen="90.0" xa="420.0" ya="80.0" xb="459.99999" yb="80.0" xc="480.0" yc="100.0" xd="440.00001" yd="100.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHXOverXml" turnoutname="Delta 4 to 3" secondturnoutname="Branchline to Delta 4" secondturnoutinverted="true" blockname="CP D3" blockcname="CP D4" blockdname="CP D4" connectaname="T76" connectbname="T100" connectcname="T101" connectdname="T240">
       <sensorB>NX-D3-WB</sensorB>
       <sensorC>NX-D4-WB</sensorC>
     </layoutturnout>
