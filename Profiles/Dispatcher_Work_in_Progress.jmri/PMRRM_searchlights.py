@@ -64,13 +64,13 @@ class ControlAbsSearchlight (jmri.jmrit.automat.AbstractAutomaton) :
         delta = self.current_milli_time() - self.lastTime 
         if delta < self.minAcceptableTime :
             # ran abnormally quickly
-            self.log.info("Searchlight logic {} ran in {} msec", self.getName(), delta)
-            self.log.info("prior time {}", str(self.priorBeans))
-            self.log.info("last time  {}", str(self.lastBeans))
+            self.log.debug("Searchlight logic {} ran in {} msec", self.getName(), delta)
+            self.log.debug("prior time {}", str(self.priorBeans))
+            self.log.debug("last time  {}", str(self.lastBeans))
             beansNow = []
             for bean in self.beans:
                 beansNow.append(bean.describeState(bean.state))
-            self.log.info("     now   {}", str(beansNow))
+            self.log.debug("     now   {}", str(beansNow))
             
         self.lastTime = self.current_milli_time()
         self.priorBeans = self.lastBeans
