@@ -72,15 +72,17 @@ class MenuItemDisable(jmri.jmrit.automat.AbstractAutomaton) :
         toolsMenu = findMenu(frame, "Tools")
 
         if toolsMenu is not None:
-        
+      
+            # Leave the WiThrottle Server items enabled
+
             # need to go down one extra level for these next
             servers = findItem(toolsMenu, "Servers")
             startWiThrottle = findItem(servers, "Start WiThrottle Server")
-            startWiThrottle.disable()
+            # startWiThrottle.disable()
         
             throttles = findItem(toolsMenu, "Throttles")
             startWiThrottle = findItem(throttles, "Start WiThrottle Server")
-            startWiThrottle.disable()
+            # startWiThrottle.disable()
             
         else :
             self.log.warn("Did not find Tools menu")
