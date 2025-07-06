@@ -52,10 +52,15 @@ ThrowTurnoutsWhenBlockAllocated("Sierra main", ["Bob G guess at Sierra camp spur
 ThrowTurnoutsWhenBlockAllocated("Powderhorn main", ["Powderhorn crossover main", "Powderhorn housetrack"])
 ThrowTurnoutsWhenBlockAllocated("Powderhorn siding", ["Powderhorn crossover main", "Powderhorn pocket crossover", "Powderhorn work track spur"])
 
+# Osage 162 may have to be done after changes there
+
 ThrowTurnoutsWhenBlockAllocated("Midway main 3 station", ["Midway W Team 1", "Midway E Team 1"])
+ThrowTurnoutsWhenBlockAllocated("Midway East Main passenger approach", ["Midway E P approach"])
 
 ThrowTurnoutsWhenBlockAllocated("Hudson siding", ["Hudson Oil Cans load 1"])
 ThrowTurnoutsWhenBlockAllocated("Gary siding", ["Gary Tyson Steel"])
+# 32 at Gary coming from Hudson siding needs another solution
+# 33 at Hudson coming from Gary siding needs another solution
 
 ThrowTurnoutsWhenBlockAllocated("Echo 3", ["Echo Street"])
 
