@@ -17539,7 +17539,7 @@
       <sensorB>NX-D1-WB</sensorB>
       <sensorC>NX-D2-WB</sensorC>
     </layoutturnout>
-    <layoutturnout ident="TO63" type="RH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="440.0" ycen="90.0" xa="410.0" ya="80.0" xb="449.99999" yb="80.0" xc="470.0" yc="100.0" xd="430.00001" yd="100.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHXOverXml" turnoutname="Delta 4 to 3" secondturnoutname="Branchline to Delta 4" blockname="CP D3" blockcname="CP D4" blockdname="CP D4" connectaname="T76" connectbname="T100" connectcname="T101" connectdname="T240">
+    <layoutturnout ident="TO63" type="RH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="440.0" ycen="90.0" xa="410.0" ya="80.0" xb="449.99999" yb="80.0" xc="470.0" yc="100.0" xd="430.00001" yd="100.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHXOverXml" turnoutname="Delta 4 to 3" secondturnoutname="Branchline to Delta 4" secondturnoutinverted="true" blockname="CP D3" blockcname="CP D4" blockdname="CP D4" connectaname="T76" connectbname="T100" connectcname="T101" connectdname="T240">
       <sensorB>NX-D3-WB</sensorB>
       <sensorC>NX-D4-WB</sensorC>
     </layoutturnout>
