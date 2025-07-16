@@ -4,7 +4,7 @@
   <jmriversion>
     <major>5</major>
     <minor>13</minor>
-    <test>1</test>
+    <test>2</test>
     <modifier />
   </jmriversion>
   <sensors class="jmri.jmrix.loconet.configurexml.LnSensorManagerXml">
@@ -17398,7 +17398,7 @@
       <iconmaps />
     </sensoricon>
     <positionablelabel x="410" y="530" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Sierra siding detection on layout is            " fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="yes" redBack="0" greenBack="255" blueBack="255" justification="left" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="410" y="540" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="wrong and reflected as such here too        " fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="yes" redBack="0" greenBack="255" blueBack="255" justification="left" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="410" y="540" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="wrong and reflected as such here also          " fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="yes" redBack="0" greenBack="255" blueBack="255" justification="left" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="640" y="520" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Forestry spur   " fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <sensoricon sensor="NX-MidwayMain1-WB" x="800" y="350" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="270" scale="1.0">
