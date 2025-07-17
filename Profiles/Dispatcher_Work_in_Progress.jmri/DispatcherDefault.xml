@@ -5,7 +5,7 @@
     <major>5</major>
     <minor>13</minor>
     <test>2</test>
-    <modifier>plus</modifier>
+    <modifier />
   </jmriversion>
   <sensors class="jmri.jmrix.loconet.configurexml.LnSensorManagerXml">
     <globalDebounceTimers>
@@ -6418,7 +6418,7 @@
       <systemName>IM1</systemName>
       <userName>Midway main 1 station</userName>
     </memory>
-    <memory>
+    <memory value="">
       <systemName>IM2</systemName>
       <userName>Midway main 2 station</userName>
     </memory>
@@ -11592,10 +11592,12 @@
     <layoutblock systemName="ILB30" occupancysensor="Midway Main 2 at Station" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Midway main 2 station">
       <systemName>ILB30</systemName>
       <userName>Midway main 2 station</userName>
+      <metric>60</metric>
     </layoutblock>
     <layoutblock systemName="ILB31" occupancysensor="Midway Main 3 at Station" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Midway Main 3 station">
       <systemName>ILB31</systemName>
       <userName>Midway main 3 station</userName>
+      <metric>70</metric>
     </layoutblock>
     <layoutblock systemName="ILB32" occupancysensor="Midway West Psg approach" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Midway West passenger approach">
       <systemName>ILB32</systemName>
@@ -13870,7 +13872,7 @@
       <tooltip>Text Label</tooltip>
     </positionablelabel>
   </paneleditor>
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="PMRRM Dispatcher" x="47" y="41" windowheight="1076" windowwidth="1624" panelheight="783" panelwidth="1450" sliders="yes" scrollable="both" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="yes" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="green" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclethrowncolor="orange" turnoutcirclesize="2" turnoutdrawunselectedleg="no" turnoutbx="7.0" turnoutcx="14.0" turnoutwid="14.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="yes" redBackground="192" greenBackground="192" blueBackground="192" gridSize="5" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="PMRRM Dispatcher" x="-8" y="-8" windowheight="1168" windowwidth="1936" panelheight="783" panelwidth="1450" sliders="yes" scrollable="both" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="yes" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="green" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclethrowncolor="orange" turnoutcirclesize="2" turnoutdrawunselectedleg="no" turnoutbx="7.0" turnoutcx="14.0" turnoutwid="14.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="yes" redBackground="192" greenBackground="192" blueBackground="192" gridSize="5" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="PMRRM Dispatcher" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
       <mainBallastWidth>0</mainBallastWidth>
