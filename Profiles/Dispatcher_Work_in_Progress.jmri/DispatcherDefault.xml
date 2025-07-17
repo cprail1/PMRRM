@@ -11662,16 +11662,16 @@
       <systemName>ILB47</systemName>
       <userName>Bend CP1-L</userName>
     </layoutblock>
-    <layoutblock systemName="ILB48" occupancysensor="Echo 1" occupiedsense="2" trackcolor="#BEBEFF" occupiedcolor="red" extracolor="green" memory="Echo main 1">
+    <layoutblock systemName="ILB48" occupancysensor="Echo 1" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Echo main 1">
       <systemName>ILB48</systemName>
       <userName>Echo 1</userName>
     </layoutblock>
-    <layoutblock systemName="ILB49" occupancysensor="Echo 2" occupiedsense="2" trackcolor="#BEBEFF" occupiedcolor="red" extracolor="green" memory="Echo main 2">
+    <layoutblock systemName="ILB49" occupancysensor="Echo 2" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Echo main 2">
       <systemName>ILB49</systemName>
       <userName>Echo 2</userName>
       <metric>200</metric>
     </layoutblock>
-    <layoutblock systemName="ILB50" occupancysensor="Echo 3" occupiedsense="2" trackcolor="#BEBEFF" occupiedcolor="red" extracolor="green" memory="Echo main 3">
+    <layoutblock systemName="ILB50" occupancysensor="Echo 3" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Echo main 3">
       <systemName>ILB50</systemName>
       <userName>Echo 3</userName>
       <metric>350</metric>
@@ -12676,6 +12676,18 @@
     </meter>
     <meter>
       <systemName>LVDB210(s/n407)Voltage</systemName>
+    </meter>
+    <meter>
+      <systemName>LVDB210(s/n474)InputCurrent</systemName>
+    </meter>
+    <meter>
+      <systemName>LVDB210(s/n474)Voltage</systemName>
+    </meter>
+    <meter>
+      <systemName>LVDB210(s/n489)InputCurrent</systemName>
+    </meter>
+    <meter>
+      <systemName>LVDB210(s/n489)Voltage</systemName>
     </meter>
     <meter>
       <systemName>LVDCS240(s/n376)InputCurrent</systemName>
