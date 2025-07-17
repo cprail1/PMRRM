@@ -4,7 +4,7 @@
   <jmriversion>
     <major>5</major>
     <minor>13</minor>
-    <test>1</test>
+    <test>2</test>
     <modifier />
   </jmriversion>
   <sensors class="jmri.jmrix.loconet.configurexml.LnSensorManagerXml">
@@ -32,17 +32,18 @@
     </sensor>
     <sensor inverted="false">
       <systemName>LS6</systemName>
-      <userName>Midway West Main 1</userName>
+      <userName>Midway MainW2 Yard X T58 (bastard coil sensor)</userName>
+      <comment>Is really only LS58 on main. Main include some Yard !!</comment>
     </sensor>
     <sensor inverted="false">
       <systemName>LS7</systemName>
-      <userName>Midway LS7 PW 2</userName>
-      <comment>part of stopping block of west p2 and p3</comment>
+      <userName>Midway MainW2&amp;3W2 M2&amp;M3 Stopping blocks (LS7 Bastard coil)</userName>
+      <comment>!!West P2 &amp; P3 stopping block</comment>
     </sensor>
     <sensor inverted="false">
       <systemName>LS8</systemName>
-      <userName>Midway LS6 PW 3 (bastard coil sensor)</userName>
-      <comment>This sensor starts roughly 1/2 way between 59 and 57, and includes 56 , possibly 157</comment>
+      <userName>Midway MainW3 (LS8 bastard coil sensor)</userName>
+      <comment>!!This sensor starts 1/2 way between 59 and 57 &amp; includes 56</comment>
     </sensor>
     <sensor inverted="false">
       <systemName>LS9</systemName>
@@ -8965,7 +8966,7 @@
       <systemName>IB33</systemName>
       <userName>Midway West main 1</userName>
       <permissive>no</permissive>
-      <occupancysensor>Midway West Main 1</occupancysensor>
+      <occupancysensor>Midway MainW2 Yard X T58 (bastard coil sensor)</occupancysensor>
       <path todir="64" fromdir="128" block="IB29">
         <beansetting setting="2">
           <turnout systemName="Midway W Yard" />
@@ -8981,7 +8982,7 @@
       <systemName>IB34</systemName>
       <userName>Midway West main 2</userName>
       <permissive>no</permissive>
-      <occupancysensor>Midway LS7 PW 2</occupancysensor>
+      <occupancysensor>Midway MainW2&amp;3W2 M2&amp;M3 Stopping blocks (LS7 Bastard coil)</occupancysensor>
     </block>
     <block systemName="IB35" length="508.0" curve="0">
       <systemName>IB35</systemName>
@@ -11600,7 +11601,7 @@
       <systemName>ILB32</systemName>
       <userName>Midway West main passenger</userName>
     </layoutblock>
-    <layoutblock systemName="ILB33" occupancysensor="Midway West Main 1" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green">
+    <layoutblock systemName="ILB33" occupancysensor="Midway MainW2 Yard X T58 (bastard coil sensor)" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green">
       <systemName>ILB33</systemName>
       <userName>Midway West main 1</userName>
     </layoutblock>
@@ -11661,16 +11662,16 @@
       <systemName>ILB47</systemName>
       <userName>Bend CP1-L</userName>
     </layoutblock>
-    <layoutblock systemName="ILB48" occupancysensor="Echo 1" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Echo main 1">
+    <layoutblock systemName="ILB48" occupancysensor="Echo 1" occupiedsense="2" trackcolor="#BEBEFF" occupiedcolor="red" extracolor="green" memory="Echo main 1">
       <systemName>ILB48</systemName>
       <userName>Echo 1</userName>
     </layoutblock>
-    <layoutblock systemName="ILB49" occupancysensor="Echo 2" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Echo main 2">
+    <layoutblock systemName="ILB49" occupancysensor="Echo 2" occupiedsense="2" trackcolor="#BEBEFF" occupiedcolor="red" extracolor="green" memory="Echo main 2">
       <systemName>ILB49</systemName>
       <userName>Echo 2</userName>
       <metric>200</metric>
     </layoutblock>
-    <layoutblock systemName="ILB50" occupancysensor="Echo 3" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Echo main 3">
+    <layoutblock systemName="ILB50" occupancysensor="Echo 3" occupiedsense="2" trackcolor="#BEBEFF" occupiedcolor="red" extracolor="green" memory="Echo main 3">
       <systemName>ILB50</systemName>
       <userName>Echo 3</userName>
       <metric>350</metric>
@@ -12675,18 +12676,6 @@
     </meter>
     <meter>
       <systemName>LVDB210(s/n407)Voltage</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDB210(s/n474)InputCurrent</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDB210(s/n474)Voltage</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDB210(s/n489)InputCurrent</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDB210(s/n489)Voltage</systemName>
     </meter>
     <meter>
       <systemName>LVDCS240(s/n376)InputCurrent</systemName>
@@ -13912,7 +13901,7 @@
       <tooltip>Text Label</tooltip>
     </positionablelabel>
   </paneleditor>
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="PMRRM Dispatcher" x="1921" y="25" windowheight="1055" windowwidth="1920" panelheight="783" panelwidth="1450" sliders="yes" scrollable="both" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="yes" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="green" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclethrowncolor="orange" turnoutcirclesize="2" turnoutdrawunselectedleg="no" turnoutbx="7.0" turnoutcx="14.0" turnoutwid="14.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="yes" redBackground="192" greenBackground="192" blueBackground="192" gridSize="5" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="PMRRM Dispatcher" x="-8" y="-8" windowheight="1168" windowwidth="1936" panelheight="783" panelwidth="1450" sliders="yes" scrollable="both" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="yes" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="green" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclethrowncolor="orange" turnoutcirclesize="2" turnoutdrawunselectedleg="no" turnoutbx="7.0" turnoutcx="14.0" turnoutwid="14.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="yes" redBackground="192" greenBackground="192" blueBackground="192" gridSize="5" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="PMRRM Dispatcher" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
       <mainBallastWidth>0</mainBallastWidth>
