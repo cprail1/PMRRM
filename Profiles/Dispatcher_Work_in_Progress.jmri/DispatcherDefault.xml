@@ -12829,11 +12829,13 @@
         <destination type="sensor" item="NX-RedcliffS-WB" nxType="fullinterlocking" uniqueid="IN:4e63d344-38bd-474e-9c8c-bfec7ad8a166" />
       </source>
       <source type="sensor" item="NX-PDM-EB">
+        <destination type="sensor" item="NX-OsageM-EB" nxType="fullinterlocking" uniqueid="IN:8c9792f3-86a4-4e7a-98d9-9f89fad7a5b1" />
         <destination type="sensor" item="NX-MidwayMain1-EB" nxType="fullinterlocking" uniqueid="IN:4121b0d7-a5ce-4b04-9d9d-1ac57b4ccd71" />
         <destination type="sensor" item="NX-MidwayMain2-EB" nxType="fullinterlocking" uniqueid="IN:f8b2601b-b0e3-4709-b597-627cf54eadb3" />
         <destination type="sensor" item="NX-MidwayMain3-EB" nxType="fullinterlocking" uniqueid="IN:fdf592bc-6ee7-461a-bf2c-2410f8d43997" />
       </source>
       <source type="sensor" item="NX-PDS-EB">
+        <destination type="sensor" item="NX-OsageM-EB" nxType="fullinterlocking" uniqueid="IN:c67e6b73-99cc-40c0-ab38-20ba4f723f91" />
         <destination type="sensor" item="NX-MidwayMain1-EB" nxType="fullinterlocking" uniqueid="IN:be4a6d75-5f07-406a-aabd-fb133b3e7499" />
         <destination type="sensor" item="NX-MidwayMain2-EB" nxType="fullinterlocking" uniqueid="IN:d9fd1a53-4b68-4bf3-bb8b-ded67d471089" />
         <destination type="sensor" item="NX-MidwayMain3-EB" nxType="fullinterlocking" uniqueid="IN:2b059556-2d80-4ab0-977b-b100be1ffc26" />
@@ -12855,6 +12857,27 @@
       <source type="sensor" item="NX-UptonS-WB">
         <destination type="sensor" item="NX-VistaM-WB" nxType="fullinterlocking" uniqueid="IN:0c772f0c-6081-46d7-b028-8a667dca3e55" />
         <destination type="sensor" item="NX-VistaS-WB" nxType="fullinterlocking" uniqueid="IN:be79e822-0864-4da1-9141-93f1c224ac43" />
+      </source>
+      <source type="sensor" item="NX-OsageM-WB">
+        <destination type="sensor" item="NX-PDM-WB" nxType="fullinterlocking" uniqueid="IN:24e43967-c598-4531-bbd3-576cbbeac720" />
+        <destination type="sensor" item="NX-PDS-WB" nxType="fullinterlocking" uniqueid="IN:89c8b97d-e5bf-4805-896a-60f5bd4e638b" />
+      </source>
+      <source type="sensor" item="NX-OsageS-WB">
+        <destination type="sensor" item="NX-PDM-WB" nxType="fullinterlocking" uniqueid="IN:d134b0de-5fa3-46e8-8ea0-09e6613db2c9" />
+        <destination type="sensor" item="NX-PDS-WB" nxType="fullinterlocking" uniqueid="IN:0dc7717a-b602-4498-9708-35dff4b3d797" />
+      </source>
+      <source type="sensor" item="NX-OsageM-EB">
+        <destination type="sensor" item="NX-MidwayMain1-EB" nxType="fullinterlocking" uniqueid="IN:2cf3f6c7-342f-4f07-943d-5be264ce0083" />
+        <destination type="sensor" item="NX-MidwayMain2-EB" nxType="fullinterlocking" uniqueid="IN:2e7bc9d2-fb95-4c00-8ff5-0f4c9b572611" />
+        <destination type="sensor" item="NX-MidwayMain3-EB" nxType="fullinterlocking" uniqueid="IN:8baa2478-a79e-445b-b9e2-c77cf894197a" />
+      </source>
+      <source type="sensor" item="NX-MidwayWestPsgApproach-WB">
+        <destination type="sensor" item="NX-OsageM-WB" nxType="fullinterlocking" uniqueid="IN:310dfad6-c20e-476b-920c-0960ffb28fde" />
+        <destination type="sensor" item="NX-OsageS-WB" nxType="fullinterlocking" uniqueid="IN:5081d4e9-ed71-4dc2-97df-7f81594402a5" />
+      </source>
+      <source type="sensor" item="NX-MidwayWestFrtApproach-WB">
+        <destination type="sensor" item="NX-OsageM-WB" nxType="fullinterlocking" uniqueid="IN:76c20be9-db39-489c-b135-06a4861bfa9a" />
+        <destination type="sensor" item="NX-OsageS-WB" nxType="fullinterlocking" uniqueid="IN:fc496643-e6a6-478c-89f0-6733dfd99cfa" />
       </source>
       <source type="sensor" item="NX-MidwayEastPsgApproach-EB">
         <destination type="sensor" item="NX-JM-EB" nxType="fullinterlocking" uniqueid="IN:191f010f-bcb6-4e63-9df4-f8b2c9c2ed7a" />
