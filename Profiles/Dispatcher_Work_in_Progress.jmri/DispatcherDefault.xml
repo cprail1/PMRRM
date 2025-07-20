@@ -6418,7 +6418,7 @@
       <systemName>IM1</systemName>
       <userName>Midway main 1 station</userName>
     </memory>
-    <memory>
+    <memory value="">
       <systemName>IM2</systemName>
       <userName>Midway main 2 station</userName>
     </memory>
@@ -11592,10 +11592,12 @@
     <layoutblock systemName="ILB30" occupancysensor="Midway Main 2 at Station" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Midway main 2 station">
       <systemName>ILB30</systemName>
       <userName>Midway main 2 station</userName>
+      <metric>60</metric>
     </layoutblock>
     <layoutblock systemName="ILB31" occupancysensor="Midway Main 3 at Station" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Midway Main 3 station">
       <systemName>ILB31</systemName>
       <userName>Midway main 3 station</userName>
+      <metric>70</metric>
     </layoutblock>
     <layoutblock systemName="ILB32" occupancysensor="Midway West Psg approach" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Midway West passenger approach">
       <systemName>ILB32</systemName>
@@ -12646,56 +12648,6 @@
   <signalmastlogics class="jmri.managers.configurexml.DefaultSignalMastLogicManagerXml">
     <logicDelay>500</logicDelay>
   </signalmastlogics>
-  <meters class="jmri.managers.configurexml.AbstractMeterManagerXml">
-    <meter>
-      <systemName>LVDB210(s/n211)InputCurrent</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDB210(s/n211)Voltage</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDB210(s/n37)InputCurrent</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDB210(s/n37)Voltage</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDB210(s/n387)InputCurrent</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDB210(s/n387)Voltage</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDB210(s/n397)InputCurrent</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDB210(s/n397)Voltage</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDB210(s/n407)InputCurrent</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDB210(s/n407)Voltage</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDB210(s/n474)InputCurrent</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDB210(s/n474)Voltage</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDB210(s/n489)InputCurrent</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDB210(s/n489)Voltage</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDCS240(s/n376)InputCurrent</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDCS240(s/n376)Voltage</systemName>
-    </meter>
-  </meters>
   <logixs class="jmri.managers.configurexml.DefaultLogixManagerXml">
     <logix userName="Start up initializer" enabled="yes">
       <systemName>IX:RTXINITIALIZER</systemName>
@@ -12882,12 +12834,14 @@
         <destination type="sensor" item="NX-MidwayMain1-EB" nxType="fullinterlocking" uniqueid="IN:4121b0d7-a5ce-4b04-9d9d-1ac57b4ccd71" />
         <destination type="sensor" item="NX-MidwayMain2-EB" nxType="fullinterlocking" uniqueid="IN:f8b2601b-b0e3-4709-b597-627cf54eadb3" />
         <destination type="sensor" item="NX-MidwayMain3-EB" nxType="fullinterlocking" uniqueid="IN:fdf592bc-6ee7-461a-bf2c-2410f8d43997" />
+        <destination type="sensor" item="NX-OsageS-EB" nxType="fullinterlocking" uniqueid="IN:8d2dc747-7250-40f5-89cc-bf8d422b5c49" />
       </source>
       <source type="sensor" item="NX-PDS-EB">
         <destination type="sensor" item="NX-OsageM-EB" nxType="fullinterlocking" uniqueid="IN:c67e6b73-99cc-40c0-ab38-20ba4f723f91" />
         <destination type="sensor" item="NX-MidwayMain1-EB" nxType="fullinterlocking" uniqueid="IN:be4a6d75-5f07-406a-aabd-fb133b3e7499" />
         <destination type="sensor" item="NX-MidwayMain2-EB" nxType="fullinterlocking" uniqueid="IN:d9fd1a53-4b68-4bf3-bb8b-ded67d471089" />
         <destination type="sensor" item="NX-MidwayMain3-EB" nxType="fullinterlocking" uniqueid="IN:2b059556-2d80-4ab0-977b-b100be1ffc26" />
+        <destination type="sensor" item="NX-OsageS-EB" nxType="fullinterlocking" uniqueid="IN:f1885f22-8eda-46ea-9b37-802bd618ec21" />
       </source>
       <source type="sensor" item="NX-UptonM-EB">
         <destination type="sensor" item="NX-Troy3-EB" nxType="fullinterlocking" uniqueid="IN:5bdb14e0-6c16-424c-9b94-8ef26ccdb585" />
@@ -13021,6 +12975,11 @@
       </source>
       <source type="sensor" item="NX-MidwayWestFrtApproach-EB">
         <destination type="sensor" item="NX-MidwayWestFrtApproach-WB" nxType="fullinterlocking" uniqueid="IN:98bfbc57-de6a-42e2-b302-dac3ea5ae2cd" />
+      </source>
+      <source type="sensor" item="NX-OsageS-EB">
+        <destination type="sensor" item="NX-MidwayMain1-EB" nxType="fullinterlocking" uniqueid="IN:fe81858d-e50b-4715-b00e-a088ba0ce610" />
+        <destination type="sensor" item="NX-MidwayMain2-EB" nxType="fullinterlocking" uniqueid="IN:5b9d38e1-d94c-4ad6-b2a0-6c30db7a299f" />
+        <destination type="sensor" item="NX-MidwayMain3-EB" nxType="fullinterlocking" uniqueid="IN:0c96d8fa-5c5f-492f-ade9-b71ffad7d8cf" />
       </source>
       <source type="sensor" item="NX-GM-WB">
         <destination type="sensor" item="NX-HM-WB" nxType="fullinterlocking" uniqueid="IN:916a30df-7c12-4635-b130-67038e77bf9a" />
