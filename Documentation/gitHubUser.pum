@@ -20,9 +20,9 @@ together {
         electricalcrew PMRRM-snapshot
     ]
     
-    frame pmrrmPeter [
-        electricalcrew PMRRM-test
-    ]
+'    frame pmrrmPeter [
+'        electricalcrew PMRRM-test
+'    ]
 }
 
 database githubPeter [
@@ -46,26 +46,26 @@ collections electricalcrew [
    electricalcrew "Dispatcher *" profiles
 ]
 
-collections electricalcrewtest [
-   electricalcrew "Test *" profiles
-]
+'collections electricalcrewtest [
+'   electricalcrew "Test *" profiles
+']
 
 }
 
-githubMain <--> bob
+githubMain <--[#0000FF]> bob
 
-githubMain <--> pmrrmMain
-githubMain --> pmrrmSnapshot
+githubPeter <--> pmrrmMain
+githubPeter --> pmrrmSnapshot
 
 githubMain --> peterLaptop
-githubPeter --> bob
+githubPeter --[#0000FF]> bob
 
 githubPeter<--> peterLaptop
-githubPeter<--> pmrrmPeter
+'githubPeter<--> pmrrmPeter
 
 pmrrmSnapshot --> dispatcher
 pmrrmMain <--> electricalcrew
-pmrrmPeter <--> electricalcrewtest
+'pmrrmPeter <--> electricalcrewtest
 
 
 
