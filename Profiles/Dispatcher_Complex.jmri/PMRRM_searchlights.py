@@ -25,6 +25,23 @@ class ControlAbsSearchlight (jmri.jmrit.automat.AbstractAutomaton) :
         
         self.minAcceptableTime = 200
 
+        self.log = LoggerFactory.getLogger("PMRRM_searchlights");
+
+        # print checks
+        if self.local == None : self.log.error("searchlight {} has null head", self.name)
+        if None in self.blocks : 
+            self.log.error("searchlight {}  has null block", self.name)
+            i = 1
+            for item in self.blocks :
+                if item == None : self.log.error("       item {}", i)
+                i = i+1
+        if None in self.turnouts : 
+            self.log.error("searchlight {}  has null turnout", self.name)
+            i = 1
+            for item in self.blocks :
+                if item == None : self.log.error("        item {}", i)
+                i = i+1
+
         # create a list of inputs to watch
         self.beans = []
         self.beans.extend(self.blocks)
@@ -37,7 +54,6 @@ class ControlAbsSearchlight (jmri.jmrit.automat.AbstractAutomaton) :
         
         self.lastTime = self.current_milli_time() - self.minAcceptableTime # subtract to skip warning on 1st cycle
         self.lastBeans = []
-        self.log = LoggerFactory.getLogger("PMRRM_searchlights");
 
         # Printing the equivalent STL goes here
         
@@ -48,13 +64,13 @@ class ControlAbsSearchlight (jmri.jmrit.automat.AbstractAutomaton) :
         delta = self.current_milli_time() - self.lastTime 
         if delta < self.minAcceptableTime :
             # ran abnormally quickly
-            self.log.info("Searchlight logic {} ran in {} msec", self.getName(), delta)
-            self.log.info("prior time {}", str(self.priorBeans))
-            self.log.info("last time  {}", str(self.lastBeans))
+            self.log.debug("Searchlight logic {} ran in {} msec", self.getName(), delta)
+            self.log.debug("prior time {}", str(self.priorBeans))
+            self.log.debug("last time  {}", str(self.lastBeans))
             beansNow = []
             for bean in self.beans:
                 beansNow.append(bean.describeState(bean.state))
-            self.log.info("     now   {}", str(beansNow))
+            self.log.debug("     now   {}", str(beansNow))
             
         self.lastTime = self.current_milli_time()
         self.priorBeans = self.lastBeans
@@ -100,7 +116,7 @@ class ControlAbsSearchlight (jmri.jmrit.automat.AbstractAutomaton) :
         # invoke on layout thread
         jmri.util.ThreadingUtil.runOnLayout(workOnLayout(self.blocks, self.turnouts, self.local, self.next, self.next2))
 
-        self.waitChange(self.beans)  # run again when something changes or after a delay (just in case)?
+        self.waitChange(self.beans, 4000)  # run again when something changes or after a delay (just in case)?
         
         return True
 
@@ -122,7 +138,7 @@ a.start()
 a = ControlAbsSearchlight()
 a.setName("W S-T")
 a.local    = signals.getSignalHead("W S-T")
-a.blocks   = [sensors.getSensor("S-T")]
+a.blocks   = [sensors.getSensor("Sierra-Troy")]
 a.turnouts = []
 a.next     = signals.getSignalHead("W Sierra Main")
 a.next2    = False
@@ -140,7 +156,7 @@ a.start()
 a = ControlAbsSearchlight()
 a.setName("W U-T")
 a.local    = signals.getSignalHead("W U-T")
-a.blocks   = [sensors.getSensor("T-U")]
+a.blocks   = [sensors.getSensor("Troy-Upton")]
 a.turnouts = []
 a.next     = signals.getSignalHead("W Troy Main")
 a.next2    = False
@@ -158,7 +174,7 @@ a.start()
 a = ControlAbsSearchlight()
 a.setName("W U-V")
 a.local    = signals.getSignalHead("W U-V")
-a.blocks   = [sensors.getSensor("U-Vw"), sensors.getSensor("U-Ve")]
+a.blocks   = [sensors.getSensor("Upton-Vista West"), sensors.getSensor("Upton-Vista East")]
 a.turnouts = []
 a.next     = signals.getSignalHead("W Upton Main")
 a.next2    = False
@@ -168,7 +184,7 @@ a = ControlAbsSearchlight()
 a.setName("W Vista Main")
 a.local    = signals.getSignalHead("W Vista Main")
 a.blocks   = [sensors.getSensor("Vista main")]
-a.turnouts = [turnouts.getTurnout("Vista W 1"), turnouts.getTurnout("Vista E 1"), turnouts.getTurnout("Vista W 2"), turnouts.getTurnout("Vista E 2")]
+a.turnouts = [turnouts.getTurnout("Vista W 1"), turnouts.getTurnout("Vista E 1"), turnouts.getTurnout("Vista W 2 MainW -VistaYard W"), turnouts.getTurnout("Vista E 2 MainE -VistaYard E")]
 a.next     = signals.getSignalHead("W U-T")
 a.next2    = False
 a.start()
@@ -176,7 +192,7 @@ a.start()
 a = ControlAbsSearchlight()
 a.setName("W V-W")
 a.local    = signals.getSignalHead("W V-W")
-a.blocks   = [sensors.getSensor("V-W")]
+a.blocks   = [sensors.getSensor("Vista-Whiskey")]
 a.turnouts = []
 a.next     = signals.getSignalHead("W Vista Main")
 a.next2    = False
@@ -198,7 +214,7 @@ a.start()
 a = ControlAbsSearchlight()
 a.setName("E W-X")
 a.local    = signals.getSignalHead("E W-X")
-a.blocks   = [sensors.getSensor("W-X")]
+a.blocks   = [sensors.getSensor("Whiskey-Xerox")]
 a.turnouts = []
 a.next     = signals.getSignalHead("E Xerox Main")
 a.next2    = False # according to Mike, as E W-X is single-head, it only references top head at Xerox entrance
@@ -216,7 +232,7 @@ a.start()
 a = ControlAbsSearchlight()
 a.setName("E V-W")
 a.local    = signals.getSignalHead("E V-W")
-a.blocks   = [sensors.getSensor("V-W")]
+a.blocks   = [sensors.getSensor("Vista-Whiskey")]
 a.turnouts = []
 a.next     = signals.getSignalHead("E Whiskey Main")
 a.next2    = False
@@ -226,7 +242,7 @@ a = ControlAbsSearchlight()
 a.setName("E Vista Main")
 a.local    = signals.getSignalHead("E Vista Main")
 a.blocks   = [sensors.getSensor("Vista main")]
-a.turnouts = [turnouts.getTurnout("Vista W 1"), turnouts.getTurnout("Vista E 1"), turnouts.getTurnout("Vista W 2"), turnouts.getTurnout("Vista E 2")]
+a.turnouts = [turnouts.getTurnout("Vista W 1"), turnouts.getTurnout("Vista E 1"), turnouts.getTurnout("Vista W 2 MainW -VistaYard W"), turnouts.getTurnout("Vista E 2 MainE -VistaYard E")]
 a.next     = signals.getSignalHead("E V-W")
 a.next2    = False
 a.start()
@@ -234,7 +250,7 @@ a.start()
 a = ControlAbsSearchlight()
 a.setName("E U-V")
 a.local    = signals.getSignalHead("E U-V")
-a.blocks   = [sensors.getSensor("U-Vw"), sensors.getSensor("U-Ve")]
+a.blocks   = [sensors.getSensor("Upton-Vista West"), sensors.getSensor("Upton-Vista East")]
 a.turnouts = []
 a.next     = signals.getSignalHead("E Vista Main")
 a.next2    = False
@@ -252,7 +268,7 @@ a.start()
 a = ControlAbsSearchlight()
 a.setName("E T-U")
 a.local    = signals.getSignalHead("E T-U")
-a.blocks   = [sensors.getSensor("T-U")]
+a.blocks   = [sensors.getSensor("Troy-Upton")]
 a.turnouts = []
 a.next     = signals.getSignalHead("E Upton Main")
 a.next2    = False
@@ -270,7 +286,7 @@ a.start()
 a = ControlAbsSearchlight()
 a.setName("E S-T")
 a.local    = signals.getSignalHead("E S-T")
-a.blocks   = [sensors.getSensor("S-T")]
+a.blocks   = [sensors.getSensor("Sierra-Troy")]
 a.turnouts = []
 a.next     = signals.getSignalHead("E Troy Main")
 a.next2    = False
