@@ -39,8 +39,8 @@
     </sensor>
     <sensor inverted="false">
       <systemName>LS7</systemName>
-      <userName>Midway MainW2&amp;3W2 M2&amp;M3 Stopping blocks (LS7 Bastard coil)</userName>
-      <comment>!!West P2 &amp; P3 stopping block</comment>
+      <userName>Midway West station 2 stop block</userName>
+      <comment>!!West P2 stopping block</comment>
     </sensor>
     <sensor inverted="false">
       <systemName>LS8</systemName>
@@ -8155,6 +8155,18 @@
       <systemName>IB:AUTO:0052</systemName>
       <userName>Sierra Forestry spur</userName>
     </block>
+    <block systemName="IB:AUTO:0053">
+      <systemName>IB:AUTO:0053</systemName>
+      <userName>Midway West station 3 stop block</userName>
+    </block>
+    <block systemName="IB:AUTO:0054">
+      <systemName>IB:AUTO:0054</systemName>
+      <userName>Midway West station 2 stop block</userName>
+    </block>
+    <block systemName="IB:AUTO:0055">
+      <systemName>IB:AUTO:0055</systemName>
+      <userName>Midway West passenger throat</userName>
+    </block>
     <block systemName="IB1" length="7620.0" curve="1">
       <systemName>IB1</systemName>
       <userName>Narrows, Lower</userName>
@@ -8881,27 +8893,18 @@
       <userName>Midway main 2 station</userName>
       <permissive>no</permissive>
       <occupancysensor>Midway Main 2 at Station</occupancysensor>
-      <path todir="128" fromdir="64" block="IB32">
-        <beansetting setting="2">
-          <turnout systemName="Midway W P2" />
-        </beansetting>
-      </path>
       <path todir="64" fromdir="128" block="IB65">
         <beansetting setting="2">
           <turnout systemName="LT55" />
         </beansetting>
       </path>
+      <path todir="128" fromdir="64" block="IB:AUTO:0054" />
     </block>
     <block systemName="IB31" length="7112.0" curve="0">
       <systemName>IB31</systemName>
       <userName>Midway main 3 station</userName>
       <permissive>no</permissive>
       <occupancysensor>Midway Main 3 at Station</occupancysensor>
-      <path todir="128" fromdir="64" block="IB32">
-        <beansetting setting="4">
-          <turnout systemName="Midway W P2" />
-        </beansetting>
-      </path>
       <path todir="144" fromdir="96" block="IB59">
         <beansetting setting="4">
           <turnout systemName="Midway E Team 1" />
@@ -8917,6 +8920,7 @@
           <turnout systemName="Midway W Team 1" />
         </beansetting>
       </path>
+      <path todir="128" fromdir="64" block="IB:AUTO:0053" />
     </block>
     <block systemName="IB32" length="7620.0" curve="0">
       <systemName>IB32</systemName>
@@ -8928,38 +8932,19 @@
           <turnout systemName="LT60" />
         </beansetting>
       </path>
-      <path todir="64" fromdir="128" block="IB30">
-        <beansetting setting="2">
-          <turnout systemName="Midway W P2" />
-        </beansetting>
-        <beansetting setting="4">
-          <turnout systemName="Midway W P1" />
-        </beansetting>
-        <beansetting setting="2">
-          <turnout systemName="LT59" />
-        </beansetting>
-      </path>
-      <path todir="64" fromdir="128" block="IB31">
-        <beansetting setting="4">
-          <turnout systemName="Midway W P2" />
-        </beansetting>
-        <beansetting setting="4">
-          <turnout systemName="Midway W P1" />
-        </beansetting>
-        <beansetting setting="2">
-          <turnout systemName="LT59" />
-        </beansetting>
-      </path>
-      <path todir="64" fromdir="128" block="IB33">
-        <beansetting setting="2">
-          <turnout systemName="Midway W P1" />
-        </beansetting>
-        <beansetting setting="2">
-          <turnout systemName="LT59" />
-        </beansetting>
-      </path>
       <path todir="96" fromdir="144" block="IB87">
         <beansetting setting="4">
+          <turnout systemName="LT59" />
+        </beansetting>
+      </path>
+      <path todir="32" fromdir="16" block="IB:AUTO:0055" />
+      <path todir="32" fromdir="16" block="IB:AUTO:0055">
+        <beansetting setting="4">
+          <turnout systemName="Midway W P1" />
+        </beansetting>
+      </path>
+      <path todir="64" fromdir="128" block="IB:AUTO:0055">
+        <beansetting setting="2">
           <turnout systemName="LT59" />
         </beansetting>
       </path>
@@ -8974,7 +8959,7 @@
           <turnout systemName="Midway W Yard" />
         </beansetting>
       </path>
-      <path todir="128" fromdir="64" block="IB32">
+      <path todir="128" fromdir="64" block="IB:AUTO:0055">
         <beansetting setting="2">
           <turnout systemName="Midway W P1" />
         </beansetting>
@@ -8984,7 +8969,7 @@
       <systemName>IB34</systemName>
       <userName>Midway West main 2</userName>
       <permissive>no</permissive>
-      <occupancysensor>Midway MainW2&amp;3W2 M2&amp;M3 Stopping blocks (LS7 Bastard coil)</occupancysensor>
+      <occupancysensor>Midway West station 2 stop block</occupancysensor>
     </block>
     <block systemName="IB35" length="508.0" curve="0">
       <systemName>IB35</systemName>
@@ -11473,6 +11458,62 @@
         </beansetting>
       </path>
     </block>
+    <block systemName="IB:AUTO:0053" length="0.0" curve="0">
+      <systemName>IB:AUTO:0053</systemName>
+      <userName>Midway West station 3 stop block</userName>
+      <permissive>no</permissive>
+      <occupancysensor>Midway West station 3 stop block</occupancysensor>
+      <path todir="64" fromdir="128" block="IB31" />
+      <path todir="128" fromdir="64" block="IB:AUTO:0055">
+        <beansetting setting="4">
+          <turnout systemName="Midway W P2" />
+        </beansetting>
+      </path>
+    </block>
+    <block systemName="IB:AUTO:0054" length="0.0" curve="0">
+      <systemName>IB:AUTO:0054</systemName>
+      <userName>Midway West station 2 stop block</userName>
+      <permissive>no</permissive>
+      <occupancysensor>Midway West station 2 stop block</occupancysensor>
+      <path todir="64" fromdir="128" block="IB30" />
+      <path todir="128" fromdir="64" block="IB:AUTO:0055">
+        <beansetting setting="2">
+          <turnout systemName="Midway W P2" />
+        </beansetting>
+      </path>
+    </block>
+    <block systemName="IB:AUTO:0055" length="0.0" curve="0">
+      <systemName>IB:AUTO:0055</systemName>
+      <userName>Midway West passenger throat</userName>
+      <permissive>no</permissive>
+      <occupancysensor>Midway MainW3 (LS8 bastard coil sensor)</occupancysensor>
+      <path todir="128" fromdir="64" block="IB32">
+        <beansetting setting="2">
+          <turnout systemName="LT59" />
+        </beansetting>
+      </path>
+      <path todir="64" fromdir="128" block="IB33">
+        <beansetting setting="2">
+          <turnout systemName="Midway W P1" />
+        </beansetting>
+      </path>
+      <path todir="64" fromdir="128" block="IB:AUTO:0053">
+        <beansetting setting="4">
+          <turnout systemName="Midway W P2" />
+        </beansetting>
+        <beansetting setting="4">
+          <turnout systemName="Midway W P1" />
+        </beansetting>
+      </path>
+      <path todir="64" fromdir="128" block="IB:AUTO:0054">
+        <beansetting setting="2">
+          <turnout systemName="Midway W P2" />
+        </beansetting>
+        <beansetting setting="4">
+          <turnout systemName="Midway W P1" />
+        </beansetting>
+      </path>
+    </block>
   </blocks>
   <layoutblocks class="jmri.jmrit.display.layoutEditor.configurexml.LayoutBlockManagerXml" blockrouting="yes">
     <layoutblock systemName="ILB1" occupancysensor="Narrows Lower" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Narrows, lower">
@@ -11808,6 +11849,10 @@
       <systemName>ILB82</systemName>
       <userName>AUTOBLK:82</userName>
     </layoutblock>
+    <layoutblock systemName="ILB83" occupancysensor="Midway West station 3 stop block" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green">
+      <systemName>ILB83</systemName>
+      <userName>Midway West station 3 stop block</userName>
+    </layoutblock>
     <layoutblock systemName="ILB84" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="white">
       <systemName>ILB84</systemName>
       <userName>Bend CP3-L</userName>
@@ -11877,6 +11922,10 @@
       <systemName>ILB100</systemName>
       <userName>Bend CP4</userName>
     </layoutblock>
+    <layoutblock systemName="ILB101" occupancysensor="Midway West station 2 stop block" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green">
+      <systemName>ILB101</systemName>
+      <userName>Midway West station 2 stop block</userName>
+    </layoutblock>
     <layoutblock systemName="ILB102" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="white">
       <systemName>ILB102</systemName>
       <userName>Colton CP3-L</userName>
@@ -11944,6 +11993,10 @@
     <layoutblock systemName="ILB118" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="white">
       <systemName>ILB118</systemName>
       <userName>AUTOBLK:118</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB119" occupancysensor="Midway MainW3 (LS8 bastard coil sensor)" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green">
+      <systemName>ILB119</systemName>
+      <userName>Midway West passenger throat</userName>
     </layoutblock>
     <layoutblock systemName="ILB120" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="white">
       <systemName>ILB120</systemName>
@@ -12731,6 +12784,7 @@
         <destination type="sensor" item="NX-E3-WB" nxType="fullinterlocking" uniqueid="IN:c198a902-b112-4039-9e6c-ad25b69180a1" />
         <destination type="sensor" item="NX-E2-WB" nxType="fullinterlocking" uniqueid="IN:d236689d-8382-4555-ad88-198169227baf" />
         <destination type="sensor" item="NX-E1-WB" nxType="fullinterlocking" uniqueid="IN:82476c75-4c05-4b18-88a1-320f7625f7cc" />
+        <destination type="sensor" item="NX-E2-EB" nxType="fullinterlocking" uniqueid="IN:7db7e935-cc9b-4048-93bb-57b3b6083a56" />
       </source>
       <source type="sensor" item="NX-D4-WB">
         <destination type="sensor" item="NX-E3-WB" nxType="fullinterlocking" uniqueid="IN:fa06fef3-d3cc-45d6-9c09-1f3d302fe61a" />
@@ -12883,16 +12937,10 @@
       </source>
       <source type="sensor" item="NX-PDM-EB">
         <destination type="sensor" item="NX-OsageM-EB" nxType="fullinterlocking" uniqueid="IN:8c9792f3-86a4-4e7a-98d9-9f89fad7a5b1" />
-        <destination type="sensor" item="NX-MidwayMain1-EB" nxType="fullinterlocking" uniqueid="IN:4121b0d7-a5ce-4b04-9d9d-1ac57b4ccd71" />
-        <destination type="sensor" item="NX-MidwayMain2-EB" nxType="fullinterlocking" uniqueid="IN:f8b2601b-b0e3-4709-b597-627cf54eadb3" />
-        <destination type="sensor" item="NX-MidwayMain3-EB" nxType="fullinterlocking" uniqueid="IN:fdf592bc-6ee7-461a-bf2c-2410f8d43997" />
         <destination type="sensor" item="NX-OsageS-EB" nxType="fullinterlocking" uniqueid="IN:8d2dc747-7250-40f5-89cc-bf8d422b5c49" />
       </source>
       <source type="sensor" item="NX-PDS-EB">
         <destination type="sensor" item="NX-OsageM-EB" nxType="fullinterlocking" uniqueid="IN:c67e6b73-99cc-40c0-ab38-20ba4f723f91" />
-        <destination type="sensor" item="NX-MidwayMain1-EB" nxType="fullinterlocking" uniqueid="IN:be4a6d75-5f07-406a-aabd-fb133b3e7499" />
-        <destination type="sensor" item="NX-MidwayMain2-EB" nxType="fullinterlocking" uniqueid="IN:d9fd1a53-4b68-4bf3-bb8b-ded67d471089" />
-        <destination type="sensor" item="NX-MidwayMain3-EB" nxType="fullinterlocking" uniqueid="IN:2b059556-2d80-4ab0-977b-b100be1ffc26" />
         <destination type="sensor" item="NX-OsageS-EB" nxType="fullinterlocking" uniqueid="IN:f1885f22-8eda-46ea-9b37-802bd618ec21" />
       </source>
       <source type="sensor" item="NX-UptonM-EB">
@@ -12921,14 +12969,9 @@
         <destination type="sensor" item="NX-PDM-WB" nxType="fullinterlocking" uniqueid="IN:d134b0de-5fa3-46e8-8ea0-09e6613db2c9" />
         <destination type="sensor" item="NX-PDS-WB" nxType="fullinterlocking" uniqueid="IN:0dc7717a-b602-4498-9708-35dff4b3d797" />
       </source>
-      <source type="sensor" item="NX-OsageM-EB">
-        <destination type="sensor" item="NX-MidwayMain1-EB" nxType="fullinterlocking" uniqueid="IN:2cf3f6c7-342f-4f07-943d-5be264ce0083" />
-        <destination type="sensor" item="NX-MidwayMain2-EB" nxType="fullinterlocking" uniqueid="IN:2e7bc9d2-fb95-4c00-8ff5-0f4c9b572611" />
-        <destination type="sensor" item="NX-MidwayMain3-EB" nxType="fullinterlocking" uniqueid="IN:8baa2478-a79e-445b-b9e2-c77cf894197a" />
-      </source>
       <source type="sensor" item="NX-MidwayWestPsgApproach-WB">
-        <destination type="sensor" item="NX-OsageM-WB" nxType="fullinterlocking" uniqueid="IN:310dfad6-c20e-476b-920c-0960ffb28fde" />
-        <destination type="sensor" item="NX-OsageS-WB" nxType="fullinterlocking" uniqueid="IN:5081d4e9-ed71-4dc2-97df-7f81594402a5" />
+        <destination type="sensor" item="NX-OsageM-WB" nxType="fullinterlocking" uniqueid="IN:9fac5403-4358-44b1-a9d7-ce621a49b713" />
+        <destination type="sensor" item="NX-OsageS-WB" nxType="fullinterlocking" uniqueid="IN:c266f17a-b792-4f14-9c89-79f8ac5fea1d" />
       </source>
       <source type="sensor" item="NX-MidwayWestFrtApproach-WB">
         <destination type="sensor" item="NX-OsageM-WB" nxType="fullinterlocking" uniqueid="IN:76c20be9-db39-489c-b135-06a4861bfa9a" />
@@ -12971,11 +13014,13 @@
         <destination type="sensor" item="NX-E3-EB" nxType="fullinterlocking" uniqueid="IN:186a3172-5966-405a-88de-9a6433b47788" />
       </source>
       <source type="sensor" item="NX-E3-WB">
+        <destination type="sensor" item="NX-HS-EB" nxType="fullinterlocking" uniqueid="IN:538dfa6a-7e6b-4124-9913-aa6a117805ba" />
         <destination type="sensor" item="NX-GS-WB" nxType="fullinterlocking" uniqueid="IN:3acf7206-6d61-46fd-8731-d4b727379137" />
         <destination type="sensor" item="NX-HS-WB" nxType="fullinterlocking" uniqueid="IN:38fa5bcb-f006-468a-8914-6e020cbad6ba" />
         <destination type="sensor" item="NX-GM-WB" nxType="fullinterlocking" uniqueid="IN:803ea4ab-722e-473d-beef-865fa0949a20" />
       </source>
       <source type="sensor" item="NX-E2-WB">
+        <destination type="sensor" item="NX-HS-EB" nxType="fullinterlocking" uniqueid="IN:b95454a3-26ad-4f87-8c99-95006887d7de" />
         <destination type="sensor" item="NX-GS-WB" nxType="fullinterlocking" uniqueid="IN:de4a7035-72fb-43eb-a7e6-289f2eb09d1c" />
         <destination type="sensor" item="NX-HS-WB" nxType="fullinterlocking" uniqueid="IN:d7ca4ba3-4440-4175-ab3d-219266cc46da" />
         <destination type="sensor" item="NX-JM-WB" nxType="fullinterlocking" uniqueid="IN:a95349ed-2968-44d2-98a0-40d1a322161b" />
@@ -12983,6 +13028,7 @@
         <destination type="sensor" item="NX-GM-WB" nxType="fullinterlocking" uniqueid="IN:346ff20a-26f6-400c-9366-a32d166240f6" />
       </source>
       <source type="sensor" item="NX-E1-WB">
+        <destination type="sensor" item="NX-HS-EB" nxType="fullinterlocking" uniqueid="IN:c988ccec-dd4d-4e8c-89cd-926c92c18355" />
         <destination type="sensor" item="NX-GS-WB" nxType="fullinterlocking" uniqueid="IN:5ffd7e16-d07f-40b1-ad2b-06862da0344f" />
         <destination type="sensor" item="NX-HS-WB" nxType="fullinterlocking" uniqueid="IN:898ac761-3784-4859-9101-557e8e82b7c8" />
         <destination type="sensor" item="NX-JM-WB" nxType="fullinterlocking" uniqueid="IN:3fc6b6dd-498a-47a9-8cc4-7038085ab970" />
@@ -12998,40 +13044,26 @@
         <destination type="sensor" item="NX-JS-WB" nxType="fullinterlocking" uniqueid="IN:fe4f71ba-99d3-4390-bf99-4d66b088f0e6" />
       </source>
       <source type="sensor" item="NX-JM-WB">
-        <destination type="sensor" item="NX-MidwayMain1-WB" nxType="fullinterlocking" uniqueid="IN:7ed5f074-46fe-4bcd-9c8c-58f29e3276d5" />
-        <destination type="sensor" item="NX-MidwayMain2-WB" nxType="fullinterlocking" uniqueid="IN:cace71ea-d788-4c99-ab67-48db5f60ad71" />
-        <destination type="sensor" item="NX-MidwayMain3-WB" nxType="fullinterlocking" uniqueid="IN:66d97e82-6d45-4c69-bf3d-f21d76220e4c" />
+        <destination type="sensor" item="NX-MidwayMain1-WB" nxType="fullinterlocking" uniqueid="IN:f29e1dbf-053d-4694-b630-100fa2c5ef27" />
+        <destination type="sensor" item="NX-MidwayMain2-WB" nxType="fullinterlocking" uniqueid="IN:b6174d78-4da1-4f17-a524-cf0992eb764e" />
+        <destination type="sensor" item="NX-MidwayMain3-WB" nxType="fullinterlocking" uniqueid="IN:0bc771d1-27e4-4eb7-8520-cb2dd2ee8e98" />
       </source>
       <source type="sensor" item="NX-JS-WB">
-        <destination type="sensor" item="NX-MidwayMain1-WB" nxType="fullinterlocking" uniqueid="IN:fe1128f9-624a-40c7-a4c0-2a309577904d" />
-        <destination type="sensor" item="NX-MidwayMain2-WB" nxType="fullinterlocking" uniqueid="IN:21f31f4d-5434-45a1-bd7c-ce5918f7cc87" />
-        <destination type="sensor" item="NX-MidwayMain3-WB" nxType="fullinterlocking" uniqueid="IN:25a5be39-ed19-43c9-b136-01a5bb5a41f1" />
+        <destination type="sensor" item="NX-MidwayMain1-WB" nxType="fullinterlocking" uniqueid="IN:716ee072-b713-45ea-9ddc-b5f069a445aa" />
+        <destination type="sensor" item="NX-MidwayMain2-WB" nxType="fullinterlocking" uniqueid="IN:ff573688-93e8-47a6-9601-1fecf088401f" />
+        <destination type="sensor" item="NX-MidwayMain3-WB" nxType="fullinterlocking" uniqueid="IN:5314f62d-9dbf-43de-9c19-2e20e90da418" />
       </source>
       <source type="sensor" item="NX-MidwayMain1-EB">
-        <destination type="sensor" item="NX-MidwayEastPsgApproach-EB" nxType="fullinterlocking" uniqueid="IN:63f0846b-34a4-472d-86d8-8868ef2d69c4" />
+        <destination type="sensor" item="NX-MidwayEastPsgApproach-EB" nxType="fullinterlocking" uniqueid="IN:78822ae5-3dbf-4421-bd8c-0766979cd56d" />
       </source>
       <source type="sensor" item="NX-MidwayMain2-EB">
-        <destination type="sensor" item="NX-MidwayEastPsgApproach-EB" nxType="fullinterlocking" uniqueid="IN:d9192651-72a7-40e0-ae24-c87930373b59" />
+        <destination type="sensor" item="NX-MidwayEastPsgApproach-EB" nxType="fullinterlocking" uniqueid="IN:ba5401d5-7edc-4a22-8c95-e814d506e5c8" />
       </source>
       <source type="sensor" item="NX-MidwayMain3-EB">
-        <destination type="sensor" item="NX-MidwayEastPsgApproach-EB" nxType="fullinterlocking" uniqueid="IN:4f538e61-a3c9-4bc0-b9c3-7723511e63bf" />
-      </source>
-      <source type="sensor" item="NX-MidwayMain1-WB">
-        <destination type="sensor" item="NX-MidwayWestPsgApproach-WB" nxType="fullinterlocking" uniqueid="IN:ee14103e-6248-492c-9455-967302420948" />
-      </source>
-      <source type="sensor" item="NX-MidwayMain2-WB">
-        <destination type="sensor" item="NX-MidwayWestPsgApproach-WB" nxType="fullinterlocking" uniqueid="IN:ad48c2d7-ffd7-4017-af7f-642e26ca7341" />
-      </source>
-      <source type="sensor" item="NX-MidwayMain3-WB">
-        <destination type="sensor" item="NX-MidwayWestPsgApproach-WB" nxType="fullinterlocking" uniqueid="IN:68af251e-28bd-4ea3-a849-cbd02369d74d" />
+        <destination type="sensor" item="NX-MidwayEastPsgApproach-EB" nxType="fullinterlocking" uniqueid="IN:58312d8b-dd22-47a5-bbb3-6825a361e5ac" />
       </source>
       <source type="sensor" item="NX-MidwayWestFrtApproach-EB">
         <destination type="sensor" item="NX-MidwayWestFrtApproach-WB" nxType="fullinterlocking" uniqueid="IN:98bfbc57-de6a-42e2-b302-dac3ea5ae2cd" />
-      </source>
-      <source type="sensor" item="NX-OsageS-EB">
-        <destination type="sensor" item="NX-MidwayMain1-EB" nxType="fullinterlocking" uniqueid="IN:fe81858d-e50b-4715-b00e-a088ba0ce610" />
-        <destination type="sensor" item="NX-MidwayMain2-EB" nxType="fullinterlocking" uniqueid="IN:5b9d38e1-d94c-4ad6-b2a0-6c30db7a299f" />
-        <destination type="sensor" item="NX-MidwayMain3-EB" nxType="fullinterlocking" uniqueid="IN:0c96d8fa-5c5f-492f-ade9-b71ffad7d8cf" />
       </source>
       <source type="sensor" item="NX-GM-WB">
         <destination type="sensor" item="NX-HM-WB" nxType="fullinterlocking" uniqueid="IN:916a30df-7c12-4635-b130-67038e77bf9a" />
@@ -13085,7 +13117,7 @@
       </source>
     </layoutPanel>
   </entryexitpairs>
-  <paneleditor class="jmri.jmrit.display.panelEditor.configurexml.PanelEditorXml" name="Midway Yard" x="108" y="68" height="448" width="1027" editable="yes" positionable="yes" showtooltips="yes" controlling="yes" hide="yes" panelmenu="yes" scrollable="none" redBackground="255" greenBackground="255" blueBackground="255">
+  <paneleditor class="jmri.jmrit.display.panelEditor.configurexml.PanelEditorXml" name="Midway Yard" x="156" y="195" height="448" width="1027" editable="yes" positionable="yes" showtooltips="yes" controlling="yes" hide="yes" panelmenu="yes" scrollable="none" redBackground="255" greenBackground="255" blueBackground="255">
     <positionablelabel x="664" y="46" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="203 " fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="255" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <tooltip>Text Label</tooltip>
     </positionablelabel>
@@ -15778,21 +15810,6 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-MidwayMain2-WB" x="795" y="330" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
-      <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="270" scale="1.0">
-        <rotation>0</rotation>
-      </active>
-      <inactive url="program:resources/icons/smallschematics/tracksegments/circuit-empty.gif" degrees="270" scale="1.0">
-        <rotation>0</rotation>
-      </inactive>
-      <unknown url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="270" scale="1.0">
-        <rotation>0</rotation>
-      </unknown>
-      <inconsistent url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="270" scale="1.0">
-        <rotation>0</rotation>
-      </inconsistent>
-      <iconmaps />
-    </sensoricon>
     <sensoricon sensor="NX-MidwayMain3-WB" x="825" y="310" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="270" scale="1.0">
         <rotation>0</rotation>
@@ -17489,6 +17506,21 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
+    <sensoricon sensor="NX-MidwayMain2-WB" x="815" y="330" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="270" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/smallschematics/tracksegments/circuit-empty.gif" degrees="270" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="270" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="270" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
     <layoutturnout ident="TO1" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1215.0" ycen="400.0" xa="1230.0" ya="400.0" xb="1200.0" yb="400.0" xc="1195.0" yc="390.0" xd="1230.0" yd="400.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Midway E F" blockname="Midway East frt approach" connectaname="T226" connectbname="T242" connectcname="T4" />
     <layoutturnout ident="TO2" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1145.0" ycen="380.0" xa="1135.0" ya="375.0" xb="1155.0" yb="385.0" xc="1160.0" yc="370.0" xd="1135.0" yd="375.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="LT52" connectaname="T5" connectbname="T4" connectcname="T8" />
     <layoutturnout ident="TO3" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1342.0" ycen="355.0" xa="1364.0" ya="355.0" xb="1320.0" yb="355.0" xc="1320.0" yc="375.0" xd="1364.0" yd="355.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Lake" blockname="Lake" connectaname="T129" connectbname="T3" connectcname="T1">
@@ -17499,7 +17531,7 @@
     <layoutturnout ident="TO6" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1062.0" ycen="355.0" xa="1074.0" ya="355.0" xb="1050.0" yb="355.0" xc="1047.0" yc="335.0" xd="1074.0" yd="355.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="LT54" blockname="Midway East Main passenger approach" connectaname="T6" connectbname="T14" connectcname="T27">
       <sensorB>NX-MidwayMain1-EB</sensorB>
     </layoutturnout>
-    <layoutturnout ident="TO9" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="732.0" ycen="355.0" xa="712.0" ya="355.0" xb="752.0" yb="355.0" xc="752.0" yc="335.0" xd="712.0" yd="355.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Midway W P1" blockname="Midway West main passenger" connectaname="T17" connectbname="T13" connectcname="T26" />
+    <layoutturnout ident="TO9" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="732.0" ycen="355.0" xa="712.0" ya="355.0" xb="752.0" yb="355.0" xc="750.0" yc="335.0" xd="712.0" yd="355.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Midway W P1" blockname="Midway West passenger throat" connectaname="T17" connectbname="T13" connectcname="T26" />
     <layoutturnout ident="TO10" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="787.0" ycen="355.0" xa="774.0" ya="355.0" xb="800.0" yb="355.0" xc="800.0" yc="366.0" xd="774.0" yd="355.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Midway W Yard" secondturnoutname="Midway LT58 temp partner to be checked" blockname="Midway West main 1" connectaname="T13" connectbname="T14" connectcname="T15">
       <sensorB>NX-MidwayMain1-WB</sensorB>
     </layoutturnout>
@@ -17510,11 +17542,11 @@
       <sensorB>NX-MidwayWestPsgApproach-WB</sensorB>
       <sensorC>NX-MidwayWestFrtApproach-WB</sensorC>
     </layoutturnout>
-    <layoutturnout ident="TO15" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1022.0" ycen="335.0" xa="1034.0" ya="335.0" xb="1010.0" yb="335.0" xc="1002.0" yc="315.0" xd="1034.0" yd="335.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="LT55" blockname="Midway East Main passenger approach" connectaname="T27" connectbname="T25" connectcname="T144">
+    <layoutturnout ident="TO15" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1022.0" ycen="335.0" xa="1034.0" ya="335.0" xb="1010.0" yb="335.0" xc="1002.0" yc="315.0" xd="1034.0" yd="335.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="LT55" blockname="Midway East Main passenger approach" connectaname="T27" connectbname="T245" connectcname="T144">
       <sensorB>NX-MidwayMain2-EB</sensorB>
       <sensorC>NX-MidwayMain3-EB</sensorC>
     </layoutturnout>
-    <layoutturnout ident="TO16" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="772.0" ycen="335.0" xa="752.0" ya="335.0" xb="792.0" yb="335.0" xc="792.0" yc="315.0" xd="752.0" yd="335.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Midway W P2" blockname="Midway West main passenger" connectaname="T26" connectbname="T25" connectcname="T24">
+    <layoutturnout ident="TO16" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="772.0" ycen="335.0" xa="755.0" ya="335.0" xb="789.0" yb="335.0" xc="790.0" yc="315.0" xd="755.0" yd="335.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Midway W P2" blockname="Midway West passenger throat" connectaname="T26" connectbname="T25" connectcname="T24">
       <sensorB>NX-MidwayMain2-WB</sensorB>
       <sensorC>NX-MidwayMain3-WB</sensorC>
     </layoutturnout>
@@ -17752,12 +17784,12 @@
     <tracksegment ident="T14" blockname="Midway main 1 station" connect1name="TO10" type1="TURNOUT_B" connect2name="TO6" type2="TURNOUT_B" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T15" connect1name="TO10" type1="TURNOUT_C" connect2name="TO11" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T16" blockname="Midway yard" connect1name="TO11" type1="TURNOUT_A" connect2name="EB46" type2="POS_POINT" dashed="yes" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T17" blockname="Midway West main passenger" connect1name="TO9" type1="TURNOUT_A" connect2name="TO12" type2="TURNOUT_B" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T17" blockname="Midway West passenger throat" connect1name="TO9" type1="TURNOUT_A" connect2name="TO12" type2="TURNOUT_B" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T19" connect1name="TO13" type1="TURNOUT_A" connect2name="TO11" type2="TURNOUT_B" dashed="yes" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T21" blockname="Midway West main passenger" connect1name="TO14" type1="TURNOUT_B" connect2name="TO12" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T24" blockname="Midway main 3 station" connect1name="TO16" type1="TURNOUT_C" connect2name="TO82" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T25" blockname="Midway main 2 station" connect1name="TO16" type1="TURNOUT_B" connect2name="TO15" type2="TURNOUT_B" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T26" blockname="Midway West main passenger" connect1name="TO16" type1="TURNOUT_A" connect2name="TO9" type2="TURNOUT_C" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T24" blockname="Midway West station 3 stop block" connect1name="TO16" type1="TURNOUT_C" connect2name="TO82" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T25" blockname="Midway West station 2 stop block" connect1name="TO16" type1="TURNOUT_B" connect2name="A40" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T26" blockname="Midway West passenger throat" connect1name="TO16" type1="TURNOUT_A" connect2name="TO9" type2="TURNOUT_C" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T27" blockname="Midway East Main passenger approach" connect1name="TO15" type1="TURNOUT_A" connect2name="TO6" type2="TURNOUT_C" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T28" blockname="Narrows, Lower" connect1name="TO14" type1="TURNOUT_A" connect2name="A4" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T37" blockname="Powderhorn main" connect1name="TO21" type1="TURNOUT_B" connect2name="TO58" type2="TURNOUT_B" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
@@ -18065,6 +18097,7 @@
     <tracksegment ident="T243" blockname="AUTOBLK:153" connect1name="EB47" type1="POS_POINT" connect2name="A39" type2="POS_POINT" dashed="yes" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T241" blockname="AUTOBLK:153" connect1name="A39" type1="POS_POINT" connect2name="TO115" type2="TURNOUT_C" dashed="yes" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T244" blockname="Osage siding East" connect1name="A38" type1="POS_POINT" connect2name="A20" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T245" blockname="Midway main 2 station" connect1name="A40" type1="POS_POINT" connect2name="TO15" type2="TURNOUT_B" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <positionablepoint ident="EB1" type="END_BUMPER" x="1227.0" y="370.0" connect1name="T8" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A4" type="ANCHOR" x="462.0" y="355.0" connect1name="T28" connect2name="T9" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A8" type="ANCHOR" x="1075.0" y="190.0" connect1name="T227" connect2name="T118" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
@@ -18150,5 +18183,6 @@
     <positionablepoint ident="EB47" type="END_BUMPER" x="490.0" y="120.0" connect1name="T243" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A39" type="ANCHOR" x="430.0" y="120.0" connect1name="T243" connect2name="T241" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A38" type="ANCHOR" x="316.0" y="335.0" connect1name="T12" connect2name="T244" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A40" type="ANCHOR" x="810.0" y="335.0" connect1name="T25" connect2name="T245" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
   </LayoutEditor>
 </layout-config>
