@@ -5,7 +5,7 @@
     <major>5</major>
     <minor>13</minor>
     <test>3</test>
-    <modifier />
+    <modifier>plus</modifier>
   </jmriversion>
   <sensors class="jmri.jmrix.loconet.configurexml.LnSensorManagerXml">
     <globalDebounceTimers>
@@ -6437,7 +6437,7 @@
       <userName>Midway UNUSED</userName>
       <comment>Probably related to missing sensor</comment>
     </memory>
-    <memory>
+    <memory value="">
       <systemName>IM6</systemName>
       <userName>Narrows, lower</userName>
     </memory>
@@ -8935,12 +8935,6 @@
       <path todir="96" fromdir="144" block="IB87">
         <beansetting setting="4">
           <turnout systemName="LT59" />
-        </beansetting>
-      </path>
-      <path todir="32" fromdir="16" block="IB:AUTO:0055" />
-      <path todir="32" fromdir="16" block="IB:AUTO:0055">
-        <beansetting setting="4">
-          <turnout systemName="Midway W P1" />
         </beansetting>
       </path>
       <path todir="64" fromdir="128" block="IB:AUTO:0055">
@@ -12703,56 +12697,6 @@
   <signalmastlogics class="jmri.managers.configurexml.DefaultSignalMastLogicManagerXml">
     <logicDelay>500</logicDelay>
   </signalmastlogics>
-  <meters class="jmri.managers.configurexml.AbstractMeterManagerXml">
-    <meter>
-      <systemName>LVDB210(s/n211)InputCurrent</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDB210(s/n211)Voltage</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDB210(s/n37)InputCurrent</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDB210(s/n37)Voltage</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDB210(s/n387)InputCurrent</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDB210(s/n387)Voltage</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDB210(s/n397)InputCurrent</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDB210(s/n397)Voltage</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDB210(s/n407)InputCurrent</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDB210(s/n407)Voltage</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDB210(s/n474)InputCurrent</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDB210(s/n474)Voltage</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDB210(s/n489)InputCurrent</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDB210(s/n489)Voltage</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDCS240(s/n376)InputCurrent</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDCS240(s/n376)Voltage</systemName>
-    </meter>
-  </meters>
   <logixs class="jmri.managers.configurexml.DefaultLogixManagerXml">
     <logix userName="Start up initializer" enabled="yes">
       <systemName>IX:RTXINITIALIZER</systemName>
@@ -12969,6 +12913,11 @@
         <destination type="sensor" item="NX-PDM-WB" nxType="fullinterlocking" uniqueid="IN:d134b0de-5fa3-46e8-8ea0-09e6613db2c9" />
         <destination type="sensor" item="NX-PDS-WB" nxType="fullinterlocking" uniqueid="IN:0dc7717a-b602-4498-9708-35dff4b3d797" />
       </source>
+      <source type="sensor" item="NX-OsageM-EB">
+        <destination type="sensor" item="NX-MidwayMain1-EB" nxType="fullinterlocking" uniqueid="IN:0dfb0497-d17b-418b-8561-cb32a368e2d6" />
+        <destination type="sensor" item="NX-MidwayMain2-EB" nxType="fullinterlocking" uniqueid="IN:e10a428d-5db7-4db3-ad52-d84651d1cb66" />
+        <destination type="sensor" item="NX-MidwayMain3-EB" nxType="fullinterlocking" uniqueid="IN:9ea94964-5b6b-4b4d-a7e2-d019ee29a495" />
+      </source>
       <source type="sensor" item="NX-MidwayWestPsgApproach-WB">
         <destination type="sensor" item="NX-OsageM-WB" nxType="fullinterlocking" uniqueid="IN:9fac5403-4358-44b1-a9d7-ce621a49b713" />
         <destination type="sensor" item="NX-OsageS-WB" nxType="fullinterlocking" uniqueid="IN:c266f17a-b792-4f14-9c89-79f8ac5fea1d" />
@@ -13062,8 +13011,22 @@
       <source type="sensor" item="NX-MidwayMain3-EB">
         <destination type="sensor" item="NX-MidwayEastPsgApproach-EB" nxType="fullinterlocking" uniqueid="IN:58312d8b-dd22-47a5-bbb3-6825a361e5ac" />
       </source>
+      <source type="sensor" item="NX-MidwayMain1-WB">
+        <destination type="sensor" item="NX-MidwayWestPsgApproach-WB" nxType="fullinterlocking" uniqueid="IN:be29db6c-3474-4974-b2cb-320322f22ad9" />
+      </source>
+      <source type="sensor" item="NX-MidwayMain2-WB">
+        <destination type="sensor" item="NX-MidwayWestPsgApproach-WB" nxType="fullinterlocking" uniqueid="IN:e478ab68-1cb4-4224-a4f7-0d7ace579bb8" />
+      </source>
+      <source type="sensor" item="NX-MidwayMain3-WB">
+        <destination type="sensor" item="NX-MidwayWestPsgApproach-WB" nxType="fullinterlocking" uniqueid="IN:8e791a4c-2835-4150-8d44-dfe47beed98d" />
+      </source>
       <source type="sensor" item="NX-MidwayWestFrtApproach-EB">
         <destination type="sensor" item="NX-MidwayWestFrtApproach-WB" nxType="fullinterlocking" uniqueid="IN:98bfbc57-de6a-42e2-b302-dac3ea5ae2cd" />
+      </source>
+      <source type="sensor" item="NX-OsageS-EB">
+        <destination type="sensor" item="NX-MidwayMain1-EB" nxType="fullinterlocking" uniqueid="IN:801007fd-3467-47df-a29c-eba2eab931ee" />
+        <destination type="sensor" item="NX-MidwayMain2-EB" nxType="fullinterlocking" uniqueid="IN:607f68bd-700f-45cd-9e6b-5c867ff4ef5e" />
+        <destination type="sensor" item="NX-MidwayMain3-EB" nxType="fullinterlocking" uniqueid="IN:9b6108eb-04c3-4c4c-b636-521c1e3cefdf" />
       </source>
       <source type="sensor" item="NX-GM-WB">
         <destination type="sensor" item="NX-HM-WB" nxType="fullinterlocking" uniqueid="IN:916a30df-7c12-4635-b130-67038e77bf9a" />
@@ -13956,7 +13919,7 @@
       <tooltip>Text Label</tooltip>
     </positionablelabel>
   </paneleditor>
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="PMRRM Dispatcher" x="1920" y="25" windowheight="1055" windowwidth="1920" panelheight="783" panelwidth="1450" sliders="yes" scrollable="both" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="yes" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="green" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclethrowncolor="orange" turnoutcirclesize="2" turnoutdrawunselectedleg="no" turnoutbx="7.0" turnoutcx="14.0" turnoutwid="14.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="yes" redBackground="192" greenBackground="192" blueBackground="192" gridSize="5" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="PMRRM Dispatcher" x="0" y="38" windowheight="1079" windowwidth="1728" panelheight="783" panelwidth="1450" sliders="yes" scrollable="both" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="yes" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="green" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclethrowncolor="orange" turnoutcirclesize="2" turnoutdrawunselectedleg="no" turnoutbx="7.0" turnoutcx="14.0" turnoutwid="14.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="yes" redBackground="192" greenBackground="192" blueBackground="192" gridSize="5" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="PMRRM Dispatcher" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
       <mainBallastWidth>0</mainBallastWidth>
