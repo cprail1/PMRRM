@@ -11,7 +11,7 @@ import jmri
 class QueryLnSensorState (jmri.jmrit.automat.AbstractAutomaton) :
 
     def handle(self) : 
-        self.waitMsec(8000)
+        self.waitMsec(16000) # compare to HighlightUnknownBlockSensors
         manager = jmri.InstanceManager.getList(jmri.jmrix.loconet.LocoNetSystemConnectionMemo).get(0).getSensorManager()
         if manager != None :
             manager.updateAll()   # starts a separate thread

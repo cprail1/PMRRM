@@ -6,6 +6,8 @@
 import java
 import jmri
 from javax.swing import JOptionPane
+import org.slf4j.Logger
+import org.slf4j.LoggerFactory
 
 class ResetBlockColorListener(java.beans.PropertyChangeListener):
   def set(self, sensor, block) :
@@ -21,23 +23,34 @@ class ResetBlockColorListener(java.beans.PropertyChangeListener):
         self.sensor.removePropertyChangeListener(self)
     return
 
-
-blockManager = jmri.InstanceManager.getDefault(jmri.jmrit.display.layoutEditor.LayoutBlockManager)
-foundSome = False
-
-for sensor in sensors.getNamedBeanSet():
-    if sensor.getKnownState() == UNKNOWN :
-        block = blockManager.getBlockWithSensorAssigned(sensor)
-        if block != None :
-            # have to deal with this one
-            foundSome = True
-            print ("Found sensor in UNKNOWN state:", sensor, "for layout block:", block)
-            listener = ResetBlockColorListener()
-            listener.set(sensor, block)
-            sensor.addPropertyChangeListener(listener)
-            listener.propertyChange(None)
+class HighlightUnknownBlockSensors(jmri.jmrit.automat.AbstractAutomaton) :
+        
+    def handle(self):
+        self.log = org.slf4j.LoggerFactory.getLogger(
+            "jmri.jmrit.jython.exec.script.HighlightUnknownBlockSensors"
+        )
+        self.waitMsec(8000)  # compare to QueryLnSensorState
+        
+        self.log.info("Start HighlightUnknownBlockSensors")
+        
+        blockManager = jmri.InstanceManager.getDefault(jmri.jmrit.display.layoutEditor.LayoutBlockManager)
+        foundSome = False
+        
+        for sensor in sensors.getNamedBeanSet():
+            if sensor.getKnownState() == UNKNOWN :
+                block = blockManager.getBlockWithSensorAssigned(sensor)
+                if block != None :
+                    # have to deal with this one
+                    foundSome = True
+                    self.log.warn("Found sensor in UNKNOWN state:", sensor, "for layout block:", block)
+                    listener = ResetBlockColorListener()
+                    listener.set(sensor, block)
+                    sensor.addPropertyChangeListener(listener)
+                    listener.propertyChange(None)
+                    
+        # if foundSome :
+        #    JOptionPane.showMessageDialog(None,"Light blue lines are occupancy sensors that didn't report status","Some sensor states unknown",JOptionPane.INFORMATION_MESSAGE)
             
-# if foundSome :
-#    JOptionPane.showMessageDialog(None,"Light blue lines are occupancy sensors that didn't report status","Some sensor states unknown",JOptionPane.INFORMATION_MESSAGE)
-            
-    
+a = HighlightUnknownBlockSensors()
+a.setName("Highlight unknown block sensors")
+a.start()    
