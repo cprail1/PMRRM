@@ -12,6 +12,12 @@
 #  .next    The next upper semaphore (or signal) being protected
 # 
 # You must specify _all_ of these.  Store [] if the lists have no content
+#
+# Because of how the physical semaphores are wired, we set them to "red" here
+# even though the actual appearance is yellow.
+#
+# We're setting two semaphores _plus_ one internal signal which is placed on the 
+# PanelPro panels.
 
 import jmri
 import time
@@ -80,11 +86,12 @@ class ControlDualSemaphore (jmri.jmrit.automat.AbstractAutomaton) :
             self.lastBeans.append(bean.describeState(bean.state))
         
         class workOnLayout(jmri.util.ThreadingUtil.ThreadAction):
-            def __init__(self, blocks, turnouts, upper, lower, next):
+            def __init__(self, blocks, turnouts, upper, lower, display, next):
                 self.blocks = blocks
                 self.turnouts = turnouts
                 self.upper = upper
                 self.lower = lower
+                self.display = display
                 self.next = next
 
             def run(self):
@@ -108,14 +115,16 @@ class ControlDualSemaphore (jmri.jmrit.automat.AbstractAutomaton) :
                 if self.next and self.next != False :
                     if self.next.getAppearance() != RED :
                         lower = GREEN
-                if upper == RED : 
-                    lower = RED
         
                 if lower != self.lower.getAppearance() :
                     self.lower.setAppearance(lower)
         
+                if lower == RED and upper == GREEN : self.display.setAppearance(YELLOW)
+                elif upper == GREEN : self.display.setAppearance(GREEN)
+                else : self.display.setAppearance(RED)
+                
         # invoke on layout thread
-        jmri.util.ThreadingUtil.runOnLayout(workOnLayout(self.blocks, self.turnouts, self.upper, self.lower, self.next))
+        jmri.util.ThreadingUtil.runOnLayout(workOnLayout(self.blocks, self.turnouts, self.upper, self.lower, self.display, self.next))
 
         self.waitChange(self.beans, 4000)  # run again when something changes or after a delay (just in case)?
         
@@ -133,6 +142,7 @@ a.upper    = signals.getSignalHead("W LN Sem")
 a.lower    = signals.getSignalHead("W LN Sem L")
 a.blocks   = [sensors.getSensor("Narrows Lower")]
 a.turnouts = []
+a.display  = signals.getSignalHead("W LN Sem Display")
 a.next     = False
 a.start()
 
@@ -142,6 +152,7 @@ a.upper    = signals.getSignalHead("W UN Sem")
 a.lower    = signals.getSignalHead("W UN Sem L")
 a.blocks   = [sensors.getSensor("Narrows Upper")]
 a.turnouts = []
+a.display  = signals.getSignalHead("W UN Sem Display")
 a.next     = signals.getSignalHead("W LN Sem")
 a.start()
 
@@ -151,6 +162,7 @@ a.upper    = signals.getSignalHead("W Osage Sem")
 a.lower    = signals.getSignalHead("W Osage Sem L")
 a.blocks   = [sensors.getSensor("Osage main"), sensors.getSensor("Osage approach")]
 a.turnouts = [turnouts.getTurnout("Osage W"), turnouts.getTurnout("Osage E"), turnouts.getTurnout("Osage pocket E")]
+a.display  = signals.getSignalHead("W Osage Sem Display")
 a.next     = signals.getSignalHead("W UN Sem")
 a.start()
 
@@ -160,6 +172,7 @@ a.upper    = signals.getSignalHead("W OP Sem")
 a.lower    = signals.getSignalHead("W OP Sem L")
 a.blocks   = [sensors.getSensor("Osage-Powderhorn")]
 a.turnouts = [turnouts.getTurnout("McSweeney branch")]
+a.display  = signals.getSignalHead("W OP Sem Display")
 a.next     = signals.getSignalHead("W Osage Sem")
 a.start()
 
@@ -169,6 +182,7 @@ a.upper    = signals.getSignalHead("W Powder Sem")
 a.lower    = signals.getSignalHead("W Powder Sem L")
 a.blocks   = [sensors.getSensor("Powderhorn main")]
 a.turnouts = [turnouts.getTurnout("Powderhorn W"), turnouts.getTurnout("Powderhorn E"), turnouts.getTurnout("Powderhorn housetrack"), turnouts.getTurnout("Powderhorn pocket"), turnouts.getTurnout("Powderhorn crossover main")]
+a.display  = signals.getSignalHead("W Powder Sem Display")
 a.next     = signals.getSignalHead("W OP Sem")
 a.start()
 
@@ -178,6 +192,7 @@ a.upper    = signals.getSignalHead("E RP Sem")
 a.lower    = signals.getSignalHead("E RP Sem L")
 a.blocks   = [sensors.getSensor("Quartz")]
 a.turnouts = []
+a.display  = signals.getSignalHead("E RP Sem Display")
 a.next     = signals.getSignalHead("W Powder Sem")
 a.start()
 
@@ -187,6 +202,7 @@ a.upper    = signals.getSignalHead("W Redcliff Sem")
 a.lower    = signals.getSignalHead("W Redcliff Sem L")
 a.blocks   = [sensors.getSensor("Redcliff main")]
 a.turnouts = [turnouts.getTurnout("Redcliff W"), turnouts.getTurnout("Redcliff E"), turnouts.getTurnout("Redcliff Staging")]
+a.display  = signals.getSignalHead("W Redcliff Sem Display")
 a.next     = signals.getSignalHead("E RP Sem")
 a.start()
 
@@ -196,6 +212,7 @@ a.upper    = signals.getSignalHead("W R-S Sem")
 a.lower    = signals.getSignalHead("W R-S Sem L")
 a.blocks   = [sensors.getSensor("Redcliff-Sierra")]
 a.turnouts = []
+a.display  = signals.getSignalHead("W R-S Sem Display")
 a.next     = signals.getSignalHead("W Redcliff Sem")
 a.start()
 
@@ -208,6 +225,7 @@ a.upper    = signals.getSignalHead("E Sierra Sem")
 a.lower    = signals.getSignalHead("E Sierra Sem L")
 a.blocks   = [sensors.getSensor("Sierra main")]
 a.turnouts = [turnouts.getTurnout("Sierra W"), turnouts.getTurnout("Sierra E")]
+a.display  = signals.getSignalHead("E Sierra Sem Display")
 a.next     = signals.getSignalHead("E S-T")
 a.start()
 
@@ -217,6 +235,7 @@ a.upper    = signals.getSignalHead("E RS Sem")
 a.lower    = signals.getSignalHead("E RS Sem L")
 a.blocks   = [sensors.getSensor("Redcliff-Sierra")]
 a.turnouts = []
+a.display  = signals.getSignalHead("E RS Sem Display")
 a.next     = signals.getSignalHead("E Sierra Sem")
 a.start()
 
@@ -226,6 +245,7 @@ a.upper    = signals.getSignalHead("E Redcliff Sem")
 a.lower    = signals.getSignalHead("E Redcliff Sem L")
 a.blocks   = [sensors.getSensor("Redcliff main")]
 a.turnouts = [turnouts.getTurnout("Redcliff W"), turnouts.getTurnout("Redcliff E"), turnouts.getTurnout("Redcliff Staging")]
+a.display  = signals.getSignalHead("E Redcliff Sem Display")
 a.next     = signals.getSignalHead("E RS Sem")
 a.start()
 
@@ -235,6 +255,7 @@ a.upper    = signals.getSignalHead("E Quartz Sem")
 a.lower    = signals.getSignalHead("E Quartz Sem L")
 a.blocks   = [sensors.getSensor("Quartz")]
 a.turnouts = []
+a.display  = signals.getSignalHead("E Quartz Sem Display")
 a.next     = signals.getSignalHead("E Redcliff Sem")
 a.start()
 
@@ -244,6 +265,7 @@ a.upper    = signals.getSignalHead("E Powder Sem")
 a.lower    = signals.getSignalHead("E Powder Sem L")
 a.blocks   = [sensors.getSensor("Powderhorn main")]
 a.turnouts = [turnouts.getTurnout("Powderhorn W"), turnouts.getTurnout("Powderhorn E"), turnouts.getTurnout("Powderhorn housetrack"), turnouts.getTurnout("Powderhorn pocket"), turnouts.getTurnout("Powderhorn crossover main")]
+a.display  = signals.getSignalHead("E Powder Sem Display")
 a.next     = signals.getSignalHead("E Quartz Sem")
 a.start()
 
@@ -253,6 +275,7 @@ a.upper    = signals.getSignalHead("E OP Sem")
 a.lower    = signals.getSignalHead("E OP Sem L")
 a.blocks   = [sensors.getSensor("Osage-Powderhorn")]
 a.turnouts = [turnouts.getTurnout("McSweeney branch")]
+a.display  = signals.getSignalHead("E OP Sem Display")
 a.next     = signals.getSignalHead("E Powder Sem")
 a.start()
 
@@ -262,6 +285,7 @@ a.upper    = signals.getSignalHead("E Osage Sem")
 a.lower    = signals.getSignalHead("E Osage Sem L")
 a.blocks   = [sensors.getSensor("Osage main"), sensors.getSensor("Osage approach")]
 a.turnouts = [turnouts.getTurnout("Osage W"), turnouts.getTurnout("Osage E"), turnouts.getTurnout("Osage pocket E")]
+a.display  = signals.getSignalHead("E Osage Sem Display")
 a.next     = signals.getSignalHead("E OP Sem")
 a.start()
 
@@ -271,6 +295,7 @@ a.upper    = signals.getSignalHead("E UN Sem")
 a.lower    = signals.getSignalHead("E UN Sem L")
 a.blocks   = [sensors.getSensor("Narrows Upper")]
 a.turnouts = []
+a.display  = signals.getSignalHead("E UN Sem Display")
 a.next     = signals.getSignalHead("E Osage Sem")
 a.start()
 
