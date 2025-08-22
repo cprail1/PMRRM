@@ -9,8 +9,8 @@
   </jmriversion>
   <sensors class="jmri.jmrix.loconet.configurexml.LnSensorManagerXml">
     <globalDebounceTimers>
-      <goingActive>3000</goingActive>
-      <goingInActive>3000</goingInActive>
+      <goingActive>0</goingActive>
+      <goingInActive>2000</goingInActive>
     </globalDebounceTimers>
     <sensor inverted="false">
       <systemName>LS1</systemName>
@@ -22,30 +22,36 @@
       <systemName>LS3</systemName>
       <userName>Midway West station 3 stop block</userName>
       <comment>Just between LS8 and LS30, stopping block on track 3 west</comment>
+      <useGlobalDebounceTimer>yes</useGlobalDebounceTimer>
     </sensor>
     <sensor inverted="false">
       <systemName>LS4</systemName>
       <userName>Midway West Frt approach</userName>
+      <useGlobalDebounceTimer>yes</useGlobalDebounceTimer>
     </sensor>
     <sensor inverted="false">
       <systemName>LS5</systemName>
       <userName>Midway West Psg approach</userName>
       <comment>Ends between x over and p ladder</comment>
+      <useGlobalDebounceTimer>yes</useGlobalDebounceTimer>
     </sensor>
     <sensor inverted="false">
       <systemName>LS6</systemName>
       <userName>Midway MainW2 Yard X T58 (bastard coil sensor)</userName>
       <comment>Is really only LS58 on main. Main include some Yard !!</comment>
+      <useGlobalDebounceTimer>yes</useGlobalDebounceTimer>
     </sensor>
     <sensor inverted="false">
       <systemName>LS7</systemName>
       <userName>Midway West station 2 stop block</userName>
       <comment>!!West P2 stopping block</comment>
+      <useGlobalDebounceTimer>yes</useGlobalDebounceTimer>
     </sensor>
     <sensor inverted="false">
       <systemName>LS8</systemName>
       <userName>Midway MainW3 (LS8 bastard coil sensor)</userName>
       <comment>!!This sensor starts 1/2 way between 59 and 57 &amp; includes 56</comment>
+      <useGlobalDebounceTimer>yes</useGlobalDebounceTimer>
     </sensor>
     <sensor inverted="false">
       <systemName>LS9</systemName>
@@ -78,6 +84,7 @@
       <systemName>LS18</systemName>
       <userName>Midway East Frt approach</userName>
       <comment>Includes ladder in freigtht yard east</comment>
+      <useGlobalDebounceTimer>yes</useGlobalDebounceTimer>
     </sensor>
     <sensor inverted="false">
       <systemName>LS19</systemName>
@@ -95,57 +102,69 @@
       <systemName>LS22</systemName>
       <userName>Midway LS22 LT53 passenger 1 2 3 east ladder plus 153</userName>
       <comment>Midway p East ladder</comment>
+      <useGlobalDebounceTimer>yes</useGlobalDebounceTimer>
     </sensor>
     <sensor inverted="false">
       <systemName>LS23</systemName>
       <userName>Midway LS23 unknown</userName>
       <comment>appears wired</comment>
+      <useGlobalDebounceTimer>yes</useGlobalDebounceTimer>
     </sensor>
     <sensor inverted="false">
       <systemName>LS24</systemName>
       <userName>Midway LS24 power spur plus turnout</userName>
       <comment>Includes LT52</comment>
+      <useGlobalDebounceTimer>yes</useGlobalDebounceTimer>
     </sensor>
     <sensor inverted="false">
       <systemName>LS25</systemName>
       <userName>Midway LS25 unknown</userName>
       <comment>appears wired</comment>
+      <useGlobalDebounceTimer>yes</useGlobalDebounceTimer>
     </sensor>
     <sensor inverted="false">
       <systemName>LS26</systemName>
       <userName>Midway LS26 East freight approach stopping block</userName>
       <comment>East freight apptoach stopping block to right of 53</comment>
+      <useGlobalDebounceTimer>yes</useGlobalDebounceTimer>
     </sensor>
     <sensor inverted="false">
       <systemName>LS27</systemName>
       <userName>Midway LS27 E main 1 not on diag</userName>
+      <useGlobalDebounceTimer>yes</useGlobalDebounceTimer>
     </sensor>
     <sensor inverted="false">
       <systemName>LS28</systemName>
       <userName>Midway LS28 unknown</userName>
       <comment>appears wired</comment>
+      <useGlobalDebounceTimer>yes</useGlobalDebounceTimer>
     </sensor>
     <sensor inverted="false">
       <systemName>LS29</systemName>
       <userName>Midway East Psg approach</userName>
       <comment>Stops 18 inches east of LT51</comment>
+      <useGlobalDebounceTimer>yes</useGlobalDebounceTimer>
     </sensor>
     <sensor inverted="false">
       <systemName>LS30</systemName>
       <userName>Midway Main 3 at Station</userName>
+      <useGlobalDebounceTimer>yes</useGlobalDebounceTimer>
     </sensor>
     <sensor inverted="false">
       <systemName>LS31</systemName>
       <userName>Midway Main 2 at Station</userName>
+      <useGlobalDebounceTimer>yes</useGlobalDebounceTimer>
     </sensor>
     <sensor inverted="false">
       <systemName>LS32</systemName>
       <userName>Midway Main 1 at Station</userName>
+      <useGlobalDebounceTimer>yes</useGlobalDebounceTimer>
     </sensor>
     <sensor inverted="false">
       <systemName>LS33</systemName>
       <userName>Upton-Vista West</userName>
       <comment>Check if really is deparate blocks</comment>
+      <useGlobalDebounceTimer>yes</useGlobalDebounceTimer>
     </sensor>
     <sensor inverted="false">
       <systemName>LS34</systemName>
@@ -159,6 +178,7 @@
     <sensor inverted="false">
       <systemName>LS37</systemName>
       <userName>Sierra-Troy</userName>
+      <useGlobalDebounceTimer>yes</useGlobalDebounceTimer>
     </sensor>
     <sensor inverted="false">
       <systemName>LS38</systemName>
@@ -172,6 +192,7 @@
     <sensor inverted="false">
       <systemName>LS41</systemName>
       <userName>Sierra main</userName>
+      <useGlobalDebounceTimer>yes</useGlobalDebounceTimer>
     </sensor>
     <sensor inverted="false">
       <systemName>LS42</systemName>
@@ -185,6 +206,7 @@
     <sensor inverted="false">
       <systemName>LS45</systemName>
       <userName>Sierra siding</userName>
+      <useGlobalDebounceTimer>yes</useGlobalDebounceTimer>
     </sensor>
     <sensor inverted="false">
       <systemName>LS46</systemName>
@@ -195,32 +217,39 @@
     <sensor inverted="false">
       <systemName>LS48</systemName>
       <userName>Vista-Whiskey</userName>
+      <useGlobalDebounceTimer>yes</useGlobalDebounceTimer>
     </sensor>
     <sensor inverted="false">
       <systemName>LS49</systemName>
       <userName>Whiskey-Xerox</userName>
+      <useGlobalDebounceTimer>yes</useGlobalDebounceTimer>
     </sensor>
     <sensor inverted="false">
       <systemName>LS50</systemName>
       <userName>Troy-Upton</userName>
+      <useGlobalDebounceTimer>yes</useGlobalDebounceTimer>
     </sensor>
     <sensor inverted="false">
       <systemName>LS51</systemName>
       <userName>Xerox Main 1</userName>
+      <useGlobalDebounceTimer>yes</useGlobalDebounceTimer>
     </sensor>
     <sensor inverted="false">
       <systemName>LS52</systemName>
       <userName>Xerox Main 2</userName>
+      <useGlobalDebounceTimer>yes</useGlobalDebounceTimer>
     </sensor>
     <sensor inverted="false">
       <systemName>LS53</systemName>
       <userName>Upton-Vista East</userName>
       <comment>Check if it really is two detections</comment>
+      <useGlobalDebounceTimer>yes</useGlobalDebounceTimer>
     </sensor>
     <sensor inverted="false">
       <systemName>LS54</systemName>
       <userName>Redcliff-Sierra</userName>
       <comment>Redcliff-Sierra</comment>
+      <useGlobalDebounceTimer>yes</useGlobalDebounceTimer>
     </sensor>
     <sensor inverted="false">
       <systemName>LS55</systemName>
@@ -255,18 +284,22 @@
     <sensor inverted="false">
       <systemName>LS65</systemName>
       <userName>Narrows Lower</userName>
+      <useGlobalDebounceTimer>yes</useGlobalDebounceTimer>
     </sensor>
     <sensor inverted="false">
       <systemName>LS66</systemName>
       <userName>Powderhorn main</userName>
+      <useGlobalDebounceTimer>yes</useGlobalDebounceTimer>
     </sensor>
     <sensor inverted="false">
       <systemName>LS67</systemName>
       <userName>Powderhorn siding</userName>
+      <useGlobalDebounceTimer>yes</useGlobalDebounceTimer>
     </sensor>
     <sensor inverted="false">
       <systemName>LS68</systemName>
       <userName>Osage-Powderhorn</userName>
+      <useGlobalDebounceTimer>yes</useGlobalDebounceTimer>
     </sensor>
     <sensor inverted="false">
       <systemName>LS69</systemName>
@@ -322,14 +355,17 @@
     <sensor inverted="false">
       <systemName>LS86</systemName>
       <userName>Troy siding 2</userName>
+      <useGlobalDebounceTimer>yes</useGlobalDebounceTimer>
     </sensor>
     <sensor inverted="false">
       <systemName>LS87</systemName>
       <userName>Troy siding 1</userName>
+      <useGlobalDebounceTimer>yes</useGlobalDebounceTimer>
     </sensor>
     <sensor inverted="false">
       <systemName>LS88</systemName>
       <userName>Troy main</userName>
+      <useGlobalDebounceTimer>yes</useGlobalDebounceTimer>
     </sensor>
     <sensor inverted="false">
       <systemName>LS89</systemName>
@@ -340,10 +376,12 @@
     <sensor inverted="false">
       <systemName>LS91</systemName>
       <userName>Vista siding</userName>
+      <useGlobalDebounceTimer>yes</useGlobalDebounceTimer>
     </sensor>
     <sensor inverted="false">
       <systemName>LS92</systemName>
       <userName>Vista main</userName>
+      <useGlobalDebounceTimer>yes</useGlobalDebounceTimer>
     </sensor>
     <sensor inverted="false">
       <systemName>LS93</systemName>
@@ -351,14 +389,17 @@
     <sensor inverted="false">
       <systemName>LS94</systemName>
       <userName>Whiskey siding 2</userName>
+      <useGlobalDebounceTimer>yes</useGlobalDebounceTimer>
     </sensor>
     <sensor inverted="false">
       <systemName>LS95</systemName>
       <userName>Whiskey siding 1</userName>
+      <useGlobalDebounceTimer>yes</useGlobalDebounceTimer>
     </sensor>
     <sensor inverted="false">
       <systemName>LS96</systemName>
       <userName>Whiskey main</userName>
+      <useGlobalDebounceTimer>yes</useGlobalDebounceTimer>
     </sensor>
     <sensor inverted="false">
       <systemName>LS97</systemName>
@@ -378,47 +419,58 @@
     <sensor inverted="false">
       <systemName>LS102</systemName>
       <userName>Osage siding east</userName>
+      <useGlobalDebounceTimer>yes</useGlobalDebounceTimer>
     </sensor>
     <sensor inverted="false">
       <systemName>LS103</systemName>
       <userName>Osage pocket</userName>
+      <useGlobalDebounceTimer>yes</useGlobalDebounceTimer>
     </sensor>
     <sensor inverted="false">
       <systemName>LS104</systemName>
       <userName>Osage approach</userName>
       <comment>Includes limbo piece temporarily</comment>
+      <useGlobalDebounceTimer>yes</useGlobalDebounceTimer>
     </sensor>
     <sensor inverted="false">
       <systemName>LS105</systemName>
       <userName>Upton siding</userName>
+      <useGlobalDebounceTimer>yes</useGlobalDebounceTimer>
     </sensor>
     <sensor inverted="false">
       <systemName>LS106</systemName>
       <userName>Upton main</userName>
+      <useGlobalDebounceTimer>yes</useGlobalDebounceTimer>
     </sensor>
     <sensor inverted="false">
       <systemName>LS107</systemName>
       <userName>Redcliff siding</userName>
+      <useGlobalDebounceTimer>yes</useGlobalDebounceTimer>
     </sensor>
     <sensor inverted="false">
       <systemName>LS108</systemName>
       <userName>Redcliff main</userName>
+      <useGlobalDebounceTimer>yes</useGlobalDebounceTimer>
     </sensor>
     <sensor inverted="false">
       <systemName>LS109</systemName>
       <userName>Quartz</userName>
+      <useGlobalDebounceTimer>yes</useGlobalDebounceTimer>
     </sensor>
     <sensor inverted="false">
       <systemName>LS110</systemName>
       <userName>Narrows Upper</userName>
+      <useGlobalDebounceTimer>yes</useGlobalDebounceTimer>
     </sensor>
     <sensor inverted="false">
       <systemName>LS111</systemName>
       <userName>Osage siding west</userName>
+      <useGlobalDebounceTimer>yes</useGlobalDebounceTimer>
     </sensor>
     <sensor inverted="false">
       <systemName>LS112</systemName>
       <userName>Osage main</userName>
+      <useGlobalDebounceTimer>yes</useGlobalDebounceTimer>
     </sensor>
     <sensor inverted="false">
       <systemName>LS113</systemName>
@@ -435,51 +487,63 @@
     <sensor inverted="false">
       <systemName>LS117</systemName>
       <userName>Gary Hudson overlap main</userName>
+      <useGlobalDebounceTimer>yes</useGlobalDebounceTimer>
     </sensor>
     <sensor inverted="false">
       <systemName>LS118</systemName>
       <userName>Delta 1</userName>
+      <useGlobalDebounceTimer>yes</useGlobalDebounceTimer>
     </sensor>
     <sensor inverted="false">
       <systemName>LS119</systemName>
       <userName>Jackson siding</userName>
+      <useGlobalDebounceTimer>yes</useGlobalDebounceTimer>
     </sensor>
     <sensor inverted="false">
       <systemName>LS120</systemName>
       <userName>Jackson main</userName>
+      <useGlobalDebounceTimer>yes</useGlobalDebounceTimer>
     </sensor>
     <sensor inverted="false">
       <systemName>LS121</systemName>
       <userName>Hudson siding</userName>
+      <useGlobalDebounceTimer>yes</useGlobalDebounceTimer>
     </sensor>
     <sensor inverted="false">
       <systemName>LS122</systemName>
       <userName>Hudson main</userName>
+      <useGlobalDebounceTimer>yes</useGlobalDebounceTimer>
     </sensor>
     <sensor inverted="false">
       <systemName>LS123</systemName>
       <userName>Gary siding</userName>
+      <useGlobalDebounceTimer>yes</useGlobalDebounceTimer>
     </sensor>
     <sensor inverted="false">
       <systemName>LS124</systemName>
       <userName>Gary main</userName>
+      <useGlobalDebounceTimer>yes</useGlobalDebounceTimer>
     </sensor>
     <sensor inverted="false">
       <systemName>LS125</systemName>
       <userName>Delta 4</userName>
+      <useGlobalDebounceTimer>yes</useGlobalDebounceTimer>
     </sensor>
     <sensor inverted="false">
       <systemName>LS126</systemName>
       <userName>Delta 3</userName>
+      <useGlobalDebounceTimer>yes</useGlobalDebounceTimer>
     </sensor>
     <sensor inverted="false">
       <systemName>LS127</systemName>
       <userName>Delta 2</userName>
+      <useGlobalDebounceTimer>yes</useGlobalDebounceTimer>
     </sensor>
     <sensor inverted="false">
       <systemName>LS128</systemName>
       <userName>Delta CP</userName>
       <comment>Does not change anything on panel</comment>
+      <useGlobalDebounceTimer>yes</useGlobalDebounceTimer>
     </sensor>
     <sensor inverted="false">
       <systemName>LS129</systemName>
@@ -496,6 +560,7 @@
     <sensor inverted="false">
       <systemName>LS133</systemName>
       <userName>Lake</userName>
+      <useGlobalDebounceTimer>yes</useGlobalDebounceTimer>
     </sensor>
     <sensor inverted="false">
       <systemName>LS134</systemName>
@@ -516,6 +581,7 @@
       <systemName>LS139</systemName>
       <userName>Colton CP</userName>
       <comment>Doesn't change anything on screen</comment>
+      <useGlobalDebounceTimer>yes</useGlobalDebounceTimer>
     </sensor>
     <sensor inverted="false">
       <systemName>LS140</systemName>
@@ -523,34 +589,42 @@
     <sensor inverted="false">
       <systemName>LS141</systemName>
       <userName>Fox</userName>
+      <useGlobalDebounceTimer>yes</useGlobalDebounceTimer>
     </sensor>
     <sensor inverted="false">
       <systemName>LS142</systemName>
       <userName>Irvine W</userName>
+      <useGlobalDebounceTimer>yes</useGlobalDebounceTimer>
     </sensor>
     <sensor inverted="false">
       <systemName>LS143</systemName>
       <userName>Irvine E</userName>
+      <useGlobalDebounceTimer>yes</useGlobalDebounceTimer>
     </sensor>
     <sensor inverted="false">
       <systemName>LS144</systemName>
       <userName>Kelso</userName>
+      <useGlobalDebounceTimer>yes</useGlobalDebounceTimer>
     </sensor>
     <sensor inverted="false">
       <systemName>LS145</systemName>
       <userName>Bend 4</userName>
+      <useGlobalDebounceTimer>yes</useGlobalDebounceTimer>
     </sensor>
     <sensor inverted="false">
       <systemName>LS146</systemName>
       <userName>Bend 3</userName>
+      <useGlobalDebounceTimer>yes</useGlobalDebounceTimer>
     </sensor>
     <sensor inverted="false">
       <systemName>LS147</systemName>
       <userName>Bend 2</userName>
+      <useGlobalDebounceTimer>yes</useGlobalDebounceTimer>
     </sensor>
     <sensor inverted="false">
       <systemName>LS148</systemName>
       <userName>Bend 1</userName>
+      <useGlobalDebounceTimer>yes</useGlobalDebounceTimer>
     </sensor>
     <sensor inverted="false">
       <systemName>LS149</systemName>
@@ -558,14 +632,17 @@
     <sensor inverted="false">
       <systemName>LS150</systemName>
       <userName>Echo 3</userName>
+      <useGlobalDebounceTimer>yes</useGlobalDebounceTimer>
     </sensor>
     <sensor inverted="false">
       <systemName>LS151</systemName>
       <userName>Echo 2</userName>
+      <useGlobalDebounceTimer>yes</useGlobalDebounceTimer>
     </sensor>
     <sensor inverted="false">
       <systemName>LS152</systemName>
       <userName>Echo 1</userName>
+      <useGlobalDebounceTimer>yes</useGlobalDebounceTimer>
     </sensor>
     <sensor inverted="false">
       <systemName>LS153</systemName>
@@ -2059,8 +2136,8 @@
   <sensors class="jmri.jmrix.internal.configurexml.InternalSensorManagerXml">
     <defaultInitialState>inactive</defaultInitialState>
     <globalDebounceTimers>
-      <goingActive>3000</goingActive>
-      <goingInActive>3000</goingInActive>
+      <goingActive>0</goingActive>
+      <goingInActive>2000</goingInActive>
     </globalDebounceTimers>
     <sensor inverted="false">
       <systemName>IS1</systemName>
@@ -2137,6 +2214,10 @@
     <sensor inverted="false">
       <systemName>IS22</systemName>
       <userName>NX-XeroxM2-EB</userName>
+      <debounceTimers>
+        <goingActive>0</goingActive>
+        <goingInActive>3000</goingInActive>
+      </debounceTimers>
     </sensor>
     <sensor inverted="false">
       <systemName>IS23</systemName>
@@ -2478,10 +2559,12 @@
       <systemName>IS107</systemName>
       <userName>Control Blue Text</userName>
       <comment>Hides via Routes when Active</comment>
+      <useGlobalDebounceTimer>yes</useGlobalDebounceTimer>
     </sensor>
     <sensor inverted="false">
       <systemName>IS108</systemName>
       <userName>Show Block Entry Boxes</userName>
+      <useGlobalDebounceTimer>yes</useGlobalDebounceTimer>
     </sensor>
     <sensor inverted="false">
       <systemName>IS109</systemName>
@@ -2509,6 +2592,7 @@
     </sensor>
     <sensor inverted="false">
       <systemName>ISCLOCKRUNNING</systemName>
+      <useGlobalDebounceTimer>yes</useGlobalDebounceTimer>
     </sensor>
   </sensors>
   <turnouts class="jmri.jmrix.loconet.configurexml.LnTurnoutManagerXml">
