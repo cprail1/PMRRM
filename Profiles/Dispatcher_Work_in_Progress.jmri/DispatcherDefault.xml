@@ -6500,11 +6500,11 @@
     </turnout>
   </turnouts>
   <memories class="jmri.managers.configurexml.DefaultMemoryManagerXml">
-    <memory>
+    <memory value="">
       <systemName>IM1</systemName>
       <userName>Midway main 1 station</userName>
     </memory>
-    <memory>
+    <memory value="">
       <systemName>IM2</systemName>
       <userName>Midway main 2 station</userName>
     </memory>
@@ -6760,6 +6760,14 @@
     <memory>
       <systemName>IM65</systemName>
       <userName>Osage siding east</userName>
+    </memory>
+    <memory value="">
+      <systemName>IM66</systemName>
+      <userName>Midway West Main 1</userName>
+    </memory>
+    <memory value="">
+      <systemName>IM67</systemName>
+      <userName>Midway West Station 2 stop block</userName>
     </memory>
     <memory>
       <systemName>IMCURRENTTIME</systemName>
@@ -11788,7 +11796,7 @@
       <systemName>ILB32</systemName>
       <userName>Midway West main passenger</userName>
     </layoutblock>
-    <layoutblock systemName="ILB33" occupancysensor="Midway MainW2 Yard X T58 (bastard coil sensor)" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green">
+    <layoutblock systemName="ILB33" occupancysensor="Midway MainW2 Yard X T58 (bastard coil sensor)" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Midway West Main 1">
       <systemName>ILB33</systemName>
       <userName>Midway West main 1</userName>
     </layoutblock>
@@ -12064,7 +12072,7 @@
       <systemName>ILB100</systemName>
       <userName>Bend CP4</userName>
     </layoutblock>
-    <layoutblock systemName="ILB101" occupancysensor="Midway West station 2 stop block" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green">
+    <layoutblock systemName="ILB101" occupancysensor="Midway West station 2 stop block" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Midway West Station 2 stop block">
       <systemName>ILB101</systemName>
       <userName>Midway West station 2 stop block</userName>
     </layoutblock>
@@ -17168,6 +17176,12 @@
       </icons>
       <iconmaps />
     </signalheadicon>
+    <memoryicon memory="Midway West Station 2 stop block" x="805" y="320" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="0" hasBackground="no" borderSize="1" redBorder="255" greenBorder="255" blueBorder="0" justification="left" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+      <tooltip>Midway West Station 2 stop block</tooltip>
+    </memoryicon>
+    <memoryicon memory="Midway West Main 1" x="760" y="335" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="0" hasBackground="no" borderSize="1" redBorder="255" greenBorder="255" blueBorder="0" justification="left" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+      <tooltip>Midway West main 1</tooltip>
+    </memoryicon>
     <layoutturnout ident="TO1" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1215.0" ycen="400.0" xa="1230.0" ya="400.0" xb="1200.0" yb="400.0" xc="1195.0" yc="390.0" xd="1230.0" yd="400.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Midway E F" blockname="Midway East frt approach" connectaname="T226" connectbname="T242" connectcname="T4" />
     <layoutturnout ident="TO2" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1145.0" ycen="380.0" xa="1135.0" ya="375.0" xb="1155.0" yb="385.0" xc="1160.0" yc="370.0" xd="1135.0" yd="375.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="LT52" connectaname="T5" connectbname="T4" connectcname="T8" />
     <layoutturnout ident="TO3" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1342.0" ycen="355.0" xa="1364.0" ya="355.0" xb="1320.0" yb="355.0" xc="1320.0" yc="375.0" xd="1364.0" yd="355.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Lake" blockname="Lake" connectaname="T129" connectbname="T3" connectcname="T1">
