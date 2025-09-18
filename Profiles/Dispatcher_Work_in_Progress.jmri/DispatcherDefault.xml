@@ -4,7 +4,7 @@
   <jmriversion>
     <major>5</major>
     <minor>13</minor>
-    <test>3</test>
+    <test>4</test>
     <modifier>plus</modifier>
   </jmriversion>
   <sensors class="jmri.jmrix.loconet.configurexml.LnSensorManagerXml">
@@ -6525,7 +6525,7 @@
       <systemName>IM6</systemName>
       <userName>Narrows, lower</userName>
     </memory>
-    <memory>
+    <memory value="">
       <systemName>IM7</systemName>
       <userName>Narrows, upper</userName>
     </memory>
@@ -6537,7 +6537,7 @@
       <systemName>IM9</systemName>
       <userName>Osage main</userName>
     </memory>
-    <memory>
+    <memory value="">
       <systemName>IM10</systemName>
       <userName>Osage helper pocket</userName>
     </memory>
@@ -12935,16 +12935,6 @@
         <destination type="sensor" item="NX-VistaM-EB" nxType="fullinterlocking" uniqueid="IN:654ed8d4-3b9d-4c1b-a2fb-ce390139771f" />
         <destination type="sensor" item="NX-VistaS-EB" nxType="fullinterlocking" uniqueid="IN:e108481c-2b43-49d6-930b-91d524620b5e" />
       </source>
-      <source type="sensor" item="NX-XeroxM1-EB">
-        <destination type="sensor" item="NX-WhiskeyS2-EB" nxType="fullinterlocking" uniqueid="IN:eda46616-5624-4054-a211-25a28989b91e" />
-        <destination type="sensor" item="NX-WhiskeyM-EB" nxType="fullinterlocking" uniqueid="IN:2a3e9138-ce43-4e30-94fb-6f6b6c7ff71a" />
-        <destination type="sensor" item="NX-WhiskeyS1-EB" nxType="fullinterlocking" uniqueid="IN:80d56c95-7a94-4054-965a-db117beddef9" />
-      </source>
-      <source type="sensor" item="NX-XeroxM2-EB">
-        <destination type="sensor" item="NX-WhiskeyS2-EB" nxType="fullinterlocking" uniqueid="IN:9aae4b7d-3b8c-4637-8a14-830de4e3cfdd" />
-        <destination type="sensor" item="NX-WhiskeyM-EB" nxType="fullinterlocking" uniqueid="IN:ec9c1a61-118d-41ea-b857-c107feb5f83c" />
-        <destination type="sensor" item="NX-WhiskeyS1-EB" nxType="fullinterlocking" uniqueid="IN:2dae39ab-c313-45ee-b884-0a1f2d4536f5" />
-      </source>
       <source type="sensor" item="NX-WhiskeyM-EB">
         <destination type="sensor" item="NX-VistaM-EB" nxType="fullinterlocking" uniqueid="IN:c1c4ca30-0bad-4647-a34a-38ce6bb36c36" />
         <destination type="sensor" item="NX-VistaS-EB" nxType="fullinterlocking" uniqueid="IN:6d70760c-1223-45dd-9e80-daa12d90d2e2" />
@@ -14075,7 +14065,7 @@
       <tooltip>Text Label</tooltip>
     </positionablelabel>
   </paneleditor>
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="PMRRM Dispatcher" x="0" y="38" windowheight="1389" windowwidth="2520" panelheight="783" panelwidth="1450" sliders="yes" scrollable="both" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="yes" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="green" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclethrowncolor="orange" turnoutcirclesize="2" turnoutdrawunselectedleg="no" turnoutbx="7.0" turnoutcx="14.0" turnoutwid="14.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="yes" redBackground="192" greenBackground="192" blueBackground="192" gridSize="5" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="PMRRM Dispatcher" x="0" y="38" windowheight="1079" windowwidth="1728" panelheight="783" panelwidth="1450" sliders="yes" scrollable="both" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="yes" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="green" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclethrowncolor="orange" turnoutcirclesize="2" turnoutdrawunselectedleg="no" turnoutbx="7.0" turnoutcx="14.0" turnoutwid="14.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="yes" redBackground="192" greenBackground="192" blueBackground="192" gridSize="5" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="PMRRM Dispatcher" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
       <mainBallastWidth>0</mainBallastWidth>
@@ -14583,38 +14573,6 @@
     <memoryicon memory="Vista - Upton east" x="1160" y="600" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" borderSize="1" redBorder="255" greenBorder="255" blueBorder="0" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>Vista - Upton East</tooltip>
     </memoryicon>
-    <sensoricon sensor="NX-XeroxM1-EB" x="340" y="610" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
-      <tooltip>NX-XeroxM-EB (IS21)</tooltip>
-      <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="90" scale="1.0">
-        <rotation>0</rotation>
-      </active>
-      <inactive url="program:resources/icons/smallschematics/tracksegments/circuit-empty.gif" degrees="90" scale="1.0">
-        <rotation>0</rotation>
-      </inactive>
-      <unknown url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="90" scale="1.0">
-        <rotation>0</rotation>
-      </unknown>
-      <inconsistent url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="90" scale="1.0">
-        <rotation>0</rotation>
-      </inconsistent>
-      <iconmaps />
-    </sensoricon>
-    <sensoricon sensor="NX-XeroxM2-EB" x="325" y="650" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
-      <tooltip>NX-XeroxS-EB (IS22)</tooltip>
-      <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="90" scale="1.0">
-        <rotation>0</rotation>
-      </active>
-      <inactive url="program:resources/icons/smallschematics/tracksegments/circuit-empty.gif" degrees="90" scale="1.0">
-        <rotation>0</rotation>
-      </inactive>
-      <unknown url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="90" scale="1.0">
-        <rotation>0</rotation>
-      </unknown>
-      <inconsistent url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="90" scale="1.0">
-        <rotation>0</rotation>
-      </inconsistent>
-      <iconmaps />
-    </sensoricon>
     <sensoricon sensor="NX-RedcliffS-WB" x="755" y="505" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <tooltip>NX-RedcliffS-WB (IS44)</tooltip>
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="270" scale="1.0">
@@ -17252,10 +17210,7 @@
       <sensorB>NX-WhiskeyS1-WB</sensorB>
       <sensorC>NX-WhiskeyS2-WB</sensorC>
     </layoutturnout>
-    <layoutturnout ident="TO41" type="LH_TURNOUT" hidden="no" disabled="yes" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="380.0" ycen="615.0" xa="405.0" ya="615.0" xb="355.0" yb="615.0" xc="360.0" yc="635.0" xd="405.0" yd="615.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Xerox E" blockname="Whiskey-Xerox" connectaname="T69" connectbname="T70" connectcname="T71">
-      <sensorB>NX-XeroxM1-EB</sensorB>
-      <sensorC>NX-XeroxM2-EB</sensorC>
-    </layoutturnout>
+    <layoutturnout ident="TO41" type="LH_TURNOUT" hidden="no" disabled="yes" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="380.0" ycen="615.0" xa="405.0" ya="615.0" xb="355.0" yb="615.0" xc="360.0" yc="635.0" xd="405.0" yd="615.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Xerox E" blockname="Whiskey-Xerox" connectaname="T69" connectbname="T70" connectcname="T71" />
     <layoutturnout ident="TO4" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="180.0" ycen="355.0" xa="170.0" ya="355.0" xb="190.0" yb="355.0" xc="200.0" yc="335.0" xd="170.0" yd="355.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="LT63" blockname="Osage-Powderhorn" connectaname="T143" connectbname="T11" connectcname="T2">
       <sensorB>NX-OsageM-WB</sensorB>
       <sensorC>NX-OsageS-WB</sensorC>
