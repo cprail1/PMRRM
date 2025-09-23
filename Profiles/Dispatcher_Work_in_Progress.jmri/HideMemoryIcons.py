@@ -16,5 +16,7 @@ for layoutEditor in layoutPanels :
     for memoryIcon in layoutEditor.getMemoryLabelList() :
         memoryIcon.setBorder(javax.swing.BorderFactory.createEmptyBorder())
         popupUtil = memoryIcon.getPopupUtility()
+        popupUtil.setBorderSize(0)
+        popupUtil.setBorderColor(layoutEditor.getBackgroundColor()) # makes it invisible
         popupUtil.setBorder(False)
     layoutEditor.repaint()
