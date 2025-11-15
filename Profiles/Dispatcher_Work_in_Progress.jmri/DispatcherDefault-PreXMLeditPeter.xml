@@ -4,7 +4,7 @@
   <jmriversion>
     <major>5</major>
     <minor>13</minor>
-    <test>4</test>
+    <test>5</test>
     <modifier />
   </jmriversion>
   <sensors class="jmri.jmrix.loconet.configurexml.LnSensorManagerXml">
@@ -3939,6 +3939,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT179</systemName>
+      <userName>Troy Yard cross over to logging</userName>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -3948,6 +3949,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT180</systemName>
+      <userName>Troy yard E Ladder 1</userName>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -3957,6 +3959,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT183</systemName>
+      <userName>Troy Y west ladder-turntable</userName>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -3966,7 +3969,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT184</systemName>
-      <userName>Troy W 3</userName>
+      <userName>Troy W3-Troy yard</userName>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -3976,6 +3979,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT185</systemName>
+      <userName>Troy Yard W bagging-icing</userName>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -4015,6 +4019,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT189</systemName>
+      <userName>Troy icing east end</userName>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -5834,6 +5839,8 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT555</systemName>
+      <userName>Branchline to Delta 4</userName>
+      <comment>In Delta interlocking</comment>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -6474,7 +6481,7 @@
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Off">
       <systemName>IT23</systemName>
-      <userName>Branchline to Delta 4</userName>
+      <userName>NOT Branchline to Delta 4</userName>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Off">
       <systemName>IT58</systemName>
@@ -8909,7 +8916,7 @@
       </path>
       <path todir="64" fromdir="128" block="IB71">
         <beansetting setting="2">
-          <turnout systemName="Troy W 3" />
+          <turnout systemName="Troy W3-Troy yard" />
         </beansetting>
         <beansetting setting="4">
           <turnout systemName="Troy W 2" />
@@ -9781,7 +9788,7 @@
       </path>
       <path todir="128" fromdir="64" block="IB24">
         <beansetting setting="2">
-          <turnout systemName="Troy W 3" />
+          <turnout systemName="Troy W3-Troy yard" />
         </beansetting>
       </path>
     </block>
@@ -9893,13 +9900,13 @@
       <permissive>no</permissive>
       <path todir="64" fromdir="128" block="IB96">
         <beansetting setting="4">
-          <turnout systemName="Branchline to Delta 4" />
+          <turnout systemName="NOT Branchline to Delta 4" />
         </beansetting>
       </path>
       <path todir="128" fromdir="64" block="IB119" />
       <path todir="64" fromdir="128" block="IB138">
         <beansetting setting="2">
-          <turnout systemName="Branchline to Delta 4" />
+          <turnout systemName="NOT Branchline to Delta 4" />
         </beansetting>
       </path>
     </block>
@@ -12673,7 +12680,7 @@
       <routeOutputTurnout systemName="Sierra E 2" state="CLOSED" />
       <routeOutputTurnout systemName="Sierra W 2" state="CLOSED" />
       <routeOutputTurnout systemName="Troy station" state="CLOSED" />
-      <routeOutputTurnout systemName="Troy W 3" state="CLOSED" />
+      <routeOutputTurnout systemName="Troy W3-Troy yard" state="CLOSED" />
       <routeOutputTurnout systemName="Whiskey Grain storage" state="CLOSED" />
       <routeOutputTurnout systemName="Whiskey Grain silo" state="CLOSED" />
       <routeOutputTurnout systemName="LT200" state="CLOSED" />
@@ -12843,12 +12850,12 @@
     <route userName="Branch line follows Delta 4 closed" controlTurnout="Delta 4 to 3" controlTurnoutState="CLOSED">
       <systemName>IO:AUTO:0030</systemName>
       <userName>Branch line follows Delta 4 closed</userName>
-      <routeOutputTurnout systemName="Branchline to Delta 4" state="THROWN" />
+      <routeOutputTurnout systemName="NOT Branchline to Delta 4" state="THROWN" />
     </route>
     <route userName="Branch line follows Delta 4 thrown" controlTurnout="Delta 4 to 3" controlTurnoutState="THROWN">
       <systemName>IO:AUTO:0032</systemName>
       <userName>Branch line follows Delta 4 thrown</userName>
-      <routeOutputTurnout systemName="Branchline to Delta 4" state="CLOSED" />
+      <routeOutputTurnout systemName="NOT Branchline to Delta 4" state="CLOSED" />
     </route>
   </routes>
   <signalmastlogics class="jmri.managers.configurexml.DefaultSignalMastLogicManagerXml">
@@ -16593,8 +16600,12 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <positionablelabel x="320" y="95" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text=" Out of Service " fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="yes" redBack="0" greenBack="255" blueBack="255" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="560" y="500" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text=" Out Of Service " fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="yes" redBack="0" greenBack="255" blueBack="255" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="300" y="135" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text=" Out of Service      " fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="yes" redBack="0" greenBack="255" blueBack="255" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="845" y="55" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text=" Out of Service      " fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="yes" redBack="0" greenBack="255" blueBack="255" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1285" y="505" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text=" Out of Service      " fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="yes" redBack="0" greenBack="255" blueBack="255" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1170" y="445" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text=" Out of Service      " fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="yes" redBack="0" greenBack="255" blueBack="255" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="550" y="665" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text=" Out of Service      " fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="yes" redBack="0" greenBack="255" blueBack="255" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="560" y="500" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text=" Out of Service      " fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="yes" redBack="0" greenBack="255" blueBack="255" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <memoryicon memory="Osage siding east" x="295" y="320" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" fixedHeight="16" justification="left" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif" />
     <sensoricon sensor="NX-OsageM-WB" x="205" y="350" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
@@ -17141,8 +17152,6 @@
     <memoryicon memory="Midway West Main 1" x="760" y="335" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="0" hasBackground="no" fixedHeight="16" justification="left" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>Midway West main 1</tooltip>
     </memoryicon>
-    <positionablelabel x="845" y="55" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text=" Out of Service " fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="yes" redBack="0" greenBack="255" blueBack="255" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="1290" y="545" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text=" Out of Service  " fontFamily="Dialog" fontname="Dialog" size="6" style="0" red="0" green="0" blue="0" hasBackground="yes" redBack="0" greenBack="255" blueBack="255" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <layoutturnout ident="TO1" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1215.0" ycen="400.0" xa="1230.0" ya="400.0" xb="1200.0" yb="400.0" xc="1195.0" yc="390.0" xd="1230.0" yd="400.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Midway E F" blockname="Midway East frt approach" connectaname="T226" connectbname="T242" connectcname="T4" />
     <layoutturnout ident="TO2" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1145.0" ycen="380.0" xa="1135.0" ya="375.0" xb="1155.0" yb="385.0" xc="1160.0" yc="370.0" xd="1135.0" yd="375.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="LT52" connectaname="T5" connectbname="T4" connectcname="T8" />
     <layoutturnout ident="TO3" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1342.0" ycen="355.0" xa="1364.0" ya="355.0" xb="1320.0" yb="355.0" xc="1320.0" yc="375.0" xd="1364.0" yd="355.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Lake" blockname="Lake" connectaname="T129" connectbname="T3" connectcname="T1">
@@ -17353,7 +17362,7 @@
     <layoutturnout ident="TO101" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="4" xcen="143.0" ycen="510.0" xa="138.0" ya="505.0" xb="148.0" yb="515.0" xc="163.0" yc="510.0" xd="138.0" yd="505.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Troy W 2" blockname="Troy-Upton" connectaname="T198" connectbname="T199" connectcname="T201">
       <sensorC>NX-TroyS-WB</sensorC>
     </layoutturnout>
-    <layoutturnout ident="TO102" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="4" xcen="163.0" ycen="530.0" xa="153.0" ya="520.0" xb="173.0" yb="540.0" xc="183.0" yc="530.0" xd="153.0" yd="520.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Troy W 3" blockname="Troy-Upton" connectaname="T199" connectbname="T203" connectcname="T200">
+    <layoutturnout ident="TO102" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="4" xcen="163.0" ycen="530.0" xa="153.0" ya="520.0" xb="173.0" yb="540.0" xc="183.0" yc="530.0" xd="153.0" yd="520.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Troy W3-Troy yard" blockname="Troy-Upton" connectaname="T199" connectbname="T203" connectcname="T200">
       <sensorC>NX-Troy3-WB</sensorC>
     </layoutturnout>
     <layoutturnout ident="TO100" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="123.0" ycen="490.0" xa="108.0" ya="490.0" xb="138.0" yb="490.0" xc="138.0" yc="505.0" xd="108.0" yd="490.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Troy W 1" blockname="Troy-Upton" connectaname="T53" connectbname="T202" connectcname="T198">
@@ -17388,7 +17397,7 @@
     <layoutturnout ident="TO112" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="840.0" ycen="635.0" xa="850.0" ya="635.0" xb="830.0" yb="635.0" xc="830.0" yc="625.0" xd="850.0" yd="635.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Vista W 2 MainW -VistaYard W partner" blockname="AUTOBLK:175" connectaname="T60" connectbname="T234" connectcname="T232" />
     <layoutturnout ident="TO113" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="4" xcen="995.0" ycen="640.0" xa="985.0" ya="650.0" xb="1005.0" yb="630.0" xc="1015.0" yc="640.0" xd="985.0" yd="650.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Vista E 2 MainE -VistaYard E partner" blockname="AUTOBLK:196" connectaname="T235" connectbname="T233" connectcname="T236" />
     <layoutturnout ident="TO114" type="RH_TURNOUT" hidden="no" disabled="yes" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="570.0" ycen="490.0" xa="550.0" ya="490.0" xb="590.0" yb="490.0" xc="580.0" yc="500.0" xd="550.0" yd="490.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Sierra camp spur (Bob G guess )" blockname="Sierra main" connectaname="T237" connectbname="T46" connectcname="T127" />
-    <layoutturnout ident="TO115" type="RH_TURNOUT" hidden="no" disabled="yes" disableWhenOccupied="no" showtooltip="yes" continuing="4" xcen="410.0" ycen="100.0" xa="390.0" ya="100.0" xb="430.0" yb="100.0" xc="420.0" yc="110.0" xd="390.0" yd="100.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Branchline to Delta 4" blockname="AUTOBLK:135" connectaname="T107" connectbname="T240" connectcname="T241" />
+    <layoutturnout ident="TO115" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="4" xcen="400.0" ycen="100.0" xa="380.0" ya="100.0" xb="420.0" yb="100.0" xc="410.0" yc="110.0" xd="380.0" yd="100.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Branchline to Delta 4" blockname="AUTOBLK:135" connectaname="T107" connectbname="T240" connectcname="T241" />
     <tracksegment ident="T1" blockname="Midway East frt approach" connect1name="TO3" type1="TURNOUT_C" connect2name="A28" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T3" blockname="Midway East Main passenger approach" connect1name="TO3" type1="TURNOUT_B" connect2name="TO5" type2="TURNOUT_B" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T4" connect1name="TO1" type1="TURNOUT_C" connect2name="TO2" type2="TURNOUT_B" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
