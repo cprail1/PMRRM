@@ -3,8 +3,8 @@
 <layout-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/layout-5-5-5.xsd">
   <jmriversion>
     <major>5</major>
-    <minor>7</minor>
-    <test>3</test>
+    <minor>13</minor>
+    <test>6</test>
     <modifier>plus</modifier>
   </jmriversion>
   <sensors class="jmri.jmrix.openlcb.configurexml.OlcbSensorManagerXml">
@@ -149,6 +149,18 @@
       <userName>ZE F8 power ack</userName>
     </sensor>
     <sensor inverted="false">
+      <systemName>MS02.01.57.11.00.04.07.20;02.01.57.11.00.04.07.21</systemName>
+      <userName>ZE PT1 ack</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.11.00.04.07.23;02.01.57.11.00.04.07.24</systemName>
+      <userName>ZE PT2 ack</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.11.00.04.07.26;02.01.57.11.00.04.07.27</systemName>
+      <userName>ZE PT3 ack</userName>
+    </sensor>
+    <sensor inverted="false">
       <systemName>MS02.01.57.20.00.1B.05.FA;02.01.57.20.00.1B.05.FB</systemName>
       <userName>Whiskey 1 occupancy</userName>
     </sensor>
@@ -291,18 +303,6 @@
     <sensor inverted="false">
       <systemName>ISZE P9 ack</systemName>
       <userName>ZE P9 ack</userName>
-    </sensor>
-    <sensor inverted="false">
-      <systemName>ISZE PT1 ack</systemName>
-      <userName>ZE PT1 ack</userName>
-    </sensor>
-    <sensor inverted="false">
-      <systemName>ISZE PT2 ack</systemName>
-      <userName>ZE PT2 ack</userName>
-    </sensor>
-    <sensor inverted="false">
-      <systemName>ISZE PT3 ack</systemName>
-      <userName>ZE PT3 ack</userName>
     </sensor>
     <sensor inverted="false">
       <systemName>ISZE Remote - Local</systemName>
@@ -3595,10 +3595,10 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <positionablelabel x="1404" y="111" level="4" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" text="LOCAL" fontFamily="Dialog" fontname="Dialog.bold" size="14" style="1" red="255" green="255" blue="255" hasBackground="no" fixedWidth="100" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="1702" y="347" level="4" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" text=" LOCAL" fontFamily="Dialog" fontname="Dialog.bold" size="12" style="1" red="255" green="255" blue="255" hasBackground="no" fixedWidth="100" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="1705" y="399" level="4" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" text="REMOTE" fontFamily="Dialog" fontname="Dialog.bold" size="12" style="1" red="255" green="255" blue="255" hasBackground="no" fixedWidth="100" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="1405" y="175" level="4" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" text="REMOTE" fontFamily="Dialog" fontname="Dialog.bold" size="14" style="1" red="255" green="255" blue="255" hasBackground="no" fixedWidth="100" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1404" y="111" level="4" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" text="LOCAL" fontFamily="Dialog" fontname="Dialog" size="14" style="1" red="255" green="255" blue="255" hasBackground="no" fixedWidth="100" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1702" y="347" level="4" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" text=" LOCAL" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="255" green="255" blue="255" hasBackground="no" fixedWidth="100" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1705" y="399" level="4" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" text="REMOTE" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="255" green="255" blue="255" hasBackground="no" fixedWidth="100" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1405" y="175" level="4" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" text="REMOTE" fontFamily="Dialog" fontname="Dialog" size="14" style="1" red="255" green="255" blue="255" hasBackground="no" fixedWidth="100" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <turnouticon turnout="Zion East Zion - Port" x="744" y="249" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
         <closed url="program:resources/icons/USSpanels/Lamps/lamp-g.gif" degrees="0" scale="1.75">
@@ -3763,104 +3763,104 @@
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Wed Mar 13 14:03:20 PDT 2024</date>
-      <filename>PanelPro (v5.7.3)</filename>
+      <date>Thu Nov 27 09:25:22 EST 2025</date>
+      <filename>PanelPro (v5.13.6)</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Wed Mar 13 14:03:24 PDT 2024</date>
-      <filename>/D:/OneDrive/__Bob_Peter_Shared/JMRI user Bob PMRRM/ZionE-Development.xml</filename>
+      <date>Thu Nov 27 09:25:27 EST 2025</date>
+      <filename>/Users/jake/Library/Mobile Documents/com~apple~CloudDocs/Trains/PMRRM/git_repos/PMRRM/Profiles/Zion_East_Development.jmri/ZionE-Development.xml</filename>
       <filehistory>
         <operation>
           <type>app</type>
-          <date>Tue Mar 12 11:19:46 EDT 2024</date>
-          <filename>PanelPro (v5.7.5)</filename>
+          <date>Wed Mar 13 14:03:20 PDT 2024</date>
+          <filename>PanelPro (v5.7.3)</filename>
         </operation>
         <operation>
           <type>Load OK</type>
-          <date>Tue Mar 12 11:19:51 EDT 2024</date>
-          <filename>/Users/jake/Library/Mobile Documents/com~apple~CloudDocs/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
+          <date>Wed Mar 13 14:03:24 PDT 2024</date>
+          <filename>/D:/OneDrive/__Bob_Peter_Shared/JMRI user Bob PMRRM/ZionE-Development.xml</filename>
           <filehistory>
             <operation>
               <type>app</type>
-              <date>Tue Mar 12 11:01:58 EDT 2024</date>
+              <date>Tue Mar 12 11:19:46 EDT 2024</date>
               <filename>PanelPro (v5.7.5)</filename>
             </operation>
             <operation>
               <type>Load OK</type>
-              <date>Tue Mar 12 11:02:03 EDT 2024</date>
+              <date>Tue Mar 12 11:19:51 EDT 2024</date>
               <filename>/Users/jake/Library/Mobile Documents/com~apple~CloudDocs/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
               <filehistory>
                 <operation>
                   <type>app</type>
-                  <date>Tue Mar 12 10:47:28 EDT 2024</date>
+                  <date>Tue Mar 12 11:01:58 EDT 2024</date>
                   <filename>PanelPro (v5.7.5)</filename>
                 </operation>
                 <operation>
                   <type>Load OK</type>
-                  <date>Tue Mar 12 10:47:33 EDT 2024</date>
+                  <date>Tue Mar 12 11:02:03 EDT 2024</date>
                   <filename>/Users/jake/Library/Mobile Documents/com~apple~CloudDocs/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
                   <filehistory>
                     <operation>
                       <type>app</type>
-                      <date>Mon Mar 11 20:17:24 EDT 2024</date>
+                      <date>Tue Mar 12 10:47:28 EDT 2024</date>
                       <filename>PanelPro (v5.7.5)</filename>
                     </operation>
                     <operation>
                       <type>Load OK</type>
-                      <date>Mon Mar 11 20:17:30 EDT 2024</date>
+                      <date>Tue Mar 12 10:47:33 EDT 2024</date>
                       <filename>/Users/jake/Library/Mobile Documents/com~apple~CloudDocs/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
                       <filehistory>
                         <operation>
                           <type>app</type>
-                          <date>Sat Mar 02 17:35:46 EST 2024</date>
-                          <filename>PanelPro (v5.7.4)</filename>
+                          <date>Mon Mar 11 20:17:24 EDT 2024</date>
+                          <filename>PanelPro (v5.7.5)</filename>
                         </operation>
                         <operation>
                           <type>Load OK</type>
-                          <date>Sat Mar 02 17:35:48 EST 2024</date>
-                          <filename>/Users/jake/Documents/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
+                          <date>Mon Mar 11 20:17:30 EDT 2024</date>
+                          <filename>/Users/jake/Library/Mobile Documents/com~apple~CloudDocs/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
                         </operation>
                         <operation>
                           <type>Store</type>
-                          <date>Sat Mar 02 18:07:36 EST 2024</date>
-                          <filename>/Users/jake/Documents/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
+                          <date>Tue Mar 12 10:38:23 EDT 2024</date>
+                          <filename>/Users/jake/Library/Mobile Documents/com~apple~CloudDocs/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
                         </operation>
                       </filehistory>
                     </operation>
                     <operation>
                       <type>Store</type>
-                      <date>Tue Mar 12 10:38:23 EDT 2024</date>
+                      <date>Tue Mar 12 10:54:10 EDT 2024</date>
                       <filename>/Users/jake/Library/Mobile Documents/com~apple~CloudDocs/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
                     </operation>
                   </filehistory>
                 </operation>
                 <operation>
                   <type>Store</type>
-                  <date>Tue Mar 12 10:54:10 EDT 2024</date>
+                  <date>Tue Mar 12 11:17:57 EDT 2024</date>
                   <filename>/Users/jake/Library/Mobile Documents/com~apple~CloudDocs/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
                 </operation>
               </filehistory>
             </operation>
             <operation>
               <type>Store</type>
-              <date>Tue Mar 12 11:17:57 EDT 2024</date>
+              <date>Tue Mar 12 11:36:08 EDT 2024</date>
               <filename>/Users/jake/Library/Mobile Documents/com~apple~CloudDocs/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
             </operation>
           </filehistory>
         </operation>
         <operation>
           <type>Store</type>
-          <date>Tue Mar 12 11:36:08 EDT 2024</date>
-          <filename>/Users/jake/Library/Mobile Documents/com~apple~CloudDocs/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
+          <date>Wed Mar 13 14:05:08 PDT 2024</date>
+          <filename>D:\OneDrive\__Bob_Peter_Shared\JMRI user Bob PMRRM\ZionE-Development.xml</filename>
         </operation>
       </filehistory>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Wed Mar 13 14:05:08 PDT 2024</date>
-      <filename>D:\OneDrive\__Bob_Peter_Shared\JMRI user Bob PMRRM\ZionE-Development.xml</filename>
+      <date>Thu Nov 27 09:29:08 EST 2025</date>
+      <filename>/Users/jake/Library/Mobile Documents/com~apple~CloudDocs/Trains/PMRRM/git_repos/PMRRM/Profiles/Zion_East_Development.jmri/ZionE-Development.xml</filename>
     </operation>
   </filehistory>
-  <!--Written by JMRI version 5.7.3plus+jenkins+20240201T0511Z+R64f527bca68 on Wed Mar 13 14:05:08 PDT 2024-->
+  <!--Written by JMRI version 5.13.6plus+jake+20251127T1423Z+R381694971a3 on Thu Nov 27 09:29:08 EST 2025-->
 </layout-config>
