@@ -4,7 +4,7 @@
   <jmriversion>
     <major>5</major>
     <minor>13</minor>
-    <test>6</test>
+    <test>7</test>
     <modifier>plus</modifier>
   </jmriversion>
   <sensors class="jmri.jmrix.openlcb.configurexml.OlcbSensorManagerXml">
@@ -188,6 +188,9 @@
   </sensors>
   <sensors class="jmri.jmrix.internal.configurexml.InternalSensorManagerXml">
     <defaultInitialState>unknown</defaultInitialState>
+    <sensor inverted="false">
+      <systemName>IS-panel-demo</systemName>
+    </sensor>
     <sensor inverted="false">
       <systemName>ISZE EABECR Cab ack</systemName>
       <userName>ZE EABECR Cab ack</userName>
@@ -3760,107 +3763,44 @@
       <iconmaps />
     </turnouticon>
   </paneleditor>
+  <paneleditor class="jmri.jmrit.display.panelEditor.configurexml.PanelEditorXml" name="Zion Hard Panel" x="0" y="25" height="655" width="2560" editable="yes" positionable="yes" showtooltips="yes" controlling="yes" hide="yes" panelmenu="yes" scrollable="none" redBackground="255" greenBackground="255" blueBackground="255">
+    <positionablelabel x="0" y="0" level="1" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="true" icon="yes" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <icon url="preference:resources/ZionEastHardwarePanel.png" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </icon>
+    </positionablelabel>
+    <sensoricon sensor="IS-panel-demo" x="412" y="51" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/USSpanels/Lamps/lamp-g.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/USSpanels/Lamps/lamp-dg.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/USSpanels/Lamps/blink-r.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/USSpanels/Lamps/blink-r.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+  </paneleditor>
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Thu Nov 27 09:25:22 EST 2025</date>
-      <filename>PanelPro (v5.13.6)</filename>
+      <date>Sat Nov 29 12:55:45 EST 2025</date>
+      <filename>PanelPro (v5.13.7)</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Thu Nov 27 09:25:27 EST 2025</date>
+      <date>Sat Nov 29 12:55:51 EST 2025</date>
       <filename>/Users/jake/Library/Mobile Documents/com~apple~CloudDocs/Trains/PMRRM/git_repos/PMRRM/Profiles/Zion_East_Development.jmri/ZionE-Development.xml</filename>
-      <filehistory>
-        <operation>
-          <type>app</type>
-          <date>Wed Mar 13 14:03:20 PDT 2024</date>
-          <filename>PanelPro (v5.7.3)</filename>
-        </operation>
-        <operation>
-          <type>Load OK</type>
-          <date>Wed Mar 13 14:03:24 PDT 2024</date>
-          <filename>/D:/OneDrive/__Bob_Peter_Shared/JMRI user Bob PMRRM/ZionE-Development.xml</filename>
-          <filehistory>
-            <operation>
-              <type>app</type>
-              <date>Tue Mar 12 11:19:46 EDT 2024</date>
-              <filename>PanelPro (v5.7.5)</filename>
-            </operation>
-            <operation>
-              <type>Load OK</type>
-              <date>Tue Mar 12 11:19:51 EDT 2024</date>
-              <filename>/Users/jake/Library/Mobile Documents/com~apple~CloudDocs/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
-              <filehistory>
-                <operation>
-                  <type>app</type>
-                  <date>Tue Mar 12 11:01:58 EDT 2024</date>
-                  <filename>PanelPro (v5.7.5)</filename>
-                </operation>
-                <operation>
-                  <type>Load OK</type>
-                  <date>Tue Mar 12 11:02:03 EDT 2024</date>
-                  <filename>/Users/jake/Library/Mobile Documents/com~apple~CloudDocs/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
-                  <filehistory>
-                    <operation>
-                      <type>app</type>
-                      <date>Tue Mar 12 10:47:28 EDT 2024</date>
-                      <filename>PanelPro (v5.7.5)</filename>
-                    </operation>
-                    <operation>
-                      <type>Load OK</type>
-                      <date>Tue Mar 12 10:47:33 EDT 2024</date>
-                      <filename>/Users/jake/Library/Mobile Documents/com~apple~CloudDocs/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
-                      <filehistory>
-                        <operation>
-                          <type>app</type>
-                          <date>Mon Mar 11 20:17:24 EDT 2024</date>
-                          <filename>PanelPro (v5.7.5)</filename>
-                        </operation>
-                        <operation>
-                          <type>Load OK</type>
-                          <date>Mon Mar 11 20:17:30 EDT 2024</date>
-                          <filename>/Users/jake/Library/Mobile Documents/com~apple~CloudDocs/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
-                        </operation>
-                        <operation>
-                          <type>Store</type>
-                          <date>Tue Mar 12 10:38:23 EDT 2024</date>
-                          <filename>/Users/jake/Library/Mobile Documents/com~apple~CloudDocs/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
-                        </operation>
-                      </filehistory>
-                    </operation>
-                    <operation>
-                      <type>Store</type>
-                      <date>Tue Mar 12 10:54:10 EDT 2024</date>
-                      <filename>/Users/jake/Library/Mobile Documents/com~apple~CloudDocs/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
-                    </operation>
-                  </filehistory>
-                </operation>
-                <operation>
-                  <type>Store</type>
-                  <date>Tue Mar 12 11:17:57 EDT 2024</date>
-                  <filename>/Users/jake/Library/Mobile Documents/com~apple~CloudDocs/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
-                </operation>
-              </filehistory>
-            </operation>
-            <operation>
-              <type>Store</type>
-              <date>Tue Mar 12 11:36:08 EDT 2024</date>
-              <filename>/Users/jake/Library/Mobile Documents/com~apple~CloudDocs/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
-            </operation>
-          </filehistory>
-        </operation>
-        <operation>
-          <type>Store</type>
-          <date>Wed Mar 13 14:05:08 PDT 2024</date>
-          <filename>D:\OneDrive\__Bob_Peter_Shared\JMRI user Bob PMRRM\ZionE-Development.xml</filename>
-        </operation>
-      </filehistory>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Thu Nov 27 09:29:08 EST 2025</date>
+      <date>Sat Nov 29 17:16:06 EST 2025</date>
       <filename>/Users/jake/Library/Mobile Documents/com~apple~CloudDocs/Trains/PMRRM/git_repos/PMRRM/Profiles/Zion_East_Development.jmri/ZionE-Development.xml</filename>
     </operation>
   </filehistory>
-  <!--Written by JMRI version 5.13.6plus+jake+20251127T1423Z+R381694971a3 on Thu Nov 27 09:29:08 EST 2025-->
+  <!--Written by JMRI version 5.13.7plus+jake+20251129T1754Z+R8c76183584d on Sat Nov 29 17:16:06 EST 2025-->
 </layout-config>
