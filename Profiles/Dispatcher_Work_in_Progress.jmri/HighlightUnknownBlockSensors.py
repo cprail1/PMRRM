@@ -10,28 +10,43 @@ from javax.swing import JOptionPane
 import org.slf4j.Logger
 import org.slf4j.LoggerFactory
 
+class RedrawPanels(jmri.util.ThreadingUtil.ThreadAction):
+  def run(self):  
+    editorManager = jmri.InstanceManager.getDefault(jmri.jmrit.display.EditorManager)
+    for panel in editorManager.getAll(jmri.jmrit.display.layoutEditor.LayoutEditor) :
+        panel.redrawPanel()
+    return
+
 class ResetBlockColorListener(java.beans.PropertyChangeListener):
   def set(self, sensor, block) :
     self.sensor = sensor
     self.block = block
     self.savedColor = block.getBlockTrackColor()
     return
+  
   def propertyChange(self, event):
     if self.sensor.getKnownState() == UNKNOWN :
-        self.block.setBlockTrackColor(java.awt.Color(190, 190, 255)) # light blue
+        # still unknown
+        return
     else :
         self.block.setBlockTrackColor(self.savedColor)
         self.sensor.removePropertyChangeListener(self)
+        # toggle state so web panels will refresh
+        state = self.sensor.getKnownState()
+        if (state == ACTIVE) :
+          self.sensor.setKnownState(INACTIVE)
+        else :
+          self.sensor.setKnownState(ACTIVE)
+        self.sensor.setKnownState(state)
     return
 
-class HighlightUnknownBlockSensors(jmri.jmrit.automat.AbstractAutomaton) :
+class HighlightUnknownBlockSensors(jmri.util.ThreadingUtil.ThreadAction) :
         
-    def handle(self):
+    def run(self):
         self.log = org.slf4j.LoggerFactory.getLogger(
             "jmri.jmrit.jython.exec.script.HighlightUnknownBlockSensors"
         )
-        self.waitMsec(8000)  # compare to QueryLnSensorState
-        
+
         self.log.info("Start HighlightUnknownBlockSensors")
         
         blockManager = jmri.InstanceManager.getDefault(jmri.jmrit.display.layoutEditor.LayoutBlockManager)
@@ -46,13 +61,15 @@ class HighlightUnknownBlockSensors(jmri.jmrit.automat.AbstractAutomaton) :
                     self.log.warn("Found sensor in UNKNOWN state: {} for layout block: {}", sensor, block)
                     listener = ResetBlockColorListener()
                     listener.set(sensor, block)
-                    sensor.addPropertyChangeListener(listener)
-                    listener.propertyChange(None)  # execute listener once to set initial color
+                    block.setBlockTrackColor(java.awt.Color(190, 190, 255)) # light blue
+                    sensor.addPropertyChangeListener(listener) # listener added after changing color
                     
-        # if foundSome :
-        #    JOptionPane.showMessageDialog(None,"Light blue lines are occupancy sensors that didn't report status","Some sensor states unknown",JOptionPane.INFORMATION_MESSAGE)
-        return False # only run once
-            
-a = HighlightUnknownBlockSensors()
-a.setName("Highlight unknown block sensors")
-a.start()    
+        if foundSome :
+            # request a redraw of all LayoutEditor panels to get rapid repaint
+            jmri.util.ThreadingUtil.runOnGUIEventually(RedrawPanels())
+            # JOptionPane.showMessageDialog(None,"Light blue lines are occupancy sensors that didn't report status","Some sensor states unknown",JOptionPane.INFORMATION_MESSAGE)
+        return
+    
+# and launch on GUI thread after some delay        
+jmri.util.ThreadingUtil.runOnGUIDelayed(HighlightUnknownBlockSensors(), 8000)  # time related to retry script(s)
+  
