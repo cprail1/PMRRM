@@ -10,6 +10,7 @@ from javax.swing import JOptionPane
 import org.slf4j.Logger
 import org.slf4j.LoggerFactory
 
+# redraw all LayoutEditor panels  - should run on GUI thread
 class RedrawPanels(jmri.util.ThreadingUtil.ThreadAction):
   def run(self):  
     editorManager = jmri.InstanceManager.getDefault(jmri.jmrit.display.EditorManager)
@@ -24,6 +25,7 @@ class ResetBlockColorListener(java.beans.PropertyChangeListener):
     self.savedColor = block.getBlockTrackColor()
     return
   
+  # should run on GUI thread
   def propertyChange(self, event):
     if self.sensor.getKnownState() == UNKNOWN :
         # still unknown
@@ -41,7 +43,8 @@ class ResetBlockColorListener(java.beans.PropertyChangeListener):
     return
 
 class HighlightUnknownBlockSensors(jmri.util.ThreadingUtil.ThreadAction) :
-        
+    
+    # this will be run on the GUI thread
     def run(self):
         self.log = org.slf4j.LoggerFactory.getLogger(
             "jmri.jmrit.jython.exec.script.HighlightUnknownBlockSensors"
