@@ -22,7 +22,7 @@ class ResetBlockColorListener(java.beans.PropertyChangeListener):
   def set(self, sensor, block) :
     self.sensor = sensor
     self.block = block
-    self.savedColor = block.getBlockTrackColor()
+    self.savedColor = block.getBlockExtraColor()
     return
   
   # should run on GUI thread
@@ -31,15 +31,8 @@ class ResetBlockColorListener(java.beans.PropertyChangeListener):
         # still unknown
         return
     else :
-        self.block.setBlockTrackColor(self.savedColor)
         self.sensor.removePropertyChangeListener(self)
-        # toggle state so web panels will refresh
-        state = self.sensor.getKnownState()
-        if (state == ACTIVE) :
-          self.sensor.setKnownState(INACTIVE)
-        else :
-          self.sensor.setKnownState(ACTIVE)
-        self.sensor.setKnownState(state)
+        self.block.setUseExtraColor(False)
     return
 
 class HighlightUnknownBlockSensors(jmri.util.ThreadingUtil.ThreadAction) :
@@ -64,7 +57,8 @@ class HighlightUnknownBlockSensors(jmri.util.ThreadingUtil.ThreadAction) :
                     self.log.warn("Found sensor in UNKNOWN state: {} for layout block: {}", sensor, block)
                     listener = ResetBlockColorListener()
                     listener.set(sensor, block)
-                    block.setBlockTrackColor(java.awt.Color(190, 190, 255)) # light blue
+                    block.setBlockExtraColor(java.awt.Color(190, 190, 255)) # light blue
+                    block.setUseExtraColor(True)
                     sensor.addPropertyChangeListener(listener) # listener added after changing color
                     
         if foundSome :
