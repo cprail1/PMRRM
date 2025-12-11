@@ -19,12 +19,6 @@
         <perform xmlns="" class="jmri.util.startup.configurexml.PerformActionModelXml" enabled="yes" name="jmri.web.server.WebServerAction" type="Action">
             <property name="systemPrefix" value=""/>
         </perform>
-        <perform xmlns="" class="jmri.util.startup.configurexml.PerformActionModelXml" enabled="no" name="jmri.jmrit.automat.monitor.AutomatTableAction" type="Action">
-            <property name="systemPrefix" value=""/>
-        </perform>
-        <perform xmlns="" class="apps.configurexml.CreateButtonModelXml" enabled="yes" name="jmri.jmrit.beantable.BlockTableAction" type="Button">
-            <property name="systemPrefix" value=""/>
-        </perform>
         <perform xmlns="" class="jmri.util.startup.configurexml.PerformScriptModelXml" enabled="yes" name="preference:HideMemoryIcons.py" type="ScriptFile"/>
         <perform xmlns="" class="jmri.util.startup.configurexml.PerformScriptModelXml" enabled="yes" name="preference:DontListenDoubleHead.py" type="ScriptFile"/>
         <perform xmlns="" class="jmri.util.startup.configurexml.PerformScriptModelXml" enabled="yes" name="preference:PMRRM_semaphores.py" type="ScriptFile"/>
