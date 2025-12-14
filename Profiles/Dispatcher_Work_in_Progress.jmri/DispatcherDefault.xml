@@ -4,8 +4,8 @@
   <jmriversion>
     <major>5</major>
     <minor>13</minor>
-    <test>5</test>
-    <modifier />
+    <test>6</test>
+    <modifier>plus</modifier>
   </jmriversion>
   <sensors class="jmri.jmrix.loconet.configurexml.LnSensorManagerXml">
     <globalDebounceTimers>
@@ -5650,6 +5650,8 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT522</systemName>
+      <userName>Heine yd 522</userName>
+      <comment>On path to reverse loop / run around</comment>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -5659,6 +5661,8 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT523</systemName>
+      <userName>Heine yd 523</userName>
+      <comment>On path to reverse loop</comment>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -5668,6 +5672,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT524</systemName>
+      <userName>Heine yd 524</userName>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -5677,6 +5682,8 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT525</systemName>
+      <userName>Heine yd 525</userName>
+      <comment>526/525Xovr 525 follows 526 @ DS64-40 rte</comment>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -5686,6 +5693,8 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT526</systemName>
+      <userName>Heine yd 526</userName>
+      <comment>526/525Xovr 526 follows 525 @ DS64-40 rte. Run around</comment>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -5695,6 +5704,8 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT527</systemName>
+      <userName>Heine yd 527 (reverse loop nexus)</userName>
+      <comment>Reverse loop nexus</comment>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -5704,6 +5715,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT528</systemName>
+      <userName>McSweeny end yd 528</userName>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -5713,6 +5725,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT529</systemName>
+      <userName>McSweeny end yd 529</userName>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -5722,6 +5735,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT530</systemName>
+      <userName>McSweeny end yd 530</userName>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -5731,6 +5745,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT531</systemName>
+      <userName>McSweeny end yd 531</userName>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -5740,6 +5755,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT532</systemName>
+      <userName>McSweeny end yd 532</userName>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -5749,6 +5765,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT533</systemName>
+      <userName>McSweeny end yd 533</userName>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -5839,7 +5856,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT555</systemName>
-      <userName>Branchline to Delta 4</userName>
+      <userName>Short Line to Delta 4</userName>
       <comment>In Delta interlocking</comment>
       <properties>
         <property>
@@ -6054,6 +6071,18 @@
           <value class="java.lang.Boolean">false</value>
         </property>
       </properties>
+    </turnout>
+    <turnout feedback="MONITORING" inverted="false" automate="Off">
+      <systemName>LT713</systemName>
+      <userName>Shortline Zion station west 713</userName>
+    </turnout>
+    <turnout feedback="MONITORING" inverted="false" automate="Off">
+      <systemName>LT714</systemName>
+      <userName>Shortline Zion station west 714</userName>
+    </turnout>
+    <turnout feedback="MONITORING" inverted="false" automate="Off">
+      <systemName>LT715</systemName>
+      <userName>Shortline Zion station west 715</userName>
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT723</systemName>
@@ -10093,7 +10122,7 @@
       <permissive>no</permissive>
       <path todir="128" fromdir="64" block="IB119">
         <beansetting setting="4">
-          <turnout systemName="Branchline to Delta 4" />
+          <turnout systemName="Short Line to Delta 4" />
         </beansetting>
       </path>
       <path todir="64" fromdir="128" block="IB:AUTO:0015">
@@ -10394,12 +10423,12 @@
       </path>
       <path todir="64" fromdir="128" block="IB96">
         <beansetting setting="4">
-          <turnout systemName="Branchline to Delta 4" />
+          <turnout systemName="Short Line to Delta 4" />
         </beansetting>
       </path>
       <path todir="96" fromdir="144" block="IB138">
         <beansetting setting="2">
-          <turnout systemName="Branchline to Delta 4" />
+          <turnout systemName="Short Line to Delta 4" />
         </beansetting>
       </path>
     </block>
@@ -10643,7 +10672,7 @@
       <permissive>no</permissive>
       <path todir="144" fromdir="96" block="IB119">
         <beansetting setting="2">
-          <turnout systemName="Branchline to Delta 4" />
+          <turnout systemName="Short Line to Delta 4" />
         </beansetting>
       </path>
     </block>
@@ -11832,19 +11861,19 @@
       <systemName>ILB42</systemName>
       <userName>Bend CP2</userName>
     </layoutblock>
-    <layoutblock systemName="ILB43" occupancysensor="Delta 1" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Delta main 1">
+    <layoutblock systemName="ILB43" occupancysensor="Delta 1" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="#BEBEFF" memory="Delta main 1">
       <systemName>ILB43</systemName>
       <userName>Delta 1</userName>
     </layoutblock>
-    <layoutblock systemName="ILB44" occupancysensor="Delta 2" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Delta main 2">
+    <layoutblock systemName="ILB44" occupancysensor="Delta 2" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="#BEBEFF" memory="Delta main 2">
       <systemName>ILB44</systemName>
       <userName>Delta 2</userName>
     </layoutblock>
-    <layoutblock systemName="ILB45" occupancysensor="Delta 3" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Delta main 3">
+    <layoutblock systemName="ILB45" occupancysensor="Delta 3" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="#BEBEFF" memory="Delta main 3">
       <systemName>ILB45</systemName>
       <userName>Delta 3</userName>
     </layoutblock>
-    <layoutblock systemName="ILB46" occupancysensor="Delta 4" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Delta main 4">
+    <layoutblock systemName="ILB46" occupancysensor="Delta 4" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="#BEBEFF" memory="Delta main 4">
       <systemName>ILB46</systemName>
       <userName>Delta 4</userName>
     </layoutblock>
@@ -11878,19 +11907,19 @@
       <systemName>ILB53</systemName>
       <userName>AUTOBLK:53</userName>
     </layoutblock>
-    <layoutblock systemName="ILB54" occupancysensor="Gary siding" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Gary siding">
+    <layoutblock systemName="ILB54" occupancysensor="Gary siding" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="#BEBEFF" memory="Gary siding">
       <systemName>ILB54</systemName>
       <userName>Gary siding</userName>
     </layoutblock>
-    <layoutblock systemName="ILB55" occupancysensor="Gary main" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Gary main">
+    <layoutblock systemName="ILB55" occupancysensor="Gary main" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="#BEBEFF" memory="Gary main">
       <systemName>ILB55</systemName>
       <userName>Gary main</userName>
     </layoutblock>
-    <layoutblock systemName="ILB56" occupancysensor="Hudson main" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Hudson main">
+    <layoutblock systemName="ILB56" occupancysensor="Hudson main" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="#BEBEFF" memory="Hudson main">
       <systemName>ILB56</systemName>
       <userName>Hudson main</userName>
     </layoutblock>
-    <layoutblock systemName="ILB57" occupancysensor="Hudson siding" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Hudson siding">
+    <layoutblock systemName="ILB57" occupancysensor="Hudson siding" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="#BEBEFF" memory="Hudson siding">
       <systemName>ILB57</systemName>
       <userName>Hudson siding</userName>
     </layoutblock>
@@ -11902,11 +11931,11 @@
       <systemName>ILB59</systemName>
       <userName>Irvine W</userName>
     </layoutblock>
-    <layoutblock systemName="ILB60" occupancysensor="Jackson main" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Jackson main">
+    <layoutblock systemName="ILB60" occupancysensor="Jackson main" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="#BEBEFF" memory="Jackson main">
       <systemName>ILB60</systemName>
       <userName>Jackson main</userName>
     </layoutblock>
-    <layoutblock systemName="ILB61" occupancysensor="Jackson siding" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Jackson siding">
+    <layoutblock systemName="ILB61" occupancysensor="Jackson siding" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="#BEBEFF" memory="Jackson siding">
       <systemName>ILB61</systemName>
       <userName>Jackson siding</userName>
     </layoutblock>
@@ -11926,7 +11955,7 @@
       <systemName>ILB65</systemName>
       <userName>AUTOBLK:164</userName>
     </layoutblock>
-    <layoutblock systemName="ILB66" occupancysensor="Gary Hudson overlap main" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Gary-Hudson overlamp">
+    <layoutblock systemName="ILB66" occupancysensor="Gary Hudson overlap main" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="#BEBEFF" memory="Gary-Hudson overlamp">
       <systemName>ILB66</systemName>
       <userName>Gary-Hudson main overlap</userName>
     </layoutblock>
@@ -12849,6 +12878,56 @@
   <signalmastlogics class="jmri.managers.configurexml.DefaultSignalMastLogicManagerXml">
     <logicDelay>500</logicDelay>
   </signalmastlogics>
+  <meters class="jmri.managers.configurexml.AbstractMeterManagerXml">
+    <meter>
+      <systemName>LVDB210(s/n211)InputCurrent</systemName>
+    </meter>
+    <meter>
+      <systemName>LVDB210(s/n211)Voltage</systemName>
+    </meter>
+    <meter>
+      <systemName>LVDB210(s/n37)InputCurrent</systemName>
+    </meter>
+    <meter>
+      <systemName>LVDB210(s/n37)Voltage</systemName>
+    </meter>
+    <meter>
+      <systemName>LVDB210(s/n387)InputCurrent</systemName>
+    </meter>
+    <meter>
+      <systemName>LVDB210(s/n387)Voltage</systemName>
+    </meter>
+    <meter>
+      <systemName>LVDB210(s/n397)InputCurrent</systemName>
+    </meter>
+    <meter>
+      <systemName>LVDB210(s/n397)Voltage</systemName>
+    </meter>
+    <meter>
+      <systemName>LVDB210(s/n407)InputCurrent</systemName>
+    </meter>
+    <meter>
+      <systemName>LVDB210(s/n407)Voltage</systemName>
+    </meter>
+    <meter>
+      <systemName>LVDB210(s/n474)InputCurrent</systemName>
+    </meter>
+    <meter>
+      <systemName>LVDB210(s/n474)Voltage</systemName>
+    </meter>
+    <meter>
+      <systemName>LVDB210(s/n489)InputCurrent</systemName>
+    </meter>
+    <meter>
+      <systemName>LVDB210(s/n489)Voltage</systemName>
+    </meter>
+    <meter>
+      <systemName>LVDCS240(s/n1436)InputCurrent</systemName>
+    </meter>
+    <meter>
+      <systemName>LVDCS240(s/n1436)Voltage</systemName>
+    </meter>
+  </meters>
   <logixs class="jmri.managers.configurexml.DefaultLogixManagerXml">
     <logix userName="Start up initializer" enabled="yes">
       <systemName>IX:RTXINITIALIZER</systemName>
@@ -14061,7 +14140,7 @@
       <tooltip>Text Label</tooltip>
     </positionablelabel>
   </paneleditor>
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="PMRRM Dispatcher" x="-7" y="0" windowheight="922" windowwidth="1550" panelheight="783" panelwidth="1450" sliders="yes" scrollable="both" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="yes" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="green" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclethrowncolor="orange" turnoutcirclesize="2" turnoutdrawunselectedleg="no" turnoutbx="7.0" turnoutcx="14.0" turnoutwid="14.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="yes" redBackground="192" greenBackground="192" blueBackground="192" gridSize="5" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="PMRRM Dispatcher" x="1921" y="25" windowheight="1055" windowwidth="1920" panelheight="783" panelwidth="1450" sliders="yes" scrollable="both" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="yes" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="green" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclethrowncolor="orange" turnoutcirclesize="2" turnoutdrawunselectedleg="no" turnoutbx="7.0" turnoutcx="14.0" turnoutwid="14.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="yes" redBackground="192" greenBackground="192" blueBackground="192" gridSize="5" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="PMRRM Dispatcher" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
       <mainBallastWidth>0</mainBallastWidth>
@@ -14364,7 +14443,7 @@
     <positionablelabel x="555" y="120" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Refinery   " fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <tooltip>Text Label</tooltip>
     </positionablelabel>
-    <positionablelabel x="260" y="100" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Branch Line " fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+    <positionablelabel x="260" y="100" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Short Line " fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <tooltip>Text Label</tooltip>
     </positionablelabel>
     <positionablelabel x="355" y="115" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="DELTA " fontFamily="Dialog" fontname="Dialog" size="14" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
@@ -15947,7 +16026,7 @@
     <positionablelabel x="680" y="215" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="35" fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="515" y="390" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="NARROWS " fontFamily="Dialog" fontname="Dialog" size="14" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="75" y="400" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="BRANCH " fontFamily="Dialog" fontname="Dialog" size="11" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="1295" y="520" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Helper return  " fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1310" y="525" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Helper return  " fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="1240" y="445" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Helper storage   " fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="1200" y="505" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Depot house track   " fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="485" y="360" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="LOWER  " fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
@@ -16591,10 +16670,10 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <positionablelabel x="1285" y="505" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text=" Out of Service      " fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="yes" redBack="0" greenBack="255" blueBack="255" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="1170" y="445" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text=" Out of Service      " fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="yes" redBack="0" greenBack="255" blueBack="255" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1295" y="535" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Connector Out of Service      " fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="yes" redBack="0" greenBack="255" blueBack="255" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1180" y="435" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Tail of storage spur Out of Service      " fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="yes" redBack="0" greenBack="255" blueBack="255" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="550" y="665" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text=" Out of Service      " fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="yes" redBack="0" greenBack="255" blueBack="255" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="560" y="500" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text=" Out of Service      " fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="yes" redBack="0" greenBack="255" blueBack="255" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="640" y="532" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Spiked to main. OoS" fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="yes" redBack="0" greenBack="255" blueBack="255" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <memoryicon memory="Osage siding east" x="295" y="320" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" fixedHeight="16" justification="left" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif" />
     <sensoricon sensor="NX-OsageM-WB" x="205" y="350" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
@@ -17386,7 +17465,7 @@
     <layoutturnout ident="TO112" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="840.0" ycen="635.0" xa="850.0" ya="635.0" xb="830.0" yb="635.0" xc="830.0" yc="625.0" xd="850.0" yd="635.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Vista W 2 MainW -VistaYard W partner" blockname="AUTOBLK:175" connectaname="T60" connectbname="T234" connectcname="T232" />
     <layoutturnout ident="TO113" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="4" xcen="995.0" ycen="640.0" xa="985.0" ya="650.0" xb="1005.0" yb="630.0" xc="1015.0" yc="640.0" xd="985.0" yd="650.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Vista E 2 MainE -VistaYard E partner" blockname="AUTOBLK:196" connectaname="T235" connectbname="T233" connectcname="T236" />
     <layoutturnout ident="TO114" type="RH_TURNOUT" hidden="no" disabled="yes" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="570.0" ycen="490.0" xa="550.0" ya="490.0" xb="590.0" yb="490.0" xc="580.0" yc="500.0" xd="550.0" yd="490.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Sierra camp spur (Bob G guess )" blockname="Sierra main" connectaname="T237" connectbname="T46" connectcname="T127" />
-    <layoutturnout ident="TO115" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="4" xcen="400.0" ycen="100.0" xa="385.0" ya="100.0" xb="415.0" yb="100.0" xc="410.0" yc="110.0" xd="385.0" yd="100.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Branchline to Delta 4" blockname="AUTOBLK:135" connectaname="T107" connectbname="T240" connectcname="T241" />
+    <layoutturnout ident="TO115" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="4" xcen="400.0" ycen="100.0" xa="385.0" ya="100.0" xb="415.0" yb="100.0" xc="410.0" yc="110.0" xd="385.0" yd="100.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Short Line to Delta 4" blockname="AUTOBLK:135" connectaname="T107" connectbname="T240" connectcname="T241" />
     <tracksegment ident="T1" blockname="Midway East frt approach" connect1name="TO3" type1="TURNOUT_C" connect2name="A28" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T3" blockname="Midway East Main passenger approach" connect1name="TO3" type1="TURNOUT_B" connect2name="TO5" type2="TURNOUT_B" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T4" connect1name="TO1" type1="TURNOUT_C" connect2name="TO2" type2="TURNOUT_B" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
