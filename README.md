@@ -6,5 +6,5 @@ Documentation is done in .md files in Markdown format.  Start with the README.md
 
 The `Profile` directory contains JMRI profiles.  Their names start with the computer that normally runs them, e.g. the `Dispatcher` computer or the `AFE` computer.
 
-The `Archive` directory contains old backups and JMRI profiles from an earlier effort for the AFE RPi.
+The `Archive` directory contains old backups and JMRI profiles from an earlier effort for the AFE and Zion RPi. This will eventually be deleted once Zion hard panel is up.
 

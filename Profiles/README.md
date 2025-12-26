@@ -37,7 +37,7 @@ General operations at the PMRRM is done by running on the `dispatch` account.  T
  
 For reasons of content protection, JMRI for operations runs from the `PMRRM-snapshot` directory on the `electricalcrew` account. To get the most recent contents from development into that directory, sign on to `electricalcrew`, change directory to `PMRRM-snapshot` and use the usual `get fetch` and `get merge` commands.  These will load the most recent content from the main GitHub repository, so please synchronize and push your changes from your local machine first.
 
-Once you have updated the content of `PMRRM-snapshot`, place a date tag on it in the form e.g. `2025-07-10-snapshot`. This allows us to accurately return to those specific contents for debugging elsewhere if a problem develops.
+Once you have updated the content of `PMRRM-snapshot`, place a date tag on it in the form e.g. `2025-07-10-snapshot`. This allows us to accurately return to those specific contents for debugging elsewhere if a problem develops. The commands to do this from the command line is `git tag 2025-07-10-snapshot` followed `git push --tags` (two dashes) where the `--tags` says to push the tags too.
 
 Finally, sign into the `dispatch` account and check each of the three profiles for
  - basic launching
@@ -53,16 +53,17 @@ Finally, sign into the `dispatch` account and check each of the three profiles f
  
  Note that this updates the profiles used by the `~electricalcrew` account and the GitHub contents, but does not update the profiles used by the `~dispatch` account.  That has to be done separately, see the section above on how to update the `dispatch` account.
   
- These steps are done from the `electricalcrew` account which has write access to the relevant files. 
+ These steps are done from the `electricalcrew` account which has write access to the relevant files. Note that this is _not_ copying the current files in the `dispatch` account, but the `electricalcrew` account.  Make sure that's what you want to do.
  
   - Check for any uncommitted changes in `~electricalcrew/PMRRM/` and cope.
     
   - Update the `~electricalcrew/PMRRM/` repository to the most recent contents of Github using the usual `get fetch` and `git merge` commands or GitHub Desktop.
   
   - In the `~electricalcrew/PMRRM/Profile/Dispatcher_Current` directory:
-    - Copy the DispatcherDefault.xml file to `~electricalcrew/PMRRM/Profile/Dispatcher_Previous.jmri`; this is the one being promoted
+    - Copy the `DispatcherDefault.xml` file to `~electricalcrew/PMRRM/Profile/Dispatcher_Previous.jmri`
     - To match startup options, copy the `profile/profile.xml` file from the `Current` profile directory to the `Previous` profile directory.
     - Copy over all the `*.py` scripts to ensure the most recent versions are present
+    - Copy over the `README.md` file to keep it in synch
     - If development has accidentally checked in any extra options, edit them out:
       - E.g. directly edit the `Dispatcher_Previous.jmri/profile/profile.properties` file to have "jmri-configurexml.enableStoreCheck=false"
     - Commit and push
@@ -72,6 +73,7 @@ Finally, sign into the `dispatch` account and check each of the three profiles f
     - Copy the DispatcherDefault.xml file to ``~electricalcrew/PMRRM/Profile/Dispatcher_Current.jmri`; this is the one being promoted
     - To match startup options, copy the `profile/profile.xml` file from the `Dispatcher_Work_in_Progress` profile directory to the `Current` profile directory.
     - Copy over all the `*.py` scripts to ensure the most recent versions are present
+    - Copy over the `README.md` file to keep it in synch
     - If development has accidentally checked in any extra options, edit them out:
       - E.g. directly edit the `Dispatcher_Current.jmri/profile/profile.properties` file to have "jmri-configurexml.enableStoreCheck=false"
     - Commit and push
@@ -83,6 +85,7 @@ Finally, sign into the `dispatch` account and check each of the three profiles f
     - none have "check files on shutdown" configured
 
   - Commit and push any changes
+  - Check again that everything is committed and pushed
   
   - If appropriate, do the "Process for updating the profiles being used at the PMRRM for normal running" process above.
     
