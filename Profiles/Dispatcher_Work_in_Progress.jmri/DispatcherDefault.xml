@@ -6614,7 +6614,7 @@
     </memory>
     <memory>
       <systemName>IM20</systemName>
-      <userName>Sierra siding</userName>
+      <userName>Sierra siding east</userName>
     </memory>
     <memory>
       <systemName>IM21</systemName>
@@ -6803,6 +6803,10 @@
     <memory value="">
       <systemName>IM67</systemName>
       <userName>Midway West Station 2 stop block</userName>
+    </memory>
+    <memory>
+      <systemName>IM71</systemName>
+      <userName>Sierra siging west</userName>
     </memory>
     <memory>
       <systemName>IMCURRENTTIME</systemName>
@@ -12018,7 +12022,7 @@
       <systemName>ILB8</systemName>
       <userName>Sierra main</userName>
     </layoutblock>
-    <layoutblock systemName="ILB9" occupancysensor="Sierra siding east" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Sierra siding">
+    <layoutblock systemName="ILB9" occupancysensor="Sierra siding east" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Sierra siding east">
       <systemName>ILB9</systemName>
       <userName>Sierra siding east</userName>
     </layoutblock>
@@ -12633,7 +12637,7 @@
       <systemName>ILB160</systemName>
       <userName>AUTOBLK:160</userName>
     </layoutblock>
-    <layoutblock systemName="ILB161" occupancysensor="Sierra siding west" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green">
+    <layoutblock systemName="ILB161" occupancysensor="Sierra siding west" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Sierra siging west">
       <systemName>ILB161</systemName>
       <userName>Sierra siding west</userName>
     </layoutblock>
@@ -14513,7 +14517,7 @@
     <memoryicon memory="Sierra main" x="510" y="475" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" fixedHeight="16" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>Sierra main</tooltip>
     </memoryicon>
-    <memoryicon memory="Sierra siding" x="510" y="455" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" fixedHeight="16" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+    <memoryicon memory="Sierra siding east" x="510" y="455" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" fixedHeight="16" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>Sierra siding</tooltip>
     </memoryicon>
     <memoryicon memory="Sierra - Troy" x="380" y="475" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" fixedHeight="16" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
