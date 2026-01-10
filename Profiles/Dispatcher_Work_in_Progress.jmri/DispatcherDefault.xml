@@ -3,9 +3,9 @@
 <layout-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/layout-5-5-5.xsd">
   <jmriversion>
     <major>5</major>
-    <minor>15</minor>
-    <test>1</test>
-    <modifier>plus</modifier>
+    <minor>13</minor>
+    <test>7</test>
+    <modifier />
   </jmriversion>
   <sensors class="jmri.jmrix.loconet.configurexml.LnSensorManagerXml">
     <globalDebounceTimers>
@@ -14370,7 +14370,7 @@
       <tooltip>Text Label</tooltip>
     </positionablelabel>
   </paneleditor>
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="PMRRM Dispatcher" x="0" y="38" windowheight="1187" windowwidth="2132" panelheight="797" panelwidth="1450" sliders="yes" scrollable="both" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="yes" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="green" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclethrowncolor="orange" turnoutcirclesize="2" turnoutdrawunselectedleg="no" turnoutbx="7.0" turnoutcx="14.0" turnoutwid="14.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="yes" redBackground="192" greenBackground="192" blueBackground="192" gridSize="5" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="PMRRM Dispatcher" x="-7" y="-7" windowheight="878" windowwidth="1550" panelheight="799" panelwidth="1451" sliders="yes" scrollable="both" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="yes" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="green" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclethrowncolor="orange" turnoutcirclesize="2" turnoutdrawunselectedleg="no" turnoutbx="7.0" turnoutcx="14.0" turnoutwid="14.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="yes" redBackground="192" greenBackground="192" blueBackground="192" gridSize="5" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="PMRRM Dispatcher" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
       <mainBallastWidth>0</mainBallastWidth>
@@ -14400,7 +14400,7 @@
     <positionablelabel x="727" y="395" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Engine Service  " fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <tooltip>Text Label</tooltip>
     </positionablelabel>
-    <positionablelabel x="1325" y="390" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="LAKE " fontFamily="Dialog" fontname="Dialog" size="14" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+    <positionablelabel x="1325" y="390" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="LAKE " fontFamily="Dialog" fontname="Dialog" size="14" style="1" red="0" green="0" blue="0" hasBackground="no" fixedWidth="50" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <tooltip>Text Label</tooltip>
     </positionablelabel>
     <positionablelabel x="405" y="360" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="UPPER  " fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
@@ -14424,7 +14424,7 @@
     <positionablelabel x="1245" y="640" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="UPTON " fontFamily="Dialog" fontname="Dialog" size="14" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <tooltip>Text Label</tooltip>
     </positionablelabel>
-    <positionablelabel x="900" y="660" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="VISTA " fontFamily="Dialog" fontname="Dialog" size="14" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+    <positionablelabel x="900" y="660" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="VISTA " fontFamily="Dialog" fontname="Dialog" size="14" style="1" red="0" green="0" blue="0" hasBackground="no" fixedWidth="55" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <tooltip>Text Label</tooltip>
     </positionablelabel>
     <positionablelabel x="555" y="700" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="WHISKEY " fontFamily="Dialog" fontname="Dialog" size="14" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
@@ -14436,7 +14436,7 @@
     <positionablelabel x="140" y="690" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="YAZOO " fontFamily="Dialog" fontname="Dialog" size="14" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <tooltip>Text Label</tooltip>
     </positionablelabel>
-    <positionablelabel x="1191" y="675" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Mainline Init " fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+    <positionablelabel x="1188" y="676" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Mainline Init" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" fixedWidth="80" justification="right" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <tooltip>Text Label</tooltip>
     </positionablelabel>
     <memoryicon memory="Midway main 1 station" x="895" y="340" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" fixedHeight="16" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
@@ -14562,10 +14562,10 @@
     <positionablelabel x="260" y="100" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Short Line " fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <tooltip>Text Label</tooltip>
     </positionablelabel>
-    <positionablelabel x="355" y="115" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="DELTA " fontFamily="Dialog" fontname="Dialog" size="14" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+    <positionablelabel x="355" y="115" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="DELTA" fontFamily="Dialog" fontname="Dialog" size="14" style="1" red="0" green="0" blue="0" hasBackground="no" fixedWidth="55" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <tooltip>Text Label</tooltip>
     </positionablelabel>
-    <positionablelabel x="215" y="115" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="ECHO " fontFamily="Dialog" fontname="Dialog" size="14" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+    <positionablelabel x="215" y="115" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="ECHO " fontFamily="Dialog" fontname="Dialog" size="14" style="1" red="0" green="0" blue="0" hasBackground="no" fixedWidth="55" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <tooltip>Text Label</tooltip>
     </positionablelabel>
     <positionablelabel x="95" y="115" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="FOX " fontFamily="Dialog" fontname="Dialog" size="14" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
@@ -14586,10 +14586,10 @@
     <positionablelabel x="135" y="235" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="KELSO " fontFamily="Dialog" fontname="Dialog" size="14" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <tooltip>Text Label</tooltip>
     </positionablelabel>
-    <positionablelabel x="1215" y="35" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="A LEAD  " fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+    <positionablelabel x="1215" y="35" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="A LEAD  " fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" fixedWidth="55" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <tooltip>Text Label</tooltip>
     </positionablelabel>
-    <positionablelabel x="1215" y="85" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="B LEAD   " fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+    <positionablelabel x="1215" y="85" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="B LEAD   " fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" fixedWidth="55" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <tooltip>Text Label</tooltip>
     </positionablelabel>
     <positionablelabel x="885" y="390" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="MIDWAY " fontFamily="Dialog" fontname="Dialog" size="14" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
@@ -14819,7 +14819,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <positionablelabel x="1201" y="705" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Main 2 Init" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+    <positionablelabel x="1183" y="705" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Main 2 Init" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" fixedWidth="80" justification="right" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <tooltip>Text Label</tooltip>
     </positionablelabel>
     <sensoricon sensor="Main init 2" x="1276" y="700" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
@@ -15734,7 +15734,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <positionablelabel x="1305" y="455" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Worktrain spur  " fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1305" y="455" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Worktrain spur  " fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="no" fixedWidth="75" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <memoryicon memory="Troy siding 2" x="225" y="515" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" fixedHeight="16" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>Troy siding 2</tooltip>
     </memoryicon>
@@ -15981,7 +15981,7 @@
     <memoryicon memory="Whiskey siding 2" x="595" y="640" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" fixedHeight="16" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>Whiskey siding 2</tooltip>
     </memoryicon>
-    <positionablelabel x="75" y="390" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="MCSWEENEY   " fontFamily="Dialog" fontname="Dialog" size="11" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="75" y="390" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="MCSWEENEY" fontFamily="Dialog" fontname="Dialog" size="11" style="1" red="0" green="0" blue="0" hasBackground="no" fixedWidth="85" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="35" y="0" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="WEST" fontFamily="Dialog" fontname="Dialog" size="24" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="1337" y="0" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="EAST" fontFamily="Dialog" fontname="Dialog" size="24" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="35" y="717" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="WEST" fontFamily="Dialog" fontname="Dialog" size="24" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
@@ -15989,7 +15989,7 @@
     <positionablelabel x="545" y="680" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Silo" fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="590" y="680" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Storage " fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="784" y="450" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Staging " fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <sensoricon sensor="Control Blue Text" x="1150" y="660" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="Control Blue Text" x="1150" y="670" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/plate/levers/switch-off.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -16004,14 +16004,14 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <positionablelabel x="980" y="670" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Show Optional Information  " fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="975" y="676" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Show Optional Information" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" fixedWidth="200" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="515" y="390" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="NARROWS " fontFamily="Dialog" fontname="Dialog" size="14" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="75" y="400" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="BRANCH " fontFamily="Dialog" fontname="Dialog" size="11" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="1310" y="525" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Helper return  " fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="1240" y="445" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Helper storage   " fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="1200" y="505" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Depot house track   " fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="75" y="400" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="BRANCH" fontFamily="Dialog" fontname="Dialog" size="11" style="1" red="0" green="0" blue="0" hasBackground="no" fixedWidth="55" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1275" y="525" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Helper return  " fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="no" fixedWidth="120" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1240" y="445" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Helper storage   " fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="no" fixedWidth="65" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1200" y="505" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Depot house track   " fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="no" fixedWidth="75" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="485" y="360" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="LOWER  " fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <sensoricon sensor="Show Block Entry Boxes" x="1150" y="690" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="Show Block Entry Boxes" x="1150" y="700" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/plate/levers/switch-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -16026,7 +16026,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <positionablelabel x="980" y="700" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Show Loco ID Entry Boxes   " fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="975" y="705" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Show Loco ID Entry Boxes" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" fixedWidth="200" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <sensoricon sensor="NX-TroyM-WB" x="148" y="485" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="270" scale="1.0">
         <rotation>0</rotation>
@@ -16503,12 +16503,12 @@
     </sensoricon>
     <positionablelabel x="770" y="655" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Mine  " fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="1260" y="125" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="ALHAMBRA   " fontFamily="Dialog" fontname="Dialog" size="14" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="1275" y="107" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="FREIGHT   " fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="1265" y="145" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="PASSENGER   " fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1275" y="107" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="FREIGHT" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1265" y="145" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="PASSENGER" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="510" y="295" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="&lt; ABS | CTC &gt;  " fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="590" y="570" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="&lt;  ABS YARD LIMITS  |  ABS  &gt;  " fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="1095" y="620" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="WEST  " fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="1145" y="620" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="EAST  " fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1000" y="620" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="WEST" fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="no" fixedWidth="55" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1135" y="620" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="EAST" fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="no" fixedWidth="55" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <sensoricon sensor="NX-HM-EB" x="825" y="185" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="90" scale="1.0">
         <rotation>0</rotation>
@@ -16649,7 +16649,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <positionablelabel x="1280" y="535" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Connector Out of Service" fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="yes" redBack="0" greenBack="255" blueBack="255" fixedWidth="120" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1280" y="535" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Connector Out of Service" fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="yes" redBack="0" greenBack="255" blueBack="255" fixedWidth="105" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="1180" y="435" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Tail of storage spur Out of Service" fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="yes" redBack="0" greenBack="255" blueBack="255" fixedWidth="156" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="625" y="535" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Spiked to main. OoS" fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="yes" redBack="0" greenBack="255" blueBack="255" fixedWidth="92" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <memoryicon memory="Osage siding east" x="295" y="320" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" fixedHeight="16" justification="left" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif" />
