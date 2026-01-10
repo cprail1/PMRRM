@@ -46,7 +46,7 @@ class MenuItemDisable(jmri.jmrit.automat.AbstractAutomaton) :
         thisUser = java.lang.System.getProperty("user.name")
         desiredUser = "dispatch"
         if thisUser != desiredUser:
-            self.log.info("Skip disabling memu items because user '{}' is not '{}'", thisUser, desiredUser)
+            self.log.info("Skip disabling menu items because user '{}' is not '{}'", thisUser, desiredUser)
             return False # done early
             
         # start with the PanelPro window
