@@ -205,11 +205,13 @@
     </sensor>
     <sensor inverted="false">
       <systemName>LS45</systemName>
-      <userName>Sierra siding</userName>
+      <userName>Sierra siding east</userName>
       <useGlobalDebounceTimer>yes</useGlobalDebounceTimer>
     </sensor>
     <sensor inverted="false">
       <systemName>LS46</systemName>
+      <userName>Sierra siding west</userName>
+      <useGlobalDebounceTimer>yes</useGlobalDebounceTimer>
     </sensor>
     <sensor inverted="false">
       <systemName>LS47</systemName>
@@ -8799,7 +8801,7 @@
       <systemName>IB9</systemName>
       <userName>Sierra siding</userName>
       <permissive>no</permissive>
-      <occupancysensor>Sierra siding</occupancysensor>
+      <occupancysensor>Sierra siding east</occupancysensor>
       <path todir="128" fromdir="64" block="IB10">
         <beansetting setting="2">
           <turnout systemName="Sierra W 2" />
@@ -12002,7 +12004,7 @@
       <systemName>ILB8</systemName>
       <userName>Sierra main</userName>
     </layoutblock>
-    <layoutblock systemName="ILB9" occupancysensor="Sierra siding" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="#BEBEFF" memory="Sierra siding">
+    <layoutblock systemName="ILB9" occupancysensor="Sierra siding east" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="#BEBEFF" memory="Sierra siding">
       <systemName>ILB9</systemName>
       <userName>Sierra siding</userName>
     </layoutblock>
