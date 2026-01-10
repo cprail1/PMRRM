@@ -3,9 +3,9 @@
 <layout-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/layout-5-5-5.xsd">
   <jmriversion>
     <major>5</major>
-    <minor>13</minor>
-    <test>7</test>
-    <modifier />
+    <minor>15</minor>
+    <test>2</test>
+    <modifier>plus</modifier>
   </jmriversion>
   <sensors class="jmri.jmrix.loconet.configurexml.LnSensorManagerXml">
     <globalDebounceTimers>
@@ -6535,7 +6535,7 @@
     </turnout>
   </turnouts>
   <memories class="jmri.managers.configurexml.DefaultMemoryManagerXml">
-    <memory value="">
+    <memory>
       <systemName>IM1</systemName>
       <userName>Midway main 1 station</userName>
     </memory>
@@ -6556,11 +6556,11 @@
       <userName>Midway UNUSED</userName>
       <comment>Probably related to missing sensor</comment>
     </memory>
-    <memory value="">
+    <memory>
       <systemName>IM6</systemName>
       <userName>Narrows, lower</userName>
     </memory>
-    <memory value="">
+    <memory>
       <systemName>IM7</systemName>
       <userName>Narrows, upper</userName>
     </memory>
@@ -6592,7 +6592,7 @@
       <systemName>IM14</systemName>
       <userName>Powderhorn siding</userName>
     </memory>
-    <memory value="">
+    <memory>
       <systemName>IM15</systemName>
       <userName>Redcliff - Powderhorn</userName>
     </memory>
@@ -6736,7 +6736,7 @@
       <systemName>IM50</systemName>
       <userName>Echo main 1</userName>
     </memory>
-    <memory value="">
+    <memory>
       <systemName>IM51</systemName>
       <userName>Vista - Upton east</userName>
     </memory>
@@ -6796,7 +6796,7 @@
       <systemName>IM65</systemName>
       <userName>Osage siding east</userName>
     </memory>
-    <memory value="">
+    <memory>
       <systemName>IM66</systemName>
       <userName>Midway West Main 1</userName>
     </memory>
@@ -8637,6 +8637,10 @@
       <systemName>IB:AUTO:0055</systemName>
       <userName>Midway West passenger throat</userName>
     </block>
+    <block systemName="IB:AUTO:0056">
+      <systemName>IB:AUTO:0056</systemName>
+      <userName>Sierra siding west</userName>
+    </block>
     <block systemName="IB1" length="7620.0" curve="1">
       <systemName>IB1</systemName>
       <userName>Narrows, Lower</userName>
@@ -8791,7 +8795,7 @@
           <turnout systemName="Sierra camp spur (Bob G guess )" />
         </beansetting>
       </path>
-      <path todir="96" fromdir="144" block="IB:AUTO:0052">
+      <path todir="160" fromdir="80" block="IB:AUTO:0052">
         <beansetting setting="4">
           <turnout systemName="Sierra camp spur (Bob G guess )" />
         </beansetting>
@@ -8802,14 +8806,6 @@
       <userName>Sierra siding</userName>
       <permissive>no</permissive>
       <occupancysensor>Sierra siding east</occupancysensor>
-      <path todir="128" fromdir="64" block="IB10">
-        <beansetting setting="2">
-          <turnout systemName="Sierra W 2" />
-        </beansetting>
-        <beansetting setting="2">
-          <turnout systemName="Sierra E 2" />
-        </beansetting>
-      </path>
       <path todir="64" fromdir="128" block="IB23">
         <beansetting setting="4">
           <turnout systemName="Sierra E" />
@@ -8817,6 +8813,14 @@
       </path>
       <path todir="128" fromdir="64" block="IB80">
         <beansetting setting="4">
+          <turnout systemName="Sierra E 2" />
+        </beansetting>
+      </path>
+      <path todir="128" fromdir="64" block="IB:AUTO:0056">
+        <beansetting setting="2">
+          <turnout systemName="Sierra W 2" />
+        </beansetting>
+        <beansetting setting="2">
           <turnout systemName="Sierra E 2" />
         </beansetting>
       </path>
@@ -8828,14 +8832,6 @@
       <occupancysensor>Sierra-Troy</occupancysensor>
       <path todir="64" fromdir="128" block="IB8">
         <beansetting setting="2">
-          <turnout systemName="Sierra W" />
-        </beansetting>
-      </path>
-      <path todir="64" fromdir="128" block="IB9">
-        <beansetting setting="2">
-          <turnout systemName="Sierra W 2" />
-        </beansetting>
-        <beansetting setting="4">
           <turnout systemName="Sierra W" />
         </beansetting>
       </path>
@@ -8863,14 +8859,6 @@
           <turnout systemName="Troy E 1" />
         </beansetting>
       </path>
-      <path todir="16" fromdir="32" block="IB108">
-        <beansetting setting="4">
-          <turnout systemName="Sierra W 2" />
-        </beansetting>
-        <beansetting setting="4">
-          <turnout systemName="Sierra W" />
-        </beansetting>
-      </path>
       <path todir="160" fromdir="80" block="IB157">
         <beansetting setting="4">
           <turnout systemName="Troy E 3" />
@@ -8880,6 +8868,11 @@
         </beansetting>
         <beansetting setting="4">
           <turnout systemName="Troy E 1" />
+        </beansetting>
+      </path>
+      <path todir="64" fromdir="128" block="IB:AUTO:0056">
+        <beansetting setting="4">
+          <turnout systemName="Sierra W" />
         </beansetting>
       </path>
     </block>
@@ -10547,12 +10540,12 @@
       <systemName>IB108</systemName>
       <userName>AUTOBLK:125</userName>
       <permissive>no</permissive>
-      <path todir="32" fromdir="16" block="IB10">
+      <path todir="32" fromdir="16" block="IB76" />
+      <path todir="32" fromdir="16" block="IB:AUTO:0056">
         <beansetting setting="4">
           <turnout systemName="Sierra W 2" />
         </beansetting>
       </path>
-      <path todir="32" fromdir="16" block="IB76" />
     </block>
     <block systemName="IB109" length="0.0" curve="0">
       <systemName>IB109</systemName>
@@ -11908,7 +11901,7 @@
       <systemName>IB:AUTO:0052</systemName>
       <userName>Sierra Forestry spur</userName>
       <permissive>no</permissive>
-      <path todir="144" fromdir="96" block="IB8">
+      <path todir="80" fromdir="160" block="IB8">
         <beansetting setting="4">
           <turnout systemName="Sierra camp spur (Bob G guess )" />
         </beansetting>
@@ -11970,6 +11963,27 @@
         </beansetting>
       </path>
     </block>
+    <block systemName="IB:AUTO:0056" length="0.0" curve="0">
+      <systemName>IB:AUTO:0056</systemName>
+      <userName>Sierra siding west</userName>
+      <permissive>no</permissive>
+      <occupancysensor>Sierra siding west</occupancysensor>
+      <path todir="64" fromdir="128" block="IB9">
+        <beansetting setting="2">
+          <turnout systemName="Sierra W 2" />
+        </beansetting>
+      </path>
+      <path todir="128" fromdir="64" block="IB10">
+        <beansetting setting="4">
+          <turnout systemName="Sierra W" />
+        </beansetting>
+      </path>
+      <path todir="16" fromdir="32" block="IB108">
+        <beansetting setting="4">
+          <turnout systemName="Sierra W 2" />
+        </beansetting>
+      </path>
+    </block>
   </blocks>
   <layoutblocks class="jmri.jmrit.display.layoutEditor.configurexml.LayoutBlockManagerXml" blockrouting="yes">
     <layoutblock systemName="ILB1" occupancysensor="Narrows Lower" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Narrows, lower">
@@ -12000,23 +12014,23 @@
       <systemName>ILB7</systemName>
       <userName>Redcliff siding</userName>
     </layoutblock>
-    <layoutblock systemName="ILB8" occupancysensor="Sierra main" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="#BEBEFF" memory="Sierra main">
+    <layoutblock systemName="ILB8" occupancysensor="Sierra main" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Sierra main">
       <systemName>ILB8</systemName>
       <userName>Sierra main</userName>
     </layoutblock>
-    <layoutblock systemName="ILB9" occupancysensor="Sierra siding east" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="#BEBEFF" memory="Sierra siding">
+    <layoutblock systemName="ILB9" occupancysensor="Sierra siding east" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Sierra siding">
       <systemName>ILB9</systemName>
       <userName>Sierra siding</userName>
     </layoutblock>
-    <layoutblock systemName="ILB10" occupancysensor="Sierra-Troy" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="#BEBEFF" memory="Sierra - Troy">
+    <layoutblock systemName="ILB10" occupancysensor="Sierra-Troy" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Sierra - Troy">
       <systemName>ILB10</systemName>
       <userName>Sierra-Troy</userName>
     </layoutblock>
-    <layoutblock systemName="ILB11" occupancysensor="Troy main" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="#BEBEFF" memory="Troy main">
+    <layoutblock systemName="ILB11" occupancysensor="Troy main" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Troy main">
       <systemName>ILB11</systemName>
       <userName>Troy main</userName>
     </layoutblock>
-    <layoutblock systemName="ILB12" occupancysensor="Troy siding 1" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="#BEBEFF" memory="Troy sidng 1">
+    <layoutblock systemName="ILB12" occupancysensor="Troy siding 1" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Troy sidng 1">
       <systemName>ILB12</systemName>
       <userName>Troy siding 1</userName>
     </layoutblock>
@@ -12032,11 +12046,11 @@
       <systemName>ILB15</systemName>
       <userName>Midway East frt approach</userName>
     </layoutblock>
-    <layoutblock systemName="ILB16" occupancysensor="LS92" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="#BEBEFF" memory="Vista main">
+    <layoutblock systemName="ILB16" occupancysensor="LS92" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Vista main">
       <systemName>ILB16</systemName>
       <userName>Vista main</userName>
     </layoutblock>
-    <layoutblock systemName="ILB17" occupancysensor="Vista siding" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="#BEBEFF" memory="Vista siding">
+    <layoutblock systemName="ILB17" occupancysensor="Vista siding" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Vista siding">
       <systemName>ILB17</systemName>
       <userName>Vista siding</userName>
     </layoutblock>
@@ -12072,7 +12086,7 @@
       <systemName>ILB25</systemName>
       <userName>Troy-Upton</userName>
     </layoutblock>
-    <layoutblock systemName="ILB26" occupancysensor="Vista-Whiskey" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="#BEBEFF" memory="Vista - Whiskey">
+    <layoutblock systemName="ILB26" occupancysensor="Vista-Whiskey" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Vista - Whiskey">
       <systemName>ILB26</systemName>
       <userName>Vista-Whiskey</userName>
     </layoutblock>
@@ -12143,19 +12157,19 @@
       <systemName>ILB42</systemName>
       <userName>Bend CP2</userName>
     </layoutblock>
-    <layoutblock systemName="ILB43" occupancysensor="Delta 1" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="#BEBEFF" memory="Delta main 1">
+    <layoutblock systemName="ILB43" occupancysensor="Delta 1" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Delta main 1">
       <systemName>ILB43</systemName>
       <userName>Delta 1</userName>
     </layoutblock>
-    <layoutblock systemName="ILB44" occupancysensor="Delta 2" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="#BEBEFF" memory="Delta main 2">
+    <layoutblock systemName="ILB44" occupancysensor="Delta 2" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Delta main 2">
       <systemName>ILB44</systemName>
       <userName>Delta 2</userName>
     </layoutblock>
-    <layoutblock systemName="ILB45" occupancysensor="Delta 3" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="#BEBEFF" memory="Delta main 3">
+    <layoutblock systemName="ILB45" occupancysensor="Delta 3" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Delta main 3">
       <systemName>ILB45</systemName>
       <userName>Delta 3</userName>
     </layoutblock>
-    <layoutblock systemName="ILB46" occupancysensor="Delta 4" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="#BEBEFF" memory="Delta main 4">
+    <layoutblock systemName="ILB46" occupancysensor="Delta 4" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Delta main 4">
       <systemName>ILB46</systemName>
       <userName>Delta 4</userName>
     </layoutblock>
@@ -12189,19 +12203,19 @@
       <systemName>ILB53</systemName>
       <userName>AUTOBLK:53</userName>
     </layoutblock>
-    <layoutblock systemName="ILB54" occupancysensor="Gary siding" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="#BEBEFF" memory="Gary siding">
+    <layoutblock systemName="ILB54" occupancysensor="Gary siding" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Gary siding">
       <systemName>ILB54</systemName>
       <userName>Gary siding</userName>
     </layoutblock>
-    <layoutblock systemName="ILB55" occupancysensor="Gary main" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="#BEBEFF" memory="Gary main">
+    <layoutblock systemName="ILB55" occupancysensor="Gary main" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Gary main">
       <systemName>ILB55</systemName>
       <userName>Gary main</userName>
     </layoutblock>
-    <layoutblock systemName="ILB56" occupancysensor="Hudson main" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="#BEBEFF" memory="Hudson main">
+    <layoutblock systemName="ILB56" occupancysensor="Hudson main" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Hudson main">
       <systemName>ILB56</systemName>
       <userName>Hudson main</userName>
     </layoutblock>
-    <layoutblock systemName="ILB57" occupancysensor="Hudson siding" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="#BEBEFF" memory="Hudson siding">
+    <layoutblock systemName="ILB57" occupancysensor="Hudson siding" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Hudson siding">
       <systemName>ILB57</systemName>
       <userName>Hudson siding</userName>
     </layoutblock>
@@ -12213,11 +12227,11 @@
       <systemName>ILB59</systemName>
       <userName>Irvine W</userName>
     </layoutblock>
-    <layoutblock systemName="ILB60" occupancysensor="Jackson main" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="#BEBEFF" memory="Jackson main">
+    <layoutblock systemName="ILB60" occupancysensor="Jackson main" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Jackson main">
       <systemName>ILB60</systemName>
       <userName>Jackson main</userName>
     </layoutblock>
-    <layoutblock systemName="ILB61" occupancysensor="Jackson siding" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="#BEBEFF" memory="Jackson siding">
+    <layoutblock systemName="ILB61" occupancysensor="Jackson siding" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Jackson siding">
       <systemName>ILB61</systemName>
       <userName>Jackson siding</userName>
     </layoutblock>
@@ -12237,7 +12251,7 @@
       <systemName>ILB65</systemName>
       <userName>AUTOBLK:164</userName>
     </layoutblock>
-    <layoutblock systemName="ILB66" occupancysensor="Gary Hudson overlap main" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="#BEBEFF" memory="Gary-Hudson overlamp">
+    <layoutblock systemName="ILB66" occupancysensor="Gary Hudson overlap main" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Gary-Hudson overlamp">
       <systemName>ILB66</systemName>
       <userName>Gary-Hudson main overlap</userName>
     </layoutblock>
@@ -12245,11 +12259,11 @@
       <systemName>ILB67</systemName>
       <userName>AUTOBLK:67</userName>
     </layoutblock>
-    <layoutblock systemName="ILB68" occupancysensor="Troy siding 2" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="#BEBEFF" memory="Troy siding 2">
+    <layoutblock systemName="ILB68" occupancysensor="Troy siding 2" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Troy siding 2">
       <systemName>ILB68</systemName>
       <userName>Troy siding 2</userName>
     </layoutblock>
-    <layoutblock systemName="ILB69" occupancysensor="Upton-Vista West" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="#BEBEFF" memory="Vista - Upton west">
+    <layoutblock systemName="ILB69" occupancysensor="Upton-Vista West" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Vista - Upton west">
       <systemName>ILB69</systemName>
       <userName>Upton-Vista West</userName>
     </layoutblock>
@@ -12618,6 +12632,10 @@
     <layoutblock systemName="ILB160" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="white">
       <systemName>ILB160</systemName>
       <userName>AUTOBLK:160</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB161" occupancysensor="Sierra siding west" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green">
+      <systemName>ILB161</systemName>
+      <userName>Sierra siding west</userName>
     </layoutblock>
     <layoutblock systemName="ILB162" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="white">
       <systemName>ILB162</systemName>
@@ -13223,12 +13241,12 @@
         <destination type="sensor" item="NX-B4-EB" nxType="fullinterlocking" uniqueid="IN:167fcfff-7ea7-4386-a878-610a046daec7" />
       </source>
       <source type="sensor" item="NX-Troy3-WB">
-        <destination type="sensor" item="NX-UptonM-WB" nxType="fullinterlocking" uniqueid="IN:2a02c45a-5436-47a3-8fb1-d5c506820b4f" />
-        <destination type="sensor" item="NX-UptonS-WB" nxType="fullinterlocking" uniqueid="IN:6fb4ffe0-485e-4146-bb4c-9993f4080200" />
+        <destination type="sensor" item="NX-UptonM-WB" nxType="fullinterlocking" uniqueid="IN:2e0d5b2e-39b7-4ffd-bebf-0281179da744" />
+        <destination type="sensor" item="NX-UptonS-WB" nxType="fullinterlocking" uniqueid="IN:abfa69cb-982a-4f8a-a1a8-f01f0722823f" />
       </source>
       <source type="sensor" item="NX-Troy3-EB">
-        <destination type="sensor" item="NX-SierraM-EB" nxType="fullinterlocking" uniqueid="IN:ca1cdfca-6e25-4263-b362-d264644b1794" />
-        <destination type="sensor" item="NX-SierraS-EB" nxType="fullinterlocking" uniqueid="IN:edaedba3-2ae2-4ce4-98aa-3e596899dfd2" />
+        <destination type="sensor" item="NX-SierraM-EB" nxType="fullinterlocking" uniqueid="IN:ff7009fc-ebb1-43c4-8ea2-7c99eaa3964c" />
+        <destination type="sensor" item="NX-SierraS-EB" nxType="fullinterlocking" uniqueid="IN:8d0d1f44-5a4d-4f47-bb31-aefd516c0b2c" />
       </source>
       <source type="sensor" item="NX-HS-EB">
         <destination type="sensor" item="NX-GM-EB" nxType="fullinterlocking" uniqueid="IN:90fddbee-a496-4371-909d-39a96a7d6387" />
@@ -13277,22 +13295,22 @@
         <destination type="sensor" item="NX-UptonS-WB" nxType="fullinterlocking" uniqueid="IN:21bd886e-d7bb-4964-9b70-08c8ab309bd7" />
       </source>
       <source type="sensor" item="NX-TroyM-EB">
-        <destination type="sensor" item="NX-SierraM-EB" nxType="fullinterlocking" uniqueid="IN:288812a9-fc12-4b14-9319-b3fe947585c5" />
-        <destination type="sensor" item="NX-SierraS-EB" nxType="fullinterlocking" uniqueid="IN:6b92737d-2faa-4f37-98ba-8210625c1de4" />
+        <destination type="sensor" item="NX-SierraM-EB" nxType="fullinterlocking" uniqueid="IN:3221c63a-d3e1-48c4-b4f9-ddbd3c02d309" />
+        <destination type="sensor" item="NX-SierraS-EB" nxType="fullinterlocking" uniqueid="IN:a929b55c-7a76-4fcc-881a-3b15f7a21cfe" />
       </source>
       <source type="sensor" item="NX-TroyS-EB">
-        <destination type="sensor" item="NX-SierraM-EB" nxType="fullinterlocking" uniqueid="IN:c3e39c9a-22cf-45a3-adec-6ac6b12bdce7" />
-        <destination type="sensor" item="NX-SierraS-EB" nxType="fullinterlocking" uniqueid="IN:572755d5-97ad-40c6-9a5e-86740c64c431" />
+        <destination type="sensor" item="NX-SierraM-EB" nxType="fullinterlocking" uniqueid="IN:38a2ff53-55a3-40c3-bfeb-3c5231bb76c1" />
+        <destination type="sensor" item="NX-SierraS-EB" nxType="fullinterlocking" uniqueid="IN:f3084d83-c010-411b-bf39-bc6b72dc5f68" />
       </source>
       <source type="sensor" item="NX-SierraM-WB">
-        <destination type="sensor" item="NX-Troy3-WB" nxType="fullinterlocking" uniqueid="IN:753f8b8e-fb4c-46c5-9f92-feab55ea9ded" />
-        <destination type="sensor" item="NX-TroyM-WB" nxType="fullinterlocking" uniqueid="IN:a97ddc9d-70af-42b9-a447-29cb96cfe7d5" />
-        <destination type="sensor" item="NX-TroyS-WB" nxType="fullinterlocking" uniqueid="IN:09c886a5-a03b-42c9-852e-75a288312acc" />
+        <destination type="sensor" item="NX-Troy3-WB" nxType="fullinterlocking" uniqueid="IN:c091c4f9-4b16-481b-a43e-1804d6526cf1" />
+        <destination type="sensor" item="NX-TroyM-WB" nxType="fullinterlocking" uniqueid="IN:99378aaa-60f0-4bf7-be29-16f2ff485301" />
+        <destination type="sensor" item="NX-TroyS-WB" nxType="fullinterlocking" uniqueid="IN:2031772d-5372-4b4b-b074-eba37cbf7ffe" />
       </source>
       <source type="sensor" item="NX-SierraS-WB">
-        <destination type="sensor" item="NX-Troy3-WB" nxType="fullinterlocking" uniqueid="IN:cc047837-1ad4-4bb1-86cd-4e28ff5b7827" />
-        <destination type="sensor" item="NX-TroyM-WB" nxType="fullinterlocking" uniqueid="IN:c92393d8-e853-496f-b6dd-a318b784361b" />
-        <destination type="sensor" item="NX-TroyS-WB" nxType="fullinterlocking" uniqueid="IN:a451e7f9-828e-4d5f-8ccc-d2647fa8f595" />
+        <destination type="sensor" item="NX-Troy3-WB" nxType="fullinterlocking" uniqueid="IN:b5bc4779-a913-42d9-9024-ec7fde67c0ff" />
+        <destination type="sensor" item="NX-TroyM-WB" nxType="fullinterlocking" uniqueid="IN:57576eb5-4fd2-4c4b-86a3-f6e727d4a43d" />
+        <destination type="sensor" item="NX-TroyS-WB" nxType="fullinterlocking" uniqueid="IN:32ff1c2f-639d-4218-ac35-8bfd9b28edb8" />
       </source>
       <source type="sensor" item="NX-SierraM-EB">
         <destination type="sensor" item="NX-RedcliffM-EB" nxType="fullinterlocking" uniqueid="IN:7af0362f-0f81-4c9e-b72e-26efc7321ae5" />
@@ -13306,15 +13324,15 @@
         <destination type="sensor" item="NX-Troy3-WB" nxType="fullinterlocking" uniqueid="IN:0675233e-ae7d-4b2c-bbaf-31da3af167d0" />
         <destination type="sensor" item="NX-TroyM-WB" nxType="fullinterlocking" uniqueid="IN:61effffd-7c45-494d-aaa4-df4d34616eaa" />
         <destination type="sensor" item="NX-TroyS-WB" nxType="fullinterlocking" uniqueid="IN:e0f1318a-23a9-420a-9519-b1750dd08a15" />
-        <destination type="sensor" item="NX-SierraM-WB" nxType="fullinterlocking" uniqueid="IN:a291b050-2a3c-4c93-967a-f52cb0ffe193" />
-        <destination type="sensor" item="NX-SierraS-WB" nxType="fullinterlocking" uniqueid="IN:344703be-d85c-4b43-8b69-a9d5f5b04ef7" />
+        <destination type="sensor" item="NX-SierraM-WB" nxType="fullinterlocking" uniqueid="IN:f345cc9f-0282-4f67-827f-6b83db16e33f" />
+        <destination type="sensor" item="NX-SierraS-WB" nxType="fullinterlocking" uniqueid="IN:c248acad-0e45-4e6a-a679-5e8fce789cab" />
       </source>
       <source type="sensor" item="NX-RedcliffS-WB">
         <destination type="sensor" item="NX-Troy3-WB" nxType="fullinterlocking" uniqueid="IN:837be655-4f4f-42c4-a01a-a2b6d632b0cd" />
         <destination type="sensor" item="NX-TroyM-WB" nxType="fullinterlocking" uniqueid="IN:aa99d185-2cb2-48b4-8813-ae469a05c833" />
         <destination type="sensor" item="NX-TroyS-WB" nxType="fullinterlocking" uniqueid="IN:7d84b5ab-f897-4c8a-97a8-eba26ff3ca80" />
-        <destination type="sensor" item="NX-SierraM-WB" nxType="fullinterlocking" uniqueid="IN:6a37eb28-dd88-4649-be65-9a3c82b5c2e2" />
-        <destination type="sensor" item="NX-SierraS-WB" nxType="fullinterlocking" uniqueid="IN:39837d71-2e3d-49aa-b06d-2bda8719a040" />
+        <destination type="sensor" item="NX-SierraM-WB" nxType="fullinterlocking" uniqueid="IN:39414f34-e809-4f92-90ea-04afba9e1f86" />
+        <destination type="sensor" item="NX-SierraS-WB" nxType="fullinterlocking" uniqueid="IN:cabc6d29-931e-4d0f-a9c4-4d47898cb5ca" />
       </source>
       <source type="sensor" item="NX-RedcliffM-EB">
         <destination type="sensor" item="NX-PDM-EB" nxType="fullinterlocking" uniqueid="IN:01f758f6-919f-4c36-8c91-2f1cc24ed81c" />
@@ -13341,14 +13359,14 @@
         <destination type="sensor" item="NX-OsageS-EB" nxType="fullinterlocking" uniqueid="IN:f1885f22-8eda-46ea-9b37-802bd618ec21" />
       </source>
       <source type="sensor" item="NX-UptonM-EB">
-        <destination type="sensor" item="NX-Troy3-EB" nxType="fullinterlocking" uniqueid="IN:5bdb14e0-6c16-424c-9b94-8ef26ccdb585" />
-        <destination type="sensor" item="NX-TroyM-EB" nxType="fullinterlocking" uniqueid="IN:fab533b4-067f-482a-ad97-5414e0b0113f" />
-        <destination type="sensor" item="NX-TroyS-EB" nxType="fullinterlocking" uniqueid="IN:b9350be5-dc5a-4bad-9782-a0dee7f54b4d" />
+        <destination type="sensor" item="NX-Troy3-EB" nxType="fullinterlocking" uniqueid="IN:6508839f-e6ef-426a-9105-875d31d0a87c" />
+        <destination type="sensor" item="NX-TroyM-EB" nxType="fullinterlocking" uniqueid="IN:338fe680-8340-4440-bc8f-87d8e4dc6be1" />
+        <destination type="sensor" item="NX-TroyS-EB" nxType="fullinterlocking" uniqueid="IN:b4bdcf7f-cf3a-4015-9616-daf3c9f64e9e" />
       </source>
       <source type="sensor" item="NX-UptonS-EB">
-        <destination type="sensor" item="NX-Troy3-EB" nxType="fullinterlocking" uniqueid="IN:21b521cd-00bb-4fa8-bfd2-4932eaa85ae5" />
-        <destination type="sensor" item="NX-TroyM-EB" nxType="fullinterlocking" uniqueid="IN:5a9bd95f-fbff-42d5-a9b4-3bf613717ff3" />
-        <destination type="sensor" item="NX-TroyS-EB" nxType="fullinterlocking" uniqueid="IN:eccae764-37f1-4cf4-811d-5c49f5fb26f7" />
+        <destination type="sensor" item="NX-Troy3-EB" nxType="fullinterlocking" uniqueid="IN:edab0da7-b48f-4648-a068-1524141e8828" />
+        <destination type="sensor" item="NX-TroyM-EB" nxType="fullinterlocking" uniqueid="IN:edb630f6-4955-4404-bb0c-be40493ee7fc" />
+        <destination type="sensor" item="NX-TroyS-EB" nxType="fullinterlocking" uniqueid="IN:47b37371-6418-435c-9b69-ff70a7696f88" />
       </source>
       <source type="sensor" item="NX-UptonM-WB">
         <destination type="sensor" item="NX-VistaM-WB" nxType="fullinterlocking" uniqueid="IN:c8febe97-f6f0-4d75-9e97-77e94704ebe9" />
@@ -14372,7 +14390,7 @@
       <tooltip>Text Label</tooltip>
     </positionablelabel>
   </paneleditor>
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="PMRRM Dispatcher" x="-6" y="-6" windowheight="925" windowwidth="1549" panelheight="799" panelwidth="1451" sliders="yes" scrollable="both" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="yes" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="green" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclethrowncolor="orange" turnoutcirclesize="2" turnoutdrawunselectedleg="no" turnoutbx="7.0" turnoutcx="14.0" turnoutwid="14.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="yes" redBackground="192" greenBackground="192" blueBackground="192" gridSize="5" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="PMRRM Dispatcher" x="306" y="48" windowheight="1079" windowwidth="1728" panelheight="797" panelwidth="1450" sliders="yes" scrollable="both" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="yes" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="green" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclethrowncolor="orange" turnoutcirclesize="2" turnoutdrawunselectedleg="no" turnoutbx="7.0" turnoutcx="14.0" turnoutwid="14.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="yes" redBackground="192" greenBackground="192" blueBackground="192" gridSize="5" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="PMRRM Dispatcher" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
       <mainBallastWidth>0</mainBallastWidth>
@@ -16616,9 +16634,9 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <positionablelabel x="410" y="530" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Sierra siding detection on layout is" fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="yes" redBack="0" greenBack="255" blueBack="255" fixedWidth="150" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="410" y="540" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="wrong and reflected as such here" fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="yes" redBack="0" greenBack="255" blueBack="255" fixedWidth="150" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="640" y="520" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Forestry spur   " fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="335" y="420" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Sierra siding detection on layout is" fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="yes" redBack="0" greenBack="255" blueBack="255" fixedWidth="150" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="335" y="430" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="wrong and reflected as such here" fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="yes" redBack="0" greenBack="255" blueBack="255" fixedWidth="150" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="560" y="510" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Forestry spur   " fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <sensoricon sensor="NX-MidwayMain1-WB" x="800" y="350" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="270" scale="1.0">
         <rotation>0</rotation>
@@ -16653,7 +16671,7 @@
     </sensoricon>
     <positionablelabel x="1280" y="535" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Connector Out of Service" fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="yes" redBack="0" greenBack="255" blueBack="255" fixedWidth="105" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="1180" y="435" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Tail of storage spur Out of Service" fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="yes" redBack="0" greenBack="255" blueBack="255" fixedWidth="156" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="625" y="535" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Spiked to main. OoS" fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="yes" redBack="0" greenBack="255" blueBack="255" fixedWidth="92" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="545" y="525" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Spiked to main. OoS" fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="yes" redBack="0" greenBack="255" blueBack="255" fixedWidth="92" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <memoryicon memory="Osage siding east" x="295" y="320" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" fixedHeight="16" justification="left" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif" />
     <sensoricon sensor="NX-OsageM-WB" x="205" y="350" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
@@ -17462,7 +17480,7 @@
       <sensorB>NX-RedcliffM-EB</sensorB>
     </layoutturnout>
     <layoutturnout ident="TO44" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="540.0" ycen="470.0" xa="555.0" ya="470.0" xb="525.0" yb="470.0" xc="520.0" yc="450.0" xd="555.0" yd="470.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Sierra E 2" blockname="Sierra siding" connectaname="T45" connectbname="T238" connectcname="T131" />
-    <layoutturnout ident="TO68" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="475.0" ycen="470.0" xa="465.0" ya="470.0" xb="485.0" yb="470.0" xc="495.0" yc="450.0" xd="465.0" yd="470.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Sierra W 2" blockname="Sierra-Troy" connectaname="T112" connectbname="T238" connectcname="T49">
+    <layoutturnout ident="TO68" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="475.0" ycen="470.0" xa="465.0" ya="470.0" xb="485.0" yb="470.0" xc="495.0" yc="450.0" xd="465.0" yd="470.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Sierra W 2" blockname="Sierra siding west" connectaname="T112" connectbname="T238" connectcname="T49">
       <sensorB>NX-SierraS-WB</sensorB>
     </layoutturnout>
     <layoutturnout ident="TO82" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="812.0" ycen="315.0" xa="804.0" ya="315.0" xb="820.0" yb="315.0" xc="827.0" yc="300.0" xd="804.0" yd="315.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Midway W Team 1" blockname="Midway main 3 station" connectaname="T24" connectbname="T145" connectcname="T146" />
@@ -17538,7 +17556,7 @@
     </layoutturnout>
     <layoutturnout ident="TO112" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="840.0" ycen="635.0" xa="850.0" ya="635.0" xb="830.0" yb="635.0" xc="830.0" yc="625.0" xd="850.0" yd="635.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Vista W 2 MainW -VistaYard W partner" blockname="AUTOBLK:175" connectaname="T60" connectbname="T234" connectcname="T232" />
     <layoutturnout ident="TO113" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="4" xcen="995.0" ycen="640.0" xa="985.0" ya="650.0" xb="1005.0" yb="630.0" xc="1015.0" yc="640.0" xd="985.0" yd="650.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Vista E 2 MainE -VistaYard E partner" blockname="AUTOBLK:196" connectaname="T235" connectbname="T233" connectcname="T236" />
-    <layoutturnout ident="TO114" type="RH_TURNOUT" hidden="no" disabled="yes" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="570.0" ycen="490.0" xa="550.0" ya="490.0" xb="590.0" yb="490.0" xc="580.0" yc="500.0" xd="550.0" yd="490.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Sierra camp spur (Bob G guess )" blockname="Sierra main" connectaname="T237" connectbname="T46" connectcname="T127" />
+    <layoutturnout ident="TO114" type="RH_TURNOUT" hidden="no" disabled="yes" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="570.0" ycen="490.0" xa="550.0" ya="490.0" xb="590.0" yb="490.0" xc="565.0" yc="500.0" xd="550.0" yd="490.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Sierra camp spur (Bob G guess )" blockname="Sierra main" connectaname="T237" connectbname="T46" connectcname="T127" />
     <layoutturnout ident="TO115" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="4" xcen="400.0" ycen="100.0" xa="385.0" ya="100.0" xb="415.0" yb="100.0" xc="410.0" yc="110.0" xd="385.0" yd="100.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Short Line to Delta 4" blockname="AUTOBLK:135" connectaname="T107" connectbname="T240" connectcname="T241" />
     <tracksegment ident="T1" blockname="Midway East frt approach" connect1name="TO3" type1="TURNOUT_C" connect2name="A28" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T3" blockname="Midway East Main passenger approach" connect1name="TO3" type1="TURNOUT_B" connect2name="TO5" type2="TURNOUT_B" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
@@ -17647,7 +17665,7 @@
     <tracksegment ident="T137" blockname="CP DR1" connect1name="A7" type1="POS_POINT" connect2name="TO62" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T138" blockname="Colton CP1-R" connect1name="A15" type1="POS_POINT" connect2name="TO52" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T2" blockname="Osage siding West" connect1name="TO83" type1="TURNOUT_A" connect2name="TO4" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T112" blockname="Sierra-Troy" connect1name="TO68" type1="TURNOUT_A" connect2name="TO26" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T112" blockname="Sierra siding west" connect1name="TO68" type1="TURNOUT_A" connect2name="TO26" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T131" blockname="AUTOBLK:86" connect1name="TO44" type1="TURNOUT_C" connect2name="TO28" type2="TURNOUT_B" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T132" blockname="AUTOBLK:94" connect1name="TO28" type1="TURNOUT_C" connect2name="EB14" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
       <decorations>
@@ -17946,8 +17964,8 @@
     <positionablepoint ident="EB43" type="END_BUMPER" x="890.0" y="635.0" connect1name="T60" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="EB42" type="END_BUMPER" x="950.0" y="650.0" connect1name="T235" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="EB41" type="END_BUMPER" x="1040.0" y="640.0" connect1name="T236" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="EB40" type="END_BUMPER" x="630.0" y="525.0" connect1name="T239" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A37" type="ANCHOR" x="600.0" y="510.0" connect1name="T239" connect2name="T127" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB40" type="END_BUMPER" x="515.0" y="505.0" connect1name="T239" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A37" type="ANCHOR" x="560.0" y="505.0" connect1name="T239" connect2name="T127" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="EB46" type="END_BUMPER" x="870.0" y="380.0" connect1name="T16" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="EB45" type="END_BUMPER" x="1160.0" y="400.0" connect1name="T242" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="EB47" type="END_BUMPER" x="490.0" y="120.0" connect1name="T243" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
