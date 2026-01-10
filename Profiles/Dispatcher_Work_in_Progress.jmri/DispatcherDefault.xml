@@ -7801,7 +7801,7 @@
     </block>
     <block systemName="IB9">
       <systemName>IB9</systemName>
-      <userName>Sierra siding</userName>
+      <userName>Sierra siding east</userName>
     </block>
     <block systemName="IB10">
       <systemName>IB10</systemName>
@@ -8803,7 +8803,7 @@
     </block>
     <block systemName="IB9" length="6604.0" curve="0">
       <systemName>IB9</systemName>
-      <userName>Sierra siding</userName>
+      <userName>Sierra siding east</userName>
       <permissive>no</permissive>
       <occupancysensor>Sierra siding east</occupancysensor>
       <path todir="64" fromdir="128" block="IB23">
@@ -12020,7 +12020,7 @@
     </layoutblock>
     <layoutblock systemName="ILB9" occupancysensor="Sierra siding east" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Sierra siding">
       <systemName>ILB9</systemName>
-      <userName>Sierra siding</userName>
+      <userName>Sierra siding east</userName>
     </layoutblock>
     <layoutblock systemName="ILB10" occupancysensor="Sierra-Troy" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Sierra - Troy">
       <systemName>ILB10</systemName>
@@ -17479,7 +17479,7 @@
     <layoutturnout ident="TO34" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="835.0" ycen="490.0" xa="845.0" ya="490.0" xb="825.0" yb="490.0" xc="825.0" yc="475.0" xd="845.0" yd="490.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Redcliff Staging" blockname="Powderhorn-Redcliff (Quartz)" connectaname="T41" connectbname="T133" connectcname="T134">
       <sensorB>NX-RedcliffM-EB</sensorB>
     </layoutturnout>
-    <layoutturnout ident="TO44" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="540.0" ycen="470.0" xa="555.0" ya="470.0" xb="525.0" yb="470.0" xc="520.0" yc="450.0" xd="555.0" yd="470.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Sierra E 2" blockname="Sierra siding" connectaname="T45" connectbname="T238" connectcname="T131" />
+    <layoutturnout ident="TO44" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="540.0" ycen="470.0" xa="555.0" ya="470.0" xb="525.0" yb="470.0" xc="520.0" yc="450.0" xd="555.0" yd="470.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Sierra E 2" blockname="Sierra siding east" connectaname="T45" connectbname="T238" connectcname="T131" />
     <layoutturnout ident="TO68" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="475.0" ycen="470.0" xa="465.0" ya="470.0" xb="485.0" yb="470.0" xc="495.0" yc="450.0" xd="465.0" yd="470.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Sierra W 2" blockname="Sierra siding west" connectaname="T112" connectbname="T238" connectcname="T49">
       <sensorB>NX-SierraS-WB</sensorB>
     </layoutturnout>
@@ -17586,7 +17586,7 @@
     <tracksegment ident="T41" blockname="Powderhorn-Redcliff (Quartz)" connect1name="TO35" type1="TURNOUT_B" connect2name="TO34" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T42" blockname="Redcliff siding" connect1name="TO35" type1="TURNOUT_C" connect2name="TO24" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T44" blockname="Redcliff-Sierra" connect1name="TO24" type1="TURNOUT_A" connect2name="TO25" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T45" blockname="Sierra siding" connect1name="TO25" type1="TURNOUT_C" connect2name="TO44" type2="TURNOUT_A" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T45" blockname="Sierra siding east" connect1name="TO25" type1="TURNOUT_C" connect2name="TO44" type2="TURNOUT_A" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T47" blockname="Sierra-Troy" connect1name="TO26" type1="TURNOUT_A" connect2name="TO89" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T53" blockname="Troy-Upton" connect1name="TO100" type1="TURNOUT_A" connect2name="A11" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T54" blockname="Upton main" connect1name="TO31" type1="TURNOUT_B" connect2name="TO32" type2="TURNOUT_B" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
@@ -17878,7 +17878,7 @@
       </decorations>
     </tracksegment>
     <tracksegment ident="T127" blockname="Sierra Forestry spur" connect1name="A37" type1="POS_POINT" connect2name="TO114" type2="TURNOUT_C" dashed="yes" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T238" blockname="Sierra siding" connect1name="TO44" type1="TURNOUT_B" connect2name="TO68" type2="TURNOUT_B" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T238" blockname="Sierra siding east" connect1name="TO44" type1="TURNOUT_B" connect2name="TO68" type2="TURNOUT_B" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T240" blockname="AUTOBLK:113" connect1name="TO115" type1="TURNOUT_B" connect2name="TO63" type2="TURNOUT_D" dashed="yes" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T107" blockname="AUTOBLK:135" connect1name="TO115" type1="TURNOUT_A" connect2name="TO70" type2="TURNOUT_C" dashed="yes" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T242" blockname="Midway East frt approach" connect1name="TO1" type1="TURNOUT_B" connect2name="EB45" type2="POS_POINT" dashed="yes" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
