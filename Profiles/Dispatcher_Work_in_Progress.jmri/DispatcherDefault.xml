@@ -8799,7 +8799,7 @@
           <turnout systemName="Sierra camp spur (Bob G guess )" />
         </beansetting>
       </path>
-      <path todir="160" fromdir="80" block="IB:AUTO:0052">
+      <path todir="96" fromdir="144" block="IB:AUTO:0052">
         <beansetting setting="4">
           <turnout systemName="Sierra camp spur (Bob G guess )" />
         </beansetting>
@@ -10181,7 +10181,7 @@
           <turnout systemName="LT273" />
         </beansetting>
       </path>
-      <path todir="64" fromdir="128" block="IB81">
+      <path todir="128" fromdir="64" block="IB81">
         <beansetting setting="4">
           <turnout systemName="LT273" />
         </beansetting>
@@ -10236,7 +10236,7 @@
       <systemName>IB81</systemName>
       <userName>AUTOBLK:94</userName>
       <permissive>no</permissive>
-      <path todir="128" fromdir="64" block="IB76">
+      <path todir="64" fromdir="128" block="IB76">
         <beansetting setting="4">
           <turnout systemName="LT273" />
         </beansetting>
@@ -11905,7 +11905,7 @@
       <systemName>IB:AUTO:0052</systemName>
       <userName>Sierra Forestry spur</userName>
       <permissive>no</permissive>
-      <path todir="80" fromdir="160" block="IB8">
+      <path todir="144" fromdir="96" block="IB8">
         <beansetting setting="4">
           <turnout systemName="Sierra camp spur (Bob G guess )" />
         </beansetting>
@@ -16638,9 +16638,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <positionablelabel x="335" y="420" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Sierra siding detection on layout is" fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="yes" redBack="0" greenBack="255" blueBack="255" fixedWidth="150" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="335" y="430" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="wrong and reflected as such here" fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="yes" redBack="0" greenBack="255" blueBack="255" fixedWidth="150" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="560" y="510" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Forestry spur   " fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="595" y="525" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Forestry spur   " fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <sensoricon sensor="NX-MidwayMain1-WB" x="800" y="350" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="270" scale="1.0">
         <rotation>0</rotation>
@@ -16657,7 +16655,7 @@
       <iconmaps />
     </sensoricon>
     <positionablelabel x="800" y="225" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Tank farm" fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="525" y="440" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Sierra Ranch   " fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="445" y="420" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Sierra Ranch   " fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <sensoricon sensor="NX-E3-WB" x="168" y="75" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="270" scale="1.0">
         <rotation>0</rotation>
@@ -16675,7 +16673,7 @@
     </sensoricon>
     <positionablelabel x="1280" y="535" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Connector Out of Service" fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="yes" redBack="0" greenBack="255" blueBack="255" fixedWidth="105" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="1180" y="435" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Tail of storage spur Out of Service" fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="yes" redBack="0" greenBack="255" blueBack="255" fixedWidth="156" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="545" y="525" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Spiked to main. OoS" fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="yes" redBack="0" greenBack="255" blueBack="255" fixedWidth="92" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="580" y="540" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Spiked to main. OoS" fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="yes" redBack="0" greenBack="255" blueBack="255" fixedWidth="92" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <memoryicon memory="Osage siding east" x="295" y="320" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" fixedHeight="16" justification="left" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif" />
     <sensoricon sensor="NX-OsageM-WB" x="205" y="350" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
@@ -17307,7 +17305,7 @@
     <memoryicon memory="IMLABEL$154" x="983" y="294" level="4" forcecontroloff="false" hidden="no" valueEditDisabled="yes" positionable="true" showtooltip="false" editable="false" fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="255" hasBackground="no" fixedHeight="12" justification="left" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif" />
     <memoryicon memory="IMLABEL$174" x="281" y="470" level="4" forcecontroloff="false" hidden="no" valueEditDisabled="yes" positionable="true" showtooltip="false" editable="false" fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="255" hasBackground="no" fixedHeight="12" justification="left" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif" />
     <memoryicon memory="IMLABEL$8" x="1004" y="20" level="4" forcecontroloff="false" hidden="no" valueEditDisabled="yes" positionable="true" showtooltip="false" editable="false" fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="255" hasBackground="no" fixedHeight="12" justification="left" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif" />
-    <memoryicon memory="IMLABEL$273" x="485" y="430" level="4" forcecontroloff="false" hidden="no" valueEditDisabled="yes" positionable="true" showtooltip="false" editable="false" fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="255" hasBackground="no" fixedHeight="12" justification="left" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif" />
+    <memoryicon memory="IMLABEL$273" x="510" y="430" level="4" forcecontroloff="false" hidden="no" valueEditDisabled="yes" positionable="true" showtooltip="false" editable="false" fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="255" hasBackground="no" fixedHeight="12" justification="left" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif" />
     <memoryicon memory="IMLABEL$68" x="1076" y="494" level="4" forcecontroloff="false" hidden="no" valueEditDisabled="yes" positionable="true" showtooltip="false" editable="false" fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="255" hasBackground="no" fixedHeight="12" justification="left" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif" />
     <memoryicon memory="IMLABEL$195" x="566" y="669" level="4" forcecontroloff="false" hidden="no" valueEditDisabled="yes" positionable="true" showtooltip="false" editable="false" fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="255" hasBackground="no" fixedHeight="12" justification="left" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif" />
     <memoryicon memory="IMLABEL$188" x="620" y="670" level="4" forcecontroloff="false" hidden="no" valueEditDisabled="yes" positionable="true" showtooltip="false" editable="false" fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="255" hasBackground="no" fixedHeight="12" justification="left" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif" />
@@ -17537,7 +17535,7 @@
     </layoutturnout>
     <layoutturnout ident="TO103" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="277.0" ycen="490.0" xa="292.0" ya="490.0" xb="262.0" yb="490.0" xc="262.0" yc="470.0" xd="292.0" yd="490.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Troy station" blockname="Troy main" connectaname="T207" connectbname="T202" connectcname="T208" />
     <layoutturnout ident="TO27" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="4" xcen="1250.0" ycen="470.0" xa="1235.0" ya="470.0" xb="1265.0" yb="470.0" xc="1265.0" yc="460.0" xd="1235.0" yd="470.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Powderhorn work track spur" blockname="Powderhorn siding" connectaname="T170" connectbname="T38" connectcname="T171" />
-    <layoutturnout ident="TO28" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="505.0" ycen="450.0" xa="495.0" ya="450.0" xb="515.0" yb="450.0" xc="520.0" yc="435.0" xd="495.0" yd="450.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="LT273" blockname="Sierra Livestock storage" connectaname="T49" connectbname="T131" connectcname="T132" />
+    <layoutturnout ident="TO28" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="505.0" ycen="450.0" xa="495.0" ya="450.0" xb="515.0" yb="450.0" xc="495.0" yc="435.0" xd="495.0" yd="450.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="LT273" blockname="Sierra Livestock storage" connectaname="T49" connectbname="T131" connectcname="T132" />
     <layoutturnout ident="TO29" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="1120.0" ycen="80.0" xa="1100.0" ya="80.0" xb="1140.0" yb="80.0" xc="1130.0" yc="90.0" xd="1100.0" yd="80.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Bend East 4 to 3 partner" secondturnoutname="Bend East 4 to 3" blockname="AUTOBLK:107" connectaname="T57" connectbname="T50" connectcname="T51" />
     <layoutturnout ident="TO30" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="4" xcen="1140.0" ycen="100.0" xa="1150.0" ya="110.0" xb="1130.0" yb="90.0" xc="1108.0" yc="100.0" xd="1150.0" yd="110.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Bend East 4 to 3" secondturnoutname="Bend East 4 to 3 partner" blockname="AUTOBLK:114" connectaname="T90" connectbname="T51" connectcname="T52" />
     <layoutturnout ident="TO46" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="4" xcen="1150.0" ycen="80.0" xa="1130.0" ya="80.0" xb="1170.0" yb="80.0" xc="1180.0" yc="110.0" xd="1130.0" yd="80.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Bend East B C Straight LT3 crossover partner" secondturnoutname="Bend East B C Straight" blockname="AUTOBLK:127" connectaname="T50" connectbname="T80" connectcname="T106" />
@@ -17560,7 +17558,7 @@
     </layoutturnout>
     <layoutturnout ident="TO112" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="840.0" ycen="635.0" xa="850.0" ya="635.0" xb="830.0" yb="635.0" xc="830.0" yc="625.0" xd="850.0" yd="635.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Vista W 2 MainW -VistaYard W partner" blockname="AUTOBLK:175" connectaname="T60" connectbname="T234" connectcname="T232" />
     <layoutturnout ident="TO113" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="4" xcen="995.0" ycen="640.0" xa="985.0" ya="650.0" xb="1005.0" yb="630.0" xc="1015.0" yc="640.0" xd="985.0" yd="650.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Vista E 2 MainE -VistaYard E partner" blockname="AUTOBLK:196" connectaname="T235" connectbname="T233" connectcname="T236" />
-    <layoutturnout ident="TO114" type="RH_TURNOUT" hidden="no" disabled="yes" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="570.0" ycen="490.0" xa="550.0" ya="490.0" xb="590.0" yb="490.0" xc="565.0" yc="500.0" xd="550.0" yd="490.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Sierra camp spur (Bob G guess )" blockname="Sierra main" connectaname="T237" connectbname="T46" connectcname="T127" />
+    <layoutturnout ident="TO114" type="RH_TURNOUT" hidden="no" disabled="yes" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="570.0" ycen="490.0" xa="550.0" ya="490.0" xb="590.0" yb="490.0" xc="580.0" yc="500.0" xd="550.0" yd="490.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Sierra camp spur (Bob G guess )" blockname="Sierra main" connectaname="T237" connectbname="T46" connectcname="T127" />
     <layoutturnout ident="TO115" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="4" xcen="400.0" ycen="100.0" xa="385.0" ya="100.0" xb="415.0" yb="100.0" xc="410.0" yc="110.0" xd="385.0" yd="100.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Short Line to Delta 4" blockname="AUTOBLK:135" connectaname="T107" connectbname="T240" connectcname="T241" />
     <tracksegment ident="T1" blockname="Midway East frt approach" connect1name="TO3" type1="TURNOUT_C" connect2name="A28" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T3" blockname="Midway East Main passenger approach" connect1name="TO3" type1="TURNOUT_B" connect2name="TO5" type2="TURNOUT_B" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
@@ -17876,12 +17874,11 @@
     <tracksegment ident="T235" blockname="AUTOBLK:200" connect1name="TO113" type1="TURNOUT_A" connect2name="EB42" type2="POS_POINT" dashed="yes" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T46" blockname="Sierra main" connect1name="TO25" type1="TURNOUT_B" connect2name="TO114" type2="TURNOUT_B" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T237" blockname="Sierra main" connect1name="TO114" type1="TURNOUT_A" connect2name="TO26" type2="TURNOUT_B" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T239" blockname="Sierra Forestry spur" connect1name="EB40" type1="POS_POINT" connect2name="A37" type2="POS_POINT" dashed="yes" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
+    <tracksegment ident="T127" blockname="Sierra Forestry spur" connect1name="EB44" type1="POS_POINT" connect2name="TO114" type2="TURNOUT_C" dashed="yes" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
       <decorations>
         <bumper end="start" color="#000000" linewidth="8" length="8" />
       </decorations>
     </tracksegment>
-    <tracksegment ident="T127" blockname="Sierra Forestry spur" connect1name="A37" type1="POS_POINT" connect2name="TO114" type2="TURNOUT_C" dashed="yes" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T238" blockname="Sierra siding east" connect1name="TO44" type1="TURNOUT_B" connect2name="TO68" type2="TURNOUT_B" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T240" blockname="AUTOBLK:113" connect1name="TO115" type1="TURNOUT_B" connect2name="TO63" type2="TURNOUT_D" dashed="yes" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T107" blockname="AUTOBLK:135" connect1name="TO115" type1="TURNOUT_A" connect2name="TO70" type2="TURNOUT_C" dashed="yes" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
@@ -17900,7 +17897,7 @@
     <positionablepoint ident="A12" type="ANCHOR" x="1130.0" y="615.0" connect1name="T31" connect2name="T135" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A7" type="ANCHOR" x="375.0" y="40.0" connect1name="T102" connect2name="T137" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A15" type="ANCHOR" x="720.0" y="40.0" connect1name="T95" connect2name="T138" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="EB14" type="END_BUMPER" x="560.0" y="435.0" connect1name="T132" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB14" type="END_BUMPER" x="455.0" y="435.0" connect1name="T132" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="EB33" type="END_BUMPER" x="769.0" y="460.0" connect1name="T134" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A13" type="ANCHOR" x="1400.0" y="490.0" connect1name="T157" connect2name="T141" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A18" type="ANCHOR" x="45.0" y="355.0" connect1name="T141" connect2name="T142" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
@@ -17968,8 +17965,7 @@
     <positionablepoint ident="EB43" type="END_BUMPER" x="890.0" y="635.0" connect1name="T60" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="EB42" type="END_BUMPER" x="950.0" y="650.0" connect1name="T235" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="EB41" type="END_BUMPER" x="1040.0" y="640.0" connect1name="T236" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="EB40" type="END_BUMPER" x="515.0" y="505.0" connect1name="T239" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A37" type="ANCHOR" x="560.0" y="505.0" connect1name="T239" connect2name="T127" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB44" type="END_BUMPER" x="600.0" y="520.0" connect1name="T127" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="EB46" type="END_BUMPER" x="870.0" y="380.0" connect1name="T16" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="EB45" type="END_BUMPER" x="1160.0" y="400.0" connect1name="T242" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="EB47" type="END_BUMPER" x="490.0" y="120.0" connect1name="T243" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
