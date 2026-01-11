@@ -4,7 +4,7 @@ Git tags are used to capture the contents after various work efforts. Note that 
 
 Documentation is done in .md files in Markdown format.  Start with the README.md file in each directory.
 
-The `Profile` directory contains JMRI profiles.  Their names start with the computer that normally runs them, e.g. the `Dispatcher` computer or the `AFE` computer.
+The `Profiles` directory contains JMRI profiles.  Their names start with the computer that normally runs them, e.g. the `Dispatcher` computer or the `Zion East` computer.
 
 The `Archive` directory contains old backups and JMRI profiles from an earlier effort for the AFE and Zion RPi. This will eventually be deleted once Zion hard panel is up.
 
