@@ -13,7 +13,7 @@ historyList = history.getList()
 memories.provideMemory("IM$LastWrite").value = ""
 def checkOneHistoryLevel(historyList) :
     for item in historyList :
-        logger.info(item.type+" "+item.date+" "+str(item.history == None))
+        # logger.info(item.type+" "+item.date+" "+str(item.history == None))
         if item.type == "Store" and item.date > memories.provideMemory("IM$LastWrite").value :
             memories.provideMemory("IM$LastWrite").value = item.date
         if item.history is not None :
