@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
+<locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
+  <!--Written by JMRI version 5.8+Rbc21ce2ce7 on Sat Dec 14 15:21:27 PST 2024-->
+  <locomotive id="Polar Express 1225" fileName="Polar_Express_1225.xml" roadNumber="1225" roadName="Polar Express" mfg="Lionel" owner="J270 Matthew J Zepeda " model="2-8-4 " dccAddress="1225" comment="" developerID="-1" manufacturerID="1001" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+    <dateUpdated>2024-12-14T23:21:27.796+00:00</dateUpdated>
+    <decoder model="TMCC Steam" family="TMCC Steam" comment="" maxFnNum="68" />
+    <locoaddress>
+      <dcclocoaddress number="1225" longaddress="yes" />
+      <number>1225</number>
+      <protocol>dcc_long</protocol>
+    </locoaddress>
+    <functionlabels />
+    <soundlabels />
+    <values>
+      <decoderDef>
+        <varValue item="Short Address" value="3" />
+        <varValue item="Long Address" value="1225" />
+        <varValue item="Address Format" value="1" />
+      </decoderDef>
+      <CVvalue name="1" value="3" />
+      <CVvalue name="17" value="196" />
+      <CVvalue name="18" value="201" />
+      <CVvalue name="29" value="50" />
+    </values>
+  </locomotive>
+</locomotive-config>

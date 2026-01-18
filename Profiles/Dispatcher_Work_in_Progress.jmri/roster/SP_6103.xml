@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
+<locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
+  <!--Written by JMRI version 5.12+Rc5bd588235 on Sat Jan 10 14:22:48 PST 2026-->
+  <locomotive id="SP 6103" fileName="SP_6103.xml" roadNumber="6103" roadName="Southern Pacific " mfg="MTH" owner="J270 Matthew J Zepeda" model="F7A" dccAddress="6103" comment="TE: 16,24" developerID="-1" manufacturerID="27" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+    <dateUpdated>2026-01-10T22:22:48.755+00:00</dateUpdated>
+    <decoder model="MTH HO PS3" family="MTH HO PS3" comment="" maxFnNum="28" />
+    <locoaddress>
+      <dcclocoaddress number="6103" longaddress="yes" />
+      <number>6103</number>
+      <protocol>dcc_long</protocol>
+    </locoaddress>
+    <functionlabels />
+    <soundlabels />
+    <values>
+      <decoderDef>
+        <varValue item="Short Address Alt Access" value="3" />
+        <varValue item="Extended Address Alt Access" value="215" />
+        <varValue item="Short Address" value="3" />
+        <varValue item="Long Address" value="6103" />
+        <varValue item="Address Format" value="1" />
+        <varValue item="Accel" value="0" />
+        <varValue item="Decel" value="0" />
+        <varValue item="Speed Step Mode" value="1" />
+      </decoderDef>
+      <CVvalue name="49" value="3" />
+      <CVvalue name="50" value="192" />
+      <CVvalue name="18" value="215" />
+      <CVvalue name="1" value="3" />
+      <CVvalue name="17" value="215" />
+      <CVvalue name="29" value="62" />
+      <CVvalue name="3" value="0" />
+      <CVvalue name="4" value="0" />
+    </values>
+  </locomotive>
+</locomotive-config>
