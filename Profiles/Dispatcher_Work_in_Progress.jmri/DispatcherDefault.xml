@@ -4,8 +4,8 @@
   <jmriversion>
     <major>5</major>
     <minor>13</minor>
-    <test>7</test>
-    <modifier />
+    <test>6</test>
+    <modifier>plus</modifier>
   </jmriversion>
   <sensors class="jmri.jmrix.loconet.configurexml.LnSensorManagerXml">
     <globalDebounceTimers>
@@ -6808,7 +6808,7 @@
       <systemName>IM71</systemName>
       <userName>Sierra siging west</userName>
     </memory>
-    <memory value="Sat Jan 17 19:14:59 PST 2026">
+    <memory value="Sun Jan 18 00:46:39 PST 2026">
       <systemName>IM$LastWrite</systemName>
     </memory>
     <memory>
@@ -12021,15 +12021,15 @@
       <systemName>ILB7</systemName>
       <userName>Redcliff siding</userName>
     </layoutblock>
-    <layoutblock systemName="ILB8" occupancysensor="Sierra main" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Sierra main">
+    <layoutblock systemName="ILB8" occupancysensor="Sierra main" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="#BEBEFF" memory="Sierra main">
       <systemName>ILB8</systemName>
       <userName>Sierra main</userName>
     </layoutblock>
-    <layoutblock systemName="ILB9" occupancysensor="Sierra siding east" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Sierra siding east">
+    <layoutblock systemName="ILB9" occupancysensor="Sierra siding east" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="#BEBEFF" memory="Sierra siding east">
       <systemName>ILB9</systemName>
       <userName>Sierra siding east</userName>
     </layoutblock>
-    <layoutblock systemName="ILB10" occupancysensor="Sierra-Troy" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Sierra - Troy">
+    <layoutblock systemName="ILB10" occupancysensor="Sierra-Troy" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="#BEBEFF" memory="Sierra - Troy">
       <systemName>ILB10</systemName>
       <userName>Sierra-Troy</userName>
     </layoutblock>
@@ -12093,7 +12093,7 @@
       <systemName>ILB25</systemName>
       <userName>Troy-Upton</userName>
     </layoutblock>
-    <layoutblock systemName="ILB26" occupancysensor="Vista-Whiskey" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Vista - Whiskey">
+    <layoutblock systemName="ILB26" occupancysensor="Vista-Whiskey" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="#BEBEFF" memory="Vista - Whiskey">
       <systemName>ILB26</systemName>
       <userName>Vista-Whiskey</userName>
     </layoutblock>
@@ -12270,7 +12270,7 @@
       <systemName>ILB68</systemName>
       <userName>Troy siding 2</userName>
     </layoutblock>
-    <layoutblock systemName="ILB69" occupancysensor="Upton-Vista West" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Vista - Upton west">
+    <layoutblock systemName="ILB69" occupancysensor="Upton-Vista West" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="#BEBEFF" memory="Vista - Upton west">
       <systemName>ILB69</systemName>
       <userName>Upton-Vista West</userName>
     </layoutblock>
@@ -12640,7 +12640,7 @@
       <systemName>ILB160</systemName>
       <userName>AUTOBLK:160</userName>
     </layoutblock>
-    <layoutblock systemName="ILB161" occupancysensor="Sierra siding west" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Sierra siging west">
+    <layoutblock systemName="ILB161" occupancysensor="Sierra siding west" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="#BEBEFF" memory="Sierra siging west">
       <systemName>ILB161</systemName>
       <userName>Sierra siding west</userName>
     </layoutblock>
@@ -13185,6 +13185,56 @@
   <signalmastlogics class="jmri.managers.configurexml.DefaultSignalMastLogicManagerXml">
     <logicDelay>500</logicDelay>
   </signalmastlogics>
+  <meters class="jmri.managers.configurexml.AbstractMeterManagerXml">
+    <meter>
+      <systemName>LVDB210(s/n211)InputCurrent</systemName>
+    </meter>
+    <meter>
+      <systemName>LVDB210(s/n211)Voltage</systemName>
+    </meter>
+    <meter>
+      <systemName>LVDB210(s/n37)InputCurrent</systemName>
+    </meter>
+    <meter>
+      <systemName>LVDB210(s/n37)Voltage</systemName>
+    </meter>
+    <meter>
+      <systemName>LVDB210(s/n387)InputCurrent</systemName>
+    </meter>
+    <meter>
+      <systemName>LVDB210(s/n387)Voltage</systemName>
+    </meter>
+    <meter>
+      <systemName>LVDB210(s/n397)InputCurrent</systemName>
+    </meter>
+    <meter>
+      <systemName>LVDB210(s/n397)Voltage</systemName>
+    </meter>
+    <meter>
+      <systemName>LVDB210(s/n407)InputCurrent</systemName>
+    </meter>
+    <meter>
+      <systemName>LVDB210(s/n407)Voltage</systemName>
+    </meter>
+    <meter>
+      <systemName>LVDB210(s/n474)InputCurrent</systemName>
+    </meter>
+    <meter>
+      <systemName>LVDB210(s/n474)Voltage</systemName>
+    </meter>
+    <meter>
+      <systemName>LVDB210(s/n489)InputCurrent</systemName>
+    </meter>
+    <meter>
+      <systemName>LVDB210(s/n489)Voltage</systemName>
+    </meter>
+    <meter>
+      <systemName>LVDCS240(s/n1436)InputCurrent</systemName>
+    </meter>
+    <meter>
+      <systemName>LVDCS240(s/n1436)Voltage</systemName>
+    </meter>
+  </meters>
   <logixs class="jmri.managers.configurexml.DefaultLogixManagerXml">
     <logix userName="Start up initializer" enabled="yes">
       <systemName>IX:RTXINITIALIZER</systemName>
@@ -14397,7 +14447,7 @@
       <tooltip>Text Label</tooltip>
     </positionablelabel>
   </paneleditor>
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="PMRRM Dispatcher" x="-6" y="-6" windowheight="925" windowwidth="1549" panelheight="799" panelwidth="1451" sliders="yes" scrollable="both" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="yes" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="green" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclethrowncolor="orange" turnoutcirclesize="2" turnoutdrawunselectedleg="no" turnoutbx="7.0" turnoutcx="14.0" turnoutwid="14.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="yes" redBackground="192" greenBackground="192" blueBackground="192" gridSize="5" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="PMRRM Dispatcher" x="2560" y="25" windowheight="1407" windowwidth="2551" panelheight="799" panelwidth="1451" sliders="yes" scrollable="both" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="yes" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="green" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclethrowncolor="orange" turnoutcirclesize="2" turnoutdrawunselectedleg="no" turnoutbx="7.0" turnoutcx="14.0" turnoutwid="14.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="yes" redBackground="192" greenBackground="192" blueBackground="192" gridSize="5" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="PMRRM Dispatcher" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
       <mainBallastWidth>0</mainBallastWidth>
@@ -16031,7 +16081,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <positionablelabel x="975" y="676" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Show Optional Information" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" fixedWidth="200" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="965" y="676" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Show Optional Information" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" fixedWidth="200" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="510" y="390" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="NARROWS " fontFamily="Dialog" fontname="Dialog" size="14" style="1" red="0" green="0" blue="0" hasBackground="no" justification="left" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="75" y="400" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="BRANCH" fontFamily="Dialog" fontname="Dialog" size="11" style="1" red="0" green="0" blue="0" hasBackground="no" fixedWidth="55" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="1275" y="525" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Helper return  " fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="no" fixedWidth="120" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
@@ -16053,7 +16103,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <positionablelabel x="975" y="705" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Show Loco ID Entry Boxes" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" fixedWidth="200" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="965" y="705" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Show Loco ID Entry Boxes" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" fixedWidth="200" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <sensoricon sensor="NX-TroyM-WB" x="148" y="485" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="270" scale="1.0">
         <rotation>0</rotation>
@@ -17984,18 +18034,18 @@
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Sun Jan 18 00:43:10 PST 2026</date>
-      <filename>PanelPro (v5.13.7)</filename>
+      <date>Sun Jan 18 01:07:08 PST 2026</date>
+      <filename>PanelPro (v5.13.6)</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Sun Jan 18 00:43:37 PST 2026</date>
-      <filename>/D:/OneDrive/GitHub/PMRRM/Profiles/Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
+      <date>Sun Jan 18 01:07:19 PST 2026</date>
+      <filename>/Users/electricalcrew/PMRRM/Profiles/Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Sun Jan 18 00:46:39 PST 2026</date>
-      <filename>D:\OneDrive\GitHub\PMRRM\Profiles\Dispatcher_Work_in_Progress.jmri\DispatcherDefault.xml</filename>
+      <date>Sun Jan 18 01:08:35 PST 2026</date>
+      <filename>/Users/electricalcrew/PMRRM/Profiles/Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
     </operation>
   </filehistory>
 </layout-config>
