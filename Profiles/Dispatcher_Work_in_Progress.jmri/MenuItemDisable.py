@@ -44,6 +44,7 @@ class MenuItemDisable(jmri.jmrit.automat.AbstractAutomaton) :
         self.waitMsec(8000)
 
         thisUser = java.lang.System.getProperty("user.name")
+        #thisUser = "dispatch"  # here for debugging, comment out for normal operation
         desiredUser = "dispatch"
         if thisUser != desiredUser:
             self.log.info("Skip disabling menu items because user '{}' is not '{}'", thisUser, desiredUser)
@@ -156,16 +157,22 @@ class MenuItemDisable(jmri.jmrit.automat.AbstractAutomaton) :
         else :
             self.log.warn("Did not find LocoNet menu")
             
-        debugMenu = findMenu(frame, "Debug")      
-        debugMenu.disable()
+        debugMenu = findMenu(frame, "Debug")  
+        if debugMenu is not None :    
+            debugMenu.disable()
+        else :
+            self.log.warn("Did not find Debug menu")
         
 
         # Now proceed to the Layout Editor "Dispatcher" window
         frame = jmri.util.JmriJFrame.getFrame("PMRRM Dispatcher")
         
-        if frame != None :
-            fileMenu = findMenu(frame, "File")      
-            fileMenu.disable()
+        if frame is not None :
+            fileMenu = findMenu(frame, "File")   
+            if fileMenu is not None :   
+                fileMenu.disable()
+            else :
+                self.log.warn("Did not find Dispatcher File menu")
     
             optMenu = findMenu(frame, "Options")      
             optMenu.disable()
@@ -177,6 +184,27 @@ class MenuItemDisable(jmri.jmrit.automat.AbstractAutomaton) :
         else :
             self.log.warn("Did not find PMRRM Dispatcher window")
 
+        # Now proceed to the Layout Editor "Dispatcher HiRes" window
+        frame = jmri.util.JmriJFrame.getFrame("PMRRM Dispatcher HiRes")
+        
+        if frame != None :
+            fileMenu = findMenu(frame, "File")      
+            if fileMenu is not None :   
+                fileMenu.disable()
+            else :
+                self.log.warn("Did not find Dispatcher HiRes File menu")
+    
+            optMenu = findMenu(frame, "Options")      
+            optMenu.disable()
+            optMenu.setEnabled(False)  # defeats the accelerator cmd-E
+    
+            toolsMenu = findMenu(frame, "Tools")      
+            toolsMenu.disable()
+
+        else :
+            self.log.warn("Did not find PMRRM Dispatcher HiRes window")
+
+        # and we're done!
         self.log.info("Menu update complete")
 
 # create one of these
