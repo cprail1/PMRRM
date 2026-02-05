@@ -98,7 +98,7 @@ class MenuItemDisable(jmri.jmrit.automat.AbstractAutomaton) :
         scriptMenu = findMenu(frame, "Scripting")      
         scriptMenu.disable()
         
-        # find the menu in the menu bar
+        # find the LocoNet menu in the menu bar
         loconetMenu = findMenu(frame, "LocoNet")
         if loconetMenu is not None: # skip if run on some other connection
            
@@ -157,6 +157,11 @@ class MenuItemDisable(jmri.jmrit.automat.AbstractAutomaton) :
         else :
             self.log.warn("Did not find LocoNet menu")
             
+        # find the LCC menu in the menu bar
+        lccMenu = findMenu(frame, "LCC")
+        if lccMenu is not None: # skip if run on some other connection
+            lccMenu.setEnabled(False)
+
         debugMenu = findMenu(frame, "Debug")  
         if debugMenu is not None :    
             debugMenu.disable()
