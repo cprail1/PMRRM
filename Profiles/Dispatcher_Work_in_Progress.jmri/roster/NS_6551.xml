@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <!--Written by JMRI version 5.4+R9005ecb4ac on Wed Nov 15 12:24:24 PST 2023-->
-  <locomotive id="NS 6551" fileName="NS.xml" roadNumber="6551" roadName="Norfolk Southern" mfg="Bachmann" owner="269 Salvatore Natale" model="GP50" dccAddress="6551" comment="TE 15 / 10" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2023-11-15T20:24:24.713+00:00</dateUpdated>
+  <locomotive id="NS 6551" fileName="NS_6551.xml" roadNumber="6551" roadName="Norfolk Southern" mfg="Bachmann" owner="269 Salvatore Natale" model="GP50" dccAddress="6551" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T03:58:31.058+00:00</dateUpdated>
     <decoder model="2 function decoder (36-552)" family="E-Z Command decoders" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="6551" longaddress="yes" />
@@ -12,6 +12,12 @@
     </locoaddress>
     <functionlabels />
     <soundlabels />
+    <attributepairs>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>15 / 10</value>
+      </keyvaluepair>
+    </attributepairs>
     <values>
       <decoderDef>
         <varValue item="Vstart" value="10" />

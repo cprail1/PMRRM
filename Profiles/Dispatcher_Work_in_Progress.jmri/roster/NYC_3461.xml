@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <!--Written by JMRI version 4.20+Rc7ba8249b on Tue Oct 06 12:09:54 PDT 2020-->
-  <locomotive id="NYC 3461" fileName="NYC_3461.xml" roadNumber="3461" roadName="New York Central" mfg="Bowser" owner="254 Aaron Gold" model="F7b" dccAddress="3461" comment="TE: " maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2018-10-01T22:23:59.000+0000</dateUpdated>
-    <decoder model="DH126MT" family="Economy Series 6 with FX3, silent" comment="" />
+  <locomotive id="NYC 3461" fileName="NYC_3461.xml" roadNumber="3461" roadName="New York Central" mfg="Bowser" owner="254 Aaron Gold" model="F7b" dccAddress="3461" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T03:58:31.314+00:00</dateUpdated>
+    <decoder model="DH126MT" family="Economy Series 6 with FX3, silent" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="3461" longaddress="yes" />
       <number>3461</number>
@@ -16,6 +16,10 @@
       <keyvaluepair>
         <key>RosterGroup:NYC</key>
         <value>yes</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>TE</key>
+        <value />
       </keyvaluepair>
     </attributepairs>
     <values>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <!--Written by JMRI version 4.20+Rc7ba8249b on Sat May 08 11:06:56 PDT 2021-->
-  <locomotive id="UP 933" fileName="UP_933.xml" roadNumber="933" roadName="Union Pacific" mfg="Walthers" owner="263 John Finnerty" model="E8 B" dccAddress="931" comment="Do not separate from UP931, UP938, and UP938B.&#xA;Group TE: 92 / 80 / 68&#xA;TE: 26 / 22 / 18" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2021-05-08T18:06:56.314+0000</dateUpdated>
-    <decoder model="KAT22" family="Jan 2012" comment="" />
+  <locomotive id="UP 933" fileName="UP_933.xml" roadNumber="933" roadName="Union Pacific" mfg="Walthers" owner="263 John Finnerty" model="E8 B" dccAddress="931" comment="Do not separate from UP931, UP938, and UP938B.Group TE: 92 / 80 / 68" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T03:58:36.175+00:00</dateUpdated>
+    <decoder model="KAT22" family="Jan 2012" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="931" longaddress="yes" />
       <number>931</number>
@@ -16,6 +16,10 @@
       <keyvaluepair>
         <key>RosterGroup:UP</key>
         <value>yes</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>26 / 22 / 18</value>
       </keyvaluepair>
     </attributepairs>
     <values>

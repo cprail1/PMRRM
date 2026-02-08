@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
-<locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <!--Written by JMRI version 5.4+R9005ecb4ac on Tue Aug 22 20:51:46 PDT 2023-->
-  <locomotive id="WP 3014" fileName="WP_3014.xml" roadNumber="3014" roadName="Western Pacific" mfg="Athearn" owner="214 Don Philpott" model="GP35" dccAddress="3014" comment="TE: 24 / 20 / 16" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2023-08-23T03:51:46.509+00:00</dateUpdated>
+<locomotive-config>
+  <locomotive id="WP 3014" fileName="WP_3014.xml" roadNumber="3014" roadName="Western Pacific" mfg="Athearn" owner="214 Don Philpott" model="GP35" dccAddress="3014" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T03:58:36.543+00:00</dateUpdated>
     <decoder model="DH126D" family="Economy Series 6 with FX3, silent" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="3014" longaddress="yes" />
@@ -12,6 +12,12 @@
     </locoaddress>
     <functionlabels />
     <soundlabels />
+    <attributepairs>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>24 / 20 / 16</value>
+      </keyvaluepair>
+    </attributepairs>
     <values>
       <decoderDef>
         <varValue item="Short Address" value="3" />

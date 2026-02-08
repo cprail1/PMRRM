@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <!--Written by JMRI version 4.20+Rc7ba8249b on Tue Oct 06 12:05:55 PDT 2020-->
-  <locomotive id="SP 5459_1" fileName="SP_5459.xml" roadNumber="5459" roadName="Southern Pacific" mfg="Athearn Blue Box" owner="228 John Vasconcelos" model="SD9" dccAddress="5459" comment="TE: 20 / 16 / 13" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2019-11-09T19:38:47.501+0000</dateUpdated>
-    <decoder model="DH126D" family="Economy Series 6 with FX3, silent" comment="" />
+  <locomotive id="SP 5459_1" fileName="SP_5459_1.xml" roadNumber="5459" roadName="Southern Pacific" mfg="Athearn Blue Box" owner="228 John Vasconcelos" model="SD9" dccAddress="5459" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T03:58:33.259+00:00</dateUpdated>
+    <decoder model="DH126D" family="Economy Series 6 with FX3, silent" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="5459" longaddress="yes" />
       <number>5459</number>
@@ -16,6 +16,10 @@
       <keyvaluepair>
         <key>RosterGroup:SP</key>
         <value>yes</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>20 / 16 / 13</value>
       </keyvaluepair>
     </attributepairs>
     <values>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
-<locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <!--Written by JMRI version 5.2+R760b98537f on Tue Jun 20 20:43:34 PDT 2023-->
-  <locomotive id="TP 611" fileName="TP611.xml" roadNumber="611" roadName="Texas Pacific" mfg="Athearn" owner="214 Don Philpott" model="GP35" dccAddress="611" comment="TE: 15 / 10" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2023-06-21T03:43:34.578+00:00</dateUpdated>
+<locomotive-config>
+  <locomotive id="TP 611" fileName="TP_611.xml" roadNumber="611" roadName="Texas Pacific" mfg="Athearn" owner="214 Don Philpott" model="GP35" dccAddress="611" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T03:58:34.866+00:00</dateUpdated>
     <decoder model="M1" family="TCS X Series Decoders" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="611" longaddress="yes" />
@@ -12,6 +12,12 @@
     </locoaddress>
     <functionlabels />
     <soundlabels />
+    <attributepairs>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>15 / 10</value>
+      </keyvaluepair>
+    </attributepairs>
     <values>
       <decoderDef>
         <varValue item="Analog Mode Function Status - FL(f)" value="1" />

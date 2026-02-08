@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <!--Written by JMRI version 4.20+Rc7ba8249b on Tue Oct 06 12:01:21 PDT 2020-->
-  <locomotive id="BNSF 3849" fileName="BNSF_3849.xml" roadNumber="3849" roadName="BNSF Railway" mfg="Intermountain" owner="257 Chris Holt" model="ET44C4" dccAddress="3849" comment="TE: 31 / 26 /21" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2017-09-04T08:37:40.000+0000</dateUpdated>
-    <decoder model="LokSound Select OEM" family="ESU LokSound Select" comment="" />
+  <locomotive id="BNSF 3849" fileName="BNSF_3849.xml" roadNumber="3849" roadName="BNSF Railway" mfg="Intermountain" owner="257 Chris Holt" model="ET44C4" dccAddress="3849" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T03:58:27.458+00:00</dateUpdated>
+    <decoder model="LokSound Select OEM" family="ESU LokSound Select" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="3849" longaddress="yes" />
       <number>3849</number>
@@ -20,6 +20,10 @@
       <keyvaluepair>
         <key>RosterGroup:BNSF</key>
         <value>yes</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>31 / 26 /21</value>
       </keyvaluepair>
     </attributepairs>
     <values>

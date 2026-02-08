@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <!--Written by JMRI version 4.20+Rc7ba8249b on Tue Oct 06 12:01:24 PDT 2020-->
-  <locomotive id="BNSF 6300" fileName="BNSF_6300.xml" roadNumber="6300" roadName="BNSF Railway" mfg="Walthers Mainline" owner="257 Chris Holt" model="ES44AC" dccAddress="6300" comment="TE: 26 / 18" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2018-10-10T23:50:47.000+0000</dateUpdated>
-    <decoder model="DH126MT" family="Economy Series 6 with FX3, silent" comment="" />
+  <locomotive id="BNSF 6300" fileName="BNSF_6300.xml" roadNumber="6300" roadName="BNSF Railway" mfg="Walthers Mainline" owner="257 Chris Holt" model="ES44AC" dccAddress="6300" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T03:58:27.664+00:00</dateUpdated>
+    <decoder model="DH126MT" family="Economy Series 6 with FX3, silent" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="6300" longaddress="yes" />
       <number>6300</number>
@@ -16,6 +16,10 @@
       <keyvaluepair>
         <key>RosterGroup:BNSF</key>
         <value>yes</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>26 / 18</value>
       </keyvaluepair>
     </attributepairs>
     <values>

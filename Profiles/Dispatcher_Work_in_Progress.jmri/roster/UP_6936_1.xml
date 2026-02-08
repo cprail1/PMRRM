@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
-<locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <!--Written by JMRI version 4.26+R381c8dfc32 on Sat Sep 03 12:33:58 PDT 2022-->
-  <locomotive id="UP 6936_1" fileName="UP_6936.xml" roadNumber="6936" roadName="Union Pacific" mfg="Athearn Genesis" owner="257 Chris Holt" model="DDA40X" dccAddress="6936" comment="TE: " developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2022-09-03T19:33:58.431+0000</dateUpdated>
+<locomotive-config>
+  <locomotive id="UP 6936_1" fileName="UP_6936_1.xml" roadNumber="6936" roadName="Union Pacific" mfg="Athearn Genesis" owner="257 Chris Holt" model="DDA40X" dccAddress="6936" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T03:58:35.775+00:00</dateUpdated>
     <decoder model="DDA40X" family="Tsunami Diesel Genesis OEM" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="6936" longaddress="yes" />
@@ -11,23 +11,27 @@
       <protocol>dcc_long</protocol>
     </locoaddress>
     <functionlabels>
-      <functionlabel num="0" lockable="true" functionImage="" functionImageSelected="">Headlight</functionlabel>
-      <functionlabel num="1" lockable="true" functionImage="" functionImageSelected="">Bell</functionlabel>
-      <functionlabel num="2" lockable="false" functionImage="" functionImageSelected="">Horn</functionlabel>
-      <functionlabel num="3" lockable="true" functionImage="" functionImageSelected="">Short Horn</functionlabel>
-      <functionlabel num="4" lockable="true" functionImage="" functionImageSelected="">Dynamic Brake</functionlabel>
-      <functionlabel num="5" lockable="true" functionImage="" functionImageSelected="">FX5 Light</functionlabel>
-      <functionlabel num="6" lockable="true" functionImage="" functionImageSelected="">FX6 Light</functionlabel>
-      <functionlabel num="7" lockable="true" functionImage="" functionImageSelected="">Dimmer</functionlabel>
-      <functionlabel num="8" lockable="true" functionImage="" functionImageSelected="">Mute</functionlabel>
-      <functionlabel num="9" lockable="true" functionImage="" functionImageSelected="">Brake Squeal</functionlabel>
-      <functionlabel num="10" lockable="true" functionImage="" functionImageSelected="">Coupler</functionlabel>
+      <functionlabel num="0" lockable="true" visible="true" functionImage="" functionImageSelected="">Headlight</functionlabel>
+      <functionlabel num="1" lockable="true" visible="true" functionImage="" functionImageSelected="">Bell</functionlabel>
+      <functionlabel num="2" lockable="false" visible="true" functionImage="" functionImageSelected="">Horn</functionlabel>
+      <functionlabel num="3" lockable="true" visible="true" functionImage="" functionImageSelected="">Short Horn</functionlabel>
+      <functionlabel num="4" lockable="true" visible="true" functionImage="" functionImageSelected="">Dynamic Brake</functionlabel>
+      <functionlabel num="5" lockable="true" visible="true" functionImage="" functionImageSelected="">FX5 Light</functionlabel>
+      <functionlabel num="6" lockable="true" visible="true" functionImage="" functionImageSelected="">FX6 Light</functionlabel>
+      <functionlabel num="7" lockable="true" visible="true" functionImage="" functionImageSelected="">Dimmer</functionlabel>
+      <functionlabel num="8" lockable="true" visible="true" functionImage="" functionImageSelected="">Mute</functionlabel>
+      <functionlabel num="9" lockable="true" visible="true" functionImage="" functionImageSelected="">Brake Squeal</functionlabel>
+      <functionlabel num="10" lockable="true" visible="true" functionImage="" functionImageSelected="">Coupler</functionlabel>
     </functionlabels>
     <soundlabels />
     <attributepairs>
       <keyvaluepair>
         <key>RosterGroup:UP</key>
         <value>yes</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>TE</key>
+        <value />
       </keyvaluepair>
     </attributepairs>
     <values>

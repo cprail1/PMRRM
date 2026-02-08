@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <!--Written by JMRI version 5.8+Rbc21ce2ce7 on Sat Mar 15 12:53:07 PDT 2025-->
-  <locomotive id="SBD 626" fileName="SBD_626.xml" roadNumber="626" roadName="Seaboard" mfg="Bachmann" owner="190 Brian Neely" model="GP40-2" dccAddress="626" comment="TE: 17 / 12" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2019-05-26T04:19:59.000+00:00</dateUpdated>
+  <locomotive id="SBD 626" fileName="SBD_626.xml" roadNumber="626" roadName="Seaboard" mfg="Bachmann" owner="190 Brian Neely" model="GP40-2" dccAddress="626" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T03:58:31.926+00:00</dateUpdated>
     <decoder model="4 function decoder (36-550)" family="E-Z Command decoders" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="626" longaddress="yes" />
@@ -16,6 +16,10 @@
       <keyvaluepair>
         <key>RosterGroup:SBD</key>
         <value>yes</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>17 / 12</value>
       </keyvaluepair>
     </attributepairs>
     <values>

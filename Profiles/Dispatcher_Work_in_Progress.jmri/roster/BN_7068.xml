@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <!--Written by JMRI version 5.8+Rbc21ce2ce7 on Sat Mar 15 12:48:32 PDT 2025-->
-  <locomotive id="BN 7068" fileName="BN_7068.xml" roadNumber="7068" roadName="Burlington Northern" mfg="Scale Trains" owner="148 Kevin Schiller" model="SD 40-2" dccAddress="7068" comment="TE 24, 20,  16" developerID="-1" manufacturerID="151" productID="33554498,33554565" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2024-11-17T01:25:04.152+00:00</dateUpdated>
+  <locomotive id="BN 7068" fileName="BN_7068.xml" roadNumber="7068" roadName="Burlington Northern" mfg="Scale Trains" owner="148 Kevin Schiller" model="SD 40-2" dccAddress="7068" comment="" developerID="-1" manufacturerID="151" productID="33554498,33554565" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T03:58:27.118+00:00</dateUpdated>
     <decoder model="LokPilot V4.0 DCC" family="ESU LokPilot V4.0" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="7068" longaddress="yes" />
@@ -16,6 +16,10 @@
       <keyvaluepair>
         <key>RosterGroup:BN</key>
         <value>yes</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>24, 20,  16</value>
       </keyvaluepair>
     </attributepairs>
     <values>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <!--Written by JMRI version 4.20+Rc7ba8249b on Tue Oct 06 12:05:08 PDT 2020-->
-  <locomotive id="UP 6044" fileName="UP_6044.xml" roadNumber="6044" roadName="Union Pacific" mfg="Life Like" owner="252 John Madriaga" model="SD60" dccAddress="6044" comment="TE: 26 / 18" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2020-02-01T21:56:36.274+0000</dateUpdated>
-    <decoder model="DZ123" family="Series 3 with FX3, silent, readback" comment="" />
+  <locomotive id="UP 6044" fileName="UP_6044.xml" roadNumber="6044" roadName="Union Pacific" mfg="Life Like" owner="252 John Madriaga" model="SD60" dccAddress="6044" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T03:58:35.604+00:00</dateUpdated>
+    <decoder model="DZ123" family="Series 3 with FX3, silent, readback" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="6044" longaddress="yes" />
       <number>6044</number>
@@ -16,6 +16,10 @@
       <keyvaluepair>
         <key>RosterGroup:UP</key>
         <value>yes</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>26 / 18</value>
       </keyvaluepair>
     </attributepairs>
     <values>

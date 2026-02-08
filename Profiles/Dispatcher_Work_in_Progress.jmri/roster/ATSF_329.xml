@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <!--Written by JMRI version 4.20+Rc7ba8249b on Tue Oct 06 12:00:32 PDT 2020-->
-  <locomotive id="ATSF 329" fileName="ATSF_329.xml" roadNumber="329" roadName="Atchison, Topeka, and Santa Fe" mfg="Athearn RTR" owner="257 Chris Holt" model="GP60B" dccAddress="131" comment="Do not seperate from ATSF 112, ATSF 131, and ATSF 346&#xA;TE: 15 / 10&#xA;Group TE: 48 / 35" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2020-03-04T05:41:25.313+0000</dateUpdated>
-    <decoder model="DH126D" family="Economy Series 6 with FX3, silent" comment="" />
+  <locomotive id="ATSF 329" fileName="ATSF_329.xml" roadNumber="329" roadName="Atchison, Topeka, and Santa Fe" mfg="Athearn RTR" owner="257 Chris Holt" model="GP60B" dccAddress="131" comment="Do not seperate from ATSF 112, ATSF 131, and ATSF 346Group TE: 48 / 35" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T03:58:25.618+00:00</dateUpdated>
+    <decoder model="DH126D" family="Economy Series 6 with FX3, silent" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="131" longaddress="yes" />
       <number>131</number>
@@ -16,6 +16,10 @@
       <keyvaluepair>
         <key>RosterGroup:ATSF</key>
         <value>yes</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>15 / 10</value>
       </keyvaluepair>
     </attributepairs>
     <values>

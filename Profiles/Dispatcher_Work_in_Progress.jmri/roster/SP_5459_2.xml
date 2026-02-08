@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
-<locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <!--Written by JMRI version 4.20+Rc7ba8249b on Sat Apr 03 13:43:47 PDT 2021-->
-  <locomotive id="SP 5459_2" fileName="SP_5459_2.xml" roadNumber="5459" roadName="Southern Pacific" mfg="Athearn Blue Box" owner="214 Don Philpott" model="SD9" dccAddress="5459" comment="TE: 20 / 13" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2021-04-03T20:43:47.376+0000</dateUpdated>
-    <decoder model="MC2H104P9" family="MC Motor Decoders" comment="" />
+<locomotive-config>
+  <locomotive id="SP 5459_2" fileName="SP_5459_2.xml" roadNumber="5459" roadName="Southern Pacific" mfg="Athearn Blue Box" owner="214 Don Philpott" model="SD9" dccAddress="5459" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T03:58:33.269+00:00</dateUpdated>
+    <decoder model="MC2H104P9" family="MC Motor Decoders" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="5459" longaddress="yes" />
       <number>5459</number>
@@ -16,6 +16,10 @@
       <keyvaluepair>
         <key>RosterGroup:SP</key>
         <value>yes</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>20 / 13</value>
       </keyvaluepair>
     </attributepairs>
     <values>

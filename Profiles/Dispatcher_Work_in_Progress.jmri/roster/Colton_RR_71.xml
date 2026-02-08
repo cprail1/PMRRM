@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
-<locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <!--Written by JMRI version 5.2+R760b98537f on Thu Jun 22 10:59:44 PDT 2023-->
-  <locomotive id="Colton RR 71" fileName="CRR_71.xml" roadNumber="71" roadName="Colton RR" mfg="Atlas Silver" owner="000 Museum" model="Alco S-2" dccAddress="71" comment="TE: 10 / 6" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2023-06-22T17:59:44.107+00:00</dateUpdated>
+<locomotive-config>
+  <locomotive id="Colton RR 71" fileName="Colton_RR_71.xml" roadNumber="71" roadName="Colton RR" mfg="Atlas Silver" owner="000 Museum" model="Alco S-2" dccAddress="71" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T03:58:28.258+00:00</dateUpdated>
     <decoder model="TSU-21PNEM Alco Diesels" family="Tsunami2 Diesel" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="71" longaddress="no" />
@@ -11,36 +11,42 @@
       <protocol>dcc_short</protocol>
     </locoaddress>
     <functionlabels>
-      <functionlabel num="0" lockable="true" functionImage="" functionImageSelected="">Headlight</functionlabel>
-      <functionlabel num="1" lockable="true" functionImage="" functionImageSelected="">Bell</functionlabel>
-      <functionlabel num="2" lockable="false" functionImage="" functionImageSelected="">Horn</functionlabel>
-      <functionlabel num="3" lockable="true" functionImage="" functionImageSelected="">Short Horn</functionlabel>
-      <functionlabel num="4" lockable="true" functionImage="" functionImageSelected="">Dynamic Brake</functionlabel>
-      <functionlabel num="5" lockable="true" functionImage="" functionImageSelected="">RPM+</functionlabel>
-      <functionlabel num="6" lockable="true" functionImage="" functionImageSelected="">RPM-</functionlabel>
-      <functionlabel num="7" lockable="true" functionImage="" functionImageSelected="">Dimmer</functionlabel>
-      <functionlabel num="8" lockable="true" functionImage="" functionImageSelected="">Mute</functionlabel>
-      <functionlabel num="9" lockable="true" functionImage="" functionImageSelected="">Xing Signal</functionlabel>
-      <functionlabel num="10" lockable="true" functionImage="" functionImageSelected="">Straight to Eight</functionlabel>
-      <functionlabel num="11" lockable="true" functionImage="" functionImageSelected="">Ind/Train Brake</functionlabel>
-      <functionlabel num="12" lockable="true" functionImage="" functionImageSelected="">Brake Select</functionlabel>
-      <functionlabel num="13" lockable="true" functionImage="" functionImageSelected="">Coupler</functionlabel>
-      <functionlabel num="14" lockable="true" functionImage="" functionImageSelected="">Half Speed</functionlabel>
-      <functionlabel num="15" lockable="true" functionImage="" functionImageSelected="">Handbrake</functionlabel>
-      <functionlabel num="16" lockable="true" functionImage="" functionImageSelected="">HEP Mode</functionlabel>
-      <functionlabel num="17" lockable="true" functionImage="" functionImageSelected="">Fuel Loading</functionlabel>
-      <functionlabel num="18" lockable="true" functionImage="" functionImageSelected="">General Service</functionlabel>
-      <functionlabel num="20" lockable="true" functionImage="" functionImageSelected="">Steam Generator</functionlabel>
-      <functionlabel num="21" lockable="true" functionImage="" functionImageSelected="">Sander Valve</functionlabel>
-      <functionlabel num="22" lockable="true" functionImage="" functionImageSelected="">Cab Chatter</functionlabel>
-      <functionlabel num="23" lockable="true" functionImage="" functionImageSelected="">All Aboard</functionlabel>
-      <functionlabel num="24" lockable="true" functionImage="" functionImageSelected="">FX3 Output</functionlabel>
-      <functionlabel num="25" lockable="true" functionImage="" functionImageSelected="">FX4 Output</functionlabel>
-      <functionlabel num="26" lockable="true" functionImage="" functionImageSelected="">FX5 Output</functionlabel>
-      <functionlabel num="27" lockable="true" functionImage="" functionImageSelected="">FX6 Output</functionlabel>
-      <functionlabel num="28" lockable="true" functionImage="" functionImageSelected="">FX7,8 Output</functionlabel>
+      <functionlabel num="0" lockable="true" visible="true" functionImage="" functionImageSelected="">Headlight</functionlabel>
+      <functionlabel num="1" lockable="true" visible="true" functionImage="" functionImageSelected="">Bell</functionlabel>
+      <functionlabel num="2" lockable="false" visible="true" functionImage="" functionImageSelected="">Horn</functionlabel>
+      <functionlabel num="3" lockable="true" visible="true" functionImage="" functionImageSelected="">Short Horn</functionlabel>
+      <functionlabel num="4" lockable="true" visible="true" functionImage="" functionImageSelected="">Dynamic Brake</functionlabel>
+      <functionlabel num="5" lockable="true" visible="true" functionImage="" functionImageSelected="">RPM+</functionlabel>
+      <functionlabel num="6" lockable="true" visible="true" functionImage="" functionImageSelected="">RPM-</functionlabel>
+      <functionlabel num="7" lockable="true" visible="true" functionImage="" functionImageSelected="">Dimmer</functionlabel>
+      <functionlabel num="8" lockable="true" visible="true" functionImage="" functionImageSelected="">Mute</functionlabel>
+      <functionlabel num="9" lockable="true" visible="true" functionImage="" functionImageSelected="">Xing Signal</functionlabel>
+      <functionlabel num="10" lockable="true" visible="true" functionImage="" functionImageSelected="">Straight to Eight</functionlabel>
+      <functionlabel num="11" lockable="true" visible="true" functionImage="" functionImageSelected="">Ind/Train Brake</functionlabel>
+      <functionlabel num="12" lockable="true" visible="true" functionImage="" functionImageSelected="">Brake Select</functionlabel>
+      <functionlabel num="13" lockable="true" visible="true" functionImage="" functionImageSelected="">Coupler</functionlabel>
+      <functionlabel num="14" lockable="true" visible="true" functionImage="" functionImageSelected="">Half Speed</functionlabel>
+      <functionlabel num="15" lockable="true" visible="true" functionImage="" functionImageSelected="">Handbrake</functionlabel>
+      <functionlabel num="16" lockable="true" visible="true" functionImage="" functionImageSelected="">HEP Mode</functionlabel>
+      <functionlabel num="17" lockable="true" visible="true" functionImage="" functionImageSelected="">Fuel Loading</functionlabel>
+      <functionlabel num="18" lockable="true" visible="true" functionImage="" functionImageSelected="">General Service</functionlabel>
+      <functionlabel num="20" lockable="true" visible="true" functionImage="" functionImageSelected="">Steam Generator</functionlabel>
+      <functionlabel num="21" lockable="true" visible="true" functionImage="" functionImageSelected="">Sander Valve</functionlabel>
+      <functionlabel num="22" lockable="true" visible="true" functionImage="" functionImageSelected="">Cab Chatter</functionlabel>
+      <functionlabel num="23" lockable="true" visible="true" functionImage="" functionImageSelected="">All Aboard</functionlabel>
+      <functionlabel num="24" lockable="true" visible="true" functionImage="" functionImageSelected="">FX3 Output</functionlabel>
+      <functionlabel num="25" lockable="true" visible="true" functionImage="" functionImageSelected="">FX4 Output</functionlabel>
+      <functionlabel num="26" lockable="true" visible="true" functionImage="" functionImageSelected="">FX5 Output</functionlabel>
+      <functionlabel num="27" lockable="true" visible="true" functionImage="" functionImageSelected="">FX6 Output</functionlabel>
+      <functionlabel num="28" lockable="true" visible="true" functionImage="" functionImageSelected="">FX7,8 Output</functionlabel>
     </functionlabels>
     <soundlabels />
+    <attributepairs>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>10 / 6</value>
+      </keyvaluepair>
+    </attributepairs>
     <values>
       <decoderDef>
         <varValue item="FL(f) controls output 1" value="0" />

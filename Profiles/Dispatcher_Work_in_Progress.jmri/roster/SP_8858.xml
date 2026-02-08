@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
-<locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <!--Written by JMRI version 4.22+R4c4384d74 on Tue Feb 01 21:12:54 PST 2022-->
-  <locomotive id="SP 8858" fileName="SP_8858.xml" roadNumber="8858" roadName="Southern Pacific" mfg="Scaletrains" owner="266 David Leyva" model="SD45" dccAddress="8858" comment="TE 51 / 18" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2022-02-02T05:12:54.429+0000</dateUpdated>
+<locomotive-config>
+  <locomotive id="SP 8858" fileName="SP_8858.xml" roadNumber="8858" roadName="Southern Pacific" mfg="Scaletrains" owner="266 David Leyva" model="SD45" dccAddress="8858" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T03:58:34.326+00:00</dateUpdated>
     <decoder model="Essential Sound Unit" family="ESU Miscellaneous decoders" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="8858" longaddress="yes" />
@@ -11,11 +11,17 @@
       <protocol>dcc_long</protocol>
     </locoaddress>
     <functionlabels>
-      <functionlabel num="0" lockable="true" functionImage="" functionImageSelected="">Light</functionlabel>
-      <functionlabel num="1" lockable="true" functionImage="" functionImageSelected="">Bell</functionlabel>
-      <functionlabel num="2" lockable="false" functionImage="" functionImageSelected="">Horn</functionlabel>
+      <functionlabel num="0" lockable="true" visible="true" functionImage="" functionImageSelected="">Light</functionlabel>
+      <functionlabel num="1" lockable="true" visible="true" functionImage="" functionImageSelected="">Bell</functionlabel>
+      <functionlabel num="2" lockable="false" visible="true" functionImage="" functionImageSelected="">Horn</functionlabel>
     </functionlabels>
     <soundlabels />
+    <attributepairs>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>51 / 18</value>
+      </keyvaluepair>
+    </attributepairs>
     <values>
       <decoderDef>
         <varValue item="Acceleration" value="0" />

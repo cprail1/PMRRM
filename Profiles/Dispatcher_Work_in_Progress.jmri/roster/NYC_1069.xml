@@ -1,28 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <!--Written by JMRI version 4.20+Rc7ba8249b on Tue Oct 06 12:09:53 PDT 2020-->
-  <locomotive id="NYC 1069" fileName="NYC_1069.xml" roadNumber="1069" roadName="New York Central" mfg="Bachmann" owner="254 Aaron Gold" model="Alco FA2" dccAddress="1069" comment="TE 40 / 20 / 13" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2018-09-21T04:35:10.000+0000</dateUpdated>
-    <decoder model="Alco FA2" family="Tsunami Diesel Bachmann Sound Value" comment="" />
+  <locomotive id="NYC 1069" fileName="NYC_1069.xml" roadNumber="1069" roadName="New York Central" mfg="Bachmann" owner="254 Aaron Gold" model="Alco FA2" dccAddress="1069" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T03:58:31.140+00:00</dateUpdated>
+    <decoder model="Alco FA2" family="Tsunami Diesel Bachmann Sound Value" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="1069" longaddress="yes" />
       <number>1069</number>
       <protocol>dcc_long</protocol>
     </locoaddress>
     <functionlabels>
-      <functionlabel num="0" lockable="true" functionImage="" functionImageSelected="">Headlight</functionlabel>
-      <functionlabel num="1" lockable="true" functionImage="" functionImageSelected="">Bell</functionlabel>
-      <functionlabel num="2" lockable="false" functionImage="" functionImageSelected="">Air Horn</functionlabel>
-      <functionlabel num="3" lockable="true" functionImage="" functionImageSelected="">Short Horn</functionlabel>
-      <functionlabel num="7" lockable="true" functionImage="" functionImageSelected="">Dimming</functionlabel>
-      <functionlabel num="8" lockable="true" functionImage="" functionImageSelected="">Mute</functionlabel>
+      <functionlabel num="0" lockable="true" visible="true" functionImage="" functionImageSelected="">Headlight</functionlabel>
+      <functionlabel num="1" lockable="true" visible="true" functionImage="" functionImageSelected="">Bell</functionlabel>
+      <functionlabel num="2" lockable="false" visible="true" functionImage="" functionImageSelected="">Air Horn</functionlabel>
+      <functionlabel num="3" lockable="true" visible="true" functionImage="" functionImageSelected="">Short Horn</functionlabel>
+      <functionlabel num="7" lockable="true" visible="true" functionImage="" functionImageSelected="">Dimming</functionlabel>
+      <functionlabel num="8" lockable="true" visible="true" functionImage="" functionImageSelected="">Mute</functionlabel>
     </functionlabels>
     <soundlabels />
     <attributepairs>
       <keyvaluepair>
         <key>RosterGroup:NYC</key>
         <value>yes</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>40 / 20 / 13</value>
       </keyvaluepair>
     </attributepairs>
     <values>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <!--Written by JMRI version 5.6+R89a87446cb on Sat Apr 13 12:20:54 PDT 2024-->
-  <locomotive id="WP 1903" fileName="WP_1903.xml" roadNumber="1903" roadName="Western Pacific" mfg="Intermountain" owner="252 John Madriaga" model="ES44AC" dccAddress="1903" comment="TE: 17 12&#x9;" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2024-04-13T19:20:53.993+00:00</dateUpdated>
+  <locomotive id="WP 1903" fileName="WP_1903.xml" roadNumber="1903" roadName="Western Pacific" mfg="Intermountain" owner="252 John Madriaga" model="ES44AC" dccAddress="1903" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T03:58:36.507+00:00</dateUpdated>
     <decoder model="Bachmann (soundTraxx MC1) 36-557" family="OEM Bachmann E-Z Command decoders" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="1903" longaddress="yes" />
@@ -12,6 +12,12 @@
     </locoaddress>
     <functionlabels />
     <soundlabels />
+    <attributepairs>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>17 12</value>
+      </keyvaluepair>
+    </attributepairs>
     <values>
       <decoderDef>
         <varValue item="Start Voltage (0-255)" value="0" />

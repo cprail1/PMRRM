@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <!--Written by JMRI version 4.20+Rc7ba8249b on Tue Oct 06 12:00:35 PDT 2020-->
-  <locomotive id="ATSF 7428" fileName="ATSF_7428.xml" roadNumber="7428" roadName="Atchison, Topeka, and Santa Fe" mfg="Atlas Silver" owner="257 Chris Holt" model="B40-8" dccAddress="7428" comment="TE: 22 / 15" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2019-11-24T00:53:23.483+0000</dateUpdated>
-    <decoder model="Dual Mode" family="Dual Mode" comment="" />
+  <locomotive id="ATSF 7428" fileName="ATSF_7428.xml" roadNumber="7428" roadName="Atchison, Topeka, and Santa Fe" mfg="Atlas Silver" owner="257 Chris Holt" model="B40-8" dccAddress="7428" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T03:58:26.503+00:00</dateUpdated>
+    <decoder model="Dual Mode" family="Dual Mode" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="7428" longaddress="yes" />
       <number>7428</number>
@@ -16,6 +16,10 @@
       <keyvaluepair>
         <key>RosterGroup:ATSF</key>
         <value>yes</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>22 / 15</value>
       </keyvaluepair>
     </attributepairs>
     <values>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <!--Written by JMRI version 5.12+Rc5bd588235 on Thu Jul 17 11:25:41 PDT 2025-->
-  <locomotive id="DRGW 3014" fileName="DRGW_3014.xml" roadNumber="3014" roadName="Denver &amp; Rio Grande Western" mfg="Scale Trains" owner="Kevin Schiller" model="GP30" dccAddress="3014" comment="TE: " developerID="-1" manufacturerID="151" productID="33554588,33554680,33554651" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2025-07-17T18:25:41.082+00:00</dateUpdated>
+  <locomotive id="DRGW 3014" fileName="DRGW_3014.xml" roadNumber="3014" roadName="Denver &amp; Rio Grande Western" mfg="Scale Trains" owner="Kevin Schiller" model="GP30" dccAddress="3014" comment="" developerID="-1" manufacturerID="151" productID="33554588,33554680,33554651" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T03:58:29.386+00:00</dateUpdated>
     <decoder model="LokSound 5 DCC" family="ESU LokSound 5" comment="" maxFnNum="31" />
     <locoaddress>
       <dcclocoaddress number="3014" longaddress="yes" />
@@ -11,9 +11,9 @@
       <protocol>dcc_long</protocol>
     </locoaddress>
     <functionlabels>
-      <functionlabel num="0" lockable="true" functionImage="" functionImageSelected="">Light</functionlabel>
-      <functionlabel num="1" lockable="true" functionImage="" functionImageSelected="">Bell</functionlabel>
-      <functionlabel num="2" lockable="false" functionImage="" functionImageSelected="">Horn</functionlabel>
+      <functionlabel num="0" lockable="true" visible="true" functionImage="" functionImageSelected="">Light</functionlabel>
+      <functionlabel num="1" lockable="true" visible="true" functionImage="" functionImageSelected="">Bell</functionlabel>
+      <functionlabel num="2" lockable="false" visible="true" functionImage="" functionImageSelected="">Horn</functionlabel>
     </functionlabels>
     <soundlabels>
       <soundlabel num="33">Automatic brake sound</soundlabel>
@@ -23,6 +23,10 @@
       <keyvaluepair>
         <key>RosterGroup:DRGW</key>
         <value>yes</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>TE</key>
+        <value />
       </keyvaluepair>
     </attributepairs>
     <values>

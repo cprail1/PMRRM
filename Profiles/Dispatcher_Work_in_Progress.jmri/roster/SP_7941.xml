@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <!--Written by JMRI version 4.20+Rc7ba8249b on Tue Oct 06 12:06:01 PDT 2020-->
-  <locomotive id="SP 7941" fileName="SP_7941.xml" roadNumber="7941" roadName="Southern Pacific" mfg="Atlas Gold" owner="257 Chris Holt" model="GP40-2" dccAddress="7941" comment="TE: 17 / 12" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2018-10-01T02:48:53.000+0000</dateUpdated>
-    <decoder model="LokSound Select" family="ESU LokSound Select" comment="" />
+  <locomotive id="SP 7941" fileName="SP_7941.xml" roadNumber="7941" roadName="Southern Pacific" mfg="Atlas Gold" owner="257 Chris Holt" model="GP40-2" dccAddress="7941" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T03:58:33.981+00:00</dateUpdated>
+    <decoder model="LokSound Select" family="ESU LokSound Select" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="7941" longaddress="yes" />
       <number>7941</number>
       <protocol>dcc_long</protocol>
     </locoaddress>
     <functionlabels>
-      <functionlabel num="0" lockable="true" functionImage="" functionImageSelected="">Light</functionlabel>
-      <functionlabel num="2" lockable="false" functionImage="" functionImageSelected="">Horn</functionlabel>
+      <functionlabel num="0" lockable="true" visible="true" functionImage="" functionImageSelected="">Light</functionlabel>
+      <functionlabel num="2" lockable="false" visible="true" functionImage="" functionImageSelected="">Horn</functionlabel>
     </functionlabels>
     <soundlabels>
       <soundlabel num="25">Random sounds</soundlabel>
@@ -23,6 +23,10 @@
       <keyvaluepair>
         <key>RosterGroup:SP</key>
         <value>yes</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>17 / 12</value>
       </keyvaluepair>
     </attributepairs>
     <values>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <!--Written by JMRI version 4.20+Rc7ba8249b on Tue Oct 06 12:08:33 PDT 2020-->
-  <locomotive id="GN 184" fileName="GN_184.xml" roadNumber="184" roadName="Great Northern" mfg="Atlas" owner="94 Bob Cooper" model="RS1" dccAddress="184" comment="TE: 20 / 13" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2019-07-17T02:37:56.656+0000</dateUpdated>
-    <decoder model="M1P-15" family="June 2007" comment="" />
+  <locomotive id="GN 184" fileName="GN_184.xml" roadNumber="184" roadName="Great Northern" mfg="Atlas" owner="94 Bob Cooper" model="RS1" dccAddress="184" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T03:58:30.060+00:00</dateUpdated>
+    <decoder model="M1P-15" family="June 2007" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="184" longaddress="yes" />
       <number>184</number>
@@ -16,6 +16,10 @@
       <keyvaluepair>
         <key>RosterGroup:GN</key>
         <value>yes</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>20 / 13</value>
       </keyvaluepair>
     </attributepairs>
     <values>

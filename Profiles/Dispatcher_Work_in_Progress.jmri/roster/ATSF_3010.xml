@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <!--Written by JMRI version 5.8+Rbc21ce2ce7 on Thu Feb 20 10:48:26 PST 2025-->
-  <locomotive id="ATSF 3010" fileName="ATSF_3010.xml" roadNumber="3010" roadName="Atchison, Topeka, and Santa Fe" mfg="Atlas" owner="190 Brian Neely" model="H16-44" dccAddress="3010" comment="TE: 17 / 14 / 12" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2018-10-14T03:44:28.000+00:00</dateUpdated>
+  <locomotive id="ATSF 3010" fileName="ATSF_3010.xml" roadNumber="3010" roadName="Atchison, Topeka, and Santa Fe" mfg="Atlas" owner="190 Brian Neely" model="H16-44" dccAddress="3010" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T03:58:25.506+00:00</dateUpdated>
     <decoder model="LokSound Select" family="ESU LokSound Select" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="3010" longaddress="yes" />
@@ -11,8 +11,8 @@
       <protocol>dcc_long</protocol>
     </locoaddress>
     <functionlabels>
-      <functionlabel num="0" lockable="true" functionImage="" functionImageSelected="">Light</functionlabel>
-      <functionlabel num="2" lockable="false" functionImage="" functionImageSelected="">Horn</functionlabel>
+      <functionlabel num="0" lockable="true" visible="true" functionImage="" functionImageSelected="">Light</functionlabel>
+      <functionlabel num="2" lockable="false" visible="true" functionImage="" functionImageSelected="">Horn</functionlabel>
     </functionlabels>
     <soundlabels>
       <soundlabel num="25">Random sounds</soundlabel>
@@ -23,6 +23,10 @@
       <keyvaluepair>
         <key>RosterGroup:ATSF</key>
         <value>yes</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>17 / 14 / 12</value>
       </keyvaluepair>
     </attributepairs>
     <values>

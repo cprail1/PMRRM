@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <!--Written by JMRI version 5.5.1+R196d5a62b6 on Sat Jul 08 14:30:38 PDT 2023-->
-  <locomotive id="UP 2520" fileName="UP_2520.xml" roadNumber="2520" roadName="Union Pacific" mfg="Walthers Mainline" owner="257 Chris Holt" model="ES44AC" dccAddress="2520" comment="TE: 26 / 18" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2023-07-08T21:30:38.511+00:00</dateUpdated>
+  <locomotive id="UP 2520" fileName="UP_2520.xml" roadNumber="2520" roadName="Union Pacific" mfg="Walthers Mainline" owner="257 Chris Holt" model="ES44AC" dccAddress="2520" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T03:58:35.197+00:00</dateUpdated>
     <decoder model="DH126MT" family="Economy Series 6 with FX3, silent" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="2520" longaddress="yes" />
@@ -16,6 +16,10 @@
       <keyvaluepair>
         <key>RosterGroup:UP</key>
         <value>yes</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>26 / 18</value>
       </keyvaluepair>
     </attributepairs>
     <values>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <!--Written by JMRI version 4.22+R4c4384d74 on Fri Feb 25 11:26:13 PST 2022-->
-  <locomotive id="ATSF 3192" fileName="ATSF_3192.xml" roadNumber="3192" roadName="Atchison, Topeka, and Santa Fe" mfg="Sunset Models" owner="263 John Finnerty" model="2-8-2 Mikado" dccAddress="3192" comment="TE: 17 / 14 / 12" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2022-02-25T19:26:13.538+0000</dateUpdated>
+  <locomotive id="ATSF 3192" fileName="ATSF_3192.xml" roadNumber="3192" roadName="Atchison, Topeka, and Santa Fe" mfg="Sunset Models" owner="263 John Finnerty" model="2-8-2 Mikado" dccAddress="3192" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T03:58:25.576+00:00</dateUpdated>
     <decoder model="KAT12" family="Jan 2012" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="3192" longaddress="yes" />
@@ -16,6 +16,10 @@
       <keyvaluepair>
         <key>RosterGroup:ATSF</key>
         <value>yes</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>17 / 14 / 12</value>
       </keyvaluepair>
     </attributepairs>
     <values>

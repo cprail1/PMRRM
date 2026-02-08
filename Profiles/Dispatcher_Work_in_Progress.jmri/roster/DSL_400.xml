@@ -1,30 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <!--Written by JMRI version 4.12+Rb6a9bb1 on Thu Nov 01 14:18:09 PDT 2018-->
-  <locomotive id="DSL 400" fileName="DSL_400.xml" roadNumber="400" roadName="Denver &amp; Salt Lake" mfg="Sunset" owner="261 Mike Davis" model="2-8-2 Mikado" dccAddress="400" comment="TE: 13 / 8" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2018-11-01T21:18:09Z</dateUpdated>
-    <decoder model="TSU-1000 Medium Steam" family="Tsunami Steam" comment="" />
+  <locomotive id="DSL 400" fileName="DSL_400.xml" roadNumber="400" roadName="Denver &amp; Salt Lake" mfg="Sunset" owner="261 Mike Davis" model="2-8-2 Mikado" dccAddress="400" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T03:58:29.842+00:00</dateUpdated>
+    <decoder model="TSU-1000 Medium Steam" family="Tsunami Steam" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="400" longaddress="yes" />
       <number>400</number>
       <protocol>dcc_long</protocol>
     </locoaddress>
     <functionlabels>
-      <functionlabel num="0" lockable="true">Headlight</functionlabel>
-      <functionlabel num="1" lockable="true">Bell</functionlabel>
-      <functionlabel num="2" lockable="false">Whistle</functionlabel>
-      <functionlabel num="3" lockable="true">Short Whistle</functionlabel>
-      <functionlabel num="4" lockable="true">Steam Release</functionlabel>
-      <functionlabel num="5" lockable="true">FX5 Light</functionlabel>
-      <functionlabel num="6" lockable="true">FX6 Light</functionlabel>
-      <functionlabel num="7" lockable="true">Dimmer</functionlabel>
-      <functionlabel num="8" lockable="true">Mute</functionlabel>
-      <functionlabel num="9" lockable="true">Water Stop</functionlabel>
-      <functionlabel num="10" lockable="true">Injectors</functionlabel>
-      <functionlabel num="11" lockable="true">Brake Squeal</functionlabel>
-      <functionlabel num="12" lockable="true">Coupler</functionlabel>
+      <functionlabel num="0" lockable="true" visible="true" functionImage="" functionImageSelected="">Headlight</functionlabel>
+      <functionlabel num="1" lockable="true" visible="true" functionImage="" functionImageSelected="">Bell</functionlabel>
+      <functionlabel num="2" lockable="false" visible="true" functionImage="" functionImageSelected="">Whistle</functionlabel>
+      <functionlabel num="3" lockable="true" visible="true" functionImage="" functionImageSelected="">Short Whistle</functionlabel>
+      <functionlabel num="4" lockable="true" visible="true" functionImage="" functionImageSelected="">Steam Release</functionlabel>
+      <functionlabel num="5" lockable="true" visible="true" functionImage="" functionImageSelected="">FX5 Light</functionlabel>
+      <functionlabel num="6" lockable="true" visible="true" functionImage="" functionImageSelected="">FX6 Light</functionlabel>
+      <functionlabel num="7" lockable="true" visible="true" functionImage="" functionImageSelected="">Dimmer</functionlabel>
+      <functionlabel num="8" lockable="true" visible="true" functionImage="" functionImageSelected="">Mute</functionlabel>
+      <functionlabel num="9" lockable="true" visible="true" functionImage="" functionImageSelected="">Water Stop</functionlabel>
+      <functionlabel num="10" lockable="true" visible="true" functionImage="" functionImageSelected="">Injectors</functionlabel>
+      <functionlabel num="11" lockable="true" visible="true" functionImage="" functionImageSelected="">Brake Squeal</functionlabel>
+      <functionlabel num="12" lockable="true" visible="true" functionImage="" functionImageSelected="">Coupler</functionlabel>
     </functionlabels>
+    <soundlabels />
+    <attributepairs>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>13 / 8</value>
+      </keyvaluepair>
+    </attributepairs>
     <values>
       <decoderDef>
         <varValue item="Start Voltage (0-255)" value="0" />

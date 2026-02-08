@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
-<locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <!--Written by JMRI version 5.12+Rc5bd588235 on Sat Dec 13 14:38:41 PST 2025-->
-  <locomotive id="ATSF 1815" fileName="SF_18i15.xml" roadNumber="1815" roadName="Atchison, Topeka, and Santa Fe" mfg="ATH" owner="203 Mike Panton" model="SD 45 Freight" dccAddress="1815" comment="TE: 22, 15 OZ." developerID="-1" manufacturerID="129" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2025-12-13T22:38:41.136+00:00</dateUpdated>
+<locomotive-config>
+  <locomotive id="ATSF 1815" fileName="ATSF_1815.xml" roadNumber="1815" roadName="Atchison, Topeka, and Santa Fe" mfg="ATH" owner="203 Mike Panton" model="SD 45 Freight" dccAddress="1815" comment="" developerID="-1" manufacturerID="129" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T03:58:25.307+00:00</dateUpdated>
     <decoder model="DH126PS" family="Economy Series 6 with FX3, silent" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="1815" longaddress="yes" />
@@ -16,6 +16,10 @@
       <keyvaluepair>
         <key>RosterGroup:ATSF</key>
         <value>yes</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>22, 15 OZ.</value>
       </keyvaluepair>
     </attributepairs>
     <values>

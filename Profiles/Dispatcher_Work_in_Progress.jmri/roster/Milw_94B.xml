@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <!--Written by JMRI version 4.20+Rc7ba8249b on Sat May 08 11:06:45 PDT 2021-->
-  <locomotive id="Milw 94B" fileName="Milw_94B.xml" roadNumber="94B" roadName="Milwaukee Road" mfg="Athearn Genesis" owner="263 John Finnerty" model="FP7b" dccAddress="94" comment="Do not seperate from MW 94A&#xA;Group TE: 48 / 41 / 35&#xA;TE: 26 / 22 / 18" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2021-05-08T18:06:45.489+0000</dateUpdated>
-    <decoder model="LokPilot Standard V1.0" family="ESU LokPilot Standard V1.0" comment="" />
+  <locomotive id="Milw 94B" fileName="Milw_94B.xml" roadNumber="94B" roadName="Milwaukee Road" mfg="Athearn Genesis" owner="263 John Finnerty" model="FP7b" dccAddress="94" comment="Do not seperate from MW 94AGroup TE: 48 / 41 / 35" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T03:58:30.819+00:00</dateUpdated>
+    <decoder model="LokPilot Standard V1.0" family="ESU LokPilot Standard V1.0" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="94" longaddress="yes" />
       <number>94</number>
@@ -16,6 +16,10 @@
       <keyvaluepair>
         <key>RosterGroup:Milw</key>
         <value>yes</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>26 / 22 / 18</value>
       </keyvaluepair>
     </attributepairs>
     <values>

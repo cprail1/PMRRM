@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <!--Written by JMRI version 5.8+Rbc21ce2ce7 on Sat Mar 15 12:56:13 PDT 2025-->
-  <locomotive id="CR 2748" fileName="CR_2748.xml" roadNumber="2748" roadName="Conrail" mfg="Atlas" owner="190 Brian Neely" model="U23B" dccAddress="2748" comment="TE: 17 / 14 / 12" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2022-06-18T21:26:23.587+00:00</dateUpdated>
+  <locomotive id="CR 2748" fileName="CR_2748.xml" roadNumber="2748" roadName="Conrail" mfg="Atlas" owner="190 Brian Neely" model="U23B" dccAddress="2748" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T03:58:28.749+00:00</dateUpdated>
     <decoder model="LokSound Select" family="ESU LokSound Select" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="2748" longaddress="yes" />
@@ -20,6 +20,10 @@
       <keyvaluepair>
         <key>RosterGroup:CR</key>
         <value>yes</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>17 / 14 / 12</value>
       </keyvaluepair>
     </attributepairs>
     <values>

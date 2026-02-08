@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
-<locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <!--Written by JMRI version 5.12+Rc5bd588235 on Sat Nov 15 16:13:55 PST 2025-->
-  <locomotive id="UP 938R" fileName="UP_938_.xml" roadNumber="938" roadName="Union Pacific" mfg="Walthers" owner="263 John Finnerty" model="E8A" dccAddress="931" comment="Do not separate from UP931, UP933, and UP938B. Programmed as address 931 but running backwards&#xA;Group TE: 92 / 80 / 68&#xA;TE: 26 / 22 / 18" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2025-11-16T00:13:55.733+00:00</dateUpdated>
+<locomotive-config>
+  <locomotive id="UP 938R" fileName="UP_938R.xml" roadNumber="938" roadName="Union Pacific" mfg="Walthers" owner="263 John Finnerty" model="E8A" dccAddress="931" comment="Do not separate from UP931, UP933, and UP938B. Programmed as address 931 but running backwardsGroup TE: 92 / 80 / 68" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T03:58:36.244+00:00</dateUpdated>
     <decoder model="KAT22" family="Jan 2012" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="931" longaddress="yes" />
@@ -16,6 +16,10 @@
       <keyvaluepair>
         <key>RosterGroup:UP</key>
         <value>yes</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>26 / 22 / 18</value>
       </keyvaluepair>
     </attributepairs>
     <values>

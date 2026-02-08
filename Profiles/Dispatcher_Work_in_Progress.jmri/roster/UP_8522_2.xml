@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <!--Written by JMRI version 4.22+R4c4384d74 on Fri Feb 25 11:36:10 PST 2022-->
-  <locomotive id="UP 8522_2" fileName="UP_8522_2.xml" roadNumber="8522" roadName="Union Pacific" mfg="Athearn Genesis" owner="PMRRM - 257 Chris Holt" model="" dccAddress="8522" comment="TE: 24 / 16" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2022-02-25T19:36:10.332+0000</dateUpdated>
+  <locomotive id="UP 8522_2" fileName="UP_8522_2.xml" roadNumber="8522" roadName="Union Pacific" mfg="Athearn Genesis" owner="PMRRM - 257 Chris Holt" model="" dccAddress="8522" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T03:58:36.003+00:00</dateUpdated>
     <decoder model="DH126D" family="Economy Series 6 with FX3, silent" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="8522" longaddress="yes" />
@@ -12,6 +12,12 @@
     </locoaddress>
     <functionlabels />
     <soundlabels />
+    <attributepairs>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>24 / 16</value>
+      </keyvaluepair>
+    </attributepairs>
     <values>
       <decoderDef>
         <varValue item="Primary Address" value="3" />

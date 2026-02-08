@@ -1,23 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <!--Written by JMRI version 4.8+Rbe0ff15 on Tue Apr 10 18:31:43 PDT 2018-->
-  <locomotive id="SPSF 7555" fileName="SPSF_7555.xml" roadNumber="7559" roadName="Southern Pacific Santa Fe" mfg="Athearn RTR" owner="257 Chris Holt" model="SD45" dccAddress="7555" comment="TE: 20 / 16 / 13" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2018-04-11T01:31:43Z</dateUpdated>
-    <decoder model="SD40" family="Tsunami Diesel Genesis OEM" comment="" />
+  <locomotive id="SPSF 7555" fileName="SPSF_7555.xml" roadNumber="7559" roadName="Southern Pacific Santa Fe" mfg="Athearn RTR" owner="257 Chris Holt" model="SD45" dccAddress="7555" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T03:58:34.715+00:00</dateUpdated>
+    <decoder model="SD40" family="Tsunami Diesel Genesis OEM" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="7555" longaddress="yes" />
       <number>7555</number>
       <protocol>dcc_long</protocol>
     </locoaddress>
     <functionlabels>
-      <functionlabel num="0" lockable="true">Headlight</functionlabel>
-      <functionlabel num="1" lockable="true">Bell</functionlabel>
-      <functionlabel num="2" lockable="false">Horn</functionlabel>
-      <functionlabel num="3" lockable="true">Short Horn</functionlabel>
-      <functionlabel num="5" lockable="true">Lighting Effect</functionlabel>
-      <functionlabel num="8" lockable="true">Mute</functionlabel>
+      <functionlabel num="0" lockable="true" visible="true" functionImage="" functionImageSelected="">Headlight</functionlabel>
+      <functionlabel num="1" lockable="true" visible="true" functionImage="" functionImageSelected="">Bell</functionlabel>
+      <functionlabel num="2" lockable="false" visible="true" functionImage="" functionImageSelected="">Horn</functionlabel>
+      <functionlabel num="3" lockable="true" visible="true" functionImage="" functionImageSelected="">Short Horn</functionlabel>
+      <functionlabel num="5" lockable="true" visible="true" functionImage="" functionImageSelected="">Lighting Effect</functionlabel>
+      <functionlabel num="8" lockable="true" visible="true" functionImage="" functionImageSelected="">Mute</functionlabel>
     </functionlabels>
+    <soundlabels />
+    <attributepairs>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>20 / 16 / 13</value>
+      </keyvaluepair>
+    </attributepairs>
     <values>
       <decoderDef>
         <varValue item="Start Voltage (0-255)" value="0" />
@@ -432,5 +439,4 @@
       <CVvalue name="106" value="0" />
     </values>
   </locomotive>
-  <!--Written by JMRI version 4.12+Rb6a9bb1 on Wed Oct 10 15:26:24 PDT 2018-->
 </locomotive-config>

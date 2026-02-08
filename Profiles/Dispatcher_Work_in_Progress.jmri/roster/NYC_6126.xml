@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <!--Written by JMRI version 4.20+Rc7ba8249b on Tue Oct 06 12:09:55 PDT 2020-->
-  <locomotive id="NYC 6126" fileName="NYC_6126.xml" roadNumber="6126" roadName="New York Central" mfg="Kato" owner="254 Aaron Gold" model="GP35" dccAddress="6126" comment="TE: 20 / 16 / 13" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2018-02-04T05:02:40.000+0000</dateUpdated>
-    <decoder model="DH126P" family="Economy Series 6 with FX3, silent" comment="" />
+  <locomotive id="NYC 6126" fileName="NYC_6126.xml" roadNumber="6126" roadName="New York Central" mfg="Kato" owner="254 Aaron Gold" model="GP35" dccAddress="6126" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T03:58:31.444+00:00</dateUpdated>
+    <decoder model="DH126P" family="Economy Series 6 with FX3, silent" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="6126" longaddress="yes" />
       <number>6126</number>
@@ -16,6 +16,10 @@
       <keyvaluepair>
         <key>RosterGroup:NYC</key>
         <value>yes</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>20 / 16 / 13</value>
       </keyvaluepair>
     </attributepairs>
     <values>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <!--Written by JMRI version 4.20+Rc7ba8249b on Sat Oct 17 10:41:09 PDT 2020-->
-  <locomotive id="GN 402D" fileName="GN_402D.xml" roadNumber="402D" roadName="Great Northern" mfg="Stewart" owner="234 MAB" model="FT-ab" dccAddress="402" comment="TE: 46 / 33 / 24*" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2020-04-10T18:37:04.631+0000</dateUpdated>
-    <decoder model="T1" family="June 2007" comment="" />
+  <locomotive id="GN 402D" fileName="GN_402D.xml" roadNumber="402D" roadName="Great Northern" mfg="Stewart" owner="234 MAB" model="FT-ab" dccAddress="402" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T03:58:30.107+00:00</dateUpdated>
+    <decoder model="T1" family="June 2007" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="402" longaddress="yes" />
       <number>402</number>
@@ -20,6 +20,10 @@
       <keyvaluepair>
         <key>RosterGroup:GN</key>
         <value>yes</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>46 / 33 / 24*</value>
       </keyvaluepair>
     </attributepairs>
     <values>

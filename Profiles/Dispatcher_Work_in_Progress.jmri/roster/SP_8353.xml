@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
-<locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <!--Written by JMRI version 4.26+R381c8dfc32 on Sun Sep 04 16:16:49 PDT 2022-->
-  <locomotive id="SP 8353" fileName="SP_8353.xml" roadNumber="8353" roadName="Southern Pacific" mfg="Athearn RTR" owner="252 John Madriaga" model="EMD SD45T-2" dccAddress="8353" comment="TE 44 / 22 / 15" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2022-09-04T23:16:49.048+0000</dateUpdated>
+<locomotive-config>
+  <locomotive id="SP 8353" fileName="SP_8353.xml" roadNumber="8353" roadName="Southern Pacific" mfg="Athearn RTR" owner="252 John Madriaga" model="EMD SD45T-2" dccAddress="8353" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T03:58:34.194+00:00</dateUpdated>
     <decoder model="DH123" family="Economy Series 3 with FX3, silent" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="8353" longaddress="yes" />
@@ -12,6 +12,12 @@
     </locoaddress>
     <functionlabels />
     <soundlabels />
+    <attributepairs>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>44 / 22 / 15</value>
+      </keyvaluepair>
+    </attributepairs>
     <values>
       <decoderDef>
         <varValue item="Function F0F effect generated" value="0" />

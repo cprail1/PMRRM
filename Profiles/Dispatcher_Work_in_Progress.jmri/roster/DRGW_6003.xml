@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
-<locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <!--Written by JMRI version 4.26+R381c8dfc32 on Sat Sep 10 12:25:56 PDT 2022-->
-  <locomotive id="DRGW 6003" fileName="DRGW_6003.xml" roadNumber="6003" roadName="Denver &amp; Rio Grande Western" mfg="Rapido" owner="147 Bob Googooian" model="PA/PB" dccAddress="6003" comment="TE: 39 / 28&#xA;Cal Zephyr West power" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2022-09-10T19:25:56.607+0000</dateUpdated>
+<locomotive-config>
+  <locomotive id="DRGW 6003" fileName="DRGW_6003.xml" roadNumber="6003" roadName="Denver &amp; Rio Grande Western" mfg="Rapido" owner="147 Bob Googooian" model="PA/PB" dccAddress="6003" comment="Cal Zephyr West power" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T03:58:29.834+00:00</dateUpdated>
     <decoder model="T1" family="June 2007" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="6003" longaddress="yes" />
@@ -16,6 +16,10 @@
       <keyvaluepair>
         <key>RosterGroup:DRGW</key>
         <value>yes</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>39 / 28</value>
       </keyvaluepair>
     </attributepairs>
     <values>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <!--Written by JMRI version 4.20+Rc7ba8249b on Tue Oct 06 11:59:57 PDT 2020-->
-  <locomotive id="AMT 339" fileName="AMT_339.xml" roadNumber="339" roadName="Amtrak" mfg="Walthers" owner="254 Aaron Gold" model="F40PH" dccAddress="339" comment="TE 24 / 20 / 16" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2019-07-21T00:21:05.785+0000</dateUpdated>
-    <decoder model="D13SR" family="Silent Drive decoders" comment="" />
+  <locomotive id="AMT 339" fileName="AMT_339.xml" roadNumber="339" roadName="Amtrak" mfg="Walthers" owner="254 Aaron Gold" model="F40PH" dccAddress="339" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T03:58:25.139+00:00</dateUpdated>
+    <decoder model="D13SR" family="Silent Drive decoders" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="339" longaddress="yes" />
       <number>339</number>
@@ -16,6 +16,10 @@
       <keyvaluepair>
         <key>RosterGroup:AMT</key>
         <value>yes</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>24 / 20 / 16</value>
       </keyvaluepair>
     </attributepairs>
     <values>

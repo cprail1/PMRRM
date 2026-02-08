@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
-<locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <!--Written by JMRI version 4.26+R381c8dfc32 on Tue Oct 25 20:31:17 PDT 2022-->
-  <locomotive id="UP 5727" fileName="UP_5727.xml" roadNumber="5727" roadName="Union Pacific" mfg="Kato" owner="257 Chris Holt" model="AC4400CW" dccAddress="5727" comment="TE: 26 / 18" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2022-10-26T03:31:17.397+0000</dateUpdated>
+<locomotive-config>
+  <locomotive id="UP 5727" fileName="UP_5727.xml" roadNumber="5727" roadName="Union Pacific" mfg="Kato" owner="257 Chris Holt" model="AC4400CW" dccAddress="5727" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T03:58:35.583+00:00</dateUpdated>
     <decoder model="DH126P" family="Economy Series 6 with FX3, silent" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="5727" longaddress="yes" />
@@ -16,6 +16,10 @@
       <keyvaluepair>
         <key>RosterGroup:UP</key>
         <value>yes</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>26 / 18</value>
       </keyvaluepair>
     </attributepairs>
     <values>

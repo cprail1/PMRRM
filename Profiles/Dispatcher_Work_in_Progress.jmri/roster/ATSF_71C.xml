@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <!--Written by JMRI version 5.8+Rbc21ce2ce7 on Thu Feb 20 10:48:27 PST 2025-->
-  <locomotive id="ATSF 71C" fileName="ATSF_71C.xml" roadNumber="71C" roadName="Atchison, Topeka, and Santa Fe" mfg="Walthers" owner="190 Brian Neely" model="FA" dccAddress="55" comment="Do not separate from ATSF 55A and ATSF 55B.&#xA;Group TE:&#xA;TE: " developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2018-10-03T01:00:08.000+00:00</dateUpdated>
+  <locomotive id="ATSF 71C" fileName="ATSF_71C.xml" roadNumber="71C" roadName="Atchison, Topeka, and Santa Fe" mfg="Walthers" owner="190 Brian Neely" model="FA" dccAddress="55" comment="Do not separate from ATSF 55A and ATSF 55B.Group TE:" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T03:58:26.472+00:00</dateUpdated>
     <decoder model="Alco FA2" family="Tsunami Diesel Bachmann Sound Value" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="55" longaddress="no" />
@@ -11,18 +11,22 @@
       <protocol>dcc_short</protocol>
     </locoaddress>
     <functionlabels>
-      <functionlabel num="0" lockable="true" functionImage="" functionImageSelected="">Headlight</functionlabel>
-      <functionlabel num="1" lockable="true" functionImage="" functionImageSelected="">Bell</functionlabel>
-      <functionlabel num="2" lockable="false" functionImage="" functionImageSelected="">Air Horn</functionlabel>
-      <functionlabel num="3" lockable="true" functionImage="" functionImageSelected="">Short Horn</functionlabel>
-      <functionlabel num="7" lockable="true" functionImage="" functionImageSelected="">Dimming</functionlabel>
-      <functionlabel num="8" lockable="true" functionImage="" functionImageSelected="">Mute</functionlabel>
+      <functionlabel num="0" lockable="true" visible="true" functionImage="" functionImageSelected="">Headlight</functionlabel>
+      <functionlabel num="1" lockable="true" visible="true" functionImage="" functionImageSelected="">Bell</functionlabel>
+      <functionlabel num="2" lockable="false" visible="true" functionImage="" functionImageSelected="">Air Horn</functionlabel>
+      <functionlabel num="3" lockable="true" visible="true" functionImage="" functionImageSelected="">Short Horn</functionlabel>
+      <functionlabel num="7" lockable="true" visible="true" functionImage="" functionImageSelected="">Dimming</functionlabel>
+      <functionlabel num="8" lockable="true" visible="true" functionImage="" functionImageSelected="">Mute</functionlabel>
     </functionlabels>
     <soundlabels />
     <attributepairs>
       <keyvaluepair>
         <key>RosterGroup:ATSF</key>
         <value>yes</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>TE</key>
+        <value />
       </keyvaluepair>
     </attributepairs>
     <values>

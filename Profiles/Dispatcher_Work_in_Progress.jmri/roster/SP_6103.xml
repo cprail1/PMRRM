@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
-<locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <!--Written by JMRI version 5.12+Rc5bd588235 on Sat Jan 10 14:22:48 PST 2026-->
-  <locomotive id="SP 6103" fileName="SP_6103.xml" roadNumber="6103" roadName="Southern Pacific " mfg="MTH" owner="J270 Matthew J Zepeda" model="F7A" dccAddress="6103" comment="TE: 16,24" developerID="-1" manufacturerID="27" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2026-01-10T22:22:48.755+00:00</dateUpdated>
+<locomotive-config>
+  <locomotive id="SP 6103" fileName="SP_6103.xml" roadNumber="6103" roadName="Southern Pacific " mfg="MTH" owner="J270 Matthew J Zepeda" model="F7A" dccAddress="6103" comment="" developerID="-1" manufacturerID="27" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T03:58:33.660+00:00</dateUpdated>
     <decoder model="MTH HO PS3" family="MTH HO PS3" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="6103" longaddress="yes" />
@@ -12,6 +12,12 @@
     </locoaddress>
     <functionlabels />
     <soundlabels />
+    <attributepairs>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>16,24</value>
+      </keyvaluepair>
+    </attributepairs>
     <values>
       <decoderDef>
         <varValue item="Short Address Alt Access" value="3" />

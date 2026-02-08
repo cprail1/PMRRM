@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <!--Written by JMRI version 5.8+Rbc21ce2ce7 on Sat Mar 15 13:10:21 PDT 2025-->
-  <locomotive id="CP 9016" fileName="CP_9016.xml" roadNumber="9016" roadName="Canadian Pacific" mfg="Bowser Exec." owner="217 Peter Ely" model="SD40-2F" dccAddress="9016" comment="TE: 24 / 16&#xA;CP unit coal train. Not speed matched to&#xA;CP 70xx nor CP 93xx family" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2022-11-12T20:37:23.408+00:00</dateUpdated>
+  <locomotive id="CP 9016" fileName="CP_9016.xml" roadNumber="9016" roadName="Canadian Pacific" mfg="Bowser Exec." owner="217 Peter Ely" model="SD40-2F" dccAddress="9016" comment="CP unit coal train. Not speed matched toCP 70xx nor CP 93xx family" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T03:58:28.626+00:00</dateUpdated>
     <decoder model="LokSound Select" family="ESU LokSound Select" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="9016" longaddress="yes" />
@@ -11,8 +11,8 @@
       <protocol>dcc_long</protocol>
     </locoaddress>
     <functionlabels>
-      <functionlabel num="0" lockable="true" functionImage="" functionImageSelected="">Light</functionlabel>
-      <functionlabel num="2" lockable="false" functionImage="" functionImageSelected="">Horn</functionlabel>
+      <functionlabel num="0" lockable="true" visible="true" functionImage="" functionImageSelected="">Light</functionlabel>
+      <functionlabel num="2" lockable="false" visible="true" functionImage="" functionImageSelected="">Horn</functionlabel>
     </functionlabels>
     <soundlabels>
       <soundlabel num="25">Random sounds</soundlabel>
@@ -23,6 +23,10 @@
       <keyvaluepair>
         <key>RosterGroup:CP</key>
         <value>yes</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>24 / 16</value>
       </keyvaluepair>
     </attributepairs>
     <values>

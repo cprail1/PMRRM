@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <!--Written by JMRI version 5.12+Rc5bd588235 on Sat Aug 09 12:35:57 PDT 2025-->
-  <locomotive id="PRR 9648B" fileName="PRR_9648B.xml" roadNumber="9648B" roadName="Pennsylvania Railroad" mfg="Bachmann" owner="269 Salvatore Natale" model="F7B" dccAddress="9648" comment="TE 33, 15, 10" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2023-11-15T20:03:49.707+00:00</dateUpdated>
+  <locomotive id="PRR 9648B" fileName="PRR_9648B.xml" roadNumber="9648B" roadName="Pennsylvania Railroad" mfg="Bachmann" owner="269 Salvatore Natale" model="F7B" dccAddress="9648" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T03:58:31.801+00:00</dateUpdated>
     <decoder model="2 function decoder (36-552)" family="E-Z Command decoders" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="9648" longaddress="yes" />
@@ -16,6 +16,10 @@
       <keyvaluepair>
         <key>RosterGroup:PRR</key>
         <value>yes</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>33, 15, 10</value>
       </keyvaluepair>
     </attributepairs>
     <values>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <!--Written by JMRI version 4.20+Rc7ba8249b on Tue Oct 06 12:00:29 PDT 2020-->
-  <locomotive id="ATSF 21L" fileName="ATSF_21L.xml" roadNumber="21L" roadName="Atchison, Topeka, and Santa Fe" mfg="Athearn Genesis" owner="209 Bruce Bloch" model="F3A" dccAddress="21" comment="Do not seperate from ATSF 21A, ATSF 21B, and ATSF 21C&#xA;TE: 100 / 74" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2019-10-09T00:40:56.322+0000</dateUpdated>
-    <decoder model="MC2H104AT" family="MC Motor Decoders" comment="" />
+  <locomotive id="ATSF 21L" fileName="ATSF_21L.xml" roadNumber="21L" roadName="Atchison, Topeka, and Santa Fe" mfg="Athearn Genesis" owner="209 Bruce Bloch" model="F3A" dccAddress="21" comment="Do not seperate from ATSF 21A, ATSF 21B, and ATSF 21C" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T03:58:25.405+00:00</dateUpdated>
+    <decoder model="MC2H104AT" family="MC Motor Decoders" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="21" longaddress="no" />
       <number>21</number>
@@ -16,6 +16,10 @@
       <keyvaluepair>
         <key>RosterGroup:ATSF</key>
         <value>yes</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>100 / 74</value>
       </keyvaluepair>
     </attributepairs>
     <values>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
-<locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <!--Written by JMRI version 5.1.5+Rb1b4a78a89 on Sat Mar 18 16:07:51 PDT 2023-->
-  <locomotive id="NYC 4502" fileName="NYC4502.xml" roadNumber="4502" roadName="New York Central" mfg="Tru-Line Trains" owner="254 Aaron Gold" model="CPA-24-5" dccAddress="4502" comment="TE 51 / 26 / 18" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2023-03-18T23:07:51.347+00:00</dateUpdated>
+<locomotive-config>
+  <locomotive id="NYC 4502" fileName="NYC_4502.xml" roadNumber="4502" roadName="New York Central" mfg="Tru-Line Trains" owner="254 Aaron Gold" model="CPA-24-5" dccAddress="4502" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T03:58:31.326+00:00</dateUpdated>
     <decoder model="CHC C-Liner" family="QSI Diesel Ver. 7" comment="QSI - must be addressed/programmed with NCE throttle" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="4502" longaddress="yes" />
@@ -11,21 +11,27 @@
       <protocol>dcc_long</protocol>
     </locoaddress>
     <functionlabels>
-      <functionlabel num="0" lockable="true" functionImage="" functionImageSelected="">Light</functionlabel>
-      <functionlabel num="1" lockable="true" functionImage="" functionImageSelected="">Bell</functionlabel>
-      <functionlabel num="2" lockable="true" functionImage="" functionImageSelected="">Horn</functionlabel>
-      <functionlabel num="3" lockable="true" functionImage="" functionImageSelected="">Coupler</functionlabel>
-      <functionlabel num="4" lockable="true" functionImage="" functionImageSelected="">Fans</functionlabel>
-      <functionlabel num="5" lockable="true" functionImage="" functionImageSelected="">Dynamic</functionlabel>
-      <functionlabel num="6" lockable="true" functionImage="" functionImageSelected="">Doppler</functionlabel>
-      <functionlabel num="7" lockable="true" functionImage="" functionImageSelected="">Squeal</functionlabel>
-      <functionlabel num="8" lockable="true" functionImage="" functionImageSelected="">Mute</functionlabel>
-      <functionlabel num="9" lockable="true" functionImage="" functionImageSelected="">Heavy Load</functionlabel>
-      <functionlabel num="10" lockable="true" functionImage="" functionImageSelected="">Status</functionlabel>
-      <functionlabel num="11" lockable="true" functionImage="" functionImageSelected="">Number Board</functionlabel>
-      <functionlabel num="12" lockable="true" functionImage="" functionImageSelected="">Cab Light</functionlabel>
+      <functionlabel num="0" lockable="true" visible="true" functionImage="" functionImageSelected="">Light</functionlabel>
+      <functionlabel num="1" lockable="true" visible="true" functionImage="" functionImageSelected="">Bell</functionlabel>
+      <functionlabel num="2" lockable="true" visible="true" functionImage="" functionImageSelected="">Horn</functionlabel>
+      <functionlabel num="3" lockable="true" visible="true" functionImage="" functionImageSelected="">Coupler</functionlabel>
+      <functionlabel num="4" lockable="true" visible="true" functionImage="" functionImageSelected="">Fans</functionlabel>
+      <functionlabel num="5" lockable="true" visible="true" functionImage="" functionImageSelected="">Dynamic</functionlabel>
+      <functionlabel num="6" lockable="true" visible="true" functionImage="" functionImageSelected="">Doppler</functionlabel>
+      <functionlabel num="7" lockable="true" visible="true" functionImage="" functionImageSelected="">Squeal</functionlabel>
+      <functionlabel num="8" lockable="true" visible="true" functionImage="" functionImageSelected="">Mute</functionlabel>
+      <functionlabel num="9" lockable="true" visible="true" functionImage="" functionImageSelected="">Heavy Load</functionlabel>
+      <functionlabel num="10" lockable="true" visible="true" functionImage="" functionImageSelected="">Status</functionlabel>
+      <functionlabel num="11" lockable="true" visible="true" functionImage="" functionImageSelected="">Number Board</functionlabel>
+      <functionlabel num="12" lockable="true" visible="true" functionImage="" functionImageSelected="">Cab Light</functionlabel>
     </functionlabels>
     <soundlabels />
+    <attributepairs>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>51 / 26 / 18</value>
+      </keyvaluepair>
+    </attributepairs>
     <values>
       <decoderDef>
         <varValue item="CV56.254.6" value="0" />

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <!--Written by JMRI version 5.12+Rc5bd588235 on Sat Nov 15 12:10:54 PST 2025-->
-  <locomotive id="SP 1523" fileName="SP_1523.xml" roadNumber="1523" roadName="Southern Pacific" mfg="Scale Trains" owner="Kevin Schiller" model="SD7" dccAddress="1523" comment="TE: 22, 18, 15" developerID="-1" manufacturerID="151" productID="33554588,33554680,33554651" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2025-11-15T20:10:54.593+00:00</dateUpdated>
+  <locomotive id="SP 1523" fileName="SP_1523.xml" roadNumber="1523" roadName="Southern Pacific" mfg="Scale Trains" owner="Kevin Schiller" model="SD7" dccAddress="1523" comment="" developerID="-1" manufacturerID="151" productID="33554588,33554680,33554651" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T03:58:32.334+00:00</dateUpdated>
     <decoder model="LokSound 5 DCC" family="ESU LokSound 5" comment="F5 Class lights, F6 Gyralight, F7 Dimmer, F9 Red Emergency light" maxFnNum="31" />
     <locoaddress>
       <dcclocoaddress number="1523" longaddress="yes" />
@@ -11,9 +11,9 @@
       <protocol>dcc_long</protocol>
     </locoaddress>
     <functionlabels>
-      <functionlabel num="0" lockable="true" functionImage="" functionImageSelected="">Light</functionlabel>
-      <functionlabel num="1" lockable="true" functionImage="" functionImageSelected="">Bell</functionlabel>
-      <functionlabel num="2" lockable="false" functionImage="" functionImageSelected="">Horn</functionlabel>
+      <functionlabel num="0" lockable="true" visible="true" functionImage="" functionImageSelected="">Light</functionlabel>
+      <functionlabel num="1" lockable="true" visible="true" functionImage="" functionImageSelected="">Bell</functionlabel>
+      <functionlabel num="2" lockable="false" visible="true" functionImage="" functionImageSelected="">Horn</functionlabel>
     </functionlabels>
     <soundlabels>
       <soundlabel num="33">Automatic brake sound</soundlabel>
@@ -23,6 +23,10 @@
       <keyvaluepair>
         <key>RosterGroup:SP</key>
         <value>yes</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>22, 18, 15</value>
       </keyvaluepair>
     </attributepairs>
     <values>

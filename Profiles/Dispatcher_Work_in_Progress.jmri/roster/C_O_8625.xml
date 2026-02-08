@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
-<locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <!--Written by JMRI version 5.6+R89a87446cb on Tue Sep 17 12:36:10 PDT 2024-->
-  <locomotive id="C&amp;O 8625" fileName="C_O_8625.xml" roadNumber="8625" roadName="Chessie System" mfg="ATH" owner="252 John Madriaga" model="SD50" dccAddress="8625" comment="TE: 24/20/16" developerID="-1" manufacturerID="153" productID="14" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2024-09-17T19:36:10.880+00:00</dateUpdated>
+<locomotive-config>
+  <locomotive id="C&amp;O 8625" fileName="C_O_8625.xml" roadNumber="8625" roadName="Chessie System" mfg="ATH" owner="252 John Madriaga" model="SD50" dccAddress="8625" comment="" developerID="-1" manufacturerID="153" productID="14" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T03:58:27.855+00:00</dateUpdated>
     <decoder model="T1" family="June 2007" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="8625" longaddress="yes" />
@@ -12,6 +12,12 @@
     </locoaddress>
     <functionlabels />
     <soundlabels />
+    <attributepairs>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>24/20/16</value>
+      </keyvaluepair>
+    </attributepairs>
     <values>
       <decoderDef>
         <varValue item="Decoder Version" value="42" />

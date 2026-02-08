@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
-<locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <!--Written by JMRI version 5.4+R9005ecb4ac on Sat Oct 28 13:23:04 PDT 2023-->
-  <locomotive id="EL 2461" fileName="EL_2461.xml" roadNumber="2461" roadName="Erie Lackawanna" mfg="Atlas" owner="269 Salvatore Natale" model="C425" dccAddress="2461" comment="TE: 15, 12, 10" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2023-10-28T20:23:04.775+00:00</dateUpdated>
+<locomotive-config>
+  <locomotive id="EL 2461" fileName="EL_2461.xml" roadNumber="2461" roadName="Erie Lackawanna" mfg="Atlas" owner="269 Salvatore Natale" model="C425" dccAddress="2461" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T03:58:29.852+00:00</dateUpdated>
     <decoder model="T1" family="Jan 2000" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="2461" longaddress="yes" />
@@ -12,6 +12,12 @@
     </locoaddress>
     <functionlabels />
     <soundlabels />
+    <attributepairs>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>15, 12, 10</value>
+      </keyvaluepair>
+    </attributepairs>
     <values>
       <decoderDef>
         <varValue item="EMF Control Reference" value="0" />

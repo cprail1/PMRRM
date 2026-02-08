@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
-<locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <!--Written by JMRI version 4.22+R4c4384d74 on Sun Jul 18 16:59:44 PDT 2021-->
-  <locomotive id="SP 5600" fileName="SP_5600.xml" roadNumber="5600" roadName="Southern Pacific" mfg="WKW" owner="265 AJ Chier" model="GP9" dccAddress="5600" comment="TE: 15, 10" developerID="-1" manufacturerID="151" productID="33554492,33554511,33554527,33554569" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2021-07-18T23:59:44.931+0000</dateUpdated>
+<locomotive-config>
+  <locomotive id="SP 5600" fileName="SP_5600.xml" roadNumber="5600" roadName="Southern Pacific" mfg="WKW" owner="265 AJ Chier" model="GP9" dccAddress="5600" comment="" developerID="-1" manufacturerID="151" productID="33554492,33554511,33554527,33554569" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T03:58:33.325+00:00</dateUpdated>
     <decoder model="LokSound Select" family="ESU LokSound Select" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="5600" longaddress="yes" />
@@ -11,14 +11,20 @@
       <protocol>dcc_long</protocol>
     </locoaddress>
     <functionlabels>
-      <functionlabel num="0" lockable="true" functionImage="" functionImageSelected="">Light</functionlabel>
-      <functionlabel num="2" lockable="false" functionImage="" functionImageSelected="">Horn</functionlabel>
+      <functionlabel num="0" lockable="true" visible="true" functionImage="" functionImageSelected="">Light</functionlabel>
+      <functionlabel num="2" lockable="false" visible="true" functionImage="" functionImageSelected="">Horn</functionlabel>
     </functionlabels>
     <soundlabels>
       <soundlabel num="25">Random sounds</soundlabel>
       <soundlabel num="26">Automatic brake sound</soundlabel>
       <soundlabel num="27">Gear shift sound</soundlabel>
     </soundlabels>
+    <attributepairs>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>15, 10</value>
+      </keyvaluepair>
+    </attributepairs>
     <values>
       <decoderDef>
         <varValue item="Sound Configuration Value" value="0" />

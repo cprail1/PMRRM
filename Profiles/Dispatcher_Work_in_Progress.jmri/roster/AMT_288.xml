@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <!--Written by JMRI version 4.20+Rc7ba8249b on Tue Oct 06 11:59:56 PDT 2020-->
-  <locomotive id="AMT 288" fileName="AMT_288.xml" roadNumber="288" roadName="Amtrak" mfg="Life Like Proto 2000" owner="254 Aaron Gold" model="E8A" dccAddress="288" comment="TE 33 / 28 / 23" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2017-10-21T20:38:45.000+0000</dateUpdated>
-    <decoder model="D13SRJ" family="Silent Running w/ Torque Compensation" comment="" />
+  <locomotive id="AMT 288" fileName="AMT_288.xml" roadNumber="288" roadName="Amtrak" mfg="Life Like Proto 2000" owner="254 Aaron Gold" model="E8A" dccAddress="288" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T03:58:25.111+00:00</dateUpdated>
+    <decoder model="D13SRJ" family="Silent Running w/ Torque Compensation" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="288" longaddress="yes" />
       <number>288</number>
@@ -16,6 +16,10 @@
       <keyvaluepair>
         <key>RosterGroup:AMT</key>
         <value>yes</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>33 / 28 / 23</value>
       </keyvaluepair>
     </attributepairs>
     <values>

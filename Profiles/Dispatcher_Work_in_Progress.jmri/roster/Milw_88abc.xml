@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
-<locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <!--Written by JMRI version 5.1.5+Rb1b4a78a89 on Sat Mar 04 15:17:44 PST 2023-->
-  <locomotive id="Milw 88abc" fileName="Milw_88abc.xml" roadNumber="88" roadName="Milwaukee Road" mfg="ATH" owner="263 John Finnerty" model="F7aba" dccAddress="88" comment="TE: 48, 41, 35&#xA;Drawbars&#xA;" developerID="-1" manufacturerID="129" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2023-03-04T23:17:44.854+00:00</dateUpdated>
+<locomotive-config>
+  <locomotive id="Milw 88abc" fileName="Milw_88abc.xml" roadNumber="88" roadName="Milwaukee Road" mfg="ATH" owner="263 John Finnerty" model="F7aba" dccAddress="88" comment="Drawbars" developerID="-1" manufacturerID="129" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T03:58:30.801+00:00</dateUpdated>
     <decoder model="DH126D" family="Economy Series 6 with FX3, silent" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="88" longaddress="no" />
@@ -12,6 +12,12 @@
     </locoaddress>
     <functionlabels />
     <soundlabels />
+    <attributepairs>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>48, 41, 35</value>
+      </keyvaluepair>
+    </attributepairs>
     <values>
       <decoderDef>
         <varValue item="Short Address" value="88" />

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <!--Written by JMRI version 4.20+Rc7ba8249b on Tue Oct 06 12:06:00 PDT 2020-->
-  <locomotive id="SP 7372" fileName="SP_7372.xml" roadNumber="7372" roadName="Southern Pacific" mfg="Athearn RTR" owner="257 Chris Holt" model="SD40R" dccAddress="7372" comment="TE: 20 / 13" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2019-07-16T23:47:04.037+0000</dateUpdated>
-    <decoder model="DH126D" family="Economy Series 6 with FX3, silent" comment="" />
+  <locomotive id="SP 7372" fileName="SP_7372.xml" roadNumber="7372" roadName="Southern Pacific" mfg="Athearn RTR" owner="257 Chris Holt" model="SD40R" dccAddress="7372" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T03:58:33.875+00:00</dateUpdated>
+    <decoder model="DH126D" family="Economy Series 6 with FX3, silent" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="7372" longaddress="yes" />
       <number>7372</number>
@@ -16,6 +16,10 @@
       <keyvaluepair>
         <key>RosterGroup:SP</key>
         <value>yes</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>20 / 13</value>
       </keyvaluepair>
     </attributepairs>
     <values>

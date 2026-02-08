@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <!--Written by JMRI version 5.8+Rbc21ce2ce7 on Sat Mar 15 13:08:44 PDT 2025-->
-  <locomotive id="Climax 3" fileName="Climax_3.xml" roadNumber="3" roadName="Climax" mfg="Bachman Spectrum" owner="190 Brian Neely" model="Climax" dccAddress="30" comment="TE: 6 / 4" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2022-02-19T22:50:34.308+00:00</dateUpdated>
+  <locomotive id="Climax 3" fileName="Climax_3.xml" roadNumber="3" roadName="Climax" mfg="Bachman Spectrum" owner="190 Brian Neely" model="Climax" dccAddress="30" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T03:58:28.131+00:00</dateUpdated>
     <decoder model="On30 Whitcomb 50-Ton Center-Cab" family="Tsunami Diesel Bachmann OEM" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="30" longaddress="no" />
@@ -11,16 +11,22 @@
       <protocol>dcc_short</protocol>
     </locoaddress>
     <functionlabels>
-      <functionlabel num="0" lockable="true" functionImage="" functionImageSelected="">Headlight</functionlabel>
-      <functionlabel num="1" lockable="true" functionImage="" functionImageSelected="">Bell</functionlabel>
-      <functionlabel num="2" lockable="false" functionImage="" functionImageSelected="">Horn</functionlabel>
-      <functionlabel num="3" lockable="true" functionImage="" functionImageSelected="">Short Horn</functionlabel>
-      <functionlabel num="5" lockable="true" functionImage="" functionImageSelected="">Compressor</functionlabel>
-      <functionlabel num="6" lockable="true" functionImage="" functionImageSelected="">Fans</functionlabel>
-      <functionlabel num="7" lockable="true" functionImage="" functionImageSelected="">Coupler</functionlabel>
-      <functionlabel num="8" lockable="true" functionImage="" functionImageSelected="">Mute</functionlabel>
+      <functionlabel num="0" lockable="true" visible="true" functionImage="" functionImageSelected="">Headlight</functionlabel>
+      <functionlabel num="1" lockable="true" visible="true" functionImage="" functionImageSelected="">Bell</functionlabel>
+      <functionlabel num="2" lockable="false" visible="true" functionImage="" functionImageSelected="">Horn</functionlabel>
+      <functionlabel num="3" lockable="true" visible="true" functionImage="" functionImageSelected="">Short Horn</functionlabel>
+      <functionlabel num="5" lockable="true" visible="true" functionImage="" functionImageSelected="">Compressor</functionlabel>
+      <functionlabel num="6" lockable="true" visible="true" functionImage="" functionImageSelected="">Fans</functionlabel>
+      <functionlabel num="7" lockable="true" visible="true" functionImage="" functionImageSelected="">Coupler</functionlabel>
+      <functionlabel num="8" lockable="true" visible="true" functionImage="" functionImageSelected="">Mute</functionlabel>
     </functionlabels>
     <soundlabels />
+    <attributepairs>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>6 / 4</value>
+      </keyvaluepair>
+    </attributepairs>
     <values>
       <decoderDef>
         <varValue item="Start Voltage (0-255)" value="0" />

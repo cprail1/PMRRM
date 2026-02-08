@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <!--Written by JMRI version 5.12+Rc5bd588235 on Sat Jan 17 12:08:37 PST 2026-->
-  <locomotive id="CNW 8034" fileName="CNW_8034.xml" roadNumber="8034" roadName="Chicago North Western" mfg="LifeLike" owner="252 John Madriaga" model="SD60" dccAddress="8034" comment="TE: 26 / 18" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2020-02-01T21:56:36.243+00:00</dateUpdated>
+  <locomotive id="CNW 8034" fileName="CNW_8034.xml" roadNumber="8034" roadName="Chicago North Western" mfg="LifeLike" owner="252 John Madriaga" model="SD60" dccAddress="8034" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T03:58:28.219+00:00</dateUpdated>
     <decoder model="DH126D" family="Economy Series 6 with FX3, silent" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="8034" longaddress="yes" />
@@ -20,6 +20,10 @@
       <keyvaluepair>
         <key>RosterGroup:ON LAYOUT</key>
         <value>yes</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>26 / 18</value>
       </keyvaluepair>
     </attributepairs>
     <values>

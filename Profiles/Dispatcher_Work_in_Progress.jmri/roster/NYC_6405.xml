@@ -1,30 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <!--Written by JMRI version 4.20+Rc7ba8249b on Tue Oct 06 12:09:55 PDT 2020-->
-  <locomotive id="NYC 6405" fileName="NYC_6405.xml" roadNumber="6405" roadName="New York Central" mfg="Bachmann" owner="254 Aaron Gold" model="2-8-2 Light Mikado" dccAddress="6405" comment="TE: 13 / 8" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2018-10-13T16:54:27.000+0000</dateUpdated>
-    <decoder model="2-8-4 Berkshire - Nickel Plate [HO]" family="Tsunami Steam Bachmann Sound Value" comment="" />
+  <locomotive id="NYC 6405" fileName="NYC_6405.xml" roadNumber="6405" roadName="New York Central" mfg="Bachmann" owner="254 Aaron Gold" model="2-8-2 Light Mikado" dccAddress="6405" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T03:58:31.453+00:00</dateUpdated>
+    <decoder model="2-8-4 Berkshire - Nickel Plate [HO]" family="Tsunami Steam Bachmann Sound Value" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="6405" longaddress="yes" />
       <number>6405</number>
       <protocol>dcc_long</protocol>
     </locoaddress>
     <functionlabels>
-      <functionlabel num="0" lockable="true" functionImage="" functionImageSelected="">Headlight</functionlabel>
-      <functionlabel num="1" lockable="true" functionImage="" functionImageSelected="">Bell</functionlabel>
-      <functionlabel num="2" lockable="false" functionImage="" functionImageSelected="">Whistle</functionlabel>
-      <functionlabel num="3" lockable="true" functionImage="" functionImageSelected="">Short Whistle</functionlabel>
-      <functionlabel num="4" lockable="true" functionImage="" functionImageSelected="">Steam-Release</functionlabel>
-      <functionlabel num="6" lockable="true" functionImage="" functionImageSelected="">FX6 function</functionlabel>
-      <functionlabel num="7" lockable="true" functionImage="" functionImageSelected="">Dimming</functionlabel>
-      <functionlabel num="8" lockable="true" functionImage="" functionImageSelected="">Mute</functionlabel>
+      <functionlabel num="0" lockable="true" visible="true" functionImage="" functionImageSelected="">Headlight</functionlabel>
+      <functionlabel num="1" lockable="true" visible="true" functionImage="" functionImageSelected="">Bell</functionlabel>
+      <functionlabel num="2" lockable="false" visible="true" functionImage="" functionImageSelected="">Whistle</functionlabel>
+      <functionlabel num="3" lockable="true" visible="true" functionImage="" functionImageSelected="">Short Whistle</functionlabel>
+      <functionlabel num="4" lockable="true" visible="true" functionImage="" functionImageSelected="">Steam-Release</functionlabel>
+      <functionlabel num="6" lockable="true" visible="true" functionImage="" functionImageSelected="">FX6 function</functionlabel>
+      <functionlabel num="7" lockable="true" visible="true" functionImage="" functionImageSelected="">Dimming</functionlabel>
+      <functionlabel num="8" lockable="true" visible="true" functionImage="" functionImageSelected="">Mute</functionlabel>
     </functionlabels>
     <soundlabels />
     <attributepairs>
       <keyvaluepair>
         <key>RosterGroup:NYC</key>
         <value>yes</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>13 / 8</value>
       </keyvaluepair>
     </attributepairs>
     <values>

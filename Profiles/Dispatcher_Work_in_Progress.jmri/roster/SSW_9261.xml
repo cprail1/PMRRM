@@ -1,15 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <!--Written by JMRI version 4.8+Rbe0ff15 on Tue Apr 10 18:32:25 PDT 2018-->
-  <locomotive id="SSW 9261" fileName="SSW_9261.xml" roadNumber="9261" roadName="St. Louis Southwestern" mfg="Athearn RTR" owner="257 Chris Holt" model="SD45T-2" dccAddress="9261" comment="TE: 24 / 20 / 16" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2018-04-11T01:32:25Z</dateUpdated>
-    <decoder model="LokSound Select Direct" family="ESU LokSound Select" comment="" />
+  <locomotive id="SSW 9261" fileName="SSW_9261.xml" roadNumber="9261" roadName="St. Louis Southwestern" mfg="Athearn RTR" owner="257 Chris Holt" model="SD45T-2" dccAddress="9261" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T03:58:34.793+00:00</dateUpdated>
+    <decoder model="LokSound Select Direct" family="ESU LokSound Select" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="9261" longaddress="yes" />
       <number>9261</number>
       <protocol>dcc_long</protocol>
     </locoaddress>
+    <functionlabels />
+    <soundlabels />
+    <attributepairs>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>24 / 20 / 16</value>
+      </keyvaluepair>
+    </attributepairs>
     <values>
       <decoderDef>
         <varValue item="Sound Configuration Value" value="0" />
@@ -5301,5 +5309,4 @@
       <CVvalue name="16.4.384" value="0" />
     </values>
   </locomotive>
-  <!--Written by JMRI version 4.12+Rb6a9bb1 on Wed Oct 10 15:28:00 PDT 2018-->
 </locomotive-config>

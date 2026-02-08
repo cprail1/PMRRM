@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
-<locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <!--Written by JMRI version 5.12+Rc5bd588235 on Sat Sep 06 10:53:00 PDT 2025-->
-  <locomotive id="BN 4363" fileName="BN4363.xml" roadNumber="4363" roadName="Burlington Northern" mfg="Bowser" owner="148 Kevin Schiller" model="C636" dccAddress="4363" comment="TE: 26, 22,18" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2025-09-06T17:53:00.326+00:00</dateUpdated>
+<locomotive-config>
+  <locomotive id="BN 4363" fileName="BN_4363.xml" roadNumber="4363" roadName="Burlington Northern" mfg="Bowser" owner="148 Kevin Schiller" model="C636" dccAddress="4363" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T03:58:26.781+00:00</dateUpdated>
     <decoder model="LokSound Select Direct" family="ESU LokSound Select" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="4363" longaddress="yes" />
@@ -20,6 +20,10 @@
       <keyvaluepair>
         <key>RosterGroup:BN</key>
         <value>yes</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>26, 22,18</value>
       </keyvaluepair>
     </attributepairs>
     <values>

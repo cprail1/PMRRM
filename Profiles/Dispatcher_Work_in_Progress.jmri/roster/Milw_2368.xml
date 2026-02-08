@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <!--Written by JMRI version 4.20+Rc7ba8249b on Tue Oct 06 12:08:55 PDT 2020-->
-  <locomotive id="Milw 2368" fileName="MILW_2368.xml" roadNumber="2368" roadName="Milwaukee Road" mfg="" owner="263 John Finnerty" model="GP9" dccAddress="2368" comment="TE: 22 / 15" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2019-11-21T21:10:58.086+0000</dateUpdated>
-    <decoder model="A4X" family="Jan 2012" comment="" />
+  <locomotive id="Milw 2368" fileName="Milw_2368.xml" roadNumber="2368" roadName="Milwaukee Road" mfg="" owner="263 John Finnerty" model="GP9" dccAddress="2368" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T03:58:30.616+00:00</dateUpdated>
+    <decoder model="A4X" family="Jan 2012" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="2368" longaddress="yes" />
       <number>2368</number>
@@ -16,6 +16,10 @@
       <keyvaluepair>
         <key>RosterGroup:Milw</key>
         <value>yes</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>22 / 15</value>
       </keyvaluepair>
     </attributepairs>
     <values>

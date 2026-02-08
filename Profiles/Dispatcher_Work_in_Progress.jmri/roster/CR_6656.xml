@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
-<locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <!--Written by JMRI version 5.8+Rbc21ce2ce7 on Sat Nov 16 14:10:38 PST 2024-->
-  <locomotive id="CR 6656" fileName="CR_6656.xml" roadNumber="6656" roadName="Conrail" mfg="Athearn" owner="254 Aaron Gold" model="SD45-2" dccAddress="6656" comment="TE: 28 24 20" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2024-11-16T22:10:38.595+00:00</dateUpdated>
+<locomotive-config>
+  <locomotive id="CR 6656" fileName="CR_6656.xml" roadNumber="6656" roadName="Conrail" mfg="Athearn" owner="254 Aaron Gold" model="SD45-2" dccAddress="6656" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T03:58:29.093+00:00</dateUpdated>
     <decoder model="Athearn Genesis SD45-2" family="Athearn" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="6656" longaddress="yes" />
@@ -16,6 +16,10 @@
       <keyvaluepair>
         <key>RosterGroup:CR</key>
         <value>yes</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>28 24 20</value>
       </keyvaluepair>
     </attributepairs>
     <values>

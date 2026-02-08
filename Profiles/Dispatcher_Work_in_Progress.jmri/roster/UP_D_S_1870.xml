@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
-<locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <!--Written by JMRI version 5.6+R89a87446cb on Sat Aug 10 13:45:57 PDT 2024-->
-  <locomotive id="UP D.S.1870" fileName="UP_1870.xml" roadNumber="D.S.1870" roadName="Union Pacific" mfg="ATH" owner="203 Mike Panton" model="EMD SW7 Cow" dccAddress="1870" comment="switcher&#xA;TE: 13, 8   6.1.2024" developerID="-1" manufacturerID="129" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2024-08-10T20:45:57.229+00:00</dateUpdated>
+<locomotive-config>
+  <locomotive id="UP D.S.1870" fileName="UP_D_S_1870.xml" roadNumber="D.S.1870" roadName="Union Pacific" mfg="ATH" owner="203 Mike Panton" model="EMD SW7 Cow" dccAddress="1870" comment="switcher" developerID="-1" manufacturerID="129" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T03:58:36.445+00:00</dateUpdated>
     <decoder model="DZ123" family="Series 3 with FX3, silent, readback" comment="Adjusted Speed Table 6.1.2024" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="1870" longaddress="yes" />
@@ -12,6 +12,12 @@
     </locoaddress>
     <functionlabels />
     <soundlabels />
+    <attributepairs>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>13, 8   6.1.2024</value>
+      </keyvaluepair>
+    </attributepairs>
     <values>
       <decoderDef>
         <varValue item="Short Address" value="3" />

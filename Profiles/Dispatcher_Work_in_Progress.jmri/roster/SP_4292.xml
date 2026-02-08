@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
-<locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <!--Written by JMRI version 5.1.5+Rb1b4a78a89 on Tue Jan 03 17:05:13 PST 2023-->
-  <locomotive id="SP 4292" fileName="SP_4292.xml" roadNumber="4292" roadName="Southern Pacific" mfg="Sunset Models" owner="214 Don Philpott" model="4-8-8-2 AC12" dccAddress="4292" comment="TE: 35 / 30 / 25" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2023-01-04T01:05:13.928+00:00</dateUpdated>
+<locomotive-config>
+  <locomotive id="SP 4292" fileName="SP_4292.xml" roadNumber="4292" roadName="Southern Pacific" mfg="Sunset Models" owner="214 Don Philpott" model="4-8-8-2 AC12" dccAddress="4292" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T03:58:32.791+00:00</dateUpdated>
     <decoder model="TSU-1000 SP Cab Forward Steam" family="Tsunami Steam" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="4292" longaddress="yes" />
@@ -11,25 +11,29 @@
       <protocol>dcc_long</protocol>
     </locoaddress>
     <functionlabels>
-      <functionlabel num="0" lockable="true" functionImage="" functionImageSelected="">Headlight</functionlabel>
-      <functionlabel num="1" lockable="true" functionImage="" functionImageSelected="">Bell</functionlabel>
-      <functionlabel num="2" lockable="false" functionImage="" functionImageSelected="">Whistle</functionlabel>
-      <functionlabel num="3" lockable="true" functionImage="" functionImageSelected="">Short Whistle</functionlabel>
-      <functionlabel num="4" lockable="true" functionImage="" functionImageSelected="">Steam Release</functionlabel>
-      <functionlabel num="5" lockable="true" functionImage="" functionImageSelected="">FX5 Light</functionlabel>
-      <functionlabel num="6" lockable="true" functionImage="" functionImageSelected="">FX6 Light</functionlabel>
-      <functionlabel num="7" lockable="true" functionImage="" functionImageSelected="">Dimmer</functionlabel>
-      <functionlabel num="8" lockable="true" functionImage="" functionImageSelected="">Mute</functionlabel>
-      <functionlabel num="9" lockable="true" functionImage="" functionImageSelected="">Water Stop</functionlabel>
-      <functionlabel num="10" lockable="true" functionImage="" functionImageSelected="">Injectors</functionlabel>
-      <functionlabel num="11" lockable="true" functionImage="" functionImageSelected="">Brake Squeal</functionlabel>
-      <functionlabel num="12" lockable="true" functionImage="" functionImageSelected="">Coupler</functionlabel>
+      <functionlabel num="0" lockable="true" visible="true" functionImage="" functionImageSelected="">Headlight</functionlabel>
+      <functionlabel num="1" lockable="true" visible="true" functionImage="" functionImageSelected="">Bell</functionlabel>
+      <functionlabel num="2" lockable="false" visible="true" functionImage="" functionImageSelected="">Whistle</functionlabel>
+      <functionlabel num="3" lockable="true" visible="true" functionImage="" functionImageSelected="">Short Whistle</functionlabel>
+      <functionlabel num="4" lockable="true" visible="true" functionImage="" functionImageSelected="">Steam Release</functionlabel>
+      <functionlabel num="5" lockable="true" visible="true" functionImage="" functionImageSelected="">FX5 Light</functionlabel>
+      <functionlabel num="6" lockable="true" visible="true" functionImage="" functionImageSelected="">FX6 Light</functionlabel>
+      <functionlabel num="7" lockable="true" visible="true" functionImage="" functionImageSelected="">Dimmer</functionlabel>
+      <functionlabel num="8" lockable="true" visible="true" functionImage="" functionImageSelected="">Mute</functionlabel>
+      <functionlabel num="9" lockable="true" visible="true" functionImage="" functionImageSelected="">Water Stop</functionlabel>
+      <functionlabel num="10" lockable="true" visible="true" functionImage="" functionImageSelected="">Injectors</functionlabel>
+      <functionlabel num="11" lockable="true" visible="true" functionImage="" functionImageSelected="">Brake Squeal</functionlabel>
+      <functionlabel num="12" lockable="true" visible="true" functionImage="" functionImageSelected="">Coupler</functionlabel>
     </functionlabels>
     <soundlabels />
     <attributepairs>
       <keyvaluepair>
         <key>RosterGroup:SP</key>
         <value>yes</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>35 / 30 / 25</value>
       </keyvaluepair>
     </attributepairs>
     <values>

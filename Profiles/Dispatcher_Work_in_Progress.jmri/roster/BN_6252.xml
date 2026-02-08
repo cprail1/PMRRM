@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <!--Written by JMRI version 4.22+R4c4384d74 on Sat Jul 17 16:10:04 PDT 2021-->
-  <locomotive id="BN 6252" fileName="BN_6252.xml" roadNumber="6252" roadName="Burlington Northern" mfg="Atlas" owner="223 Dan Wexler" model="SD9" dccAddress="6252" comment="TE: 15 / 10&#xA;No lights - may not be a consist leader." developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2018-10-06T23:22:15.000+0000</dateUpdated>
+  <locomotive id="BN 6252" fileName="BN_6252.xml" roadNumber="6252" roadName="Burlington Northern" mfg="Atlas" owner="223 Dan Wexler" model="SD9" dccAddress="6252" comment="No lights - may not be a consist leader." developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T03:58:26.887+00:00</dateUpdated>
     <decoder model="D13SR" family="Silent Running w/ Torque Compensation" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="6252" longaddress="yes" />
@@ -16,6 +16,10 @@
       <keyvaluepair>
         <key>RosterGroup:DW</key>
         <value>yes</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>15 / 10</value>
       </keyvaluepair>
     </attributepairs>
     <values>

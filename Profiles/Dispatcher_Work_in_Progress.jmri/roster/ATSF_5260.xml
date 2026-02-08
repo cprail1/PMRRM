@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
-<locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <!--Written by JMRI version 5.12+Rc5bd588235 on Sat Dec 13 16:41:01 PST 2025-->
-  <locomotive id="ATSF 5260" fileName="ATSF_5260.xml" roadNumber="5260" roadName="Atchison Topeka &amp; Santa Fe" mfg="Athearn" owner="Mark Cheer" model="SDP40Fu" dccAddress="5260" comment="TE: 28, 24, 20" developerID="-1" manufacturerID="141" productID="852005" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2025-12-14T00:41:01.054+00:00</dateUpdated>
+<locomotive-config>
+  <locomotive id="ATSF 5260" fileName="ATSF_5260.xml" roadNumber="5260" roadName="Atchison Topeka &amp; Santa Fe" mfg="Athearn" owner="Mark Cheer" model="SDP40Fu" dccAddress="5260" comment="" developerID="-1" manufacturerID="141" productID="852005" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T03:58:26.159+00:00</dateUpdated>
     <decoder model="MC1H104P21" family="MC Motor Decoders" comment="F5 Beacon" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="5260" longaddress="yes" />
@@ -16,6 +16,10 @@
       <keyvaluepair>
         <key>RosterGroup:ATSF</key>
         <value>yes</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>28, 24, 20</value>
       </keyvaluepair>
     </attributepairs>
     <values>

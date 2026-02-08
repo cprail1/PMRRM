@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
-<locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <!--Written by JMRI version 5.6+R89a87446cb on Tue Jan 09 19:43:59 PST 2024-->
-  <locomotive id="Milw 9B" fileName="Milw_9B.xml" roadNumber="9B" roadName="Milwaukee Road" mfg="Life-Like" owner="263 John Finnerty" model="Erie Built" dccAddress="9" comment="Do not seperate from MW 9A and MW 12B&#xA;Group TE: 70 / 51&#xA;TE: 26 / 18" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2024-01-10T03:43:59.479+00:00</dateUpdated>
+<locomotive-config>
+  <locomotive id="Milw 9B" fileName="Milw_9B.xml" roadNumber="9B" roadName="Milwaukee Road" mfg="Life-Like" owner="263 John Finnerty" model="Erie Built" dccAddress="9" comment="Do not seperate from MW 9A and MW 12BGroup TE: 70 / 51" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T03:58:30.850+00:00</dateUpdated>
     <decoder model="DP2X" family="Jan 2012" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="9" longaddress="no" />
@@ -16,6 +16,10 @@
       <keyvaluepair>
         <key>RosterGroup:Milw</key>
         <value>yes</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>26 / 18</value>
       </keyvaluepair>
     </attributepairs>
     <values>

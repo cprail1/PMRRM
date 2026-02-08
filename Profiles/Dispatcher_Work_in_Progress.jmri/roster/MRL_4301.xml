@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
-<locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <!--Written by JMRI version 4.16+R6f9aced on Tue Nov 12 19:18:53 PST 2019-->
-  <locomotive id="MRL 4301" fileName="MRL_4301.xml" roadNumber="4301" roadName="Montana Rail Link" mfg="Athearn Genesis" owner="257 Chris Holt" model="SD70ACe" dccAddress="4301" comment="TE: 20 / 13" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2019-11-13T03:18:53.108+0000</dateUpdated>
-    <decoder model="DH126D" family="Economy Series 6 with FX3, silent" comment="" />
+<locomotive-config>
+  <locomotive id="MRL 4301" fileName="MRL_4301.xml" roadNumber="4301" roadName="Montana Rail Link" mfg="Athearn Genesis" owner="257 Chris Holt" model="SD70ACe" dccAddress="4301" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T03:58:30.896+00:00</dateUpdated>
+    <decoder model="DH126D" family="Economy Series 6 with FX3, silent" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="4301" longaddress="yes" />
       <number>4301</number>
@@ -12,6 +12,12 @@
     </locoaddress>
     <functionlabels />
     <soundlabels />
+    <attributepairs>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>20 / 13</value>
+      </keyvaluepair>
+    </attributepairs>
     <values>
       <decoderDef>
         <varValue item="Primary Address" value="3" />

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
-<locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <!--Written by JMRI version 4.20+Rc7ba8249b on Tue Apr 20 21:01:17 PDT 2021-->
-  <locomotive id="SN 711" fileName="SN_711.xml" roadNumber="711" roadName="Sacramento Northern" mfg="ATH" owner="214 Don Philpott" model="GP7" dccAddress="711" comment="TE: 22 / 15" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2021-04-21T04:01:17.963+0000</dateUpdated>
-    <decoder model="MC2H104AT" family="MC Motor Decoders" comment="" />
+<locomotive-config>
+  <locomotive id="SN 711" fileName="SN_711.xml" roadNumber="711" roadName="Sacramento Northern" mfg="ATH" owner="214 Don Philpott" model="GP7" dccAddress="711" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T03:58:32.237+00:00</dateUpdated>
+    <decoder model="MC2H104AT" family="MC Motor Decoders" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="711" longaddress="yes" />
       <number>711</number>
@@ -12,6 +12,12 @@
     </locoaddress>
     <functionlabels />
     <soundlabels />
+    <attributepairs>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>22 / 15</value>
+      </keyvaluepair>
+    </attributepairs>
     <values>
       <decoderDef>
         <varValue item="Start Voltage (0-255)" value="0" />

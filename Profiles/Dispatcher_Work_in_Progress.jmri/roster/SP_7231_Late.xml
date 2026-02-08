@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <!--Written by JMRI version 4.26+R381c8dfc32 on Sat Jul 16 16:16:41 PDT 2022-->
-  <locomotive id="SP 7231 Late" fileName="SP_7231.xml" roadNumber="7231" roadName="Southern Pacific" mfg="Athearn RTR" owner="257 Chris Holt" model="GP40X" dccAddress="7231" comment="TE: 20 / 16 / 13" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2022-07-16T23:16:41.220+0000</dateUpdated>
+  <locomotive id="SP 7231 Late" fileName="SP_7231_Late.xml" roadNumber="7231" roadName="Southern Pacific" mfg="Athearn RTR" owner="257 Chris Holt" model="GP40X" dccAddress="7231" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T03:58:33.784+00:00</dateUpdated>
     <decoder model="DH126D" family="Economy Series 6 with FX3, silent" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="7231" longaddress="yes" />
@@ -16,6 +16,10 @@
       <keyvaluepair>
         <key>RosterGroup:SP</key>
         <value>yes</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>20 / 16 / 13</value>
       </keyvaluepair>
     </attributepairs>
     <values>

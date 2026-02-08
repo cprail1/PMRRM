@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <!--Written by JMRI version 5.1.5+Rb1b4a78a89 on Sat Mar 18 11:46:18 PDT 2023-->
-  <locomotive id="NYC 8298" fileName="NYC_8298.xml" roadNumber="8298" roadName="New York Central" mfg="Bachmann" owner="254 Aaron Gold" model="RS-3" dccAddress="8298" comment="TE: 17 / 12" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2023-03-18T18:46:18.142+00:00</dateUpdated>
+  <locomotive id="NYC 8298" fileName="NYC_8298.xml" roadNumber="8298" roadName="New York Central" mfg="Bachmann" owner="254 Aaron Gold" model="RS-3" dccAddress="8298" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T03:58:31.518+00:00</dateUpdated>
     <decoder model="2 function decoder (36-552)" family="E-Z Command decoders" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="8298" longaddress="yes" />
@@ -16,6 +16,10 @@
       <keyvaluepair>
         <key>RosterGroup:NYC</key>
         <value>yes</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>17 / 12</value>
       </keyvaluepair>
     </attributepairs>
     <values>

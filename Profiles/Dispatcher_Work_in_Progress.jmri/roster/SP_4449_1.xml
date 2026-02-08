@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
-<locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <!--Written by JMRI version 5.6+R89a87446cb on Sat Mar 02 13:36:27 PST 2024-->
-  <locomotive id="SP 4449_1" fileName="SP_4449_1.xml" roadNumber="4449" roadName="Southern Pacific" mfg="Bachmann" owner="J270 Matthew J Zepeda" model="4-8-4 GS4 American Freedom" dccAddress="4449" comment="TE: 20 , 13" developerID="-1" manufacturerID="141" productID="GS4484" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2024-03-02T21:36:27.632+00:00</dateUpdated>
+<locomotive-config>
+  <locomotive id="SP 4449_1" fileName="SP_4449_1.xml" roadNumber="4449" roadName="Southern Pacific" mfg="Bachmann" owner="J270 Matthew J Zepeda" model="4-8-4 GS4 American Freedom" dccAddress="4449" comment="" developerID="-1" manufacturerID="141" productID="GS4484" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T03:58:32.939+00:00</dateUpdated>
     <decoder model="4-8-4 GS-4 - Southern Pacific [HO]" family="Tsunami Steam Bachmann Sound Value" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="4449" longaddress="yes" />
@@ -11,16 +11,22 @@
       <protocol>dcc_long</protocol>
     </locoaddress>
     <functionlabels>
-      <functionlabel num="0" lockable="true" functionImage="" functionImageSelected="">Headlight</functionlabel>
-      <functionlabel num="1" lockable="true" functionImage="" functionImageSelected="">Bell</functionlabel>
-      <functionlabel num="2" lockable="false" functionImage="" functionImageSelected="">Whistle</functionlabel>
-      <functionlabel num="3" lockable="true" functionImage="" functionImageSelected="">Short Whistle</functionlabel>
-      <functionlabel num="4" lockable="true" functionImage="" functionImageSelected="">Steam-Release</functionlabel>
-      <functionlabel num="6" lockable="true" functionImage="" functionImageSelected="">FX6 function</functionlabel>
-      <functionlabel num="7" lockable="true" functionImage="" functionImageSelected="">Dimming</functionlabel>
-      <functionlabel num="8" lockable="true" functionImage="" functionImageSelected="">Mute</functionlabel>
+      <functionlabel num="0" lockable="true" visible="true" functionImage="" functionImageSelected="">Headlight</functionlabel>
+      <functionlabel num="1" lockable="true" visible="true" functionImage="" functionImageSelected="">Bell</functionlabel>
+      <functionlabel num="2" lockable="false" visible="true" functionImage="" functionImageSelected="">Whistle</functionlabel>
+      <functionlabel num="3" lockable="true" visible="true" functionImage="" functionImageSelected="">Short Whistle</functionlabel>
+      <functionlabel num="4" lockable="true" visible="true" functionImage="" functionImageSelected="">Steam-Release</functionlabel>
+      <functionlabel num="6" lockable="true" visible="true" functionImage="" functionImageSelected="">FX6 function</functionlabel>
+      <functionlabel num="7" lockable="true" visible="true" functionImage="" functionImageSelected="">Dimming</functionlabel>
+      <functionlabel num="8" lockable="true" visible="true" functionImage="" functionImageSelected="">Mute</functionlabel>
     </functionlabels>
     <soundlabels />
+    <attributepairs>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>20 , 13</value>
+      </keyvaluepair>
+    </attributepairs>
     <values>
       <decoderDef>
         <varValue item="Vstart" value="0" />

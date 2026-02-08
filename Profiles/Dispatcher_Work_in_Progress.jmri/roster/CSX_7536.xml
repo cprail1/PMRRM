@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <!--Written by JMRI version 5.8+Rbc21ce2ce7 on Sat Mar 15 12:42:30 PDT 2025-->
-  <locomotive id="CSX 7536" fileName="CSX_7536.xml" roadNumber="5736" roadName="CSX" mfg="Atlas" owner="190 Brian Neely" model="Dash 8-40C" dccAddress="7536" comment="TE: 20 / 16 / 13" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2017-10-21T22:48:06.000+00:00</dateUpdated>
+  <locomotive id="CSX 7536" fileName="CSX_7536.xml" roadNumber="5736" roadName="CSX" mfg="Atlas" owner="190 Brian Neely" model="Dash 8-40C" dccAddress="7536" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T03:58:29.186+00:00</dateUpdated>
     <decoder model="Atlas Dash 8-40CW,C (GE pump)" family="QSI Diesel Ver. 6" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="7536" longaddress="yes" />
@@ -16,6 +16,10 @@
       <keyvaluepair>
         <key>RosterGroup:CSX</key>
         <value>yes</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>20 / 16 / 13</value>
       </keyvaluepair>
     </attributepairs>
     <values>

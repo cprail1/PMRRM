@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <!--Written by JMRI version 5.8+Rbc21ce2ce7 on Sat Mar 15 12:42:30 PDT 2025-->
-  <locomotive id="CSX 8849" fileName="CSX_8849.xml" roadNumber="8849" roadName="CSX" mfg="Intermountain" owner="190 Brian Neely" model="SD40-2" dccAddress="8849" comment="TE: 20 / 16 / 13" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2017-10-21T22:36:40.000+00:00</dateUpdated>
+  <locomotive id="CSX 8849" fileName="CSX_8849.xml" roadNumber="8849" roadName="CSX" mfg="Intermountain" owner="190 Brian Neely" model="SD40-2" dccAddress="8849" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T03:58:29.243+00:00</dateUpdated>
     <decoder model="LokSound Select" family="ESU LokSound Select" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="8849" longaddress="yes" />
@@ -20,6 +20,10 @@
       <keyvaluepair>
         <key>RosterGroup:CSX</key>
         <value>yes</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>20 / 16 / 13</value>
       </keyvaluepair>
     </attributepairs>
     <values>

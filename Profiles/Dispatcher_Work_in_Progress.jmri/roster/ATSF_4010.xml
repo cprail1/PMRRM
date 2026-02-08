@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <!--Written by JMRI version 4.20+Rc7ba8249b on Tue Oct 06 12:00:33 PDT 2020-->
-  <locomotive id="ATSF 4010" fileName="ATSF_4010.xml" roadNumber="4010" roadName="Atchison, Topeka, and Santa Fe" mfg="Athearn RTR" owner="257 Chris Holt" model="SD39" dccAddress="4010" comment="TE: 17 / 12" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2020-03-04T00:18:46.773+0000</dateUpdated>
-    <decoder model="DH126D" family="Economy Series 6 with FX3, silent" comment="" />
+  <locomotive id="ATSF 4010" fileName="ATSF_4010.xml" roadNumber="4010" roadName="Atchison, Topeka, and Santa Fe" mfg="Athearn RTR" owner="257 Chris Holt" model="SD39" dccAddress="4010" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T03:58:25.796+00:00</dateUpdated>
+    <decoder model="DH126D" family="Economy Series 6 with FX3, silent" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="4010" longaddress="yes" />
       <number>4010</number>
@@ -16,6 +16,10 @@
       <keyvaluepair>
         <key>RosterGroup:ATSF</key>
         <value>yes</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>17 / 12</value>
       </keyvaluepair>
     </attributepairs>
     <values>

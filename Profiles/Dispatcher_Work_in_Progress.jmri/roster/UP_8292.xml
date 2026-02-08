@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <!--Written by JMRI version 4.20+Rc7ba8249b on Tue Oct 06 12:05:09 PDT 2020-->
-  <locomotive id="UP 8292" fileName="UP_8292.xml" roadNumber="8292" roadName="Union Pacific" mfg="Kato" owner="257 Chris Holt" model="SD90/43MAC" dccAddress="8292" comment="TE: 24 / 16" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2018-09-26T01:18:47.000+0000</dateUpdated>
-    <decoder model="LokSound Select" family="ESU LokSound Select" comment="" />
+  <locomotive id="UP 8292" fileName="UP_8292.xml" roadNumber="8292" roadName="Union Pacific" mfg="Kato" owner="257 Chris Holt" model="SD90/43MAC" dccAddress="8292" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T03:58:35.924+00:00</dateUpdated>
+    <decoder model="LokSound Select" family="ESU LokSound Select" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="8292" longaddress="yes" />
       <number>8292</number>
@@ -16,6 +16,10 @@
       <keyvaluepair>
         <key>RosterGroup:UP</key>
         <value>yes</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>24 / 16</value>
       </keyvaluepair>
     </attributepairs>
     <values>

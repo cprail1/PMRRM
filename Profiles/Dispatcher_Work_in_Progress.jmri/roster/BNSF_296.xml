@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <!--Written by JMRI version 4.20+Rc7ba8249b on Tue Oct 06 12:01:20 PDT 2020-->
-  <locomotive id="BNSF 296" fileName="BNSF_296.xml" roadNumber="296" roadName="BNSF Railway" mfg="Athearn Genesis" owner="257 Chris Holt" model="SD75i" dccAddress="296" comment="TE: 24 / 20 / 16" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2018-04-11T01:21:25.000+0000</dateUpdated>
-    <decoder model="DH126D" family="Economy Series 6 with FX3, silent" comment="" />
+  <locomotive id="BNSF 296" fileName="BNSF_296.xml" roadNumber="296" roadName="BNSF Railway" mfg="Athearn Genesis" owner="257 Chris Holt" model="SD75i" dccAddress="296" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T03:58:27.194+00:00</dateUpdated>
+    <decoder model="DH126D" family="Economy Series 6 with FX3, silent" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="296" longaddress="yes" />
       <number>296</number>
@@ -16,6 +16,10 @@
       <keyvaluepair>
         <key>RosterGroup:BNSF</key>
         <value>yes</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>24 / 20 / 16</value>
       </keyvaluepair>
     </attributepairs>
     <values>

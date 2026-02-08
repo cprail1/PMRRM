@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
-<locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <!--Written by JMRI version 4.17.8+R7c13c6b on Sat Feb 15 12:44:27 PST 2020-->
-  <locomotive id="ATSF 1305" fileName="ATSF_1305.xml" roadNumber="1305" roadName="Atchison, Topeka, and Santa Fe" mfg="Athearn RTR" owner="214 Don Philpott" model="GP35" dccAddress="1305" comment="TE: " maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2020-02-15T20:44:27.798+0000</dateUpdated>
-    <decoder model="DH163" family="Series 3 with FX3, silent, readback" comment="" />
+<locomotive-config>
+  <locomotive id="ATSF 1305" fileName="ATSF_1305.xml" roadNumber="1305" roadName="Atchison, Topeka, and Santa Fe" mfg="Athearn RTR" owner="214 Don Philpott" model="GP35" dccAddress="1305" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T03:58:25.262+00:00</dateUpdated>
+    <decoder model="DH163" family="Series 3 with FX3, silent, readback" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="1305" longaddress="yes" />
       <number>1305</number>
@@ -12,6 +12,12 @@
     </locoaddress>
     <functionlabels />
     <soundlabels />
+    <attributepairs>
+      <keyvaluepair>
+        <key>TE</key>
+        <value />
+      </keyvaluepair>
+    </attributepairs>
     <values>
       <decoderDef>
         <varValue item="Primary Address" value="3" />

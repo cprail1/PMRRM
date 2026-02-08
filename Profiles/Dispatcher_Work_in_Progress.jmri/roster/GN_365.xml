@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
-<locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <!--Written by JMRI version 4.22+R4c4384d74 on Fri Nov 12 11:51:39 PST 2021-->
-  <locomotive id="GN 365" fileName="GN_365.xml" roadNumber="365" roadName="Great Northern" mfg="ATG" owner="234 MAB" model="F7ab" dccAddress="365" comment="TE: 35/ 25" developerID="-1" manufacturerID="153" productID="4" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2021-11-12T19:51:39.296+0000</dateUpdated>
+<locomotive-config>
+  <locomotive id="GN 365" fileName="GN_365.xml" roadNumber="365" roadName="Great Northern" mfg="ATG" owner="234 MAB" model="F7ab" dccAddress="365" comment="" developerID="-1" manufacturerID="153" productID="4" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T03:58:30.081+00:00</dateUpdated>
     <decoder model="A4X" family="Jan 2000" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="365" longaddress="yes" />
@@ -12,6 +12,12 @@
     </locoaddress>
     <functionlabels />
     <soundlabels />
+    <attributepairs>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>35/ 25</value>
+      </keyvaluepair>
+    </attributepairs>
     <values>
       <decoderDef>
         <varValue item="BEMF Cut Out" value="0" />

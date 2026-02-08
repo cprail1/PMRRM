@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <!--Written by JMRI version 4.20+Rc7ba8249b on Tue Oct 06 12:05:09 PDT 2020-->
-  <locomotive id="UP 8740" fileName="UP_8740.xml" roadNumber="8740" roadName="Union Pacific" mfg="Athearn Genesis" owner="257 Chris Holt" model="SD70ACe" dccAddress="8740" comment="TE: 26 / 18" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2018-10-01T02:49:22.000+0000</dateUpdated>
-    <decoder model="DH126MT" family="Economy Series 6 with FX3, silent" comment="" />
+  <locomotive id="UP 8740" fileName="UP_8740.xml" roadNumber="8740" roadName="Union Pacific" mfg="Athearn Genesis" owner="257 Chris Holt" model="SD70ACe" dccAddress="8740" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T03:58:36.028+00:00</dateUpdated>
+    <decoder model="DH126MT" family="Economy Series 6 with FX3, silent" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="8740" longaddress="yes" />
       <number>8740</number>
@@ -16,6 +16,10 @@
       <keyvaluepair>
         <key>RosterGroup:UP</key>
         <value>yes</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>26 / 18</value>
       </keyvaluepair>
     </attributepairs>
     <values>

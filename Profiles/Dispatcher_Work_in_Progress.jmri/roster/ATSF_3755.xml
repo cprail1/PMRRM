@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <!--Written by JMRI version 4.20+Rc7ba8249b on Sat Mar 27 12:22:31 PDT 2021-->
-  <locomotive id="ATSF 3755" fileName="ATSF_3755.xml" roadNumber="3755" roadName="Atchison, Topeka, and Santa Fe" mfg="Broadway Limited Paragon 1" owner="223 Dan Wexler" model="4-8-4 Northern" dccAddress="3755" comment="TE: 26 / 18" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2019-05-25T16:51:48.000+0000</dateUpdated>
-    <decoder model="BLI ATSF 3751 4-8-4" family="QSI Steam" comment="" />
+  <locomotive id="ATSF 3755" fileName="ATSF_3755.xml" roadNumber="3755" roadName="Atchison, Topeka, and Santa Fe" mfg="Broadway Limited Paragon 1" owner="223 Dan Wexler" model="4-8-4 Northern" dccAddress="3755" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T03:58:25.719+00:00</dateUpdated>
+    <decoder model="BLI ATSF 3751 4-8-4" family="QSI Steam" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="3755" longaddress="yes" />
       <number>3755</number>
@@ -20,6 +20,10 @@
       <keyvaluepair>
         <key>RosterGroup:DW</key>
         <value>yes</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>26 / 18</value>
       </keyvaluepair>
     </attributepairs>
     <values>

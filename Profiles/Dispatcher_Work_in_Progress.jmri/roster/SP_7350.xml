@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <!--Written by JMRI version 4.20+Rc7ba8249b on Tue Oct 06 12:06:00 PDT 2020-->
-  <locomotive id="SP 7350" fileName="SP_7350.xml" roadNumber="7350" roadName="Southern Pacific" mfg="Athearn RTR" owner="257 Chris Holt" model="SD40" dccAddress="7350" comment="TE: 22 / 18 / 15" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2018-04-11T01:31:34.000+0000</dateUpdated>
-    <decoder model="LokSound Select Direct" family="ESU LokSound Select" comment="" />
+  <locomotive id="SP 7350" fileName="SP_7350.xml" roadNumber="7350" roadName="Southern Pacific" mfg="Athearn RTR" owner="257 Chris Holt" model="SD40" dccAddress="7350" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T03:58:33.832+00:00</dateUpdated>
+    <decoder model="LokSound Select Direct" family="ESU LokSound Select" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="7350" longaddress="yes" />
       <number>7350</number>
@@ -16,6 +16,10 @@
       <keyvaluepair>
         <key>RosterGroup:SP</key>
         <value>yes</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>22 / 18 / 15</value>
       </keyvaluepair>
     </attributepairs>
     <values>

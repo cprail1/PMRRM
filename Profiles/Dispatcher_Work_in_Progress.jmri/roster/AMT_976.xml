@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <!--Written by JMRI version 4.22+R4c4384d74 on Tue Jun 29 20:36:06 PDT 2021-->
-  <locomotive id="AMT 976" fileName="AMT_976.xml" roadNumber="976" roadName="Amtrak" mfg="Bachmann" owner="254 Aaron Gold" model="electric E60CH" dccAddress="976" comment="TE 51 / 18&#xA;TE 36 / 12" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2021-06-30T03:36:06.848+0000</dateUpdated>
+  <locomotive id="AMT 976" fileName="AMT_976.xml" roadNumber="976" roadName="Amtrak" mfg="Bachmann" owner="254 Aaron Gold" model="electric E60CH" dccAddress="976" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T03:58:25.231+00:00</dateUpdated>
     <decoder model="2 function decoder (36-552)" family="E-Z Command decoders" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="976" longaddress="yes" />
@@ -16,6 +16,10 @@
       <keyvaluepair>
         <key>RosterGroup:AMT</key>
         <value>yes</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>36 / 12</value>
       </keyvaluepair>
     </attributepairs>
     <values>

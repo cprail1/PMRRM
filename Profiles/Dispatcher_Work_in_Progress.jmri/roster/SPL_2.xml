@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <!--Written by JMRI version 5.8+Rbc21ce2ce7 on Sat Dec 14 16:08:09 PST 2024-->
-  <locomotive id="SPL 2" fileName="SPL_2.xml" roadNumber="2" roadName="Sierra Pacific Lines" mfg="Bachmann" owner="254 Aaron Gold" model="GE 45 Tonner" dccAddress="2" comment="TE 9, 3, 2" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2024-12-15T00:08:09.472+00:00</dateUpdated>
+  <locomotive id="SPL 2" fileName="SPL_2.xml" roadNumber="2" roadName="Sierra Pacific Lines" mfg="Bachmann" owner="254 Aaron Gold" model="GE 45 Tonner" dccAddress="2" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T03:58:34.635+00:00</dateUpdated>
     <decoder model="4 function decoder (36-550)" family="E-Z Command decoders" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="2" longaddress="no" />
@@ -12,6 +12,12 @@
     </locoaddress>
     <functionlabels />
     <soundlabels />
+    <attributepairs>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>9, 3, 2</value>
+      </keyvaluepair>
+    </attributepairs>
     <values>
       <decoderDef>
         <varValue item="Start Volts" value="1" />

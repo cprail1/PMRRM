@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <!--Written by JMRI version 4.20+Rc7ba8249b on Tue Oct 06 12:08:10 PDT 2020-->
-  <locomotive id="DRGW 5343" fileName="DRGW_5343.xml" roadNumber="5343" roadName="Denver &amp; Rio Grande Western" mfg="Athearn RTR" owner="257 Chris Holt" model="SD40T-2" dccAddress="5343" comment="TE: 22 / 18 / 15" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2018-04-11T01:23:33.000+0000</dateUpdated>
-    <decoder model="LokSound Select" family="ESU LokSound Select" comment="" />
+  <locomotive id="DRGW 5343" fileName="DRGW_5343.xml" roadNumber="5343" roadName="Denver &amp; Rio Grande Western" mfg="Athearn RTR" owner="257 Chris Holt" model="SD40T-2" dccAddress="5343" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T03:58:29.703+00:00</dateUpdated>
+    <decoder model="LokSound Select" family="ESU LokSound Select" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="5343" longaddress="yes" />
       <number>5343</number>
@@ -16,6 +16,10 @@
       <keyvaluepair>
         <key>RosterGroup:DRGW</key>
         <value>yes</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>22 / 18 / 15</value>
       </keyvaluepair>
     </attributepairs>
     <values>

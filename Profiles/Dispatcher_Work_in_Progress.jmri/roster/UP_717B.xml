@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <!--Written by JMRI version 4.22+R4c4384d74 on Wed Oct 13 11:50:55 PDT 2021-->
-  <locomotive id="UP 717B" fileName="UP_717B.xml" roadNumber="717B" roadName="Union Pacific" mfg="Power Pro" owner="259 Skip Martin" model="GP30B" dccAddress="712" comment="Usonly with  UP 712 &amp; UP 722&#xA;TE:  13 / 8&#xA;Combined TE: 39 / 28" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2021-10-13T18:50:55.343+0000</dateUpdated>
+  <locomotive id="UP 717B" fileName="UP_717B.xml" roadNumber="717B" roadName="Union Pacific" mfg="Power Pro" owner="259 Skip Martin" model="GP30B" dccAddress="712" comment="Usonly with  UP 712 &amp; UP 722Combined TE: 39 / 28" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T03:58:35.841+00:00</dateUpdated>
     <decoder model="D13SR" family="Silent Running w/ Torque Compensation" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="712" longaddress="yes" />
@@ -16,6 +16,10 @@
       <keyvaluepair>
         <key>RosterGroup:SM</key>
         <value>yes</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>13 / 8</value>
       </keyvaluepair>
     </attributepairs>
     <values>

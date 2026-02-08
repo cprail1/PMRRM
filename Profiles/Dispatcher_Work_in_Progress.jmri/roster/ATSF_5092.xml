@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <!--Written by JMRI version 4.20+Rc7ba8249b on Tue Oct 06 12:00:34 PDT 2020-->
-  <locomotive id="ATSF 5092" fileName="ATSF_5092.xml" roadNumber="5092" roadName="Atchison, Topeka, and Santa Fe" mfg="Kato" owner="257 Chris Holt" model="SD40-2" dccAddress="5092" comment="Do not seperate from ATSF 5058, ATSF 5002, and ATSF 5039.&#xA;Group TE: 57 / 41&#xA;TE:" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2018-10-11T00:34:47.000+0000</dateUpdated>
-    <decoder model="DH163" family="Series 3 with FX3, silent, readback" comment="" />
+  <locomotive id="ATSF 5092" fileName="ATSF_5092.xml" roadNumber="5092" roadName="Atchison, Topeka, and Santa Fe" mfg="Kato" owner="257 Chris Holt" model="SD40-2" dccAddress="5092" comment="Do not seperate from ATSF 5058, ATSF 5002, and ATSF 5039.Group TE: 57 / 41" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T03:58:25.903+00:00</dateUpdated>
+    <decoder model="DH163" family="Series 3 with FX3, silent, readback" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="5092" longaddress="yes" />
       <number>5092</number>
@@ -16,6 +16,10 @@
       <keyvaluepair>
         <key>RosterGroup:ATSF</key>
         <value>yes</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>TE</key>
+        <value />
       </keyvaluepair>
     </attributepairs>
     <values>

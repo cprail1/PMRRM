@@ -1,15 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
-<locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <!--Written by JMRI version 4.8+Rbe0ff15 on Sat Dec 02 15:38:23 PST 2017-->
-  <locomotive id="VO4410" fileName="VO4410.xml" roadNumber="4410" roadName="V&amp;O" mfg="Intermountain" owner="J256 Owen Wagganer" model="ES44AC" dccAddress="4410" comment="TE 22 / 18 / 15" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2017-12-02T23:38:23Z</dateUpdated>
-    <decoder model="DH126MT" family="Economy Series 6 with FX3, silent" comment="" />
+<locomotive-config>
+  <locomotive id="VO4410" fileName="VO4410.xml" roadNumber="4410" roadName="V&amp;O" mfg="Intermountain" owner="J256 Owen Wagganer" model="ES44AC" dccAddress="4410" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T03:58:36.458+00:00</dateUpdated>
+    <decoder model="DH126MT" family="Economy Series 6 with FX3, silent" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="4410" longaddress="yes" />
       <number>4410</number>
       <protocol>dcc_long</protocol>
     </locoaddress>
+    <functionlabels />
+    <soundlabels />
+    <attributepairs>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>22 / 18 / 15</value>
+      </keyvaluepair>
+    </attributepairs>
     <values>
       <decoderDef>
         <varValue item="Speed Table" value="0,9,18,28,37,47,56,66,75,85,94,103,113,122,132,141,151,160,170,179,188,198,207,217,226,236,245,255" />
@@ -131,5 +139,4 @@
       <CVvalue name="106" value="255" />
     </values>
   </locomotive>
-  <!--Written by JMRI version 4.12+Rb6a9bb1 on Wed Oct 10 16:35:55 PDT 2018-->
 </locomotive-config>

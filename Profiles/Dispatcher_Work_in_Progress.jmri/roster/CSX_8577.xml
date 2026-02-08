@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
-<locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <!--Written by JMRI version 5.6+R89a87446cb on Sat Sep 21 14:51:29 PDT 2024-->
-  <locomotive id="CSX 8577" fileName="CSX_8577.xml" roadNumber="8577" roadName="CSX" mfg="Athearn" owner="252 John Madriaga " model="SD50" dccAddress="8577" comment="TE: 26, 18" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2024-09-21T21:51:29.761+00:00</dateUpdated>
+<locomotive-config>
+  <locomotive id="CSX 8577" fileName="CSX_8577.xml" roadNumber="8577" roadName="CSX" mfg="Athearn" owner="252 John Madriaga " model="SD50" dccAddress="8577" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T03:58:29.195+00:00</dateUpdated>
     <decoder model="DH123" family="Economy Series 3 with FX3, silent" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="8577" longaddress="yes" />
@@ -16,6 +16,10 @@
       <keyvaluepair>
         <key>RosterGroup:CSX</key>
         <value>yes</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>26, 18</value>
       </keyvaluepair>
     </attributepairs>
     <values>

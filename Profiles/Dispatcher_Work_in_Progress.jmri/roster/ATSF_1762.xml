@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
-<locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <!--Written by JMRI version 5.6+R89a87446cb on Sat Jun 29 12:25:35 PDT 2024-->
-  <locomotive id="ATSF 1762" fileName="ATSF_1762.xml" roadNumber="1762" roadName="Atchison, Topeka, and Santa Fe" mfg="ATH" owner="203 Mike Panton" model="SD 45" dccAddress="1762" comment="TE: 17, 12 oz.&#xA;" developerID="-1" manufacturerID="129" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2024-06-29T19:25:35.372+00:00</dateUpdated>
+<locomotive-config>
+  <locomotive id="ATSF 1762" fileName="ATSF_1762.xml" roadNumber="1762" roadName="Atchison, Topeka, and Santa Fe" mfg="ATH" owner="203 Mike Panton" model="SD 45" dccAddress="1762" comment="" developerID="-1" manufacturerID="129" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T03:58:25.296+00:00</dateUpdated>
     <decoder model="DH126PS" family="Economy Series 6 with FX3, silent" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="1762" longaddress="yes" />
@@ -12,6 +12,12 @@
     </locoaddress>
     <functionlabels />
     <soundlabels />
+    <attributepairs>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>17, 12 oz.</value>
+      </keyvaluepair>
+    </attributepairs>
     <values>
       <decoderDef>
         <varValue item="Short Address" value="3" />

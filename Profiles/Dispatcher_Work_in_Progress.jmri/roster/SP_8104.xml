@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <!--Written by JMRI version 4.20+Rc7ba8249b on Tue Oct 06 12:06:01 PDT 2020-->
-  <locomotive id="SP 8104" fileName="SP_8104.xml" roadNumber="8104" roadName="Southern Pacific" mfg="Kato" owner="257 Chris Holt" model="C44-9W" dccAddress="8104" comment="TE: 20 / 16 / 13" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2018-11-29T01:31:18.000+0000</dateUpdated>
-    <decoder model="LokSound Select" family="ESU LokSound Select" comment="" />
+  <locomotive id="SP 8104" fileName="SP_8104.xml" roadNumber="8104" roadName="Southern Pacific" mfg="Kato" owner="257 Chris Holt" model="C44-9W" dccAddress="8104" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T03:58:34.032+00:00</dateUpdated>
+    <decoder model="LokSound Select" family="ESU LokSound Select" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="8104" longaddress="yes" />
       <number>8104</number>
@@ -20,6 +20,10 @@
       <keyvaluepair>
         <key>RosterGroup:SP</key>
         <value>yes</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>20 / 16 / 13</value>
       </keyvaluepair>
     </attributepairs>
     <values>

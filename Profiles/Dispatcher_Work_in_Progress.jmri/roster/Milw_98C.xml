@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <!--Written by JMRI version 4.20+Rc7ba8249b on Tue Oct 06 12:08:56 PDT 2020-->
-  <locomotive id="Milw 98C" fileName="Milw_98C.xml" roadNumber="98C" roadName="Milwaukee Road" mfg="" owner="263 John Finnerty" model="FP7a" dccAddress="100" comment="Do not seperate from MW 100A and MW 115B&#xA;Group TE: 70 / 51&#xA;TE: 22 / 15" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2018-10-01T22:23:04.000+0000</dateUpdated>
-    <decoder model="NMRA standard CV definitions" family="NMRA standard CV definitions" comment="" />
+  <locomotive id="Milw 98C" fileName="Milw_98C.xml" roadNumber="98C" roadName="Milwaukee Road" mfg="" owner="263 John Finnerty" model="FP7a" dccAddress="100" comment="Do not seperate from MW 100A and MW 115BGroup TE: 70 / 51" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T03:58:30.831+00:00</dateUpdated>
+    <decoder model="NMRA standard CV definitions" family="NMRA standard CV definitions" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="100" longaddress="no" />
       <number>100</number>
@@ -16,6 +16,10 @@
       <keyvaluepair>
         <key>RosterGroup:Milw</key>
         <value>yes</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>22 / 15</value>
       </keyvaluepair>
     </attributepairs>
     <values>

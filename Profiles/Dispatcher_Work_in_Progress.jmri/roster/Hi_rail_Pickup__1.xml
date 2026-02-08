@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <!--Written by JMRI version 4.20+Rc7ba8249b on Sat Mar 27 12:22:32 PDT 2021-->
-  <locomotive id="Hi-rail Pickup #1" fileName="Hi_rail_Pickup__1.xml" roadNumber="N/A" roadName="N/A" mfg="Broadway Limited" owner="223 Dan Wexler" model="Hi-rail Pickup" dccAddress="567" comment="TE: N/A cannot pull anything" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2019-05-18T20:35:29.000+0000</dateUpdated>
-    <decoder model="BLI Hi-Rail Pick-up" family="Silent Running w/ Torque Compensation" comment="" />
+  <locomotive id="Hi-rail Pickup #1" fileName="Hi_rail_Pickup__1.xml" roadNumber="N/A" roadName="N/A" mfg="Broadway Limited" owner="223 Dan Wexler" model="Hi-rail Pickup" dccAddress="567" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T03:58:30.252+00:00</dateUpdated>
+    <decoder model="BLI Hi-Rail Pick-up" family="Silent Running w/ Torque Compensation" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="567" longaddress="yes" />
       <number>567</number>
@@ -16,6 +16,10 @@
       <keyvaluepair>
         <key>RosterGroup:DW</key>
         <value>yes</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>N/A cannot pull anything</value>
       </keyvaluepair>
     </attributepairs>
     <values>

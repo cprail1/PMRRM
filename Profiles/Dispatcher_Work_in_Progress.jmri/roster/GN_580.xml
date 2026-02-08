@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
-<locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <!--Written by JMRI version 4.26+R381c8dfc32 on Tue Sep 06 19:52:29 PDT 2022-->
-  <locomotive id="GN 580" fileName="GN_580.xml" roadNumber="580" roadName="Great Northern" mfg="BLI" owner="190 Brian Neely" model="EMD SD9" dccAddress="580" comment="TE 40 / 20 / 13" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2022-09-07T02:52:29.244+0000</dateUpdated>
+<locomotive-config>
+  <locomotive id="GN 580" fileName="GN_580.xml" roadNumber="580" roadName="Great Northern" mfg="BLI" owner="190 Brian Neely" model="EMD SD9" dccAddress="580" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T03:58:30.134+00:00</dateUpdated>
     <decoder model="Diesel" family="Paragon 3" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="580" longaddress="yes" />
@@ -11,37 +11,43 @@
       <protocol>dcc_long</protocol>
     </locoaddress>
     <functionlabels>
-      <functionlabel num="0" lockable="true" functionImage="" functionImageSelected="">Headlight</functionlabel>
-      <functionlabel num="1" lockable="true" functionImage="" functionImageSelected="">Bell</functionlabel>
-      <functionlabel num="2" lockable="false" functionImage="" functionImageSelected="">Horn</functionlabel>
-      <functionlabel num="3" lockable="true" functionImage="" functionImageSelected="">Coupler</functionlabel>
-      <functionlabel num="4" lockable="true" functionImage="" functionImageSelected="">Compressor</functionlabel>
-      <functionlabel num="5" lockable="true" functionImage="" functionImageSelected="">RPM Up</functionlabel>
-      <functionlabel num="6" lockable="true" functionImage="" functionImageSelected="">RPM Dn</functionlabel>
-      <functionlabel num="7" lockable="true" functionImage="" functionImageSelected="">Smoke Control</functionlabel>
-      <functionlabel num="8" lockable="true" functionImage="" functionImageSelected="">Mute/Master Volume</functionlabel>
-      <functionlabel num="9" lockable="true" functionImage="" functionImageSelected="">Shutdown and Startup</functionlabel>
-      <functionlabel num="10" lockable="true" functionImage="" functionImageSelected="">Cooling Fan</functionlabel>
-      <functionlabel num="11" lockable="true" functionImage="" functionImageSelected="">Air Release</functionlabel>
-      <functionlabel num="12" lockable="true" functionImage="" functionImageSelected="">Brake Set/Release/Squeal</functionlabel>
-      <functionlabel num="13" lockable="true" functionImage="" functionImageSelected="">Horn Grade Crossing</functionlabel>
-      <functionlabel num="14" lockable="true" functionImage="" functionImageSelected="">Station Sounds</functionlabel>
-      <functionlabel num="15" lockable="true" functionImage="" functionImageSelected="">Yard Sounds</functionlabel>
-      <functionlabel num="16" lockable="true" functionImage="" functionImageSelected="">Maintenance Sounds</functionlabel>
-      <functionlabel num="17" lockable="true" functionImage="" functionImageSelected="">Radio Chatter</functionlabel>
-      <functionlabel num="18" lockable="true" functionImage="" functionImageSelected="">City Sounds</functionlabel>
-      <functionlabel num="19" lockable="true" functionImage="" functionImageSelected="">Farm Sounds</functionlabel>
-      <functionlabel num="20" lockable="true" functionImage="" functionImageSelected="">Industrial Sounds</functionlabel>
-      <functionlabel num="21" lockable="true" functionImage="" functionImageSelected="">Lumber Sounds</functionlabel>
-      <functionlabel num="22" lockable="true" functionImage="" functionImageSelected="">Horn2</functionlabel>
-      <functionlabel num="23" lockable="true" functionImage="" functionImageSelected="">Track Sounds</functionlabel>
-      <functionlabel num="24" lockable="true" functionImage="" functionImageSelected="">Aux Light Control</functionlabel>
-      <functionlabel num="25" lockable="true" functionImage="" functionImageSelected="">Long Horn</functionlabel>
-      <functionlabel num="26" lockable="true" functionImage="" functionImageSelected="">Play Macro</functionlabel>
-      <functionlabel num="27" lockable="true" functionImage="" functionImageSelected="">Record Macro</functionlabel>
-      <functionlabel num="28" lockable="true" functionImage="" functionImageSelected="">Brake Squeal</functionlabel>
+      <functionlabel num="0" lockable="true" visible="true" functionImage="" functionImageSelected="">Headlight</functionlabel>
+      <functionlabel num="1" lockable="true" visible="true" functionImage="" functionImageSelected="">Bell</functionlabel>
+      <functionlabel num="2" lockable="false" visible="true" functionImage="" functionImageSelected="">Horn</functionlabel>
+      <functionlabel num="3" lockable="true" visible="true" functionImage="" functionImageSelected="">Coupler</functionlabel>
+      <functionlabel num="4" lockable="true" visible="true" functionImage="" functionImageSelected="">Compressor</functionlabel>
+      <functionlabel num="5" lockable="true" visible="true" functionImage="" functionImageSelected="">RPM Up</functionlabel>
+      <functionlabel num="6" lockable="true" visible="true" functionImage="" functionImageSelected="">RPM Dn</functionlabel>
+      <functionlabel num="7" lockable="true" visible="true" functionImage="" functionImageSelected="">Smoke Control</functionlabel>
+      <functionlabel num="8" lockable="true" visible="true" functionImage="" functionImageSelected="">Mute/Master Volume</functionlabel>
+      <functionlabel num="9" lockable="true" visible="true" functionImage="" functionImageSelected="">Shutdown and Startup</functionlabel>
+      <functionlabel num="10" lockable="true" visible="true" functionImage="" functionImageSelected="">Cooling Fan</functionlabel>
+      <functionlabel num="11" lockable="true" visible="true" functionImage="" functionImageSelected="">Air Release</functionlabel>
+      <functionlabel num="12" lockable="true" visible="true" functionImage="" functionImageSelected="">Brake Set/Release/Squeal</functionlabel>
+      <functionlabel num="13" lockable="true" visible="true" functionImage="" functionImageSelected="">Horn Grade Crossing</functionlabel>
+      <functionlabel num="14" lockable="true" visible="true" functionImage="" functionImageSelected="">Station Sounds</functionlabel>
+      <functionlabel num="15" lockable="true" visible="true" functionImage="" functionImageSelected="">Yard Sounds</functionlabel>
+      <functionlabel num="16" lockable="true" visible="true" functionImage="" functionImageSelected="">Maintenance Sounds</functionlabel>
+      <functionlabel num="17" lockable="true" visible="true" functionImage="" functionImageSelected="">Radio Chatter</functionlabel>
+      <functionlabel num="18" lockable="true" visible="true" functionImage="" functionImageSelected="">City Sounds</functionlabel>
+      <functionlabel num="19" lockable="true" visible="true" functionImage="" functionImageSelected="">Farm Sounds</functionlabel>
+      <functionlabel num="20" lockable="true" visible="true" functionImage="" functionImageSelected="">Industrial Sounds</functionlabel>
+      <functionlabel num="21" lockable="true" visible="true" functionImage="" functionImageSelected="">Lumber Sounds</functionlabel>
+      <functionlabel num="22" lockable="true" visible="true" functionImage="" functionImageSelected="">Horn2</functionlabel>
+      <functionlabel num="23" lockable="true" visible="true" functionImage="" functionImageSelected="">Track Sounds</functionlabel>
+      <functionlabel num="24" lockable="true" visible="true" functionImage="" functionImageSelected="">Aux Light Control</functionlabel>
+      <functionlabel num="25" lockable="true" visible="true" functionImage="" functionImageSelected="">Long Horn</functionlabel>
+      <functionlabel num="26" lockable="true" visible="true" functionImage="" functionImageSelected="">Play Macro</functionlabel>
+      <functionlabel num="27" lockable="true" visible="true" functionImage="" functionImageSelected="">Record Macro</functionlabel>
+      <functionlabel num="28" lockable="true" visible="true" functionImage="" functionImageSelected="">Brake Squeal</functionlabel>
     </functionlabels>
     <soundlabels />
+    <attributepairs>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>40 / 20 / 13</value>
+      </keyvaluepair>
+    </attributepairs>
     <values>
       <decoderDef>
         <varValue item="F0 Output Function" value="1" />

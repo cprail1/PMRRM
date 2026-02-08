@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <!--Written by JMRI version 5.8+Rbc21ce2ce7 on Sat Mar 15 12:49:03 PDT 2025-->
-  <locomotive id="BN 6773" fileName="BN_6773.xml" roadNumber="6773" roadName="Burlington Northern" mfg="Athearn" owner="223 Dan Wexler" model="SD40-2" dccAddress="6773" comment="TE: 20 / 13&#xA;No rear light." developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2018-10-06T23:23:22.000+00:00</dateUpdated>
+  <locomotive id="BN 6773" fileName="BN_6773.xml" roadNumber="6773" roadName="Burlington Northern" mfg="Athearn" owner="223 Dan Wexler" model="SD40-2" dccAddress="6773" comment="No rear light." developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T03:58:27.064+00:00</dateUpdated>
     <decoder model="DH126D" family="Economy Series 6 with FX3, silent" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="6773" longaddress="yes" />
@@ -20,6 +20,10 @@
       <keyvaluepair>
         <key>RosterGroup:DW</key>
         <value>yes</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>20 / 13</value>
       </keyvaluepair>
     </attributepairs>
     <values>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <!--Written by JMRI version 4.20+Rc7ba8249b on Sat Mar 27 12:22:31 PDT 2021-->
-  <locomotive id="ATSF 5963" fileName="ATSF_5963.xml" roadNumber="5963" roadName="Atchison, Topeka, and Santa Fe" mfg="Athearn" owner="223 Dan Wexler" model="F45" dccAddress="5963" comment="Do not seperate from ATSF 5501&#xA;Group TE: 44 / 31&#xA;TE: 22 / 15" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2019-11-23T22:31:15.984+0000</dateUpdated>
-    <decoder model="DH126D" family="Economy Series 6 with FX3, silent" comment="" />
+  <locomotive id="ATSF 5963" fileName="ATSF_5963.xml" roadNumber="5963" roadName="Atchison, Topeka, and Santa Fe" mfg="Athearn" owner="223 Dan Wexler" model="F45" dccAddress="5963" comment="Do not seperate from ATSF 5501Group TE: 44 / 31" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T03:58:26.410+00:00</dateUpdated>
+    <decoder model="DH126D" family="Economy Series 6 with FX3, silent" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="5963" longaddress="yes" />
       <number>5963</number>
@@ -20,6 +20,10 @@
       <keyvaluepair>
         <key>RosterGroup:DW</key>
         <value>yes</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>22 / 15</value>
       </keyvaluepair>
     </attributepairs>
     <values>

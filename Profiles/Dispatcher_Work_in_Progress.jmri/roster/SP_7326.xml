@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <!--Written by JMRI version 4.20+Rc7ba8249b on Tue Oct 06 12:06:00 PDT 2020-->
-  <locomotive id="SP 7326" fileName="SP_7326.xml" roadNumber="7326" roadName="Southern Pacific" mfg="Kato" owner="257 Chris Holt" model="SD40" dccAddress="7326" comment="TE: 22 / 18 / 15" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2018-09-02T03:15:19.000+0000</dateUpdated>
-    <decoder model="A6X" family="Jan 2012" comment="" />
+  <locomotive id="SP 7326" fileName="SP_7326.xml" roadNumber="7326" roadName="Southern Pacific" mfg="Kato" owner="257 Chris Holt" model="SD40" dccAddress="7326" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T03:58:33.814+00:00</dateUpdated>
+    <decoder model="A6X" family="Jan 2012" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="7326" longaddress="yes" />
       <number>7326</number>
@@ -16,6 +16,10 @@
       <keyvaluepair>
         <key>RosterGroup:SP</key>
         <value>yes</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>22 / 18 / 15</value>
       </keyvaluepair>
     </attributepairs>
     <values>

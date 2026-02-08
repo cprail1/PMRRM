@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <!--Written by JMRI version 5.12+Rc5bd588235 on Sat Aug 09 12:35:57 PDT 2025-->
-  <locomotive id="PRR 9615" fileName="PRR_9615.xml" roadNumber="9615" roadName="Pennsylvania Railroad" mfg="Bachmann" owner="269 Salvatore Natale" model="FA2" dccAddress="9615" comment="TE: 22, 18, 15" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2023-11-15T20:03:38.907+00:00</dateUpdated>
+  <locomotive id="PRR 9615" fileName="PRR_9615.xml" roadNumber="9615" roadName="Pennsylvania Railroad" mfg="Bachmann" owner="269 Salvatore Natale" model="FA2" dccAddress="9615" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T03:58:31.792+00:00</dateUpdated>
     <decoder model="SDH166D" family="SFX Sound Decoders - Series 6" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="9615" longaddress="yes" />
@@ -11,25 +11,29 @@
       <protocol>dcc_long</protocol>
     </locoaddress>
     <functionlabels>
-      <functionlabel num="0" lockable="true" functionImage="" functionImageSelected="">Lights</functionlabel>
-      <functionlabel num="1" lockable="true" functionImage="" functionImageSelected="">Bell</functionlabel>
-      <functionlabel num="2" lockable="true" functionImage="" functionImageSelected="">Horn/Whistle</functionlabel>
-      <functionlabel num="3" lockable="false" functionImage="" functionImageSelected="">Coupler</functionlabel>
-      <functionlabel num="4" lockable="true" functionImage="" functionImageSelected="">Air feat. disabled</functionlabel>
-      <functionlabel num="5" lockable="true" functionImage="" functionImageSelected="">Dyn. Brakes Fans/Water Pump</functionlabel>
-      <functionlabel num="6" lockable="false" functionImage="" functionImageSelected="">Notch UP/Blowdown</functionlabel>
-      <functionlabel num="7" lockable="false" functionImage="" functionImageSelected="">Xing Gate Airhorn/Notch DOWN/Wheel Slip</functionlabel>
-      <functionlabel num="8" lockable="true" functionImage="" functionImageSelected="">Mute</functionlabel>
-      <functionlabel num="9" lockable="false" functionImage="" functionImageSelected="">Brake squeal</functionlabel>
-      <functionlabel num="10" lockable="false" functionImage="" functionImageSelected="">Xing Gate Airhorn</functionlabel>
-      <functionlabel num="11" lockable="false" functionImage="" functionImageSelected="">Greaser</functionlabel>
-      <functionlabel num="12" lockable="false" functionImage="" functionImageSelected="">Safety Blow off</functionlabel>
+      <functionlabel num="0" lockable="true" visible="true" functionImage="" functionImageSelected="">Lights</functionlabel>
+      <functionlabel num="1" lockable="true" visible="true" functionImage="" functionImageSelected="">Bell</functionlabel>
+      <functionlabel num="2" lockable="true" visible="true" functionImage="" functionImageSelected="">Horn/Whistle</functionlabel>
+      <functionlabel num="3" lockable="false" visible="true" functionImage="" functionImageSelected="">Coupler</functionlabel>
+      <functionlabel num="4" lockable="true" visible="true" functionImage="" functionImageSelected="">Air feat. disabled</functionlabel>
+      <functionlabel num="5" lockable="true" visible="true" functionImage="" functionImageSelected="">Dyn. Brakes Fans/Water Pump</functionlabel>
+      <functionlabel num="6" lockable="false" visible="true" functionImage="" functionImageSelected="">Notch UP/Blowdown</functionlabel>
+      <functionlabel num="7" lockable="false" visible="true" functionImage="" functionImageSelected="">Xing Gate Airhorn/Notch DOWN/Wheel Slip</functionlabel>
+      <functionlabel num="8" lockable="true" visible="true" functionImage="" functionImageSelected="">Mute</functionlabel>
+      <functionlabel num="9" lockable="false" visible="true" functionImage="" functionImageSelected="">Brake squeal</functionlabel>
+      <functionlabel num="10" lockable="false" visible="true" functionImage="" functionImageSelected="">Xing Gate Airhorn</functionlabel>
+      <functionlabel num="11" lockable="false" visible="true" functionImage="" functionImageSelected="">Greaser</functionlabel>
+      <functionlabel num="12" lockable="false" visible="true" functionImage="" functionImageSelected="">Safety Blow off</functionlabel>
     </functionlabels>
     <soundlabels />
     <attributepairs>
       <keyvaluepair>
         <key>RosterGroup:PRR</key>
         <value>yes</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>22, 18, 15</value>
       </keyvaluepair>
     </attributepairs>
     <values>

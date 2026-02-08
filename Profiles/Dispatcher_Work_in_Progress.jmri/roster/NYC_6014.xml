@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <!--Written by JMRI version 4.22+R4c4384d74 on Fri Feb 25 11:29:59 PST 2022-->
-  <locomotive id="NYC 6014" fileName="NYC_6014.xml" roadNumber="6014" roadName="New York Central" mfg="Bachmann" owner="254 Aaron Gold" model="4-8-4 Niagara" dccAddress="6014" comment="TE: 13, 8" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2022-02-25T19:29:59.337+0000</dateUpdated>
+  <locomotive id="NYC 6014" fileName="NYC_6014.xml" roadNumber="6014" roadName="New York Central" mfg="Bachmann" owner="254 Aaron Gold" model="4-8-4 Niagara" dccAddress="6014" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T03:58:31.401+00:00</dateUpdated>
     <decoder model="4 function decoder (36-550)" family="E-Z Command decoders" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="6014" longaddress="yes" />
@@ -16,6 +16,10 @@
       <keyvaluepair>
         <key>RosterGroup:NYC</key>
         <value>yes</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>13, 8</value>
       </keyvaluepair>
     </attributepairs>
     <values>

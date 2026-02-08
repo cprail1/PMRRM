@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <!--Written by JMRI version 4.22+R4c4384d74 on Tue Jun 15 12:24:24 PDT 2021-->
-  <locomotive id="UP 3707" fileName="UP_3707.xml" roadNumber="3707" roadName="Union Pacific" mfg="Athearn" owner="259 Skip Martin" model="4-6-6-4 Challenger" dccAddress="3707" comment="TE: 22 / 18 / 15" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2017-10-23T04:51:13.000+0000</dateUpdated>
+  <locomotive id="UP 3707" fileName="UP_3707.xml" roadNumber="3707" roadName="Union Pacific" mfg="Athearn" owner="259 Skip Martin" model="4-6-6-4 Challenger" dccAddress="3707" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T03:58:35.316+00:00</dateUpdated>
     <decoder model="Challenger 4-6-6-4" family="Tsunami Steam Genesis OEM" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="3707" longaddress="yes" />
@@ -11,19 +11,19 @@
       <protocol>dcc_long</protocol>
     </locoaddress>
     <functionlabels>
-      <functionlabel num="0" lockable="true" functionImage="" functionImageSelected="">Headlight</functionlabel>
-      <functionlabel num="1" lockable="true" functionImage="" functionImageSelected="">Bell</functionlabel>
-      <functionlabel num="2" lockable="false" functionImage="" functionImageSelected="">Whistle</functionlabel>
-      <functionlabel num="3" lockable="true" functionImage="" functionImageSelected="">Short Whistle</functionlabel>
-      <functionlabel num="4" lockable="true" functionImage="" functionImageSelected="">Steam Release</functionlabel>
-      <functionlabel num="5" lockable="true" functionImage="" functionImageSelected="">FX5 Light</functionlabel>
-      <functionlabel num="6" lockable="true" functionImage="" functionImageSelected="">FX6/# Board Light</functionlabel>
-      <functionlabel num="7" lockable="true" functionImage="" functionImageSelected="">Dimmer</functionlabel>
-      <functionlabel num="8" lockable="true" functionImage="" functionImageSelected="">Mute</functionlabel>
-      <functionlabel num="9" lockable="true" functionImage="" functionImageSelected="">Brake Squeal</functionlabel>
-      <functionlabel num="10" lockable="true" functionImage="" functionImageSelected="">Coupler</functionlabel>
-      <functionlabel num="11" lockable="true" functionImage="" functionImageSelected="">Injectors</functionlabel>
-      <functionlabel num="12" lockable="true" functionImage="" functionImageSelected="">Water Stop</functionlabel>
+      <functionlabel num="0" lockable="true" visible="true" functionImage="" functionImageSelected="">Headlight</functionlabel>
+      <functionlabel num="1" lockable="true" visible="true" functionImage="" functionImageSelected="">Bell</functionlabel>
+      <functionlabel num="2" lockable="false" visible="true" functionImage="" functionImageSelected="">Whistle</functionlabel>
+      <functionlabel num="3" lockable="true" visible="true" functionImage="" functionImageSelected="">Short Whistle</functionlabel>
+      <functionlabel num="4" lockable="true" visible="true" functionImage="" functionImageSelected="">Steam Release</functionlabel>
+      <functionlabel num="5" lockable="true" visible="true" functionImage="" functionImageSelected="">FX5 Light</functionlabel>
+      <functionlabel num="6" lockable="true" visible="true" functionImage="" functionImageSelected="">FX6/# Board Light</functionlabel>
+      <functionlabel num="7" lockable="true" visible="true" functionImage="" functionImageSelected="">Dimmer</functionlabel>
+      <functionlabel num="8" lockable="true" visible="true" functionImage="" functionImageSelected="">Mute</functionlabel>
+      <functionlabel num="9" lockable="true" visible="true" functionImage="" functionImageSelected="">Brake Squeal</functionlabel>
+      <functionlabel num="10" lockable="true" visible="true" functionImage="" functionImageSelected="">Coupler</functionlabel>
+      <functionlabel num="11" lockable="true" visible="true" functionImage="" functionImageSelected="">Injectors</functionlabel>
+      <functionlabel num="12" lockable="true" visible="true" functionImage="" functionImageSelected="">Water Stop</functionlabel>
     </functionlabels>
     <soundlabels />
     <attributepairs>
@@ -34,6 +34,10 @@
       <keyvaluepair>
         <key>RosterGroup:UP</key>
         <value>yes</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>22 / 18 / 15</value>
       </keyvaluepair>
     </attributepairs>
     <values>

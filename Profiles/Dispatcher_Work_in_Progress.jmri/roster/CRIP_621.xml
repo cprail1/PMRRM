@@ -1,15 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <!--Written by JMRI version 4.8+Rbe0ff15 on Tue Apr 03 12:55:20 PDT 2018-->
-  <locomotive id="CRIP 621" fileName="RI_621.xml" roadNumber="621" roadName="Rock Island" mfg="Walthers" owner="263 John Finnerty" model="DL109" dccAddress="621" comment="Do not seperate from RI 623&#xA;TE: 24 / 20 / 16&#xA;Group TE: 52 / 45 / 38" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2018-04-03T19:55:20Z</dateUpdated>
-    <decoder model="A4X" family="Jan 2012" comment="" />
+  <locomotive id="CRIP 621" fileName="CRIP_621.xml" roadNumber="621" roadName="Rock Island" mfg="Walthers" owner="263 John Finnerty" model="DL109" dccAddress="621" comment="Do not seperate from RI 623Group TE: 52 / 45 / 38" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T03:58:29.128+00:00</dateUpdated>
+    <decoder model="A4X" family="Jan 2012" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="621" longaddress="yes" />
       <number>621</number>
       <protocol>dcc_long</protocol>
     </locoaddress>
+    <functionlabels />
+    <soundlabels />
+    <attributepairs>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>24 / 20 / 16</value>
+      </keyvaluepair>
+    </attributepairs>
     <values>
       <decoderDef>
         <varValue item="Version ID" value="0" />
@@ -322,5 +330,4 @@
       <CVvalue name="252" value="0" />
     </values>
   </locomotive>
-  <!--Written by JMRI version 4.12+Rb6a9bb1 on Wed Oct 10 14:15:58 PDT 2018-->
 </locomotive-config>

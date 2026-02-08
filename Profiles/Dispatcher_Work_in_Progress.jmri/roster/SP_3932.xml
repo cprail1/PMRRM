@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <!--Written by JMRI version 5.8+Rbc21ce2ce7 on Sat Mar 15 12:55:58 PDT 2025-->
-  <locomotive id="SP 3932" fileName="SP_3932.xml" roadNumber="3932" roadName="Southern Pacific" mfg="Mantua" owner="190 Brian Neely" model="2-6-6-2 Mallet" dccAddress="3" comment="TE 25 / 6" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2022-03-27T00:25:29.940+00:00</dateUpdated>
+  <locomotive id="SP 3932" fileName="SP_3932.xml" roadNumber="3932" roadName="Southern Pacific" mfg="Mantua" owner="190 Brian Neely" model="2-6-6-2 Mallet" dccAddress="3" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T03:58:32.696+00:00</dateUpdated>
     <decoder model="1911 - HO Scale - Steam Universal" family="Sound Decoders" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="3" longaddress="no" />
@@ -11,41 +11,45 @@
       <protocol>dcc_short</protocol>
     </locoaddress>
     <functionlabels>
-      <functionlabel num="0" lockable="true" functionImage="" functionImageSelected="">Headlight</functionlabel>
-      <functionlabel num="1" lockable="true" functionImage="" functionImageSelected="">Bell</functionlabel>
-      <functionlabel num="2" lockable="false" functionImage="" functionImageSelected="">Whistle</functionlabel>
-      <functionlabel num="3" lockable="false" functionImage="" functionImageSelected="">Acces. lights/Air release</functionlabel>
-      <functionlabel num="4" lockable="false" functionImage="" functionImageSelected="">Coupling</functionlabel>
-      <functionlabel num="5" lockable="false" functionImage="" functionImageSelected="">Brake squeal/release</functionlabel>
-      <functionlabel num="6" lockable="true" functionImage="" functionImageSelected="">Chuff sound on/off</functionlabel>
-      <functionlabel num="7" lockable="false" functionImage="" functionImageSelected="">Fire box</functionlabel>
-      <functionlabel num="8" lockable="false" functionImage="" functionImageSelected="">Water injector</functionlabel>
-      <functionlabel num="9" lockable="false" functionImage="" functionImageSelected="">Metal crank/Steam</functionlabel>
-      <functionlabel num="10" lockable="false" functionImage="" functionImageSelected="">Water filling</functionlabel>
-      <functionlabel num="11" lockable="false" functionImage="" functionImageSelected="">Blower hiss</functionlabel>
-      <functionlabel num="12" lockable="true" functionImage="" functionImageSelected="">All sounds on/off</functionlabel>
-      <functionlabel num="13" lockable="false" functionImage="" functionImageSelected="">Master vol. reduce by 2</functionlabel>
-      <functionlabel num="14" lockable="false" functionImage="" functionImageSelected="">Master vol. increase by 2</functionlabel>
-      <functionlabel num="15" lockable="false" functionImage="" functionImageSelected="">Flange noise</functionlabel>
-      <functionlabel num="16" lockable="false" functionImage="" functionImageSelected="">Shoveling</functionlabel>
-      <functionlabel num="17" lockable="false" functionImage="" functionImageSelected="">Coal auger</functionlabel>
-      <functionlabel num="18" lockable="false" functionImage="" functionImageSelected="">Bell type select</functionlabel>
-      <functionlabel num="19" lockable="false" functionImage="" functionImageSelected="">Whistle type select</functionlabel>
-      <functionlabel num="20" lockable="false" functionImage="" functionImageSelected="">Air hose firing/uncoupling lever</functionlabel>
-      <functionlabel num="21" lockable="false" functionImage="" functionImageSelected="">Flange noise</functionlabel>
-      <functionlabel num="22" lockable="false" functionImage="" functionImageSelected="">Associated loco sound</functionlabel>
-      <functionlabel num="23" lockable="false" functionImage="" functionImageSelected="">Flange noise</functionlabel>
-      <functionlabel num="24" lockable="false" functionImage="" functionImageSelected="">Chuff type select</functionlabel>
-      <functionlabel num="25" lockable="false" functionImage="" functionImageSelected="">Long air release</functionlabel>
-      <functionlabel num="26" lockable="false" functionImage="" functionImageSelected="">Sand dropping</functionlabel>
-      <functionlabel num="27" lockable="false" functionImage="" functionImageSelected="">Associated loco sound</functionlabel>
-      <functionlabel num="28" lockable="false" functionImage="" functionImageSelected="">Associated loco sound</functionlabel>
+      <functionlabel num="0" lockable="true" visible="true" functionImage="" functionImageSelected="">Headlight</functionlabel>
+      <functionlabel num="1" lockable="true" visible="true" functionImage="" functionImageSelected="">Bell</functionlabel>
+      <functionlabel num="2" lockable="false" visible="true" functionImage="" functionImageSelected="">Whistle</functionlabel>
+      <functionlabel num="3" lockable="false" visible="true" functionImage="" functionImageSelected="">Acces. lights/Air release</functionlabel>
+      <functionlabel num="4" lockable="false" visible="true" functionImage="" functionImageSelected="">Coupling</functionlabel>
+      <functionlabel num="5" lockable="false" visible="true" functionImage="" functionImageSelected="">Brake squeal/release</functionlabel>
+      <functionlabel num="6" lockable="true" visible="true" functionImage="" functionImageSelected="">Chuff sound on/off</functionlabel>
+      <functionlabel num="7" lockable="false" visible="true" functionImage="" functionImageSelected="">Fire box</functionlabel>
+      <functionlabel num="8" lockable="false" visible="true" functionImage="" functionImageSelected="">Water injector</functionlabel>
+      <functionlabel num="9" lockable="false" visible="true" functionImage="" functionImageSelected="">Metal crank/Steam</functionlabel>
+      <functionlabel num="10" lockable="false" visible="true" functionImage="" functionImageSelected="">Water filling</functionlabel>
+      <functionlabel num="11" lockable="false" visible="true" functionImage="" functionImageSelected="">Blower hiss</functionlabel>
+      <functionlabel num="12" lockable="true" visible="true" functionImage="" functionImageSelected="">All sounds on/off</functionlabel>
+      <functionlabel num="13" lockable="false" visible="true" functionImage="" functionImageSelected="">Master vol. reduce by 2</functionlabel>
+      <functionlabel num="14" lockable="false" visible="true" functionImage="" functionImageSelected="">Master vol. increase by 2</functionlabel>
+      <functionlabel num="15" lockable="false" visible="true" functionImage="" functionImageSelected="">Flange noise</functionlabel>
+      <functionlabel num="16" lockable="false" visible="true" functionImage="" functionImageSelected="">Shoveling</functionlabel>
+      <functionlabel num="17" lockable="false" visible="true" functionImage="" functionImageSelected="">Coal auger</functionlabel>
+      <functionlabel num="18" lockable="false" visible="true" functionImage="" functionImageSelected="">Bell type select</functionlabel>
+      <functionlabel num="19" lockable="false" visible="true" functionImage="" functionImageSelected="">Whistle type select</functionlabel>
+      <functionlabel num="20" lockable="false" visible="true" functionImage="" functionImageSelected="">Air hose firing/uncoupling lever</functionlabel>
+      <functionlabel num="21" lockable="false" visible="true" functionImage="" functionImageSelected="">Flange noise</functionlabel>
+      <functionlabel num="22" lockable="false" visible="true" functionImage="" functionImageSelected="">Associated loco sound</functionlabel>
+      <functionlabel num="23" lockable="false" visible="true" functionImage="" functionImageSelected="">Flange noise</functionlabel>
+      <functionlabel num="24" lockable="false" visible="true" functionImage="" functionImageSelected="">Chuff type select</functionlabel>
+      <functionlabel num="25" lockable="false" visible="true" functionImage="" functionImageSelected="">Long air release</functionlabel>
+      <functionlabel num="26" lockable="false" visible="true" functionImage="" functionImageSelected="">Sand dropping</functionlabel>
+      <functionlabel num="27" lockable="false" visible="true" functionImage="" functionImageSelected="">Associated loco sound</functionlabel>
+      <functionlabel num="28" lockable="false" visible="true" functionImage="" functionImageSelected="">Associated loco sound</functionlabel>
     </functionlabels>
     <soundlabels />
     <attributepairs>
       <keyvaluepair>
         <key>RosterGroup:SP</key>
         <value>yes</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>25 / 6</value>
       </keyvaluepair>
     </attributepairs>
     <values>

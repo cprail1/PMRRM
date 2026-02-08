@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <!--Written by JMRI version 4.20+Rc7ba8249b on Tue Oct 06 12:10:14 PDT 2020-->
-  <locomotive id="PC 6510" fileName="PC_6510.xml" roadNumber="6510" roadName="Penn Central" mfg="Rivarossi" owner="254 Aaron Gold" model="U25C" dccAddress="6510" comment="TE 51 / 26 / 18" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2018-09-11T22:12:25.000+0000</dateUpdated>
-    <decoder model="LokPilot Standard V1.0" family="ESU LokPilot Standard V1.0" comment="" />
+  <locomotive id="PC 6510" fileName="PC_6510.xml" roadNumber="6510" roadName="Penn Central" mfg="Rivarossi" owner="254 Aaron Gold" model="U25C" dccAddress="6510" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T03:58:31.693+00:00</dateUpdated>
+    <decoder model="LokPilot Standard V1.0" family="ESU LokPilot Standard V1.0" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="6510" longaddress="yes" />
       <number>6510</number>
@@ -16,6 +16,10 @@
       <keyvaluepair>
         <key>RosterGroup:PC</key>
         <value>yes</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>51 / 26 / 18</value>
       </keyvaluepair>
     </attributepairs>
     <values>

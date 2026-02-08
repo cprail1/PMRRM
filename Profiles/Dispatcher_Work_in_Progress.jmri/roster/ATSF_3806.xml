@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
-<locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <!--Written by JMRI version 5.4+R9005ecb4ac on Sat Aug 26 13:31:25 PDT 2023-->
-  <locomotive id="ATSF 3806" fileName="ATSF_3806.xml" roadNumber="3806" roadName="Atchison, Topeka, and Santa Fe" mfg="Athearn" owner="214 Don Philpott" model="GP40X" dccAddress="3806" comment="TE 54 / 20" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2023-08-26T20:31:25.485+00:00</dateUpdated>
+<locomotive-config>
+  <locomotive id="ATSF 3806" fileName="ATSF_3806.xml" roadNumber="3806" roadName="Atchison, Topeka, and Santa Fe" mfg="Athearn" owner="214 Don Philpott" model="GP40X" dccAddress="3806" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T03:58:25.762+00:00</dateUpdated>
     <decoder model="WOW Diesel 101 SS4" family="WOW Diesel Sound Set 4" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="3806" longaddress="yes" />
@@ -11,27 +11,33 @@
       <protocol>dcc_long</protocol>
     </locoaddress>
     <functionlabels>
-      <functionlabel num="0" lockable="true" functionImage="" functionImageSelected="">Headlight</functionlabel>
-      <functionlabel num="1" lockable="true" functionImage="" functionImageSelected="">Bell</functionlabel>
-      <functionlabel num="2" lockable="false" functionImage="" functionImageSelected="">Horn Long</functionlabel>
-      <functionlabel num="3" lockable="true" functionImage="" functionImageSelected="">Horn Short</functionlabel>
-      <functionlabel num="4" lockable="true" functionImage="" functionImageSelected="">Horn Quill</functionlabel>
-      <functionlabel num="5" lockable="true" functionImage="" functionImageSelected="">Dynamic Brake</functionlabel>
-      <functionlabel num="6" lockable="true" functionImage="" functionImageSelected="">Brake Release</functionlabel>
-      <functionlabel num="7" lockable="true" functionImage="" functionImageSelected="">Train Brake</functionlabel>
-      <functionlabel num="8" lockable="true" functionImage="" functionImageSelected="">Mute</functionlabel>
-      <functionlabel num="9" lockable="true" functionImage="" functionImageSelected="">Rotate Horn/Bell</functionlabel>
-      <functionlabel num="10" lockable="true" functionImage="" functionImageSelected="">Manual Notch Up</functionlabel>
-      <functionlabel num="11" lockable="true" functionImage="" functionImageSelected="">Manual Notch Down</functionlabel>
-      <functionlabel num="12" lockable="true" functionImage="" functionImageSelected="">Prime Mover</functionlabel>
-      <functionlabel num="13" lockable="true" functionImage="" functionImageSelected="">Coupling</functionlabel>
-      <functionlabel num="14" lockable="true" functionImage="" functionImageSelected="">Uncoupling</functionlabel>
-      <functionlabel num="15" lockable="true" functionImage="" functionImageSelected="">Mainline/Switching Momentum</functionlabel>
-      <functionlabel num="16" lockable="true" functionImage="" functionImageSelected="">Crew Alert</functionlabel>
-      <functionlabel num="17" lockable="true" functionImage="" functionImageSelected="">Windshield Wipers</functionlabel>
-      <functionlabel num="18" lockable="true" functionImage="" functionImageSelected="">Air Spitter</functionlabel>
+      <functionlabel num="0" lockable="true" visible="true" functionImage="" functionImageSelected="">Headlight</functionlabel>
+      <functionlabel num="1" lockable="true" visible="true" functionImage="" functionImageSelected="">Bell</functionlabel>
+      <functionlabel num="2" lockable="false" visible="true" functionImage="" functionImageSelected="">Horn Long</functionlabel>
+      <functionlabel num="3" lockable="true" visible="true" functionImage="" functionImageSelected="">Horn Short</functionlabel>
+      <functionlabel num="4" lockable="true" visible="true" functionImage="" functionImageSelected="">Horn Quill</functionlabel>
+      <functionlabel num="5" lockable="true" visible="true" functionImage="" functionImageSelected="">Dynamic Brake</functionlabel>
+      <functionlabel num="6" lockable="true" visible="true" functionImage="" functionImageSelected="">Brake Release</functionlabel>
+      <functionlabel num="7" lockable="true" visible="true" functionImage="" functionImageSelected="">Train Brake</functionlabel>
+      <functionlabel num="8" lockable="true" visible="true" functionImage="" functionImageSelected="">Mute</functionlabel>
+      <functionlabel num="9" lockable="true" visible="true" functionImage="" functionImageSelected="">Rotate Horn/Bell</functionlabel>
+      <functionlabel num="10" lockable="true" visible="true" functionImage="" functionImageSelected="">Manual Notch Up</functionlabel>
+      <functionlabel num="11" lockable="true" visible="true" functionImage="" functionImageSelected="">Manual Notch Down</functionlabel>
+      <functionlabel num="12" lockable="true" visible="true" functionImage="" functionImageSelected="">Prime Mover</functionlabel>
+      <functionlabel num="13" lockable="true" visible="true" functionImage="" functionImageSelected="">Coupling</functionlabel>
+      <functionlabel num="14" lockable="true" visible="true" functionImage="" functionImageSelected="">Uncoupling</functionlabel>
+      <functionlabel num="15" lockable="true" visible="true" functionImage="" functionImageSelected="">Mainline/Switching Momentum</functionlabel>
+      <functionlabel num="16" lockable="true" visible="true" functionImage="" functionImageSelected="">Crew Alert</functionlabel>
+      <functionlabel num="17" lockable="true" visible="true" functionImage="" functionImageSelected="">Windshield Wipers</functionlabel>
+      <functionlabel num="18" lockable="true" visible="true" functionImage="" functionImageSelected="">Air Spitter</functionlabel>
     </functionlabels>
     <soundlabels />
+    <attributepairs>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>54 / 20</value>
+      </keyvaluepair>
+    </attributepairs>
     <values>
       <decoderDef>
         <varValue item="Sound Option 3" value="4" />
