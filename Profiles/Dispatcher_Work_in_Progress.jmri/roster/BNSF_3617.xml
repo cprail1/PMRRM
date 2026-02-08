@@ -2,8 +2,8 @@
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="BNSF 3617" fileName="BNSF_3617.xml" roadNumber="3617" roadName="BNSF" mfg="AThearn" owner="Cameron Threats" model="sw1000" dccAddress="3617" comment="" developerID="-1" manufacturerID="141" productID="2076" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
-    <dateUpdated>2026-02-08T03:58:27.280+00:00</dateUpdated>
+  <locomotive id="BNSF 3617" fileName="BNSF_3617.xml" roadNumber="3617" roadName="BNSF Railway" mfg="AThearn" owner="Cameron Threats" model="sw1000" dccAddress="3617" comment="" developerID="-1" manufacturerID="141" productID="2076" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T05:35:15.868+00:00</dateUpdated>
     <decoder model="TSU-21PNEM EMD Diesels" family="Tsunami2 Diesel" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="3617" longaddress="yes" />
@@ -45,6 +45,22 @@
       <keyvaluepair>
         <key>TE</key>
         <value />
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>physicsMaxSpeedUnit</key>
+        <value>KMH</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>physicsPowerUnit</key>
+        <value>KW</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>physicsTractiveEffortUnit</key>
+        <value>KN</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>physicsWeightUnit</key>
+        <value>T</value>
       </keyvaluepair>
     </attributepairs>
     <values>

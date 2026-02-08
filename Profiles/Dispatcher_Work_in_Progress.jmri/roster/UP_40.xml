@@ -2,8 +2,8 @@
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="UP 40" fileName="UP_40.xml" roadNumber="40" roadName="Union Pacific" mfg="Suydam" owner="259 Skip Martin" model="Gas Electric" dccAddress="41" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
-    <dateUpdated>2026-02-08T03:58:35.396+00:00</dateUpdated>
+  <locomotive id="UP 40" fileName="UP_40.xml" roadNumber="40" roadName="Union Pacific" mfg="Suydam" owner="259 Skip Martin" model="Gas Electric" dccAddress="41" comment="N/A - only pulls one car, do Not use to haul anything else except UP heavyweight passenger car." developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T05:55:49.698+00:00</dateUpdated>
     <decoder model="ECO-100 Diesel" family="Econami Diesel" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="41" longaddress="no" />
@@ -38,10 +38,6 @@
       <keyvaluepair>
         <key>RosterGroup:UP</key>
         <value>yes</value>
-      </keyvaluepair>
-      <keyvaluepair>
-        <key>TE</key>
-        <value>N/A - only pulls one car, do Not use to haul anything else except UP heavyweight passenger car.</value>
       </keyvaluepair>
     </attributepairs>
     <values>

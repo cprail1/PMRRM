@@ -148,8 +148,8 @@
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="AMT 324" fileName="AMT_324.xml" roadNumber="324" roadName="Amtrak" mfg="Rapido" owner="271 Michael Gibilterra" model="E8" dccAddress="324" comment="54, 24, 20" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
-      <dateUpdated>2023-11-15T20:12:13.413+00:00</dateUpdated>
+    <locomotive id="AMT 324" fileName="AMT_324.xml" roadNumber="324" roadName="Amtrak" mfg="Rapido" owner="271 Michael Gibilterra" model="E8" dccAddress="324" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+      <dateUpdated>2026-02-08T05:37:42.569+00:00</dateUpdated>
       <decoder model="LokSound 5" family="ESU LokSound 5" comment="" maxFnNum="31" />
       <locoaddress>
         <dcclocoaddress number="324" longaddress="yes" />
@@ -165,6 +165,12 @@
         <soundlabel num="33">Automatic brake sound</soundlabel>
         <soundlabel num="34">Gear shift sound</soundlabel>
       </soundlabels>
+      <attributepairs>
+        <keyvaluepair>
+          <key>TE</key>
+          <value>54, 24, 20</value>
+        </keyvaluepair>
+      </attributepairs>
     </locomotive>
     <locomotive id="AMT 339" fileName="AMT_339.xml" roadNumber="339" roadName="Amtrak" mfg="Walthers" owner="254 Aaron Gold" model="F40PH" dccAddress="339" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
       <dateUpdated>2026-02-08T03:58:25.139+00:00</dateUpdated>
@@ -187,8 +193,8 @@
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="AMT 4316" fileName="AMT_4316.xml" roadNumber="4316" roadName="Amtrak" mfg="Rapido" owner="271 Michael Gibilterra" model="E8" dccAddress="4316" comment="54, 24, 20" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
-      <dateUpdated>2024-12-14T22:57:12.545+00:00</dateUpdated>
+    <locomotive id="AMT 4316" fileName="AMT_4316.xml" roadNumber="4316" roadName="Amtrak" mfg="Rapido" owner="271 Michael Gibilterra" model="E8" dccAddress="4316" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+      <dateUpdated>2026-02-08T05:37:33.678+00:00</dateUpdated>
       <decoder model="LokSound 5" family="ESU LokSound 5" comment="" maxFnNum="31" />
       <locoaddress>
         <dcclocoaddress number="4316" longaddress="yes" />
@@ -204,6 +210,12 @@
         <soundlabel num="33">Automatic brake sound</soundlabel>
         <soundlabel num="34">Gear shift sound</soundlabel>
       </soundlabels>
+      <attributepairs>
+        <keyvaluepair>
+          <key>TE</key>
+          <value>54, 24, 20</value>
+        </keyvaluepair>
+      </attributepairs>
     </locomotive>
     <locomotive id="AMT 4316_2" fileName="AMT_4316_2.xml" roadNumber="4316" roadName="Amtrak" mfg="Rapido" owner="J270 Matthew J Zepeda" model="E8" dccAddress="4316" comment="" developerID="-1" manufacturerID="151" productID="33554588,33554680,33554651" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
       <dateUpdated>2024-12-14T22:56:48.650+00:00</dateUpdated>
@@ -913,8 +925,8 @@
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="ATSF 147" fileName="ATSF_147.xml" roadNumber="147" roadName="Atchison, Topeka, and Santa Fe" mfg="Fox Valley" owner="190 Brian Neely" model="GP60" dccAddress="147" comment="Do not separate from ATSF 331 and ATSF 345&lt;?p?&gt;Group TE: 48 / 41 / 35&lt;?p?&gt;Unit TE: 17 / 14 / 12&lt;?p?&gt;2 unit TE: 31 / 26 / 21" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
-      <dateUpdated>2017-10-07T20:07:23.000+00:00</dateUpdated>
+    <locomotive id="ATSF 147" fileName="ATSF_147.xml" roadNumber="147" roadName="Atchison, Topeka, and Santa Fe" mfg="Fox Valley" owner="190 Brian Neely" model="GP60" dccAddress="147" comment="Do not separate from ATSF 331 and ATSF 345 Group TE: 48 / 41 / 35 Unit TE: 17 / 14 / 12 2 unit TE: 31 / 26 / 21" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+      <dateUpdated>2026-02-08T05:37:45.189+00:00</dateUpdated>
       <decoder model="LokSound Select OEM" family="ESU LokSound Select" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="147" longaddress="yes" />
@@ -1118,8 +1130,8 @@
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="ATSF 200A" fileName="ATSF_200A.xml" roadNumber="200A" roadName="Atchison, Topeka, and Santa Fe" mfg="Stewart" owner="223 Dan Wexler" model="F7B" dccAddress="200" comment="Do not separate from ATSF 200L, ATSF 200B, ATSF 200C.&lt;?p?&gt;Group TE: 74 / 64 / 54&lt;?p?&gt;Unit TE: 22 / 18 / 15" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
-      <dateUpdated>2018-09-11T22:20:08.000+00:00</dateUpdated>
+    <locomotive id="ATSF 200A" fileName="ATSF_200A.xml" roadNumber="200A" roadName="Atchison, Topeka, and Santa Fe" mfg="Stewart" owner="223 Dan Wexler" model="F7B" dccAddress="200" comment="Do not separate from ATSF 200L, ATSF 200B, ATSF 200C. Group TE: 74 / 64 / 54 Unit TE: 22 / 18 / 15" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+      <dateUpdated>2026-02-08T05:38:15.243+00:00</dateUpdated>
       <decoder model="DA-SR" family="Silent Running w/ Torque Compensation" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="200" longaddress="yes" />
@@ -1136,11 +1148,15 @@
         <keyvaluepair>
           <key>RosterGroup:DW</key>
           <value>yes</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>TE</key>
+          <value>Group TE: 74 / 64 / 54</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="ATSF 200B" fileName="ATSF_200B.xml" roadNumber="200 B" roadName="Atchison, Topeka, and Santa Fe" mfg="ATG" owner="223 Dan Wexler" model="F3 B" dccAddress="200" comment="Do not separate from ATSF 200L, ATSF 200B, ATSF 200C.&lt;?p?&gt;Group TE: 74 / 64 / 54&lt;?p?&gt;Unit TE: 22 / 18 / 15" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
-      <dateUpdated>2023-11-15T20:26:42.810+00:00</dateUpdated>
+    <locomotive id="ATSF 200B" fileName="ATSF_200B.xml" roadNumber="200 B" roadName="Atchison, Topeka, and Santa Fe" mfg="ATG" owner="223 Dan Wexler" model="F3 B" dccAddress="200" comment="Do not separate from ATSF 200L, ATSF 200B, ATSF 200C. Group TE: 74 / 64 / 54 Unit TE: 22 / 18 / 15" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+      <dateUpdated>2026-02-08T05:38:33.279+00:00</dateUpdated>
       <decoder model="DA-SR" family="Silent Running w/ Torque Compensation" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="200" longaddress="yes" />
@@ -1157,11 +1173,27 @@
         <keyvaluepair>
           <key>RosterGroup:DW</key>
           <value>yes</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>physicsMaxSpeedUnit</key>
+          <value>KMH</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>physicsPowerUnit</key>
+          <value>KW</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>physicsTractiveEffortUnit</key>
+          <value>KN</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>physicsWeightUnit</key>
+          <value>T</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
     <locomotive id="ATSF 200C" fileName="ATSF_200C.xml" roadNumber="200C" roadName="Atchison, Topeka, and Santa Fe" mfg="Stewert" owner="223 Dan Wexler" model="F3B" dccAddress="200" comment="Do not separate from ATSF 200L, ATSF 200A, ATSF 200B.&lt;?p?&gt;Group TE: 74 / 64 / 54&lt;?p?&gt;Unit TE: 22 / 18 / 15" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
-      <dateUpdated>2018-09-11T22:19:05.000+00:00</dateUpdated>
+      <dateUpdated>2026-02-08T05:50:46.487+00:00</dateUpdated>
       <decoder model="DA-SR" family="Silent Running w/ Torque Compensation" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="200" longaddress="yes" />
@@ -1178,11 +1210,15 @@
         <keyvaluepair>
           <key>RosterGroup:DW</key>
           <value>yes</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>TE</key>
+          <value>Group TE: 74 / 64 / 54 Unit TE: 22 / 18 / 15</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="ATSF 200L" fileName="ATSF_200L.xml" roadNumber="200" roadName="Atchison, Topeka, and Santa Fe" mfg="ATG" owner="223 Dan Wexler" model="F3A" dccAddress="200" comment="Do not separate from ATSF 200A, ATSF 200B, ATSF 200C.&lt;?p?&gt;Group TE: 74 / 64 / 54&lt;?p?&gt;Unit TE: 22 / 18 / 15" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
-      <dateUpdated>2023-11-15T20:26:52.493+00:00</dateUpdated>
+    <locomotive id="ATSF 200L" fileName="ATSF_200L.xml" roadNumber="200" roadName="Atchison, Topeka, and Santa Fe" mfg="ATG" owner="223 Dan Wexler" model="F3A" dccAddress="200" comment="Do not separate from ATSF 200A, ATSF 200B, ATSF 200C. Group TE: 74 / 64 / 54 Unit TE: 22 / 18 / 15" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+      <dateUpdated>2026-02-08T05:50:38.056+00:00</dateUpdated>
       <decoder model="DA-SR" family="Silent Running w/ Torque Compensation" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="200" longaddress="yes" />
@@ -1199,6 +1235,10 @@
         <keyvaluepair>
           <key>RosterGroup:DW</key>
           <value>yes</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>TE</key>
+          <value>Group TE: 74 / 64 / 54 Unit TE: 22 / 18 / 15</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
@@ -2924,8 +2964,8 @@
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="ATSF 345" fileName="ATSF_345.xml" roadNumber="345" roadName="Atchison, Topeka, and Santa Fe" mfg="Fox Valley" owner="190 Brian Neely" model="GP60B" dccAddress="147" comment="Do not separate from ATSF 147 and ATSF 331.&lt;?p?&gt;Group TE: 48 / 41 / 35&lt;?p?&gt;Unit TE: 17 / 14 / 12&lt;?p?&gt;2 unit TE: 31 / 26 / 21" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
-      <dateUpdated>2017-10-07T20:07:15.000+00:00</dateUpdated>
+    <locomotive id="ATSF 345" fileName="ATSF_345.xml" roadNumber="345" roadName="Atchison, Topeka, and Santa Fe" mfg="Fox Valley" owner="190 Brian Neely" model="GP60B" dccAddress="147" comment="Do not separate from ATSF 147 and ATSF 331. Group TE: 48 / 41 / 35 Unit TE: 17 / 14 / 12 2 unit TE: 31 / 26 / 21" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+      <dateUpdated>2026-02-08T05:45:25.617+00:00</dateUpdated>
       <decoder model="LokSound Select OEM" family="ESU LokSound Select" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="147" longaddress="yes" />
@@ -2938,6 +2978,26 @@
         <keyvaluepair>
           <key>RosterGroup:ATSF</key>
           <value>yes</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>TE</key>
+          <value>Group TE: 48 / 41 / 35 Unit TE: 17 / 14 / 12 2 unit TE: 31 / 26 / 21</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>physicsMaxSpeedUnit</key>
+          <value>KMH</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>physicsPowerUnit</key>
+          <value>KW</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>physicsTractiveEffortUnit</key>
+          <value>KN</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>physicsWeightUnit</key>
+          <value>T</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
@@ -3806,6 +3866,22 @@
         <keyvaluepair>
           <key>TE</key>
           <value>20 / 13</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>physicsMaxSpeedUnit</key>
+          <value>KMH</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>physicsPowerUnit</key>
+          <value>KW</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>physicsTractiveEffortUnit</key>
+          <value>KN</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>physicsWeightUnit</key>
+          <value>T</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
@@ -4778,8 +4854,8 @@
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="ATSF 701" fileName="ATSF_701.xml" roadNumber="701" roadName="Atchison, Topeka, and Santa Fe" mfg="Athearn" owner="209 Bruce Bloch" model="GP9" dccAddress="2855" comment="Do not separate from ATSF 2855.&lt;?p?&gt;Group TE: 24 / 20 / 16&lt;?p?&gt;Unit TE: 13 / 10 / 8" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
-      <dateUpdated>2017-10-25T00:22:26.000+00:00</dateUpdated>
+    <locomotive id="ATSF 701" fileName="ATSF_701.xml" roadNumber="701" roadName="Atchison, Topeka, and Santa Fe" mfg="Athearn" owner="209 Bruce Bloch" model="GP9" dccAddress="2855" comment="Do not separate from ATSF 2855. Group TE: 24 / 20 / 16 Unit TE: 13 / 10 / 8" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+      <dateUpdated>2026-02-08T05:52:51.816+00:00</dateUpdated>
       <decoder model="GP9" family="Tsunami Diesel Genesis OEM" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="2855" longaddress="yes" />
@@ -5001,7 +5077,7 @@
       </attributepairs>
     </locomotive>
     <locomotive id="ATSF 8" fileName="ATSF_8.xml" roadNumber="8" roadName="Atchison, Topeka, and Santa Fe" mfg="Broadway Limited" owner="223 Dan Wexler" model="E1" dccAddress="3" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
-      <dateUpdated>2017-10-07T20:06:59.000+00:00</dateUpdated>
+      <dateUpdated>2026-02-08T05:34:14.165+00:00</dateUpdated>
       <decoder model="Rolling Thunder" family="Paragon 3" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="3" longaddress="no" />
@@ -7087,8 +7163,8 @@
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="BNSF 3609" fileName="BNSF_3609.xml" roadNumber="3609" roadName="BNSF" mfg="ATHEARN" owner="CAMERON THREATS" model="SW1000" dccAddress="3609" comment="" developerID="-1" manufacturerID="141" productID="2076" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
-      <dateUpdated>2026-02-08T03:58:27.269+00:00</dateUpdated>
+    <locomotive id="BNSF 3609" fileName="BNSF_3609.xml" roadNumber="3609" roadName="BNSF Railway" mfg="ATHEARN" owner="CAMERON THREATS" model="SW1000" dccAddress="3609" comment="" developerID="-1" manufacturerID="141" productID="2076" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+      <dateUpdated>2026-02-08T05:35:28.120+00:00</dateUpdated>
       <decoder model="TSU-21PNEM EMD Diesels" family="Tsunami2 Diesel" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="3609" longaddress="yes" />
@@ -7131,10 +7207,26 @@
           <key>TE</key>
           <value />
         </keyvaluepair>
+        <keyvaluepair>
+          <key>physicsMaxSpeedUnit</key>
+          <value>KMH</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>physicsPowerUnit</key>
+          <value>KW</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>physicsTractiveEffortUnit</key>
+          <value>KN</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>physicsWeightUnit</key>
+          <value>T</value>
+        </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="BNSF 3617" fileName="BNSF_3617.xml" roadNumber="3617" roadName="BNSF" mfg="AThearn" owner="Cameron Threats" model="sw1000" dccAddress="3617" comment="" developerID="-1" manufacturerID="141" productID="2076" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
-      <dateUpdated>2026-02-08T03:58:27.280+00:00</dateUpdated>
+    <locomotive id="BNSF 3617" fileName="BNSF_3617.xml" roadNumber="3617" roadName="BNSF Railway" mfg="AThearn" owner="Cameron Threats" model="sw1000" dccAddress="3617" comment="" developerID="-1" manufacturerID="141" productID="2076" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+      <dateUpdated>2026-02-08T05:35:15.868+00:00</dateUpdated>
       <decoder model="TSU-21PNEM EMD Diesels" family="Tsunami2 Diesel" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="3617" longaddress="yes" />
@@ -7177,6 +7269,22 @@
           <key>TE</key>
           <value />
         </keyvaluepair>
+        <keyvaluepair>
+          <key>physicsMaxSpeedUnit</key>
+          <value>KMH</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>physicsPowerUnit</key>
+          <value>KW</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>physicsTractiveEffortUnit</key>
+          <value>KN</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>physicsWeightUnit</key>
+          <value>T</value>
+        </keyvaluepair>
       </attributepairs>
     </locomotive>
     <locomotive id="BNSF 3682" fileName="BNSF_3682.xml" roadNumber="3682" roadName="BNSF Railway" mfg="Scaletrains.com" owner="267 Adam Delia" model="ET44C4" dccAddress="3682" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
@@ -7203,8 +7311,8 @@
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="BNSF 3723" fileName="BNSF_3723.xml" roadNumber="3723" roadName="Burlington Northern &amp; Santa Fe" mfg="Intermountain" owner="J270 Matthew J Zepeda" model="ES44AC" dccAddress="3723" comment="" developerID="-1" manufacturerID="151" productID="33554588,33554680,33554651" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
-      <dateUpdated>2026-02-08T03:58:27.317+00:00</dateUpdated>
+    <locomotive id="BNSF 3723" fileName="BNSF_3723.xml" roadNumber="3723" roadName="BNSF Railway" mfg="Intermountain" owner="J270 Matthew J Zepeda" model="ES44AC" dccAddress="3723" comment="" developerID="-1" manufacturerID="151" productID="33554588,33554680,33554651" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+      <dateUpdated>2026-02-08T05:34:49.827+00:00</dateUpdated>
       <decoder model="LokSound 5 DCC" family="ESU LokSound 5" comment="" maxFnNum="31" />
       <locoaddress>
         <dcclocoaddress number="3723" longaddress="yes" />
@@ -7249,6 +7357,22 @@
           <key>TE</key>
           <value>31 /26 / 21</value>
         </keyvaluepair>
+        <keyvaluepair>
+          <key>physicsMaxSpeedUnit</key>
+          <value>KMH</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>physicsPowerUnit</key>
+          <value>KW</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>physicsTractiveEffortUnit</key>
+          <value>KN</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>physicsWeightUnit</key>
+          <value>T</value>
+        </keyvaluepair>
       </attributepairs>
     </locomotive>
     <locomotive id="BNSF 3797" fileName="BNSF_3797.xml" roadNumber="3797" roadName="BNSF Railway" mfg="Scale Trains" owner="266 David Leyva" model="ET44C4" dccAddress="3797" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
@@ -7280,8 +7404,8 @@
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="BNSF 3826" fileName="BNSF_3826.xml" roadNumber="3826" roadName="BNSF" mfg="Scaletrains.com" owner="267Adam Delia" model="GE Tier 4 GEVO" dccAddress="3826" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
-      <dateUpdated>2026-02-08T03:58:27.396+00:00</dateUpdated>
+    <locomotive id="BNSF 3826" fileName="BNSF_3826.xml" roadNumber="3826" roadName="BNSF Railway" mfg="Scaletrains.com" owner="267Adam Delia" model="GE Tier 4 GEVO" dccAddress="3826" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+      <dateUpdated>2026-02-08T05:35:06.499+00:00</dateUpdated>
       <decoder model="LokSound V4.0" family="ESU LokSound V4.0" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="3826" longaddress="yes" />
@@ -7328,10 +7452,26 @@
           <key>TE</key>
           <value>31 / 26 / 21</value>
         </keyvaluepair>
+        <keyvaluepair>
+          <key>physicsMaxSpeedUnit</key>
+          <value>KMH</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>physicsPowerUnit</key>
+          <value>KW</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>physicsTractiveEffortUnit</key>
+          <value>KN</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>physicsWeightUnit</key>
+          <value>T</value>
+        </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="BNSF 3848" fileName="BNSF_3848.xml" roadNumber="3848" roadName="Burlington Northern &amp; Santa Fe " mfg="Intermountain" owner="J270 Matthew J Zepeda" model="ES44AC" dccAddress="3848" comment="" developerID="-1" manufacturerID="151" productID="33554588,33554680,33554651" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
-      <dateUpdated>2026-02-08T03:58:27.429+00:00</dateUpdated>
+    <locomotive id="BNSF 3848" fileName="BNSF_3848.xml" roadNumber="3848" roadName="BNSF Railway" mfg="Intermountain" owner="J270 Matthew J Zepeda" model="ES44AC" dccAddress="3848" comment="" developerID="-1" manufacturerID="151" productID="33554588,33554680,33554651" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+      <dateUpdated>2026-02-08T05:34:55.011+00:00</dateUpdated>
       <decoder model="LokSound 5 DCC" family="ESU LokSound 5" comment="" maxFnNum="31" />
       <locoaddress>
         <dcclocoaddress number="3848" longaddress="yes" />
@@ -7822,8 +7962,8 @@
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="BNSF 7033" fileName="BNSF_7033.xml" roadNumber="7033" roadName="BNSF" mfg="Scaletrains.com" owner="267 Adam Delia" model="EMD SD40-2 " dccAddress="7033" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
-      <dateUpdated>2023-07-14T01:44:03.476+00:00</dateUpdated>
+    <locomotive id="BNSF 7033" fileName="BNSF_7033.xml" roadNumber="7033" roadName="BNSF Railway" mfg="Scaletrains.com" owner="267 Adam Delia" model="EMD SD40-2 " dccAddress="7033" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+      <dateUpdated>2026-02-08T05:35:34.683+00:00</dateUpdated>
       <decoder model="LokSound 5 DCC" family="ESU LokSound 5" comment="" maxFnNum="31" />
       <locoaddress>
         <dcclocoaddress number="7033" longaddress="yes" />
@@ -7865,8 +8005,8 @@
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="BNSF 7165" fileName="BNSF_7165.xml" roadNumber="7165" roadName="BNSF" mfg="Scaletrains.com" owner="267 Adam Delia" model="EMD SD40-2" dccAddress="7165" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
-      <dateUpdated>2024-10-21T20:24:23.919+00:00</dateUpdated>
+    <locomotive id="BNSF 7165" fileName="BNSF_7165.xml" roadNumber="7165" roadName="BNSF Railway" mfg="Scaletrains.com" owner="267 Adam Delia" model="EMD SD40-2" dccAddress="7165" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+      <dateUpdated>2026-02-08T05:35:56.702+00:00</dateUpdated>
       <decoder model="LokSound V4.0" family="ESU LokSound V4.0" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="7165" longaddress="yes" />
@@ -9508,8 +9648,8 @@
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="CP 4715" fileName="CP_4715.xml" roadNumber="4715" roadName="Canadian Pacific" mfg="Bowser" owner="217 Peter Ely" model="C636" dccAddress="4715" comment="B UNITMAY NOT LEAD CONSIST" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
-      <dateUpdated>2026-02-08T03:58:28.331+00:00</dateUpdated>
+    <locomotive id="CP 4715" fileName="CP_4715.xml" roadNumber="4715" roadName="Canadian Pacific" mfg="Bowser" owner="217 Peter Ely" model="C636" dccAddress="4715" comment="B UNIT MAY NOT LEAD CONSIST" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+      <dateUpdated>2026-02-08T05:44:02.022+00:00</dateUpdated>
       <decoder model="LokSound Select" family="ESU LokSound Select" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="4715" longaddress="yes" />
@@ -9536,8 +9676,8 @@
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="CP 4719" fileName="CP_4719.xml" roadNumber="4719" roadName="Canadian Pacific" mfg="Bowser" owner="217 Peter Ely" model="C636" dccAddress="4719" comment="B UNITMAY NOT LEAD CONSIST" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
-      <dateUpdated>2026-02-08T03:58:28.353+00:00</dateUpdated>
+    <locomotive id="CP 4719" fileName="CP_4719.xml" roadNumber="4719" roadName="Canadian Pacific" mfg="Bowser" owner="217 Peter Ely" model="C636" dccAddress="4719" comment="B UNIT MAY NOT LEAD CONSIST" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+      <dateUpdated>2026-02-08T05:44:12.549+00:00</dateUpdated>
       <decoder model="LokSound Select" family="ESU LokSound Select" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="4719" longaddress="yes" />
@@ -9592,8 +9732,8 @@
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="CP 5648" fileName="CP_5648.xml" roadNumber="5648" roadName="Canadian Pacific" mfg="Bowser Exec." owner="217 Peter Ely" model="SD40-2" dccAddress="5648" comment="CP unit coal train. Not speed matched toCP 70xx nor CP 93xx family" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
-      <dateUpdated>2026-02-08T03:58:28.390+00:00</dateUpdated>
+    <locomotive id="CP 5648" fileName="CP_5648.xml" roadNumber="5648" roadName="Canadian Pacific" mfg="Bowser Exec." owner="217 Peter Ely" model="SD40-2" dccAddress="5648" comment="CP unit coal train " developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+      <dateUpdated>2026-02-08T05:44:22.870+00:00</dateUpdated>
       <decoder model="LokSound Select OEM" family="ESU LokSound Select" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="5648" longaddress="yes" />
@@ -9652,8 +9792,8 @@
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="CP 5726" fileName="CP_5726.xml" roadNumber="5726" roadName="Canadian Pacific " mfg="Bowser Exec" owner="217 Peter Ely" model="SD40-2" dccAddress="5726" comment="CP unit coal train. Not speed matched toCP 70xx nor CP 93xx family" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
-      <dateUpdated>2026-02-08T03:58:28.448+00:00</dateUpdated>
+    <locomotive id="CP 5726" fileName="CP_5726.xml" roadNumber="5726" roadName="Canadian Pacific " mfg="Bowser Exec" owner="217 Peter Ely" model="SD40-2" dccAddress="5726" comment="CP unit coal train." developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+      <dateUpdated>2026-02-08T05:44:40.835+00:00</dateUpdated>
       <decoder model="LokSound Select OEM" family="ESU LokSound Select" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="5726" longaddress="yes" />
@@ -9765,8 +9905,8 @@
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="CP 6046" fileName="CP_6046.xml" roadNumber="6046" roadName="Canadian Pacific" mfg="Bowser Exec." owner="217 Peter Ely" model="SD40-2" dccAddress="6046" comment="CP unit coal train. Not speed matched toCP 70xx nor CP 93xx family" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
-      <dateUpdated>2026-02-08T03:58:28.504+00:00</dateUpdated>
+    <locomotive id="CP 6046" fileName="CP_6046.xml" roadNumber="6046" roadName="Canadian Pacific" mfg="Bowser Exec." owner="217 Peter Ely" model="SD40-2" dccAddress="6046" comment="CP unit coal train." developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+      <dateUpdated>2026-02-08T05:44:59.280+00:00</dateUpdated>
       <decoder model="LokSound Select OEM" family="ESU LokSound Select" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="6046" longaddress="yes" />
@@ -10062,8 +10202,8 @@
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="CP 9016" fileName="CP_9016.xml" roadNumber="9016" roadName="Canadian Pacific" mfg="Bowser Exec." owner="217 Peter Ely" model="SD40-2F" dccAddress="9016" comment="CP unit coal train. Not speed matched toCP 70xx nor CP 93xx family" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
-      <dateUpdated>2026-02-08T03:58:28.626+00:00</dateUpdated>
+    <locomotive id="CP 9016" fileName="CP_9016.xml" roadNumber="9016" roadName="Canadian Pacific" mfg="Bowser Exec." owner="217 Peter Ely" model="SD40-2F" dccAddress="9016" comment="CP unit coal train." developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+      <dateUpdated>2026-02-08T05:44:53.526+00:00</dateUpdated>
       <decoder model="LokSound Select" family="ESU LokSound Select" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="9016" longaddress="yes" />
@@ -10090,8 +10230,8 @@
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="CP 9017" fileName="CP_9017.xml" roadNumber="9017" roadName="Canadian Pacific" mfg="Bowser Exec." owner="217 Peter Ely" model="SD40-2F" dccAddress="9017" comment="CP unit coal train. Not speed matched toCP 70xx nor CP 93xx family" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
-      <dateUpdated>2026-02-08T03:58:28.643+00:00</dateUpdated>
+    <locomotive id="CP 9017" fileName="CP_9017.xml" roadNumber="9017" roadName="Canadian Pacific" mfg="Bowser Exec." owner="217 Peter Ely" model="SD40-2F" dccAddress="9017" comment="CP unit coal train. " developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+      <dateUpdated>2026-02-08T05:45:07.866+00:00</dateUpdated>
       <decoder model="LokSound Select" family="ESU LokSound Select" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="9017" longaddress="yes" />
@@ -15660,8 +15800,8 @@
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="NP 6001C" fileName="NP_6001C.xml" roadNumber="6001B" roadName="Northern Pacific" mfg="Stewart" owner="263 John Finnerty" model="F7B" dccAddress="6001" comment="Do not separate from NP 6001A &amp; NP 6001B&lt;?p?&gt;Group TE: 92 / 68" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
-      <dateUpdated>2023-12-12T19:23:19.151+00:00</dateUpdated>
+    <locomotive id="NP 6001C" fileName="NP_6001C.xml" roadNumber="6001B" roadName="Northern Pacific" mfg="Stewart" owner="263 John Finnerty" model="F7B" dccAddress="6001" comment="Do not separate from NP 6001A &amp; NP 6001B Group TE: 92 / 68" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+      <dateUpdated>2026-02-08T05:53:37.705+00:00</dateUpdated>
       <decoder model="NMRA standard CV definitions" family="NMRA standard CV definitions" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="6001" longaddress="yes" />
@@ -18296,8 +18436,8 @@
       </functionlabels>
       <soundlabels />
     </locomotive>
-    <locomotive id="PRR 2208" fileName="PRR_2208.xml" roadNumber="2208" roadName="Pennsylvania Railroad" mfg="Scaletrains" owner="272 Micheal Gibilterra" model="GP30" dccAddress="2208" comment="40 16, 13" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
-      <dateUpdated>2025-12-06T21:51:00.747+00:00</dateUpdated>
+    <locomotive id="PRR 2208" fileName="PRR_2208.xml" roadNumber="2208" roadName="Pennsylvania Railroad" mfg="Scaletrains" owner="272 Micheal Gibilterra" model="GP30" dccAddress="2208" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+      <dateUpdated>2026-02-08T05:43:55.024+00:00</dateUpdated>
       <decoder model="LokSound 5" family="ESU LokSound 5" comment="" maxFnNum="31" />
       <locoaddress>
         <dcclocoaddress number="2208" longaddress="yes" />
@@ -18318,10 +18458,14 @@
           <key>RosterGroup:PRR</key>
           <value>yes</value>
         </keyvaluepair>
+        <keyvaluepair>
+          <key>TE</key>
+          <value>40 16, 13</value>
+        </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="PRR 2218" fileName="PRR_2218.xml" roadNumber="2218" roadName="Pennsylvania Railroad" mfg="Scaletrains" owner="272 Micheal Gibilterra" model="GP30" dccAddress="2218" comment="40, 30, 16" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
-      <dateUpdated>2025-12-06T21:50:53.644+00:00</dateUpdated>
+    <locomotive id="PRR 2218" fileName="PRR_2218.xml" roadNumber="2218" roadName="Pennsylvania Railroad" mfg="Scaletrains" owner="272 Micheal Gibilterra" model="GP30" dccAddress="2218" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+      <dateUpdated>2026-02-08T05:43:35.794+00:00</dateUpdated>
       <decoder model="LokSound 5" family="ESU LokSound 5" comment="" maxFnNum="31" />
       <locoaddress>
         <dcclocoaddress number="2218" longaddress="yes" />
@@ -18341,6 +18485,10 @@
         <keyvaluepair>
           <key>RosterGroup:PRR</key>
           <value>yes</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>TE</key>
+          <value>40, 30, 16</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
@@ -18363,8 +18511,8 @@
       </functionlabels>
       <soundlabels />
     </locomotive>
-    <locomotive id="PRR 3757" fileName="PRR_3757.xml" roadNumber="3757" roadName="Pennsylvania Railroad" mfg="Bachmann" owner="272 Micheal Gibilterra" model="K4" dccAddress="3757" comment="29, 10, 8" developerID="-1" manufacturerID="153" productID="1668" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
-      <dateUpdated>2025-12-06T21:57:43.039+00:00</dateUpdated>
+    <locomotive id="PRR 3757" fileName="PRR_3757.xml" roadNumber="3757" roadName="Pennsylvania Railroad" mfg="Bachmann" owner="272 Micheal Gibilterra" model="K4" dccAddress="3757" comment="" developerID="-1" manufacturerID="153" productID="1668" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+      <dateUpdated>2026-02-08T05:42:42.592+00:00</dateUpdated>
       <decoder model="WOW Steam 501 SS4.6" family="WOW Steam Sound Set 4.6" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="3757" longaddress="yes" />
@@ -18401,6 +18549,10 @@
         <keyvaluepair>
           <key>RosterGroup:PRR</key>
           <value>yes</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>TE</key>
+          <value>29, 10, 8</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
@@ -18574,8 +18726,8 @@
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="PRR 612" fileName="PRR_612.xml" roadNumber="612" roadName="Pennsylvaina Railraod" mfg="Bachmann" owner="272 Micheal Gibilterra" model="K4" dccAddress="612" comment="29, 10, 8" developerID="-1" manufacturerID="153" productID="1668" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
-      <dateUpdated>2025-12-06T22:41:20.218+00:00</dateUpdated>
+    <locomotive id="PRR 612" fileName="PRR_612.xml" roadNumber="612" roadName="Pennsylvaina Railraod" mfg="Bachmann" owner="272 Micheal Gibilterra" model="K4" dccAddress="612" comment="" developerID="-1" manufacturerID="153" productID="1668" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+      <dateUpdated>2026-02-08T05:42:37.512+00:00</dateUpdated>
       <decoder model="WOW Steam 501 SS4.6" family="WOW Steam Sound Set 4.6" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="612" longaddress="yes" />
@@ -18608,6 +18760,12 @@
         <functionlabel num="27" lockable="true" visible="true" functionImage="" functionImageSelected="">Arriving Station Announcements</functionlabel>
       </functionlabels>
       <soundlabels />
+      <attributepairs>
+        <keyvaluepair>
+          <key>TE</key>
+          <value>29, 10, 8</value>
+        </keyvaluepair>
+      </attributepairs>
     </locomotive>
     <locomotive id="PRR 6131" fileName="PRR_6131.xml" roadNumber="6131" roadName="Pennsylvania Railroad" mfg="Broadway limited" owner="272 Micheal Gibilterra" model="Q2" dccAddress="6131" comment="" developerID="-1" manufacturerID="38" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
       <dateUpdated>2026-02-08T03:58:31.762+00:00</dateUpdated>
@@ -18748,8 +18906,8 @@
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="PRR 8667" fileName="PRR_8667.xml" roadNumber="8667" roadName="Pennsylvania Railroad" mfg="Bachmann" owner="272 Micheal Gibilterra" model="K4" dccAddress="8667" comment="29, 10, 8" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
-      <dateUpdated>2025-12-06T21:51:27.168+00:00</dateUpdated>
+    <locomotive id="PRR 8667" fileName="PRR_8667.xml" roadNumber="8667" roadName="Pennsylvania Railroad" mfg="Bachmann" owner="272 Micheal Gibilterra" model="K4" dccAddress="8667" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+      <dateUpdated>2026-02-08T05:42:32.725+00:00</dateUpdated>
       <decoder model="WOW Sound 100" family="WOW Sound" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="8667" longaddress="yes" />
@@ -18784,6 +18942,26 @@
         <keyvaluepair>
           <key>RosterGroup:PRR</key>
           <value>yes</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>TE</key>
+          <value>29, 10, 8</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>physicsMaxSpeedUnit</key>
+          <value>KMH</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>physicsPowerUnit</key>
+          <value>KW</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>physicsTractiveEffortUnit</key>
+          <value>KN</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>physicsWeightUnit</key>
+          <value>T</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
@@ -29647,8 +29825,8 @@
         <soundlabel num="34">Gear shift sound</soundlabel>
       </soundlabels>
     </locomotive>
-    <locomotive id="UP 40" fileName="UP_40.xml" roadNumber="40" roadName="Union Pacific" mfg="Suydam" owner="259 Skip Martin" model="Gas Electric" dccAddress="41" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
-      <dateUpdated>2026-02-08T03:58:35.396+00:00</dateUpdated>
+    <locomotive id="UP 40" fileName="UP_40.xml" roadNumber="40" roadName="Union Pacific" mfg="Suydam" owner="259 Skip Martin" model="Gas Electric" dccAddress="41" comment="N/A - only pulls one car, do Not use to haul anything else except UP heavyweight passenger car." developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+      <dateUpdated>2026-02-08T05:55:49.698+00:00</dateUpdated>
       <decoder model="ECO-100 Diesel" family="Econami Diesel" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="41" longaddress="no" />
@@ -29683,10 +29861,6 @@
         <keyvaluepair>
           <key>RosterGroup:UP</key>
           <value>yes</value>
-        </keyvaluepair>
-        <keyvaluepair>
-          <key>TE</key>
-          <value>N/A - only pulls one car, do Not use to haul anything else except UP heavyweight passenger car.</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>

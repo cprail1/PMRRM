@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <!--Written by JMRI version 4.20+Rc7ba8249b on Sat Mar 27 12:22:30 PDT 2021-->
-  <locomotive id="ATSF 200C" fileName="ATSF_200C.xml" roadNumber="200C" roadName="Atchison, Topeka, and Santa Fe" mfg="Stewert" owner="223 Dan Wexler" model="F3B" dccAddress="200" comment="Do not separate from ATSF 200L, ATSF 200A, ATSF 200B.&#xA;Group TE: 74 / 64 / 54&#xA;Unit TE: 22 / 18 / 15" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2018-09-11T22:19:05.000+0000</dateUpdated>
-    <decoder model="DA-SR" family="Silent Running w/ Torque Compensation" comment="" />
+  <locomotive id="ATSF 200C" fileName="ATSF_200C.xml" roadNumber="200C" roadName="Atchison, Topeka, and Santa Fe" mfg="Stewert" owner="223 Dan Wexler" model="F3B" dccAddress="200" comment="Do not separate from ATSF 200L, ATSF 200A, ATSF 200B.&#xA;Group TE: 74 / 64 / 54&#xA;Unit TE: 22 / 18 / 15" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T05:50:46.487+00:00</dateUpdated>
+    <decoder model="DA-SR" family="Silent Running w/ Torque Compensation" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="200" longaddress="yes" />
       <number>200</number>
@@ -20,6 +20,10 @@
       <keyvaluepair>
         <key>RosterGroup:DW</key>
         <value>yes</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>Group TE: 74 / 64 / 54 Unit TE: 22 / 18 / 15</value>
       </keyvaluepair>
     </attributepairs>
     <values>

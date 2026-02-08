@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <!--Written by JMRI version 5.8+Rbc21ce2ce7 on Thu Feb 20 10:48:26 PST 2025-->
-  <locomotive id="ATSF 345" fileName="ATSF_345.xml" roadNumber="345" roadName="Atchison, Topeka, and Santa Fe" mfg="Fox Valley" owner="190 Brian Neely" model="GP60B" dccAddress="147" comment="Do not separate from ATSF 147 and ATSF 331.&#xA;Group TE: 48 / 41 / 35&#xA;Unit TE: 17 / 14 / 12&#xA;2 unit TE: 31 / 26 / 21" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2017-10-07T20:07:15.000+00:00</dateUpdated>
+  <locomotive id="ATSF 345" fileName="ATSF_345.xml" roadNumber="345" roadName="Atchison, Topeka, and Santa Fe" mfg="Fox Valley" owner="190 Brian Neely" model="GP60B" dccAddress="147" comment="Do not separate from ATSF 147 and ATSF 331. Group TE: 48 / 41 / 35 Unit TE: 17 / 14 / 12 2 unit TE: 31 / 26 / 21" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T05:45:25.617+00:00</dateUpdated>
     <decoder model="LokSound Select OEM" family="ESU LokSound Select" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="147" longaddress="yes" />
@@ -16,6 +16,10 @@
       <keyvaluepair>
         <key>RosterGroup:ATSF</key>
         <value>yes</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>Group TE: 48 / 41 / 35 Unit TE: 17 / 14 / 12 2 unit TE: 31 / 26 / 21</value>
       </keyvaluepair>
     </attributepairs>
     <values>

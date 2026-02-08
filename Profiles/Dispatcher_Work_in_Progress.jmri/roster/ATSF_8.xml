@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <!--Written by JMRI version 4.20+Rc7ba8249b on Sat Mar 27 12:22:31 PDT 2021-->
-  <locomotive id="ATSF 8" fileName="ATSF_8.xml" roadNumber="8" roadName="Atchison, Topeka, and Santa Fe" mfg="Broadway Limited" owner="223 Dan Wexler" model="E1" dccAddress="3" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2017-10-07T20:06:59.000+0000</dateUpdated>
-    <decoder model="Rolling Thunder" family="Paragon 3" comment="" />
+  <locomotive id="ATSF 8" fileName="ATSF_8.xml" roadNumber="8" roadName="Atchison, Topeka, and Santa Fe" mfg="Broadway Limited" owner="223 Dan Wexler" model="E1" dccAddress="3" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T05:34:14.165+00:00</dateUpdated>
+    <decoder model="Rolling Thunder" family="Paragon 3" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="3" longaddress="no" />
       <number>3</number>

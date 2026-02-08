@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <!--Written by JMRI version 5.5.7+R0d26427e10 on Tue Dec 12 11:23:19 PST 2023-->
-  <locomotive id="NP 6001C" fileName="NP_6001C.xml" roadNumber="6001B" roadName="Northern Pacific" mfg="Stewart" owner="263 John Finnerty" model="F7B" dccAddress="6001" comment="Do not separate from NP 6001A &amp; NP 6001B&#xA;Group TE: 92 / 68" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2023-12-12T19:23:19.151+00:00</dateUpdated>
+  <locomotive id="NP 6001C" fileName="NP_6001C.xml" roadNumber="6001B" roadName="Northern Pacific" mfg="Stewart" owner="263 John Finnerty" model="F7B" dccAddress="6001" comment="Do not separate from NP 6001A &amp; NP 6001B Group TE: 92 / 68" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T05:53:37.705+00:00</dateUpdated>
     <decoder model="NMRA standard CV definitions" family="NMRA standard CV definitions" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="6001" longaddress="yes" />

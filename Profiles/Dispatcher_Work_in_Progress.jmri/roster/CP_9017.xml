@@ -2,8 +2,8 @@
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="CP 9017" fileName="CP_9017.xml" roadNumber="9017" roadName="Canadian Pacific" mfg="Bowser Exec." owner="217 Peter Ely" model="SD40-2F" dccAddress="9017" comment="CP unit coal train. Not speed matched toCP 70xx nor CP 93xx family" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
-    <dateUpdated>2026-02-08T03:58:28.643+00:00</dateUpdated>
+  <locomotive id="CP 9017" fileName="CP_9017.xml" roadNumber="9017" roadName="Canadian Pacific" mfg="Bowser Exec." owner="217 Peter Ely" model="SD40-2F" dccAddress="9017" comment="CP unit coal train. " developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-08T05:45:07.866+00:00</dateUpdated>
     <decoder model="LokSound Select" family="ESU LokSound Select" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="9017" longaddress="yes" />
