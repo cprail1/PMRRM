@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="ATSF 44L" fileName="ATSF_44L.xml" roadNumber="44" roadName="Atchison, Topeka, and Santa Fe" mfg="Athearn Genesis" owner="209 Bruce Bloch" model="F7" dccAddress="44" comment="Do not seperate from ATSF 44L, ATSF 44B, and ATSF 44CGroup TE: " developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+  <locomotive id="ATSF 44L" fileName="ATSF_44L.xml" roadNumber="44" roadName="ATSF" mfg="Athearn Genesis" owner="209 Bruce Bloch" model="F7" dccAddress="44" comment="Do not separate from ATSF 44L, &#xA;ATSF 44B, and ATSF 44C " developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2026-02-08T03:58:25.845+00:00</dateUpdated>
     <decoder model="F7" family="Tsunami Diesel Genesis OEM" comment="" maxFnNum="28" />
     <locoaddress>

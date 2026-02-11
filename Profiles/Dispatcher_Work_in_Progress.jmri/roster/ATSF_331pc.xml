@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <!--Written by JMRI version 5.8+Rbc21ce2ce7 on Thu Feb 20 10:48:26 PST 2025-->
-  <locomotive id="ATSF 331pc" fileName="ATSF_331pc.xml" roadNumber="331" roadName="Atchison, Topeka, and Santa Fe" mfg="Fox Valley" owner="190 Brian Neely" model="GP60B" dccAddress="147" comment="Do not seperate from ATSF 147 and ATSF 345.&#xA;Group TE: 48 / 41 / 35&#xA;Unit TE: 17 / 14 / 12&#xA;2 unit TE: 31 / 26 / 21" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+  <locomotive id="ATSF 331pc" fileName="ATSF_331pc.xml" roadNumber="331" roadName="ATSF" mfg="Fox Valley" owner="190 Brian Neely" model="GP60B" dccAddress="147" comment="Do not separate from &#xA;ATSF 147 and ATSF 345." developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2018-09-02T03:36:57.000+00:00</dateUpdated>
     <decoder model="LokSound Select OEM" family="ESU LokSound Select" comment="" maxFnNum="28" />
     <locoaddress>
@@ -16,6 +16,12 @@
       <keyvaluepair>
         <key>RosterGroup:ATSF</key>
         <value>yes</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>Group TE: 48 / 41 / 35
+Unit TE: 17 / 14 / 12
+2 unit TE: 31 / 26 / 21</value>
       </keyvaluepair>
     </attributepairs>
     <values>

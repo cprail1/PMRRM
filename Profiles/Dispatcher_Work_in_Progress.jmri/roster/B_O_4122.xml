@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="B&amp;O 4122" fileName="B_O_4122.xml" roadNumber="4122" roadName="Baltimore &amp; Ohio" mfg="Athearn" owner="190 Brian Neely" model="GP40-2" dccAddress="4122" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+  <locomotive id="B&amp;O 4122" fileName="B_O_4122.xml" roadNumber="4122" roadName="Baltimore &amp; Ohio" mfg="Athearn" owner="190 Brian Neely" model="GP40-2" dccAddress="4122" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2026-02-08T03:58:26.650+00:00</dateUpdated>
     <decoder model="GP40-2" family="Tsunami Diesel Genesis OEM" comment="" maxFnNum="28" />
     <locoaddress>
@@ -31,7 +31,7 @@
       </keyvaluepair>
       <keyvaluepair>
         <key>TE</key>
-        <value>15 / 12 / 10</value>
+        <value>TE: 15 / 12 / 10</value>
       </keyvaluepair>
     </attributepairs>
     <values>

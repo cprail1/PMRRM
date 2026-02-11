@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="ATSF 1762" fileName="ATSF_1762.xml" roadNumber="1762" roadName="Atchison, Topeka, and Santa Fe" mfg="ATH" owner="203 Mike Panton" model="SD 45" dccAddress="1762" comment="" developerID="-1" manufacturerID="129" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+  <locomotive id="ATSF 1762" fileName="ATSF_1762.xml" roadNumber="1762" roadName="ATSF" mfg="Athearn" owner="203 Mike Panton" model="SD 45" dccAddress="1762" comment="" developerID="-1" manufacturerID="129" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2026-02-08T03:58:25.296+00:00</dateUpdated>
     <decoder model="DH126PS" family="Economy Series 6 with FX3, silent" comment="" maxFnNum="28" />
     <locoaddress>
@@ -15,7 +15,7 @@
     <attributepairs>
       <keyvaluepair>
         <key>TE</key>
-        <value>17, 12 oz.</value>
+        <value>17/ 12 oz.</value>
       </keyvaluepair>
     </attributepairs>
     <values>

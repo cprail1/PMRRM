@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="CNW 8627" fileName="CNW_8627.xml" roadNumber="8627" roadName="Chicago North Western" mfg="Athearn" owner="214 Don Philpott" model="C44-9W" dccAddress="8627" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+  <locomotive id="CNW 8627" fileName="CNW_8627.xml" roadNumber="8627" roadName="Chicago North Western" mfg="Athearn" owner="214 Don Philpott" model="C44-9W" dccAddress="8627" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2026-02-08T03:58:28.227+00:00</dateUpdated>
     <decoder model="T4X" family="Jan 2012" comment="" maxFnNum="28" />
     <locoaddress>
@@ -19,7 +19,7 @@
       </keyvaluepair>
       <keyvaluepair>
         <key>TE</key>
-        <value>15 / 12 / 10</value>
+        <value>TE: 15 / 12 / 10</value>
       </keyvaluepair>
     </attributepairs>
     <values>

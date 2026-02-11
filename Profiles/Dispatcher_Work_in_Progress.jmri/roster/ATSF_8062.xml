@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="ATSF 8062" fileName="ATSF_8062.xml" roadNumber="8062" roadName="Atchison, Topeka, and Santa Fe" mfg="Overland" owner="148 Kevin Schiller" model="C30-7" dccAddress="8062" comment="" developerID="-1" manufacturerID="141" productID="2081" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+  <locomotive id="ATSF 8062" fileName="ATSF_8062.xml" roadNumber="8062" roadName="ATSF" mfg="Overland" owner="148 Kevin Schiller" model="C30-7" dccAddress="8062" comment="" developerID="-1" manufacturerID="141" productID="2081" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2026-02-08T03:58:26.596+00:00</dateUpdated>
     <decoder model="TSU-PNP GE Diesels" family="Tsunami2 Diesel" comment="" maxFnNum="28" />
     <locoaddress>
@@ -52,7 +52,7 @@
       </keyvaluepair>
       <keyvaluepair>
         <key>TE</key>
-        <value>24, 20, 16 (2.5oz)</value>
+        <value>24 /  20 /  16 (2.5oz)</value>
       </keyvaluepair>
     </attributepairs>
     <values>

@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="SN 301A" fileName="SN_301A.xml" roadNumber="301A" roadName="Sacramento Northern" mfg="Athearn Genesis" owner="190 Brian Neely" model="F3A" dccAddress="301" comment="Do not seperate from SN 301AGroup TE: 41 / 30" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+  <locomotive id="SN 301A" fileName="SN_301A.xml" roadNumber="301A" roadName="Sacramento Northern" mfg="Athearn Genesis" owner="190 Brian Neely" model="F3A" dccAddress="301" comment="Do not separate from SN 301A" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2026-02-08T03:58:32.219+00:00</dateUpdated>
     <decoder model="F3" family="Tsunami Diesel Genesis OEM" comment="" maxFnNum="28" />
     <locoaddress>
@@ -27,7 +27,8 @@
     <attributepairs>
       <keyvaluepair>
         <key>TE</key>
-        <value>22 / 15</value>
+        <value>22 / 15
+Group TE: 41 / 30</value>
       </keyvaluepair>
     </attributepairs>
     <values>

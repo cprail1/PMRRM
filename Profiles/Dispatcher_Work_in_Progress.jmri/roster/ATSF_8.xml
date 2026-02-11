@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="ATSF 8" fileName="ATSF_8.xml" roadNumber="8" roadName="Atchison, Topeka, and Santa Fe" mfg="Broadway Limited" owner="223 Dan Wexler" model="E1" dccAddress="3" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+  <locomotive id="ATSF 8" fileName="ATSF_8.xml" roadNumber="8" roadName="ATSF" mfg="Broadway Limited" owner="223 Dan Wexler" model="E1" dccAddress="3" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2026-02-08T05:34:14.165+00:00</dateUpdated>
     <decoder model="Rolling Thunder" family="Paragon 3" comment="" maxFnNum="28" />
     <locoaddress>

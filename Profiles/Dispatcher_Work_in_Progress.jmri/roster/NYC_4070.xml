@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
-<locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <!--Written by JMRI version 5.8+Rbc21ce2ce7 on Mon Oct 21 13:48:09 PDT 2024-->
-  <locomotive id="NYC 4070" fileName="NYC_4070.xml" roadNumber="4070" roadName="New York Central" mfg="P2K" owner="234 MAB" model="E8a" dccAddress="4070" comment="Passenger pool power" developerID="-1" manufacturerID="153" productID="16" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+<locomotive-config>
+  <locomotive id="NYC 4070" fileName="NYC_4070.xml" roadNumber="4070" roadName="New York Central" mfg="Proto 2000" owner="234 MAB" model="E8a" dccAddress="4070" comment="Passenger pool power" developerID="-1" manufacturerID="153" productID="16" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2024-10-21T20:48:09.662+00:00</dateUpdated>
     <decoder model="T4X" family="June 2007" comment="" maxFnNum="28" />
     <locoaddress>

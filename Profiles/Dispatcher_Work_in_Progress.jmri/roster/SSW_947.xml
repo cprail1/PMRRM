@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="SSW 947" fileName="SSW_947.xml" roadNumber="947" roadName="Cotton Belt" mfg="Athearn Genesis" owner="257 Chris Holt" model="F7A" dccAddress="947" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+  <locomotive id="SSW 947" fileName="SSW_947.xml" roadNumber="947" roadName="Cotton Belt" mfg="Athearn Genesis" owner="257 Chris Holt" model="F7A" dccAddress="947" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2026-02-08T03:58:34.832+00:00</dateUpdated>
     <decoder model="TSU-GN2208 GP9 w/DB,gyra" family="Tsunami2 Diesel OEM Genesis" comment="" maxFnNum="28" />
     <locoaddress>
@@ -39,7 +39,7 @@
     <attributepairs>
       <keyvaluepair>
         <key>TE</key>
-        <value>17 / 12</value>
+        <value>TE: 17 / 12</value>
       </keyvaluepair>
     </attributepairs>
     <values>

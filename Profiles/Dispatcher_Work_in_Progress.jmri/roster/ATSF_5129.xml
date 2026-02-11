@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="ATSF 5129" fileName="ATSF_5129.xml" roadNumber="5129" roadName="Atchison Topeka and Santa Fe" mfg="Scale Trains" owner="Kevin Schiller" model="SD40-2" dccAddress="5129" comment="" developerID="-1" manufacturerID="151" productID="33554588,33554680,33554651" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+  <locomotive id="ATSF 5129" fileName="ATSF_5129.xml" roadNumber="5129" roadName="ATSF" mfg="Scale Trains" owner="148 Kevin Schiller" model="SD40-2" dccAddress="5129" comment="" developerID="-1" manufacturerID="151" productID="33554588,33554680,33554651" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2026-02-08T03:58:25.962+00:00</dateUpdated>
     <decoder model="LokSound 5 DCC" family="ESU LokSound 5" comment="F5 Beacon F6 class lights" maxFnNum="31" />
     <locoaddress>
@@ -26,7 +26,7 @@
       </keyvaluepair>
       <keyvaluepair>
         <key>TE</key>
-        <value>24, 20, 16</value>
+        <value>24 /  20 /  16</value>
       </keyvaluepair>
     </attributepairs>
     <values>

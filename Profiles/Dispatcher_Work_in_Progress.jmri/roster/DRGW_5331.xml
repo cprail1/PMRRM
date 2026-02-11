@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="DRGW 5331" fileName="DRGW_5331.xml" roadNumber="5331" roadName="Denver &amp; Rio Grande Western" mfg="ATH" owner="148 Kevin Schiller" model="SD45" dccAddress="5331" comment="" developerID="-1" manufacturerID="141" productID="323" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+  <locomotive id="DRGW 5331" fileName="DRGW_5331.xml" roadNumber="5331" roadName="D&amp;RGW" mfg="Athearn" owner="148 Kevin Schiller" model="SD45" dccAddress="5331" comment="" developerID="-1" manufacturerID="141" productID="323" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2026-02-08T03:58:29.603+00:00</dateUpdated>
     <decoder model="TSU-PNP8 EMD-2 Diesels" family="Tsunami2 Diesel" comment="" maxFnNum="28" />
     <locoaddress>
@@ -48,7 +48,7 @@
       </keyvaluepair>
       <keyvaluepair>
         <key>TE</key>
-        <value>28, 24, 20</value>
+        <value>28 /  24 /  20</value>
       </keyvaluepair>
     </attributepairs>
     <values>

@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="PRR 612" fileName="PRR_612.xml" roadNumber="612" roadName="Pennsylvaina Railraod" mfg="Bachmann" owner="272 Micheal Gibilterra" model="K4" dccAddress="612" comment="" developerID="-1" manufacturerID="153" productID="1668" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+  <locomotive id="PRR 612" fileName="PRR_612.xml" roadNumber="612" roadName="Pennsylvaina Railraod" mfg="Bachmann" owner="272 Michael Gibilterra" model="K4" dccAddress="612" comment="" developerID="-1" manufacturerID="153" productID="1668" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2026-02-08T05:42:37.512+00:00</dateUpdated>
     <decoder model="WOW Steam 501 SS4.6" family="WOW Steam Sound Set 4.6" comment="" maxFnNum="28" />
     <locoaddress>
@@ -39,7 +39,7 @@
     <attributepairs>
       <keyvaluepair>
         <key>TE</key>
-        <value>29, 10, 8</value>
+        <value>TE 29 /10 / 8</value>
       </keyvaluepair>
     </attributepairs>
     <values>

@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="SCAX 868" fileName="SCAX_868.xml" roadNumber="868" roadName="Metrolink" mfg="Rapido" owner="265 AJ Chier" model="F59PH" dccAddress="868" comment="DO NOT SEPARATE FROM WHATEVER TRAIN IT IS PAIRED WITH" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+  <locomotive id="SCAX 868" fileName="SCAX_868.xml" roadNumber="868" roadName="Metrolink" mfg="Rapido" owner="265 AJ Chier" model="F59PH" dccAddress="868" comment="DO NOT SEPARATE FROM WHATEVER&#xA; TRAIN IT IS PAIRED WITH" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2026-02-08T03:58:32.059+00:00</dateUpdated>
     <decoder model="LokSound 5 DCC" family="ESU LokSound 5" comment="" maxFnNum="31" />
     <locoaddress>

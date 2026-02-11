@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="DRGW 5110" fileName="DRGW_5110.xml" roadNumber="5110" roadName="Denver &amp; Rio Grande Western" mfg="ATG" owner="J270 Matthew J Zepeda" model="GP7" dccAddress="5110" comment="" developerID="-1" manufacturerID="141" productID="793" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+  <locomotive id="DRGW 5110" fileName="DRGW_5110.xml" roadNumber="5110" roadName="D&amp;RGW" mfg="Athearn Genesis" owner="J270 Matthew J Zepeda" model="GP7" dccAddress="5110" comment="" developerID="-1" manufacturerID="141" productID="793" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2026-02-08T03:58:29.493+00:00</dateUpdated>
     <decoder model="TSU-GN2200 GP7/GP9" family="Tsunami2 Diesel OEM Genesis" comment="" maxFnNum="28" />
     <locoaddress>
@@ -39,7 +39,7 @@
     <attributepairs>
       <keyvaluepair>
         <key>TE</key>
-        <value>17, 12</value>
+        <value>TE: 17 /  12</value>
       </keyvaluepair>
     </attributepairs>
     <values>

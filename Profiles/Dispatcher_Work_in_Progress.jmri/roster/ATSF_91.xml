@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="ATSF 91" fileName="ATSF_91.xml" roadNumber="91" roadName="Atchison, Topeka, and Santa Fe" mfg="Bachmann" owner="190 Brian Neely" model="4-4-0 American" dccAddress="91" comment="" developerID="-1" manufacturerID="141" productID="440" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+  <locomotive id="ATSF 91" fileName="ATSF_91.xml" roadNumber="91" roadName="ATSF" mfg="Bachmann" owner="190 Brian Neely" model="4-4-0 American" dccAddress="91" comment="" developerID="-1" manufacturerID="141" productID="440" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2026-02-08T03:58:26.622+00:00</dateUpdated>
     <decoder model="4-4-0 American [HO]" family="Tsunami Steam Bachmann Sound Value" comment="" maxFnNum="28" />
     <locoaddress>
@@ -23,7 +23,7 @@
     <attributepairs>
       <keyvaluepair>
         <key>TE</key>
-        <value>4 / 3</value>
+        <value>TE: 4 / 3 </value>
       </keyvaluepair>
     </attributepairs>
     <values>

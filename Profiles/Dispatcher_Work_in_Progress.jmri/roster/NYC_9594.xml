@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="NYC 9594" fileName="NYC_9594.xml" roadNumber="9594" roadName="New York Central" mfg="Broadway Limited" owner="269 Salvatore Natale" model="2-8-2 Mikado" dccAddress="9594" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+  <locomotive id="NYC 9594" fileName="NYC_9594.xml" roadNumber="9594" roadName="New York Central" mfg="Broadway Limited" owner="269 Salvatore Natale" model="2-8-2 Mikado" dccAddress="9594" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2026-02-08T03:58:31.527+00:00</dateUpdated>
     <decoder model="BLI Mikado 2-8-2" family="QSI Steam" comment="" maxFnNum="28" />
     <locoaddress>
@@ -15,7 +15,7 @@
     <attributepairs>
       <keyvaluepair>
         <key>TE</key>
-        <value>13 / 8</value>
+        <value>TE: 13 / 8</value>
       </keyvaluepair>
     </attributepairs>
     <values>

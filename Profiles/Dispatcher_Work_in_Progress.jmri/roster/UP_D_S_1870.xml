@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="UP D.S.1870" fileName="UP_D_S_1870.xml" roadNumber="D.S.1870" roadName="Union Pacific" mfg="ATH" owner="203 Mike Panton" model="EMD SW7 Cow" dccAddress="1870" comment="switcher" developerID="-1" manufacturerID="129" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+  <locomotive id="UP D.S.1870" fileName="UP_D_S_1870.xml" roadNumber="D.S.1870" roadName="Union Pacific" mfg="Athearn" owner="203 Mike Panton" model="EMD SW7 Cow" dccAddress="1870" comment="Switcher" developerID="-1" manufacturerID="129" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2026-02-08T03:58:36.445+00:00</dateUpdated>
     <decoder model="DZ123" family="Series 3 with FX3, silent, readback" comment="Adjusted Speed Table 6.1.2024" maxFnNum="28" />
     <locoaddress>
@@ -15,7 +15,7 @@
     <attributepairs>
       <keyvaluepair>
         <key>TE</key>
-        <value>13, 8   6.1.2024</value>
+        <value>13 /  8   6.1.2024</value>
       </keyvaluepair>
     </attributepairs>
     <values>

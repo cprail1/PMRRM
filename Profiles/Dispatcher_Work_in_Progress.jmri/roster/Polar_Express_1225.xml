@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
-<locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <!--Written by JMRI version 5.8+Rbc21ce2ce7 on Sat Dec 14 15:21:27 PST 2024-->
-  <locomotive id="Polar Express 1225" fileName="Polar_Express_1225.xml" roadNumber="1225" roadName="Polar Express" mfg="Lionel" owner="J270 Matthew J Zepeda " model="2-8-4 " dccAddress="1225" comment="" developerID="-1" manufacturerID="1001" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+<locomotive-config>
+  <locomotive id="Polar Express 1225" fileName="Polar_Express_1225.xml" roadNumber="1225" roadName="Polar Express" mfg="Lionel" owner="108 Ron Wong" model="2-8-4 " dccAddress="1225" comment="" developerID="-1" manufacturerID="1001" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2024-12-14T23:21:27.796+00:00</dateUpdated>
     <decoder model="TMCC Steam" family="TMCC Steam" comment="" maxFnNum="68" />
     <locoaddress>

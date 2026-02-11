@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="UP 492" fileName="UP_492.xml" roadNumber="492" roadName="Union Pacific" mfg="Walthers" owner="259 Skip Martin" model="GP20" dccAddress="487" comment="Group with UP 487 CombinedTE: 31 /21" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+  <locomotive id="UP 492" fileName="UP_492.xml" roadNumber="492" roadName="Union Pacific" mfg="Walthers" owner="259 Skip Martin" model="GP20" dccAddress="487" comment="Group with UP 487" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2026-02-08T03:58:35.527+00:00</dateUpdated>
     <decoder model="P2k GP20" family="QSI Diesel Ver. 7" comment="" maxFnNum="28" />
     <locoaddress>
@@ -37,7 +37,8 @@
       </keyvaluepair>
       <keyvaluepair>
         <key>TE</key>
-        <value>10 6</value>
+        <value>10 6
+Group TE: 31 /21</value>
       </keyvaluepair>
     </attributepairs>
     <values>

@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="ATSF 701" fileName="ATSF_701.xml" roadNumber="701" roadName="Atchison, Topeka, and Santa Fe" mfg="Athearn" owner="209 Bruce Bloch" model="GP9" dccAddress="2855" comment="Do not separate from ATSF 2855. Group TE: 24 / 20 / 16 Unit TE: 13 / 10 / 8" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+  <locomotive id="ATSF 701" fileName="ATSF_701.xml" roadNumber="701" roadName="ATSF" mfg="Athearn" owner="209 Bruce Bloch" model="GP9" dccAddress="2855" comment="Do not separate from ATSF 2855. " developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2026-02-08T05:52:51.816+00:00</dateUpdated>
     <decoder model="GP9" family="Tsunami Diesel Genesis OEM" comment="" maxFnNum="28" />
     <locoaddress>
@@ -28,6 +28,11 @@
       <keyvaluepair>
         <key>RosterGroup:ATSF</key>
         <value>yes</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>Group TE: 24 / 20 / 16 
+Unit TE: 13 / 10 / 8</value>
       </keyvaluepair>
     </attributepairs>
     <values>

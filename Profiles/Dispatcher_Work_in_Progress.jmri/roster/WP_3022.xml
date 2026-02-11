@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="WP 3022" fileName="WP_3022.xml" roadNumber="3022" roadName="Western Pacific" mfg="Athearn Blue Box" owner="214 Don Philpott" model="GP35" dccAddress="3022" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+  <locomotive id="WP 3022" fileName="WP_3022.xml" roadNumber="3022" roadName="Western Pacific" mfg="Athearn " owner="214 Don Philpott" model="GP35" dccAddress="3022" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2026-02-08T03:58:36.552+00:00</dateUpdated>
     <decoder model="T1" family="Jan 2012" comment="" maxFnNum="28" />
     <locoaddress>
@@ -15,7 +15,7 @@
     <attributepairs>
       <keyvaluepair>
         <key>TE</key>
-        <value>13 / 8</value>
+        <value>TE: 13 / 8</value>
       </keyvaluepair>
     </attributepairs>
     <values>

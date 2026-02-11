@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="WP 731" fileName="WP_731.xml" roadNumber="731" roadName="Western Pacific" mfg="Athearn" owner="214 Don Philpott" model="GP9" dccAddress="731" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+  <locomotive id="WP 731" fileName="WP_731.xml" roadNumber="731" roadName="Western Pacific" mfg="Athearn" owner="214 Don Philpott" model="GP9" dccAddress="731" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2026-02-08T03:58:36.599+00:00</dateUpdated>
     <decoder model="GP9" family="Tsunami Diesel Genesis OEM" comment="" maxFnNum="28" />
     <locoaddress>
@@ -27,7 +27,7 @@
     <attributepairs>
       <keyvaluepair>
         <key>TE</key>
-        <value>10 / 15</value>
+        <value>TE 10 / 15</value>
       </keyvaluepair>
     </attributepairs>
     <values>

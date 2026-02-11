@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="SP 6202" fileName="SP_6202.xml" roadNumber="6202" roadName="Southern Pacific" mfg="Athearn Genesis" owner="203 Mike Panton" model="F7A" dccAddress="6202" comment="Do not separate from SP 8092, loco is lead engine to SP 8092Group TE: 44 / 37 / 31" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+  <locomotive id="SP 6202" fileName="SP_6202.xml" roadNumber="6202" roadName="Southern Pacific" mfg="Athearn Genesis" owner="203 Mike Panton" model="F7A" dccAddress="6202" comment="Do not separate from SP 8092. &#xA;Loco is lead engine to SP 8092" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2026-02-08T03:58:33.687+00:00</dateUpdated>
     <decoder model="1624 - HO Scale - EMD567" family="Sound Decoders" comment="MRC" maxFnNum="28" />
     <locoaddress>
@@ -49,7 +49,8 @@
       </keyvaluepair>
       <keyvaluepair>
         <key>TE</key>
-        <value>24 / 20 / 16</value>
+        <value>24 / 20 / 16
+Group TE: 44 / 37 / 31</value>
       </keyvaluepair>
     </attributepairs>
     <values>

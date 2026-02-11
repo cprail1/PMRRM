@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="ATSF 4041" fileName="ATSF_4041.xml" roadNumber="4041" roadName="Atchison, Topeka, and Santa Fe" mfg="BLI" owner="J270 Matthew J Zepeda" model="2-8-2 Mikado" dccAddress="4041" comment="" developerID="-1" manufacturerID="38" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+  <locomotive id="ATSF 4041" fileName="ATSF_4041.xml" roadNumber="4041" roadName="ATSF" mfg="BLI" owner="J270 Matthew J Zepeda" model="2-8-2 Mikado" dccAddress="4041" comment="" developerID="-1" manufacturerID="38" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2026-02-08T03:58:25.815+00:00</dateUpdated>
     <decoder model="Steam" family="Paragon 4" comment="" maxFnNum="28" />
     <locoaddress>
@@ -45,7 +45,7 @@
     <attributepairs>
       <keyvaluepair>
         <key>TE</key>
-        <value>22, 15</value>
+        <value>22 /  15</value>
       </keyvaluepair>
     </attributepairs>
     <values>

@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="DRGW 5641" fileName="DRGW_5641.xml" roadNumber="5641" roadName="Denver &amp; Rio Grande Western " mfg="ATH" owner="263 John Finnerty" model="F7aa" dccAddress="5641" comment="" developerID="-1" manufacturerID="113" productID="158" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+  <locomotive id="DRGW 5641" fileName="DRGW_5641.xml" roadNumber="5641" roadName="D&amp;RGW" mfg="Athearn" owner="263 John Finnerty" model="F7aa" dccAddress="5641" comment="" developerID="-1" manufacturerID="113" productID="158" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2026-02-08T03:58:29.794+00:00</dateUpdated>
     <decoder model="P2k F7A w/Mars" family="QSI Diesel Ver. 7" comment="" maxFnNum="28" />
     <locoaddress>
@@ -29,7 +29,7 @@
     <attributepairs>
       <keyvaluepair>
         <key>TE</key>
-        <value>44, 36, 30</value>
+        <value>44 /  36 /  30</value>
       </keyvaluepair>
     </attributepairs>
     <values>

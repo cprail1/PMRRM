@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="RI 409" fileName="RI_409.xml" roadNumber="409" roadName="Rock Island" mfg="Athearn Genesis" owner="J270 Matthew J Zepeda" model="FP7" dccAddress="409" comment="" developerID="-1" manufacturerID="141" productID="F2" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+  <locomotive id="RI 409" fileName="RI_409.xml" roadNumber="409" roadName="Rock Island" mfg="Athearn Genesis" owner="J270 Matthew J Zepeda" model="FP7" dccAddress="409" comment="" developerID="-1" manufacturerID="141" productID="F2" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2026-02-08T03:58:31.860+00:00</dateUpdated>
     <decoder model="FP7" family="Tsunami Diesel Genesis OEM" comment="" maxFnNum="28" />
     <locoaddress>
@@ -27,7 +27,7 @@
     <attributepairs>
       <keyvaluepair>
         <key>TE</key>
-        <value>=15, 22</value>
+        <value>15 /  22</value>
       </keyvaluepair>
     </attributepairs>
     <values>

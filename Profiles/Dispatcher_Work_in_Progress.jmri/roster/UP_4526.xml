@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="UP 4526" fileName="UP_4526.xml" roadNumber="4526" roadName="Union Pacific" mfg="Athearn Genesis" owner="257 Chris Holt" model="SD70M" dccAddress="4526" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+  <locomotive id="UP 4526" fileName="UP_4526.xml" roadNumber="4526" roadName="Union Pacific" mfg="Athearn Genesis" owner="257 Chris Holt" model="SD70M" dccAddress="4526" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2026-02-08T03:58:35.475+00:00</dateUpdated>
     <decoder model="DH126D" family="Economy Series 6 with FX3, silent" comment="" maxFnNum="28" />
     <locoaddress>
@@ -19,7 +19,7 @@
       </keyvaluepair>
       <keyvaluepair>
         <key>TE</key>
-        <value>17 / 12</value>
+        <value>TE: 17 / 12</value>
       </keyvaluepair>
     </attributepairs>
     <values>

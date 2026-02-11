@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="ATSF 345" fileName="ATSF_345.xml" roadNumber="345" roadName="Atchison, Topeka, and Santa Fe" mfg="Fox Valley" owner="190 Brian Neely" model="GP60B" dccAddress="147" comment="Do not separate from ATSF 147 and ATSF 331. Group TE: 48 / 41 / 35 Unit TE: 17 / 14 / 12 2 unit TE: 31 / 26 / 21" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+  <locomotive id="ATSF 345" fileName="ATSF_345.xml" roadNumber="345" roadName="ATSF" mfg="Fox Valley" owner="190 Brian Neely" model="GP60B" dccAddress="147" comment="Do not separate from &#xA;ATSF 147 and ATSF 331." developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2026-02-08T05:45:25.617+00:00</dateUpdated>
     <decoder model="LokSound Select OEM" family="ESU LokSound Select" comment="" maxFnNum="28" />
     <locoaddress>
@@ -19,7 +19,25 @@
       </keyvaluepair>
       <keyvaluepair>
         <key>TE</key>
-        <value>Group TE: 48 / 41 / 35 Unit TE: 17 / 14 / 12 2 unit TE: 31 / 26 / 21</value>
+        <value>Group TE: 48 / 41 / 35 
+Unit TE: 17 / 14 / 12 2 
+Unit TE: 31 / 26 / 21</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>physicsMaxSpeedUnit</key>
+        <value>KMH</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>physicsPowerUnit</key>
+        <value>KW</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>physicsTractiveEffortUnit</key>
+        <value>KN</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>physicsWeightUnit</key>
+        <value>T</value>
       </keyvaluepair>
     </attributepairs>
     <values>

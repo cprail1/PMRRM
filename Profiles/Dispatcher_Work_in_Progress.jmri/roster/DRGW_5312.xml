@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="DRGW 5312" fileName="DRGW_5312.xml" roadNumber="5312" roadName="Denver &amp; Rio Grande Western" mfg="BLI" owner="190 Brian Neely" model="EMD SD9" dccAddress="5312" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+  <locomotive id="DRGW 5312" fileName="DRGW_5312.xml" roadNumber="5312" roadName="D&amp;RGW" mfg="BLI" owner="190 Brian Neely" model="EMD SD9" dccAddress="5312" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2026-02-08T03:58:29.522+00:00</dateUpdated>
     <decoder model="Diesel" family="Paragon 3" comment="" maxFnNum="28" />
     <locoaddress>

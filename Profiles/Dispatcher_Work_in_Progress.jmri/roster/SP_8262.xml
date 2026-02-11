@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="SP 8262" fileName="SP_8262.xml" roadNumber="8262" roadName="Southern Pacific" mfg="Athearn" owner="J270 Matthew J Zepeda" model="SD40T-2" dccAddress="8262" comment="" developerID="-1" manufacturerID="141" productID="6240" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+  <locomotive id="SP 8262" fileName="SP_8262.xml" roadNumber="8262" roadName="Southern Pacific" mfg="Athearn" owner="J270 Matthew J Zepeda" model="SD40T-2" dccAddress="8262" comment="" developerID="-1" manufacturerID="141" productID="6240" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2026-02-08T03:58:34.098+00:00</dateUpdated>
     <decoder model="ECO-RTR SD40T-2 w/gyra" family="Econami Diesel OEM Athearn" comment="" maxFnNum="28" />
     <locoaddress>
@@ -30,7 +30,7 @@
     <attributepairs>
       <keyvaluepair>
         <key>TE</key>
-        <value>=16,24</value>
+        <value>16 / 24</value>
       </keyvaluepair>
     </attributepairs>
     <values>

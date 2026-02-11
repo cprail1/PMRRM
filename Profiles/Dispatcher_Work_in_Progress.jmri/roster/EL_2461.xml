@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="EL 2461" fileName="EL_2461.xml" roadNumber="2461" roadName="Erie Lackawanna" mfg="Atlas" owner="269 Salvatore Natale" model="C425" dccAddress="2461" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+  <locomotive id="EL 2461" fileName="EL_2461.xml" roadNumber="2461" roadName="Erie Lackawanna" mfg="Atlas" owner="269 Salvatore Natale" model="C425" dccAddress="2461" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2026-02-08T03:58:29.852+00:00</dateUpdated>
     <decoder model="T1" family="Jan 2000" comment="" maxFnNum="28" />
     <locoaddress>
@@ -15,7 +15,7 @@
     <attributepairs>
       <keyvaluepair>
         <key>TE</key>
-        <value>15, 12, 10</value>
+        <value>TE: 15 / 12  /10</value>
       </keyvaluepair>
     </attributepairs>
     <values>

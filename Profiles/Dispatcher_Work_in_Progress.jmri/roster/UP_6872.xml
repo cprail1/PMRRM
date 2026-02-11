@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <!--Written by JMRI version 5.6+R89a87446cb on Fri Oct 18 11:14:19 PDT 2024-->
-  <locomotive id="UP 6872" fileName="UP_6872.xml" roadNumber="6872" roadName="Union Pacific" mfg="ATG" owner="252 John Madriaga" model="AC 4400ACW" dccAddress="6872" comment="" developerID="-1" manufacturerID="153" productID="14" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+  <locomotive id="UP 6872" fileName="UP_6872.xml" roadNumber="6872" roadName="Union Pacific" mfg="Athearn Genesis" owner="252 John Madriaga" model="AC 4400ACW" dccAddress="6872" comment="" developerID="-1" manufacturerID="153" productID="14" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2024-10-18T18:14:19.319+00:00</dateUpdated>
     <decoder model="T1" family="June 2007" comment="" maxFnNum="28" />
     <locoaddress>

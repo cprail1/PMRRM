@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
-<locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <!--Written by JMRI version 4.17.8+R7c13c6b on Sat Feb 01 11:03:45 PST 2020-->
-  <locomotive id="NS 5334" fileName="NS_5334.xml" roadNumber="5334" roadName="Norfolk Southern" mfg="Proto 2000" owner="252 John Madriaga" model="GP38-2" dccAddress="5334" comment="Group TE:35,30,25&#xA;Run with NS5280" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2020-02-01T19:03:45.790+0000</dateUpdated>
-    <decoder model="DN136PS" family="Series 6 with FX3, silent, improved BEMF" comment="" />
+<locomotive-config>
+  <locomotive id="NS 5334" fileName="NS_5334.xml" roadNumber="5334" roadName="Norfolk Southern" mfg="Proto 2000" owner="252 John Madriaga" model="GP38-2" dccAddress="5334" comment="Run with NS5280" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+    <dateUpdated>2020-02-01T19:03:45.790+00:00</dateUpdated>
+    <decoder model="DN136PS" family="Series 6 with FX3, silent, improved BEMF" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="5334" longaddress="yes" />
       <number>5334</number>

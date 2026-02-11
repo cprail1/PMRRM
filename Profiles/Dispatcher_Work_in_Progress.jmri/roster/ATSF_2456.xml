@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="ATSF 2456" fileName="ATSF_2456.xml" roadNumber="2456" roadName="Atchison, Topeka, and Santa Fe" mfg="Bachmann Spectrum" owner="257 Chris Holt" model="2-10-0 Russian Decapod" dccAddress="3" comment="Unable to program address" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+  <locomotive id="ATSF 2456" fileName="ATSF_2456.xml" roadNumber="2456" roadName="ATSF" mfg="Bachmann Spectrum" owner="257 Chris Holt" model="2-10-0 Russian Decapod" dccAddress="3" comment="Unable to program address" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2026-02-08T03:58:25.429+00:00</dateUpdated>
     <decoder model="WOW Steam 121 SS4" family="WOW Steam Sound Set 4" comment="" maxFnNum="28" />
     <locoaddress>
@@ -37,7 +37,7 @@
     <attributepairs>
       <keyvaluepair>
         <key>TE</key>
-        <value>8 / 5</value>
+        <value>TE: 8 / 5</value>
       </keyvaluepair>
     </attributepairs>
     <values>

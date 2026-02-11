@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="Climax 3" fileName="Climax_3.xml" roadNumber="3" roadName="Climax" mfg="Bachman Spectrum" owner="190 Brian Neely" model="Climax" dccAddress="30" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+  <locomotive id="Climax 3" fileName="Climax_3.xml" roadNumber="3" roadName="Climax" mfg="Bachman Spectrum" owner="190 Brian Neely" model="Climax" dccAddress="30" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2026-02-08T03:58:28.131+00:00</dateUpdated>
     <decoder model="On30 Whitcomb 50-Ton Center-Cab" family="Tsunami Diesel Bachmann OEM" comment="" maxFnNum="28" />
     <locoaddress>
@@ -24,7 +24,7 @@
     <attributepairs>
       <keyvaluepair>
         <key>TE</key>
-        <value>6 / 4</value>
+        <value>TE: 6 / 4</value>
       </keyvaluepair>
     </attributepairs>
     <values>

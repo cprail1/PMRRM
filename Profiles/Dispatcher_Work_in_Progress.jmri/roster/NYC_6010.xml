@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="NYC 6010" fileName="NYC_6010.xml" roadNumber="6010" roadName="New York Central" mfg="Bachmann" owner="254 Aaron Gold" model="4-8-4 S2 Niagara" dccAddress="6010" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+  <locomotive id="NYC 6010" fileName="NYC_6010.xml" roadNumber="6010" roadName="New York Central" mfg="Bachmann" owner="254 Aaron Gold" model="4-8-4 S2 Niagara" dccAddress="6010" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2026-02-08T03:58:31.387+00:00</dateUpdated>
     <decoder model="SDXH166D" family="SFX Sound Decoders - Series 6" comment="" maxFnNum="28" />
     <locoaddress>
@@ -33,7 +33,7 @@
       </keyvaluepair>
       <keyvaluepair>
         <key>TE</key>
-        <value>20, 13</value>
+        <value>20 /  13</value>
       </keyvaluepair>
     </attributepairs>
     <values>

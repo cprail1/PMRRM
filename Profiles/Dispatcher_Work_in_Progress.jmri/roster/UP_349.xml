@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <!--Written by JMRI version 4.20+Rc7ba8249b on Tue Oct 06 12:05:05 PDT 2020-->
-  <locomotive id="UP 349" fileName="UP_349.xml" roadNumber="349" roadName="Union Pacific" mfg="Life Like" owner="254 Aaron Gold" model="GP9" dccAddress="349" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2017-10-24T22:55:24.000+0000</dateUpdated>
-    <decoder model="D13SRJ" family="Silent Running w/ Torque Compensation" comment="" />
+  <locomotive id="UP 349" fileName="UP_349.xml" roadNumber="349" roadName="Union Pacific" mfg="Life-Like" owner="254 Aaron Gold" model="GP9" dccAddress="349" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+    <dateUpdated>2017-10-24T22:55:24.000+00:00</dateUpdated>
+    <decoder model="D13SRJ" family="Silent Running w/ Torque Compensation" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="349" longaddress="yes" />
       <number>349</number>

@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="T&amp;W 1825" fileName="T_W_1825.xml" roadNumber="1825" roadName="Tidewater &amp; Western" mfg="brass" owner="265 AJ Chier" model="0-6-0" dccAddress="1825" comment="" developerID="-1" manufacturerID="141" productID="316" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+  <locomotive id="T&amp;W 1825" fileName="T_W_1825.xml" roadNumber="1825" roadName="Tidewater &amp; Western" mfg="brass" owner="265 AJ Chier" model="0-6-0" dccAddress="1825" comment="" developerID="-1" manufacturerID="141" productID="316" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2026-02-08T03:58:34.856+00:00</dateUpdated>
     <decoder model="TSU-2200 Steam-2" family="Tsunami2 Steam" comment="" maxFnNum="28" />
     <locoaddress>
@@ -45,7 +45,7 @@
     <attributepairs>
       <keyvaluepair>
         <key>TE</key>
-        <value>123, 10, 8</value>
+        <value>123 /  10 /  8</value>
       </keyvaluepair>
     </attributepairs>
     <values>

@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="N&amp;W 1218" fileName="N_W_1218.xml" roadNumber="1218" roadName="Norfolk &amp; Western" mfg="BLI" owner="190 Brian Neely" model="2-6-6-4 Class A" dccAddress="1218" comment="" developerID="-1" manufacturerID="38" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+  <locomotive id="N&amp;W 1218" fileName="N_W_1218.xml" roadNumber="1218" roadName="Norfolk &amp; Western" mfg="BLI" owner="190 Brian Neely" model="2-6-6-4 Class A" dccAddress="1218" comment="" developerID="-1" manufacturerID="38" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2026-02-08T03:58:30.941+00:00</dateUpdated>
     <decoder model="Steam" family="Paragon 3" comment="" maxFnNum="28" />
     <locoaddress>
@@ -45,7 +45,7 @@
     <attributepairs>
       <keyvaluepair>
         <key>TE</key>
-        <value>54, 47, 40</value>
+        <value>54 /  47 /  40</value>
       </keyvaluepair>
     </attributepairs>
     <values>

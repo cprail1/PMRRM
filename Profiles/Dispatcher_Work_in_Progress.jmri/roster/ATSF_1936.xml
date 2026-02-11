@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <!--Written by JMRI version 4.20+Rc7ba8249b on Sat Mar 27 12:22:30 PDT 2021-->
-  <locomotive id="ATSF 1936" fileName="ATSF_1936.xml" roadNumber="1936" roadName="Atchison, Topeka, and Santa Fe" mfg="Athearn Genesis" owner="223 Dan Wexler" model="F45" dccAddress="1928" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2018-10-03T01:02:29.000+0000</dateUpdated>
-    <decoder model="DH126D" family="Economy Series 6 with FX3, silent" comment="" />
+  <locomotive id="ATSF 1936" fileName="ATSF_1936.xml" roadNumber="1936" roadName="ATSF" mfg="Athearn Genesis" owner="223 Dan Wexler" model="F45" dccAddress="1928" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+    <dateUpdated>2018-10-03T01:02:29.000+00:00</dateUpdated>
+    <decoder model="DH126D" family="Economy Series 6 with FX3, silent" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="1928" longaddress="yes" />
       <number>1928</number>

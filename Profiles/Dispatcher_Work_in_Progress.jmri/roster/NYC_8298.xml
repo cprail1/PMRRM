@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="NYC 8298" fileName="NYC_8298.xml" roadNumber="8298" roadName="New York Central" mfg="Bachmann" owner="254 Aaron Gold" model="RS-3" dccAddress="8298" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+  <locomotive id="NYC 8298" fileName="NYC_8298.xml" roadNumber="8298" roadName="New York Central" mfg="Bachmann" owner="254 Aaron Gold" model="RS-3" dccAddress="8298" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2026-02-08T03:58:31.518+00:00</dateUpdated>
     <decoder model="2 function decoder (36-552)" family="E-Z Command decoders" comment="" maxFnNum="28" />
     <locoaddress>
@@ -19,7 +19,7 @@
       </keyvaluepair>
       <keyvaluepair>
         <key>TE</key>
-        <value>17 / 12</value>
+        <value>TE: 17 / 12</value>
       </keyvaluepair>
     </attributepairs>
     <values>

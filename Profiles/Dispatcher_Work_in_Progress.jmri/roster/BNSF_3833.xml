@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="BNSF 3833" fileName="BNSF_3833.xml" roadNumber="3833" roadName="BNSF Railway" mfg="Scaletrains.com" owner="267 Adam Delia" model="ET44C4" dccAddress="3833" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+  <locomotive id="BNSF 3833" fileName="BNSF_3833.xml" roadNumber="3833" roadName="BNSF Railway" mfg="Scaletrains" owner="267 Adam Delia" model="ET44C4" dccAddress="3833" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2026-02-08T03:58:27.412+00:00</dateUpdated>
     <decoder model="LokSound V4.0" family="ESU LokSound V4.0" comment="" maxFnNum="28" />
     <locoaddress>
@@ -24,6 +24,22 @@
       <keyvaluepair>
         <key>TE</key>
         <value>31 / 26 / 21</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>physicsMaxSpeedUnit</key>
+        <value>KMH</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>physicsPowerUnit</key>
+        <value>KW</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>physicsTractiveEffortUnit</key>
+        <value>KN</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>physicsWeightUnit</key>
+        <value>T</value>
       </keyvaluepair>
     </attributepairs>
     <values>

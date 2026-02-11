@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="SP 7127" fileName="SP_7127.xml" roadNumber="7127" roadName="Southern Pacific" mfg="Boswer" owner="Matthew J Zepeda J270" model="C626" dccAddress="7127" comment="" developerID="-1" manufacturerID="141" productID="2140" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+  <locomotive id="SP 7127" fileName="SP_7127.xml" roadNumber="7127" roadName="Southern Pacific" mfg="Bowser" owner="J270 Mathtew J Zepeda " model="C626" dccAddress="7127" comment="" developerID="-1" manufacturerID="141" productID="2140" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2026-02-08T03:58:33.728+00:00</dateUpdated>
     <decoder model="BLU-2200 GE Diesels" family="Blunami Diesel" comment="" maxFnNum="28" />
     <locoaddress>
@@ -44,7 +44,7 @@
     <attributepairs>
       <keyvaluepair>
         <key>TE</key>
-        <value>18,26</value>
+        <value>18 / 26</value>
       </keyvaluepair>
     </attributepairs>
     <values>

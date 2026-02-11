@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="ATSF 5039" fileName="ATSF_5039.xml" roadNumber="5039" roadName="Atchison, Topeka, and Santa Fe" mfg="Athearn RTR" owner="257 Chris Holt" model="SD40-2" dccAddress="5039" comment="Do not seperate from ATSF 5058, ATSF 5002, and ATSF 5092.Group TE: 57 / 41" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+  <locomotive id="ATSF 5039" fileName="ATSF_5039.xml" roadNumber="5039" roadName="ATSF" mfg="Athearn RTR" owner="257 Chris Holt" model="SD40-2" dccAddress="5039" comment="Do not separate from ATSF 5058, &#xA;ATSF 5002, and ATSF 5092." developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2026-02-08T03:58:25.886+00:00</dateUpdated>
     <decoder model="DH126D" family="Economy Series 6 with FX3, silent" comment="" maxFnNum="28" />
     <locoaddress>
@@ -19,7 +19,8 @@
       </keyvaluepair>
       <keyvaluepair>
         <key>TE</key>
-        <value>20 / 13</value>
+        <value>20 / 13
+Group TE: 57 / 41</value>
       </keyvaluepair>
     </attributepairs>
     <values>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <!--Written by JMRI version 4.20+Rc7ba8249b on Tue Oct 06 12:07:37 PDT 2020-->
-  <locomotive id="CR 6923" fileName="CR_6923.xml" roadNumber="6923" roadName="Conrail" mfg="Life Like" owner="254 Aaron Gold" model="SD-9" dccAddress="6923" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2018-09-03T22:20:33.000+0000</dateUpdated>
-    <decoder model="D13SR" family="Silent Drive decoders" comment="NCE D13SRJ" />
+  <locomotive id="CR 6923" fileName="CR_6923.xml" roadNumber="6923" roadName="Conrail" mfg="Life-Like" owner="254 Aaron Gold" model="SD-9" dccAddress="6923" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+    <dateUpdated>2018-09-03T22:20:33.000+00:00</dateUpdated>
+    <decoder model="D13SR" family="Silent Drive decoders" comment="NCE D13SRJ" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="6923" longaddress="yes" />
       <number>6923</number>

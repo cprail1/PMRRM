@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="SP 8315" fileName="SP_8315.xml" roadNumber="8315" roadName="Southern Pacific" mfg="Athearn" owner="148 Kevin Schiller" model="SD40T-2" dccAddress="8315" comment="" developerID="-1" manufacturerID="141" productID="6453" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+  <locomotive id="SP 8315" fileName="SP_8315.xml" roadNumber="8315" roadName="Southern Pacific" mfg="Athearn" owner="148 Kevin Schiller" model="SD40T-2" dccAddress="8315" comment="" developerID="-1" manufacturerID="141" productID="6453" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2026-02-08T03:58:34.135+00:00</dateUpdated>
     <decoder model="TSU-21PNEM8 SD40T-2" family="Tsunami2 Diesel OEM Genesis" comment="" maxFnNum="28" />
     <locoaddress>
@@ -39,7 +39,7 @@
     <attributepairs>
       <keyvaluepair>
         <key>TE</key>
-        <value>22, 18,15</value>
+        <value>Group TE: 61 / 45</value>
       </keyvaluepair>
     </attributepairs>
     <values>

@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="SP 4150" fileName="SP_4150.xml" roadNumber="4150" roadName="Southern Pacific" mfg="MTH " owner="J270 Matthew J Zepeda" model="AC-6 " dccAddress="4150" comment="" developerID="-1" manufacturerID="27" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+  <locomotive id="SP 4150" fileName="SP_4150.xml" roadNumber="4150" roadName="Southern Pacific" mfg="MTH " owner="J270 Matthew J Zepeda" model="AC-6 " dccAddress="4150" comment="" developerID="-1" manufacturerID="27" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2026-02-08T03:58:32.736+00:00</dateUpdated>
     <decoder model="MTH HO PS3" family="MTH HO PS3" comment="" maxFnNum="28" />
     <locoaddress>
@@ -15,7 +15,7 @@
     <attributepairs>
       <keyvaluepair>
         <key>TE</key>
-        <value>35, 48</value>
+        <value>35 /  48</value>
       </keyvaluepair>
     </attributepairs>
     <values>

@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="CP 9302_1" fileName="CP_9302_1.xml" roadNumber="9302" roadName="Canadian Pacific" mfg="Athearn Genesis" owner="217 Peter Ely" model="SD90MAC-H P2" dccAddress="9302" comment="Primarily for CP unit coal train but may be used elsewhere with speed appropriate CP units" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+  <locomotive id="CP 9302_1" fileName="CP_9302_1.xml" roadNumber="9302" roadName="Canadian Pacific" mfg="Athearn Genesis" owner="217 Peter Ely" model="SD90MAC-H P2" dccAddress="9302" comment="Primarily for CP unit coal train &#xA;but may be used elsewhere with speed &#xA;appropriate CP units . Speed 25 57 72 " developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2026-02-08T03:58:28.683+00:00</dateUpdated>
     <decoder model="TSU-GN2208 SD90MAC-H" family="Tsunami2 Diesel OEM Genesis" comment="" maxFnNum="28" />
     <locoaddress>

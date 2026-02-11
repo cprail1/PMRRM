@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="ATSF 3417" fileName="ATSF_3417.xml" roadNumber="3417" roadName="Atchison, Topeka, and Santa Fe" mfg="Broadway Limited" owner="190 Brian Neely" model="4-6-2 Heavy Pacific" dccAddress="3417" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+  <locomotive id="ATSF 3417" fileName="ATSF_3417.xml" roadNumber="3417" roadName="ATSF" mfg="Broadway Limited" owner="190 Brian Neely" model="4-6-2 Heavy Pacific" dccAddress="3417" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2026-02-08T03:58:25.667+00:00</dateUpdated>
     <decoder model="Steam" family="Paragon 2" comment="" maxFnNum="28" />
     <locoaddress>

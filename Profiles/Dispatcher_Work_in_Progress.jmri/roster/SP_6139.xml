@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
-<locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <!--Written by JMRI version 4.26+R381c8dfc32 on Tue Aug 30 19:54:00 PDT 2022-->
-  <locomotive id="SP 6139" fileName="SP_6139.xml" roadNumber="6139" roadName="Southern Pacific" mfg="Stewart" owner="223 Dan Wexler" model="F7A" dccAddress="6139" comment="DO NOT SEPERATE FROM SP 8250&#xA;GROUP TE: 48 / 35" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2022-08-31T02:54:00.900+0000</dateUpdated>
+<locomotive-config>
+  <locomotive id="SP 6139" fileName="SP_6139.xml" roadNumber="6139" roadName="Southern Pacific" mfg="Stewart" owner="223 Dan Wexler" model="F7A" dccAddress="6139" comment="DO NOT separate FROM SP 8250&#xA;" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+    <dateUpdated>2022-08-31T02:54:00.900+00:00</dateUpdated>
     <decoder model="DH126D" family="Economy Series 6 with FX3, silent" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="6139" longaddress="yes" />
@@ -12,6 +12,12 @@
     </locoaddress>
     <functionlabels />
     <soundlabels />
+    <attributepairs>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>GROUP TE: 48 / 35</value>
+      </keyvaluepair>
+    </attributepairs>
     <values>
       <decoderDef>
         <varValue item="Short Address" value="3" />

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <!--Written by JMRI version 5.1.5+Rb1b4a78a89 on Tue Mar 07 21:56:54 PST 2023-->
-  <locomotive id="ATSF DC-192" fileName="ATSF_DC_192.xml" roadNumber="192" roadName="Atchison, Topeka, and Santa Fe" mfg="Rapido" owner="267 Adam Delia" model="Budd RDC" dccAddress="192" comment="operate only with ATSF DC-191 consisted with ATSF DC-191 with address 50" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+  <locomotive id="ATSF DC-192" fileName="ATSF_DC_192.xml" roadNumber="192" roadName="ATSF" mfg="Rapido" owner="267 Adam Delia" model="Budd RDC" dccAddress="192" comment="operate only with ATSF DC-191 consisted &#xA;with ATSF DC-191 with address 50" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2023-03-08T05:56:54.038+00:00</dateUpdated>
     <decoder model="LokSound Select" family="ESU LokSound Select" comment="" maxFnNum="28" />
     <locoaddress>
@@ -11,8 +11,8 @@
       <protocol>dcc_long</protocol>
     </locoaddress>
     <functionlabels>
-      <functionlabel num="0" lockable="true" functionImage="" functionImageSelected="">Light</functionlabel>
-      <functionlabel num="2" lockable="false" functionImage="" functionImageSelected="">Horn</functionlabel>
+      <functionlabel num="0" lockable="true" visible="true" functionImage="" functionImageSelected="">Light</functionlabel>
+      <functionlabel num="2" lockable="false" visible="true" functionImage="" functionImageSelected="">Horn</functionlabel>
     </functionlabels>
     <soundlabels>
       <soundlabel num="25">Random sounds</soundlabel>

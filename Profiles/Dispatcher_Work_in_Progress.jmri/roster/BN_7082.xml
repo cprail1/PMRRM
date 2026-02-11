@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="BN 7082" fileName="BN_7082.xml" roadNumber="7082" roadName="Burlington Northern " mfg="Athearn RTR" owner="148 Kevin Schiller" model="SD40-2" dccAddress="7082" comment="" developerID="-1" manufacturerID="141" productID="2117" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+  <locomotive id="BN 7082" fileName="BN_7082.xml" roadNumber="7082" roadName="Burlington Northern " mfg="Athearn RTR" owner="148 Kevin Schiller" model="SD40-2" dccAddress="7082" comment="" developerID="-1" manufacturerID="141" productID="2117" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2026-02-08T03:58:27.130+00:00</dateUpdated>
     <decoder model="TSU-21PNEM8 EMD Diesels" family="Tsunami2 Diesel" comment="" maxFnNum="28" />
     <locoaddress>
@@ -52,7 +52,7 @@
       </keyvaluepair>
       <keyvaluepair>
         <key>TE</key>
-        <value>22, 18, 15</value>
+        <value>22 /  18 /  15</value>
       </keyvaluepair>
     </attributepairs>
     <values>

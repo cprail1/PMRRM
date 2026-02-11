@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="UP 61" fileName="UP_61.xml" roadNumber="61" roadName="Union Pacific" mfg="Alco Models" owner="259 Skip Martin" model="C855A" dccAddress="61" comment="Do not separate from UP 60A &amp; UP 60B" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+  <locomotive id="UP 61" fileName="UP_61.xml" roadNumber="61" roadName="Union Pacific" mfg="Alco Models" owner="259 Skip Martin" model="C855A" dccAddress="61" comment="Do not separate from &#xA;UP 60A &amp; UP 60B" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2026-02-08T03:58:35.622+00:00</dateUpdated>
     <decoder model="ECO-200 Diesel" family="Econami Diesel" comment="" maxFnNum="28" />
     <locoaddress>

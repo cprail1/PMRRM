@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
-<locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <!--Written by JMRI version 4.6-R81496dc on Sat Apr 08 10:41:55 PDT 2017 $Id$-->
-  <locomotive id="Budd RDC" fileName="Budd_RDC.xml" roadNumber="201" roadName="unlettered" mfg="Rapido" owner="147 Bob Googooian" model="RDC" dccAddress="201" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>Apr 8, 2017 10:41:55 AM</dateUpdated>
-    <decoder model="LokSound Select" family="ESU LokSound Select" comment="" />
+<locomotive-config>
+  <locomotive id="Budd RDC" fileName="Budd_RDC.xml" roadNumber="201" roadName="Unlettered" mfg="Rapido" owner="147 Bob Googooian" model="RDC" dccAddress="201" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+    <dateUpdated>2017-04-08T17:41:55.000+00:00</dateUpdated>
+    <decoder model="LokSound Select" family="ESU LokSound Select" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="201" longaddress="yes" />
       <number>201</number>
@@ -5307,6 +5307,4 @@
       <CVvalue name="16.4.384" value="0" />
     </values>
   </locomotive>
-  <!--Written by JMRI version 4.8+Rbe0ff15 on Tue Sep 05 08:08:04 PDT 2017-->
-  <!--Written by JMRI version 4.12+Rb6a9bb1 on Wed Oct 10 14:13:55 PDT 2018-->
 </locomotive-config>

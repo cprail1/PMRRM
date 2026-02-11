@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="SN 711" fileName="SN_711.xml" roadNumber="711" roadName="Sacramento Northern" mfg="ATH" owner="214 Don Philpott" model="GP7" dccAddress="711" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+  <locomotive id="SN 711" fileName="SN_711.xml" roadNumber="711" roadName="Sacramento Northern" mfg="Athearn" owner="214 Don Philpott" model="GP7" dccAddress="711" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2026-02-08T03:58:32.237+00:00</dateUpdated>
     <decoder model="MC2H104AT" family="MC Motor Decoders" comment="" maxFnNum="28" />
     <locoaddress>

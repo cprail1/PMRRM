@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="ATSF 5000" fileName="ATSF_5000.xml" roadNumber="5000" roadName="Atchison, Topeka, and Santa Fe" mfg="Hallmark" owner="223 Dan Wexler" model="2-10-4 " dccAddress="5000" comment="" developerID="-1" manufacturerID="141" productID="316" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+  <locomotive id="ATSF 5000" fileName="ATSF_5000.xml" roadNumber="5000" roadName="ATSF" mfg="Hallmark Brass" owner="223 Dan Wexler" model="2-10-4 " dccAddress="5000" comment="" developerID="-1" manufacturerID="141" productID="316" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2026-02-08T03:58:25.869+00:00</dateUpdated>
     <decoder model="TSU-2200 Steam-2" family="Tsunami2 Steam" comment="" maxFnNum="28" />
     <locoaddress>
@@ -45,7 +45,7 @@
     <attributepairs>
       <keyvaluepair>
         <key>TE</key>
-        <value>31, 21</value>
+        <value>31 /  21</value>
       </keyvaluepair>
     </attributepairs>
     <values>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
-<locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <!--Written by JMRI version 4.26+R381c8dfc32 on Sat Aug 27 13:01:49 PDT 2022-->
-  <locomotive id="DRGW 122" fileName="DRGW_122.xml" roadNumber="122" roadName="Denver &amp; Rio Grande Western" mfg="Walthers P2KJ" owner="147 Bob Googooian" model="H10-44" dccAddress="122" comment="switcher" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2022-08-27T20:01:49.724+0000</dateUpdated>
+<locomotive-config>
+  <locomotive id="DRGW 122" fileName="DRGW_122.xml" roadNumber="122" roadName="D&amp;RGW" mfg="Walthers P2KJ" owner="147 Bob Googooian" model="H10-44" dccAddress="122" comment="Switcher" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+    <dateUpdated>2022-08-27T20:01:49.724+00:00</dateUpdated>
     <decoder model="P2k H10-44" family="QSI Diesel Ver. 7" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="122" longaddress="yes" />
@@ -11,19 +11,19 @@
       <protocol>dcc_long</protocol>
     </locoaddress>
     <functionlabels>
-      <functionlabel num="0" lockable="true" functionImage="" functionImageSelected="">Light</functionlabel>
-      <functionlabel num="1" lockable="true" functionImage="" functionImageSelected="">Bell</functionlabel>
-      <functionlabel num="2" lockable="true" functionImage="" functionImageSelected="">Horn</functionlabel>
-      <functionlabel num="3" lockable="true" functionImage="" functionImageSelected="">Coupler</functionlabel>
-      <functionlabel num="4" lockable="true" functionImage="" functionImageSelected="">Fans</functionlabel>
-      <functionlabel num="5" lockable="true" functionImage="" functionImageSelected="">Dynamic</functionlabel>
-      <functionlabel num="6" lockable="true" functionImage="" functionImageSelected="">Doppler</functionlabel>
-      <functionlabel num="7" lockable="true" functionImage="" functionImageSelected="">Squeal</functionlabel>
-      <functionlabel num="8" lockable="true" functionImage="" functionImageSelected="">Mute</functionlabel>
-      <functionlabel num="9" lockable="true" functionImage="" functionImageSelected="">Heavy Load</functionlabel>
-      <functionlabel num="10" lockable="true" functionImage="" functionImageSelected="">Status</functionlabel>
-      <functionlabel num="11" lockable="true" functionImage="" functionImageSelected="">Number Board</functionlabel>
-      <functionlabel num="12" lockable="true" functionImage="" functionImageSelected="">Cab Light</functionlabel>
+      <functionlabel num="0" lockable="true" visible="true" functionImage="" functionImageSelected="">Light</functionlabel>
+      <functionlabel num="1" lockable="true" visible="true" functionImage="" functionImageSelected="">Bell</functionlabel>
+      <functionlabel num="2" lockable="true" visible="true" functionImage="" functionImageSelected="">Horn</functionlabel>
+      <functionlabel num="3" lockable="true" visible="true" functionImage="" functionImageSelected="">Coupler</functionlabel>
+      <functionlabel num="4" lockable="true" visible="true" functionImage="" functionImageSelected="">Fans</functionlabel>
+      <functionlabel num="5" lockable="true" visible="true" functionImage="" functionImageSelected="">Dynamic</functionlabel>
+      <functionlabel num="6" lockable="true" visible="true" functionImage="" functionImageSelected="">Doppler</functionlabel>
+      <functionlabel num="7" lockable="true" visible="true" functionImage="" functionImageSelected="">Squeal</functionlabel>
+      <functionlabel num="8" lockable="true" visible="true" functionImage="" functionImageSelected="">Mute</functionlabel>
+      <functionlabel num="9" lockable="true" visible="true" functionImage="" functionImageSelected="">Heavy Load</functionlabel>
+      <functionlabel num="10" lockable="true" visible="true" functionImage="" functionImageSelected="">Status</functionlabel>
+      <functionlabel num="11" lockable="true" visible="true" functionImage="" functionImageSelected="">Number Board</functionlabel>
+      <functionlabel num="12" lockable="true" visible="true" functionImage="" functionImageSelected="">Cab Light</functionlabel>
     </functionlabels>
     <soundlabels />
     <attributepairs>

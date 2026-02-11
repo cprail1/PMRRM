@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="SSW 9264" fileName="SSW_9264.xml" roadNumber="9264" roadName="Cotton Belt" mfg="Athearn RTR" owner="257 Chris Holt" model="SD45T-2" dccAddress="9264" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+  <locomotive id="SSW 9264" fileName="SSW_9264.xml" roadNumber="9264" roadName="Cotton Belt" mfg="Athearn RTR" owner="257 Chris Holt" model="SD45T-2" dccAddress="9264" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2026-02-08T03:58:34.813+00:00</dateUpdated>
     <decoder model="ECO-RTR SD40T-2 w/gyra" family="Econami Diesel OEM Athearn" comment="" maxFnNum="28" />
     <locoaddress>
@@ -30,7 +30,7 @@
     <attributepairs>
       <keyvaluepair>
         <key>TE</key>
-        <value>10 / 6</value>
+        <value>TE: 10 / 6</value>
       </keyvaluepair>
     </attributepairs>
     <values>

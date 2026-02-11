@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <!--Written by JMRI version 5.8+Rbc21ce2ce7 on Tue Feb 04 18:59:19 PST 2025-->
-  <locomotive id="ATSF 44B" fileName="ATSF_44B.xml" roadNumber="44B" roadName="Atchison, Topeka, and Santa Fe" mfg="Athearn Genesis" owner="000 Museum" model="F7B" dccAddress="44" comment="With 44L, 44A and 44C" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+  <locomotive id="ATSF 44B" fileName="ATSF_44B.xml" roadNumber="44B" roadName="ATSF" mfg="Athearn Genesis" owner="000 Museum" model="F7B" dccAddress="44" comment="With 44L, 44A and 44C" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2025-02-05T02:59:19.252+00:00</dateUpdated>
     <decoder model="DP2X" family="Jan 2012" comment="" maxFnNum="28" />
     <locoaddress>

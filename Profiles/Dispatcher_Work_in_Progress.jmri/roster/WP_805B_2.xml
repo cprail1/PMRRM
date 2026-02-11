@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
-<locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <!--Written by JMRI version 4.22+R4c4384d74 on Sat Apr 30 14:33:30 PDT 2022-->
-  <locomotive id="WP 805B_2" fileName="WP_805B_2.xml" roadNumber="805B" roadName="Western Pacific" mfg="Athearn Genesis" owner="214 Don Philpott" model="F7B" dccAddress="805" comment="Do not separate from WP 805A_2&#xA;Group TE: 37 / 26" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2022-04-30T21:33:30.039+0000</dateUpdated>
+<locomotive-config>
+  <locomotive id="WP 805B_2" fileName="WP_805B_2.xml" roadNumber="805B" roadName="Western Pacific" mfg="Athearn Genesis" owner="214 Don Philpott" model="F7B" dccAddress="805" comment="Do not separate from WP 805A_2" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+    <dateUpdated>2022-04-30T21:33:30.039+00:00</dateUpdated>
     <decoder model="T1" family="Sep 2018" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="805" longaddress="yes" />
@@ -12,6 +12,12 @@
     </locoaddress>
     <functionlabels />
     <soundlabels />
+    <attributepairs>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>Group TE: 37 / 26</value>
+      </keyvaluepair>
+    </attributepairs>
     <values>
       <decoderDef>
         <varValue item="Decoder ID" value="0" />

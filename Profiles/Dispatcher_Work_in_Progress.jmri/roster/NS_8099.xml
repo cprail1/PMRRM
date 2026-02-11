@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="NS 8099" fileName="NS_8099.xml" roadNumber="8099" roadName="Norfolk Southern" mfg="Bachmann" owner="J270 Matthew J Zepeda" model="ES44AC" dccAddress="8099" comment="" developerID="-1" manufacturerID="141" productID="GE_ES44AC" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+  <locomotive id="NS 8099" fileName="NS_8099.xml" roadNumber="8099" roadName="Norfolk Southern" mfg="Bachmann" owner="J270 Matthew J Zepeda" model="ES44AC" dccAddress="8099" comment="" developerID="-1" manufacturerID="141" productID="GE_ES44AC" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2026-02-08T03:58:31.097+00:00</dateUpdated>
     <decoder model="GE ES44AC" family="Tsunami Diesel Bachmann Sound Value" comment="" maxFnNum="28" />
     <locoaddress>
@@ -23,7 +23,7 @@
     <attributepairs>
       <keyvaluepair>
         <key>TE</key>
-        <value>26, 18</value>
+        <value>26 /  18</value>
       </keyvaluepair>
     </attributepairs>
     <values>

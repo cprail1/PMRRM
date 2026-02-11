@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <!--Written by JMRI version 5.5.7+R0d26427e10 on Tue Dec 12 11:23:07 PST 2023-->
-  <locomotive id="NP 6001B" fileName="NP_6001B.xml" roadNumber="6001B" roadName="Northern Pacific" mfg="Stewart" owner="263 John Finnerty" model="F7B" dccAddress="6001" comment="Do not separate from NP 6001A &amp; NP 6001C&#xA;Group TE: 92 / 68" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+  <locomotive id="NP 6001B" fileName="NP_6001B.xml" roadNumber="6001B" roadName="Northern Pacific" mfg="Stewart" owner="263 John Finnerty" model="F7B" dccAddress="6001" comment="Do not separate from &#xA;NP 6001A &amp; NP 6001C" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2023-12-12T19:23:07.121+00:00</dateUpdated>
     <decoder model="NMRA standard CV definitions" family="NMRA standard CV definitions" comment="" maxFnNum="28" />
     <locoaddress>
@@ -16,6 +16,10 @@
       <keyvaluepair>
         <key>RosterGroup:NP</key>
         <value>yes</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>Group TE: 92 / 68</value>
       </keyvaluepair>
     </attributepairs>
     <values>

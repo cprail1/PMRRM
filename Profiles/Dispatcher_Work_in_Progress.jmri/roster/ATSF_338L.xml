@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="ATSF 338L" fileName="ATSF_338L.xml" roadNumber="338L" roadName="Atchison, Topeka, and Santa Fe" mfg="Athearn Genesis" owner="214 Don Philpott" model="F7A" dccAddress="338" comment="DO NOT SEPARATE FROM ATSF 338B AND ATSF 327LGROUP TE: 65 / 48" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+  <locomotive id="ATSF 338L" fileName="ATSF_338L.xml" roadNumber="338L" roadName="ATSF" mfg="Athearn Genesis" owner="214 Don Philpott" model="F7A" dccAddress="338" comment="DO NOT SEPARATE FROM &#xA;ATSF 338B AND ATSF 327L" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2026-02-08T03:58:25.657+00:00</dateUpdated>
     <decoder model="TSU-GN2208 GP7R" family="Tsunami2 Diesel OEM Genesis" comment="" maxFnNum="28" />
     <locoaddress>
@@ -39,7 +39,8 @@
     <attributepairs>
       <keyvaluepair>
         <key>TE</key>
-        <value>22 / 15</value>
+        <value>22 / 15
+GROUP TE: 65 / 48</value>
       </keyvaluepair>
     </attributepairs>
     <values>

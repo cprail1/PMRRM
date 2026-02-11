@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <!--Written by JMRI version 5.8+Rbc21ce2ce7 on Sat Mar 15 12:59:53 PDT 2025-->
-  <locomotive id="WP 906D" fileName="WP_906D.xml" roadNumber="906D" roadName="Western Pacific" mfg="Intermountain" owner="190 Brian Neely" model="FTA" dccAddress="906" comment="Do not seperate from 906C.  Drawbared.&#xA;Group TE: 35 / 30 / 25" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+  <locomotive id="WP 906D" fileName="WP_906D.xml" roadNumber="906D" roadName="Western Pacific" mfg="Intermountain" owner="190 Brian Neely" model="FTA" dccAddress="906" comment="Do not separate from 906C.  Drawbared." developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2018-02-21T04:36:40.000+00:00</dateUpdated>
     <decoder model="LokSound Select" family="ESU LokSound Select" comment="" maxFnNum="28" />
     <locoaddress>
@@ -20,6 +20,10 @@
       <keyvaluepair>
         <key>RosterGroup:WP</key>
         <value>yes</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>Group TE: 35 / 30 / 25</value>
       </keyvaluepair>
     </attributepairs>
     <values>

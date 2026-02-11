@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="ATSF 54A" fileName="ATSF_54A.xml" roadNumber="54A" roadName="Atchison, Topeka, and Santa Fe" mfg="Rapido" owner="267 Adam Delia" model="Alco PB-1" dccAddress="54" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+  <locomotive id="ATSF 54A" fileName="ATSF_54A.xml" roadNumber="54A" roadName="ATSF" mfg="Rapido" owner="267 Adam Delia" model="Alco PB-1" dccAddress="54" comment="TE Measured w/ ATSF 54 A-unit" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2026-02-08T03:58:26.174+00:00</dateUpdated>
     <decoder model="LokSound 5 DCC" family="ESU LokSound 5" comment="" maxFnNum="31" />
     <locoaddress>
@@ -22,7 +22,7 @@
     <attributepairs>
       <keyvaluepair>
         <key>TE</key>
-        <value>87 / 48 / 35 ** Measured w/ ATSF 54 A-unit	**</value>
+        <value>Group TE 87 / 48 / 35</value>
       </keyvaluepair>
     </attributepairs>
     <values>

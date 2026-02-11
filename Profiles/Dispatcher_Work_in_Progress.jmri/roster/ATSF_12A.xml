@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <!--Written by JMRI version 4.20+Rc7ba8249b on Sat Mar 27 12:22:29 PDT 2021-->
-  <locomotive id="ATSF 12A" fileName="ATSF_12A.xml" roadNumber="12A" roadName="Atchison, Topeka, and Santa Fe" mfg="Broadway Limited" owner="223 Dan Wexler" model="E6-B" dccAddress="12" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2018-10-03T01:03:12.000+0000</dateUpdated>
-    <decoder model="Diesel" family="Paragon 3" comment="" />
+  <locomotive id="ATSF 12A" fileName="ATSF_12A.xml" roadNumber="12A" roadName="ATSF" mfg="Broadway Limited" owner="223 Dan Wexler" model="E6-B" dccAddress="12" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+    <dateUpdated>2018-10-03T01:03:12.000+00:00</dateUpdated>
+    <decoder model="Diesel" family="Paragon 3" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="12" longaddress="no" />
       <number>12</number>

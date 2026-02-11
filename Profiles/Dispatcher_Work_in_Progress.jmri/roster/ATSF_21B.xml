@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="ATSF 21B" fileName="ATSF_21B.xml" roadNumber="21B" roadName="Atchison, Topeka, and Santa Fe" mfg="Athearn Genesis" owner="209 Bruce Bloch" model="F3B" dccAddress="21" comment="Do not seperate from ATSF 21L, ATSF 21A, and ATSF 21C" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+  <locomotive id="ATSF 21B" fileName="ATSF_21B.xml" roadNumber="21B" roadName="ATSF" mfg="Athearn Genesis" owner="209 Bruce Bloch" model="F3B" dccAddress="21" comment="Do not separate from ATSF 21L, &#xA;ATSF 21A, and ATSF 21C" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2026-02-08T03:58:25.384+00:00</dateUpdated>
     <decoder model="ECO-100 Diesel" family="Econami Diesel" comment="" maxFnNum="28" />
     <locoaddress>

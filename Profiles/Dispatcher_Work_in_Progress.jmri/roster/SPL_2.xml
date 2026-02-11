@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="SPL 2" fileName="SPL_2.xml" roadNumber="2" roadName="Sierra Pacific Lines" mfg="Bachmann" owner="254 Aaron Gold" model="GE 45 Tonner" dccAddress="2" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+  <locomotive id="SPL 2" fileName="SPL_2.xml" roadNumber="2" roadName="Sierra Pacific Lines" mfg="Bachmann" owner="254 Aaron Gold" model="GE 45 Tonner" dccAddress="2" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2026-02-08T03:58:34.635+00:00</dateUpdated>
     <decoder model="4 function decoder (36-550)" family="E-Z Command decoders" comment="" maxFnNum="28" />
     <locoaddress>
@@ -15,7 +15,7 @@
     <attributepairs>
       <keyvaluepair>
         <key>TE</key>
-        <value>9, 3, 2</value>
+        <value>TE 9 / 3 / 2</value>
       </keyvaluepair>
     </attributepairs>
     <values>

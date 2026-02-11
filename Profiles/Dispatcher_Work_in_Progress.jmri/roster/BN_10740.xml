@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <!--Written by JMRI version 5.12+Rc5bd588235 on Sat Sep 20 12:27:16 PDT 2025-->
-  <locomotive id="BN 10740" fileName="BN_10740.xml" roadNumber="10740" roadName="Burlington Northern" mfg="Tangent" owner="Kevin Schiller" model="Caboose" dccAddress="0" comment="wand to light" developerID="-1" manufacturerID="1000" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+  <locomotive id="BN 10740" fileName="BN_10740.xml" roadNumber="10740" roadName="Burlington Northern" mfg="Tangent" owner="148 Kevin Schiller" model="Caboose" dccAddress="0" comment="wand to light" developerID="-1" manufacturerID="1000" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2025-09-20T19:27:16.510+00:00</dateUpdated>
     <decoder model="No Decoder" family="No Decoder" comment="" maxFnNum="28" />
     <locoaddress>

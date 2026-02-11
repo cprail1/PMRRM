@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="UP 938R" fileName="UP_938R.xml" roadNumber="938" roadName="Union Pacific" mfg="Walthers" owner="263 John Finnerty" model="E8A" dccAddress="931" comment="Do not separate from UP931, UP933, and UP938B. Programmed as address 931 but running backwardsGroup TE: 92 / 80 / 68" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+  <locomotive id="UP 938R" fileName="UP_938R.xml" roadNumber="938" roadName="Union Pacific" mfg="Walthers" owner="263 John Finnerty" model="E8A" dccAddress="931" comment="Do not separate from UP931, UP933, and UP938B. &#xA;Programmed as address 931 but running backwards " developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2026-02-08T03:58:36.244+00:00</dateUpdated>
     <decoder model="KAT22" family="Jan 2012" comment="" maxFnNum="28" />
     <locoaddress>
@@ -19,7 +19,8 @@
       </keyvaluepair>
       <keyvaluepair>
         <key>TE</key>
-        <value>26 / 22 / 18</value>
+        <value>26 / 22 / 18
+Group TE: 92 / 80 / 68</value>
       </keyvaluepair>
     </attributepairs>
     <values>

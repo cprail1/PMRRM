@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="NYC 5396" fileName="NYC_5396.xml" roadNumber="5396" roadName="New York Central" mfg="BLI" owner="254 Aaron Gold" model="4-6-4 J1e Hudson" dccAddress="5396" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+  <locomotive id="NYC 5396" fileName="NYC_5396.xml" roadNumber="5396" roadName="New York Central" mfg="BLI" owner="254 Aaron Gold" model="4-6-4 J1e Hudson" dccAddress="5396" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2026-02-08T03:58:31.345+00:00</dateUpdated>
     <decoder model="Steam" family="Paragon 2" comment="" maxFnNum="28" />
     <locoaddress>
@@ -42,7 +42,7 @@
     <attributepairs>
       <keyvaluepair>
         <key>TE</key>
-        <value>29 / 8</value>
+        <value>TE 29 / 8</value>
       </keyvaluepair>
     </attributepairs>
     <values>

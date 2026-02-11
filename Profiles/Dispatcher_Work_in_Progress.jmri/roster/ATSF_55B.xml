@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="ATSF 55B" fileName="ATSF_55B.xml" roadNumber="55B" roadName="Atchison, Topeka, and Santa Fe" mfg="Walthers" owner="190 Brian Neely" model="PB" dccAddress="55" comment="Do not separate from ATSF 55A and ATSF 71C.Group TE:" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+  <locomotive id="ATSF 55B" fileName="ATSF_55B.xml" roadNumber="55B" roadName="ATSF" mfg="Walthers" owner="190 Brian Neely" model="PB" dccAddress="55" comment="Do not separate from &#xA;ATSF 55A and ATSF 71C." developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2026-02-08T03:58:26.350+00:00</dateUpdated>
     <decoder model="Alco FB2" family="Tsunami Diesel Bachmann Sound Value" comment="" maxFnNum="28" />
     <locoaddress>

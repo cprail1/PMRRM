@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <!--Written by JMRI version 5.8+Rbc21ce2ce7 on Sat Mar 15 12:45:40 PDT 2025-->
-  <locomotive id="DRGW 43" fileName="DRGW_43.xml" roadNumber="43" roadName="Denver &amp; Rio Grande Western" mfg="Bachmann" owner="190 Brian Neely" model="GE 44 Tonner" dccAddress="43" comment="" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+  <locomotive id="DRGW 43" fileName="DRGW_43.xml" roadNumber="43" roadName="D&amp;RGW" mfg="Bachmann" owner="190 Brian Neely" model="GE 44 Tonner" dccAddress="43" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2023-11-15T20:24:02.135+00:00</dateUpdated>
     <decoder model="4 function decoder (36-550)" family="E-Z Command decoders" comment="" maxFnNum="28" />
     <locoaddress>

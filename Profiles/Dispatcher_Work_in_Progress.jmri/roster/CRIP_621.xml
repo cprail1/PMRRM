@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="CRIP 621" fileName="CRIP_621.xml" roadNumber="621" roadName="Rock Island" mfg="Walthers" owner="263 John Finnerty" model="DL109" dccAddress="621" comment="Do not seperate from RI 623Group TE: 52 / 45 / 38" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+  <locomotive id="CRIP 621" fileName="CRIP_621.xml" roadNumber="621" roadName="Rock Island" mfg="Walthers" owner="263 John Finnerty" model="DL109" dccAddress="621" comment="Do not separate from RI 623" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2026-02-08T03:58:29.128+00:00</dateUpdated>
     <decoder model="A4X" family="Jan 2012" comment="" maxFnNum="28" />
     <locoaddress>
@@ -15,7 +15,8 @@
     <attributepairs>
       <keyvaluepair>
         <key>TE</key>
-        <value>24 / 20 / 16</value>
+        <value>24 / 20 / 16
+Group TE: 52 / 45 / 38</value>
       </keyvaluepair>
     </attributepairs>
     <values>

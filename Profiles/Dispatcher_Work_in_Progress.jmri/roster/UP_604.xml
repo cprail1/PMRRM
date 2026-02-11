@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
-<locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <!--Written by JMRI version 5.6+R89a87446cb on Sat Jun 01 13:04:41 PDT 2024-->
-  <locomotive id="UP 604" fileName="UP_604.xml" roadNumber="604" roadName="Union Pacific" mfg="ATH" owner="203 Mike Panton" model="ALCO PA1 Streamliner" dccAddress="604" comment="" developerID="-1" manufacturerID="129" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+<locomotive-config>
+  <locomotive id="UP 604" fileName="UP_604.xml" roadNumber="604" roadName="Union Pacific" mfg="Athearn" owner="203 Mike Panton" model="ALCO PA1 Streamliner" dccAddress="604" comment="" developerID="-1" manufacturerID="129" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2024-06-01T20:04:41.892+00:00</dateUpdated>
     <decoder model="DH126D" family="Economy Series 6 with FX3, silent" comment="" maxFnNum="28" />
     <locoaddress>

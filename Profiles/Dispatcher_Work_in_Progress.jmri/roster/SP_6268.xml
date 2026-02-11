@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="SP 6268" fileName="SP_6268.xml" roadNumber="6268" roadName="Southern Pacific" mfg="BLW" owner="J270 Mathtew J Zepeda " model="F7a" dccAddress="6268" comment="" developerID="-1" manufacturerID="38" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+  <locomotive id="SP 6268" fileName="SP_6268.xml" roadNumber="6268" roadName="Southern Pacific" mfg="BLW" owner="J270 Mathtew J Zepeda " model="F7a" dccAddress="6268" comment="" developerID="-1" manufacturerID="38" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2026-02-08T03:58:33.702+00:00</dateUpdated>
     <decoder model="Diesel" family="Paragon 3" comment="" maxFnNum="28" />
     <locoaddress>
@@ -45,7 +45,7 @@
     <attributepairs>
       <keyvaluepair>
         <key>TE</key>
-        <value>20, 13</value>
+        <value>20 /  13</value>
       </keyvaluepair>
     </attributepairs>
     <values>

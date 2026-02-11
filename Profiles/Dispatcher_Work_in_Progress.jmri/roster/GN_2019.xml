@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="GN 2019" fileName="GN_2019.xml" roadNumber="2019" roadName="Great Northern" mfg="Tenshodo" owner="261 Mike Davis" model="2-8-8-0 N3" dccAddress="2019" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+  <locomotive id="GN 2019" fileName="GN_2019.xml" roadNumber="2019" roadName="Great Northern" mfg="Tenshodo Brass" owner="261 Mike Davis" model="2-8-8-0 N3" dccAddress="2019" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2026-02-08T03:58:30.069+00:00</dateUpdated>
     <decoder model="TSU-2200 Steam" family="Tsunami2 Steam" comment="" maxFnNum="28" />
     <locoaddress>

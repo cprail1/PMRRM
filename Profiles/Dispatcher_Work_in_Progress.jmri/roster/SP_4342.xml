@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="SP 4342" fileName="SP_4342.xml" roadNumber="4342" roadName="Southern Pacific" mfg="Tenshodo" owner="261 Mike Davis" model="4-8-2 MT3 " dccAddress="4342" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+  <locomotive id="SP 4342" fileName="SP_4342.xml" roadNumber="4342" roadName="Southern Pacific" mfg="Tenshodo Brass" owner="261 Mike Davis" model="4-8-2 MT3 " dccAddress="4342" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2026-02-08T03:58:32.803+00:00</dateUpdated>
     <decoder model="TSU-1100 Steam-2" family="Tsunami2 Steam" comment="" maxFnNum="28" />
     <locoaddress>

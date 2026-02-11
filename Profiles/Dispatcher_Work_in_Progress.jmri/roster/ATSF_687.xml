@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="ATSF 687" fileName="ATSF_687.xml" roadNumber="687" roadName="Atchison, Topeka, and Santa Fe" mfg="Athearn RTR" owner="190 Brian Neely" model="2-8-0 Consolidation" dccAddress="687" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+  <locomotive id="ATSF 687" fileName="ATSF_687.xml" roadNumber="687" roadName="ATSF" mfg="Athearn RTR" owner="190 Brian Neely" model="2-8-0 Consolidation" dccAddress="687" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2026-02-08T03:58:26.454+00:00</dateUpdated>
     <decoder model="ECO-PNP Steam" family="Econami Steam" comment="" maxFnNum="28" />
     <locoaddress>
@@ -36,7 +36,7 @@
     <attributepairs>
       <keyvaluepair>
         <key>TE</key>
-        <value>10 / 3</value>
+        <value>TE 10 / 3</value>
       </keyvaluepair>
     </attributepairs>
     <values>

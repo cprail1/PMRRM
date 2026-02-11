@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="PRR 4390" fileName="PRR_4390.xml" roadNumber="4390" roadName="Pennsylvania Railroad" mfg="BLI Paragon 4" owner="272 Micheal Gibilterra" model="2-10-0 I1sa" dccAddress="4390" comment="" developerID="-1" manufacturerID="38" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+  <locomotive id="PRR 4390" fileName="PRR_4390.xml" roadNumber="4390" roadName="Pennsylvania Railroad" mfg="BLI Paragon 4" owner="272 Michael Gibilterra" model="2-10-0 I1sa" dccAddress="4390" comment="" developerID="-1" manufacturerID="38" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2026-02-08T03:58:31.753+00:00</dateUpdated>
     <decoder model="Steam" family="Paragon 4" comment="" maxFnNum="28" />
     <locoaddress>
@@ -49,7 +49,7 @@
       </keyvaluepair>
       <keyvaluepair>
         <key>TE</key>
-        <value>29, 13, 8</value>
+        <value>29 /  13 /  8</value>
       </keyvaluepair>
     </attributepairs>
     <values>

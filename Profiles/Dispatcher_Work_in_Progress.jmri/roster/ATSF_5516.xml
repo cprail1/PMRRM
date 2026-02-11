@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="ATSF 5516" fileName="ATSF_5516.xml" roadNumber="5516" roadName="Atchison Topeka &amp; Santa Fe" mfg="OMI" owner="Kevin Schiller" model="SD45-2B" dccAddress="5516" comment="" developerID="-1" manufacturerID="141" productID="2102" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+  <locomotive id="ATSF 5516" fileName="ATSF_5516.xml" roadNumber="5516" roadName="ATSF" mfg="OMI" owner="148 Kevin Schiller" model="SD45-2B" dccAddress="5516" comment="" developerID="-1" manufacturerID="141" productID="2102" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2026-02-08T03:58:26.275+00:00</dateUpdated>
     <decoder model="TSU-1100 EMD-2 Diesels" family="Tsunami2 Diesel" comment="" maxFnNum="28" />
     <locoaddress>
@@ -52,7 +52,7 @@
       </keyvaluepair>
       <keyvaluepair>
         <key>TE</key>
-        <value>26, 22, 18</value>
+        <value>26 /  22 /  18</value>
       </keyvaluepair>
     </attributepairs>
     <values>

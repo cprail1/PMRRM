@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="CR 2878" fileName="CR_2878.xml" roadNumber="2878" roadName="Conrail" mfg="Walthers Proto" owner="190 Brian Neely" model="U30B" dccAddress="2878" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+  <locomotive id="CR 2878" fileName="CR_2878.xml" roadNumber="2878" roadName="Conrail" mfg="Walthers Proto" owner="190 Brian Neely" model="U30B" dccAddress="2878" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2026-02-08T03:58:28.780+00:00</dateUpdated>
     <decoder model="U28B/U30B" family="Tsunami Diesel Walthers OEM" comment="" maxFnNum="28" />
     <locoaddress>
@@ -27,7 +27,7 @@
     <attributepairs>
       <keyvaluepair>
         <key>TE</key>
-        <value>17 / 12</value>
+        <value>TE: 17 / 12</value>
       </keyvaluepair>
     </attributepairs>
     <values>

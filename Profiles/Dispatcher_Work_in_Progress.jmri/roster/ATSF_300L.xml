@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="ATSF 300L" fileName="ATSF_300L.xml" roadNumber="305" roadName="Atchison, Topeka, and Santa Fe" mfg="Walthers Proto" owner="263 John Finnerty" model="F7A" dccAddress="300" comment="Do not seperate from ATSF 300A, ATSF 300B, and ATSF 300CGroup TE: 74 / 54" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+  <locomotive id="ATSF 300L" fileName="ATSF_300L.xml" roadNumber="305" roadName="ATSF" mfg="Walthers Proto" owner="263 John Finnerty" model="F7A" dccAddress="300" comment="Do not separate from ATSF 300B, &#xA;ATSF 300C, and ATSF 300L" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2026-02-08T03:58:25.495+00:00</dateUpdated>
     <decoder model="F7 El Capitan" family="Tsunami Diesel Walthers OEM" comment="" maxFnNum="28" />
     <locoaddress>
@@ -31,7 +31,7 @@
       </keyvaluepair>
       <keyvaluepair>
         <key>TE</key>
-        <value />
+        <value>Group TE: 74 / 54</value>
       </keyvaluepair>
     </attributepairs>
     <values>

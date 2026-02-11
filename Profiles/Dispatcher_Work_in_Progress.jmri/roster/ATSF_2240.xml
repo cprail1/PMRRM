@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="ATSF 2240" fileName="ATSF_2240.xml" roadNumber="2240" roadName="Atchison, Topeka, and Santa Fe" mfg="Bachmann" owner="190 Brian Neely" model="0-6-0 Side Tank" dccAddress="2240" comment="YARD ENGINE ONLY" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+  <locomotive id="ATSF 2240" fileName="ATSF_2240.xml" roadNumber="2240" roadName="ATSF" mfg="Bachmann" owner="190 Brian Neely" model="0-6-0 Side Tank" dccAddress="2240" comment="YARD ENGINE ONLY" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2026-02-08T03:58:25.417+00:00</dateUpdated>
     <decoder model="4 function decoder (36-550)" family="E-Z Command decoders" comment="" maxFnNum="28" />
     <locoaddress>
@@ -19,7 +19,7 @@
       </keyvaluepair>
       <keyvaluepair>
         <key>TE</key>
-        <value>3 / 2 / 1</value>
+        <value>TE: 3 / 2 / 1</value>
       </keyvaluepair>
     </attributepairs>
     <values>

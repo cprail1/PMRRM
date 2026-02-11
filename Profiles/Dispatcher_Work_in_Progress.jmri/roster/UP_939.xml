@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <!--Written by JMRI version 4.20+Rc7ba8249b on Tue Oct 06 12:05:12 PDT 2020-->
-  <locomotive id="UP 939" fileName="UP_939.xml" roadNumber="939" roadName="Union Pacific" mfg="Proto 2000" owner="J264 Simon Hessabi" model="E8A" dccAddress="939" comment="Do not seperate from UP 931 &amp; UP 936&#xA;Group TE: 74 / 54" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2019-09-07T22:11:23.249+0000</dateUpdated>
-    <decoder model="T4X" family="Jan 2012" comment="" />
+  <locomotive id="UP 939" fileName="UP_939.xml" roadNumber="939" roadName="Union Pacific" mfg="Proto 2000" owner="J264 Simon Hessabi" model="E8A" dccAddress="939" comment="Do not separate from UP 931 &amp; UP 936" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+    <dateUpdated>2019-09-07T22:11:23.249+00:00</dateUpdated>
+    <decoder model="T4X" family="Jan 2012" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="939" longaddress="yes" />
       <number>939</number>
@@ -16,6 +16,10 @@
       <keyvaluepair>
         <key>RosterGroup:UP</key>
         <value>yes</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>Group TE: 74 / 54</value>
       </keyvaluepair>
     </attributepairs>
     <values>

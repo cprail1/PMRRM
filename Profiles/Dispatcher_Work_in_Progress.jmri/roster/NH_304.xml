@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <!--Written by JMRI version 4.20+Rc7ba8249b on Tue Oct 06 12:09:19 PDT 2020-->
-  <locomotive id="NH 304" fileName="NH_304.xml" roadNumber="304" roadName="New Haven" mfg="Bachmann" owner="254 Aaron Gold" model="electric E33" dccAddress="304" comment="Group TE: 22 / 15" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2019-11-21T23:50:16.871+0000</dateUpdated>
-    <decoder model="DN136PS" family="Series 6 with FX3, silent, improved BEMF" comment="" />
+  <locomotive id="NH 304" fileName="NH_304.xml" roadNumber="304" roadName="New Haven" mfg="Bachmann" owner="254 Aaron Gold" model="electric E33" dccAddress="304" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+    <dateUpdated>2019-11-21T23:50:16.871+00:00</dateUpdated>
+    <decoder model="DN136PS" family="Series 6 with FX3, silent, improved BEMF" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="304" longaddress="yes" />
       <number>304</number>
@@ -16,6 +16,10 @@
       <keyvaluepair>
         <key>RosterGroup:NH</key>
         <value>yes</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>Group TE: 22 / 15</value>
       </keyvaluepair>
     </attributepairs>
     <values>

@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="CBQ 963" fileName="CBQ_963.xml" roadNumber="963" roadName="Chicago, Burlington &amp; Quincy" mfg="Scale Trains" owner="148 Kevin Schiller" model="GP30" dccAddress="963" comment="" developerID="-1" manufacturerID="151" productID="33554588,33554680,33554651" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+  <locomotive id="CBQ 963" fileName="CBQ_963.xml" roadNumber="963" roadName="Chicago, Burlington &amp; Quincy" mfg="Scale Trains" owner="148 Kevin Schiller" model="GP30" dccAddress="963" comment="" developerID="-1" manufacturerID="151" productID="33554588,33554680,33554651" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2026-02-08T03:58:27.930+00:00</dateUpdated>
     <decoder model="LokSound 5 DCC" family="ESU LokSound 5" comment="" maxFnNum="31" />
     <locoaddress>
@@ -26,7 +26,7 @@
       </keyvaluepair>
       <keyvaluepair>
         <key>TE</key>
-        <value>20, 16, 13</value>
+        <value>20 /  16 /  13</value>
       </keyvaluepair>
     </attributepairs>
     <values>

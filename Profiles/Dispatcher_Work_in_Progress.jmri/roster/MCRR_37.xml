@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="MCRR 37" fileName="MCRR_37.xml" roadNumber="37" roadName="McCloud River RR" mfg="Athearn RTR" owner="190 Brian Neely" model="SD38" dccAddress="37" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+  <locomotive id="MCRR 37" fileName="MCRR_37.xml" roadNumber="37" roadName="McCloud River RR" mfg="Athearn RTR" owner="190 Brian Neely" model="SD38" dccAddress="37" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2026-02-08T03:58:30.321+00:00</dateUpdated>
     <decoder model="ECO-RTR SD38 w/strobe 2" family="Econami Diesel OEM Athearn" comment="" maxFnNum="28" />
     <locoaddress>
@@ -30,7 +30,7 @@
     <attributepairs>
       <keyvaluepair>
         <key>TE</key>
-        <value>17 / 12</value>
+        <value>TE: 17 / 12</value>
       </keyvaluepair>
     </attributepairs>
     <values>

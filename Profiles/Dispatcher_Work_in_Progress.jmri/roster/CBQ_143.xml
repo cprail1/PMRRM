@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="CBQ 143" fileName="CBQ_143.xml" roadNumber="143" roadName="Chicago burlington &amp; Quincy" mfg="Walthers" owner="Kevin Schiller" model="U30B" dccAddress="143" comment="" developerID="-1" manufacturerID="141" productID="2112" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+  <locomotive id="CBQ 143" fileName="CBQ_143.xml" roadNumber="143" roadName="Chicago, Burlington &amp; Quincy" mfg="Walthers" owner="148 Kevin Schiller" model="U30B" dccAddress="143" comment="" developerID="-1" manufacturerID="141" productID="2112" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2026-02-08T03:58:27.891+00:00</dateUpdated>
     <decoder model="TSU-PNP8 GE Diesels" family="Tsunami2 Diesel" comment="" maxFnNum="28" />
     <locoaddress>
@@ -48,7 +48,7 @@
       </keyvaluepair>
       <keyvaluepair>
         <key>TE</key>
-        <value>22, 18, 15</value>
+        <value>22 /  18 /  15</value>
       </keyvaluepair>
     </attributepairs>
     <values>

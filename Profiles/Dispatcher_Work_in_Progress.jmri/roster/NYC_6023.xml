@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="NYC 6023" fileName="NYC_6023.xml" roadNumber="6023" roadName="New York Central" mfg="Broadway Limited Imports" owner="J270 Matthew J Zepeda" model="NYC Niagara 4-8-4" dccAddress="6023" comment="" developerID="-1" manufacturerID="38" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+  <locomotive id="NYC 6023" fileName="NYC_6023.xml" roadNumber="6023" roadName="New York Central" mfg="Broadway Limited Imports" owner="J270 Matthew J Zepeda" model="NYC Niagara 4-8-4" dccAddress="6023" comment="" developerID="-1" manufacturerID="38" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2026-02-08T03:58:31.412+00:00</dateUpdated>
     <decoder model="Steam" family="Paragon 3" comment="" maxFnNum="28" />
     <locoaddress>
@@ -45,7 +45,7 @@
     <attributepairs>
       <keyvaluepair>
         <key>TE</key>
-        <value>57,41</value>
+        <value>57 / 41</value>
       </keyvaluepair>
     </attributepairs>
     <values>

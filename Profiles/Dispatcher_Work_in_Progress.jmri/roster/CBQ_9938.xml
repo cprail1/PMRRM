@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <!--Written by JMRI version 5.1.5+Rb1b4a78a89 on Sat Mar 18 11:33:10 PDT 2023-->
-  <locomotive id="CBQ 9938" fileName="CBQ_9938.xml" roadNumber="9938" roadName="Chicago, Burlington &amp; Quincy" mfg="Broadway Limited" owner="147 Bob Googooian" model="E8A" dccAddress="9938" comment="Do not seperate from CBQ 9986&#xA;Group TE: 65 / 48&#xA;California Zephyr Eastern Division Power// Swap at Midway to/from Western Division power" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+  <locomotive id="CBQ 9938" fileName="CBQ_9938.xml" roadNumber="9938" roadName="Chicago, Burlington &amp; Quincy" mfg="Broadway Limited" owner="147 Bob Googooian" model="E8A" dccAddress="9938" comment="Do not separate from CBQ 9986&#xA;California Zephyr Eastern Division Power&#xA;Swap at Midway to/from Western Division power" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2023-03-18T18:33:10.816+00:00</dateUpdated>
     <decoder model="BLI E8/E9 w/Mars" family="QSI Diesel Ver. 7" comment="" maxFnNum="28" />
     <locoaddress>
@@ -11,25 +11,29 @@
       <protocol>dcc_long</protocol>
     </locoaddress>
     <functionlabels>
-      <functionlabel num="0" lockable="true" functionImage="" functionImageSelected="">Light</functionlabel>
-      <functionlabel num="1" lockable="true" functionImage="" functionImageSelected="">Bell</functionlabel>
-      <functionlabel num="2" lockable="true" functionImage="" functionImageSelected="">Horn</functionlabel>
-      <functionlabel num="3" lockable="true" functionImage="" functionImageSelected="">Coupler</functionlabel>
-      <functionlabel num="4" lockable="true" functionImage="" functionImageSelected="">Fans</functionlabel>
-      <functionlabel num="5" lockable="true" functionImage="" functionImageSelected="">Dynamic</functionlabel>
-      <functionlabel num="6" lockable="true" functionImage="" functionImageSelected="">Doppler</functionlabel>
-      <functionlabel num="7" lockable="true" functionImage="" functionImageSelected="">Squeal</functionlabel>
-      <functionlabel num="8" lockable="true" functionImage="" functionImageSelected="">Mute</functionlabel>
-      <functionlabel num="9" lockable="true" functionImage="" functionImageSelected="">Heavy Load</functionlabel>
-      <functionlabel num="10" lockable="true" functionImage="" functionImageSelected="">Status</functionlabel>
-      <functionlabel num="11" lockable="true" functionImage="" functionImageSelected="">Number Board</functionlabel>
-      <functionlabel num="12" lockable="true" functionImage="" functionImageSelected="">Cab Light</functionlabel>
+      <functionlabel num="0" lockable="true" visible="true" functionImage="" functionImageSelected="">Light</functionlabel>
+      <functionlabel num="1" lockable="true" visible="true" functionImage="" functionImageSelected="">Bell</functionlabel>
+      <functionlabel num="2" lockable="true" visible="true" functionImage="" functionImageSelected="">Horn</functionlabel>
+      <functionlabel num="3" lockable="true" visible="true" functionImage="" functionImageSelected="">Coupler</functionlabel>
+      <functionlabel num="4" lockable="true" visible="true" functionImage="" functionImageSelected="">Fans</functionlabel>
+      <functionlabel num="5" lockable="true" visible="true" functionImage="" functionImageSelected="">Dynamic</functionlabel>
+      <functionlabel num="6" lockable="true" visible="true" functionImage="" functionImageSelected="">Doppler</functionlabel>
+      <functionlabel num="7" lockable="true" visible="true" functionImage="" functionImageSelected="">Squeal</functionlabel>
+      <functionlabel num="8" lockable="true" visible="true" functionImage="" functionImageSelected="">Mute</functionlabel>
+      <functionlabel num="9" lockable="true" visible="true" functionImage="" functionImageSelected="">Heavy Load</functionlabel>
+      <functionlabel num="10" lockable="true" visible="true" functionImage="" functionImageSelected="">Status</functionlabel>
+      <functionlabel num="11" lockable="true" visible="true" functionImage="" functionImageSelected="">Number Board</functionlabel>
+      <functionlabel num="12" lockable="true" visible="true" functionImage="" functionImageSelected="">Cab Light</functionlabel>
     </functionlabels>
     <soundlabels />
     <attributepairs>
       <keyvaluepair>
         <key>RosterGroup:CBQ</key>
         <value>yes</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>Group TE: 65 / 48</value>
       </keyvaluepair>
     </attributepairs>
     <values>

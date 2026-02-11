@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
-<locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <!--Written by JMRI version 5.6+R89a87446cb on Sat Aug 24 12:51:04 PDT 2024-->
-  <locomotive id="SP 2286" fileName="SP_2286.xml" roadNumber="2286" roadName="Southern Pacific" mfg="ATH" owner="203 Mike Panton" model="SW7 Cow " dccAddress="2286" comment="For switcher work only" developerID="-1" manufacturerID="129" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+<locomotive-config>
+  <locomotive id="SP 2286" fileName="SP_2286.xml" roadNumber="2286" roadName="Southern Pacific" mfg="Athearn" owner="203 Mike Panton" model="SW7 Cow " dccAddress="2286" comment="For switcher work only" developerID="-1" manufacturerID="129" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2024-08-24T19:51:04.021+00:00</dateUpdated>
     <decoder model="DZ123" family="Series 3 with FX3, silent, readback" comment="" maxFnNum="28" />
     <locoaddress>

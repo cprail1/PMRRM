@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <!--Written by JMRI version 5.8+Rbc21ce2ce7 on Tue Feb 04 19:01:09 PST 2025-->
-  <locomotive id="CNW 8804" fileName="CNW_8804.xml" roadNumber="8804" roadName="Chicago North Western" mfg="ATG" owner="252 John Madriaga" model="AC 4400CW" dccAddress="8804" comment="" developerID="-1" manufacturerID="129" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+  <locomotive id="CNW 8804" fileName="CNW_8804.xml" roadNumber="8804" roadName="Chicago North Western" mfg="Athearn Genesis" owner="252 John Madriaga" model="AC 4400CW" dccAddress="8804" comment="" developerID="-1" manufacturerID="129" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2025-02-05T03:01:09.798+00:00</dateUpdated>
     <decoder model="DH123" family="Economy Series 3 with FX3, silent" comment="" maxFnNum="28" />
     <locoaddress>

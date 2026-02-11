@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="CGW 102C" fileName="CGW_102C.xml" roadNumber="102" roadName="Chicago Great Western" mfg="WKW" owner="263 John Finnerty" model="F7aba" dccAddress="102" comment="" developerID="-1" manufacturerID="129" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+  <locomotive id="CGW 102C" fileName="CGW_102C.xml" roadNumber="102" roadName="Chicago Great Western" mfg="WKW" owner="263 John Finnerty" model="F7aba" dccAddress="102" comment="" developerID="-1" manufacturerID="129" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2026-02-08T03:58:28.120+00:00</dateUpdated>
     <decoder model="DH123" family="Economy Series 3 with FX3, silent" comment="" maxFnNum="28" />
     <locoaddress>
@@ -15,7 +15,7 @@
     <attributepairs>
       <keyvaluepair>
         <key>TE</key>
-        <value>44/31</value>
+        <value>TE: 44/31</value>
       </keyvaluepair>
     </attributepairs>
     <values>

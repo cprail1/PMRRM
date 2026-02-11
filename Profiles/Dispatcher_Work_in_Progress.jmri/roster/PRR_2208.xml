@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="PRR 2208" fileName="PRR_2208.xml" roadNumber="2208" roadName="Pennsylvania Railroad" mfg="Scaletrains" owner="272 Micheal Gibilterra" model="GP30" dccAddress="2208" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+  <locomotive id="PRR 2208" fileName="PRR_2208.xml" roadNumber="2208" roadName="Pennsylvania Railroad" mfg="Scaletrains" owner="272 Michael Gibilterra" model="GP30" dccAddress="2208" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2026-02-08T05:43:55.024+00:00</dateUpdated>
     <decoder model="LokSound 5" family="ESU LokSound 5" comment="" maxFnNum="31" />
     <locoaddress>
@@ -26,7 +26,7 @@
       </keyvaluepair>
       <keyvaluepair>
         <key>TE</key>
-        <value>40 16, 13</value>
+        <value>40 16 /  13</value>
       </keyvaluepair>
     </attributepairs>
     <values>

@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="ATSF 1305" fileName="ATSF_1305.xml" roadNumber="1305" roadName="Atchison, Topeka, and Santa Fe" mfg="Athearn RTR" owner="214 Don Philpott" model="GP35" dccAddress="1305" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+  <locomotive id="ATSF 1305" fileName="ATSF_1305.xml" roadNumber="1305" roadName="ATSF" mfg="Athearn RTR" owner="214 Don Philpott" model="GP35" dccAddress="1305" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2026-02-08T03:58:25.262+00:00</dateUpdated>
     <decoder model="DH163" family="Series 3 with FX3, silent, readback" comment="" maxFnNum="28" />
     <locoaddress>

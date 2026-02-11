@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="SP 2476" fileName="SP_2476.xml" roadNumber="2476" roadName="Southern Pacific" mfg="BLI" owner="190 Brian Neely" model="SW1500" dccAddress="2476" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+  <locomotive id="SP 2476" fileName="SP_2476.xml" roadNumber="2476" roadName="Southern Pacific" mfg="BLI" owner="190 Brian Neely" model="SW1500" dccAddress="2476" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2026-02-08T03:58:32.550+00:00</dateUpdated>
     <decoder model="Diesel" family="Paragon 3" comment="" maxFnNum="28" />
     <locoaddress>
@@ -49,7 +49,7 @@
       </keyvaluepair>
       <keyvaluepair>
         <key>TE</key>
-        <value>10 / 8</value>
+        <value>26 10 08</value>
       </keyvaluepair>
     </attributepairs>
     <values>

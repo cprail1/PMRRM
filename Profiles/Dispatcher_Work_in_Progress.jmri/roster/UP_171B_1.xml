@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="UP 171B_1" fileName="UP_171B_1.xml" roadNumber="171B" roadName="Union Pacific" mfg="Athearn Genesis" owner="259 Skip Martin" model="GP9B" dccAddress="171" comment="Run with UP 171, UP 203B &amp; UP 203Combined TE: 48 / 35" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+  <locomotive id="UP 171B_1" fileName="UP_171B_1.xml" roadNumber="171B" roadName="Union Pacific" mfg="Athearn Genesis" owner="259 Skip Martin" model="GP9B" dccAddress="171" comment="Run with UP 171, UP 203B &amp; UP 203" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2026-02-08T03:58:35.048+00:00</dateUpdated>
     <decoder model="GP9" family="Tsunami Diesel Genesis OEM" comment="" maxFnNum="28" />
     <locoaddress>
@@ -35,7 +35,7 @@
       </keyvaluepair>
       <keyvaluepair>
         <key>TE</key>
-        <value>13 / 8</value>
+        <value>Combined TE: 48 / 35</value>
       </keyvaluepair>
     </attributepairs>
     <values>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
-<locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <!--Written by JMRI version 5.4+R9005ecb4ac on Mon Sep 18 11:46:22 PDT 2023-->
-  <locomotive id="ATSF 2789" fileName="ATSF_2789.xml" roadNumber="2789" roadName="Atchison, Topeka, and Santa Fe" mfg="Proto 2000" owner="223 Dan Wexler" model="GP7" dccAddress="2789" comment="Yard power" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+<locomotive-config>
+  <locomotive id="ATSF 2789" fileName="ATSF_2789.xml" roadNumber="2789" roadName="ATSF" mfg="Proto 2000" owner="223 Dan Wexler" model="GP7" dccAddress="2789" comment="Yard power" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2023-09-18T18:46:22.320+00:00</dateUpdated>
     <decoder model="DH163P" family="Series 3 with FX3, silent, readback" comment="" maxFnNum="28" />
     <locoaddress>

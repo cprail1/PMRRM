@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <!--Written by JMRI version 5.8+Rbc21ce2ce7 on Thu Mar 13 11:19:44 PDT 2025-->
-  <locomotive id="ATSF 6" fileName="ATSF_60.xml" roadNumber="6" roadName="Atchison, Topeka, and Santa Fe" mfg="Atlas" owner="196 Cameron Threats" model="S-4" dccAddress="3" comment="" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+  <locomotive id="ATSF 6" fileName="ATSF_6.xml" roadNumber="6" roadName="ATSF" mfg="Atlas" owner="196 Cameron Threats" model="S-4" dccAddress="3" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2025-03-13T18:19:44.378+00:00</dateUpdated>
     <decoder model="ATLS4" family="Silent Running w/ Torque Compensation" comment="" maxFnNum="28" />
     <locoaddress>

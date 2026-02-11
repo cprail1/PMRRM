@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="SP 5324" fileName="SP_5324.xml" roadNumber="5324" roadName="Southern Pacific" mfg="Proto" owner="265 AJ Chier" model="SD9" dccAddress="5324" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+  <locomotive id="SP 5324" fileName="SP_5324.xml" roadNumber="5324" roadName="Southern Pacific" mfg="Proto 2000" owner="265 AJ Chier" model="SD9" dccAddress="5324" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2026-02-08T03:58:33.176+00:00</dateUpdated>
     <decoder model="TSU-2200 EMD Diesels" family="Tsunami2 Diesel" comment="" maxFnNum="28" />
     <locoaddress>

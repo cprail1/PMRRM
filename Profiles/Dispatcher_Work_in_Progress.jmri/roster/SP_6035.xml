@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="SP 6035" fileName="SP_6035.xml" roadNumber="6035" roadName="Southern Pacific" mfg="ProtoCraft" owner="265 AJ Chier" model="PA2" dccAddress="6035" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+  <locomotive id="SP 6035" fileName="SP_6035.xml" roadNumber="6035" roadName="Southern Pacific" mfg="ProtoCraft" owner="265 AJ Chier" model="PA2" dccAddress="6035" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2026-02-08T03:58:33.581+00:00</dateUpdated>
     <decoder model="LokSound 5 DCC" family="ESU LokSound 5" comment="" maxFnNum="28" />
     <locoaddress>
@@ -26,7 +26,7 @@
       </keyvaluepair>
       <keyvaluepair>
         <key>TE</key>
-        <value>28,20</value>
+        <value>28 / 20</value>
       </keyvaluepair>
     </attributepairs>
     <values>

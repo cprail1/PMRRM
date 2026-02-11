@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <!--Written by JMRI version 5.6+R89a87446cb on Fri Oct 18 11:14:24 PDT 2024-->
-  <locomotive id="WP 4403" fileName="WP_4403.xml" roadNumber="4403" roadName="Western Pacific" mfg="ATG" owner="252 John Madriaga" model="AC 4400CW" dccAddress="4403" comment="" developerID="-1" manufacturerID="129" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+  <locomotive id="WP 4403" fileName="WP_4403.xml" roadNumber="4403" roadName="Western Pacific" mfg="Athearn Genesis" owner="252 John Madriaga" model="AC 4400CW" dccAddress="4403" comment="" developerID="-1" manufacturerID="129" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2024-10-18T18:14:24.286+00:00</dateUpdated>
     <decoder model="DH123" family="Economy Series 3 with FX3, silent" comment="" maxFnNum="28" />
     <locoaddress>

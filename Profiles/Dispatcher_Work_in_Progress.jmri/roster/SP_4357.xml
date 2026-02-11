@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="SP 4357" fileName="SP_4357.xml" roadNumber="4357" roadName="Southern Pacific" mfg="Athern " owner="J270 Matthew J Zepeda" model="MT-4 4-8-2" dccAddress="4357" comment="" developerID="-1" manufacturerID="141" productID="6412" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+  <locomotive id="SP 4357" fileName="SP_4357.xml" roadNumber="4357" roadName="Southern Pacific" mfg="Athearn" owner="J270 Matthew J Zepeda" model="MT-4 4-8-2" dccAddress="4357" comment="" developerID="-1" manufacturerID="141" productID="6412" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2026-02-08T03:58:32.850+00:00</dateUpdated>
     <decoder model="TSU-21PNEM8 MT-4" family="Tsunami2 Steam OEM Genesis" comment="" maxFnNum="28" />
     <locoaddress>
@@ -42,7 +42,7 @@
     <attributepairs>
       <keyvaluepair>
         <key>TE</key>
-        <value>18,26</value>
+        <value>18 / 26</value>
       </keyvaluepair>
     </attributepairs>
     <values>

@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="ATSF 5658" fileName="ATSF_5658.xml" roadNumber="5658" roadName="Atchison, Topeka, and Santa Fe" mfg="ATG" owner="209 Bruce Bloch" model="SD45-2" dccAddress="5658" comment="" developerID="-1" manufacturerID="141" productID="6288" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+  <locomotive id="ATSF 5658" fileName="ATSF_5658.xml" roadNumber="5658" roadName="ATSF" mfg="Athearn Genesis" owner="209 Bruce Bloch" model="SD45-2" dccAddress="5658" comment="Do not use as lead unit." developerID="-1" manufacturerID="141" productID="6288" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2026-02-08T03:58:26.361+00:00</dateUpdated>
     <decoder model="TSU-GN2208 SDP45/SD45-2/F45/FP45" family="Tsunami2 Diesel OEM Genesis" comment="" maxFnNum="28" />
     <locoaddress>
@@ -39,7 +39,7 @@
     <attributepairs>
       <keyvaluepair>
         <key>TE</key>
-        <value>22, 15 Do not use as lead unit.</value>
+        <value>22 /  15 </value>
       </keyvaluepair>
     </attributepairs>
     <values>

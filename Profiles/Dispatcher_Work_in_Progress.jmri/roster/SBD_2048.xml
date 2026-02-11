@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="SBD 2048" fileName="SBD_2048.xml" roadNumber="2048" roadName="Seaboard Coast Line" mfg="Athearn" owner="252 John Madriaga" model="SD45-2" dccAddress="2048" comment="" developerID="-1" manufacturerID="141" productID="852002" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+  <locomotive id="SBD 2048" fileName="SBD_2048.xml" roadNumber="2048" roadName="Seaboard Coast Line" mfg="Athearn" owner="252 John Madriaga" model="SD45-2" dccAddress="2048" comment="" developerID="-1" manufacturerID="141" productID="852002" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2026-02-08T03:58:31.916+00:00</dateUpdated>
     <decoder model="MC2H104AT" family="MC Motor Decoders" comment="" maxFnNum="28" />
     <locoaddress>
@@ -15,7 +15,7 @@
     <attributepairs>
       <keyvaluepair>
         <key>TE</key>
-        <value>15/12/10</value>
+        <value>TE: 15 / 12 / 10</value>
       </keyvaluepair>
     </attributepairs>
     <values>

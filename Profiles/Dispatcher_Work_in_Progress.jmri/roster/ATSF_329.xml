@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="ATSF 329" fileName="ATSF_329.xml" roadNumber="329" roadName="Atchison, Topeka, and Santa Fe" mfg="Athearn RTR" owner="257 Chris Holt" model="GP60B" dccAddress="131" comment="Do not seperate from ATSF 112, ATSF 131, and ATSF 346Group TE: 48 / 35" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+  <locomotive id="ATSF 329" fileName="ATSF_329.xml" roadNumber="329" roadName="ATSF" mfg="Athearn RTR" owner="257 Chris Holt" model="GP60B" dccAddress="131" comment="Do not separate from ATSF 112, &#xA;ATSF 131, and ATSF 346" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2026-02-08T03:58:25.618+00:00</dateUpdated>
     <decoder model="DH126D" family="Economy Series 6 with FX3, silent" comment="" maxFnNum="28" />
     <locoaddress>
@@ -19,7 +19,7 @@
       </keyvaluepair>
       <keyvaluepair>
         <key>TE</key>
-        <value>15 / 10</value>
+        <value>Group TE: 48 / 35</value>
       </keyvaluepair>
     </attributepairs>
     <values>

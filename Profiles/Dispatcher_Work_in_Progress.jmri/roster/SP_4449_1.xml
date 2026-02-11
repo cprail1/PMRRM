@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="SP 4449_1" fileName="SP_4449_1.xml" roadNumber="4449" roadName="Southern Pacific" mfg="Bachmann" owner="J270 Matthew J Zepeda" model="4-8-4 GS4 American Freedom" dccAddress="4449" comment="" developerID="-1" manufacturerID="141" productID="GS4484" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+  <locomotive id="SP 4449_1" fileName="SP_4449_1.xml" roadNumber="4449" roadName="Southern Pacific" mfg="Bachmann" owner="J270 Matthew J Zepeda" model="4-8-4 GS4 American Freedom" dccAddress="4449" comment="" developerID="-1" manufacturerID="141" productID="GS4484" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2026-02-08T03:58:32.939+00:00</dateUpdated>
     <decoder model="4-8-4 GS-4 - Southern Pacific [HO]" family="Tsunami Steam Bachmann Sound Value" comment="" maxFnNum="28" />
     <locoaddress>
@@ -24,7 +24,7 @@
     <attributepairs>
       <keyvaluepair>
         <key>TE</key>
-        <value>20 , 13</value>
+        <value>20  /  13</value>
       </keyvaluepair>
     </attributepairs>
     <values>
