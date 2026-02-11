@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
-<!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
-<locomotive-config>
-  <locomotive id="UP 843 - 2" fileName="UP_843___2.xml" roadNumber="843" roadName="Union Pacific" mfg="BLI" owner="266 David Leyva" model="4-8-4 FEF3" dccAddress="843" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
-    <dateUpdated>2026-02-08T03:58:35.958+00:00</dateUpdated>
+<locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
+  <locomotive id="UP 843_2" fileName="UP_843___2.xml" roadNumber="843" roadName="Union Pacific" mfg="BLI" owner="266 David Leyva" model="4-8-4 FEF3" dccAddress="843" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+    <dateUpdated>2026-02-11T15:14:00.658+00:00</dateUpdated>
     <decoder model="Steam" family="Paragon 3" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="843" longaddress="yes" />
@@ -79,25 +78,27 @@
         <varValue item="F26 Output Function" value="40" />
         <varValue item="F27 Output Function" value="41" />
         <varValue item="F28 Output Function" value="18" />
-        <varValue item="Headlight Power Up State" value="0" />
-        <varValue item="L1 Power Up State" value="0" />
+        <varValue item="Global lighting option 2" value="0" />
+        <varValue item="Function F0R option 3" value="0" />
         <varValue item="Smoke Unit Logic" value="0" />
+        <varValue item="Fatal OverCurrent Config" value="114" />
+        <varValue item="Fatal OverCurrent Sensitivity" value="120" />
         <varValue item="Smoke Unit Idle Set Point" value="70" />
         <varValue item="Smoke Unit Chuff Set Point" value="80" />
-        <varValue item="Chuff Timer" value="150" />
+        <varValue item="Chuff Adjust" value="150" />
         <varValue item="Aux Select for DCMaster" value="0" />
-        <varValue item="Fan Idle Power" value="8" />
+        <varValue item="Smoke Unit Fan Idle Power" value="8" />
         <varValue item="Fan Normal Chuff Power" value="60" />
         <varValue item="Fan Loaded Chuff Power" value="80" />
         <varValue item="Fan Steam Cock Chuff Power" value="70" />
         <varValue item="Fan Rod Knock Chuff Power" value="40" />
-        <varValue item="Fan Chuff Time" value="75" />
+        <varValue item="Smoke Unit Fan Chuff Time" value="75" />
         <varValue item="Brake Squeal Decel Rate" value="1" />
-        <varValue item="Quantum Engineer Bell/Horn Detect" value="0" />
+        <varValue item="GSC2 bit 5" value="0" />
         <varValue item="EMF Feedback Cutout" value="1" />
         <varValue item="Packet Time-out Value" value="2" />
-        <varValue item="BEMF Kd" value="0" />
-        <varValue item="Speed Step Smoothing" value="25" />
+        <varValue item="EMF Droop Config" value="0" />
+        <varValue item="EMF Option 3" value="25" />
         <varValue item="Consist Address Active For F13" value="1" />
         <varValue item="Consist Address Active For F14" value="1" />
         <varValue item="Consist Address Active For F15" value="1" />
@@ -114,29 +115,29 @@
         <varValue item="Consist Address Active For F26" value="1" />
         <varValue item="Consist Address Active For F27" value="1" />
         <varValue item="Consist Address Active For F28" value="1" />
-        <varValue item="Master Volume Sound Increment" value="16" />
-        <varValue item="Master Volume" value="30" />
-        <varValue item="Sound Unit Maximum Volume" value="128" />
-        <varValue item="Bell Volume" value="128" />
-        <varValue item="Coupler Slack Volume" value="128" />
-        <varValue item="Couple Volume" value="128" />
-        <varValue item="Uncouple Volume" value="128" />
-        <varValue item="Wheel Flange Volume" value="128" />
-        <varValue item="Brake Set Volume" value="128" />
-        <varValue item="Brake Release Volume" value="128" />
-        <varValue item="Brake Squeal Volume" value="128" />
-        <varValue item="Rule 17 Lighting" value="0" />
-        <varValue item="L1 Inactive State" value="1" />
-        <varValue item="L1 Light Directional" value="1" />
-        <varValue item="L1 Light Active" value="0" />
-        <varValue item="L1 Light Type" value="3" />
-        <varValue item="L1 parameter 1" value="0" />
-        <varValue item="L1 parameter 2" value="30" />
-        <varValue item="L1 parameter 3" value="180" />
-        <varValue item="L1 parameter 4" value="30" />
-        <varValue item="Coupler Slack Repeats" value="1" />
-        <varValue item="Coupler Slack Interval" value="100" />
-        <varValue item="Bell Ring Interval" value="100" />
+        <varValue item="Sound Setting 1" value="16" />
+        <varValue item="Sound Setting 2" value="30" />
+        <varValue item="Sound Setting 3" value="128" />
+        <varValue item="Sound Setting 5" value="128" />
+        <varValue item="Sound Setting 8" value="128" />
+        <varValue item="Sound Setting 9" value="128" />
+        <varValue item="Sound Setting 10" value="128" />
+        <varValue item="Sound Setting 11" value="128" />
+        <varValue item="Sound Setting 15" value="128" />
+        <varValue item="Sound Setting 16" value="128" />
+        <varValue item="Sound Setting 20" value="128" />
+        <varValue item="Global lighting option 1" value="0" />
+        <varValue item="Function F0R effect generated" value="1" />
+        <varValue item="Function F0F effect generated" value="1" />
+        <varValue item="Function F0F behavior" value="0" />
+        <varValue item="Function F0F options" value="3" />
+        <varValue item="Function F0F option 1" value="0" />
+        <varValue item="Function F0F option 2" value="30" />
+        <varValue item="Function F0F option 3" value="180" />
+        <varValue item="Function F0F option 4" value="30" />
+        <varValue item="Sound Group 3 Option 1" value="1" />
+        <varValue item="Sound Group 3 Option 2" value="100" />
+        <varValue item="Sound Group 3 Option 3" value="100" />
         <varValue item="DC (Analog) Brake Control" value="20" />
         <varValue item="DCC Brake Control" value="20" />
         <varValue item="Brake Timer" value="3" />
@@ -147,13 +148,13 @@
         <varValue item="DCC Brake Release Throttle Stop" value="1" />
         <varValue item="Service Mode PWM Duty" value="0" />
         <varValue item="Rev Level Power Threshold" value="0" />
-        <varValue item="Front/Rear Lights" value="1" />
-        <varValue item="L1 Light" value="1" />
-        <varValue item="L1 Activate on Bell or Horn" value="0" />
-        <varValue item="Activates L1" value="0" />
-        <varValue item="Brake Set/Release" value="0" />
-        <varValue item="Brake Squeal" value="1" />
-        <varValue item="Forward/Reverse Startup Toots" value="1" />
+        <varValue item="Directional Headlights" value="1" />
+        <varValue item="Function F0R options" value="1" />
+        <varValue item="Function F0R option 1" value="0" />
+        <varValue item="Function F0R option 2" value="0" />
+        <varValue item="Sound Group 2 Option 3" value="0" />
+        <varValue item="Sound Group 2 Option 4" value="1" />
+        <varValue item="Sound Group 2 Option 5" value="1" />
         <varValue item="DCC Startup Timer" value="1" />
         <varValue item="Consist Rear Light" value="1" />
         <varValue item="Consist Front Light" value="1" />
@@ -163,39 +164,39 @@
         <varValue item="Consist Horn" value="1" />
         <varValue item="Consist Cab" value="1" />
         <varValue item="Easy Consist" value="0" />
-        <varValue item="Light Dimmer" value="100" />
+        <varValue item="Global lighting option 4" value="100" />
         <varValue item="Macro Recorder Speed Steps" value="1" />
         <varValue item="Recorder Playback Loop Adjust" value="0" />
-        <varValue item="Random Sound Occurrence" value="5124" />
-        <varValue item="Motor changes direction" value="0" />
-        <varValue item="CV write sound feedback" value="0" />
-        <varValue item="Motor speed smoothing" value="0" />
-        <varValue item="Macro recorder autosave" value="1" />
-        <varValue item="Analog horn frequency shifted" value="0" />
-        <varValue item="Startup sound" value="0" />
-        <varValue item="Motor starts" value="0" />
-        <varValue item="Horn alternative ending" value="1" />
-        <varValue item="Smoke unit power up" value="1" />
-        <varValue item="Motor loading" value="0" />
-        <varValue item="Direction change sound" value="0" />
+        <varValue item="Sound Group 2 Option 11" value="5124" />
+        <varValue item="GSC1 bit 7" value="0" />
+        <varValue item="Sound Group 2 Option 6" value="0" />
+        <varValue item="GSC1 bit 5" value="0" />
+        <varValue item="GSC1 bit 4" value="1" />
+        <varValue item="Sound Group 2 Option 7" value="0" />
+        <varValue item="Sound Group 2 Option 8" value="0" />
+        <varValue item="GSC1 bit 1" value="0" />
+        <varValue item="Sound Group 2 Option 9" value="1" />
+        <varValue item="GSC2 bit 7" value="1" />
+        <varValue item="GSC2 bit 1" value="0" />
+        <varValue item="Sound Group 2 Option 10" value="0" />
         <varValue item="Over Current Delay" value="10" />
         <varValue item="DC Motor Control Off Voltage" value="70" />
         <varValue item="DC Track Voltage Read Delay" value="0" />
         <varValue item="DC Motor Control Vmax" value="120" />
         <varValue item="DC Motor Control Vmin" value="92" />
-        <varValue item="Primary Address" value="3" />
-        <varValue item="Extended Address" value="843" />
+        <varValue item="Short Address" value="3" />
+        <varValue item="Long Address" value="843" />
         <varValue item="Address Format" value="1" />
         <varValue item="Vstart" value="0" />
         <varValue item="Vhigh" value="0" />
         <varValue item="Vmid" value="0" />
-        <varValue item="Acceleration Rate" value="0" />
-        <varValue item="Deceleration Rate" value="0" />
-        <varValue item="Manufacturer Version No: " value="0" />
-        <varValue item="Manufacturer ID: " value="0" />
+        <varValue item="Accel" value="0" />
+        <varValue item="Decel" value="0" />
+        <varValue item="Decoder Version" value="0" />
+        <varValue item="Manufacturer" value="0" />
         <varValue item="Decoder Lock ID number" value="0" />
-        <varValue item="Locomotive Direction In Consist" value="0" />
-        <varValue item="Advanced Consist Address" value="0" />
+        <varValue item="Consist Direction" value="0" />
+        <varValue item="Consist Address" value="0" />
         <varValue item="Consist Address Active For F1" value="0" />
         <varValue item="Consist Address Active For F2" value="0" />
         <varValue item="Consist Address Active For F3" value="0" />
@@ -206,88 +207,86 @@
         <varValue item="Consist Address Active For F8" value="0" />
         <varValue item="Consist Address Active For FL in Forward" value="0" />
         <varValue item="Consist Address Active For FL in Reverse" value="0" />
-        <varValue item="Consist Address Activation for F9" value="0" />
-        <varValue item="Consist Address Activation for F10" value="0" />
-        <varValue item="Consist Address Activation for F11" value="0" />
-        <varValue item="Consist Address Activation for F12" value="0" />
+        <varValue item="Consist Address Active For F9" value="0" />
+        <varValue item="Consist Address Active For F10" value="0" />
+        <varValue item="Consist Address Active For F11" value="0" />
+        <varValue item="Consist Address Active For F12" value="0" />
         <varValue item="Consist Acceleration Adjustment" value="0" />
         <varValue item="Consist Acceleration Adjustment Sign" value="0" />
         <varValue item="Consist Deceleration Adjustment" value="0" />
         <varValue item="Consist Deceleration Adjustment Sign" value="0" />
         <varValue item="Locomotive Direction" value="0" />
-        <varValue item="Speed Steps" value="1" />
-        <varValue item="Power Source Conversion" value="0" />
-        <varValue item="Use Speed Table" value="0" />
+        <varValue item="Speed Step Mode" value="1" />
+        <varValue item="Analog (DC) Operation" value="0" />
+        <varValue item="Speed Table Definition" value="0" />
         <varValue item="Kick Start" value="0" />
         <varValue item="Forward Trim" value="0" />
         <varValue item="Speed Table" value="0,9,18,28,37,47,56,66,75,85,94,103,113,122,132,141,151,160,170,179,188,198,207,217,226,236,245,255" />
         <varValue item="Reverse Trim" value="0" />
-        <varValue item="L4/L5 Power Up State" value="0" />
-        <varValue item="L4 Logic" value="0" />
-        <varValue item="L5 Logic" value="0" />
-        <varValue item="Fatal OverCurrent Config" value="114" />
-        <varValue item="Fatal OverCurrent Sensitivity" value="120" />
-        <varValue item="Rolling Thunder Channel" value="1" />
-        <varValue item="Rolling Thunder Frequency" value="1" />
-        <varValue item="Rolling Thunder Power Level" value="0" />
-        <varValue item="Rolling Thunder Track Voltage" value="0" />
-        <varValue item="Rolling Thunder Volume" value="128" />
-        <varValue item="Bell Select" value="0" />
-        <varValue item="Horn Select" value="0" />
-        <varValue item="L4 Light" value="1" />
-        <varValue item="L5 Light" value="1" />
-        <varValue item="L4 follows front/rear on/off" value="1" />
-        <varValue item="L5 follows front/rear on/off" value="1" />
+        <varValue item="Function 1 option 2" value="0" />
+        <varValue item="Function 1 option 3" value="0" />
+        <varValue item="Function 2 option 2" value="0" />
+        <varValue item="Sound Group 1 Option 1" value="1" />
+        <varValue item="Sound Group 1 Option 2" value="1" />
+        <varValue item="Sound Group 1 Option 3" value="0" />
+        <varValue item="Sound Group 1 Option 4" value="0" />
+        <varValue item="Sound Setting 40" value="128" />
+        <varValue item="Sound Group 2 Option 2" value="0" />
+        <varValue item="Sound Group 2 Option 1" value="0" />
+        <varValue item="Function 1 options" value="1" />
+        <varValue item="Function 2 options" value="1" />
+        <varValue item="Function 1 option 1" value="1" />
+        <varValue item="Function 2 option 1" value="1" />
         <varValue item="Consist L4 Light" value="1" />
         <varValue item="Track Sounds Maximum Speed Step" value="15" />
         <varValue item="Broadcast Stop Packet Count" value="0" />
-        <varValue item="BEMF Kp" value="18432" />
-        <varValue item="BEMF Ki" value="2048" />
-        <varValue item="KpSlow" value="60" />
-        <varValue item="DC Sound Unit Startup Voltage" value="78" />
-        <varValue item="DC Sound Unit Shutdown" value="62" />
-        <varValue item="Whistle Volume" value="128" />
-        <varValue item="Steam Volume" value="128" />
-        <varValue item="Whistle/Horn2 Volume" value="128" />
-        <varValue item="Air Pump Volume" value="128" />
-        <varValue item="Blow Down Volume" value="128" />
-        <varValue item="Steam Cock Volume" value="128" />
-        <varValue item="Pop Off Valve Volume" value="128" />
-        <varValue item="Blower Volume" value="128" />
-        <varValue item="Dynamo Volume" value="128" />
-        <varValue item="Shovel/Auger Volume" value="128" />
-        <varValue item="Water Fill Volume" value="128" />
-        <varValue item="Injector Volume" value="100" />
-        <varValue item="Chuff/Steam Cock Chuffs Volume" value="128" />
-        <varValue item="Station/Yard Volume" value="128" />
-        <varValue item="Maintenance/Radio Chatter Volume" value="128" />
-        <varValue item="City/Farm/Industrial/Lumber Volume" value="128" />
+        <varValue item="EMF Static Config" value="18432" />
+        <varValue item="EMF Dynamic Config" value="2048" />
+        <varValue item="EMF Option 1" value="60" />
+        <varValue item="Analog Startup Voltage" value="78" />
+        <varValue item="Analog Shutdown Voltage" value="62" />
+        <varValue item="Sound Setting 4" value="128" />
+        <varValue item="Sound Setting 6" value="128" />
+        <varValue item="Sound Setting 7" value="128" />
+        <varValue item="Sound Setting 12" value="128" />
+        <varValue item="Sound Setting 13" value="128" />
+        <varValue item="Sound Setting 14" value="128" />
+        <varValue item="Sound Setting 17" value="128" />
+        <varValue item="Sound Setting 18" value="128" />
+        <varValue item="Sound Setting 19" value="128" />
+        <varValue item="Sound Setting 21" value="128" />
+        <varValue item="Sound Setting 22" value="128" />
+        <varValue item="Sound Setting 23" value="100" />
+        <varValue item="Sound Setting 24" value="128" />
+        <varValue item="Sound Setting 25" value="128" />
+        <varValue item="Sound Setting 26" value="128" />
+        <varValue item="Sound Setting 27" value="128" />
         <varValue item="Motor Load Chuff Power Filter" value="12" />
         <varValue item="Analog Brake Set Voltage" value="76" />
         <varValue item="Analog Brake Release Voltage" value="85" />
-        <varValue item="Articulated Chuff Type" value="105" />
-        <varValue item="Articulated Chuff Offset" value="17" />
-        <varValue item="Articulated Chuff Timer" value="2" />
-        <varValue item="Steam Cock Chuffs Event Count " value="2" />
-        <varValue item="Rod Knock Chuffs Event Count" value="2" />
-        <varValue item="Rod Knock Volume" value="90" />
-        <varValue item="Chuff Magnitude Increase Volume" value="200" />
-        <varValue item="DCC Throttle Magnitude Increase" value="0" />
-        <varValue item="DCC Throttle Magnitude Decrease" value="0" />
+        <varValue item="Sound Setting 28" value="105" />
+        <varValue item="Sound Setting 29" value="17" />
+        <varValue item="Sound Setting 30" value="2" />
+        <varValue item="Sound Setting 31" value="2" />
+        <varValue item="Sound Setting 32" value="2" />
+        <varValue item="Sound Setting 33" value="90" />
+        <varValue item="Sound Setting 34" value="200" />
+        <varValue item="Sound Setting 37" value="0" />
+        <varValue item="Sound Setting 38" value="0" />
         <varValue item="DC Track Change Magnitude Increase" value="20" />
         <varValue item="DC Track Change Magnitude Decrease" value="20" />
-        <varValue item="F5 Chuff Magnitude Change Increment" value="32" />
-        <varValue item="F6 Chuff Magnitude Change Increment" value="32" />
+        <varValue item="Sound Setting 35" value="32" />
+        <varValue item="Sound Setting 36" value="32" />
         <varValue item="DC Chuff Motor Power Scalar" value="200" />
         <varValue item="N Gauge Rev Level Motor Power Scalar" value="46" />
-        <varValue item="Power Chuff Threshold" value="90" />
+        <varValue item="Sound Setting 39" value="90" />
         <varValue item="Recorder Repeats" value="1" />
-        <varValue item="Chuff Sensor" value="0" />
+        <varValue item="GSC2 bit 6" value="0" />
         <varValue item="Motor Startup Delay" value="20" />
-        <varValue item="L4 Output Type" value="4" />
-        <varValue item="L4 Parameter One" value="0" />
-        <varValue item="L5 Output Type" value="4" />
-        <varValue item="L5 Parameter One" value="0" />
+        <varValue item="Function 1 effect generated" value="4" />
+        <varValue item="Function 1 behavior" value="0" />
+        <varValue item="Function 2 effect generated" value="4" />
+        <varValue item="Function 2 behavior" value="0" />
       </decoderDef>
       <CVvalue name="33" value="1" />
       <CVvalue name="34" value="2" />
@@ -319,6 +318,8 @@
       <CVvalue name="60" value="41" />
       <CVvalue name="61" value="18" />
       <CVvalue name="159" value="2" />
+      <CVvalue name="176" value="114" />
+      <CVvalue name="177" value="120" />
       <CVvalue name="218" value="70" />
       <CVvalue name="219" value="80" />
       <CVvalue name="220" value="150" />
@@ -432,8 +433,6 @@
       <CVvalue name="93" value="245" />
       <CVvalue name="94" value="255" />
       <CVvalue name="95" value="0" />
-      <CVvalue name="176" value="114" />
-      <CVvalue name="177" value="120" />
       <CVvalue name="212" value="1" />
       <CVvalue name="213" value="128" />
       <CVvalue name="214" value="128" />

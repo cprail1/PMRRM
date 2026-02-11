@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
-<!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
-<locomotive-config>
-  <locomotive id="PRR460" fileName="PRR460.xml" roadNumber="460" roadName="Pennsylvania Railroad" mfg="BLI" owner="267 Adam Delia" model="4-4-2 Atlantic" dccAddress="460" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
-    <dateUpdated>2026-02-08T03:58:31.821+00:00</dateUpdated>
+<locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
+  <locomotive id="PRR 460" fileName="PRR460.xml" roadNumber="460" roadName="Pennsylvania Railroad" mfg="BLI" owner="267 Adam Delia" model="4-4-2 Atlantic" dccAddress="460" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+    <dateUpdated>2026-02-11T15:10:33.076+00:00</dateUpdated>
     <decoder model="Steam" family="Paragon 4" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="460" longaddress="yes" />

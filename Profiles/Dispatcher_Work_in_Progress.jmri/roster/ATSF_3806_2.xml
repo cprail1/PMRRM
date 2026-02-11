@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
-<!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
-<locomotive-config>
-  <locomotive id="ATSF 3806-2" fileName="ATSF_3806_2.xml" roadNumber="3806" roadName="Atchison, Topeka, and Santa Fe" mfg="" owner="223 Dan Wexler" model="2-10-2 " dccAddress="3806" comment="" developerID="-1" manufacturerID="101" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
-    <dateUpdated>2026-02-08T03:58:25.775+00:00</dateUpdated>
+<locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
+  <locomotive id="ATSF 3806_2" fileName="ATSF_3806_2.xml" roadNumber="3806" roadName="ATSF" mfg="" owner="223 Dan Wexler" model="2-10-2 " dccAddress="3806" comment="" developerID="-1" manufacturerID="101" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+    <dateUpdated>2026-02-11T14:59:42.755+00:00</dateUpdated>
     <decoder model="4 function decoder (36-550)" family="E-Z Command decoders" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="3806" longaddress="yes" />
@@ -20,7 +19,7 @@
     </attributepairs>
     <values>
       <decoderDef>
-        <varValue item="Start Volts" value="10" />
+        <varValue item="Vstart" value="10" />
         <varValue item="Accel" value="1" />
         <varValue item="Decel" value="1" />
         <varValue item="Motor Drive Selection" value="0" />
@@ -42,39 +41,39 @@
         <varValue item="Output C blinks" value="1" />
         <varValue item="Output D blinks" value="1" />
         <varValue item="Output C, D are ditch lights" value="1" />
-        <varValue item="F1 controls output C" value="1" />
-        <varValue item="F2 controls output C" value="1" />
-        <varValue item="F3 controls output C" value="1" />
-        <varValue item="F4 controls output C" value="1" />
-        <varValue item="F5 controls output C" value="1" />
-        <varValue item="F6 controls output C" value="1" />
-        <varValue item="F7 controls output C" value="1" />
-        <varValue item="F8 controls output C" value="1" />
-        <varValue item="F1 controls output D" value="1" />
-        <varValue item="F2 controls output D" value="1" />
-        <varValue item="F3 controls output D" value="1" />
-        <varValue item="F4 controls output D" value="1" />
-        <varValue item="F5 controls output D" value="1" />
-        <varValue item="F6 controls output D" value="1" />
-        <varValue item="F7 controls output D" value="1" />
-        <varValue item="F8 controls output D" value="1" />
+        <varValue item="F1 controls output 3" value="1" />
+        <varValue item="F2 controls output 3" value="1" />
+        <varValue item="F3 controls output 3" value="1" />
+        <varValue item="F4 controls output 3" value="1" />
+        <varValue item="F5 controls output 3" value="1" />
+        <varValue item="F6 controls output 3" value="1" />
+        <varValue item="F7 controls output 3" value="1" />
+        <varValue item="F8 controls output 3" value="1" />
+        <varValue item="F1 controls output 4" value="1" />
+        <varValue item="F2 controls output 4" value="1" />
+        <varValue item="F3 controls output 4" value="1" />
+        <varValue item="F4 controls output 4" value="1" />
+        <varValue item="F5 controls output 4" value="1" />
+        <varValue item="F6 controls output 4" value="1" />
+        <varValue item="F7 controls output 4" value="1" />
+        <varValue item="F8 controls output 4" value="1" />
         <varValue item="FL(f) controls output 1" value="1" />
         <varValue item="FL(r) controls output 2" value="1" />
-        <varValue item="Primary Address" value="3" />
-        <varValue item="Extended Address" value="3806" />
+        <varValue item="Short Address" value="3" />
+        <varValue item="Long Address" value="3806" />
         <varValue item="Address Format" value="1" />
-        <varValue item="Manufacturer Version No: " value="46" />
-        <varValue item="Manufacturer ID: " value="101" />
-        <varValue item="Locomotive Direction In Consist" value="0" />
-        <varValue item="Advanced Consist Address" value="0" />
+        <varValue item="Decoder Version" value="46" />
+        <varValue item="Manufacturer" value="101" />
+        <varValue item="Consist Direction" value="0" />
+        <varValue item="Consist Address" value="0" />
         <varValue item="Locomotive Direction" value="0" />
-        <varValue item="Speed Steps" value="1" />
-        <varValue item="Power Source Conversion" value="0" />
-        <varValue item="Use Speed Table" value="0" />
-        <varValue item="Brake Momentum on DC" value="1" />
+        <varValue item="Speed Step Mode" value="1" />
+        <varValue item="Analog (DC) Operation" value="0" />
+        <varValue item="Speed Table Definition" value="0" />
+        <varValue item="DC Brake Momentum" value="1" />
         <varValue item="Directional Headlights" value="0" />
-        <varValue item="User ID #1 (0-255)" value="255" />
-        <varValue item="User ID #2 (0-255)" value="255" />
+        <varValue item="User Id #1" value="255" />
+        <varValue item="User Id #2" value="255" />
         <varValue item="Speed Table" value="0,9,18,28,37,47,56,66,75,85,94,103,113,122,132,141,151,160,170,179,188,198,207,217,226,236,245,255" />
       </decoderDef>
       <CVvalue name="2" value="10" />
