@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <!--Written by JMRI version 4.20+Rc7ba8249b on Tue Oct 06 12:08:56 PDT 2020-->
-  <locomotive id="Milw 48A" fileName="MILW_48A.xml" roadNumber="48A" roadName="Milwaukee Road" mfg="Kato" owner="263 John Finnerty" model="F7A" dccAddress="48" comment="Do not separate from MILW 48B &amp; 48C&#xA;Group TE: 70 / 51" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2019-11-21T21:10:20.952+0000</dateUpdated>
-    <decoder model="DH126D" family="Economy Series 6 with FX3, silent" comment="" />
+  <locomotive id="Milw 48A" fileName="Milw_48A.xml" roadNumber="48A" roadName="Milwaukee Road" mfg="Kato" owner="263 John Finnerty" model="F7A" dccAddress="48" comment="Do not separate from MILW 48B &amp; 48C&#xA;" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+    <dateUpdated>2026-02-11T19:37:33.132+00:00</dateUpdated>
+    <decoder model="DH126D" family="Economy Series 6 with FX3, silent" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="48" longaddress="no" />
       <number>48</number>
@@ -16,6 +16,10 @@
       <keyvaluepair>
         <key>RosterGroup:Milw</key>
         <value>yes</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>Group TE: 70 / 51</value>
       </keyvaluepair>
     </attributepairs>
     <values>
