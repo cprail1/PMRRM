@@ -2,8 +2,8 @@
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="Milw 26A" fileName="Milw_26A.xml" roadNumber="26A" roadName="Milwaukee Road" mfg="Walthers" owner="263 John Finnerty" model="C-liner" dccAddress="26" comment="Do not separate from MW 26CGroup TE: 61 / 53 / 45" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
-    <dateUpdated>2026-02-08T03:58:30.636+00:00</dateUpdated>
+  <locomotive id="Milw 26A" fileName="Milw_26A.xml" roadNumber="26A" roadName="Milwaukee Road" mfg="Walthers" owner="263 John Finnerty" model="C-liner" dccAddress="26" comment="Do not separate from MW 26C" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+    <dateUpdated>2026-02-12T06:23:39.858+00:00</dateUpdated>
     <decoder model="A6X" family="Jan 2012" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="26" longaddress="no" />
@@ -19,7 +19,8 @@
       </keyvaluepair>
       <keyvaluepair>
         <key>TE</key>
-        <value>33 / 28 / 23</value>
+        <value>33 / 28 / 23
+Group TE: 61 / 53 / 45</value>
       </keyvaluepair>
     </attributepairs>
     <values>

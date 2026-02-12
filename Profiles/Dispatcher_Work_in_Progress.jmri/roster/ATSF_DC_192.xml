@@ -2,8 +2,8 @@
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="ATSF DC-192" fileName="ATSF_DC_192.xml" roadNumber="192" roadName="ATSF" mfg="Rapido" owner="267 Adam Delia" model="Budd RDC" dccAddress="192" comment="operate only with ATSF DC-191 consisted &#xA;with ATSF DC-191 with address 50" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-    <dateUpdated>2023-03-08T05:56:54.038+00:00</dateUpdated>
+  <locomotive id="ATSF DC-192" fileName="ATSF_DC_192.xml" roadNumber="192" roadName="ATSF" mfg="Rapido" owner="267 Adam Delia" model="Budd RDC" dccAddress="192" comment="Operate only with ATSF DC-191 consisted &#xA;with ATSF DC-191 with address 50" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+    <dateUpdated>2026-02-12T06:21:09.067+00:00</dateUpdated>
     <decoder model="LokSound Select" family="ESU LokSound Select" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="192" longaddress="yes" />
