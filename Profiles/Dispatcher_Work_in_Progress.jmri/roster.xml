@@ -43,8 +43,8 @@
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="AMT 220" fileName="AMT_220.xml" roadNumber="220" roadName="Amtrak" mfg="Rapido" owner="254 Aaron Gold" model="EMD F40PH" dccAddress="220" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2024-01-06T20:09:36.520+00:00</dateUpdated>
+    <locomotive id="AMT 220" fileName="AMT_220.xml" roadNumber="220" roadName="Amtrak" mfg="Rapido" owner="254 Aaron Gold" model="EMD F40PH" dccAddress="220" comment="AAA BBB AAA BBB BBB GFGFF HHH GHHGGH HGHFGH HGHGHSR HFGHGRHS HGRHSGRH HGHSG" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-02-12T07:26:17.220+00:00</dateUpdated>
       <decoder model="LokSound Select" family="ESU LokSound Select" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="220" longaddress="yes" />
@@ -4153,8 +4153,8 @@ Group TE: 57 / 41</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="ATSF 5142_2" fileName="ATSF_5142_2.xml" roadNumber="5147" roadName="ATSF" mfg="Scale Trains" owner="273 Jack Howland" model="SD40-2" dccAddress="5142" comment="2.25 oz 2%" developerID="-1" manufacturerID="151" productID="33554588" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-02-11T15:00:27.308+00:00</dateUpdated>
+    <locomotive id="ATSF 5142_2" fileName="ATSF_5142_2.xml" roadNumber="5147" roadName="ATSF" mfg="Scale Trains" owner="273 Jack Howland" model="SD40-2" dccAddress="5142" comment="" developerID="-1" manufacturerID="151" productID="33554588" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-02-12T06:38:30.456+00:00</dateUpdated>
       <decoder model="LokSound 5 DCC" family="ESU LokSound 5" comment="" maxFnNum="31" />
       <locoaddress>
         <dcclocoaddress number="5142" longaddress="yes" />
@@ -4170,9 +4170,15 @@ Group TE: 57 / 41</value>
         <soundlabel num="33">Automatic brake sound</soundlabel>
         <soundlabel num="34">Gear shift sound</soundlabel>
       </soundlabels>
+      <attributepairs>
+        <keyvaluepair>
+          <key>TE</key>
+          <value>2.25 oz 2%</value>
+        </keyvaluepair>
+      </attributepairs>
     </locomotive>
-    <locomotive id="ATSF 5147" fileName="ATSF_5147.xml" roadNumber="5147" roadName="ATSF" mfg="Scale Trains" owner="273 Jack Howland" model="SD40-2" dccAddress="5147" comment="2.25 oz 2%" developerID="-1" manufacturerID="151" productID="33554582" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2025-02-05T03:00:12.537+00:00</dateUpdated>
+    <locomotive id="ATSF 5147" fileName="ATSF_5147.xml" roadNumber="5147" roadName="ATSF" mfg="Scale Trains" owner="273 Jack Howland" model="SD40-2" dccAddress="5147" comment="" developerID="-1" manufacturerID="151" productID="33554582" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-02-12T06:38:27.459+00:00</dateUpdated>
       <decoder model="LokSound 5" family="ESU LokSound 5" comment="" maxFnNum="31" />
       <locoaddress>
         <dcclocoaddress number="5147" longaddress="yes" />
@@ -4188,6 +4194,12 @@ Group TE: 57 / 41</value>
         <soundlabel num="33">Automatic brake sound</soundlabel>
         <soundlabel num="34">Gear shift sound</soundlabel>
       </soundlabels>
+      <attributepairs>
+        <keyvaluepair>
+          <key>TE</key>
+          <value>2.25 oz 2%</value>
+        </keyvaluepair>
+      </attributepairs>
     </locomotive>
     <locomotive id="ATSF 5155" fileName="ATSF_5155.xml" roadNumber="5155" roadName="ATSF" mfg="Scale Trains" owner="148 Kevin Schiller" model="SD40-2" dccAddress="5155" comment="" developerID="-1" manufacturerID="151" productID="33554588" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
       <dateUpdated>2026-02-08T03:58:26.073+00:00</dateUpdated>
@@ -4283,8 +4295,8 @@ Group TE: 57 / 41</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="ATSF 52L" fileName="ATSF_52L.xml" roadNumber="52L" roadName="ATSF" mfg="Proto 2000" owner="223 Dan Wexler" model="PA" dccAddress="70" comment="reverse operation" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2018-10-03T01:03:03.000+00:00</dateUpdated>
+    <locomotive id="ATSF 52L" fileName="ATSF_52L.xml" roadNumber="52L" roadName="ATSF" mfg="Proto 2000" owner="223 Dan Wexler" model="PA" dccAddress="70" comment="Reverse operation" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-02-12T06:20:36.914+00:00</dateUpdated>
       <decoder model="DH166D" family="Series 6 with FX3, silent, improved BEMF" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="70" longaddress="no" />
@@ -4328,8 +4340,8 @@ Group TE: 57 / 41</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="ATSF 54L" fileName="ATSF_54L.xml" roadNumber="54L" roadName="ATSF" mfg="Rapido" owner="267 Adam Delia" model="Alco PA-1" dccAddress="54" comment=" TE Measured w/ ATSF 54a B-unit" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-02-08T03:58:26.242+00:00</dateUpdated>
+    <locomotive id="ATSF 54L" fileName="ATSF_54L.xml" roadNumber="54L" roadName="ATSF" mfg="Rapido" owner="267 Adam Delia" model="Alco PA-1" dccAddress="54" comment="TE Measured w/ ATSF 54 B-unit" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-02-12T06:39:06.099+00:00</dateUpdated>
       <decoder model="LokSound 5 DCC" family="ESU LokSound 5" comment="" maxFnNum="31" />
       <locoaddress>
         <dcclocoaddress number="54" longaddress="no" />
@@ -4684,8 +4696,8 @@ Group TE: 57 / 41</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="ATSF 5963" fileName="ATSF_5963.xml" roadNumber="5963" roadName="ATSF" mfg="Athearn" owner="223 Dan Wexler" model="F45" dccAddress="5963" comment="Do not separate from ATSF 5501" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-02-08T03:58:26.410+00:00</dateUpdated>
+    <locomotive id="ATSF 5963" fileName="ATSF_5963.xml" roadNumber="5963" roadName="ATSF" mfg="Athearn" owner="223 Dan Wexler" model="F45" dccAddress="5963" comment="Do not separate from ATSF 5501l" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-02-12T06:39:09.084+00:00</dateUpdated>
       <decoder model="DH126D" family="Economy Series 6 with FX3, silent" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="5963" longaddress="yes" />
@@ -5575,8 +5587,8 @@ Group TE: 65 / 48</value>
         <soundlabel num="27">Gear shift sound</soundlabel>
       </soundlabels>
     </locomotive>
-    <locomotive id="ATSF DC-192" fileName="ATSF_DC_192.xml" roadNumber="192" roadName="ATSF" mfg="Rapido" owner="267 Adam Delia" model="Budd RDC" dccAddress="192" comment="operate only with ATSF DC-191 consisted &lt;?p?&gt;with ATSF DC-191 with address 50" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2023-03-08T05:56:54.038+00:00</dateUpdated>
+    <locomotive id="ATSF DC-192" fileName="ATSF_DC_192.xml" roadNumber="192" roadName="ATSF" mfg="Rapido" owner="267 Adam Delia" model="Budd RDC" dccAddress="192" comment="Operate only with ATSF DC-191 consisted &lt;?p?&gt;with ATSF DC-191 with address 50" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-02-12T06:21:09.067+00:00</dateUpdated>
       <decoder model="LokSound Select" family="ESU LokSound Select" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="192" longaddress="yes" />
@@ -6052,8 +6064,8 @@ Group TE: 65 / 48</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="BN 10740" fileName="BN_10740.xml" roadNumber="10740" roadName="Burlington Northern" mfg="Tangent" owner="148 Kevin Schiller" model="Caboose" dccAddress="0" comment="wand to light" developerID="-1" manufacturerID="1000" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2025-09-20T19:27:16.510+00:00</dateUpdated>
+    <locomotive id="BN 10740" fileName="BN_10740.xml" roadNumber="10740" roadName="Burlington Northern" mfg="Tangent" owner="148 Kevin Schiller" model="Caboose" dccAddress="0" comment="Use wand to light" developerID="-1" manufacturerID="1000" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-02-12T06:32:48.400+00:00</dateUpdated>
       <decoder model="No Decoder" family="No Decoder" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="0" longaddress="yes" />
@@ -6069,8 +6081,8 @@ Group TE: 65 / 48</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="BN 1383" fileName="BN_1383.xml" roadNumber="1383" roadName="Burlington Northern" mfg="Athearn" owner="94 Bob Cooper" model="GP15-1" dccAddress="1383" comment="lead unit of two unit set&lt;?p?&gt;with 1385" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2018-10-03T01:01:09.000+00:00</dateUpdated>
+    <locomotive id="BN 1383" fileName="BN_1383.xml" roadNumber="1383" roadName="Burlington Northern" mfg="Athearn" owner="94 Bob Cooper" model="GP15-1" dccAddress="1383" comment="Lead unit of two unit set&lt;?p?&gt;with 1385" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-02-12T06:21:20.657+00:00</dateUpdated>
       <decoder model="MC1H102P8" family="MC Motor Decoders" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="1383" longaddress="yes" />
@@ -6086,8 +6098,8 @@ Group TE: 65 / 48</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="BN 1385" fileName="BN_1385.xml" roadNumber="1385" roadName="Burlington Northern" mfg="Athearn" owner="94 Bob Cooper" model="GP15-1" dccAddress="1383" comment="trailing,sound, unit in two unit set with 1383&lt;?p?&gt;Operating address is 1383" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2018-10-03T01:01:12.000+00:00</dateUpdated>
+    <locomotive id="BN 1385" fileName="BN_1385.xml" roadNumber="1385" roadName="Burlington Northern" mfg="Athearn" owner="94 Bob Cooper" model="GP15-1" dccAddress="1383" comment="Trailing,sound, unit in two unit set with 1383&lt;?p?&gt;Operating address is 1383" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-02-12T06:21:33.186+00:00</dateUpdated>
       <decoder model="GP15-1" family="Tsunami Diesel Genesis OEM" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="1383" longaddress="yes" />
@@ -6350,8 +6362,8 @@ Group TE: 65 / 48</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="BN 578" fileName="BN_578.xml" roadNumber="578" roadName="Burlington Northern" mfg="Athearn " owner="94 Bob Cooper" model="SW1000" dccAddress="578" comment="25 level, 6 2%" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2019-09-14T20:37:03.377+00:00</dateUpdated>
+    <locomotive id="BN 578" fileName="BN_578.xml" roadNumber="578" roadName="Burlington Northern" mfg="Athearn " owner="94 Bob Cooper" model="SW1000" dccAddress="578" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-02-12T06:35:03.574+00:00</dateUpdated>
       <decoder model="DH126D" family="Economy Series 6 with FX3, silent" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="578" longaddress="yes" />
@@ -6360,6 +6372,12 @@ Group TE: 65 / 48</value>
       </locoaddress>
       <functionlabels />
       <soundlabels />
+      <attributepairs>
+        <keyvaluepair>
+          <key>TE</key>
+          <value>25 level, 6 2%</value>
+        </keyvaluepair>
+      </attributepairs>
     </locomotive>
     <locomotive id="BN 6246" fileName="BN_6246.xml" roadNumber="6246" roadName="Burlington Northern" mfg="Atlas" owner="223 Dan Wexler" model="SD 24" dccAddress="6246" comment="No lights - may not be a consist leader." developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
       <dateUpdated>2026-02-08T03:58:26.877+00:00</dateUpdated>
@@ -14534,8 +14552,8 @@ Group TE: 52 / 45 / 38</value>
         <soundlabel num="34">Gear shift sound</soundlabel>
       </soundlabels>
     </locomotive>
-    <locomotive id="Milw 100A" fileName="Milw_100A.xml" roadNumber="100A" roadName="Milwaukee Road" mfg="" owner="263 John Finnerty" model="FP7a" dccAddress="100" comment="Do not seperate from MW 98C and MW 115B" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-02-11T19:43:07.212+00:00</dateUpdated>
+    <locomotive id="Milw 100A" fileName="Milw_100A.xml" roadNumber="100A" roadName="Milwaukee Road" mfg="" owner="263 John Finnerty" model="FP7a" dccAddress="100" comment="Do not separate from MW 98C and MW 115B" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-02-12T06:22:42.456+00:00</dateUpdated>
       <decoder model="NMRA standard CV definitions" family="NMRA standard CV definitions" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="100" longaddress="no" />
@@ -14556,8 +14574,8 @@ Group TE: 70 / 51 /</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="Milw 115B" fileName="Milw_115B.xml" roadNumber="115B" roadName="Milwaukee Road" mfg="" owner="263 John Finnerty" model="F7b" dccAddress="100" comment="Do not seperate from MW 100A and MW 98C.Group TE: 70 / 51" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-02-08T03:58:30.413+00:00</dateUpdated>
+    <locomotive id="Milw 115B" fileName="Milw_115B.xml" roadNumber="115B" roadName="Milwaukee Road" mfg="" owner="263 John Finnerty" model="F7b" dccAddress="100" comment="Do not separate from MW 100A and MW 98C" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-02-12T06:29:14.586+00:00</dateUpdated>
       <decoder model="NMRA standard CV definitions" family="NMRA standard CV definitions" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="100" longaddress="no" />
@@ -14573,12 +14591,13 @@ Group TE: 70 / 51 /</value>
         </keyvaluepair>
         <keyvaluepair>
           <key>TE</key>
-          <value>22 / 15</value>
+          <value>22 / 15
+Group TE: 70 / 51</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="Milw 12B" fileName="Milw_12B.xml" roadNumber="12B" roadName="Milwaukee Road" mfg="Life-Like" owner="263 John Finnerty" model="Erie Built" dccAddress="9" comment="Do not seperate from 9A and 9BGroup TE: 70 / 51" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-02-08T03:58:30.428+00:00</dateUpdated>
+    <locomotive id="Milw 12B" fileName="Milw_12B.xml" roadNumber="12B" roadName="Milwaukee Road" mfg="Life-Like" owner="263 John Finnerty" model="Erie Built" dccAddress="9" comment="Do not separate from 9A and 9B" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-02-12T06:30:09.470+00:00</dateUpdated>
       <decoder model="DP2X" family="Jan 2012" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="9" longaddress="no" />
@@ -14594,7 +14613,8 @@ Group TE: 70 / 51 /</value>
         </keyvaluepair>
         <keyvaluepair>
           <key>TE</key>
-          <value>26 / 18</value>
+          <value>26 / 18
+Group TE: 70 / 51</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
@@ -14616,7 +14636,7 @@ Group TE: 70 / 51 /</value>
       </attributepairs>
     </locomotive>
     <locomotive id="Milw 14a" fileName="Milw_14a.xml" roadNumber="14" roadName="Milwaukee Road" mfg="P2K" owner="263 John Finnerty" model="DL 109" dccAddress="14" comment="" developerID="-1" manufacturerID="141" productID="828043" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-02-08T03:58:30.483+00:00</dateUpdated>
+      <dateUpdated>2026-02-12T06:30:14.784+00:00</dateUpdated>
       <decoder model="TSU-AT1000 Alco 244" family="Tsunami Diesel" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="14" longaddress="no" />
@@ -14642,7 +14662,7 @@ Group TE: 70 / 51 /</value>
       <attributepairs>
         <keyvaluepair>
           <key>TE</key>
-          <value>: 31 / 21</value>
+          <value>31 / 21</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
@@ -14866,8 +14886,8 @@ Group TE: 70 / 51 /</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="Milw 26A" fileName="Milw_26A.xml" roadNumber="26A" roadName="Milwaukee Road" mfg="Walthers" owner="263 John Finnerty" model="C-liner" dccAddress="26" comment="Do not separate from MW 26CGroup TE: 61 / 53 / 45" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-02-08T03:58:30.636+00:00</dateUpdated>
+    <locomotive id="Milw 26A" fileName="Milw_26A.xml" roadNumber="26A" roadName="Milwaukee Road" mfg="Walthers" owner="263 John Finnerty" model="C-liner" dccAddress="26" comment="Do not separate from MW 26C" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-02-12T06:23:39.858+00:00</dateUpdated>
       <decoder model="A6X" family="Jan 2012" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="26" longaddress="no" />
@@ -14883,12 +14903,13 @@ Group TE: 70 / 51 /</value>
         </keyvaluepair>
         <keyvaluepair>
           <key>TE</key>
-          <value>33 / 28 / 23</value>
+          <value>33 / 28 / 23
+Group TE: 61 / 53 / 45</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="Milw 26C" fileName="Milw_26C.xml" roadNumber="26C" roadName="Milwaukee Road" mfg="Walthers" owner="263 John Finnerty" model="C-liner" dccAddress="26" comment="Do not separate from MW 26AGroup TE: 61 / 53 / 45" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-02-08T03:58:30.643+00:00</dateUpdated>
+    <locomotive id="Milw 26C" fileName="Milw_26C.xml" roadNumber="26C" roadName="Milwaukee Road" mfg="Walthers" owner="263 John Finnerty" model="C-liner" dccAddress="26" comment="Do not separate from MW 26A" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-02-12T06:24:19.481+00:00</dateUpdated>
       <decoder model="A6X" family="Jan 2012" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="26" longaddress="no" />
@@ -14904,7 +14925,8 @@ Group TE: 70 / 51 /</value>
         </keyvaluepair>
         <keyvaluepair>
           <key>TE</key>
-          <value>33 / 28 / 23</value>
+          <value>33 / 28 / 23
+Group TE: 61 / 53 / 45</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
@@ -15328,8 +15350,8 @@ Group TE: 70 / 51 /</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="Milw 94A" fileName="Milw_94A.xml" roadNumber="94A" roadName="Milwaukee Road" mfg="Athearn Genesis" owner="263 John Finnerty" model="FP7a" dccAddress="94" comment="Do not seperate from MW 94BGroup TE: 48 / 41 / 35" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-02-08T03:58:30.810+00:00</dateUpdated>
+    <locomotive id="Milw 94A" fileName="Milw_94A.xml" roadNumber="94A" roadName="Milwaukee Road" mfg="Athearn Genesis" owner="263 John Finnerty" model="FP7a" dccAddress="94" comment="Do not seperate from MW 94B" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-02-12T06:24:42.294+00:00</dateUpdated>
       <decoder model="LokPilot Standard V1.0" family="ESU LokPilot Standard V1.0" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="94" longaddress="no" />
@@ -15345,7 +15367,8 @@ Group TE: 70 / 51 /</value>
         </keyvaluepair>
         <keyvaluepair>
           <key>TE</key>
-          <value>26 / 22 / 18</value>
+          <value>26 / 22 / 18
+Group TE: 48 / 41 / 35</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
@@ -15371,8 +15394,8 @@ Group TE: 48 / 41 / 35</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="Milw 98C" fileName="Milw_98C.xml" roadNumber="98C" roadName="Milwaukee Road" mfg="" owner="263 John Finnerty" model="FP7a" dccAddress="100" comment="Do not seperate from MW 100A and MW 115BGroup TE: 70 / 51" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-02-08T03:58:30.831+00:00</dateUpdated>
+    <locomotive id="Milw 98C" fileName="Milw_98C.xml" roadNumber="98C" roadName="Milwaukee Road" mfg="" owner="263 John Finnerty" model="FP7a" dccAddress="100" comment="Do not seperate from MW 100A and MW 115B" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-02-12T06:28:48.559+00:00</dateUpdated>
       <decoder model="NMRA standard CV definitions" family="NMRA standard CV definitions" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="100" longaddress="no" />
@@ -15388,12 +15411,12 @@ Group TE: 48 / 41 / 35</value>
         </keyvaluepair>
         <keyvaluepair>
           <key>TE</key>
-          <value>22 / 15</value>
+          <value>22 / Group TE  70 / 51</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="Milw 9A" fileName="Milw_9A.xml" roadNumber="9A" roadName="Milwaukee Road" mfg="Life-Like" owner="263 John Finnerty" model="Erie Built" dccAddress="9" comment="Do not seperate from MW 9B and MW 12BGroup TE: 70 / 51" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-02-08T03:58:30.840+00:00</dateUpdated>
+    <locomotive id="Milw 9A" fileName="Milw_9A.xml" roadNumber="9A" roadName="Milwaukee Road" mfg="Life-Like" owner="263 John Finnerty" model="Erie Built" dccAddress="9" comment="Do not seperate from MW 9B and MW 12B" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-02-12T06:27:33.860+00:00</dateUpdated>
       <decoder model="DP2X" family="Jan 2012" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="9" longaddress="no" />
@@ -15409,12 +15432,13 @@ Group TE: 48 / 41 / 35</value>
         </keyvaluepair>
         <keyvaluepair>
           <key>TE</key>
-          <value>26 / 18</value>
+          <value>26 / 18
+Group TE: 70 / 51</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="Milw 9B" fileName="Milw_9B.xml" roadNumber="9B" roadName="Milwaukee Road" mfg="Life-Like" owner="263 John Finnerty" model="Erie Built" dccAddress="9" comment="Do not seperate from MW 9A and MW 12BGroup TE: 70 / 51" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-02-08T03:58:30.850+00:00</dateUpdated>
+    <locomotive id="Milw 9B" fileName="Milw_9B.xml" roadNumber="9B" roadName="Milwaukee Road" mfg="Life-Like" owner="263 John Finnerty" model="Erie Built" dccAddress="9" comment="Do not seperate from MW 9A and MW 12B" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-02-12T06:27:39.644+00:00</dateUpdated>
       <decoder model="DP2X" family="Jan 2012" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="9" longaddress="no" />
@@ -15430,7 +15454,8 @@ Group TE: 48 / 41 / 35</value>
         </keyvaluepair>
         <keyvaluepair>
           <key>TE</key>
-          <value>26 / 18</value>
+          <value>26 / 18
+Group TE: 70 / 51</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
@@ -30160,8 +30185,8 @@ Combined TE: 48 / 35</value>
         <soundlabel num="34">Gear shift sound</soundlabel>
       </soundlabels>
     </locomotive>
-    <locomotive id="UP 40" fileName="UP_40.xml" roadNumber="40" roadName="Union Pacific" mfg="Suydam" owner="259 Skip Martin" model="Gas Electric" dccAddress="41" comment="N/A - only pulls one car, do not use to haul anything&lt;?p?&gt; else except UP heavyweight passenger car." developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-02-08T05:55:49.698+00:00</dateUpdated>
+    <locomotive id="UP 40" fileName="UP_40.xml" roadNumber="40" roadName="Union Pacific" mfg="Suydam" owner="259 Skip Martin" model="Gas Electric" dccAddress="41" comment="Do not use to haul anything&lt;?p?&gt; except 1 UP heavyweight &lt;?p?&gt;passenger car." developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-02-12T06:36:53.871+00:00</dateUpdated>
       <decoder model="ECO-100 Diesel" family="Econami Diesel" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="41" longaddress="no" />
@@ -30196,6 +30221,10 @@ Combined TE: 48 / 35</value>
         <keyvaluepair>
           <key>RosterGroup:UP</key>
           <value>yes</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>TE</key>
+          <value>N/A - Pulls one car</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
@@ -32270,8 +32299,8 @@ Unit TE: 26 / 22 / 18</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="UP 717B" fileName="UP_717B.xml" roadNumber="717B" roadName="Union Pacific" mfg="Power Pro" owner="259 Skip Martin" model="GP30B" dccAddress="712" comment="Usonly with  UP 712 &amp; UP 722" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-02-08T03:58:35.841+00:00</dateUpdated>
+    <locomotive id="UP 717B" fileName="UP_717B.xml" roadNumber="717B" roadName="Union Pacific" mfg="Power Pro" owner="259 Skip Martin" model="GP30B" dccAddress="712" comment="Use only with  UP 712 &amp; UP 722" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-02-12T06:37:07.432+00:00</dateUpdated>
       <decoder model="D13SR" family="Silent Running w/ Torque Compensation" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="712" longaddress="yes" />
