@@ -2,9 +2,9 @@
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <!--Written by JMRI version 5.15.3plus+jenkins+20260211T0305Z+R1b998ee8c4d on Thu Feb 12 11:46:01 PST 2026-->
-  <locomotive id="AMT 220" fileName="AMT_220.xml" roadNumber="220" roadName="Amtrak" mfg="Rapido" owner="254 Aaron Gold" model="EMD F40PH" dccAddress="220" comment="Test comment" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-    <dateUpdated>2026-02-12T19:46:01.825+00:00</dateUpdated>
+  <!--Written by JMRI version 5.15.3plus+jenkins+20260206T0344Z+Rbfe7cf787e5 on Thu Feb 12 12:33:42 PST 2026-->
+  <locomotive id="AMT 220" fileName="AMT_220.xml" roadNumber="220" roadName="Amtrak" mfg="Rapido" owner="254 Aaron Gold" model="EMD F40PH" dccAddress="220" comment="Test comment2" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-02-12T20:33:42.547+00:00</dateUpdated>
     <decoder model="LokSound Select" family="ESU LokSound Select" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="220" longaddress="yes" />

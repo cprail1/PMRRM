@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/roster2array.xsl" type="text/xsl"?>
 <roster-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/roster.xsd">
-  <!--Written by JMRI version 5.15.3plus+jenkins+20260206T0344Z+Rbfe7cf787e5 on Thu Feb 12 12:29:52 PST 2026-->
+  <!--Written by JMRI version 5.15.3plus+jenkins+20260206T0344Z+Rbfe7cf787e5 on Thu Feb 12 12:37:09 PST 2026-->
   <roster>
     <locomotive id="AMT 12" fileName="AMT_12.xml" roadNumber="5" roadName="Amtrak" mfg="Athearn Genesis" owner="257 Chris Holt" model="P42" dccAddress="5" comment="For 257 2011 Coast Starlight only" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
       <dateUpdated>2026-02-08T03:58:25.096+00:00</dateUpdated>
@@ -44,8 +44,8 @@
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="AMT 220" fileName="AMT_220.xml" roadNumber="220" roadName="Amtrak" mfg="Rapido" owner="254 Aaron Gold" model="EMD F40PH" dccAddress="220" comment="Test comment" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
-      <dateUpdated>2026-02-12T19:46:01.825+00:00</dateUpdated>
+    <locomotive id="AMT 220" fileName="AMT_220.xml" roadNumber="220" roadName="Amtrak" mfg="Rapido" owner="254 Aaron Gold" model="EMD F40PH" dccAddress="220" comment="Test comment2" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+      <dateUpdated>2026-02-12T20:33:42.547+00:00</dateUpdated>
       <decoder model="LokSound Select" family="ESU LokSound Select" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="220" longaddress="yes" />
@@ -61,6 +61,24 @@
         <soundlabel num="26">Automatic brake sound</soundlabel>
         <soundlabel num="27">Gear shift sound</soundlabel>
       </soundlabels>
+      <attributepairs>
+        <keyvaluepair>
+          <key>physicsMaxSpeedUnit</key>
+          <value>KMH</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>physicsPowerUnit</key>
+          <value>KW</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>physicsTractiveEffortUnit</key>
+          <value>KN</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>physicsWeightUnit</key>
+          <value>T</value>
+        </keyvaluepair>
+      </attributepairs>
     </locomotive>
     <locomotive id="AMT 278" fileName="AMT_278.xml" roadNumber="278" roadName="Amtrak" mfg="Life-Like" owner="254 Aaron Gold" model="E8" dccAddress="278" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
       <dateUpdated>2018-09-08T17:48:32.000+00:00</dateUpdated>
