@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
-<locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <!--Written by JMRI version 5.6+R89a87446cb on Sat Jan 06 12:09:36 PST 2024-->
-  <locomotive id="AMT 220" fileName="AMT_220.xml" roadNumber="220" roadName="Amtrak" mfg="Rapido" owner="254 Aaron Gold" model="EMD F40PH" dccAddress="220" comment="" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2024-01-06T20:09:36.520+00:00</dateUpdated>
+<locomotive-config>
+  <locomotive id="AMT 220" fileName="AMT_220.xml" roadNumber="220" roadName="Amtrak" mfg="Rapido" owner="254 Aaron Gold" model="EMD F40PH" dccAddress="220" comment="AAA BBB AAA BBB BBB GFGFF HHH GHHGGH HGHFGH HGHGHSR HFGHGRHS HGRHSGRH HGHSG" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+    <dateUpdated>2026-02-12T07:26:17.220+00:00</dateUpdated>
     <decoder model="LokSound Select" family="ESU LokSound Select" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="220" longaddress="yes" />
@@ -11,8 +11,8 @@
       <protocol>dcc_long</protocol>
     </locoaddress>
     <functionlabels>
-      <functionlabel num="0" lockable="true" functionImage="" functionImageSelected="">Light</functionlabel>
-      <functionlabel num="2" lockable="false" functionImage="" functionImageSelected="">Horn</functionlabel>
+      <functionlabel num="0" lockable="true" visible="true" functionImage="" functionImageSelected="">Light</functionlabel>
+      <functionlabel num="2" lockable="false" visible="true" functionImage="" functionImageSelected="">Horn</functionlabel>
     </functionlabels>
     <soundlabels>
       <soundlabel num="25">Random sounds</soundlabel>
