@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
-<locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <locomotive id="ATSF 5142_2" fileName="ATSF_5142_2.xml" roadNumber="5147" roadName="ATSF" mfg="Scale Trains" owner="273 Jack Howland" model="SD40-2" dccAddress="5142" comment="2.25 oz 2%" developerID="-1" manufacturerID="151" productID="33554588" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-    <dateUpdated>2026-02-11T15:00:27.308+00:00</dateUpdated>
+<!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
+<locomotive-config>
+  <locomotive id="ATSF 5142_2" fileName="ATSF_5142_2.xml" roadNumber="5147" roadName="ATSF" mfg="Scale Trains" owner="273 Jack Howland" model="SD40-2" dccAddress="5142" comment="" developerID="-1" manufacturerID="151" productID="33554588" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+    <dateUpdated>2026-02-12T06:38:30.456+00:00</dateUpdated>
     <decoder model="LokSound 5 DCC" family="ESU LokSound 5" comment="" maxFnNum="31" />
     <locoaddress>
       <dcclocoaddress number="5142" longaddress="yes" />
@@ -18,6 +19,12 @@
       <soundlabel num="33">Automatic brake sound</soundlabel>
       <soundlabel num="34">Gear shift sound</soundlabel>
     </soundlabels>
+    <attributepairs>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>2.25 oz 2%</value>
+      </keyvaluepair>
+    </attributepairs>
     <values>
       <decoderDef>
         <varValue item="Vstart" value="3" />

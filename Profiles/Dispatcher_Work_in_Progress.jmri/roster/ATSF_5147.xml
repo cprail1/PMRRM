@@ -2,8 +2,8 @@
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="ATSF 5147" fileName="ATSF_5147.xml" roadNumber="5147" roadName="ATSF" mfg="Scale Trains" owner="273 Jack Howland" model="SD40-2" dccAddress="5147" comment="2.25 oz 2%" developerID="-1" manufacturerID="151" productID="33554582" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-    <dateUpdated>2025-02-05T03:00:12.537+00:00</dateUpdated>
+  <locomotive id="ATSF 5147" fileName="ATSF_5147.xml" roadNumber="5147" roadName="ATSF" mfg="Scale Trains" owner="273 Jack Howland" model="SD40-2" dccAddress="5147" comment="" developerID="-1" manufacturerID="151" productID="33554582" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+    <dateUpdated>2026-02-12T06:38:27.459+00:00</dateUpdated>
     <decoder model="LokSound 5" family="ESU LokSound 5" comment="" maxFnNum="31" />
     <locoaddress>
       <dcclocoaddress number="5147" longaddress="yes" />
@@ -19,6 +19,12 @@
       <soundlabel num="33">Automatic brake sound</soundlabel>
       <soundlabel num="34">Gear shift sound</soundlabel>
     </soundlabels>
+    <attributepairs>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>2.25 oz 2%</value>
+      </keyvaluepair>
+    </attributepairs>
     <values>
       <decoderDef>
         <varValue item="Vstart" value="3" />

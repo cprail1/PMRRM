@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <!--Written by JMRI version 4.22+R4c4384d74 on Sat Jul 17 16:09:55 PDT 2021-->
-  <locomotive id="BN 578" fileName="BN_578.xml" roadNumber="578" roadName="Burlington Northern" mfg="Athearn " owner="94 Bob Cooper" model="SW1000" dccAddress="578" comment="25 level, 6 2%" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2019-09-14T20:37:03.377+0000</dateUpdated>
+  <locomotive id="BN 578" fileName="BN_578.xml" roadNumber="578" roadName="Burlington Northern" mfg="Athearn " owner="94 Bob Cooper" model="SW1000" dccAddress="578" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+    <dateUpdated>2026-02-12T06:35:03.574+00:00</dateUpdated>
     <decoder model="DH126D" family="Economy Series 6 with FX3, silent" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="578" longaddress="yes" />
@@ -12,6 +12,12 @@
     </locoaddress>
     <functionlabels />
     <soundlabels />
+    <attributepairs>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>25 level, 6 2%</value>
+      </keyvaluepair>
+    </attributepairs>
     <values>
       <decoderDef>
         <varValue item="Primary Address" value="66" />
