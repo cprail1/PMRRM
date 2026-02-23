@@ -103,8 +103,8 @@ class MenuItemDisable(jmri.jmrit.automat.AbstractAutomaton) :
         if loconetMenu is not None: # skip if run on some other connection
            
             # Find items within that menu and disable it
-            #monitorSlots = findItem(loconetMenu, "Monitor Slots")
-            #monitorSlots.disable()
+            monitorSlots = findItem(loconetMenu, "Monitor Slots")
+            monitorSlots.disable()
             
             configure = findItem(loconetMenu, "Configure BDL16/BDL162/BDL168")
             configure.disable()
