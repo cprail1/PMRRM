@@ -6808,7 +6808,7 @@
       <systemName>IM71</systemName>
       <userName>Sierra siding west</userName>
     </memory>
-    <memory value="Tue Feb 24 16:25:24 EST 2026">
+    <memory value="Tue Feb 24 21:43:20 EST 2026">
       <systemName>IM$LastWrite</systemName>
     </memory>
     <memory>
@@ -8602,6 +8602,192 @@
       </disabledAspects>
     </olcbsignalmast>
     <olcbsignalmast class="jmri.jmrix.openlcb.configurexml.OlcbSignalMastXml">
+      <systemName>MF$olm:basic-enhanced:one-searchlight-low($0042)</systemName>
+      <userName>GaryE-E-M</userName>
+      <comment>Irvine</comment>
+      <lit>
+        <lit>00.00.00.00.00.00.00.00</lit>
+        <notlit>00.00.00.00.00.00.00.00</notlit>
+      </lit>
+      <held>
+        <held>00.00.00.00.00.00.00.00</held>
+        <notheld>00.00.00.00.00.00.00.00</notheld>
+      </held>
+      <aspect defines="Clear">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <aspect defines="Approach">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <aspect defines="Advanced Approach">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <aspect defines="Stop">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <aspect defines="Unlit">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <disabledAspects>
+        <disabledAspect>Advanced Approach</disabledAspect>
+      </disabledAspects>
+    </olcbsignalmast>
+    <olcbsignalmast class="jmri.jmrix.openlcb.configurexml.OlcbSignalMastXml">
+      <systemName>MF$olm:basic-enhanced:one-searchlight-low($0043)</systemName>
+      <userName>GaryE-E-S</userName>
+      <comment>Irvine</comment>
+      <lit>
+        <lit>00.00.00.00.00.00.00.00</lit>
+        <notlit>00.00.00.00.00.00.00.00</notlit>
+      </lit>
+      <held>
+        <held>00.00.00.00.00.00.00.00</held>
+        <notheld>00.00.00.00.00.00.00.00</notheld>
+      </held>
+      <aspect defines="Clear">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <aspect defines="Approach">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <aspect defines="Advanced Approach">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <aspect defines="Stop">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <aspect defines="Unlit">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <disabledAspects>
+        <disabledAspect>Advanced Approach</disabledAspect>
+      </disabledAspects>
+    </olcbsignalmast>
+    <olcbsignalmast class="jmri.jmrix.openlcb.configurexml.OlcbSignalMastXml">
+      <systemName>MF$olm:basic-enhanced:one-searchlight-low($0050)</systemName>
+      <userName>Lake-E-M</userName>
+      <comment>Irvine</comment>
+      <lit>
+        <lit>00.00.00.00.00.00.00.00</lit>
+        <notlit>00.00.00.00.00.00.00.00</notlit>
+      </lit>
+      <held>
+        <held>00.00.00.00.00.00.00.00</held>
+        <notheld>00.00.00.00.00.00.00.00</notheld>
+      </held>
+      <aspect defines="Clear">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <aspect defines="Approach">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <aspect defines="Advanced Approach">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <aspect defines="Stop">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <aspect defines="Unlit">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <disabledAspects>
+        <disabledAspect>Advanced Approach</disabledAspect>
+      </disabledAspects>
+    </olcbsignalmast>
+    <olcbsignalmast class="jmri.jmrix.openlcb.configurexml.OlcbSignalMastXml">
+      <systemName>MF$olm:basic-enhanced:one-searchlight-low($0051)</systemName>
+      <userName>Lake-E-S</userName>
+      <comment>Irvine</comment>
+      <lit>
+        <lit>00.00.00.00.00.00.00.00</lit>
+        <notlit>00.00.00.00.00.00.00.00</notlit>
+      </lit>
+      <held>
+        <held>00.00.00.00.00.00.00.00</held>
+        <notheld>00.00.00.00.00.00.00.00</notheld>
+      </held>
+      <aspect defines="Clear">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <aspect defines="Approach">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <aspect defines="Advanced Approach">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <aspect defines="Stop">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <aspect defines="Unlit">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <disabledAspects>
+        <disabledAspect>Advanced Approach</disabledAspect>
+      </disabledAspects>
+    </olcbsignalmast>
+    <olcbsignalmast class="jmri.jmrix.openlcb.configurexml.OlcbSignalMastXml">
+      <systemName>MF$olm:basic-enhanced:one-searchlight-low($0052)</systemName>
+      <userName>Irvine-E-M</userName>
+      <comment>Irvine</comment>
+      <lit>
+        <lit>00.00.00.00.00.00.00.00</lit>
+        <notlit>00.00.00.00.00.00.00.00</notlit>
+      </lit>
+      <held>
+        <held>00.00.00.00.00.00.00.00</held>
+        <notheld>00.00.00.00.00.00.00.00</notheld>
+      </held>
+      <aspect defines="Clear">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <aspect defines="Approach">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <aspect defines="Advanced Approach">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <aspect defines="Stop">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <aspect defines="Unlit">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <disabledAspects>
+        <disabledAspect>Advanced Approach</disabledAspect>
+      </disabledAspects>
+    </olcbsignalmast>
+    <olcbsignalmast class="jmri.jmrix.openlcb.configurexml.OlcbSignalMastXml">
+      <systemName>MF$olm:basic-enhanced:one-searchlight-low($0053)</systemName>
+      <userName>Irvine-W-M</userName>
+      <comment>Irvine</comment>
+      <lit>
+        <lit>00.00.00.00.00.00.00.00</lit>
+        <notlit>00.00.00.00.00.00.00.00</notlit>
+      </lit>
+      <held>
+        <held>00.00.00.00.00.00.00.00</held>
+        <notheld>00.00.00.00.00.00.00.00</notheld>
+      </held>
+      <aspect defines="Clear">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <aspect defines="Approach">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <aspect defines="Advanced Approach">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <aspect defines="Stop">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <aspect defines="Unlit">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <disabledAspects>
+        <disabledAspect>Advanced Approach</disabledAspect>
+      </disabledAspects>
+    </olcbsignalmast>
+    <olcbsignalmast class="jmri.jmrix.openlcb.configurexml.OlcbSignalMastXml">
       <systemName>MF$olm:basic-enhanced:three-searchlight-high($0007)</systemName>
       <userName>FoxW-E-M</userName>
       <comment>Osage Pod</comment>
@@ -9051,6 +9237,416 @@
       <held>
         <held>0A.00.00.00.00.00.00.02</held>
         <notheld>0A.00.00.00.00.00.00.03</notheld>
+      </held>
+      <aspect defines="Clear">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <aspect defines="Approach">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <aspect defines="Advanced Approach">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <aspect defines="Stop">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <aspect defines="Diverging Clear">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <aspect defines="Diverging Approach">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <aspect defines="Diverging Advanced Approach">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <aspect defines="Unlit">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <disabledAspects>
+        <disabledAspect>Advanced Approach</disabledAspect>
+        <disabledAspect>Diverging Advanced Approach</disabledAspect>
+      </disabledAspects>
+    </olcbsignalmast>
+    <olcbsignalmast class="jmri.jmrix.openlcb.configurexml.OlcbSignalMastXml">
+      <systemName>MF$olm:basic-enhanced:two-searchlight-low($0044)</systemName>
+      <userName>GaryE-W-M</userName>
+      <comment>Irvine</comment>
+      <lit>
+        <lit>00.00.00.00.00.00.00.00</lit>
+        <notlit>00.00.00.00.00.00.00.00</notlit>
+      </lit>
+      <held>
+        <held>00.00.00.00.00.00.00.00</held>
+        <notheld>00.00.00.00.00.00.00.00</notheld>
+      </held>
+      <aspect defines="Clear">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <aspect defines="Approach">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <aspect defines="Advanced Approach">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <aspect defines="Stop">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <aspect defines="Diverging Clear">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <aspect defines="Diverging Approach">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <aspect defines="Diverging Advanced Approach">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <aspect defines="Unlit">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <disabledAspects>
+        <disabledAspect>Advanced Approach</disabledAspect>
+        <disabledAspect>Diverging Advanced Approach</disabledAspect>
+      </disabledAspects>
+    </olcbsignalmast>
+    <olcbsignalmast class="jmri.jmrix.openlcb.configurexml.OlcbSignalMastXml">
+      <systemName>MF$olm:basic-enhanced:two-searchlight-low($0045)</systemName>
+      <userName>ColtonW-E-1</userName>
+      <comment>Irvine</comment>
+      <lit>
+        <lit>00.00.00.00.00.00.00.00</lit>
+        <notlit>00.00.00.00.00.00.00.00</notlit>
+      </lit>
+      <held>
+        <held>00.00.00.00.00.00.00.00</held>
+        <notheld>00.00.00.00.00.00.00.00</notheld>
+      </held>
+      <aspect defines="Clear">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <aspect defines="Approach">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <aspect defines="Advanced Approach">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <aspect defines="Stop">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <aspect defines="Diverging Clear">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <aspect defines="Diverging Approach">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <aspect defines="Diverging Advanced Approach">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <aspect defines="Unlit">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <disabledAspects>
+        <disabledAspect>Advanced Approach</disabledAspect>
+        <disabledAspect>Diverging Advanced Approach</disabledAspect>
+      </disabledAspects>
+    </olcbsignalmast>
+    <olcbsignalmast class="jmri.jmrix.openlcb.configurexml.OlcbSignalMastXml">
+      <systemName>MF$olm:basic-enhanced:two-searchlight-low($0046)</systemName>
+      <userName>ColtonW-E-2</userName>
+      <comment>Irvine</comment>
+      <lit>
+        <lit>00.00.00.00.00.00.00.00</lit>
+        <notlit>00.00.00.00.00.00.00.00</notlit>
+      </lit>
+      <held>
+        <held>00.00.00.00.00.00.00.00</held>
+        <notheld>00.00.00.00.00.00.00.00</notheld>
+      </held>
+      <aspect defines="Clear">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <aspect defines="Approach">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <aspect defines="Advanced Approach">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <aspect defines="Stop">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <aspect defines="Diverging Clear">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <aspect defines="Diverging Approach">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <aspect defines="Diverging Advanced Approach">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <aspect defines="Unlit">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <disabledAspects>
+        <disabledAspect>Advanced Approach</disabledAspect>
+        <disabledAspect>Diverging Advanced Approach</disabledAspect>
+      </disabledAspects>
+    </olcbsignalmast>
+    <olcbsignalmast class="jmri.jmrix.openlcb.configurexml.OlcbSignalMastXml">
+      <systemName>MF$olm:basic-enhanced:two-searchlight-low($0047)</systemName>
+      <userName>ColtonW-E-3</userName>
+      <comment>Irvine</comment>
+      <lit>
+        <lit>00.00.00.00.00.00.00.00</lit>
+        <notlit>00.00.00.00.00.00.00.00</notlit>
+      </lit>
+      <held>
+        <held>00.00.00.00.00.00.00.00</held>
+        <notheld>00.00.00.00.00.00.00.00</notheld>
+      </held>
+      <aspect defines="Clear">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <aspect defines="Approach">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <aspect defines="Advanced Approach">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <aspect defines="Stop">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <aspect defines="Diverging Clear">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <aspect defines="Diverging Approach">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <aspect defines="Diverging Advanced Approach">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <aspect defines="Unlit">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <disabledAspects>
+        <disabledAspect>Advanced Approach</disabledAspect>
+        <disabledAspect>Diverging Advanced Approach</disabledAspect>
+      </disabledAspects>
+    </olcbsignalmast>
+    <olcbsignalmast class="jmri.jmrix.openlcb.configurexml.OlcbSignalMastXml">
+      <systemName>MF$olm:basic-enhanced:two-searchlight-low($0048)</systemName>
+      <userName>ColtonW-E-4</userName>
+      <comment>Irvine</comment>
+      <lit>
+        <lit>00.00.00.00.00.00.00.00</lit>
+        <notlit>00.00.00.00.00.00.00.00</notlit>
+      </lit>
+      <held>
+        <held>00.00.00.00.00.00.00.00</held>
+        <notheld>00.00.00.00.00.00.00.00</notheld>
+      </held>
+      <aspect defines="Clear">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <aspect defines="Approach">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <aspect defines="Advanced Approach">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <aspect defines="Stop">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <aspect defines="Diverging Clear">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <aspect defines="Diverging Approach">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <aspect defines="Diverging Advanced Approach">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <aspect defines="Unlit">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <disabledAspects>
+        <disabledAspect>Advanced Approach</disabledAspect>
+        <disabledAspect>Diverging Advanced Approach</disabledAspect>
+      </disabledAspects>
+    </olcbsignalmast>
+    <olcbsignalmast class="jmri.jmrix.openlcb.configurexml.OlcbSignalMastXml">
+      <systemName>MF$olm:basic-enhanced:two-searchlight-low($0049)</systemName>
+      <userName>Lake-W-M</userName>
+      <comment>Irvine</comment>
+      <lit>
+        <lit>00.00.00.00.00.00.00.00</lit>
+        <notlit>00.00.00.00.00.00.00.00</notlit>
+      </lit>
+      <held>
+        <held>00.00.00.00.00.00.00.00</held>
+        <notheld>00.00.00.00.00.00.00.00</notheld>
+      </held>
+      <aspect defines="Clear">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <aspect defines="Approach">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <aspect defines="Advanced Approach">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <aspect defines="Stop">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <aspect defines="Diverging Clear">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <aspect defines="Diverging Approach">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <aspect defines="Diverging Advanced Approach">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <aspect defines="Unlit">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <disabledAspects>
+        <disabledAspect>Advanced Approach</disabledAspect>
+        <disabledAspect>Diverging Advanced Approach</disabledAspect>
+      </disabledAspects>
+    </olcbsignalmast>
+    <olcbsignalmast class="jmri.jmrix.openlcb.configurexml.OlcbSignalMastXml">
+      <systemName>MF$olm:basic-enhanced:two-searchlight-low($0054)</systemName>
+      <userName>ColtonE-W-1</userName>
+      <comment>Irvine</comment>
+      <lit>
+        <lit>00.00.00.00.00.00.00.00</lit>
+        <notlit>00.00.00.00.00.00.00.00</notlit>
+      </lit>
+      <held>
+        <held>00.00.00.00.00.00.00.00</held>
+        <notheld>00.00.00.00.00.00.00.00</notheld>
+      </held>
+      <aspect defines="Clear">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <aspect defines="Approach">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <aspect defines="Advanced Approach">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <aspect defines="Stop">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <aspect defines="Diverging Clear">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <aspect defines="Diverging Approach">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <aspect defines="Diverging Advanced Approach">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <aspect defines="Unlit">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <disabledAspects>
+        <disabledAspect>Advanced Approach</disabledAspect>
+        <disabledAspect>Diverging Advanced Approach</disabledAspect>
+      </disabledAspects>
+    </olcbsignalmast>
+    <olcbsignalmast class="jmri.jmrix.openlcb.configurexml.OlcbSignalMastXml">
+      <systemName>MF$olm:basic-enhanced:two-searchlight-low($0055)</systemName>
+      <userName>ColtonE-W-2</userName>
+      <comment>Irvine</comment>
+      <lit>
+        <lit>00.00.00.00.00.00.00.00</lit>
+        <notlit>00.00.00.00.00.00.00.00</notlit>
+      </lit>
+      <held>
+        <held>00.00.00.00.00.00.00.00</held>
+        <notheld>00.00.00.00.00.00.00.00</notheld>
+      </held>
+      <aspect defines="Clear">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <aspect defines="Approach">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <aspect defines="Advanced Approach">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <aspect defines="Stop">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <aspect defines="Diverging Clear">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <aspect defines="Diverging Approach">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <aspect defines="Diverging Advanced Approach">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <aspect defines="Unlit">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <disabledAspects>
+        <disabledAspect>Advanced Approach</disabledAspect>
+        <disabledAspect>Diverging Advanced Approach</disabledAspect>
+      </disabledAspects>
+    </olcbsignalmast>
+    <olcbsignalmast class="jmri.jmrix.openlcb.configurexml.OlcbSignalMastXml">
+      <systemName>MF$olm:basic-enhanced:two-searchlight-low($0056)</systemName>
+      <userName>ColtonE-W-3</userName>
+      <comment>Irvine</comment>
+      <lit>
+        <lit>00.00.00.00.00.00.00.00</lit>
+        <notlit>00.00.00.00.00.00.00.00</notlit>
+      </lit>
+      <held>
+        <held>00.00.00.00.00.00.00.00</held>
+        <notheld>00.00.00.00.00.00.00.00</notheld>
+      </held>
+      <aspect defines="Clear">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <aspect defines="Approach">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <aspect defines="Advanced Approach">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <aspect defines="Stop">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <aspect defines="Diverging Clear">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <aspect defines="Diverging Approach">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <aspect defines="Diverging Advanced Approach">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <aspect defines="Unlit">
+        <event>00.00.00.00.00.00.00.00</event>
+      </aspect>
+      <disabledAspects>
+        <disabledAspect>Advanced Approach</disabledAspect>
+        <disabledAspect>Diverging Advanced Approach</disabledAspect>
+      </disabledAspects>
+    </olcbsignalmast>
+    <olcbsignalmast class="jmri.jmrix.openlcb.configurexml.OlcbSignalMastXml">
+      <systemName>MF$olm:basic-enhanced:two-searchlight-low($0057)</systemName>
+      <userName>ColtonE-W-4</userName>
+      <comment>Irvine</comment>
+      <lit>
+        <lit>00.00.00.00.00.00.00.00</lit>
+        <notlit>00.00.00.00.00.00.00.00</notlit>
+      </lit>
+      <held>
+        <held>00.00.00.00.00.00.00.00</held>
+        <notheld>00.00.00.00.00.00.00.00</notheld>
       </held>
       <aspect defines="Clear">
         <event>00.00.00.00.00.00.00.00</event>
@@ -19476,10 +20072,10 @@
     <positionablelabel x="1555" y="225" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Powerhouse  " fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <tooltip>Text Label</tooltip>
     </positionablelabel>
-    <positionablelabel x="1225" y="230" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Grain " fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+    <positionablelabel x="1200" y="235" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Grain " fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <tooltip>Text Label</tooltip>
     </positionablelabel>
-    <positionablelabel x="1105" y="230" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Refinery   " fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+    <positionablelabel x="1065" y="235" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Refinery   " fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <tooltip>Text Label</tooltip>
     </positionablelabel>
     <positionablelabel x="283" y="164" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Short Line " fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
@@ -19521,7 +20117,7 @@
     <memoryicon memory="Midway East passenger approach" x="1156" y="515" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" fixedHeight="16" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>Midway East passenger approach</tooltip>
     </memoryicon>
-    <memoryicon memory="Lake" x="1370" y="515" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" fixedHeight="16" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+    <memoryicon memory="Lake" x="1380" y="515" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" fixedHeight="16" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>Lake</tooltip>
     </memoryicon>
     <memoryicon memory="Kelso" x="1500" y="515" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" fixedHeight="16" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
@@ -20492,7 +21088,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-MidwayEastPsgApproach-EB" x="1304" y="530" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="91" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-MidwayEastPsgApproach-EB" x="1295" y="530" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="91" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="91" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -20736,7 +21332,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-D1-EB" x="1187" y="60" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-D1-EB" x="1215" y="60" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -20751,7 +21347,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-D2-EB" x="1187" y="100" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="89" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-D2-EB" x="1215" y="100" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="89" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="89" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -20766,7 +21362,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-D4-EB" x="1217" y="180" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-D4-EB" x="1215" y="180" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -20781,7 +21377,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-B1-WB" x="1534" y="58" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-B1-WB" x="1555" y="60" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -20796,7 +21392,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-B2-WB" x="1537" y="100" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-B2-WB" x="1555" y="100" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="270" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -20811,7 +21407,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-B3-WB" x="1537" y="140" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-B3-WB" x="1555" y="140" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="270" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -20826,7 +21422,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-B4-WB" x="1547" y="180" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-B4-WB" x="1555" y="180" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="90" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -21179,7 +21775,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-D3-EB" x="1197" y="140" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-D3-EB" x="1215" y="140" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="90" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -22140,7 +22736,7 @@
     <memoryicon memory="IMLABEL$13" x="1495" y="160" level="4" forcecontroloff="false" hidden="no" valueEditDisabled="yes" positionable="true" showtooltip="false" editable="false" fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="255" hasBackground="no" fixedHeight="12" justification="left" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif" />
     <memoryicon memory="IMLABEL$14" x="1410" y="120" level="4" forcecontroloff="false" hidden="no" valueEditDisabled="yes" positionable="true" showtooltip="false" editable="false" fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="255" hasBackground="no" fixedHeight="12" justification="left" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif" />
     <memoryicon memory="IMLABEL$15" x="1305" y="120" level="4" forcecontroloff="false" hidden="no" valueEditDisabled="yes" positionable="true" showtooltip="false" editable="false" fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="255" hasBackground="no" fixedHeight="12" justification="left" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif" />
-    <memoryicon memory="IMLABEL$16" x="1205" y="80" level="4" forcecontroloff="false" hidden="no" valueEditDisabled="yes" positionable="true" showtooltip="false" editable="false" fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="255" hasBackground="no" fixedHeight="12" justification="left" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif" />
+    <memoryicon memory="IMLABEL$16" x="1270" y="80" level="4" forcecontroloff="false" hidden="no" valueEditDisabled="yes" positionable="true" showtooltip="false" editable="false" fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="255" hasBackground="no" fixedHeight="12" justification="left" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif" />
     <memoryicon memory="IMLABEL$17" x="1270" y="160" level="4" forcecontroloff="false" hidden="no" valueEditDisabled="yes" positionable="true" showtooltip="false" editable="false" fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="255" hasBackground="no" fixedHeight="12" justification="left" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif" />
     <memoryicon memory="IMLABEL$18" x="1185" y="205" level="4" forcecontroloff="false" hidden="no" valueEditDisabled="yes" positionable="true" showtooltip="false" editable="false" fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="255" hasBackground="no" fixedHeight="12" justification="left" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif" />
     <memoryicon memory="IMLABEL$19" x="1160" y="205" level="4" forcecontroloff="false" hidden="no" valueEditDisabled="yes" positionable="true" showtooltip="false" editable="false" fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="255" hasBackground="no" fixedHeight="12" justification="left" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif" />
@@ -22264,9 +22860,22 @@
     <signalmasticon signalmast="JacksonW-W-I" x="1670" y="580" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" clickmode="0" litmode="true" scale="1.0" imageset="discriminated" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
     <signalmasticon signalmast="JacksonW-W-M" x="1610" y="515" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" clickmode="0" litmode="true" scale="1.0" imageset="discriminated" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
     <signalmasticon signalmast="JacksonW-W-S" x="1645" y="550" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" clickmode="0" litmode="true" scale="1.0" imageset="discriminated" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="Irvine-E-M" x="1890" y="545" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" clickmode="0" litmode="true" scale="1.0" imageset="discriminated" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="Irvine-W-M" x="1890" y="515" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" clickmode="0" litmode="true" scale="1.0" imageset="discriminated" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="Lake-W-M" x="1345" y="515" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" clickmode="0" litmode="true" scale="1.0" imageset="discriminated" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="JacksonW-W-S" x="1285" y="585" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" clickmode="0" litmode="true" scale="1.0" imageset="discriminated" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="JacksonW-W-M" x="1295" y="545" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" clickmode="0" litmode="true" scale="1.0" imageset="discriminated" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="ColtonW-E-1" x="1215" y="70" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" clickmode="0" litmode="true" scale="1.0" imageset="discriminated" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="ColtonW-E-2" x="1215" y="110" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" clickmode="0" litmode="true" scale="1.0" imageset="discriminated" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="ColtonW-E-3" x="1215" y="150" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" clickmode="0" litmode="true" scale="1.0" imageset="discriminated" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="ColtonW-E-4" x="1215" y="190" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" clickmode="0" litmode="true" scale="1.0" imageset="discriminated" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="ColtonE-W-1" x="1530" y="50" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" clickmode="0" litmode="true" scale="1.0" imageset="discriminated" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="ColtonE-W-2" x="1530" y="90" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" clickmode="0" litmode="true" scale="1.0" imageset="discriminated" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="ColtonE-W-3" x="1530" y="130" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" clickmode="0" litmode="true" scale="1.0" imageset="discriminated" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="ColtonE-W-4" x="1530" y="170" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" clickmode="0" litmode="true" scale="1.0" imageset="discriminated" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
     <layoutturnout ident="TO1" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="1136.0" ycen="580.0" xa="1156.0" ya="580.0" xb="1116.0" yb="580.0" xc="1121.0" yc="570.0" xd="1156.0" yd="580.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Midway E F" blockname="Midway East frt approach" connectaname="T226" connectbname="T242" connectcname="T4" />
     <layoutturnout ident="TO2" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="1111.0" ycen="560.0" xa="1106.0" ya="555.0" xb="1116.0" yb="565.0" xc="1136.0" yc="560.0" xd="1106.0" yd="555.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="LT52" connectaname="T5" connectbname="T4" connectcname="T8" />
-    <layoutturnout ident="TO3" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="1339.0" ycen="535.0" xa="1361.0" ya="535.0" xb="1317.0" yb="535.0" xc="1317.0" yc="555.0" xd="1361.0" yd="535.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Lake" blockname="Lake" connectaname="T129" connectbname="T3" connectcname="T1">
+    <layoutturnout ident="TO3" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="1339.0" ycen="535.0" xa="1358.0" ya="535.0" xb="1320.0" yb="535.0" xc="1320.0" yc="555.0" xd="1358.0" yd="535.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Lake" blockname="Lake" connectaname="T129" connectbname="T3" connectcname="T1">
       <sensorB>NX-MidwayEastPsgApproach-EB</sensorB>
       <sensorC>NX-MidwayEastFrtApproach-EB</sensorC>
     </layoutturnout>
@@ -22352,25 +22961,25 @@
     </layoutturnout>
     <layoutturnout ident="TO42" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="1972.0" ycen="892.0" xa="1982.0" ya="892.0" xb="1962.0" yb="892.0" xc="1952.0" yc="912.0" xd="1982.0" yd="892.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="McSweeney branch" blockname="Osage-Powderhorn" connectaname="T143" connectbname="T142" connectcname="T164" />
     <layoutturnout ident="TO43" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="1820.0" ycen="894.0" xa="1826.0" ya="894.0" xb="1814.0" yb="894.0" xc="1815.0" yc="904.0" xd="1826.0" yd="894.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Powderhorn pocket" blockname="Osage-Powderhorn" connectaname="T157" connectbname="T7" connectcname="T168" />
-    <layoutturnout ident="TO50" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="1570.0" ycen="65.0" xa="1580.0" ya="65.0" xb="1560.0" yb="65.0" xc="1538.0" yc="37.0" xd="1580.0" yd="65.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="LT10" blockname="Bend 1" connectaname="T91" connectbname="T73" connectcname="T181" />
+    <layoutturnout ident="TO50" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="1595.0" ycen="65.0" xa="1605.0" ya="65.0" xb="1585.0" yb="65.0" xc="1565.0" yc="35.0" xd="1605.0" yd="65.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="LT10" blockname="Bend 1" connectaname="T91" connectbname="T73" connectcname="T181" />
     <layoutturnout ident="TO51" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="1617.0" ycen="185.0" xa="1637.0" ya="185.0" xb="1597.0" yb="185.0" xc="1602.0" yc="220.0" xd="1637.0" yd="185.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="LT11" blockname="Bend 4" connectaname="T94" connectbname="T74" connectcname="T182" />
-    <layoutturnout ident="TO52" type="LH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="1498.0" ycen="85.0" xa="1488.0440673828125" ya="65.42943572998047" xb="1527.0001121096698" yb="65.00000010980207" xc="1507.9559326171875" yc="104.57056427001953" xd="1468.9998878903302" yd="104.99999989019793" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHXOverXml" turnoutname="Colton E 1 to 2" blockname="Colton CP1-R" blockcname="Colton CP2" blockdname="Colton CP2" connectaname="T138" connectbname="T73" connectcname="T92" connectdname="T39">
+    <layoutturnout ident="TO52" type="LH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="1498.0" ycen="85.0" xa="1486.7381041926524" ya="65.44204623650901" xb="1531.0" yb="65.0" xc="1509.2618958073476" yc="104.55795376349099" xd="1465.0" yd="105.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHXOverXml" turnoutname="Colton E 1 to 2" blockname="Colton CP1-R" blockcname="Colton CP2" blockdname="Colton CP2" connectaname="T138" connectbname="T73" connectcname="T92" connectdname="T39">
       <sensorB>NX-B1-WB</sensorB>
       <sensorC>NX-B2-WB</sensorC>
     </layoutturnout>
-    <layoutturnout ident="TO53" type="RH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="1517.0" ycen="165.0" xa="1497.0" ya="145.0" xb="1523.66666" yb="145.0" xc="1537.0" yc="185.0" xd="1510.33334" yd="185.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHXOverXml" turnoutname="Colton E 4 to 3" blockname="Colton CP3-R" blockcname="Colton CP4" blockdname="Colton CP4" connectaname="T56" connectbname="T93" connectcname="T74" connectdname="T97">
+    <layoutturnout ident="TO53" type="RH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="1517.0" ycen="165.0" xa="1485.0" ya="145.0" xb="1527.666656" yb="145.0" xc="1549.0" yc="185.0" xd="1506.333344" yd="185.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHXOverXml" turnoutname="Colton E 4 to 3" blockname="Colton CP3-R" blockcname="Colton CP4" blockdname="Colton CP4" connectaname="T56" connectbname="T93" connectcname="T74" connectdname="T97">
       <sensorB>NX-B3-WB</sensorB>
       <sensorC>NX-B4-WB</sensorC>
     </layoutturnout>
     <layoutturnout ident="TO54" type="LH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="1396.0" ycen="125.0" xa="1384.0" ya="105.0" xb="1432.0" yb="105.0" xc="1408.0" yc="145.0" xd="1360.0" yd="145.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHXOverXml" turnoutname="Colton E 2 to 3" blockname="Colton CP2" blockcname="Colton CP3-R" blockdname="Colton CP3-R" connectaname="T96" connectbname="T39" connectcname="T56" connectdname="T36" />
     <layoutturnout ident="TO55" type="RH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="1325.0" ycen="125.0" xa="1301.0" ya="105.0" xb="1332.999992" yb="105.0" xc="1349.0" yc="145.0" xd="1317.000008" yd="145.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHXOverXml" turnoutname="Colton W 3 to 2" blockname="Colton CP2" blockcname="Colton CP3-L" blockdname="Colton CP3-L" connectaname="T81" connectbname="T96" connectcname="T36" connectdname="T35" />
-    <layoutturnout ident="TO57" type="LH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="1257.0" ycen="165.0" xa="1242.0" ya="145.0" xb="1302.0" yb="145.0" xc="1272.0" yc="185.0" xd="1212.0" yd="185.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHXOverXml" turnoutname="Colton W 3 to 4" blockname="Colton CP3-L" blockcname="Colton CP4" blockdname="Colton CP4" connectaname="T100" connectbname="T35" connectcname="T97" connectdname="T75">
+    <layoutturnout ident="TO57" type="LH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="1257.0" ycen="165.0" xa="1241.333349" ya="145.0" xb="1304.0" yb="145.0" xc="1272.666651" yc="185.0" xd="1210.0" yd="185.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHXOverXml" turnoutname="Colton W 3 to 4" blockname="Colton CP3-L" blockcname="Colton CP4" blockdname="Colton CP4" connectaname="T100" connectbname="T35" connectcname="T97" connectdname="T75">
       <sensorA>NX-D3-EB</sensorA>
       <sensorD>NX-D4-EB</sensorD>
     </layoutturnout>
-    <layoutturnout ident="TO59" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="1156.0" ycen="65.0" xa="1141.0" ya="65.0" xb="1171.0" yb="65.0" xc="1187.0" yc="35.0" xd="1141.0" yd="65.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Colton Ind W" blockname="Delta 1" connectaname="T98" connectbname="T82" connectcname="T185" />
-    <layoutturnout ident="TO60" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="1159.0" ycen="185.0" xa="1175.0" ya="185.0" xb="1143.0" yb="185.0" xc="1142.0" yc="225.0" xd="1175.0" yd="185.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="LT19" blockname="Delta 4" connectaname="T29" connectbname="T101" connectcname="T183" />
-    <layoutturnout ident="TO61" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="1191.0" ycen="185.0" xa="1171.0" ya="185.0" xb="1211.0" yb="185.0" xc="1212.0" yc="225.0" xd="1171.0" yd="185.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="LT18" blockname="Delta 4" connectaname="T29" connectbname="T75" connectcname="T184" />
+    <layoutturnout ident="TO59" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="1120.0" ycen="65.0" xa="1095.0" ya="65.0" xb="1145.0" yb="65.0" xc="1151.0" yc="35.0" xd="1095.0" yd="65.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Colton Ind W" blockname="Delta 1" connectaname="T98" connectbname="T82" connectcname="T185" />
+    <layoutturnout ident="TO60" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="1130.0" ycen="185.0" xa="1146.0" ya="185.0" xb="1114.0" yb="185.0" xc="1105.0" yc="225.0" xd="1146.0" yd="185.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="LT19" blockname="Delta 4" connectaname="T29" connectbname="T101" connectcname="T183" />
+    <layoutturnout ident="TO61" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="1170.0" ycen="185.0" xa="1150.0" ya="185.0" xb="1190.0" yb="185.0" xc="1191.0" yc="225.0" xd="1150.0" yd="185.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="LT18" blockname="Delta 4" connectaname="T29" connectbname="T75" connectcname="T184" />
     <layoutturnout ident="TO62" type="LH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="792.0" ycen="85.0" xa="778.0" ya="65.0" xb="834.0" yb="65.0" xc="806.0" yc="105.0" xd="750.0" yd="105.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHXOverXml" turnoutname="Delta 1 to 2" blockname="CP DR1" blockcname="CP D2" blockdname="CP D2" connectaname="T137" connectbname="T98" connectcname="T99" connectdname="T77">
       <sensorB>NX-D1-WB</sensorB>
       <sensorC>NX-D2-WB</sensorC>
@@ -22394,7 +23003,7 @@
       <sensorC>NX-E3-WB</sensorC>
     </layoutturnout>
     <layoutturnout ident="TO70" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="210.0" ycen="145.0" xa="200.0" ya="145.0" xb="220.0" yb="145.0" xc="245.0" yc="185.0" xd="200.0" yd="145.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Echo Street" blockname="Echo 3" connectaname="T110" connectbname="T105" connectcname="T107" />
-    <layoutturnout ident="TO71" type="RH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="1231.0" ycen="85.0" xa="1187.0" ya="65.0" xb="1245.7508411956915" yb="65.18679042403417" xc="1275.0" yc="105.0" xd="1216.2491588043085" yd="104.81320957596583" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHXOverXml" turnoutname="Colton W 2 to 1" blockname="Colton CP1-L" blockcname="Colton CP2" blockdname="Colton CP2" connectaname="T82" connectbname="T95" connectcname="T81" connectdname="T99">
+    <layoutturnout ident="TO71" type="RH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="1255.0" ycen="85.0" xa="1219.0" ya="65.0" xb="1267.246449517343" yb="65.45362520002733" xc="1291.0" yc="105.0" xd="1242.753550482657" yd="104.54637479997267" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHXOverXml" turnoutname="Colton W 2 to 1" blockname="Colton CP1-L" blockcname="Colton CP2" blockdname="Colton CP2" connectaname="T82" connectbname="T95" connectcname="T81" connectdname="T99">
       <sensorA>NX-D1-EB</sensorA>
       <sensorD>NX-D2-EB</sensorD>
     </layoutturnout>
@@ -22873,11 +23482,11 @@
     <positionablepoint ident="A10" type="ANCHOR" x="1745.0" y="924.0" connect1name="T169" connect2name="T168" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A21" type="ANCHOR" x="1700.0" y="924.0" connect1name="T167" connect2name="T169" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="EB25" type="END_BUMPER" x="1790.0" y="879.0" connect1name="T48" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="EB28" type="END_BUMPER" x="1482.0" y="35.0" connect1name="T181" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB28" type="END_BUMPER" x="1500.0" y="35.0" connect1name="T181" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="EB29" type="END_BUMPER" x="1557.0" y="220.0" connect1name="T182" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="EB8" type="END_BUMPER" x="1107.0" y="225.0" connect1name="T183" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="EB30" type="END_BUMPER" x="1267.0" y="225.0" connect1name="T184" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="EB31" type="END_BUMPER" x="1212.0" y="35.0" connect1name="T185" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB8" type="END_BUMPER" x="1070.0" y="225.0" connect1name="T183" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB30" type="END_BUMPER" x="1235.0" y="225.0" connect1name="T184" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB31" type="END_BUMPER" x="1195.0" y="35.0" connect1name="T185" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="EB27" type="END_BUMPER" x="400.0" y="1170.0" connect1name="T193" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="EB7" type="END_BUMPER" x="398.0" y="1130.0" connect1name="T192" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="EB39" type="END_BUMPER" x="400.0" y="1210.0" connect1name="T225" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
@@ -22939,17 +23548,17 @@
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Tue Feb 24 21:21:18 EST 2026</date>
+      <date>Wed Feb 25 08:21:45 EST 2026</date>
       <filename>PanelPro (v5.15.4)</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Tue Feb 24 21:21:25 EST 2026</date>
+      <date>Wed Feb 25 08:21:52 EST 2026</date>
       <filename>/Users/jake/Library/Mobile Documents/com~apple~CloudDocs/Trains/PMRRM/git_repos/PMRRM/Profiles/Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Tue Feb 24 21:43:20 EST 2026</date>
+      <date>Wed Feb 25 08:56:47 EST 2026</date>
       <filename>/Users/jake/Library/Mobile Documents/com~apple~CloudDocs/Trains/PMRRM/git_repos/PMRRM/Profiles/Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
     </operation>
   </filehistory>
