@@ -16,4 +16,6 @@ layoutPanels = panelMenu.getList(jmri.jmrit.display.layoutEditor.LayoutEditor)
 for layoutEditor in layoutPanels :
     for signalMastIcon in layoutEditor.getSignalMastList() :
         signalMastIcon.getSignalMast().setLit(True)
+        signalMastIcon.getSignalMast().setAspect("Clear")
+        signalMastIcon.getSignalMast().setHeld(False)
     layoutEditor.repaint()
