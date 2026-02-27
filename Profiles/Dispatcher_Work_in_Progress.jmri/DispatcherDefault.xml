@@ -4,7 +4,7 @@
   <jmriversion>
     <major>5</major>
     <minor>15</minor>
-    <test>4</test>
+    <test>3</test>
     <modifier>plus</modifier>
   </jmriversion>
   <sensors class="jmri.jmrix.loconet.configurexml.LnSensorManagerXml">
@@ -2597,6 +2597,67 @@
       <useGlobalDebounceTimer>yes</useGlobalDebounceTimer>
     </sensor>
   </sensors>
+  <turnouts class="jmri.jmrix.internal.configurexml.InternalTurnoutManagerXml">
+    <operations automate="false">
+      <operation name="NoFeedback" class="jmri.configurexml.turnoutoperations.NoFeedbackTurnoutOperationXml" interval="300" maxtries="2" />
+      <operation name="Raw" class="jmri.configurexml.turnoutoperations.RawTurnoutOperationXml" interval="300" maxtries="1" />
+      <operation name="Sensor" class="jmri.configurexml.turnoutoperations.SensorTurnoutOperationXml" interval="300" maxtries="3" />
+    </operations>
+    <defaultclosedspeed>Normal</defaultclosedspeed>
+    <defaultthrownspeed>Restricted</defaultthrownspeed>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT1</systemName>
+      <userName>Mainline Init unused ?</userName>
+      <comment>Initializes main line turnouts to safe position</comment>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT2</systemName>
+      <userName>Bend East A to B LT2 partner</userName>
+      <comment>Partner turnout to LT2 in Bend East A to B</comment>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT3</systemName>
+      <userName>Bend East B C Straight LT3 crossover partner</userName>
+      <comment>Partner turnout to LT3 in Bend East B C straight cross over</comment>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT4</systemName>
+      <userName>Bend East 4 to 3 partner</userName>
+      <comment>Xover partner turnout</comment>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT16</systemName>
+      <userName>APW Xover W partner</userName>
+      <comment>Xover partner turnout</comment>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT18</systemName>
+      <userName>APW Xover E partner</userName>
+      <comment>Xover partner turnout</comment>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT58</systemName>
+      <userName>Midway LT58 temp partner to be checked</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT86</systemName>
+      <userName>Vista E 2 MainE -VistaYard E partner</userName>
+      <comment>VistaM to yard at east end</comment>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT93</systemName>
+      <userName>Vista W 2 MainW -VistaYard W partner</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT104</systemName>
+      <userName>Yazoo Lower XOver</userName>
+      <comment>Stand-in until LT is identified</comment>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT272</systemName>
+      <userName>Sierra camp spur (Bob G guess )</userName>
+    </turnout>
+  </turnouts>
   <turnouts class="jmri.jmrix.loconet.configurexml.LnTurnoutManagerXml">
     <operations automate="false">
       <operation name="NoFeedback" class="jmri.configurexml.turnoutoperations.NoFeedbackTurnoutOperationXml" interval="300" maxtries="2" />
@@ -6473,67 +6534,6 @@
       </properties>
     </turnout>
   </turnouts>
-  <turnouts class="jmri.jmrix.internal.configurexml.InternalTurnoutManagerXml">
-    <operations automate="false">
-      <operation name="NoFeedback" class="jmri.configurexml.turnoutoperations.NoFeedbackTurnoutOperationXml" interval="300" maxtries="2" />
-      <operation name="Raw" class="jmri.configurexml.turnoutoperations.RawTurnoutOperationXml" interval="300" maxtries="1" />
-      <operation name="Sensor" class="jmri.configurexml.turnoutoperations.SensorTurnoutOperationXml" interval="300" maxtries="3" />
-    </operations>
-    <defaultclosedspeed>Normal</defaultclosedspeed>
-    <defaultthrownspeed>Restricted</defaultthrownspeed>
-    <turnout feedback="DIRECT" inverted="false" automate="Off">
-      <systemName>IT1</systemName>
-      <userName>Mainline Init unused ?</userName>
-      <comment>Initializes main line turnouts to safe position</comment>
-    </turnout>
-    <turnout feedback="DIRECT" inverted="false" automate="Off">
-      <systemName>IT2</systemName>
-      <userName>Bend East A to B LT2 partner</userName>
-      <comment>Partner turnout to LT2 in Bend East A to B</comment>
-    </turnout>
-    <turnout feedback="DIRECT" inverted="false" automate="Off">
-      <systemName>IT3</systemName>
-      <userName>Bend East B C Straight LT3 crossover partner</userName>
-      <comment>Partner turnout to LT3 in Bend East B C straight cross over</comment>
-    </turnout>
-    <turnout feedback="DIRECT" inverted="false" automate="Off">
-      <systemName>IT4</systemName>
-      <userName>Bend East 4 to 3 partner</userName>
-      <comment>Xover partner turnout</comment>
-    </turnout>
-    <turnout feedback="DIRECT" inverted="false" automate="Off">
-      <systemName>IT16</systemName>
-      <userName>APW Xover W partner</userName>
-      <comment>Xover partner turnout</comment>
-    </turnout>
-    <turnout feedback="DIRECT" inverted="false" automate="Off">
-      <systemName>IT18</systemName>
-      <userName>APW Xover E partner</userName>
-      <comment>Xover partner turnout</comment>
-    </turnout>
-    <turnout feedback="DIRECT" inverted="false" automate="Off">
-      <systemName>IT58</systemName>
-      <userName>Midway LT58 temp partner to be checked</userName>
-    </turnout>
-    <turnout feedback="DIRECT" inverted="false" automate="Off">
-      <systemName>IT86</systemName>
-      <userName>Vista E 2 MainE -VistaYard E partner</userName>
-      <comment>VistaM to yard at east end</comment>
-    </turnout>
-    <turnout feedback="DIRECT" inverted="false" automate="Off">
-      <systemName>IT93</systemName>
-      <userName>Vista W 2 MainW -VistaYard W partner</userName>
-    </turnout>
-    <turnout feedback="DIRECT" inverted="false" automate="Off">
-      <systemName>IT104</systemName>
-      <userName>Yazoo Lower XOver</userName>
-      <comment>Stand-in until LT is identified</comment>
-    </turnout>
-    <turnout feedback="DIRECT" inverted="false" automate="Off">
-      <systemName>IT272</systemName>
-      <userName>Sierra camp spur (Bob G guess )</userName>
-    </turnout>
-  </turnouts>
   <memories class="jmri.managers.configurexml.DefaultMemoryManagerXml">
     <memory>
       <systemName>IM1</systemName>
@@ -6592,7 +6592,7 @@
       <systemName>IM14</systemName>
       <userName>Powderhorn siding</userName>
     </memory>
-    <memory>
+    <memory value="">
       <systemName>IM15</systemName>
       <userName>Redcliff - Powderhorn</userName>
     </memory>
@@ -6808,289 +6808,293 @@
       <systemName>IM71</systemName>
       <userName>Sierra siding west</userName>
     </memory>
+<<<<<<< Updated upstream
     <memory value="Wed Feb 25 18:32:15 EST 2026">
+=======
+    <memory value="Tue Feb 24 12:42:40 EST 2026">
+>>>>>>> Stashed changes
       <systemName>IM$LastWrite</systemName>
     </memory>
     <memory>
       <systemName>IMCURRENTTIME</systemName>
     </memory>
-    <memory value="">
+    <memory value="2">
       <systemName>IMLABEL$2</systemName>
     </memory>
-    <memory value="">
+    <memory value="3">
       <systemName>IMLABEL$3</systemName>
     </memory>
-    <memory value="">
+    <memory value="4">
       <systemName>IMLABEL$4</systemName>
     </memory>
-    <memory value="">
+    <memory value="5">
       <systemName>IMLABEL$5</systemName>
     </memory>
-    <memory value="">
+    <memory value="6">
       <systemName>IMLABEL$6</systemName>
     </memory>
-    <memory value="">
+    <memory value="7">
       <systemName>IMLABEL$7</systemName>
     </memory>
-    <memory value="">
+    <memory value="8">
       <systemName>IMLABEL$8</systemName>
     </memory>
-    <memory value="">
+    <memory value="10">
       <systemName>IMLABEL$10</systemName>
     </memory>
-    <memory value="">
+    <memory value="11">
       <systemName>IMLABEL$11</systemName>
     </memory>
-    <memory value="">
+    <memory value="12">
       <systemName>IMLABEL$12</systemName>
     </memory>
-    <memory value="">
+    <memory value="13">
       <systemName>IMLABEL$13</systemName>
     </memory>
-    <memory value="">
+    <memory value="14">
       <systemName>IMLABEL$14</systemName>
     </memory>
-    <memory value="">
+    <memory value="15">
       <systemName>IMLABEL$15</systemName>
     </memory>
-    <memory value="">
+    <memory value="16">
       <systemName>IMLABEL$16</systemName>
     </memory>
-    <memory value="">
+    <memory value="17">
       <systemName>IMLABEL$17</systemName>
     </memory>
-    <memory value="">
+    <memory value="18">
       <systemName>IMLABEL$18</systemName>
     </memory>
-    <memory value="">
+    <memory value="19">
       <systemName>IMLABEL$19</systemName>
     </memory>
-    <memory value="">
+    <memory value="20">
       <systemName>IMLABEL$20</systemName>
     </memory>
-    <memory value="">
+    <memory value="21">
       <systemName>IMLABEL$21</systemName>
     </memory>
-    <memory value="">
+    <memory value="22">
       <systemName>IMLABEL$22</systemName>
     </memory>
-    <memory value="">
+    <memory value="23">
       <systemName>IMLABEL$23</systemName>
     </memory>
-    <memory value="">
+    <memory value="24">
       <systemName>IMLABEL$24</systemName>
     </memory>
-    <memory value="">
+    <memory value="25">
       <systemName>IMLABEL$25</systemName>
     </memory>
-    <memory value="">
+    <memory value="26">
       <systemName>IMLABEL$26</systemName>
     </memory>
-    <memory value="">
+    <memory value="27">
       <systemName>IMLABEL$27</systemName>
     </memory>
-    <memory value="">
+    <memory value="30">
       <systemName>IMLABEL$30</systemName>
     </memory>
-    <memory value="">
+    <memory value="31">
       <systemName>IMLABEL$31</systemName>
     </memory>
-    <memory value="">
+    <memory value="32">
       <systemName>IMLABEL$32</systemName>
     </memory>
-    <memory value="">
+    <memory value="33">
       <systemName>IMLABEL$33</systemName>
     </memory>
-    <memory value="">
+    <memory value="34">
       <systemName>IMLABEL$34</systemName>
     </memory>
-    <memory value="">
+    <memory value="35">
       <systemName>IMLABEL$35</systemName>
     </memory>
-    <memory value="">
+    <memory value="36">
       <systemName>IMLABEL$36</systemName>
     </memory>
-    <memory value="">
+    <memory value="37">
       <systemName>IMLABEL$37</systemName>
     </memory>
-    <memory value="">
+    <memory value="38">
       <systemName>IMLABEL$38</systemName>
     </memory>
-    <memory value="">
+    <memory value="39">
       <systemName>IMLABEL$39</systemName>
     </memory>
-    <memory value="">
+    <memory value="40">
       <systemName>IMLABEL$40</systemName>
     </memory>
-    <memory value="">
+    <memory value="50">
       <systemName>IMLABEL$50</systemName>
     </memory>
-    <memory value="">
+    <memory value="51">
       <systemName>IMLABEL$51</systemName>
     </memory>
-    <memory value="">
+    <memory value="52">
       <systemName>IMLABEL$52</systemName>
     </memory>
-    <memory value="">
+    <memory value="53">
       <systemName>IMLABEL$53</systemName>
     </memory>
-    <memory value="">
+    <memory value="54">
       <systemName>IMLABEL$54</systemName>
     </memory>
-    <memory value="">
+    <memory value="55">
       <systemName>IMLABEL$55</systemName>
     </memory>
-    <memory value="">
+    <memory value="56">
       <systemName>IMLABEL$56</systemName>
     </memory>
-    <memory value="">
+    <memory value="57">
       <systemName>IMLABEL$57</systemName>
     </memory>
-    <memory value="">
+    <memory value="58">
       <systemName>IMLABEL$58</systemName>
     </memory>
-    <memory value="">
+    <memory value="59">
       <systemName>IMLABEL$59</systemName>
     </memory>
-    <memory value="">
+    <memory value="60">
       <systemName>IMLABEL$60</systemName>
     </memory>
-    <memory value="">
+    <memory value="61">
       <systemName>IMLABEL$61</systemName>
     </memory>
-    <memory value="">
+    <memory value="62">
       <systemName>IMLABEL$62</systemName>
     </memory>
-    <memory value="">
+    <memory value="63">
       <systemName>IMLABEL$63</systemName>
     </memory>
-    <memory value="">
+    <memory value="64">
       <systemName>IMLABEL$64</systemName>
     </memory>
-    <memory value="">
+    <memory value="65">
       <systemName>IMLABEL$65</systemName>
     </memory>
-    <memory value="">
+    <memory value="66">
       <systemName>IMLABEL$66</systemName>
     </memory>
-    <memory value="">
+    <memory value="67">
       <systemName>IMLABEL$67</systemName>
     </memory>
-    <memory value="">
+    <memory value="68">
       <systemName>IMLABEL$68</systemName>
     </memory>
-    <memory value="">
+    <memory value="69">
       <systemName>IMLABEL$69</systemName>
     </memory>
-    <memory value="">
+    <memory value="70">
       <systemName>IMLABEL$70</systemName>
     </memory>
-    <memory value="">
+    <memory value="71">
       <systemName>IMLABEL$71</systemName>
     </memory>
-    <memory value="">
+    <memory value="72">
       <systemName>IMLABEL$72</systemName>
     </memory>
-    <memory value="">
+    <memory value="73">
       <systemName>IMLABEL$73</systemName>
     </memory>
-    <memory value="">
+    <memory value="74">
       <systemName>IMLABEL$74</systemName>
     </memory>
-    <memory value="">
+    <memory value="75">
       <systemName>IMLABEL$75</systemName>
     </memory>
-    <memory value="">
+    <memory value="76">
       <systemName>IMLABEL$76</systemName>
     </memory>
-    <memory value="">
+    <memory value="81">
       <systemName>IMLABEL$81</systemName>
     </memory>
-    <memory value="">
+    <memory value="82">
       <systemName>IMLABEL$82</systemName>
     </memory>
-    <memory value="">
+    <memory value="83">
       <systemName>IMLABEL$83</systemName>
     </memory>
-    <memory value="">
+    <memory value="84">
       <systemName>IMLABEL$84</systemName>
     </memory>
-    <memory value="">
+    <memory value="85">
       <systemName>IMLABEL$85</systemName>
     </memory>
-    <memory value="">
+    <memory value="86">
       <systemName>IMLABEL$86</systemName>
     </memory>
-    <memory value="">
+    <memory value="93">
       <systemName>IMLABEL$93</systemName>
     </memory>
-    <memory value="">
+    <memory value="94">
       <systemName>IMLABEL$94</systemName>
     </memory>
-    <memory value="">
+    <memory value="95">
       <systemName>IMLABEL$95</systemName>
     </memory>
-    <memory value="">
+    <memory value="96">
       <systemName>IMLABEL$96</systemName>
     </memory>
-    <memory value="">
+    <memory value="98">
       <systemName>IMLABEL$98</systemName>
     </memory>
-    <memory value="">
+    <memory value="99">
       <systemName>IMLABEL$99</systemName>
     </memory>
-    <memory value="">
+    <memory value="100">
       <systemName>IMLABEL$100</systemName>
     </memory>
-    <memory value="">
+    <memory value="154">
       <systemName>IMLABEL$154</systemName>
     </memory>
-    <memory value="">
+    <memory value="155">
       <systemName>IMLABEL$155</systemName>
     </memory>
-    <memory value="">
+    <memory value="156">
       <systemName>IMLABEL$156</systemName>
     </memory>
-    <memory value="">
+    <memory value="157">
       <systemName>IMLABEL$157</systemName>
     </memory>
-    <memory value="">
+    <memory value="159">
       <systemName>IMLABEL$159</systemName>
     </memory>
-    <memory value="">
+    <memory value="162">
       <systemName>IMLABEL$162</systemName>
     </memory>
-    <memory value="">
+    <memory value="167">
       <systemName>IMLABEL$167</systemName>
     </memory>
-    <memory value="">
+    <memory value="168">
       <systemName>IMLABEL$168</systemName>
     </memory>
-    <memory value="">
+    <memory value="170">
       <systemName>IMLABEL$170</systemName>
     </memory>
-    <memory value="">
+    <memory value="172">
       <systemName>IMLABEL$172</systemName>
     </memory>
-    <memory value="">
+    <memory value="173">
       <systemName>IMLABEL$173</systemName>
     </memory>
-    <memory value="">
+    <memory value="174">
       <systemName>IMLABEL$174</systemName>
     </memory>
-    <memory value="">
+    <memory value="184">
       <systemName>IMLABEL$184</systemName>
     </memory>
-    <memory value="">
+    <memory value="188">
       <systemName>IMLABEL$188</systemName>
     </memory>
-    <memory value="">
+    <memory value="195">
       <systemName>IMLABEL$195</systemName>
     </memory>
-    <memory value="">
+    <memory value="273">
       <systemName>IMLABEL$273</systemName>
     </memory>
-    <memory value="">
+    <memory value="555">
       <systemName>IMLABEL$555</systemName>
     </memory>
     <memory value="1.0">
@@ -15711,6 +15715,56 @@
   <signalmastlogics class="jmri.managers.configurexml.DefaultSignalMastLogicManagerXml">
     <logicDelay>500</logicDelay>
   </signalmastlogics>
+  <meters class="jmri.managers.configurexml.AbstractMeterManagerXml">
+    <meter>
+      <systemName>LVDB210(s/n211)InputCurrent</systemName>
+    </meter>
+    <meter>
+      <systemName>LVDB210(s/n211)Voltage</systemName>
+    </meter>
+    <meter>
+      <systemName>LVDB210(s/n37)InputCurrent</systemName>
+    </meter>
+    <meter>
+      <systemName>LVDB210(s/n37)Voltage</systemName>
+    </meter>
+    <meter>
+      <systemName>LVDB210(s/n387)InputCurrent</systemName>
+    </meter>
+    <meter>
+      <systemName>LVDB210(s/n387)Voltage</systemName>
+    </meter>
+    <meter>
+      <systemName>LVDB210(s/n397)InputCurrent</systemName>
+    </meter>
+    <meter>
+      <systemName>LVDB210(s/n397)Voltage</systemName>
+    </meter>
+    <meter>
+      <systemName>LVDB210(s/n407)InputCurrent</systemName>
+    </meter>
+    <meter>
+      <systemName>LVDB210(s/n407)Voltage</systemName>
+    </meter>
+    <meter>
+      <systemName>LVDB210(s/n474)InputCurrent</systemName>
+    </meter>
+    <meter>
+      <systemName>LVDB210(s/n474)Voltage</systemName>
+    </meter>
+    <meter>
+      <systemName>LVDB210(s/n489)InputCurrent</systemName>
+    </meter>
+    <meter>
+      <systemName>LVDB210(s/n489)Voltage</systemName>
+    </meter>
+    <meter>
+      <systemName>LVDCS240(s/n1436)InputCurrent</systemName>
+    </meter>
+    <meter>
+      <systemName>LVDCS240(s/n1436)Voltage</systemName>
+    </meter>
+  </meters>
   <logixs class="jmri.managers.configurexml.DefaultLogixManagerXml">
     <logix userName="Start up initializer" enabled="yes">
       <systemName>IX:RTXINITIALIZER</systemName>
@@ -16923,7 +16977,7 @@
       <tooltip>Text Label</tooltip>
     </positionablelabel>
   </paneleditor>
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="PMRRM Dispatcher" x="67" y="39" windowheight="1290" windowwidth="2267" panelheight="799" panelwidth="1451" sliders="yes" scrollable="both" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="yes" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="green" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclethrowncolor="orange" turnoutcirclesize="2" turnoutdrawunselectedleg="no" turnoutbx="7.0" turnoutcx="14.0" turnoutwid="14.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="yes" redBackground="192" greenBackground="192" blueBackground="192" gridSize="5" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="PMRRM Dispatcher" x="-7" y="-7" windowheight="927" windowwidth="1721" panelheight="799" panelwidth="1451" sliders="yes" scrollable="both" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="yes" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="green" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclethrowncolor="orange" turnoutcirclesize="2" turnoutdrawunselectedleg="no" turnoutbx="7.0" turnoutcx="14.0" turnoutwid="14.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="yes" redBackground="192" greenBackground="192" blueBackground="192" gridSize="5" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="PMRRM Dispatcher" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
       <mainBallastWidth>0</mainBallastWidth>
@@ -19817,11 +19871,6 @@
     <positionablelabel x="530" y="695" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Grain spurs Out of Service No power" fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="yes" redBack="0" greenBack="255" blueBack="255" fixedWidth="140" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="45" y="660" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Additional Yazoo rails reported dead after Jan Open House." fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="yes" redBack="255" greenBack="255" blueBack="0" fixedWidth="250" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="45" y="670" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Was tested thoroughly prior to Jan show. Not yet investigated." fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="yes" redBack="255" greenBack="255" blueBack="0" fixedWidth="250" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="695" y="430" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Redcliff Main Out-of-Service." fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="64" green="64" blue="64" hasBackground="yes" redBack="255" greenBack="0" blueBack="0" fixedWidth="125" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="695" y="440" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Failed solder at West End." fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="yes" redBack="255" greenBack="0" blueBack="0" fixedWidth="125" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="325" y="530" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Sierra siding west switch to Sierra ranch work spur reported" fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="yes" redBack="255" greenBack="255" blueBack="0" fixedWidth="250" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="325" y="540" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="occassional pick up trouble by Steam locos." fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="yes" redBack="255" greenBack="255" blueBack="0" fixedWidth="250" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="325" y="550" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Was tested thoroughly prior to Jan show. Not yet investigated." fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="yes" redBack="255" greenBack="255" blueBack="0" fixedWidth="250" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="45" y="680" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Different from ones fixed before show. Not yet investidated." fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="yes" redBack="255" greenBack="255" blueBack="0" fixedWidth="250" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="720" y="235" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Tank farm spur no power - OoS" fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="yes" redBack="0" greenBack="255" blueBack="255" fixedWidth="130" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="445" y="495" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Sierra Main Out of Service - DO NOT USE" fontFamily="Dialog" fontname="Dialog" size="8" style="1" red="64" green="64" blue="64" hasBackground="yes" redBack="255" greenBack="0" blueBack="0" fixedWidth="175" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
@@ -20515,7 +20564,7 @@
     <positionablepoint ident="A38" type="ANCHOR" x="316.0" y="335.0" connect1name="T12" connect2name="T244" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A40" type="ANCHOR" x="810.0" y="335.0" connect1name="T25" connect2name="T245" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
   </LayoutEditor>
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="PMRRM Dispatcher HiRes" x="0" y="25" windowheight="1415" windowwidth="2560" panelheight="1400" panelwidth="2575" sliders="yes" scrollable="both" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="yes" tooltipsinedit="yes" mainlinetrackwidth="6" xscale="1.0" yscale="1.0" sidetrackwidth="3" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="green" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclethrowncolor="orange" turnoutcirclesize="3" turnoutdrawunselectedleg="no" turnoutbx="7.0" turnoutcx="14.0" turnoutwid="14.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="yes" redBackground="192" greenBackground="192" blueBackground="192" gridSize="5" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="PMRRM Dispatcher HiRes" x="-8" y="-8" windowheight="977" windowwidth="1724" panelheight="1400" panelwidth="2575" sliders="yes" scrollable="both" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="yes" tooltipsinedit="yes" mainlinetrackwidth="6" xscale="1.0" yscale="1.0" sidetrackwidth="3" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="green" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclethrowncolor="orange" turnoutcirclesize="3" turnoutdrawunselectedleg="no" turnoutbx="7.0" turnoutcx="14.0" turnoutwid="14.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="yes" redBackground="192" greenBackground="192" blueBackground="192" gridSize="5" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="PMRRM Dispatcher HiRes" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
       <mainBallastWidth>0</mainBallastWidth>
@@ -24194,6 +24243,7 @@
   <filehistory>
     <operation>
       <type>app</type>
+<<<<<<< Updated upstream
       <date>Wed Feb 25 18:40:01 EST 2026</date>
       <filename>PanelPro (v5.15.4)</filename>
     </operation>
@@ -24206,6 +24256,20 @@
       <type>Store</type>
       <date>Wed Feb 25 18:45:38 EST 2026</date>
       <filename>/Users/jake/Library/Mobile Documents/com~apple~CloudDocs/Trains/PMRRM/git_repos/PMRRM/Profiles/Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
+=======
+      <date>Thu Feb 26 16:25:45 PST 2026</date>
+      <filename>PanelPro (v5.15.3)</filename>
+    </operation>
+    <operation>
+      <type>Load OK</type>
+      <date>Thu Feb 26 16:25:58 PST 2026</date>
+      <filename>/D:/OneDrive/GitHub/PMRRM/Profiles/Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
+    </operation>
+    <operation>
+      <type>Store</type>
+      <date>Thu Feb 26 17:20:52 PST 2026</date>
+      <filename>D:\OneDrive\GitHub\PMRRM\Profiles\Dispatcher_Work_in_Progress.jmri\DispatcherDefault.xml</filename>
+>>>>>>> Stashed changes
     </operation>
   </filehistory>
 </layout-config>
