@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
   <locomotive id="ATSF DC-191" fileName="ATSF_DC_191.xml" roadNumber="191" roadName="ATSF" mfg="Rapido" owner="267 Adam Delia" model="Budd RDC" dccAddress="191" comment="Operate only with ATSF DC-192 consisted &#xA;with ATSF DC-191 address 50" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
@@ -5441,4 +5440,5 @@
       <CVvalue name="16.4.384" value="0" />
     </values>
   </locomotive>
+  <!--Written by JMRI version 5.15.3plus+jenkins+20260213T2025Z+R099362ba8c on Sat Feb 14 14:50:39 PST 2026-->
 </locomotive-config>

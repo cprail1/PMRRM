@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
   <locomotive id="UP 938R" fileName="UP_938R.xml" roadNumber="938" roadName="Union Pacific" mfg="Walthers" owner="263 John Finnerty" model="E8A" dccAddress="931" comment="Do not separate from UP931, UP933, and UP938B. &#xA;Programmed as address 931 but running backwards " developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
@@ -295,4 +294,5 @@ Group TE: 92 / 80 / 68</value>
       <CVvalue name="182" value="2" />
     </values>
   </locomotive>
+  <!--Written by JMRI version 5.15.3plus+jenkins+20260206T0344Z+Rbfe7cf787e5 on Thu Feb 12 15:21:15 PST 2026-->
 </locomotive-config>

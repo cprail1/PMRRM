@@ -1,33 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
-<locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <locomotive id="UP 930_2" fileName="UP_930_1.xml" roadNumber="930" roadName="Union Pacific" mfg="Rapido" owner="148 Kevin Schiller" model="E8B" dccAddress="930" comment="" developerID="-1" manufacturerID="151" productID="33554588,33554680,33554651" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-    <dateUpdated>2026-02-12T06:18:21.970+00:00</dateUpdated>
+<!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
+<locomotive-config>
+  <!--Written by JMRI version 5.8+Rbc21ce2ce7 on Tue Feb 04 19:00:03 PST 2025-->
+  <locomotive id="ATSF 5142-2" fileName="ATSF_5142_2.xml" roadNumber="5147" roadName="Atchison, Topeka, and Santa Fe" mfg="Scale Trains" owner="273 Jack Howland" model="SD40-2" dccAddress="5142" comment="2.25 oz 2%" developerID="-1" manufacturerID="151" productID="33554588" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+    <dateUpdated>2025-02-05T03:00:03.187+00:00</dateUpdated>
     <decoder model="LokSound 5 DCC" family="ESU LokSound 5" comment="" maxFnNum="31" />
     <locoaddress>
-      <dcclocoaddress number="930" longaddress="yes" />
-      <number>930</number>
+      <dcclocoaddress number="5142" longaddress="yes" />
+      <number>5142</number>
       <protocol>dcc_long</protocol>
     </locoaddress>
     <functionlabels>
-      <functionlabel num="0" lockable="true" visible="true" functionImage="" functionImageSelected="">Light</functionlabel>
-      <functionlabel num="1" lockable="true" visible="true" functionImage="" functionImageSelected="">Bell</functionlabel>
-      <functionlabel num="2" lockable="false" visible="true" functionImage="" functionImageSelected="">Horn</functionlabel>
+      <functionlabel num="0" lockable="true" functionImage="" functionImageSelected="">Light</functionlabel>
+      <functionlabel num="1" lockable="true" functionImage="" functionImageSelected="">Bell</functionlabel>
+      <functionlabel num="2" lockable="false" functionImage="" functionImageSelected="">Horn</functionlabel>
     </functionlabels>
     <soundlabels>
       <soundlabel num="33">Automatic brake sound</soundlabel>
       <soundlabel num="34">Gear shift sound</soundlabel>
     </soundlabels>
-    <attributepairs>
-      <keyvaluepair>
-        <key>RosterGroup:UP</key>
-        <value>yes</value>
-      </keyvaluepair>
-      <keyvaluepair>
-        <key>TE</key>
-        <value>28, 24, 20</value>
-      </keyvaluepair>
-    </attributepairs>
     <values>
       <decoderDef>
         <varValue item="Vstart" value="3" />
@@ -39,15 +30,15 @@
         <varValue item="ESU V4 DC Brake Forward" value="1" />
         <varValue item="ESU V4 Constant Brake" value="0" />
         <varValue item="Forward Trim" value="128" />
-        <varValue item="Speed Table" value="1,10,19,29,38,48,57,66,76,85,95,104,113,123,132,142,151,160,170,179,189,198,207,217,226,236,245,255" />
+        <varValue item="Speed Table" value="1,2,4,7,10,14,18,23,28,34,40,47,54,62,70,79,88,98,108,120,133,147,162,178,195,213,233,255" />
         <varValue item="Reverse Trim" value="128" />
         <varValue item="ESU V5 Brake Mode Exit Delay" value="12" />
         <varValue item="Motor Option 1" value="0" />
         <varValue item="ESU V4 ABC Reduced Speed" value="100" />
         <varValue item="ESU V4 ABC Detection Threshold" value="10" />
-        <varValue item="Accel" value="11" />
-        <varValue item="Decel" value="11" />
-        <varValue item="Decoder Version" value="0" />
+        <varValue item="Accel" value="12" />
+        <varValue item="Decel" value="12" />
+        <varValue item="Decoder Version" value="255" />
         <varValue item="Manufacturer" value="151" />
         <varValue item="Analog Mode Function Status - F1" value="0" />
         <varValue item="Analog Mode Function Status - F2" value="0" />
@@ -74,7 +65,7 @@
         <varValue item="Index register H" value="16" />
         <varValue item="Index register L" value="0" />
         <varValue item="ESU V4 Advanced Protocols DCC" value="1" />
-        <varValue item="ESU V4 Auto Speed Step" value="1" />
+        <varValue item="ESU V4 Auto Speed Step" value="0" />
         <varValue item="ESU V4 Compatibility LGB" value="0" />
         <varValue item="Analog (DC) Mode" value="1" />
         <varValue item="Analog Control check 1" value="0" />
@@ -91,7 +82,7 @@
         <varValue item="ESU V4 Memory Settings Speed" value="1" />
         <varValue item="ESU V5 Divide Trigger Impulses" value="0" />
         <varValue item="ESU V4 Preserve Direction" value="0" />
-        <varValue item="ESU AUX10/Sensor" value="1" />
+        <varValue item="ESU AUX10/Sensor" value="0" />
         <varValue item="Analog Vstart" value="90" />
         <varValue item="Analog Vhigh" value="130" />
         <varValue item="Radio Power Conversion" value="15" />
@@ -116,10 +107,10 @@
         <varValue item="PICV" value="31" />
         <varValue item="SICV" value="32" />
         <varValue item="Short Address" value="3" />
-        <varValue item="Long Address" value="930" />
+        <varValue item="Long Address" value="5142" />
         <varValue item="Address Format" value="1" />
         <varValue item="Vmid" value="88" />
-        <varValue item="Speed Table Definition" value="1" />
+        <varValue item="Speed Table Definition" value="0" />
         <varValue item="ESU V4 Selectrix Brake Reverse" value="0" />
         <varValue item="ESU V4 Selectrix Brake Forward" value="0" />
         <varValue item="ESU V5 ABC Shuttle Train" value="0" />
@@ -138,7 +129,7 @@
         <varValue item="EMF Enable" value="1" />
         <varValue item="Motor PWM Frequency" value="40" />
         <varValue item="EMF Option 4" value="10" />
-        <varValue item="EMF Option 3" value="10" />
+        <varValue item="EMF Option 3" value="15" />
         <varValue item="EMF Control Reference" value="130" />
         <varValue item="EMF Option 1" value="50" />
         <varValue item="EMF Option 2" value="100" />
@@ -190,9 +181,9 @@
         <varValue item="Consist Deceleration Adjustment Sign" value="0" />
         <varValue item="Locomotive Direction" value="0" />
         <varValue item="Speed Step Mode" value="1" />
-        <varValue item="Analog (DC) Operation" value="1" />
-        <varValue item="User Id #1" value="3" />
-        <varValue item="User Id #2" value="25" />
+        <varValue item="Analog (DC) Operation" value="0" />
+        <varValue item="User Id #1" value="0" />
+        <varValue item="User Id #2" value="0" />
         <varValue item="ESU V4 Function Settings Smoke Unit Slider 2" value="128" />
         <varValue item="ESU V4 Function Settings Smoke Unit Slider 3" value="128" />
         <varValue item="ESU V4 Function Settings Smoke Unit Slider 1" value="120" />
@@ -9833,52 +9824,52 @@
       <CVvalue name="27" value="24" />
       <CVvalue name="66" value="128" />
       <CVvalue name="67" value="1" />
-      <CVvalue name="68" value="10" />
-      <CVvalue name="69" value="19" />
-      <CVvalue name="70" value="29" />
-      <CVvalue name="71" value="38" />
-      <CVvalue name="72" value="48" />
-      <CVvalue name="73" value="57" />
-      <CVvalue name="74" value="66" />
-      <CVvalue name="75" value="76" />
-      <CVvalue name="76" value="85" />
-      <CVvalue name="77" value="95" />
-      <CVvalue name="78" value="104" />
-      <CVvalue name="79" value="113" />
-      <CVvalue name="80" value="123" />
-      <CVvalue name="81" value="132" />
-      <CVvalue name="82" value="142" />
-      <CVvalue name="83" value="151" />
-      <CVvalue name="84" value="160" />
-      <CVvalue name="85" value="170" />
-      <CVvalue name="86" value="179" />
-      <CVvalue name="87" value="189" />
-      <CVvalue name="88" value="198" />
-      <CVvalue name="89" value="207" />
-      <CVvalue name="90" value="217" />
-      <CVvalue name="91" value="226" />
-      <CVvalue name="92" value="236" />
-      <CVvalue name="93" value="245" />
+      <CVvalue name="68" value="2" />
+      <CVvalue name="69" value="4" />
+      <CVvalue name="70" value="7" />
+      <CVvalue name="71" value="10" />
+      <CVvalue name="72" value="14" />
+      <CVvalue name="73" value="18" />
+      <CVvalue name="74" value="23" />
+      <CVvalue name="75" value="28" />
+      <CVvalue name="76" value="34" />
+      <CVvalue name="77" value="40" />
+      <CVvalue name="78" value="47" />
+      <CVvalue name="79" value="54" />
+      <CVvalue name="80" value="62" />
+      <CVvalue name="81" value="70" />
+      <CVvalue name="82" value="79" />
+      <CVvalue name="83" value="88" />
+      <CVvalue name="84" value="98" />
+      <CVvalue name="85" value="108" />
+      <CVvalue name="86" value="120" />
+      <CVvalue name="87" value="133" />
+      <CVvalue name="88" value="147" />
+      <CVvalue name="89" value="162" />
+      <CVvalue name="90" value="178" />
+      <CVvalue name="91" value="195" />
+      <CVvalue name="92" value="213" />
+      <CVvalue name="93" value="233" />
       <CVvalue name="94" value="255" />
       <CVvalue name="95" value="128" />
       <CVvalue name="102" value="12" />
       <CVvalue name="111" value="0" />
       <CVvalue name="123" value="100" />
       <CVvalue name="134" value="10" />
-      <CVvalue name="3" value="11" />
-      <CVvalue name="4" value="11" />
-      <CVvalue name="7" value="0" />
+      <CVvalue name="3" value="12" />
+      <CVvalue name="4" value="12" />
+      <CVvalue name="7" value="255" />
       <CVvalue name="8" value="151" />
       <CVvalue name="13" value="0" />
       <CVvalue name="14" value="1" />
       <CVvalue name="15" value="0" />
       <CVvalue name="16" value="0" />
       <CVvalue name="28" value="131" />
-      <CVvalue name="29" value="62" />
+      <CVvalue name="29" value="42" />
       <CVvalue name="31" value="16" />
       <CVvalue name="32" value="0" />
       <CVvalue name="47" value="1" />
-      <CVvalue name="49" value="17" />
+      <CVvalue name="49" value="1" />
       <CVvalue name="50" value="2" />
       <CVvalue name="57" value="143" />
       <CVvalue name="58" value="43" />
@@ -9890,7 +9881,7 @@
       <CVvalue name="114" value="92" />
       <CVvalue name="115" value="92" />
       <CVvalue name="122" value="3" />
-      <CVvalue name="124" value="20" />
+      <CVvalue name="124" value="4" />
       <CVvalue name="125" value="90" />
       <CVvalue name="126" value="130" />
       <CVvalue name="129" value="15" />
@@ -9913,8 +9904,8 @@
       <CVvalue name="0.255.287" value="0" />
       <CVvalue name="0.255.288" value="0" />
       <CVvalue name="1" value="3" />
-      <CVvalue name="17" value="195" />
-      <CVvalue name="18" value="162" />
+      <CVvalue name="17" value="212" />
+      <CVvalue name="18" value="22" />
       <CVvalue name="6" value="88" />
       <CVvalue name="149" value="0" />
       <CVvalue name="150" value="42" />
@@ -9931,7 +9922,7 @@
       <CVvalue name="248" value="0" />
       <CVvalue name="9" value="40" />
       <CVvalue name="51" value="10" />
-      <CVvalue name="52" value="10" />
+      <CVvalue name="52" value="15" />
       <CVvalue name="53" value="130" />
       <CVvalue name="54" value="50" />
       <CVvalue name="55" value="100" />
@@ -9948,8 +9939,8 @@
       <CVvalue name="110" value="0" />
       <CVvalue name="23" value="0" />
       <CVvalue name="24" value="0" />
-      <CVvalue name="105" value="3" />
-      <CVvalue name="106" value="25" />
+      <CVvalue name="105" value="0" />
+      <CVvalue name="106" value="0" />
       <CVvalue name="138" value="128" />
       <CVvalue name="139" value="128" />
       <CVvalue name="140" value="120" />

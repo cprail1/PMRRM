@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
   <locomotive id="UP 60B" fileName="UP_60B.xml" roadNumber="60B" roadName="Union Pacific" mfg="Alco Models" owner="259 Skip Martin" model="C855B" dccAddress="60" comment="Do not separate from &#xA;UP 60A &amp; UP 61A." developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
@@ -704,4 +703,5 @@
       <CVvalue name="1.449" value="16" />
     </values>
   </locomotive>
+  <!--Written by JMRI version 5.15.3plus+jenkins+20260213T2025Z+R099362ba8c on Sat Feb 14 15:03:42 PST 2026-->
 </locomotive-config>

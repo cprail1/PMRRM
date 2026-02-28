@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
   <locomotive id="SP 8303" fileName="SP_8303.xml" roadNumber="8303" roadName="Southern Pacific" mfg="Athearn" owner="209 Bruce Bloch" model="F7B" dccAddress="6452" comment="Do not separate from &#xA;SP6452 and SP8296" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
@@ -462,4 +461,5 @@
       <CVvalue name="106" value="0" />
     </values>
   </locomotive>
+  <!--Written by JMRI version 5.15.3plus+jenkins+20260213T2025Z+R099362ba8c on Sat Feb 14 15:01:04 PST 2026-->
 </locomotive-config>

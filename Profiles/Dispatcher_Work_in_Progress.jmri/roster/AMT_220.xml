@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="AMT 220" fileName="AMT_220.xml" roadNumber="220" roadName="Amtrak" mfg="Rapido" owner="254 Aaron Gold" model="EMD F40PH" dccAddress="220" comment="AAA BBB AAA BBB BBB GFGFF HHH GHHGGH HGHFGH HGHGHSR HFGHGRHS HGRHSGRH HGHSG" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-    <dateUpdated>2026-02-12T07:26:17.220+00:00</dateUpdated>
+  <!--Written by JMRI version 5.15.3plus+jenkins+20260213T2025Z+R099362ba8c on Fri Feb 13 18:42:25 PST 2026-->
+  <locomotive id="AMT 220" fileName="AMT_220.xml" roadNumber="220" roadName="Amtrak" mfg="Rapido" owner="254 Aaron Gold" model="EMD F40PH" dccAddress="220" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+    <dateUpdated>2026-02-14T02:42:25.732+00:00</dateUpdated>
     <decoder model="LokSound Select" family="ESU LokSound Select" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="220" longaddress="yes" />
@@ -19,6 +19,24 @@
       <soundlabel num="26">Automatic brake sound</soundlabel>
       <soundlabel num="27">Gear shift sound</soundlabel>
     </soundlabels>
+    <attributepairs>
+      <keyvaluepair>
+        <key>physicsMaxSpeedUnit</key>
+        <value>KMH</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>physicsPowerUnit</key>
+        <value>KW</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>physicsTractiveEffortUnit</key>
+        <value>KN</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>physicsWeightUnit</key>
+        <value>T</value>
+      </keyvaluepair>
+    </attributepairs>
     <values>
       <decoderDef>
         <varValue item="Sound Option 2" value="0" />
@@ -5435,4 +5453,5 @@
       <CVvalue name="16.4.384" value="0" />
     </values>
   </locomotive>
+  <!--Written by JMRI version 5.15.3plus+jenkins+20260213T2025Z+R099362ba8c on Sat Feb 14 14:47:46 PST 2026-->
 </locomotive-config>

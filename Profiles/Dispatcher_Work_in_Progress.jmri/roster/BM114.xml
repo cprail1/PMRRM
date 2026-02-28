@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
+<!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <locomotive id="BM 114" fileName="BM114.xml" roadNumber="114" roadName="Boston &amp; Maine" mfg="Bachmann" owner="147 Bob Googooian" model="GE 44 Tonner" dccAddress="114" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-    <dateUpdated>2026-02-11T15:02:32.273+00:00</dateUpdated>
+  <!--Written by JMRI version 5.12+Rc5bd588235 on Sat Jul 19 09:33:48 PDT 2025-->
+  <locomotive id="BM114" fileName="BM114.xml" roadNumber="114" roadName="Boston &amp; Maine" mfg="Bachmann" owner="147 Bob Googooian" model="GE 44 Tonner" dccAddress="114" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+    <dateUpdated>2025-07-19T16:33:48.628+00:00</dateUpdated>
     <decoder model="4 function decoder (36-550)" family="E-Z Command decoders" comment="" maxFnNum="28" />
     <locoaddress>
-      <dcclocoaddress number="114" longaddress="no" />
+      <dcclocoaddress number="114" longaddress="yes" />
       <number>114</number>
-      <protocol>dcc_short</protocol>
+      <protocol>dcc_long</protocol>
     </locoaddress>
     <functionlabels />
     <soundlabels />

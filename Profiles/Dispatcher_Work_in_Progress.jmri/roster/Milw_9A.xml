@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
   <locomotive id="Milw 9A" fileName="Milw_9A.xml" roadNumber="9A" roadName="Milwaukee Road" mfg="Life-Like" owner="263 John Finnerty" model="Erie Built" dccAddress="9" comment="Do not seperate from MW 9B and MW 12B" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
@@ -295,4 +294,5 @@ Group TE: 70 / 51</value>
       <CVvalue name="182" value="2" />
     </values>
   </locomotive>
+  <!--Written by JMRI version 5.15.3plus+jenkins+20260213T2025Z+R099362ba8c on Sat Feb 14 14:55:41 PST 2026-->
 </locomotive-config>

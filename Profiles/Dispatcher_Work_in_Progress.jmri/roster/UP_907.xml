@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
   <locomotive id="UP 907" fileName="UP_907.xml" roadNumber="907" roadName="Union Pacific" mfg="Broadway Limited" owner="259 Skip Martin" model="E7A" dccAddress="907" comment="Do not separate from UP 908 and UP 909.&#xA;" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
@@ -463,4 +462,5 @@ Unit TE: 22 / 18 / 15</value>
       <CVvalue name="248" value="60" />
     </values>
   </locomotive>
+  <!--Written by JMRI version 5.15.3plus+jenkins+20260206T0344Z+Rbfe7cf787e5 on Thu Feb 12 15:20:59 PST 2026-->
 </locomotive-config>

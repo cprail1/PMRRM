@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
+<!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
   <locomotive id="SP 8141B" fileName="SP_8141b.xml" roadNumber="8141" roadName="Southern Pacific" mfg="BLI" owner="J270 Matthew J Zepeda" model="F7b" dccAddress="6268" comment="Address is 6268" developerID="-1" manufacturerID="38" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2026-02-11T15:13:18.109+00:00</dateUpdated>
@@ -421,4 +421,5 @@
       <CVvalue name="248" value="60" />
     </values>
   </locomotive>
+  <!--Written by JMRI version 5.15.3plus+jenkins+20260213T2025Z+R099362ba8c on Sat Feb 14 15:00:58 PST 2026-->
 </locomotive-config>

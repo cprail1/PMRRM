@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
   <locomotive id="UP 910C" fileName="UP_910C.xml" roadNumber="910C" roadName="Union Pacific" mfg="Intermountain" owner="259 Skip Martin" model="F7B" dccAddress="911" comment="Do not separate from UP 911A, &#xA;UP 910B, and UP 912C.&#xA;&#xA;" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
@@ -5446,4 +5445,5 @@
       <CVvalue name="16.4.384" value="0" />
     </values>
   </locomotive>
+  <!--Written by JMRI version 5.15.3plus+jenkins+20260206T0344Z+Rbfe7cf787e5 on Thu Feb 12 15:21:03 PST 2026-->
 </locomotive-config>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
+  <!--Written by JMRI version 5.15.3plus+jenkins+20260213T2025Z+R099362ba8c on Thu Feb 19 14:20:30 PST 2026-->
   <locomotive id="SP 5459_2" fileName="SP_5459_2.xml" roadNumber="5459" roadName="Southern Pacific" mfg="Athearn " owner="214 Don Philpott" model="SD9" dccAddress="5459" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2026-02-08T03:58:33.269+00:00</dateUpdated>
     <decoder model="MC2H104P9" family="MC Motor Decoders" comment="" maxFnNum="28" />
@@ -13,10 +13,6 @@
     <functionlabels />
     <soundlabels />
     <attributepairs>
-      <keyvaluepair>
-        <key>RosterGroup:SP</key>
-        <value>yes</value>
-      </keyvaluepair>
       <keyvaluepair>
         <key>TE</key>
         <value>20 / 13</value>

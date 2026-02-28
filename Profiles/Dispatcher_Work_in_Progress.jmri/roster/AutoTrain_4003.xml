@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
   <locomotive id="AutoTrain 4003" fileName="AutoTrain_4003.xml" roadNumber="4003" roadName="Auto Train" mfg="" owner="000 Museum" model="GE" dccAddress="4000" comment="Do not separate from AT 4000&#xA;Reverse lead unit (pair 1), lights&#xA;Direction of travel: Reversed" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
@@ -283,4 +282,5 @@
       <CVvalue name="252" value="0" />
     </values>
   </locomotive>
+  <!--Written by JMRI version 5.15.3plus+jenkins+20260213T2025Z+R099362ba8c on Sat Feb 14 14:50:41 PST 2026-->
 </locomotive-config>

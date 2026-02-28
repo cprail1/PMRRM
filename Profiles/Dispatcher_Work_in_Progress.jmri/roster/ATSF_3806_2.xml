@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
+<!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
   <locomotive id="ATSF 3806_2" fileName="ATSF_3806_2.xml" roadNumber="3806" roadName="ATSF" mfg="" owner="223 Dan Wexler" model="2-10-2 " dccAddress="3806" comment="" developerID="-1" manufacturerID="101" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2026-02-11T14:59:42.755+00:00</dateUpdated>
@@ -127,4 +127,5 @@
       <CVvalue name="94" value="255" />
     </values>
   </locomotive>
+  <!--Written by JMRI version 5.15.3plus+jenkins+20260213T2025Z+R099362ba8c on Sat Feb 14 14:49:38 PST 2026-->
 </locomotive-config>

@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
   <locomotive id="Milw 100A" fileName="Milw_100A.xml" roadNumber="100A" roadName="Milwaukee Road" mfg="" owner="263 John Finnerty" model="FP7a" dccAddress="100" comment="Do not separate from MW 98C and MW 115B" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
@@ -265,4 +264,5 @@ Group TE: 70 / 51 /</value>
       <CVvalue name="106" value="0" />
     </values>
   </locomotive>
+  <!--Written by JMRI version 5.15.3plus+jenkins+20260213T2025Z+R099362ba8c on Sat Feb 14 14:55:12 PST 2026-->
 </locomotive-config>

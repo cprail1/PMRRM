@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
   <locomotive id="WP 1903" fileName="WP_1903.xml" roadNumber="1903" roadName="Western Pacific" mfg="Intermountain" owner="252 John Madriaga" model="ES44AC" dccAddress="1903" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
@@ -255,4 +254,5 @@
       <CVvalue name="106" value="4" />
     </values>
   </locomotive>
+  <!--Written by JMRI version 5.15.3plus+jenkins+20260206T0344Z+Rbfe7cf787e5 on Thu Feb 12 15:21:28 PST 2026-->
 </locomotive-config>

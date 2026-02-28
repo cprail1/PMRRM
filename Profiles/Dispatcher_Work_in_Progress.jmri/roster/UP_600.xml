@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
   <locomotive id="UP 600" fileName="UP_600.xml" roadNumber="600A" roadName="Union Pacific" mfg="MTH (Modified)" owner="259 Skip Martin" model="PA" dccAddress="600" comment="Do not separate from UP 602C, &#xA;UP 602B, and 606B." developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
@@ -1009,4 +1008,5 @@ Unit TE: 26 / 22 / 18</value>
       <CVvalue name="3.258" value="180" />
     </values>
   </locomotive>
+  <!--Written by JMRI version 5.15.3plus+jenkins+20260213T2025Z+R099362ba8c on Sat Feb 14 15:03:35 PST 2026-->
 </locomotive-config>

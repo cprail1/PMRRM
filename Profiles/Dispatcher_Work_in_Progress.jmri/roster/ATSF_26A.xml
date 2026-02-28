@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
   <locomotive id="ATSF 26A" fileName="ATSF_26A.xml" roadNumber="26A" roadName="ATSF" mfg="Athearn Genesis" owner="209 Bruce Bloch" model="F3b" dccAddress="26" comment="ATSF Passenger " developerID="-1" manufacturerID="141" productID="F2" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
@@ -452,4 +451,5 @@
       <CVvalue name="106" value="68" />
     </values>
   </locomotive>
+  <!--Written by JMRI version 5.15.3plus+jenkins+20260213T2025Z+R099362ba8c on Sat Feb 14 14:48:52 PST 2026-->
 </locomotive-config>

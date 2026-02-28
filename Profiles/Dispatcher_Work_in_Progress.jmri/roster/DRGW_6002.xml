@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
+  <!--Written by JMRI version 5.15.3plus+jenkins+20260213T2025Z+R099362ba8c on Thu Feb 26 12:51:47 PST 2026-->
   <locomotive id="DRGW 6002" fileName="DRGW_6002.xml" roadNumber="6002" roadName="D&amp;RGW" mfg="Rapido" owner="147 Bob Googooian" model="PB-1" dccAddress="6003" comment="Western Div power for CZ" developerID="-1" manufacturerID="151" productID="33554588,33554680,33554651" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2024-12-03T18:28:19.384+00:00</dateUpdated>
     <decoder model="LokSound 5 DCC" family="ESU LokSound 5" comment="" maxFnNum="31" />
@@ -19,6 +19,12 @@
       <soundlabel num="33">Automatic brake sound</soundlabel>
       <soundlabel num="34">Gear shift sound</soundlabel>
     </soundlabels>
+    <attributepairs>
+      <keyvaluepair>
+        <key>RosterGroup:DRGW</key>
+        <value>yes</value>
+      </keyvaluepair>
+    </attributepairs>
     <values>
       <decoderDef>
         <varValue item="Vstart" value="2" />

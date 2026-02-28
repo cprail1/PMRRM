@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
   <locomotive id="GM ToT" fileName="GM_ToT.xml" roadNumber="765" roadName="General Motors" mfg="Proto 2000" owner="000 Museum" model="E7" dccAddress="765" comment="Train of Tomorrow" developerID="-1" manufacturerID="141" productID="311" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
@@ -991,4 +990,5 @@
       <CVvalue name="16.3.258" value="180" />
     </values>
   </locomotive>
+  <!--Written by JMRI version 5.15.3plus+jenkins+20260213T2025Z+R099362ba8c on Sat Feb 14 14:54:48 PST 2026-->
 </locomotive-config>

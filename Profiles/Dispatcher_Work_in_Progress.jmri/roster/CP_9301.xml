@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
   <locomotive id="CP 9301" fileName="CP_9301.xml" roadNumber="9301" roadName="Canadian Pacific" mfg="Athearn Genesis" owner="217 Peter Ely" model="SD90MAC-H P2" dccAddress="9301" comment="Primarily for CP unit coal train &#xA;but may be used elsewhere with speed &#xA;appropriate CP units . Speed 25 57 72 " developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
@@ -1028,4 +1027,5 @@
       <CVvalue name="106" value="22" />
     </values>
   </locomotive>
+  <!--Written by JMRI version 5.15.3plus+jenkins+20260213T2025Z+R099362ba8c on Sat Feb 14 14:53:11 PST 2026-->
 </locomotive-config>

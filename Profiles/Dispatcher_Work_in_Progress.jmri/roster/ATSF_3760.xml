@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
   <locomotive id="ATSF 3760" fileName="ATSF_3760.xml" roadNumber="3760" roadName="ATSF" mfg="Broadway Limited" owner="223 Dan Wexler" model="4-8-4 Northern" dccAddress="3760" comment="Delmar power" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
@@ -453,4 +452,5 @@
       <CVvalue name="248" value="20" />
     </values>
   </locomotive>
+  <!--Written by JMRI version 5.15.3plus+jenkins+20260213T2025Z+R099362ba8c on Sat Feb 14 14:49:36 PST 2026-->
 </locomotive-config>

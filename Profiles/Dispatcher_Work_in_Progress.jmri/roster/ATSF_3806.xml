@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
   <locomotive id="ATSF 3806" fileName="ATSF_3806.xml" roadNumber="3806" roadName="ATSF" mfg="Athearn" owner="214 Don Philpott" model="GP40X" dccAddress="3806" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
@@ -649,4 +648,5 @@
       <CVvalue name="T3CV.6.0.25" value="15" />
     </values>
   </locomotive>
+  <!--Written by JMRI version 5.15.3plus+jenkins+20260213T2025Z+R099362ba8c on Sat Feb 14 14:49:37 PST 2026-->
 </locomotive-config>

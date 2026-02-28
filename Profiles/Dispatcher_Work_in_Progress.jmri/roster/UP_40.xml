@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
   <locomotive id="UP 40" fileName="UP_40.xml" roadNumber="40" roadName="Union Pacific" mfg="Suydam" owner="259 Skip Martin" model="Gas Electric" dccAddress="41" comment="Do not use to haul anything&#xA; except 1 UP heavyweight &#xA;passenger car." developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
@@ -632,4 +631,5 @@
       <CVvalue name="106" value="0" />
     </values>
   </locomotive>
+  <!--Written by JMRI version 5.15.3plus+jenkins+20260213T2025Z+R099362ba8c on Sat Feb 14 15:03:11 PST 2026-->
 </locomotive-config>

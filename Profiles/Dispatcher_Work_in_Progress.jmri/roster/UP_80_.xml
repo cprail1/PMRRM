@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
   <locomotive id="UP 80 " fileName="UP_80_.xml" roadNumber="80" roadName="Union Pacific" mfg="OMI" owner="259 Skip Martin" model="Coal Turbine" dccAddress="80" comment="Operate only with UP 80B Coal Turbine" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
@@ -1028,4 +1027,5 @@
       <CVvalue name="3.258" value="180" />
     </values>
   </locomotive>
+  <!--Written by JMRI version 5.15.3plus+jenkins+20260206T0344Z+Rbfe7cf787e5 on Thu Feb 12 15:20:51 PST 2026-->
 </locomotive-config>

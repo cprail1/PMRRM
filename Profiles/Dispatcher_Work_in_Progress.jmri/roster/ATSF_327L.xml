@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
   <locomotive id="ATSF 327L" fileName="ATSF_327L.xml" roadNumber="327L" roadName="ATSF" mfg="Athearn Genesis" owner="214 Don Philpott" model="F7A" dccAddress="327" comment="DO NOT SEPARATE FROM &#xA;ATSF 338L AND ATSF 338B" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
@@ -1025,4 +1024,5 @@ GROUP TE: 65 / 48</value>
       <CVvalue name="106" value="0" />
     </values>
   </locomotive>
+  <!--Written by JMRI version 5.15.3plus+jenkins+20260213T2025Z+R099362ba8c on Sat Feb 14 14:49:17 PST 2026-->
 </locomotive-config>

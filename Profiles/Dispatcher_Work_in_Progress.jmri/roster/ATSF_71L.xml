@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
   <locomotive id="ATSF 71L" fileName="ATSF_71L.xml" roadNumber="71L" roadName="ATSF" mfg="Walthers" owner="209 Bruce Bloch" model="PA1" dccAddress="67" comment="Do not separate from &#xA;ATSF 71A and ATSF 67L" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
@@ -366,4 +365,5 @@ Group TE: 65 / 48</value>
       <CVvalue name="106" value="0" />
     </values>
   </locomotive>
+  <!--Written by JMRI version 5.15.3plus+jenkins+20260213T2025Z+R099362ba8c on Sat Feb 14 14:50:27 PST 2026-->
 </locomotive-config>

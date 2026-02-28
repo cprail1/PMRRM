@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
   <locomotive id="ATSF 147" fileName="ATSF_147.xml" roadNumber="147" roadName="ATSF" mfg="Fox Valley" owner="190 Brian Neely" model="GP60" dccAddress="147" comment="Do not separate from &#xA;ATSF 331 &amp; ATSF 345 " developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
@@ -5359,4 +5358,5 @@ Unit TE: 31 / 26 / 21</value>
       <CVvalue name="16.4.384" value="0" />
     </values>
   </locomotive>
+  <!--Written by JMRI version 5.15.3plus+jenkins+20260213T2025Z+R099362ba8c on Sat Feb 14 14:48:22 PST 2026-->
 </locomotive-config>

@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
   <locomotive id="SP 8250" fileName="SP_8250.xml" roadNumber="8250" roadName="Southern Pacific" mfg="Stewart" owner="223 Dan Wexler" model="F7B" dccAddress="6139" comment="DO NOT SEPARATE FROM SP 6139&#xA;" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
@@ -156,4 +155,5 @@
       <CVvalue name="106" value="0" />
     </values>
   </locomotive>
+  <!--Written by JMRI version 5.15.3plus+jenkins+20260213T2025Z+R099362ba8c on Sat Feb 14 15:01:00 PST 2026-->
 </locomotive-config>

@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
   <locomotive id="ATSF 5516" fileName="ATSF_5516.xml" roadNumber="5516" roadName="ATSF" mfg="OMI" owner="148 Kevin Schiller" model="SD45-2B" dccAddress="5516" comment="" developerID="-1" manufacturerID="141" productID="2102" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
@@ -1003,4 +1002,5 @@
       <CVvalue name="16.3.258" value="180" />
     </values>
   </locomotive>
+  <!--Written by JMRI version 5.15.3plus+jenkins+20260213T2025Z+R099362ba8c on Sat Feb 14 14:50:04 PST 2026-->
 </locomotive-config>

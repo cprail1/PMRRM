@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
   <locomotive id="Milw 26C" fileName="Milw_26C.xml" roadNumber="26C" roadName="Milwaukee Road" mfg="Walthers" owner="263 John Finnerty" model="C-liner" dccAddress="26" comment="Do not separate from MW 26A" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
@@ -381,4 +380,5 @@ Group TE: 61 / 53 / 45</value>
       <CVvalue name="252" value="0" />
     </values>
   </locomotive>
+  <!--Written by JMRI version 5.15.3plus+jenkins+20260213T2025Z+R099362ba8c on Sat Feb 14 14:55:24 PST 2026-->
 </locomotive-config>

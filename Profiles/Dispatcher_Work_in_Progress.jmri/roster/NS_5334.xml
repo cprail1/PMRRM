@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
   <locomotive id="NS 5334" fileName="NS_5334.xml" roadNumber="5334" roadName="Norfolk Southern" mfg="Proto 2000" owner="252 John Madriaga" model="GP38-2" dccAddress="5334" comment="Run with NS5280" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
@@ -149,4 +148,5 @@
       <CVvalue name="106" value="255" />
     </values>
   </locomotive>
+  <!--Written by JMRI version 5.15.3plus+jenkins+20260213T2025Z+R099362ba8c on Sat Feb 14 14:56:07 PST 2026-->
 </locomotive-config>

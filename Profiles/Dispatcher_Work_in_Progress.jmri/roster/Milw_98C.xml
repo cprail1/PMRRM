@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
   <locomotive id="Milw 98C" fileName="Milw_98C.xml" roadNumber="98C" roadName="Milwaukee Road" mfg="" owner="263 John Finnerty" model="FP7a" dccAddress="100" comment="Do not seperate from MW 100A and MW 115B" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
@@ -264,4 +263,5 @@
       <CVvalue name="106" value="1" />
     </values>
   </locomotive>
+  <!--Written by JMRI version 5.15.3plus+jenkins+20260213T2025Z+R099362ba8c on Sat Feb 14 14:55:40 PST 2026-->
 </locomotive-config>
