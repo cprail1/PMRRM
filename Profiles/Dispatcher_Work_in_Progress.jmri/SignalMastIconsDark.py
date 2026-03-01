@@ -1,9 +1,7 @@
 # HideSignalMastIcons.py
 #
 # This hides all the signal mast icons on the layout editor panel(s)
-# by setting them invislble.
-# It's used to simplify a panel by removing the signal mast icons.
-# Note this will not affect what's displayed on a dynamic web panel
+# by setting their "Lit" state to Unlit
 #
 # Bob Jacobsen  2025
 
