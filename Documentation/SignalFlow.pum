@@ -1,0 +1,9 @@
+@startuml
+Q1 -> "32H Mast 1": Set M1 to Stop
+"32H Mast 1" -> "32H Mast 1": transitions to Stop
+"32H Mast 1" -> Q2: Track Circuit 1 at Stop
+Q2 -> "32H Mast 2": Set M2 to Approach
+"32H Mast 2" -> "32H Mast 2": transitions to Approach
+"32H Mast 2" -> Q3: Track Circuit 2 at Approach
+
+@enduml
