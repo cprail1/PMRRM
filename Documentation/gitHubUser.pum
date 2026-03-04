@@ -1,11 +1,15 @@
 @startuml
 !pragma layout smetana
 
+database githubPeter [
+    GitHub cprail1/PMRRM
+]
+
+note left of githubPeter : Peter's repository
+
 database githubMain [
     GitHub bobjacobsen/PMRRM
 ]
-
-note right of githubMain : Master copy
 
 frame bob [
     Bob's laptop
@@ -20,18 +24,10 @@ together {
         electricalcrew PMRRM-snapshot
     ]
     
-'    frame pmrrmPeter [
-'        electricalcrew PMRRM-test
-'    ]
 }
 
-database githubPeter [
-    GitHub cprail1/PMRRM
-]
 
 githubMain --> githubPeter
-
-note left of githubPeter : Development copy
 
 frame peterLaptop [
     Peter's computer(s)
@@ -46,9 +42,6 @@ collections electricalcrew [
    electricalcrew "Dispatcher *" profiles
 ]
 
-'collections electricalcrewtest [
-'   electricalcrew "Test *" profiles
-']
 
 }
 

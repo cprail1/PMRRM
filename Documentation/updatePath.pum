@@ -1,28 +1,32 @@
 @startuml
 
-database githubMain [
-    GitHub bobjacobsen/PMRRM
-]
-
-note left of githubMain : Master copy
-
-frame bob [
-    Bob's laptop
-]
+left to right direction
 
 database githubPeter [
     GitHub cprail1/PMRRM
 ]
 
-githubMain -[bold]-> githubPeter : GitHub synch
+note left of githubPeter : Peter's main repository
 
-note right of githubPeter : Development copy
+database githubBob [
+    GitHub bobjacobsen/PMRRM
+]
+
+note left of githubBob : Bob's main repository
+
 
 frame peterLaptop [
     Peter's computer(s)
 ]
 
-githubMain <-- bob : " git push"
+frame bob [
+    Bob's laptop
+]
+
+
+githubBob -[bold]-> githubPeter : GitHub synch
+
+githubBob <-- bob : " git push"
 
 githubPeter --> bob : git fetch\ngit merge
 
