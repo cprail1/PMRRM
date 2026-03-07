@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="NYC 4076" fileName="NYC_4076.xml" roadNumber="4076" roadName="New York Central" mfg="Proto 2000" owner="234 MAB" model="E8a" dccAddress="4076" comment="passenger pool power" developerID="-1" manufacturerID="153" productID="16" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-    <dateUpdated>2024-10-21T20:57:11.929+00:00</dateUpdated>
+  <!--Written by JMRI version 5.15.4plus+jenkins+20260305T1324Z+R2910b939945 on Thu Mar 05 18:00:20 PST 2026-->
+  <locomotive id="NYC 4076" fileName="NYC_4076.xml" roadNumber="4076" roadName="New York Central" mfg="Proto 2000" owner="234 Martin Booker" model="E8a" dccAddress="4076" comment="passenger pool power" developerID="-1" manufacturerID="153" productID="16" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+    <dateUpdated>2026-03-06T02:00:20.103+00:00</dateUpdated>
     <decoder model="T4X" family="June 2007" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="4076" longaddress="yes" />
@@ -280,5 +281,4 @@
       <CVvalue name="252" value="0" />
     </values>
   </locomotive>
-  <!--Written by JMRI version 5.15.3plus+jenkins+20260213T2025Z+R099362ba8c on Sat Feb 14 14:56:33 PST 2026-->
 </locomotive-config>

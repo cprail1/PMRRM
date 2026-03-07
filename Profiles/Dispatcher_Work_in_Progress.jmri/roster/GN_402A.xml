@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="GN 402A" fileName="GN_402A.xml" roadNumber="402A" roadName="Great Northern" mfg="Stewart" owner="234 MAB" model="FT-ab" dccAddress="402" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-    <dateUpdated>2026-02-08T03:58:30.091+00:00</dateUpdated>
+  <!--Written by JMRI version 5.15.4plus+jenkins+20260305T1324Z+R2910b939945 on Thu Mar 05 17:50:57 PST 2026-->
+  <locomotive id="GN 402A" fileName="GN_402A.xml" roadNumber="402A" roadName="Great Northern" mfg="Stewart" owner="234 Martin Booker" model="FT-ab" dccAddress="402" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+    <dateUpdated>2026-03-06T01:50:57.527+00:00</dateUpdated>
     <decoder model="T1" family="Jan 2012" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="402" longaddress="yes" />
@@ -306,5 +307,4 @@
       <CVvalue name="181" value="4" />
     </values>
   </locomotive>
-  <!--Written by JMRI version 5.15.3plus+jenkins+20260213T2025Z+R099362ba8c on Sat Feb 14 14:54:55 PST 2026-->
 </locomotive-config>

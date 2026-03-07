@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
-<locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <!--Written by JMRI version 5.15.3plus+jenkins+20260213T2025Z+R099362ba8c on Thu Feb 26 13:43:51 PST 2026-->
-  <locomotive id="DRGW 3015" fileName="DRGW_3015.xml" roadNumber="3015" roadName="Denver &amp; Rio Grande Western" mfg="Broadway Limited" owner="John Finnerty" model="GP30" dccAddress="3015" comment="TE: 17, 14, 12" developerID="-1" manufacturerID="38" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-    <dateUpdated>2026-02-26T21:43:51.942+00:00</dateUpdated>
+<locomotive-config>
+  <!--Written by JMRI version 5.15.4plus+jenkins+20260305T1324Z+R2910b939945 on Thu Mar 05 17:52:41 PST 2026-->
+  <locomotive id="DRGW 3015" fileName="DRGW_3015.xml" roadNumber="3015" roadName="Denver &amp; Rio Grande Western" mfg="Broadway Limited" owner="263 John Finnerty" model="GP30" dccAddress="3015" comment="" developerID="-1" manufacturerID="38" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+    <dateUpdated>2026-03-06T01:52:41.678+00:00</dateUpdated>
     <decoder model="Diesel" family="Paragon 4" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="3015" longaddress="yes" />
@@ -42,6 +42,12 @@
       <functionlabel num="28" lockable="true" visible="true" functionImage="" functionImageSelected="">Brake Squeal</functionlabel>
     </functionlabels>
     <soundlabels />
+    <attributepairs>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>TE: 17, 14, 12</value>
+      </keyvaluepair>
+    </attributepairs>
     <values>
       <decoderDef>
         <varValue item="F0 Output Function" value="1" />

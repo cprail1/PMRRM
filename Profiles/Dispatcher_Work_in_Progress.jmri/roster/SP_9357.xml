@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
-<locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <!--Written by JMRI version 5.15.3plus+jenkins+20260213T2025Z+R099362ba8c on Sat Feb 28 11:26:48 PST 2026-->
-  <locomotive id="SP 9357" fileName="SP_9357.xml" roadNumber="9357" roadName="Southern Pacific" mfg="Athearn" owner="Kevin Schiller" model="SD45T-2" dccAddress="9357" comment="TE: 22, 18, 15" developerID="-1" manufacturerID="141" productID="6241" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-    <dateUpdated>2026-02-28T19:26:48.335+00:00</dateUpdated>
+<locomotive-config>
+  <!--Written by JMRI version 5.15.4plus+jenkins+20260305T1324Z+R2910b939945 on Thu Mar 05 17:49:42 PST 2026-->
+  <locomotive id="SP 9357" fileName="SP_9357.xml" roadNumber="9357" roadName="Southern Pacific" mfg="Athearn" owner="148 Kevin Schiller" model="SD45T-2" dccAddress="9357" comment="TE: 22, 18, 15" developerID="-1" manufacturerID="141" productID="6241" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+    <dateUpdated>2026-03-06T01:49:42.394+00:00</dateUpdated>
     <decoder model="ECO-RTR SD40T-2 8" family="Econami Diesel OEM Athearn" comment="F5 Gyralight F6 Red emergency light" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="9357" longaddress="yes" />

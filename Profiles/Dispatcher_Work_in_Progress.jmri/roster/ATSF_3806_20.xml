@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <!--Written by JMRI version 5.15.3plus+jenkins+20260206T0344Z+Rbfe7cf787e5 on Sat Feb 07 16:59:29 PST 2026-->
-  <locomotive id="ATSF 3806-2" fileName="ATSF_3806_2.xml" roadNumber="3806" roadName="Atchison, Topeka, and Santa Fe" mfg="" owner="223 Dan Wexler" model="2-10-2 " dccAddress="3806" comment="" developerID="-1" manufacturerID="101" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
-    <dateUpdated>2026-02-08T00:59:29.475+00:00</dateUpdated>
+  <!--Written by JMRI version 5.15.4plus+jenkins+20260227T1724Z+Ra9c1e78a138 on Thu Mar 05 16:02:48 PST 2026-->
+  <locomotive id="ATSF 3806-2" fileName="ATSF_3806_2.xml" roadNumber="3806" roadName="ATSF" mfg="" owner="223 Dan Wexler" model="2-10-2 " dccAddress="3806" comment="" developerID="-1" manufacturerID="101" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+    <dateUpdated>2026-03-06T00:02:48.969+00:00</dateUpdated>
     <decoder model="4 function decoder (36-550)" family="E-Z Command decoders" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="3806" longaddress="yes" />
@@ -128,4 +128,5 @@
       <CVvalue name="94" value="255" />
     </values>
   </locomotive>
+  <!--Written by JMRI version 5.15.4plus+jenkins+20260305T1324Z+R2910b939945 on Thu Mar 05 17:20:55 PST 2026-->
 </locomotive-config>
