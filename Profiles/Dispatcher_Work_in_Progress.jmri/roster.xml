@@ -5941,15 +5941,39 @@ Group TE: 65 / 48</value>
       </attributepairs>
     </locomotive>
     <locomotive id="BM 114" fileName="BM_114.xml" roadNumber="114" roadName="Boston &amp; Maine" mfg="Bachmann" owner="147 Bob Googooian" model="GE 44 Tonner" dccAddress="114" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-02-11T15:02:32.273+00:00</dateUpdated>
+      <dateUpdated>2026-03-07T21:09:47.334+00:00</dateUpdated>
       <decoder model="4 function decoder (36-550)" family="E-Z Command decoders" comment="" maxFnNum="28" />
       <locoaddress>
-        <dcclocoaddress number="114" longaddress="no" />
+        <dcclocoaddress number="114" longaddress="yes" />
         <number>114</number>
-        <protocol>dcc_short</protocol>
+        <protocol>dcc_long</protocol>
       </locoaddress>
       <functionlabels />
       <soundlabels />
+    </locomotive>
+    <locomotive id="BM 114-2" fileName="BM_114_2.xml" roadNumber="114" roadName="Boston &amp; Maine" mfg="Rapido" owner="147 Bob Googooian" model="GE 44 Tonner" dccAddress="114" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-03-07T21:15:48.728+00:00</dateUpdated>
+      <decoder model="LokSound 5 micro DCC" family="ESU LokSound 5" comment="" maxFnNum="31" />
+      <locoaddress>
+        <dcclocoaddress number="114" longaddress="yes" />
+        <number>114</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels>
+        <functionlabel num="0" lockable="true" visible="true" functionImage="" functionImageSelected="">Light</functionlabel>
+        <functionlabel num="1" lockable="true" visible="true" functionImage="" functionImageSelected="">Bell</functionlabel>
+        <functionlabel num="2" lockable="false" visible="true" functionImage="" functionImageSelected="">Horn</functionlabel>
+      </functionlabels>
+      <soundlabels>
+        <soundlabel num="33">Automatic brake sound</soundlabel>
+        <soundlabel num="34">Gear shift sound</soundlabel>
+      </soundlabels>
+      <attributepairs>
+        <keyvaluepair>
+          <key>TE</key>
+          <value>10 / 8 / 6</value>
+        </keyvaluepair>
+      </attributepairs>
     </locomotive>
     <locomotive id="BM 1749" fileName="BM_1749.xml" roadNumber="1749" roadName="Boston &amp; Maine" mfg="Athearn" owner="254 Aaron Gold" model="GP9" dccAddress="1749" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
       <dateUpdated>2026-02-08T03:58:26.702+00:00</dateUpdated>
@@ -9000,6 +9024,31 @@ Group TE: 65 / 48</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
+    <locomotive id="CBQ 1361" fileName="CBQ_1361.xml" roadNumber="1361" roadName="Chicago Burlington &amp; Quincy" mfg="Athearn" owner="148 Kevin Schiller" model="NE 13 Caboose" dccAddress="1361" comment="" developerID="-1" manufacturerID="11" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-03-07T22:42:10.418+00:00</dateUpdated>
+      <decoder model="Athearn Genesis Caboose" family="Rolling Stock Lighting" comment="" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="1361" longaddress="yes" />
+        <number>1361</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels>
+        <functionlabel num="0" lockable="true" visible="true" functionImage="" functionImageSelected="">Headlight</functionlabel>
+        <functionlabel num="1" lockable="true" visible="true" functionImage="" functionImageSelected="">not used</functionlabel>
+        <functionlabel num="2" lockable="true" visible="true" functionImage="" functionImageSelected="">not used</functionlabel>
+        <functionlabel num="3" lockable="true" visible="true" functionImage="" functionImageSelected="">FWD Sec Marker</functionlabel>
+        <functionlabel num="4" lockable="true" visible="true" functionImage="" functionImageSelected="">REV Sec Marker</functionlabel>
+        <functionlabel num="5" lockable="true" visible="true" functionImage="" functionImageSelected="">Interior</functionlabel>
+        <functionlabel num="6" lockable="true" visible="true" functionImage="" functionImageSelected="">AUX Lights</functionlabel>
+      </functionlabels>
+      <soundlabels />
+      <attributepairs>
+        <keyvaluepair>
+          <key>RosterGroup:CBQ</key>
+          <value>yes</value>
+        </keyvaluepair>
+      </attributepairs>
+    </locomotive>
     <locomotive id="CBQ 1364" fileName="CBQ_1364.xml" roadNumber="1364" roadName="Chicago, Burlington &amp; Quincy" mfg="Athearn" owner="148 Kevin Schiller" model="NE 13A caboose" dccAddress="1364" comment="decoder lit" developerID="-1" manufacturerID="11" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
       <dateUpdated>2025-09-06T18:22:19.866+00:00</dateUpdated>
       <decoder model="Athearn Genesis Caboose" family="Rolling Stock Lighting" comment="" maxFnNum="28" />
@@ -9528,6 +9577,42 @@ Group TE: 65 / 48</value>
           <value>TE: 44/31</value>
         </keyvaluepair>
       </attributepairs>
+    </locomotive>
+    <locomotive id="CITX 5392" fileName="CITX_5392.xml" roadNumber="5392" roadName="CIT Leasing" mfg="Bowser" owner="217 Peter Ely" model="GMD SD40-2" dccAddress="5392" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-03-07T23:04:15.997+00:00</dateUpdated>
+      <decoder model="LokSound Select OEM" family="ESU LokSound Select" comment="" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="5392" longaddress="yes" />
+        <number>5392</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels>
+        <functionlabel num="0" lockable="true" visible="true" functionImage="" functionImageSelected="">Light</functionlabel>
+        <functionlabel num="2" lockable="false" visible="true" functionImage="" functionImageSelected="">Horn</functionlabel>
+      </functionlabels>
+      <soundlabels>
+        <soundlabel num="25">Random sounds</soundlabel>
+        <soundlabel num="26">Automatic brake sound</soundlabel>
+        <soundlabel num="27">Gear shift sound</soundlabel>
+      </soundlabels>
+    </locomotive>
+    <locomotive id="CITX 5394" fileName="CITX_5394.xml" roadNumber="5394" roadName="CIT Leasing" mfg="Bowser" owner="217 Peter Ely" model="SMD SD40-2" dccAddress="5394" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-03-07T22:35:47.651+00:00</dateUpdated>
+      <decoder model="LokSound Select OEM" family="ESU LokSound Select" comment="" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="5394" longaddress="yes" />
+        <number>5394</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels>
+        <functionlabel num="0" lockable="true" visible="true" functionImage="" functionImageSelected="">Light</functionlabel>
+        <functionlabel num="2" lockable="false" visible="true" functionImage="" functionImageSelected="">Horn</functionlabel>
+      </functionlabels>
+      <soundlabels>
+        <soundlabel num="25">Random sounds</soundlabel>
+        <soundlabel num="26">Automatic brake sound</soundlabel>
+        <soundlabel num="27">Gear shift sound</soundlabel>
+      </soundlabels>
     </locomotive>
     <locomotive id="Climax 3" fileName="Climax_3.xml" roadNumber="3" roadName="Climax" mfg="Bachman Spectrum" owner="190 Brian Neely" model="Climax" dccAddress="30" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
       <dateUpdated>2026-02-08T03:58:28.131+00:00</dateUpdated>
@@ -10091,8 +10176,8 @@ Group TE: 65 / 48</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="CP 4715" fileName="CP_4715.xml" roadNumber="4715" roadName="Canadian Pacific" mfg="Bowser" owner="217 Peter Ely" model="C636" dccAddress="4715" comment="B UNIT MAY NOT LEAD CONSIST" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-02-08T05:44:02.022+00:00</dateUpdated>
+    <locomotive id="CP 4715" fileName="CP_4715.xml" roadNumber="4715" roadName="Canadian Pacific" mfg="Bowser" owner="217 Peter Ely" model="C636" dccAddress="4715" comment="B UNIT - MAY NOT LEAD CONSIST" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-03-07T21:49:21.778+00:00</dateUpdated>
       <decoder model="LokSound Select" family="ESU LokSound Select" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="4715" longaddress="yes" />
@@ -10119,8 +10204,8 @@ Group TE: 65 / 48</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="CP 4719" fileName="CP_4719.xml" roadNumber="4719" roadName="Canadian Pacific" mfg="Bowser" owner="217 Peter Ely" model="C636" dccAddress="4719" comment="B UNIT MAY NOT LEAD CONSIST" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-02-08T05:44:12.549+00:00</dateUpdated>
+    <locomotive id="CP 4719" fileName="CP_4719.xml" roadNumber="4719" roadName="Canadian Pacific" mfg="Bowser" owner="217 Peter Ely" model="C636" dccAddress="4719" comment="B UNIT - MAY NOT LEAD CONSIST" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-03-07T21:49:36.766+00:00</dateUpdated>
       <decoder model="LokSound Select" family="ESU LokSound Select" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="4719" longaddress="yes" />
@@ -10175,8 +10260,8 @@ Group TE: 65 / 48</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="CP 5648" fileName="CP_5648.xml" roadNumber="5648" roadName="Canadian Pacific" mfg="Bowser" owner="217 Peter Ely" model="SD40-2" dccAddress="5648" comment="CP unit coal train " developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-02-08T05:44:22.870+00:00</dateUpdated>
+    <locomotive id="CP 5648" fileName="CP_5648.xml" roadNumber="5648" roadName="Canadian Pacific" mfg="Bowser" owner="217 Peter Ely" model="GMD SD40-2" dccAddress="5648" comment="CP unit coal train " developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-03-07T21:48:57.808+00:00</dateUpdated>
       <decoder model="LokSound Select OEM" family="ESU LokSound Select" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="5648" longaddress="yes" />
@@ -10235,8 +10320,8 @@ Group TE: 65 / 48</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="CP 5726" fileName="CP_5726.xml" roadNumber="5726" roadName="Canadian Pacific " mfg="Bowser" owner="217 Peter Ely" model="SD40-2" dccAddress="5726" comment="CP unit coal train." developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-02-08T05:44:40.835+00:00</dateUpdated>
+    <locomotive id="CP 5726" fileName="CP_5726.xml" roadNumber="5726" roadName="Canadian Pacific " mfg="Bowser" owner="217 Peter Ely" model="GMD SD40-2" dccAddress="5726" comment="CP unit coal train." developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-03-07T21:49:04.566+00:00</dateUpdated>
       <decoder model="LokSound Select OEM" family="ESU LokSound Select" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="5726" longaddress="yes" />
@@ -10352,8 +10437,8 @@ Group TE: 65 / 48</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="CP 6046" fileName="CP_6046.xml" roadNumber="6046" roadName="Canadian Pacific" mfg="Bowser" owner="217 Peter Ely" model="SD40-2" dccAddress="6046" comment="CP unit coal train." developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-02-08T05:44:59.280+00:00</dateUpdated>
+    <locomotive id="CP 6046" fileName="CP_6046.xml" roadNumber="6046" roadName="Canadian Pacific" mfg="Bowser" owner="217 Peter Ely" model="GMD SD40-2" dccAddress="6046" comment="CP unit coal train." developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-03-07T21:49:13.497+00:00</dateUpdated>
       <decoder model="LokSound Select OEM" family="ESU LokSound Select" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="6046" longaddress="yes" />
@@ -12325,7 +12410,7 @@ Group TE: 52 / 45 / 38</value>
       </attributepairs>
     </locomotive>
     <locomotive id="CW 684" fileName="CW_684.xml" roadNumber="684" roadName="Chehalis Western" mfg="Bowser" owner="147 Bob Googooian" model="Alco C415" dccAddress="684" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-02-07T17:58:38.276+00:00</dateUpdated>
+      <dateUpdated>2026-03-07T21:24:22.270+00:00</dateUpdated>
       <decoder model="LokSound 5 DCC" family="ESU LokSound 5" comment="" maxFnNum="31" />
       <locoaddress>
         <dcclocoaddress number="684" longaddress="yes" />
@@ -12341,6 +12426,12 @@ Group TE: 52 / 45 / 38</value>
         <soundlabel num="33">Automatic brake sound</soundlabel>
         <soundlabel num="34">Gear shift sound</soundlabel>
       </soundlabels>
+      <attributepairs>
+        <keyvaluepair>
+          <key>TE</key>
+          <value>15 / 12 / 10</value>
+        </keyvaluepair>
+      </attributepairs>
     </locomotive>
     <locomotive id="D&amp;RGW 5353" fileName="D_RGW_5353.xml" roadNumber="5353" roadName="D&amp;RGW" mfg="Athearn Genesis" owner="J270 Matthew J Zepeda " model="SD40T-2" dccAddress="5353" comment="" developerID="-1" manufacturerID="141" productID="6240" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
       <dateUpdated>2026-02-08T03:58:29.300+00:00</dateUpdated>
@@ -12499,6 +12590,27 @@ Group TE: 52 / 45 / 38</value>
         <dcclocoaddress number="0" longaddress="yes" />
         <number>0</number>
         <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels />
+      <soundlabels />
+      <attributepairs>
+        <keyvaluepair>
+          <key>RosterGroup:Caboose</key>
+          <value>yes</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>RosterGroup:DRGW</key>
+          <value>yes</value>
+        </keyvaluepair>
+      </attributepairs>
+    </locomotive>
+    <locomotive id="DRGW 01438" fileName="DRGW_01438.xml" roadNumber="01438" roadName="Denver &amp; Rio Grande Western" mfg="Rapido" owner="Kevin Schiller" model="Cupola Caboose" dccAddress="3" comment="" developerID="-1" manufacturerID="1000" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-03-07T18:33:48.396+00:00</dateUpdated>
+      <decoder model="No Decoder" family="No Decoder" comment="" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="3" longaddress="no" />
+        <number>3</number>
+        <protocol>dcc_short</protocol>
       </locoaddress>
       <functionlabels />
       <soundlabels />
@@ -17395,8 +17507,8 @@ Group TE: 70 / 51</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="NYC 4070" fileName="NYC_4070.xml" roadNumber="4070" roadName="New York Central" mfg="Proto 2000" owner="234 MAB" model="E8a" dccAddress="4070" comment="Passenger pool power" developerID="-1" manufacturerID="153" productID="16" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2024-10-21T20:48:09.662+00:00</dateUpdated>
+    <locomotive id="NYC 4070" fileName="NYC_4070.xml" roadNumber="4070" roadName="New York Central" mfg="Proto 2000" owner="234 Martin Booker" model="E8a" dccAddress="4070" comment="Passenger pool power" developerID="-1" manufacturerID="153" productID="16" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-03-07T22:42:49.777+00:00</dateUpdated>
       <decoder model="T4X" family="June 2007" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="4070" longaddress="yes" />
@@ -18182,7 +18294,7 @@ Group TE: 70 / 51</value>
       </attributepairs>
     </locomotive>
     <locomotive id="ONR 1730" fileName="ONR_1730.xml" roadNumber="1730" roadName="Ontario Northland" mfg="Bowser" owner="217 Peter Ely" model="SD40-2 (GMDD)" dccAddress="1730" comment="Unit train: ONR and/or CNR barrel ore cars.&lt;?p?&gt;Canadian National and/or &lt;?p?&gt;Ontario Northland joint service" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-02-08T03:58:31.537+00:00</dateUpdated>
+      <dateUpdated>2026-03-07T23:12:18.075+00:00</dateUpdated>
       <decoder model="LokSound Select OEM" family="ESU LokSound Select" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="1730" longaddress="yes" />
@@ -18204,6 +18316,24 @@ Group TE: 70 / 51</value>
           <value>24 / 16</value>
         </keyvaluepair>
       </attributepairs>
+    </locomotive>
+    <locomotive id="ONR 1730-2" fileName="ONR_1730_2.xml" roadNumber="1730" roadName="Ontario Northland" mfg="Bowser" owner="217 Peter Ely" model="SD40-2 (GMDD)" dccAddress="1730" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-03-07T23:08:12.949+00:00</dateUpdated>
+      <decoder model="LokSound 5 DCC" family="ESU LokSound 5" comment="" maxFnNum="31" />
+      <locoaddress>
+        <dcclocoaddress number="1730" longaddress="yes" />
+        <number>1730</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels>
+        <functionlabel num="0" lockable="true" visible="true" functionImage="" functionImageSelected="">Light</functionlabel>
+        <functionlabel num="1" lockable="true" visible="true" functionImage="" functionImageSelected="">Bell</functionlabel>
+        <functionlabel num="2" lockable="false" visible="true" functionImage="" functionImageSelected="">Horn</functionlabel>
+      </functionlabels>
+      <soundlabels>
+        <soundlabel num="33">Automatic brake sound</soundlabel>
+        <soundlabel num="34">Gear shift sound</soundlabel>
+      </soundlabels>
     </locomotive>
     <locomotive id="ONR 1732" fileName="ONR_1732.xml" roadNumber="1732" roadName="Ontario Northland" mfg="Bowser" owner="217 Peter Ely" model="SD40-2 (GMDD)" dccAddress="1732" comment="Unit train: ONR and/or CNR barrel ore cars.&lt;?p?&gt;Canadian National and/or &lt;?p?&gt;Ontario Northland joint service" developerID="-1" manufacturerID="151" productID="33554533,33554570" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
       <dateUpdated>2026-02-08T03:58:31.555+00:00</dateUpdated>
@@ -18230,7 +18360,7 @@ Group TE: 70 / 51</value>
       </attributepairs>
     </locomotive>
     <locomotive id="ONR 1733" fileName="ONR_1733.xml" roadNumber="1733" roadName="Ontario Northland" mfg="Bowser" owner="217 Peter Ely" model="SD40-2 (GMDD)" dccAddress="1733" comment="Unit train: ONR and/or CNR barrel ore cars.&lt;?p?&gt;Canadian National and/or &lt;?p?&gt;Ontario Northland joint service" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-02-08T03:58:31.576+00:00</dateUpdated>
+      <dateUpdated>2026-03-07T23:09:58.624+00:00</dateUpdated>
       <decoder model="LokSound Select OEM" family="ESU LokSound Select" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="1733" longaddress="yes" />
@@ -18252,6 +18382,42 @@ Group TE: 70 / 51</value>
           <value>24 / 16</value>
         </keyvaluepair>
       </attributepairs>
+    </locomotive>
+    <locomotive id="ONR 1733-2" fileName="ONR_1733_2.xml" roadNumber="1733" roadName="Ontario Northland" mfg="Bowser" owner="217 Peter Ely" model="SD40-2 (GMDD)" dccAddress="1733" comment="Unit train: ONR and/or CNR barrel ore cars.&lt;?p?&gt;Canadian National and/or &lt;?p?&gt;Ontario Northland joint serviceUnweathered" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-03-07T22:44:45.460+00:00</dateUpdated>
+      <decoder model="LokSound 5 DCC" family="ESU LokSound 5" comment="" maxFnNum="31" />
+      <locoaddress>
+        <dcclocoaddress number="1733" longaddress="yes" />
+        <number>1733</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels>
+        <functionlabel num="0" lockable="true" visible="true" functionImage="" functionImageSelected="">Light</functionlabel>
+        <functionlabel num="1" lockable="true" visible="true" functionImage="" functionImageSelected="">Bell</functionlabel>
+        <functionlabel num="2" lockable="false" visible="true" functionImage="" functionImageSelected="">Horn</functionlabel>
+      </functionlabels>
+      <soundlabels>
+        <soundlabel num="33">Automatic brake sound</soundlabel>
+        <soundlabel num="34">Gear shift sound</soundlabel>
+      </soundlabels>
+    </locomotive>
+    <locomotive id="ONR 1735" fileName="ONR_1735.xml" roadNumber="1735" roadName="Ontario Northland" mfg="Bowser" owner="217 Peter Ely" model="SD40-2 (GMDD)" dccAddress="1735" comment="Unit train: ONR and/or CNR barrel ore cars. Unweathered&lt;?p?&gt;Canadian National and/or &lt;?p?&gt;Ontario Northland joint service" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-03-07T22:48:07.379+00:00</dateUpdated>
+      <decoder model="LokSound 5 DCC" family="ESU LokSound 5" comment="" maxFnNum="31" />
+      <locoaddress>
+        <dcclocoaddress number="1735" longaddress="yes" />
+        <number>1735</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels>
+        <functionlabel num="0" lockable="true" visible="true" functionImage="" functionImageSelected="">Light</functionlabel>
+        <functionlabel num="1" lockable="true" visible="true" functionImage="" functionImageSelected="">Bell</functionlabel>
+        <functionlabel num="2" lockable="false" visible="true" functionImage="" functionImageSelected="">Horn</functionlabel>
+      </functionlabels>
+      <soundlabels>
+        <soundlabel num="33">Automatic brake sound</soundlabel>
+        <soundlabel num="34">Gear shift sound</soundlabel>
+      </soundlabels>
     </locomotive>
     <locomotive id="OSR 180" fileName="OSR_180.xml" roadNumber="180" roadName="Ontario Southland Railway" mfg="Rapido" owner="217 Peter Ely" model="RS-18u" dccAddress="180" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
       <dateUpdated>2023-12-14T21:08:29.082+00:00</dateUpdated>
@@ -19109,6 +19275,42 @@ Group TE: 70 / 51</value>
         <functionlabel num="28" lockable="true" visible="true" functionImage="" functionImageSelected="">FX7,8 Output</functionlabel>
       </functionlabels>
       <soundlabels />
+    </locomotive>
+    <locomotive id="PLLX" fileName="PLLX.xml" roadNumber="301" roadName="Progress Locomotive" mfg="Bowser" owner="217 Peter Ely" model="SD40-2 (GMDD)" dccAddress="301" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-03-07T22:54:24.429+00:00</dateUpdated>
+      <decoder model="LokSound Select OEM" family="ESU LokSound Select" comment="" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="301" longaddress="yes" />
+        <number>301</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels>
+        <functionlabel num="0" lockable="true" visible="true" functionImage="" functionImageSelected="">Light</functionlabel>
+        <functionlabel num="2" lockable="false" visible="true" functionImage="" functionImageSelected="">Horn</functionlabel>
+      </functionlabels>
+      <soundlabels>
+        <soundlabel num="25">Random sounds</soundlabel>
+        <soundlabel num="26">Automatic brake sound</soundlabel>
+        <soundlabel num="27">Gear shift sound</soundlabel>
+      </soundlabels>
+    </locomotive>
+    <locomotive id="PLLX 8105" fileName="PLLX_8105.xml" roadNumber="8105" roadName="Progress Rail Leasing" mfg="Bowser" owner="217 Peter Ely" model="SD40-32 (GMDD)" dccAddress="8105" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-03-07T22:57:37.120+00:00</dateUpdated>
+      <decoder model="LokSound Select OEM" family="ESU LokSound Select" comment="" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="8105" longaddress="yes" />
+        <number>8105</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels>
+        <functionlabel num="0" lockable="true" visible="true" functionImage="" functionImageSelected="">Light</functionlabel>
+        <functionlabel num="2" lockable="false" visible="true" functionImage="" functionImageSelected="">Horn</functionlabel>
+      </functionlabels>
+      <soundlabels>
+        <soundlabel num="25">Random sounds</soundlabel>
+        <soundlabel num="26">Automatic brake sound</soundlabel>
+        <soundlabel num="27">Gear shift sound</soundlabel>
+      </soundlabels>
     </locomotive>
     <locomotive id="Polar Express 1225" fileName="Polar_Express_1225.xml" roadNumber="1225" roadName="Polar Express" mfg="Lionel" owner="108 Ron Wong " model="N-1 Berkshire" dccAddress="1225" comment="" developerID="-1" manufacturerID="141" productID="2108" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
       <dateUpdated>2026-02-23T02:15:50.537+00:00</dateUpdated>

@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
-<locomotive-config>
+<locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
+  <!--Written by JMRI version 5.15.4plus+jenkins+20260305T1324Z+R2910b939945 on Sat Mar 07 15:12:18 PST 2026-->
   <locomotive id="ONR 1730" fileName="ONR_1730.xml" roadNumber="1730" roadName="Ontario Northland" mfg="Bowser" owner="217 Peter Ely" model="SD40-2 (GMDD)" dccAddress="1730" comment="Unit train: ONR and/or CNR barrel ore cars.&#xA;Canadian National and/or &#xA;Ontario Northland joint service" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-    <dateUpdated>2026-02-08T03:58:31.537+00:00</dateUpdated>
+    <dateUpdated>2026-03-07T23:12:18.075+00:00</dateUpdated>
     <decoder model="LokSound Select OEM" family="ESU LokSound Select" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="1730" longaddress="yes" />
@@ -5440,6 +5441,4 @@
       <CVvalue name="16.4.384" value="0" />
     </values>
   </locomotive>
-  <!--Written by JMRI version 5.15.3plus+jenkins+20260213T2025Z+R099362ba8c on Sat Feb 14 14:56:57 PST 2026-->
-  <!--Written by JMRI version 5.15.4plus+jenkins+20260305T1324Z+R2910b939945 on Thu Mar 05 17:26:59 PST 2026-->
 </locomotive-config>
