@@ -55,7 +55,7 @@ class MenuItemDisable(jmri.jmrit.automat.AbstractAutomaton) :
         self.waitMsec(8000)
 
         thisUser = java.lang.System.getProperty("user.name")
-        thisUser = "dispatch"  # here for debugging, comment out for normal operation
+        # thisUser = "dispatch"  # here for debugging, comment out for normal operation
         desiredUser = "dispatch"
         if thisUser != desiredUser:
             self.log.info("Skip disabling menu items because user '{}' is not '{}'", thisUser, desiredUser)
