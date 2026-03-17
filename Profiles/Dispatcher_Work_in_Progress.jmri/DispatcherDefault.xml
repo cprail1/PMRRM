@@ -15741,358 +15741,6 @@
     </conditional>
   </conditionals>
   <timebase class="jmri.jmrit.simpleclock.configurexml.SimpleTimebaseXml" rate="1.0" startrate="1.0" run="yes" master="yes" sync="no" correct="no" display="no" startstopped="no" startrunning="yes" startsettime="no" startclockoption="0" showbutton="no" startsetrate="yes" />
-  <entryexitpairs class="jmri.jmrit.entryexit.configurexml.EntryExitPairsXml">
-    <layoutPanel name="PMRRM Dispatcher">
-      <source type="sensor" item="NX-D2-WB">
-        <destination type="sensor" item="NX-E2-WB" nxType="fullinterlocking" uniqueid="IN:a4cef441-bb58-4525-b199-d1d52357e4f6" />
-        <destination type="sensor" item="NX-E1-WB" nxType="fullinterlocking" uniqueid="IN:c3f247a7-3a57-4829-9318-8970b22192dc" />
-      </source>
-      <source type="sensor" item="NX-D3-WB">
-        <destination type="sensor" item="NX-E3-WB" nxType="fullinterlocking" uniqueid="IN:c198a902-b112-4039-9e6c-ad25b69180a1" />
-        <destination type="sensor" item="NX-E2-WB" nxType="fullinterlocking" uniqueid="IN:d236689d-8382-4555-ad88-198169227baf" />
-        <destination type="sensor" item="NX-E1-WB" nxType="fullinterlocking" uniqueid="IN:82476c75-4c05-4b18-88a1-320f7625f7cc" />
-        <destination type="sensor" item="NX-E2-EB" nxType="fullinterlocking" uniqueid="IN:7db7e935-cc9b-4048-93bb-57b3b6083a56" />
-      </source>
-      <source type="sensor" item="NX-D4-WB">
-        <destination type="sensor" item="NX-E3-WB" nxType="fullinterlocking" uniqueid="IN:fa06fef3-d3cc-45d6-9c09-1f3d302fe61a" />
-        <destination type="sensor" item="NX-E2-WB" nxType="fullinterlocking" uniqueid="IN:22a24c37-37b2-40bd-b574-eac8a3fe16a9" />
-        <destination type="sensor" item="NX-E1-WB" nxType="fullinterlocking" uniqueid="IN:b46d110d-7b10-4724-9bbb-82ffb52bcd6b" />
-      </source>
-      <source type="sensor" item="NX-D1-EB">
-        <destination type="sensor" item="NX-B1-EB" nxType="fullinterlocking" uniqueid="IN:93c671ef-afb7-4859-9f67-d128b963f027" />
-        <destination type="sensor" item="NX-B2-EB" nxType="fullinterlocking" uniqueid="IN:b8470ffe-7d25-4647-80f0-837931fd130e" />
-        <destination type="sensor" item="NX-B3-EB" nxType="fullinterlocking" uniqueid="IN:a3c9e5b7-0c15-4562-aed5-6504695ed432" />
-        <destination type="sensor" item="NX-B4-EB" nxType="fullinterlocking" uniqueid="IN:54e57b78-9b37-4fee-a45f-ff9d45dbb8f8" />
-      </source>
-      <source type="sensor" item="NX-D2-EB">
-        <destination type="sensor" item="NX-B1-EB" nxType="fullinterlocking" uniqueid="IN:3aed985d-73e7-45f2-930a-0c180a971226" />
-        <destination type="sensor" item="NX-B2-EB" nxType="fullinterlocking" uniqueid="IN:b39cda1d-810a-4270-837b-3b9b530c0702" />
-        <destination type="sensor" item="NX-B3-EB" nxType="fullinterlocking" uniqueid="IN:1461b288-9194-42cd-b77c-104a6a3519ec" />
-        <destination type="sensor" item="NX-B4-EB" nxType="fullinterlocking" uniqueid="IN:bac63386-3061-4e97-abbf-40f4be4459a0" />
-      </source>
-      <source type="sensor" item="NX-D3-EB">
-        <destination type="sensor" item="NX-B1-EB" nxType="fullinterlocking" uniqueid="IN:9b639999-fec9-4b2a-8b30-7290cf280076" />
-        <destination type="sensor" item="NX-B2-EB" nxType="fullinterlocking" uniqueid="IN:5a6ffb08-9042-42a3-b673-0c880e2c4be3" />
-        <destination type="sensor" item="NX-B3-EB" nxType="fullinterlocking" uniqueid="IN:4a3d7910-3bb2-41ec-ba5c-7f4ce14fd544" />
-        <destination type="sensor" item="NX-B4-EB" nxType="fullinterlocking" uniqueid="IN:570ca696-6a5d-4965-a780-d7c0fe1fca60" />
-      </source>
-      <source type="sensor" item="NX-D4-EB">
-        <destination type="sensor" item="NX-B1-EB" nxType="fullinterlocking" uniqueid="IN:efc70249-0704-4917-b549-ef194c7cc85b" />
-        <destination type="sensor" item="NX-B2-EB" nxType="fullinterlocking" uniqueid="IN:2398708c-d1c9-43a1-9224-ef370c09767c" />
-        <destination type="sensor" item="NX-B3-EB" nxType="fullinterlocking" uniqueid="IN:5af08033-f5e2-48e6-9998-0b0e95b70903" />
-        <destination type="sensor" item="NX-B4-EB" nxType="fullinterlocking" uniqueid="IN:167fcfff-7ea7-4386-a878-610a046daec7" />
-      </source>
-      <source type="sensor" item="NX-Troy3-WB">
-        <destination type="sensor" item="NX-UptonM-WB" nxType="fullinterlocking" uniqueid="IN:2e0d5b2e-39b7-4ffd-bebf-0281179da744" />
-        <destination type="sensor" item="NX-UptonS-WB" nxType="fullinterlocking" uniqueid="IN:abfa69cb-982a-4f8a-a1a8-f01f0722823f" />
-      </source>
-      <source type="sensor" item="NX-Troy3-EB">
-        <destination type="sensor" item="NX-SierraM-EB" nxType="fullinterlocking" uniqueid="IN:ff7009fc-ebb1-43c4-8ea2-7c99eaa3964c" />
-        <destination type="sensor" item="NX-SierraS-EB" nxType="fullinterlocking" uniqueid="IN:8d0d1f44-5a4d-4f47-bb31-aefd516c0b2c" />
-      </source>
-      <source type="sensor" item="NX-HS-EB">
-        <destination type="sensor" item="NX-GM-EB" nxType="fullinterlocking" uniqueid="IN:90fddbee-a496-4371-909d-39a96a7d6387" />
-        <destination type="sensor" item="NX-E1-EB" nxType="fullinterlocking" uniqueid="IN:9e9fb75e-28de-429e-b403-82a21ef287af" />
-        <destination type="sensor" item="NX-E2-EB" nxType="fullinterlocking" uniqueid="IN:73b579fd-b891-46c2-8313-808e3e9a99a6" />
-      </source>
-      <source type="sensor" item="NX-GS-WB">
-        <destination type="sensor" item="NX-HM-WB" nxType="fullinterlocking" uniqueid="IN:2ca7e2b5-32da-47a4-a64a-2e30d27c7ff0" />
-      </source>
-      <source type="sensor" item="NX-WhiskeyS2-EB">
-        <destination type="sensor" item="NX-VistaM-EB" nxType="fullinterlocking" uniqueid="IN:654ed8d4-3b9d-4c1b-a2fb-ce390139771f" />
-        <destination type="sensor" item="NX-VistaS-EB" nxType="fullinterlocking" uniqueid="IN:e108481c-2b43-49d6-930b-91d524620b5e" />
-      </source>
-      <source type="sensor" item="NX-WhiskeyM-EB">
-        <destination type="sensor" item="NX-VistaM-EB" nxType="fullinterlocking" uniqueid="IN:c1c4ca30-0bad-4647-a34a-38ce6bb36c36" />
-        <destination type="sensor" item="NX-VistaS-EB" nxType="fullinterlocking" uniqueid="IN:6d70760c-1223-45dd-9e80-daa12d90d2e2" />
-      </source>
-      <source type="sensor" item="NX-WhiskeyS1-EB">
-        <destination type="sensor" item="NX-VistaM-EB" nxType="fullinterlocking" uniqueid="IN:908afc98-13b0-4357-838d-cf120f0d10b6" />
-        <destination type="sensor" item="NX-VistaS-EB" nxType="fullinterlocking" uniqueid="IN:d91f2a12-ec67-4c82-b283-349fa3bdb066" />
-      </source>
-      <source type="sensor" item="NX-VistaM-WB">
-        <destination type="sensor" item="NX-WhiskeyS2-WB" nxType="fullinterlocking" uniqueid="IN:216d419b-19ed-4dde-9f7f-b201448f27f1" />
-        <destination type="sensor" item="NX-WhiskeyM-WB" nxType="fullinterlocking" uniqueid="IN:efa8dff8-40a3-48ad-9bd4-02f9c34420e4" />
-        <destination type="sensor" item="NX-WhiskeyS1-WB" nxType="fullinterlocking" uniqueid="IN:94f3d5d8-4345-4142-aac4-dbb68bad7850" />
-      </source>
-      <source type="sensor" item="NX-VistaS-WB">
-        <destination type="sensor" item="NX-WhiskeyS2-WB" nxType="fullinterlocking" uniqueid="IN:0b21f025-2757-4a11-9963-efbf0e0e7c85" />
-        <destination type="sensor" item="NX-WhiskeyM-WB" nxType="fullinterlocking" uniqueid="IN:01fe2ec2-f2b6-4b8b-a234-09cb9002c666" />
-        <destination type="sensor" item="NX-WhiskeyS1-WB" nxType="fullinterlocking" uniqueid="IN:1baf0b8d-e67f-446c-bbfd-f887ee5dee76" />
-      </source>
-      <source type="sensor" item="NX-VistaM-EB">
-        <destination type="sensor" item="NX-UptonM-EB" nxType="fullinterlocking" uniqueid="IN:81a3e19f-b388-4d4d-a3a5-7326d623edaf" />
-        <destination type="sensor" item="NX-UptonS-EB" nxType="fullinterlocking" uniqueid="IN:01fe8bb6-8edd-4635-a189-6a54f9811a8d" />
-      </source>
-      <source type="sensor" item="NX-VistaS-EB">
-        <destination type="sensor" item="NX-UptonM-EB" nxType="fullinterlocking" uniqueid="IN:f06f7193-e031-4d46-ad35-bc938dbca6e8" />
-        <destination type="sensor" item="NX-UptonS-EB" nxType="fullinterlocking" uniqueid="IN:9a457410-90eb-4f68-944f-bd874414a52f" />
-      </source>
-      <source type="sensor" item="NX-TroyM-WB">
-        <destination type="sensor" item="NX-UptonM-WB" nxType="fullinterlocking" uniqueid="IN:1097cec7-5950-4457-b619-9897acb4a5f3" />
-        <destination type="sensor" item="NX-UptonS-WB" nxType="fullinterlocking" uniqueid="IN:a8e8c9db-5b91-4467-ae1e-e66ee45b9e24" />
-      </source>
-      <source type="sensor" item="NX-TroyS-WB">
-        <destination type="sensor" item="NX-UptonM-WB" nxType="fullinterlocking" uniqueid="IN:40c03e67-7adb-4991-8e41-393b52c76d21" />
-        <destination type="sensor" item="NX-UptonS-WB" nxType="fullinterlocking" uniqueid="IN:21bd886e-d7bb-4964-9b70-08c8ab309bd7" />
-      </source>
-      <source type="sensor" item="NX-TroyM-EB">
-        <destination type="sensor" item="NX-SierraM-EB" nxType="fullinterlocking" uniqueid="IN:3221c63a-d3e1-48c4-b4f9-ddbd3c02d309" />
-        <destination type="sensor" item="NX-SierraS-EB" nxType="fullinterlocking" uniqueid="IN:a929b55c-7a76-4fcc-881a-3b15f7a21cfe" />
-      </source>
-      <source type="sensor" item="NX-TroyS-EB">
-        <destination type="sensor" item="NX-SierraM-EB" nxType="fullinterlocking" uniqueid="IN:38a2ff53-55a3-40c3-bfeb-3c5231bb76c1" />
-        <destination type="sensor" item="NX-SierraS-EB" nxType="fullinterlocking" uniqueid="IN:f3084d83-c010-411b-bf39-bc6b72dc5f68" />
-      </source>
-      <source type="sensor" item="NX-SierraM-WB">
-        <destination type="sensor" item="NX-Troy3-WB" nxType="fullinterlocking" uniqueid="IN:c7904d2d-6380-4793-9550-68bfe20f0d17" />
-        <destination type="sensor" item="NX-TroyM-WB" nxType="fullinterlocking" uniqueid="IN:2d5be696-c5cc-4999-852c-ab7c1d90477a" />
-        <destination type="sensor" item="NX-TroyS-WB" nxType="fullinterlocking" uniqueid="IN:2ab2f9bf-9ca4-40ef-992d-0ae49e3dc77f" />
-      </source>
-      <source type="sensor" item="NX-SierraS-WB">
-        <destination type="sensor" item="NX-Troy3-WB" nxType="fullinterlocking" uniqueid="IN:74e80d2e-72d4-40c4-968b-078ffcdf1c2d" />
-        <destination type="sensor" item="NX-TroyM-WB" nxType="fullinterlocking" uniqueid="IN:5ff65649-c9ee-46a4-b623-d8d753b38b5a" />
-        <destination type="sensor" item="NX-TroyS-WB" nxType="fullinterlocking" uniqueid="IN:777828e0-fed4-4456-a39f-37d71bbde047" />
-      </source>
-      <source type="sensor" item="NX-SierraM-EB">
-        <destination type="sensor" item="NX-RedcliffM-EB" nxType="fullinterlocking" uniqueid="IN:7af0362f-0f81-4c9e-b72e-26efc7321ae5" />
-        <destination type="sensor" item="NX-RedcliffS-EB" nxType="fullinterlocking" uniqueid="IN:e475fb49-4781-49fc-91a9-0d2f481a400b" />
-      </source>
-      <source type="sensor" item="NX-SierraS-EB">
-        <destination type="sensor" item="NX-RedcliffM-EB" nxType="fullinterlocking" uniqueid="IN:d6bf4702-b700-4b10-9c2c-7adfd96d26ed" />
-        <destination type="sensor" item="NX-RedcliffS-EB" nxType="fullinterlocking" uniqueid="IN:822f2bc5-8fb4-4ff7-8b63-f132b6a1f1d0" />
-      </source>
-      <source type="sensor" item="NX-RedcliffM-WB">
-        <destination type="sensor" item="NX-Troy3-WB" nxType="fullinterlocking" uniqueid="IN:0675233e-ae7d-4b2c-bbaf-31da3af167d0" />
-        <destination type="sensor" item="NX-TroyM-WB" nxType="fullinterlocking" uniqueid="IN:61effffd-7c45-494d-aaa4-df4d34616eaa" />
-        <destination type="sensor" item="NX-TroyS-WB" nxType="fullinterlocking" uniqueid="IN:e0f1318a-23a9-420a-9519-b1750dd08a15" />
-        <destination type="sensor" item="NX-SierraM-WB" nxType="fullinterlocking" uniqueid="IN:9eb6bc3b-fcce-4ff4-963a-eef734a4597e" />
-        <destination type="sensor" item="NX-SierraS-WB" nxType="fullinterlocking" uniqueid="IN:48fd270d-d89c-43a4-ae54-62f4b3a772cd" />
-      </source>
-      <source type="sensor" item="NX-RedcliffS-WB">
-        <destination type="sensor" item="NX-Troy3-WB" nxType="fullinterlocking" uniqueid="IN:837be655-4f4f-42c4-a01a-a2b6d632b0cd" />
-        <destination type="sensor" item="NX-TroyM-WB" nxType="fullinterlocking" uniqueid="IN:aa99d185-2cb2-48b4-8813-ae469a05c833" />
-        <destination type="sensor" item="NX-TroyS-WB" nxType="fullinterlocking" uniqueid="IN:7d84b5ab-f897-4c8a-97a8-eba26ff3ca80" />
-        <destination type="sensor" item="NX-SierraM-WB" nxType="fullinterlocking" uniqueid="IN:46a9f8cc-cee0-439d-823d-58386ec32003" />
-        <destination type="sensor" item="NX-SierraS-WB" nxType="fullinterlocking" uniqueid="IN:288cc688-1633-472e-b0bf-3d04354db416" />
-      </source>
-      <source type="sensor" item="NX-RedcliffM-EB">
-        <destination type="sensor" item="NX-PDM-EB" nxType="fullinterlocking" uniqueid="IN:01f758f6-919f-4c36-8c91-2f1cc24ed81c" />
-        <destination type="sensor" item="NX-PDS-EB" nxType="fullinterlocking" uniqueid="IN:e32ca721-458f-4966-a477-e5e87d61bf31" />
-      </source>
-      <source type="sensor" item="NX-RedcliffS-EB">
-        <destination type="sensor" item="NX-PDM-EB" nxType="fullinterlocking" uniqueid="IN:b55d47f2-2c38-4fe6-9115-9f0cb213df4b" />
-        <destination type="sensor" item="NX-PDS-EB" nxType="fullinterlocking" uniqueid="IN:e4a31114-6042-4cb1-a7f8-9cbf87a74588" />
-      </source>
-      <source type="sensor" item="NX-PDM-WB">
-        <destination type="sensor" item="NX-RedcliffM-WB" nxType="fullinterlocking" uniqueid="IN:44b23d8d-ecba-4093-9380-1c192d59648d" />
-        <destination type="sensor" item="NX-RedcliffS-WB" nxType="fullinterlocking" uniqueid="IN:3b86b2ac-9321-465d-bcbc-cf57d6244ebe" />
-      </source>
-      <source type="sensor" item="NX-PDS-WB">
-        <destination type="sensor" item="NX-RedcliffM-WB" nxType="fullinterlocking" uniqueid="IN:0dbd11c5-c2fa-492c-844b-a070f502800f" />
-        <destination type="sensor" item="NX-RedcliffS-WB" nxType="fullinterlocking" uniqueid="IN:4e63d344-38bd-474e-9c8c-bfec7ad8a166" />
-      </source>
-      <source type="sensor" item="NX-PDM-EB">
-        <destination type="sensor" item="NX-OsageM-EB" nxType="fullinterlocking" uniqueid="IN:8c9792f3-86a4-4e7a-98d9-9f89fad7a5b1" />
-        <destination type="sensor" item="NX-OsageS-EB" nxType="fullinterlocking" uniqueid="IN:8d2dc747-7250-40f5-89cc-bf8d422b5c49" />
-      </source>
-      <source type="sensor" item="NX-PDS-EB">
-        <destination type="sensor" item="NX-OsageM-EB" nxType="fullinterlocking" uniqueid="IN:c67e6b73-99cc-40c0-ab38-20ba4f723f91" />
-        <destination type="sensor" item="NX-OsageS-EB" nxType="fullinterlocking" uniqueid="IN:f1885f22-8eda-46ea-9b37-802bd618ec21" />
-      </source>
-      <source type="sensor" item="NX-UptonM-EB">
-        <destination type="sensor" item="NX-Troy3-EB" nxType="fullinterlocking" uniqueid="IN:6508839f-e6ef-426a-9105-875d31d0a87c" />
-        <destination type="sensor" item="NX-TroyM-EB" nxType="fullinterlocking" uniqueid="IN:338fe680-8340-4440-bc8f-87d8e4dc6be1" />
-        <destination type="sensor" item="NX-TroyS-EB" nxType="fullinterlocking" uniqueid="IN:b4bdcf7f-cf3a-4015-9616-daf3c9f64e9e" />
-      </source>
-      <source type="sensor" item="NX-UptonS-EB">
-        <destination type="sensor" item="NX-Troy3-EB" nxType="fullinterlocking" uniqueid="IN:edab0da7-b48f-4648-a068-1524141e8828" />
-        <destination type="sensor" item="NX-TroyM-EB" nxType="fullinterlocking" uniqueid="IN:edb630f6-4955-4404-bb0c-be40493ee7fc" />
-        <destination type="sensor" item="NX-TroyS-EB" nxType="fullinterlocking" uniqueid="IN:47b37371-6418-435c-9b69-ff70a7696f88" />
-      </source>
-      <source type="sensor" item="NX-UptonM-WB">
-        <destination type="sensor" item="NX-VistaM-WB" nxType="fullinterlocking" uniqueid="IN:c8febe97-f6f0-4d75-9e97-77e94704ebe9" />
-        <destination type="sensor" item="NX-VistaS-WB" nxType="fullinterlocking" uniqueid="IN:05c9d16a-9881-4e60-ba8c-d1087238024f" />
-      </source>
-      <source type="sensor" item="NX-UptonS-WB">
-        <destination type="sensor" item="NX-VistaM-WB" nxType="fullinterlocking" uniqueid="IN:0c772f0c-6081-46d7-b028-8a667dca3e55" />
-        <destination type="sensor" item="NX-VistaS-WB" nxType="fullinterlocking" uniqueid="IN:be79e822-0864-4da1-9141-93f1c224ac43" />
-      </source>
-      <source type="sensor" item="NX-OsageM-WB">
-        <destination type="sensor" item="NX-PDM-WB" nxType="fullinterlocking" uniqueid="IN:24e43967-c598-4531-bbd3-576cbbeac720" />
-        <destination type="sensor" item="NX-PDS-WB" nxType="fullinterlocking" uniqueid="IN:89c8b97d-e5bf-4805-896a-60f5bd4e638b" />
-      </source>
-      <source type="sensor" item="NX-OsageS-WB">
-        <destination type="sensor" item="NX-PDM-WB" nxType="fullinterlocking" uniqueid="IN:d134b0de-5fa3-46e8-8ea0-09e6613db2c9" />
-        <destination type="sensor" item="NX-PDS-WB" nxType="fullinterlocking" uniqueid="IN:0dc7717a-b602-4498-9708-35dff4b3d797" />
-      </source>
-      <source type="sensor" item="NX-OsageM-EB">
-        <destination type="sensor" item="NX-MidwayMain1-EB" nxType="fullinterlocking" uniqueid="IN:0dfb0497-d17b-418b-8561-cb32a368e2d6" />
-        <destination type="sensor" item="NX-MidwayMain2-EB" nxType="fullinterlocking" uniqueid="IN:e10a428d-5db7-4db3-ad52-d84651d1cb66" />
-        <destination type="sensor" item="NX-MidwayMain3-EB" nxType="fullinterlocking" uniqueid="IN:9ea94964-5b6b-4b4d-a7e2-d019ee29a495" />
-      </source>
-      <source type="sensor" item="NX-MidwayWestPsgApproach-WB">
-        <destination type="sensor" item="NX-OsageM-WB" nxType="fullinterlocking" uniqueid="IN:9fac5403-4358-44b1-a9d7-ce621a49b713" />
-        <destination type="sensor" item="NX-OsageS-WB" nxType="fullinterlocking" uniqueid="IN:c266f17a-b792-4f14-9c89-79f8ac5fea1d" />
-      </source>
-      <source type="sensor" item="NX-MidwayWestFrtApproach-WB">
-        <destination type="sensor" item="NX-OsageM-WB" nxType="fullinterlocking" uniqueid="IN:76c20be9-db39-489c-b135-06a4861bfa9a" />
-        <destination type="sensor" item="NX-OsageS-WB" nxType="fullinterlocking" uniqueid="IN:fc496643-e6a6-478c-89f0-6733dfd99cfa" />
-      </source>
-      <source type="sensor" item="NX-MidwayEastPsgApproach-EB">
-        <destination type="sensor" item="NX-JM-EB" nxType="fullinterlocking" uniqueid="IN:191f010f-bcb6-4e63-9df4-f8b2c9c2ed7a" />
-        <destination type="sensor" item="NX-JS-EB" nxType="fullinterlocking" uniqueid="IN:31c7af7a-ee9f-41fc-bcba-fb967845d5ae" />
-      </source>
-      <source type="sensor" item="NX-MidwayEastFrtApproach-EB">
-        <destination type="sensor" item="NX-JM-EB" nxType="fullinterlocking" uniqueid="IN:a51922f2-374a-4a7c-98c6-399e1b6b9d50" />
-        <destination type="sensor" item="NX-JS-EB" nxType="fullinterlocking" uniqueid="IN:dfe92bdf-282d-43bd-b498-32e85599cea9" />
-      </source>
-      <source type="sensor" item="NX-JM-EB">
-        <destination type="sensor" item="NX-HS-EB" nxType="fullinterlocking" uniqueid="IN:e5d10acc-97e3-4efc-8be5-a00453cbbae8" />
-        <destination type="sensor" item="NX-GM-EB" nxType="fullinterlocking" uniqueid="IN:09061048-eac4-45a3-ac0d-197f0df6b290" />
-        <destination type="sensor" item="NX-GS-EB" nxType="fullinterlocking" uniqueid="IN:14f083a0-e081-4145-b3c8-1985da4894ff" />
-        <destination type="sensor" item="NX-HM-EB" nxType="fullinterlocking" uniqueid="IN:1c1919f4-42e3-43a3-8da1-008e7b218956" />
-        <destination type="sensor" item="NX-E1-EB" nxType="fullinterlocking" uniqueid="IN:b1e61a42-9d06-4257-8245-1f85e889418a" />
-        <destination type="sensor" item="NX-E2-EB" nxType="fullinterlocking" uniqueid="IN:90e3512f-a093-4654-9b7f-89c86e14c63a" />
-      </source>
-      <source type="sensor" item="NX-JS-EB">
-        <destination type="sensor" item="NX-HS-EB" nxType="fullinterlocking" uniqueid="IN:5f200bc0-2c00-484d-b1e4-31fd4215d6da" />
-        <destination type="sensor" item="NX-GM-EB" nxType="fullinterlocking" uniqueid="IN:212282f4-0d8a-4743-b5ce-414e55da94d4" />
-        <destination type="sensor" item="NX-GS-EB" nxType="fullinterlocking" uniqueid="IN:eeddb9f1-3b5f-4155-8720-c6069cd1cc97" />
-        <destination type="sensor" item="NX-HM-EB" nxType="fullinterlocking" uniqueid="IN:3ba13b9f-97d7-45f7-aa6d-f8b8c2dffd3a" />
-        <destination type="sensor" item="NX-E1-EB" nxType="fullinterlocking" uniqueid="IN:0c07314a-bb01-41c3-9222-5ddc620c7dbb" />
-        <destination type="sensor" item="NX-E2-EB" nxType="fullinterlocking" uniqueid="IN:39adb4d5-1d6a-4bea-9af7-e88bd0954cd5" />
-      </source>
-      <source type="sensor" item="NX-GM-EB">
-        <destination type="sensor" item="NX-D4-EB" nxType="fullinterlocking" uniqueid="IN:a9b100e6-acea-4ede-83f1-ebc69d16d415" />
-        <destination type="sensor" item="NX-E1-EB" nxType="fullinterlocking" uniqueid="IN:64e6e1d0-721b-4b41-8e45-e9709bea4af0" />
-        <destination type="sensor" item="NX-E2-EB" nxType="fullinterlocking" uniqueid="IN:81f0528e-ebd2-4e3b-bb31-81ab0078d8c9" />
-        <destination type="sensor" item="NX-E3-EB" nxType="fullinterlocking" uniqueid="IN:a244b815-bfc6-4872-a4d9-6bf18687df97" />
-      </source>
-      <source type="sensor" item="NX-GS-EB">
-        <destination type="sensor" item="NX-D4-EB" nxType="fullinterlocking" uniqueid="IN:4645c27f-6b3c-4979-b0fa-3200895aefc3" />
-        <destination type="sensor" item="NX-E1-EB" nxType="fullinterlocking" uniqueid="IN:9926efc9-6776-46a3-9c9d-ed365356b885" />
-        <destination type="sensor" item="NX-E2-EB" nxType="fullinterlocking" uniqueid="IN:2710705d-5a64-433b-835e-963388f5579a" />
-        <destination type="sensor" item="NX-E3-EB" nxType="fullinterlocking" uniqueid="IN:186a3172-5966-405a-88de-9a6433b47788" />
-      </source>
-      <source type="sensor" item="NX-E3-WB">
-        <destination type="sensor" item="NX-HS-EB" nxType="fullinterlocking" uniqueid="IN:538dfa6a-7e6b-4124-9913-aa6a117805ba" />
-        <destination type="sensor" item="NX-GS-WB" nxType="fullinterlocking" uniqueid="IN:3acf7206-6d61-46fd-8731-d4b727379137" />
-        <destination type="sensor" item="NX-HS-WB" nxType="fullinterlocking" uniqueid="IN:38fa5bcb-f006-468a-8914-6e020cbad6ba" />
-        <destination type="sensor" item="NX-GM-WB" nxType="fullinterlocking" uniqueid="IN:803ea4ab-722e-473d-beef-865fa0949a20" />
-      </source>
-      <source type="sensor" item="NX-E2-WB">
-        <destination type="sensor" item="NX-HS-EB" nxType="fullinterlocking" uniqueid="IN:b95454a3-26ad-4f87-8c99-95006887d7de" />
-        <destination type="sensor" item="NX-GS-WB" nxType="fullinterlocking" uniqueid="IN:de4a7035-72fb-43eb-a7e6-289f2eb09d1c" />
-        <destination type="sensor" item="NX-HS-WB" nxType="fullinterlocking" uniqueid="IN:d7ca4ba3-4440-4175-ab3d-219266cc46da" />
-        <destination type="sensor" item="NX-JM-WB" nxType="fullinterlocking" uniqueid="IN:a95349ed-2968-44d2-98a0-40d1a322161b" />
-        <destination type="sensor" item="NX-JS-WB" nxType="fullinterlocking" uniqueid="IN:2c7d28a5-00d0-4127-9690-8ddc08284bfb" />
-        <destination type="sensor" item="NX-GM-WB" nxType="fullinterlocking" uniqueid="IN:346ff20a-26f6-400c-9366-a32d166240f6" />
-      </source>
-      <source type="sensor" item="NX-E1-WB">
-        <destination type="sensor" item="NX-HS-EB" nxType="fullinterlocking" uniqueid="IN:c988ccec-dd4d-4e8c-89cd-926c92c18355" />
-        <destination type="sensor" item="NX-GS-WB" nxType="fullinterlocking" uniqueid="IN:5ffd7e16-d07f-40b1-ad2b-06862da0344f" />
-        <destination type="sensor" item="NX-HS-WB" nxType="fullinterlocking" uniqueid="IN:898ac761-3784-4859-9101-557e8e82b7c8" />
-        <destination type="sensor" item="NX-JM-WB" nxType="fullinterlocking" uniqueid="IN:3fc6b6dd-498a-47a9-8cc4-7038085ab970" />
-        <destination type="sensor" item="NX-JS-WB" nxType="fullinterlocking" uniqueid="IN:4c2f450f-4b69-4ac3-8f48-1c4833571e65" />
-        <destination type="sensor" item="NX-GM-WB" nxType="fullinterlocking" uniqueid="IN:69834f08-7e2e-4bb9-b01e-e661ee1a81c9" />
-      </source>
-      <source type="sensor" item="NX-HM-WB">
-        <destination type="sensor" item="NX-JM-WB" nxType="fullinterlocking" uniqueid="IN:2d46bbed-6966-4433-8023-5d3832502f59" />
-        <destination type="sensor" item="NX-JS-WB" nxType="fullinterlocking" uniqueid="IN:65f1d131-6d9b-49e7-be21-45f5f8311765" />
-      </source>
-      <source type="sensor" item="NX-HS-WB">
-        <destination type="sensor" item="NX-JM-WB" nxType="fullinterlocking" uniqueid="IN:fbef8024-906a-4914-819f-107dd7c7691d" />
-        <destination type="sensor" item="NX-JS-WB" nxType="fullinterlocking" uniqueid="IN:fe4f71ba-99d3-4390-bf99-4d66b088f0e6" />
-      </source>
-      <source type="sensor" item="NX-JM-WB">
-        <destination type="sensor" item="NX-MidwayMain1-WB" nxType="fullinterlocking" uniqueid="IN:f29e1dbf-053d-4694-b630-100fa2c5ef27" />
-        <destination type="sensor" item="NX-MidwayMain2-WB" nxType="fullinterlocking" uniqueid="IN:b6174d78-4da1-4f17-a524-cf0992eb764e" />
-        <destination type="sensor" item="NX-MidwayMain3-WB" nxType="fullinterlocking" uniqueid="IN:0bc771d1-27e4-4eb7-8520-cb2dd2ee8e98" />
-      </source>
-      <source type="sensor" item="NX-JS-WB">
-        <destination type="sensor" item="NX-MidwayMain1-WB" nxType="fullinterlocking" uniqueid="IN:716ee072-b713-45ea-9ddc-b5f069a445aa" />
-        <destination type="sensor" item="NX-MidwayMain2-WB" nxType="fullinterlocking" uniqueid="IN:ff573688-93e8-47a6-9601-1fecf088401f" />
-        <destination type="sensor" item="NX-MidwayMain3-WB" nxType="fullinterlocking" uniqueid="IN:5314f62d-9dbf-43de-9c19-2e20e90da418" />
-      </source>
-      <source type="sensor" item="NX-MidwayMain1-EB">
-        <destination type="sensor" item="NX-MidwayEastPsgApproach-EB" nxType="fullinterlocking" uniqueid="IN:78822ae5-3dbf-4421-bd8c-0766979cd56d" />
-      </source>
-      <source type="sensor" item="NX-MidwayMain2-EB">
-        <destination type="sensor" item="NX-MidwayEastPsgApproach-EB" nxType="fullinterlocking" uniqueid="IN:ba5401d5-7edc-4a22-8c95-e814d506e5c8" />
-      </source>
-      <source type="sensor" item="NX-MidwayMain3-EB">
-        <destination type="sensor" item="NX-MidwayEastPsgApproach-EB" nxType="fullinterlocking" uniqueid="IN:58312d8b-dd22-47a5-bbb3-6825a361e5ac" />
-      </source>
-      <source type="sensor" item="NX-MidwayMain1-WB">
-        <destination type="sensor" item="NX-MidwayWestPsgApproach-WB" nxType="fullinterlocking" uniqueid="IN:be29db6c-3474-4974-b2cb-320322f22ad9" />
-      </source>
-      <source type="sensor" item="NX-MidwayMain2-WB">
-        <destination type="sensor" item="NX-MidwayWestPsgApproach-WB" nxType="fullinterlocking" uniqueid="IN:e478ab68-1cb4-4224-a4f7-0d7ace579bb8" />
-      </source>
-      <source type="sensor" item="NX-MidwayMain3-WB">
-        <destination type="sensor" item="NX-MidwayWestPsgApproach-WB" nxType="fullinterlocking" uniqueid="IN:8e791a4c-2835-4150-8d44-dfe47beed98d" />
-      </source>
-      <source type="sensor" item="NX-MidwayWestFrtApproach-EB">
-        <destination type="sensor" item="NX-MidwayWestFrtApproach-WB" nxType="fullinterlocking" uniqueid="IN:98bfbc57-de6a-42e2-b302-dac3ea5ae2cd" />
-      </source>
-      <source type="sensor" item="NX-OsageS-EB">
-        <destination type="sensor" item="NX-MidwayMain1-EB" nxType="fullinterlocking" uniqueid="IN:801007fd-3467-47df-a29c-eba2eab931ee" />
-        <destination type="sensor" item="NX-MidwayMain2-EB" nxType="fullinterlocking" uniqueid="IN:607f68bd-700f-45cd-9e6b-5c867ff4ef5e" />
-        <destination type="sensor" item="NX-MidwayMain3-EB" nxType="fullinterlocking" uniqueid="IN:9b6108eb-04c3-4c4c-b636-521c1e3cefdf" />
-      </source>
-      <source type="sensor" item="NX-GM-WB">
-        <destination type="sensor" item="NX-HM-WB" nxType="fullinterlocking" uniqueid="IN:916a30df-7c12-4635-b130-67038e77bf9a" />
-      </source>
-      <source type="sensor" item="NX-HM-EB">
-        <destination type="sensor" item="NX-GM-EB" nxType="fullinterlocking" uniqueid="IN:1ee3add4-68ea-40c3-8c36-a0c9a124b842" />
-      </source>
-      <source type="sensor" item="NX-E1-EB">
-        <destination type="sensor" item="NX-D1-EB" nxType="fullinterlocking" uniqueid="IN:8eecdf87-2d08-4e3c-a168-7dda7e0c523c" />
-        <destination type="sensor" item="NX-D2-EB" nxType="fullinterlocking" uniqueid="IN:24216d4f-7972-4278-93d9-2e6fff057c11" />
-        <destination type="sensor" item="NX-D3-EB" nxType="fullinterlocking" uniqueid="IN:043e06cd-817b-4316-82fa-7b39a509f03a" />
-        <destination type="sensor" item="NX-D4-EB" nxType="fullinterlocking" uniqueid="IN:a2ea0718-3538-43b3-afac-a01e75720d49" />
-      </source>
-      <source type="sensor" item="NX-E2-EB">
-        <destination type="sensor" item="NX-D1-EB" nxType="fullinterlocking" uniqueid="IN:ae2f2012-3334-4b7e-a7aa-69464cc0520b" />
-        <destination type="sensor" item="NX-D2-EB" nxType="fullinterlocking" uniqueid="IN:65fd9fd9-3afb-429c-af8d-771f481c3e68" />
-        <destination type="sensor" item="NX-D3-EB" nxType="fullinterlocking" uniqueid="IN:1d56742d-d1ac-4b74-b712-abc2a71a6ceb" />
-        <destination type="sensor" item="NX-D4-EB" nxType="fullinterlocking" uniqueid="IN:dbbf6d07-b0ce-440e-ad55-720699008fbf" />
-      </source>
-      <source type="sensor" item="NX-E3-EB">
-        <destination type="sensor" item="NX-D3-EB" nxType="fullinterlocking" uniqueid="IN:e2dcf3eb-dec5-419d-895f-76f3f13800ee" />
-        <destination type="sensor" item="NX-D4-EB" nxType="fullinterlocking" uniqueid="IN:e39e960e-3cd4-4fce-bf82-a0f1160b301c" />
-      </source>
-      <source type="sensor" item="NX-B1-WB">
-        <destination type="sensor" item="NX-D2-WB" nxType="fullinterlocking" uniqueid="IN:d010adbf-bc94-4a16-941a-b601c6e9adc4" />
-        <destination type="sensor" item="NX-D3-WB" nxType="fullinterlocking" uniqueid="IN:769e7715-5b92-4b5a-9107-d7c519a1d17b" />
-        <destination type="sensor" item="NX-D4-WB" nxType="fullinterlocking" uniqueid="IN:83536211-ff50-45c1-b492-75804fa01cd7" />
-        <destination type="sensor" item="NX-D1-WB" nxType="fullinterlocking" uniqueid="IN:769dc9a3-6781-4d1c-9b43-11ddf0a78f50" />
-      </source>
-      <source type="sensor" item="NX-B2-WB">
-        <destination type="sensor" item="NX-D2-WB" nxType="fullinterlocking" uniqueid="IN:00bd115d-1f83-4832-b57a-bcd29dadfc7a" />
-        <destination type="sensor" item="NX-D3-WB" nxType="fullinterlocking" uniqueid="IN:0698488b-f9f4-4186-916d-a416f92eb707" />
-        <destination type="sensor" item="NX-D4-WB" nxType="fullinterlocking" uniqueid="IN:95047aea-8077-4a10-a0e6-6cfede8c33f4" />
-        <destination type="sensor" item="NX-D1-WB" nxType="fullinterlocking" uniqueid="IN:2d1383be-8f7e-4138-977c-d8cb221bda3d" />
-      </source>
-      <source type="sensor" item="NX-B3-WB">
-        <destination type="sensor" item="NX-D2-WB" nxType="fullinterlocking" uniqueid="IN:1837854d-973d-43fe-86ff-2e0d53883788" />
-        <destination type="sensor" item="NX-D3-WB" nxType="fullinterlocking" uniqueid="IN:28cdf69d-35ac-4231-8484-dcd35ce6d722" />
-        <destination type="sensor" item="NX-D4-WB" nxType="fullinterlocking" uniqueid="IN:ccadf8a0-fb4e-4d61-ab31-06e9b0fc1537" />
-        <destination type="sensor" item="NX-D1-WB" nxType="fullinterlocking" uniqueid="IN:f504f3e7-12c9-4b47-8261-90291c18a355" />
-      </source>
-      <source type="sensor" item="NX-B4-WB">
-        <destination type="sensor" item="NX-D2-WB" nxType="fullinterlocking" uniqueid="IN:e1b25fbc-9af8-499f-b050-4e2e8f66fe09" />
-        <destination type="sensor" item="NX-D3-WB" nxType="fullinterlocking" uniqueid="IN:fde188c6-8af9-4246-8ce7-2b035451fae7" />
-        <destination type="sensor" item="NX-D4-WB" nxType="fullinterlocking" uniqueid="IN:80fb1c36-49ce-492e-80cc-d9084c1c0e60" />
-        <destination type="sensor" item="NX-D1-WB" nxType="fullinterlocking" uniqueid="IN:b4f05f37-e7c2-4b85-9a5c-69da90add650" />
-      </source>
-      <source type="sensor" item="NX-D1-WB">
-        <destination type="sensor" item="NX-E2-WB" nxType="fullinterlocking" uniqueid="IN:ea5fea08-7024-4c8d-8e3f-c61844b2d9b6" />
-        <destination type="sensor" item="NX-E1-WB" nxType="fullinterlocking" uniqueid="IN:ead23882-d6c0-4aae-96c6-2c1684e1127d" />
-      </source>
-    </layoutPanel>
-  </entryexitpairs>
   <paneleditor class="jmri.jmrit.display.panelEditor.configurexml.PanelEditorXml" name="Midway Yard" x="99" y="336" height="397" width="1033" editable="yes" positionable="yes" showtooltips="yes" controlling="yes" hide="yes" panelmenu="yes" scrollable="none" redBackground="255" greenBackground="255" blueBackground="255">
     <positionablelabel x="664" y="46" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="203 " fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="255" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <tooltip>Text Label</tooltip>
@@ -17221,7 +16869,7 @@
     <memoryicon memory="Vista - Upton east" x="1160" y="600" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" fixedHeight="16" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>Vista - Upton East</tooltip>
     </memoryicon>
-    <sensoricon sensor="NX-RedcliffS-WB" x="755" y="505" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-RedcliffS-WB" x="755" y="505" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <tooltip>NX-RedcliffS-WB (IS44)</tooltip>
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="270" scale="1.0">
         <rotation>0</rotation>
@@ -17237,7 +16885,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-RedcliffS-EB" x="825" y="505" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-RedcliffS-EB" x="825" y="505" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <tooltip>NX-RedcliffS-EB (IS46)</tooltip>
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="90" scale="1.0">
         <rotation>0</rotation>
@@ -17253,7 +16901,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-PDM-WB" x="1020" y="485" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-PDM-WB" x="1020" y="485" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <tooltip>NX-PDM-WB (IS47)</tooltip>
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="270" scale="1.0">
         <rotation>0</rotation>
@@ -17269,7 +16917,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-PDS-WB" x="1020" y="465" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-PDS-WB" x="1020" y="465" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <tooltip>NX-PDS-WB (IS48)</tooltip>
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="270" scale="1.0">
         <rotation>0</rotation>
@@ -17285,7 +16933,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-PDM-EB" x="1275" y="485" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-PDM-EB" x="1275" y="485" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <tooltip>NX-PDM-EB (IS49)</tooltip>
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="90" scale="1.0">
         <rotation>0</rotation>
@@ -17301,7 +16949,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-PDS-EB" x="1270" y="465" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-PDS-EB" x="1270" y="465" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <tooltip>NX-PDS-EB (IS50)</tooltip>
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="90" scale="1.0">
         <rotation>0</rotation>
@@ -17317,7 +16965,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-UptonM-EB" x="1310" y="610" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-UptonM-EB" x="1310" y="610" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <tooltip>NX-UptonM-EB (IS51)</tooltip>
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
@@ -17333,7 +16981,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-UptonM-WB" x="1220" y="610" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-UptonM-WB" x="1220" y="610" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <tooltip>NX-UptonM-WB (IS53)</tooltip>
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
@@ -17349,7 +16997,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-UptonS-EB" x="1305" y="590" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-UptonS-EB" x="1305" y="590" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <tooltip>NX-UptonS-EB (IS52)</tooltip>
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
@@ -17365,7 +17013,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-UptonS-WB" x="1225" y="590" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-UptonS-WB" x="1225" y="590" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <tooltip>NX-UptonS-WB (IS54)</tooltip>
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
@@ -18116,7 +17764,7 @@
       </icons>
       <iconmaps />
     </signalheadicon>
-    <sensoricon sensor="NX-MidwayWestPsgApproach-WB" x="570" y="350" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-MidwayWestPsgApproach-WB" x="570" y="350" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="270" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -18131,7 +17779,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-MidwayEastPsgApproach-EB" x="1307" y="350" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="91" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-MidwayEastPsgApproach-EB" x="1307" y="350" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="91" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="91" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -18146,7 +17794,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-MidwayEastFrtApproach-EB" x="1310" y="375" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="91" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-MidwayEastFrtApproach-EB" x="1310" y="375" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="91" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="91" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -18161,7 +17809,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-JM-EB" x="384" y="185" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-JM-EB" x="384" y="185" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="90" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -18176,7 +17824,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-JS-EB" x="384" y="205" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-JS-EB" x="384" y="205" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="90" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -18191,7 +17839,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-MidwayEastFrtApproach-WB" x="1230" y="395" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-MidwayEastFrtApproach-WB" x="1230" y="395" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="90" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -18206,7 +17854,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-JM-WB" x="264" y="185" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-JM-WB" x="264" y="185" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="270" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -18221,7 +17869,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-JS-WB" x="264" y="205" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-JS-WB" x="264" y="205" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="270" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -18236,7 +17884,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-MidwayMain1-EB" x="1035" y="350" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="89" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-MidwayMain1-EB" x="1035" y="350" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="89" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="89" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -18251,7 +17899,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-MidwayMain2-EB" x="995" y="330" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-MidwayMain2-EB" x="995" y="330" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="90" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -18266,7 +17914,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-MidwayMain3-EB" x="955" y="310" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-MidwayMain3-EB" x="955" y="310" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="90" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -18281,7 +17929,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-MidwayMain3-WB" x="825" y="310" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-MidwayMain3-WB" x="825" y="310" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="270" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -18300,7 +17948,7 @@
     <memoryicon memory="Troy siding 2" x="225" y="515" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" fixedHeight="16" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>Troy siding 2</tooltip>
     </memoryicon>
-    <sensoricon sensor="NX-E1-EB" x="290" y="35" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-E1-EB" x="290" y="35" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="90" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -18315,7 +17963,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-E2-EB" x="310" y="55" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-E2-EB" x="310" y="55" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="90" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -18330,7 +17978,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-D1-WB" x="445" y="35" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-D1-WB" x="445" y="35" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="270" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -18345,7 +17993,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-D2-WB" x="445" y="55" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-D2-WB" x="445" y="55" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="270" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -18360,7 +18008,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-D4-WB" x="470" y="95" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-D4-WB" x="470" y="95" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="270" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -18375,7 +18023,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-D1-EB" x="625" y="35" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-D1-EB" x="625" y="35" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -18390,7 +18038,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-D2-EB" x="625" y="55" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="89" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-D2-EB" x="625" y="55" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="89" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="89" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -18405,7 +18053,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-D4-EB" x="625" y="95" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-D4-EB" x="625" y="95" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -18420,7 +18068,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-B1-WB" x="810" y="35" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-B1-WB" x="810" y="35" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -18435,7 +18083,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-B2-WB" x="810" y="55" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-B2-WB" x="810" y="55" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="270" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -18450,7 +18098,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-B3-WB" x="810" y="75" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-B3-WB" x="810" y="75" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="270" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -18465,7 +18113,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-B4-WB" x="810" y="95" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-B4-WB" x="810" y="95" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="90" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -18480,7 +18128,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-B1-EB" x="965" y="35" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="89" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-B1-EB" x="965" y="35" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="89" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="89" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -18495,7 +18143,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-B2-EB" x="965" y="55" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="89" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-B2-EB" x="965" y="55" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="89" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="89" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -18510,7 +18158,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-B3-EB" x="965" y="75" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="91" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-B3-EB" x="965" y="75" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="91" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="91" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -18525,7 +18173,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-B4-EB" x="965" y="95" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="92" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-B4-EB" x="965" y="95" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="92" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="92" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -18589,7 +18237,7 @@
       <iconmaps />
     </sensoricon>
     <positionablelabel x="965" y="705" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Show Loco ID Entry Boxes" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" fixedWidth="200" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <sensoricon sensor="NX-TroyM-WB" x="148" y="485" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-TroyM-WB" x="148" y="485" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="270" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -18604,7 +18252,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-TroyS-WB" x="168" y="505" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-TroyS-WB" x="168" y="505" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="270" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -18619,7 +18267,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-Troy3-WB" x="188" y="525" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-Troy3-WB" x="188" y="525" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="270" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -18634,7 +18282,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-TroyM-EB" x="297" y="485" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-TroyM-EB" x="297" y="485" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="90" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -18649,7 +18297,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-TroyS-EB" x="277" y="505" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-TroyS-EB" x="277" y="505" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="90" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -18664,7 +18312,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-Troy3-EB" x="257" y="525" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-Troy3-EB" x="257" y="525" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="90" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -18680,7 +18328,7 @@
       <iconmaps />
     </sensoricon>
     <positionablelabel x="222" y="450" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Troy Depot" fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <sensoricon sensor="NX-HS-EB" x="825" y="205" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-HS-EB" x="825" y="205" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="90" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -18711,7 +18359,7 @@
     <positionablelabel x="40" y="635" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="LEAD 2 " fontFamily="Dialog" fontname="Dialog" size="8" style="1" red="0" green="0" blue="0" hasBackground="no" fixedWidth="50" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="40" y="615" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="LEAD 3 " fontFamily="Dialog" fontname="Dialog" size="8" style="1" red="0" green="0" blue="0" hasBackground="no" fixedWidth="50" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="1135" y="13" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Intermodal terminal     " fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="0" hasBackground="no" fixedWidth="140" justification="left" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <sensoricon sensor="NX-WhiskeyM-EB" x="665" y="610" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-WhiskeyM-EB" x="665" y="610" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="90" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -18726,7 +18374,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-WhiskeyM-WB" x="515" y="610" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-WhiskeyM-WB" x="515" y="610" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="270" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -18741,7 +18389,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-WhiskeyS1-WB" x="535" y="630" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-WhiskeyS1-WB" x="535" y="630" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="270" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -18756,7 +18404,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-WhiskeyS1-EB" x="645" y="630" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-WhiskeyS1-EB" x="645" y="630" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="90" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -18771,7 +18419,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-WhiskeyS2-WB" x="550" y="650" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-WhiskeyS2-WB" x="550" y="650" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -18786,7 +18434,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-WhiskeyS2-EB" x="630" y="650" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-WhiskeyS2-EB" x="630" y="650" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -18803,7 +18451,7 @@
     </sensoricon>
     <positionablelabel x="570" y="195" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="EAST" fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="no" fixedWidth="50" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="475" y="195" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="WEST" fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="no" fixedWidth="50" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <sensoricon sensor="NX-D3-WB" x="445" y="75" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-D3-WB" x="445" y="75" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="270" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -18818,7 +18466,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-D3-EB" x="625" y="75" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-D3-EB" x="625" y="75" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="90" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -18833,7 +18481,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-E3-EB" x="335" y="75" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-E3-EB" x="335" y="75" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="90" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -18848,7 +18496,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-E2-WB" x="140" y="55" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-E2-WB" x="140" y="55" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="270" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -18863,7 +18511,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-E1-WB" x="110" y="35" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-E1-WB" x="110" y="35" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="270" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -18878,7 +18526,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-GM-EB" x="955" y="185" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-GM-EB" x="955" y="185" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="90" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -18893,7 +18541,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-GS-EB" x="955" y="165" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-GS-EB" x="955" y="165" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="90" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -18908,7 +18556,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-HM-WB" x="670" y="185" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-HM-WB" x="670" y="185" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="270" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -18923,7 +18571,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-HS-WB" x="670" y="205" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-HS-WB" x="670" y="205" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="270" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -18938,7 +18586,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-GM-WB" x="790" y="185" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-GM-WB" x="790" y="185" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="270" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -18953,7 +18601,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-GS-WB" x="790" y="165" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-GS-WB" x="790" y="165" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="270" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -18968,7 +18616,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-MidwayWestFrtApproach-EB" x="640" y="375" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-MidwayWestFrtApproach-EB" x="640" y="375" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="270" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -18983,7 +18631,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-MidwayWestFrtApproach-WB" x="575" y="375" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-MidwayWestFrtApproach-WB" x="575" y="375" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="270" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -19003,7 +18651,7 @@
     <positionablelabel x="935" y="65" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="MAIN 3  " fontFamily="Dialog" fontname="Dialog" size="8" style="1" red="0" green="0" blue="0" hasBackground="no" fixedWidth="50" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="935" y="85" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="MAIN 4  " fontFamily="Dialog" fontname="Dialog" size="8" style="1" red="0" green="0" blue="0" hasBackground="no" fixedWidth="50" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="890" y="635" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="VISTA YARD" fontFamily="Dialog" fontname="Dialog" size="10" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <sensoricon sensor="NX-VistaM-WB" x="830" y="610" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-VistaM-WB" x="830" y="610" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="270" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -19018,7 +18666,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-VistaS-WB" x="820" y="590" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-VistaS-WB" x="820" y="590" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="270" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -19033,7 +18681,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-VistaM-EB" x="1000" y="610" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-VistaM-EB" x="1000" y="610" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="90" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -19048,7 +18696,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-VistaS-EB" x="1013" y="592" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-VistaS-EB" x="1013" y="592" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="90" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -19071,7 +18719,7 @@
     <positionablelabel x="590" y="570" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="&lt;  ABS YARD LIMITS  |  ABS  &gt;" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" fixedWidth="200" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="1065" y="620" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="WEST" fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="no" fixedWidth="55" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="1115" y="620" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="EAST" fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="no" fixedWidth="55" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <sensoricon sensor="NX-HM-EB" x="825" y="185" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-HM-EB" x="825" y="185" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="90" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -19086,7 +18734,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-RedcliffM-EB" x="815" y="485" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-RedcliffM-EB" x="815" y="485" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="90" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -19101,7 +18749,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-RedcliffM-WB" x="755" y="485" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-RedcliffM-WB" x="755" y="485" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="270" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -19116,7 +18764,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-SierraM-EB" x="590" y="485" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-SierraM-EB" x="590" y="485" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="90" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -19131,7 +18779,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-SierraS-EB" x="580" y="465" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-SierraS-EB" x="580" y="465" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="90" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -19147,7 +18795,7 @@
       <iconmaps />
     </sensoricon>
     <positionablelabel x="595" y="525" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Forestry spur" fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <sensoricon sensor="NX-MidwayMain1-WB" x="800" y="350" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-MidwayMain1-WB" x="800" y="350" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="270" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -19164,7 +18812,7 @@
     </sensoricon>
     <positionablelabel x="800" y="225" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Tank farm" fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="505" y="415" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Sierra Ranch" fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="0" hasBackground="no" fixedWidth="75" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <sensoricon sensor="NX-E3-WB" x="168" y="75" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-E3-WB" x="168" y="75" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="270" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -19185,7 +18833,7 @@
     <positionablelabel x="1180" y="425" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Tail of storage spur Out of Service" fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="yes" redBack="0" greenBack="255" blueBack="255" fixedWidth="145" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="580" y="540" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Spiked to main. OoS" fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="yes" redBack="0" greenBack="255" blueBack="255" fixedWidth="90" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <memoryicon memory="Osage siding east" x="295" y="320" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" fixedHeight="16" justification="left" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif" />
-    <sensoricon sensor="NX-OsageM-WB" x="205" y="350" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-OsageM-WB" x="205" y="350" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -19200,7 +18848,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-OsageS-WB" x="205" y="330" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-OsageS-WB" x="205" y="330" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -19215,7 +18863,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-OsageM-EB" x="303" y="350" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-OsageM-EB" x="303" y="350" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -19230,7 +18878,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-OsageS-EB" x="300" y="330" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-OsageS-EB" x="300" y="330" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -19245,7 +18893,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-MidwayMain2-WB" x="815" y="330" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-MidwayMain2-WB" x="815" y="330" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="270" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -19829,7 +19477,7 @@
     <positionablelabel x="755" y="290" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Midway W spurs ladder short OoS" fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="yes" redBack="0" greenBack="255" blueBack="255" fixedWidth="135" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="445" y="495" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Sierra Main Out of Service - DO NOT USE" fontFamily="Dialog" fontname="Dialog" size="8" style="1" red="64" green="64" blue="64" hasBackground="yes" redBack="255" greenBack="0" blueBack="0" fixedWidth="185" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="700" y="695" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Panel version" fontFamily="Dialog" fontname="Dialog" size="10" style="1" red="255" green="255" blue="255" hasBackground="no" fixedWidth="160" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <sensoricon sensor="NX-SierraS-WB" x="450" y="465" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-SierraS-WB" x="450" y="465" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="270" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -19844,7 +19492,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-SierraM-WB" x="450" y="485" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-SierraM-WB" x="450" y="485" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="270" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -20807,7 +20455,7 @@
     <memoryicon memory="Vista - Upton east" x="1665" y="1088" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" fixedHeight="16" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>Vista - Upton East</tooltip>
     </memoryicon>
-    <sensoricon sensor="NX-RedcliffS-WB" x="1003" y="871" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-RedcliffS-WB" x="1003" y="871" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <tooltip>NX-RedcliffS-WB (IS44)</tooltip>
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="270" scale="1.0">
         <rotation>0</rotation>
@@ -20823,7 +20471,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-RedcliffS-EB" x="1073" y="871" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-RedcliffS-EB" x="1073" y="871" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <tooltip>NX-RedcliffS-EB (IS46)</tooltip>
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="90" scale="1.0">
         <rotation>0</rotation>
@@ -20839,7 +20487,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-PDM-WB" x="1268" y="851" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-PDM-WB" x="1268" y="851" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <tooltip>NX-PDM-WB (IS47)</tooltip>
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="270" scale="1.0">
         <rotation>0</rotation>
@@ -20855,7 +20503,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-PDS-WB" x="1268" y="831" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-PDS-WB" x="1268" y="831" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <tooltip>NX-PDS-WB (IS48)</tooltip>
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="270" scale="1.0">
         <rotation>0</rotation>
@@ -20871,7 +20519,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-PDM-EB" x="1523" y="851" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-PDM-EB" x="1523" y="851" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <tooltip>NX-PDM-EB (IS49)</tooltip>
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="90" scale="1.0">
         <rotation>0</rotation>
@@ -20887,7 +20535,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-PDS-EB" x="1518" y="831" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-PDS-EB" x="1518" y="831" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <tooltip>NX-PDS-EB (IS50)</tooltip>
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="90" scale="1.0">
         <rotation>0</rotation>
@@ -20903,7 +20551,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-UptonM-EB" x="1815" y="1098" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-UptonM-EB" x="1815" y="1098" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <tooltip>NX-UptonM-EB (IS51)</tooltip>
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
@@ -20919,7 +20567,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-UptonM-WB" x="1725" y="1098" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-UptonM-WB" x="1725" y="1098" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <tooltip>NX-UptonM-WB (IS53)</tooltip>
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
@@ -20935,7 +20583,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-UptonS-EB" x="1810" y="1078" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-UptonS-EB" x="1810" y="1078" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <tooltip>NX-UptonS-EB (IS52)</tooltip>
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
@@ -20951,7 +20599,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-UptonS-WB" x="1730" y="1078" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-UptonS-WB" x="1730" y="1078" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <tooltip>NX-UptonS-WB (IS54)</tooltip>
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
@@ -21702,7 +21350,7 @@
       </icons>
       <iconmaps />
     </signalheadicon>
-    <sensoricon sensor="NX-MidwayWestPsgApproach-WB" x="159" y="530" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-MidwayWestPsgApproach-WB" x="159" y="530" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="270" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -21717,7 +21365,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-MidwayEastPsgApproach-EB" x="1290" y="530" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="91" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-MidwayEastPsgApproach-EB" x="1290" y="530" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="91" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="91" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -21732,7 +21380,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-MidwayEastFrtApproach-EB" x="1285" y="575" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="91" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-MidwayEastFrtApproach-EB" x="1285" y="575" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="91" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="91" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -21747,7 +21395,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-JM-EB" x="1750" y="530" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-JM-EB" x="1750" y="530" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="90" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -21762,7 +21410,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-JS-EB" x="1745" y="565" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-JS-EB" x="1745" y="565" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="90" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -21777,7 +21425,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-MidwayEastFrtApproach-WB" x="1160" y="575" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-MidwayEastFrtApproach-WB" x="1160" y="575" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="90" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -21792,7 +21440,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-JM-WB" x="1622" y="530" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-JM-WB" x="1622" y="530" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="270" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -21807,7 +21455,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-JS-WB" x="1660" y="565" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-JS-WB" x="1660" y="565" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="270" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -21822,7 +21470,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-MidwayMain1-EB" x="990" y="530" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="89" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-MidwayMain1-EB" x="990" y="530" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="89" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="89" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -21837,7 +21485,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-MidwayMain2-EB" x="930" y="480" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-MidwayMain2-EB" x="930" y="480" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="90" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -21852,7 +21500,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-MidwayMain3-EB" x="885" y="440" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-MidwayMain3-EB" x="885" y="440" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="90" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -21867,7 +21515,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-MidwayMain3-WB" x="625" y="440" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-MidwayMain3-WB" x="625" y="440" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="270" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -21886,7 +21534,7 @@
     <memoryicon memory="Troy siding 2" x="473" y="881" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="255" green="255" blue="1" hasBackground="no" fixedHeight="16" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>Troy siding 2</tooltip>
     </memoryicon>
-    <sensoricon sensor="NX-E1-EB" x="525" y="60" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-E1-EB" x="525" y="60" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="90" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -21901,7 +21549,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-E2-EB" x="527" y="101" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-E2-EB" x="527" y="101" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="90" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -21916,7 +21564,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-D1-WB" x="860" y="60" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-D1-WB" x="860" y="60" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="270" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -21931,7 +21579,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-D2-WB" x="860" y="100" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-D2-WB" x="860" y="100" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="270" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -21946,7 +21594,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-D4-WB" x="860" y="180" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-D4-WB" x="860" y="180" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="270" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -21961,7 +21609,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-D1-EB" x="1215" y="60" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-D1-EB" x="1215" y="60" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -21976,7 +21624,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-D2-EB" x="1215" y="100" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="89" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-D2-EB" x="1215" y="100" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="89" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="89" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -21991,7 +21639,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-D4-EB" x="1215" y="180" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-D4-EB" x="1215" y="180" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -22006,7 +21654,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-B1-WB" x="1555" y="60" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-B1-WB" x="1555" y="60" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -22021,7 +21669,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-B2-WB" x="1555" y="100" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-B2-WB" x="1555" y="100" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="270" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -22036,7 +21684,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-B3-WB" x="1555" y="140" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-B3-WB" x="1555" y="140" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="270" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -22051,7 +21699,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-B4-WB" x="1555" y="180" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-B4-WB" x="1555" y="180" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="90" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -22066,7 +21714,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-B1-EB" x="1876" y="60" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="89" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-B1-EB" x="1876" y="60" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="89" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="89" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -22081,7 +21729,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-B2-EB" x="1876" y="100" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="89" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-B2-EB" x="1876" y="100" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="89" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="89" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -22096,7 +21744,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-B3-EB" x="1876" y="140" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="91" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-B3-EB" x="1876" y="140" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="91" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="91" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -22111,7 +21759,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-B4-EB" x="1876" y="180" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="92" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-B4-EB" x="1876" y="180" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="92" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="92" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -22175,7 +21823,7 @@
       <iconmaps />
     </sensoricon>
     <positionablelabel x="1470" y="1193" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Show Loco ID Entry Boxes" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" fixedWidth="200" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <sensoricon sensor="NX-TroyM-WB" x="396" y="851" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-TroyM-WB" x="396" y="851" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="270" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -22190,7 +21838,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-TroyS-WB" x="416" y="871" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-TroyS-WB" x="416" y="871" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="270" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -22205,7 +21853,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-Troy3-WB" x="436" y="891" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-Troy3-WB" x="436" y="891" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="270" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -22220,7 +21868,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-TroyM-EB" x="545" y="851" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-TroyM-EB" x="545" y="851" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="90" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -22235,7 +21883,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-TroyS-EB" x="525" y="871" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-TroyS-EB" x="525" y="871" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="90" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -22250,7 +21898,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-Troy3-EB" x="505" y="891" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-Troy3-EB" x="505" y="891" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="90" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -22266,7 +21914,7 @@
       <iconmaps />
     </sensoricon>
     <positionablelabel x="470" y="816" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Troy Depot" fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <sensoricon sensor="NX-HS-EB" x="2160" y="570" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-HS-EB" x="2160" y="570" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="90" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -22297,7 +21945,7 @@
     <positionablelabel x="411" y="1153" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="LEAD 2 " fontFamily="Dialog" fontname="Dialog" size="8" style="1" red="0" green="0" blue="0" hasBackground="no" fixedWidth="50" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="406" y="1113" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="LEAD 3 " fontFamily="Dialog" fontname="Dialog" size="8" style="1" red="0" green="0" blue="0" hasBackground="no" fixedWidth="50" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="2106" y="30" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Intermodal terminal     " fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <sensoricon sensor="NX-WhiskeyM-EB" x="1170" y="1098" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-WhiskeyM-EB" x="1170" y="1098" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="90" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -22312,7 +21960,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-WhiskeyM-WB" x="1020" y="1098" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-WhiskeyM-WB" x="1020" y="1098" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="270" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -22327,7 +21975,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-WhiskeyS1-WB" x="1040" y="1118" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-WhiskeyS1-WB" x="1040" y="1118" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="270" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -22342,7 +21990,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-WhiskeyS1-EB" x="1150" y="1118" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-WhiskeyS1-EB" x="1150" y="1118" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="90" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -22357,7 +22005,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-WhiskeyS2-WB" x="1055" y="1138" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-WhiskeyS2-WB" x="1055" y="1138" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -22372,7 +22020,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-WhiskeyS2-EB" x="1135" y="1138" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-WhiskeyS2-EB" x="1135" y="1138" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -22389,7 +22037,7 @@
     </sensoricon>
     <positionablelabel x="1928" y="540" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="EAST" fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="no" fixedWidth="50" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="1833" y="540" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="WEST" fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="no" fixedWidth="50" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <sensoricon sensor="NX-D3-WB" x="860" y="140" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-D3-WB" x="860" y="140" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="270" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -22404,7 +22052,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-D3-EB" x="1215" y="140" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-D3-EB" x="1215" y="140" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="90" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -22419,7 +22067,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-E3-EB" x="645" y="140" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-E3-EB" x="645" y="140" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="90" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -22434,7 +22082,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-E2-WB" x="176" y="101" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-E2-WB" x="176" y="101" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="270" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -22449,7 +22097,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-E1-WB" x="131" y="60" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-E1-WB" x="131" y="60" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="270" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -22464,7 +22112,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-GM-EB" x="2313" y="530" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-GM-EB" x="2313" y="530" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="90" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -22479,7 +22127,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-GS-EB" x="2285" y="490" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-GS-EB" x="2285" y="490" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="90" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -22494,7 +22142,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-HM-WB" x="2028" y="530" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-HM-WB" x="2028" y="530" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="270" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -22509,7 +22157,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-HS-WB" x="2045" y="570" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-HS-WB" x="2045" y="570" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="270" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -22524,7 +22172,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-GM-WB" x="2155" y="530" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-GM-WB" x="2155" y="530" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="270" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -22539,7 +22187,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-GS-WB" x="2175" y="490" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-GS-WB" x="2175" y="490" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="270" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -22554,7 +22202,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-MidwayWestFrtApproach-EB" x="335" y="570" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-MidwayWestFrtApproach-EB" x="335" y="570" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="270" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -22569,7 +22217,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-MidwayWestFrtApproach-WB" x="174" y="570" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-MidwayWestFrtApproach-WB" x="174" y="570" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="270" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -22589,7 +22237,7 @@
     <positionablelabel x="1821" y="150" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="MAIN 3  " fontFamily="Dialog" fontname="Dialog" size="8" style="1" red="0" green="0" blue="0" hasBackground="no" fixedWidth="50" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="1821" y="190" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="MAIN 4  " fontFamily="Dialog" fontname="Dialog" size="8" style="1" red="0" green="0" blue="0" hasBackground="no" fixedWidth="50" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="1395" y="1123" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="VISTA YARD" fontFamily="Dialog" fontname="Dialog" size="10" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <sensoricon sensor="NX-VistaM-WB" x="1335" y="1098" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-VistaM-WB" x="1335" y="1098" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="270" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -22604,7 +22252,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-VistaS-WB" x="1325" y="1078" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-VistaS-WB" x="1325" y="1078" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="270" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -22619,7 +22267,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-VistaM-EB" x="1505" y="1098" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-VistaM-EB" x="1505" y="1098" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="90" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -22634,7 +22282,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-VistaS-EB" x="1518" y="1080" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-VistaS-EB" x="1518" y="1080" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="90" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -22657,7 +22305,7 @@
     <positionablelabel x="1095" y="1058" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="&lt;  ABS YARD LIMITS  |  ABS  &gt;  " fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" fixedWidth="180" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="1570" y="1108" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="WEST" fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="no" fixedWidth="55" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="1620" y="1108" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="EAST" fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="no" fixedWidth="55" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <sensoricon sensor="NX-HM-EB" x="2180" y="530" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-HM-EB" x="2180" y="530" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="90" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -22672,7 +22320,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-RedcliffM-EB" x="1063" y="851" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-RedcliffM-EB" x="1063" y="851" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="90" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -22687,7 +22335,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-RedcliffM-WB" x="1003" y="851" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-RedcliffM-WB" x="1003" y="851" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="270" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -22702,7 +22350,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-SierraM-EB" x="838" y="851" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-SierraM-EB" x="838" y="851" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="90" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -22717,7 +22365,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-SierraS-EB" x="828" y="831" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-SierraS-EB" x="828" y="831" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="90" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -22733,7 +22381,7 @@
       <iconmaps />
     </sensoricon>
     <positionablelabel x="843" y="891" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Forestry spur" fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <sensoricon sensor="NX-MidwayMain1-WB" x="550" y="530" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-MidwayMain1-WB" x="550" y="530" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="270" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -22750,7 +22398,7 @@
     </sensoricon>
     <positionablelabel x="2170" y="605" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Tank farm" fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="753" y="781" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Sierra Ranch" fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="0" hasBackground="no" fixedWidth="75" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <sensoricon sensor="NX-E3-WB" x="281" y="141" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-E3-WB" x="281" y="141" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="270" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -22771,7 +22419,7 @@
     <positionablelabel x="1428" y="791" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Tail of storage spur Out of Service" fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="yes" redBack="0" greenBack="255" blueBack="255" fixedWidth="145" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="828" y="906" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Spiked to main. OoS" fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="yes" redBack="0" greenBack="255" blueBack="255" fixedWidth="90" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <memoryicon memory="Osage siding east" x="1945" y="819" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" fixedHeight="16" justification="left" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif" />
-    <sensoricon sensor="NX-OsageM-WB" x="1855" y="849" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-OsageM-WB" x="1855" y="849" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -22786,7 +22434,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-OsageS-WB" x="1855" y="829" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-OsageS-WB" x="1855" y="829" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -22801,7 +22449,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-OsageM-EB" x="1953" y="849" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-OsageM-EB" x="1953" y="849" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -22816,7 +22464,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-OsageS-EB" x="1950" y="829" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-OsageS-EB" x="1950" y="829" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -22831,7 +22479,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-MidwayMain2-WB" x="570" y="480" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-MidwayMain2-WB" x="570" y="480" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="270" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -23415,7 +23063,7 @@
     <positionablelabel x="555" y="415" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Midway W spurs ladder short - OoS" fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="yes" redBack="0" greenBack="255" blueBack="255" fixedWidth="130" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="693" y="861" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Sierra Main Out of Service - DO NOT USE" fontFamily="Dialog" fontname="Dialog" size="8" style="1" red="255" green="255" blue="0" hasBackground="yes" redBack="255" greenBack="0" blueBack="0" fixedWidth="185" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="1205" y="1183" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Panel version" fontFamily="Dialog" fontname="Dialog" size="10" style="1" red="255" green="255" blue="255" hasBackground="no" fixedWidth="160" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <sensoricon sensor="NX-SierraS-WB" x="698" y="831" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-SierraS-WB" x="698" y="831" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="270" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -23430,7 +23078,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-SierraM-WB" x="698" y="851" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-SierraM-WB" x="698" y="851" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="270" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -24194,17 +23842,17 @@
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Tue Mar 17 14:13:56 EDT 2026</date>
+      <date>Tue Mar 17 14:15:39 EDT 2026</date>
       <filename>PanelPro (v5.15.5)</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Tue Mar 17 14:14:04 EDT 2026</date>
+      <date>Tue Mar 17 14:15:46 EDT 2026</date>
       <filename>/Users/jake/Library/Mobile Documents/com~apple~CloudDocs/Trains/PMRRM/git_repos/PMRRM/Profiles/Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Tue Mar 17 14:14:32 EDT 2026</date>
+      <date>Tue Mar 17 14:16:49 EDT 2026</date>
       <filename>/Users/jake/Library/Mobile Documents/com~apple~CloudDocs/Trains/PMRRM/git_repos/PMRRM/Profiles/Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
     </operation>
   </filehistory>
