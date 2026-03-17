@@ -11196,6 +11196,14 @@
       <systemName>IB:AUTO:0057</systemName>
       <userName>Midway East Engine Pocket</userName>
     </block>
+    <block systemName="IB:AUTO:0058">
+      <systemName>IB:AUTO:0058</systemName>
+      <userName>Midway East Pass App Stopping Block LS26</userName>
+    </block>
+    <block systemName="IB:AUTO:0059">
+      <systemName>IB:AUTO:0059</systemName>
+      <userName>Midway East Passenger Ladder</userName>
+    </block>
     <block systemName="IB1" length="7620.0" curve="1">
       <systemName>IB1</systemName>
       <userName>Narrows, Lower</userName>
@@ -11900,23 +11908,15 @@
           <turnout systemName="Midway W Yard" />
         </beansetting>
       </path>
-      <path todir="64" fromdir="128" block="IB65">
-        <beansetting setting="2">
-          <turnout systemName="LT54" />
-        </beansetting>
-      </path>
+      <path todir="64" fromdir="128" block="IB:AUTO:0059" />
     </block>
     <block systemName="IB30" length="6096.0" curve="0">
       <systemName>IB30</systemName>
       <userName>Midway main 2 station</userName>
       <permissive>no</permissive>
       <occupancysensor>Midway Main 2 at Station</occupancysensor>
-      <path todir="64" fromdir="128" block="IB65">
-        <beansetting setting="2">
-          <turnout systemName="LT55" />
-        </beansetting>
-      </path>
       <path todir="128" fromdir="64" block="IB:AUTO:0054" />
+      <path todir="64" fromdir="128" block="IB:AUTO:0059" />
     </block>
     <block systemName="IB31" length="7112.0" curve="0">
       <systemName>IB31</systemName>
@@ -11928,17 +11928,13 @@
           <turnout systemName="Midway E Team 1" />
         </beansetting>
       </path>
-      <path todir="64" fromdir="128" block="IB65">
-        <beansetting setting="4">
-          <turnout systemName="LT55" />
-        </beansetting>
-      </path>
       <path todir="16" fromdir="32" block="IB75">
         <beansetting setting="4">
           <turnout systemName="Midway W Team 1" />
         </beansetting>
       </path>
       <path todir="128" fromdir="64" block="IB:AUTO:0053" />
+      <path todir="64" fromdir="128" block="IB:AUTO:0059" />
     </block>
     <block systemName="IB32" length="7620.0" curve="0">
       <systemName>IB32</systemName>
@@ -12512,40 +12508,23 @@
       <userName>Midway East Main passenger approach</userName>
       <permissive>no</permissive>
       <occupancysensor>Midway East Psg approach</occupancysensor>
-      <path todir="128" fromdir="64" block="IB29">
-        <beansetting setting="2">
-          <turnout systemName="LT54" />
-        </beansetting>
-      </path>
       <path todir="128" fromdir="64" block="IB30">
         <beansetting setting="2">
           <turnout systemName="LT55" />
-        </beansetting>
-        <beansetting setting="4">
-          <turnout systemName="LT54" />
         </beansetting>
       </path>
       <path todir="128" fromdir="64" block="IB31">
         <beansetting setting="4">
           <turnout systemName="LT55" />
         </beansetting>
-        <beansetting setting="4">
-          <turnout systemName="LT54" />
-        </beansetting>
       </path>
       <path todir="64" fromdir="128" block="IB64">
         <beansetting setting="2">
           <turnout systemName="Lake" />
         </beansetting>
-        <beansetting setting="2">
-          <turnout systemName="Midway E P approach" />
-        </beansetting>
       </path>
-      <path todir="32" fromdir="16" block="IB:AUTO:0057">
-        <beansetting setting="4">
-          <turnout systemName="Midway E P approach" />
-        </beansetting>
-      </path>
+      <path todir="128" fromdir="64" block="IB:AUTO:0058" />
+      <path todir="64" fromdir="128" block="IB:AUTO:0059" />
     </block>
     <block systemName="IB66" length="0.0" curve="0">
       <systemName>IB66</systemName>
@@ -14557,16 +14536,45 @@
       <comment>Includes LT52 because that's how it's wired</comment>
       <permissive>no</permissive>
       <occupancysensor>Midway LS24 power spur plus turnout</occupancysensor>
-      <path todir="16" fromdir="32" block="IB65">
-        <beansetting setting="4">
-          <turnout systemName="Midway E P approach" />
-        </beansetting>
-      </path>
       <path todir="64" fromdir="128" block="IB148">
         <beansetting setting="2">
           <turnout systemName="Midway E Engine pocket" />
         </beansetting>
       </path>
+      <path todir="144" fromdir="96" block="IB:AUTO:0059">
+        <beansetting setting="4">
+          <turnout systemName="Midway E P approach" />
+        </beansetting>
+      </path>
+    </block>
+    <block systemName="IB:AUTO:0058" length="0.0" curve="0">
+      <systemName>IB:AUTO:0058</systemName>
+      <userName>Midway East Pass App Stopping Block LS26</userName>
+      <permissive>no</permissive>
+      <path todir="64" fromdir="128" block="IB65" />
+      <path todir="128" fromdir="64" block="IB:AUTO:0059" />
+    </block>
+    <block systemName="IB:AUTO:0059" length="0.0" curve="0">
+      <systemName>IB:AUTO:0059</systemName>
+      <userName>Midway East Passenger Ladder</userName>
+      <permissive>no</permissive>
+      <path todir="128" fromdir="64" block="IB29">
+        <beansetting setting="2">
+          <turnout systemName="Midway E P1" />
+        </beansetting>
+      </path>
+      <path todir="128" fromdir="64" block="IB30">
+        <beansetting setting="4">
+          <turnout systemName="Midway E P1" />
+        </beansetting>
+      </path>
+      <path todir="128" fromdir="64" block="IB31" />
+      <path todir="16" fromdir="32" block="IB:AUTO:0057">
+        <beansetting setting="4">
+          <turnout systemName="Midway E P approach" />
+        </beansetting>
+      </path>
+      <path todir="64" fromdir="128" block="IB:AUTO:0058" />
     </block>
   </blocks>
   <layoutblocks class="jmri.jmrit.display.layoutEditor.configurexml.LayoutBlockManagerXml" blockrouting="yes">
@@ -15349,6 +15357,10 @@
       <systemName>ILB193</systemName>
       <userName>AUTOBLK:193</userName>
     </layoutblock>
+    <layoutblock systemName="ILB194" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green">
+      <systemName>ILB194</systemName>
+      <userName>Midway East Pass App Stopping Block LS26</userName>
+    </layoutblock>
     <layoutblock systemName="ILB195" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="white">
       <systemName>ILB195</systemName>
       <userName>AUTOBLK:195</userName>
@@ -15360,6 +15372,10 @@
     <layoutblock systemName="ILB197" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="white">
       <systemName>ILB197</systemName>
       <userName>AUTOBLK:197</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB198" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green">
+      <systemName>ILB198</systemName>
+      <userName>Midway East Passenger Ladder</userName>
     </layoutblock>
     <layoutblock systemName="ILB199" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="white">
       <systemName>ILB199</systemName>
@@ -19562,8 +19578,8 @@
       <sensorB>NX-MidwayEastPsgApproach-EB</sensorB>
       <sensorC>NX-MidwayEastFrtApproach-EB</sensorC>
     </layoutturnout>
-    <layoutturnout ident="TO5" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="1117.0" ycen="355.0" xa="1104.0" ya="355.0" xb="1130.0" yb="355.0" xc="1130.0" yc="370.0" xd="1104.0" yd="355.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Midway E P approach" blockname="Midway East Main passenger approach" connectaname="T6" connectbname="T3" connectcname="T5" />
-    <layoutturnout ident="TO6" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="1062.0" ycen="355.0" xa="1074.0" ya="355.0" xb="1050.0" yb="355.0" xc="1047.0" yc="335.0" xd="1074.0" yd="355.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="LT54" blockname="Midway East Main passenger approach" connectaname="T6" connectbname="T14" connectcname="T27">
+    <layoutturnout ident="TO5" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="1117.0" ycen="355.0" xa="1104.0" ya="355.0" xb="1130.0" yb="355.0" xc="1130.0" yc="370.0" xd="1104.0" yd="355.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Midway E P approach" blockname="Midway East Passenger Ladder" connectaname="T6" connectbname="T239" connectcname="T5" />
+    <layoutturnout ident="TO6" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="1062.0" ycen="355.0" xa="1074.0" ya="355.0" xb="1050.0" yb="355.0" xc="1047.0" yc="335.0" xd="1074.0" yd="355.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Midway E P1" blockname="Midway East Passenger Ladder" connectaname="T6" connectbname="T14" connectcname="T27">
       <sensorB>NX-MidwayMain1-EB</sensorB>
     </layoutturnout>
     <layoutturnout ident="TO9" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="732.0" ycen="355.0" xa="712.0" ya="355.0" xb="752.0" yb="355.0" xc="750.0" yc="335.0" xd="712.0" yd="355.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Midway W P1" blockname="Midway West passenger throat" connectaname="T17" connectbname="T13" connectcname="T26" />
@@ -19577,9 +19593,8 @@
       <sensorB>NX-MidwayWestPsgApproach-WB</sensorB>
       <sensorC>NX-MidwayWestFrtApproach-WB</sensorC>
     </layoutturnout>
-    <layoutturnout ident="TO15" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="1022.0" ycen="335.0" xa="1034.0" ya="335.0" xb="1010.0" yb="335.0" xc="1002.0" yc="315.0" xd="1034.0" yd="335.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="LT55" blockname="Midway East Main passenger approach" connectaname="T27" connectbname="T245" connectcname="T144">
+    <layoutturnout ident="TO15" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="1022.0" ycen="335.0" xa="1034.0" ya="335.0" xb="1010.0" yb="335.0" xc="1005.0" yc="315.0" xd="1034.0" yd="335.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Midway E P2" blockname="Midway East Passenger Ladder" connectaname="T27" connectbname="T245" connectcname="T144">
       <sensorB>NX-MidwayMain2-EB</sensorB>
-      <sensorC>NX-MidwayMain3-EB</sensorC>
     </layoutturnout>
     <layoutturnout ident="TO16" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="772.0" ycen="335.0" xa="755.0" ya="335.0" xb="789.0" yb="335.0" xc="790.0" yc="315.0" xd="755.0" yd="335.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Midway W P2" blockname="Midway West passenger throat" connectaname="T26" connectbname="T25" connectcname="T24">
       <sensorB>NX-MidwayMain2-WB</sensorB>
@@ -19802,10 +19817,10 @@
     <layoutturnout ident="TO114" type="RH_TURNOUT" hidden="no" disabled="yes" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="570.0" ycen="490.0" xa="550.0" ya="490.0" xb="590.0" yb="490.0" xc="580.0" yc="500.0" xd="550.0" yd="490.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Sierra camp spur (Bob G guess )" blockname="Sierra main" connectaname="T237" connectbname="T46" connectcname="T127" />
     <layoutturnout ident="TO115" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="4" xcen="400.0" ycen="100.0" xa="385.0" ya="100.0" xb="415.0" yb="100.0" xc="410.0" yc="110.0" xd="385.0" yd="100.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Short Line to Delta 4" blockname="AUTOBLK:135" connectaname="T107" connectbname="T240" connectcname="T241" />
     <tracksegment ident="T1" blockname="Midway East frt approach" connect1name="TO3" type1="TURNOUT_C" connect2name="A28" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T3" blockname="Midway East Main passenger approach" connect1name="TO3" type1="TURNOUT_B" connect2name="TO5" type2="TURNOUT_B" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T3" blockname="Midway East Main passenger approach" connect1name="TO3" type1="TURNOUT_B" connect2name="A41" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T4" blockname="Midway below LT52" connect1name="TO1" type1="TURNOUT_C" connect2name="TO2" type2="TURNOUT_B" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T5" blockname="Midway East Engine Pocket" connect1name="TO5" type1="TURNOUT_C" connect2name="TO2" type2="TURNOUT_A" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T6" blockname="Midway East Main passenger approach" connect1name="TO5" type1="TURNOUT_A" connect2name="TO6" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T6" blockname="Midway East Passenger Ladder" connect1name="TO5" type1="TURNOUT_A" connect2name="TO6" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T8" blockname="Midway East Engine Pocket" connect1name="TO2" type1="TURNOUT_C" connect2name="EB1" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
       <decorations>
         <bumper end="stop" color="#000000" linewidth="8" length="8" />
@@ -19821,7 +19836,7 @@
     <tracksegment ident="T24" blockname="Midway West station 3 stop block" connect1name="TO16" type1="TURNOUT_C" connect2name="TO82" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T25" blockname="Midway West station 2 stop block" connect1name="TO16" type1="TURNOUT_B" connect2name="A40" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T26" blockname="Midway West passenger throat" connect1name="TO16" type1="TURNOUT_A" connect2name="TO9" type2="TURNOUT_C" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T27" blockname="Midway East Main passenger approach" connect1name="TO15" type1="TURNOUT_A" connect2name="TO6" type2="TURNOUT_C" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T27" blockname="Midway East Passenger Ladder" connect1name="TO15" type1="TURNOUT_A" connect2name="TO6" type2="TURNOUT_C" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T28" blockname="Narrows, Lower" connect1name="TO14" type1="TURNOUT_A" connect2name="A4" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T37" blockname="Powderhorn main" connect1name="TO21" type1="TURNOUT_B" connect2name="TO58" type2="TURNOUT_B" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T38" blockname="Powderhorn siding" connect1name="TO21" type1="TURNOUT_C" connect2name="TO27" type2="TURNOUT_B" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
@@ -19920,7 +19935,7 @@
     <tracksegment ident="T141" blockname="Osage-Powderhorn" connect1name="A13" type1="POS_POINT" connect2name="A18" type2="POS_POINT" dashed="no" mainline="yes" hidden="yes" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T142" blockname="Osage-Powderhorn" connect1name="A18" type1="POS_POINT" connect2name="TO42" type2="TURNOUT_B" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T143" blockname="Osage-Powderhorn" connect1name="TO42" type1="TURNOUT_A" connect2name="TO4" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T144" blockname="Midway main 3 station" connect1name="TO91" type1="TURNOUT_A" connect2name="TO15" type2="TURNOUT_C" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T144" blockname="Midway East Passenger Ladder" connect1name="TO91" type1="TURNOUT_A" connect2name="TO15" type2="TURNOUT_C" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T145" blockname="Midway main 3 station" connect1name="TO82" type1="TURNOUT_B" connect2name="TO91" type2="TURNOUT_B" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T146" blockname="AUTOBLK:75" connect1name="TO90" type1="TURNOUT_A" connect2name="TO82" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T147" blockname="AUTOBLK:73" connect1name="TO92" type1="TURNOUT_A" connect2name="TO91" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
@@ -20128,6 +20143,8 @@
     <tracksegment ident="T241" blockname="AUTOBLK:153" connect1name="A39" type1="POS_POINT" connect2name="TO115" type2="TURNOUT_C" dashed="yes" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T244" blockname="Osage siding East" connect1name="A38" type1="POS_POINT" connect2name="A20" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T245" blockname="Midway main 2 station" connect1name="A40" type1="POS_POINT" connect2name="TO15" type2="TURNOUT_B" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T239" blockname="Midway East Passenger Ladder" connect1name="A37" type1="POS_POINT" connect2name="TO5" type2="TURNOUT_B" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T246" blockname="Midway East Pass App Stopping Block LS26" connect1name="A41" type1="POS_POINT" connect2name="A37" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <positionablepoint ident="EB1" type="END_BUMPER" x="1227.0" y="370.0" connect1name="T8" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A4" type="ANCHOR" x="462.0" y="355.0" connect1name="T28" connect2name="T9" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A8" type="ANCHOR" x="1075.0" y="190.0" connect1name="T227" connect2name="T118" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
@@ -20213,6 +20230,8 @@
     <positionablepoint ident="A39" type="ANCHOR" x="430.0" y="120.0" connect1name="T243" connect2name="T241" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A38" type="ANCHOR" x="316.0" y="335.0" connect1name="T12" connect2name="T244" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A40" type="ANCHOR" x="810.0" y="335.0" connect1name="T25" connect2name="T245" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A37" type="ANCHOR" x="1150.0" y="355.0" connect1name="T246" connect2name="T239" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A41" type="ANCHOR" x="1170.0" y="355.0" connect1name="T3" connect2name="T246" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
   </LayoutEditor>
   <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="PMRRM Dispatcher HiRes" x="0" y="30" windowheight="1390" windowwidth="2540" panelheight="1400" panelwidth="2575" sliders="yes" scrollable="both" editable="yes" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="yes" tooltipsinedit="yes" mainlinetrackwidth="6" xscale="1.0" yscale="1.0" sidetrackwidth="3" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="green" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclethrowncolor="orange" turnoutcirclesize="3" turnoutdrawunselectedleg="no" turnoutbx="7.0" turnoutcx="14.0" turnoutwid="14.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="yes" redBackground="192" greenBackground="192" blueBackground="192" gridSize="5" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="PMRRM Dispatcher HiRes" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
@@ -23221,8 +23240,8 @@
       <sensorB>NX-MidwayEastPsgApproach-EB</sensorB>
       <sensorC>NX-MidwayEastFrtApproach-EB</sensorC>
     </layoutturnout>
-    <layoutturnout ident="TO5" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="1132.0" ycen="535.0" xa="1119.0" ya="535.0" xb="1145.0" yb="535.0" xc="1145.0" yc="550.0" xd="1119.0" yd="535.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Midway E P approach" blockname="Midway East Main passenger approach" connectaname="T6" connectbname="T3" connectcname="T5" />
-    <layoutturnout ident="TO6" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="1081.0" ycen="535.0" xa="1093.0" ya="535.0" xb="1069.0" yb="535.0" xc="1061.0" yc="515.0" xd="1093.0" yd="535.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="LT54" blockname="Midway East Main passenger approach" connectaname="T6" connectbname="T14" connectcname="T27">
+    <layoutturnout ident="TO5" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="1132.0" ycen="535.0" xa="1119.0" ya="535.0" xb="1145.0" yb="535.0" xc="1145.0" yc="550.0" xd="1119.0" yd="535.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Midway E P approach" blockname="Midway East Passenger Ladder" connectaname="T6" connectbname="T253" connectcname="T5" />
+    <layoutturnout ident="TO6" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="1081.0" ycen="535.0" xa="1093.0" ya="535.0" xb="1069.0" yb="535.0" xc="1061.0" yc="515.0" xd="1093.0" yd="535.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Midway E P1" blockname="Midway East Passenger Ladder" connectaname="T6" connectbname="T14" connectcname="T27">
       <sensorB>NX-MidwayMain1-EB</sensorB>
     </layoutturnout>
     <layoutturnout ident="TO9" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="403.0" ycen="535.0" xa="383.0" ya="535.0" xb="423.0" yb="535.0" xc="421.0" yc="515.0" xd="383.0" yd="535.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Midway W P1" blockname="Midway West passenger throat" connectaname="T17" connectbname="T13" connectcname="T26" />
@@ -23236,9 +23255,8 @@
       <sensorB>NX-MidwayWestPsgApproach-WB</sensorB>
       <sensorC>NX-MidwayWestFrtApproach-WB</sensorC>
     </layoutturnout>
-    <layoutturnout ident="TO15" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="1016.0" ycen="485.0" xa="1036.0" ya="485.0" xb="996.0" yb="485.0" xc="996.0" yc="462.0" xd="1036.0" yd="485.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="LT55" blockname="Midway East Main passenger approach" connectaname="T27" connectbname="T245" connectcname="T229">
+    <layoutturnout ident="TO15" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="1016.0" ycen="485.0" xa="1036.0" ya="485.0" xb="996.0" yb="485.0" xc="996.0" yc="462.0" xd="1036.0" yd="485.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Midway E P2" blockname="Midway East Passenger Ladder" connectaname="T27" connectbname="T245" connectcname="T229">
       <sensorB>NX-MidwayMain2-EB</sensorB>
-      <sensorC>NX-MidwayMain3-EB</sensorC>
     </layoutturnout>
     <layoutturnout ident="TO16" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="464.0" ycen="485.0" xa="447.0" ya="485.0" xb="481.0" yb="485.0" xc="482.0" yc="465.0" xd="447.0" yd="485.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Midway W P2" blockname="Midway West passenger throat" connectaname="T26" connectbname="T25" connectcname="T24">
       <sensorB>NX-MidwayMain2-WB</sensorB>
@@ -23459,12 +23477,12 @@
     <layoutturnout ident="TO112" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="1345.0" ycen="1123.0" xa="1355.0" ya="1123.0" xb="1335.0" yb="1123.0" xc="1335.0" yc="1113.0" xd="1355.0" yd="1123.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Vista W 2 MainW -VistaYard W partner" blockname="AUTOBLK:175" connectaname="T60" connectbname="T234" connectcname="T232" />
     <layoutturnout ident="TO113" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="4" xcen="1500.0" ycen="1128.0" xa="1490.0" ya="1138.0" xb="1510.0" yb="1118.0" xc="1520.0" yc="1128.0" xd="1490.0" yd="1138.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Vista E 2 MainE -VistaYard E partner" blockname="AUTOBLK:196" connectaname="T235" connectbname="T233" connectcname="T236" />
     <layoutturnout ident="TO114" type="RH_TURNOUT" hidden="no" disabled="yes" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="818.0" ycen="856.0" xa="798.0" ya="856.0" xb="838.0" yb="856.0" xc="828.0" yc="866.0" xd="798.0" yd="856.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Sierra camp spur (Bob G guess )" blockname="Sierra main" connectaname="T237" connectbname="T46" connectcname="T127" />
-    <layoutturnout ident="TO115" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="4" xcen="705.0" ycen="185.0" xa="690.0" ya="185.0" xb="720.0" yb="185.0" xc="742.0" yc="225.0" xd="690.0" yd="185.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Short Line to Delta 4" blockname="AUTOBLK:135" connectaname="T107" connectbname="T240" connectcname="T241" />
+    <layoutturnout ident="TO115" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="4" xcen="705.0" ycen="185.0" xa="690.0" ya="185.0" xb="720.0" yb="185.0" xc="742.0" yc="225.0" xd="690.0" yd="185.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Short Line to Delta 4" blockname="AUTOBLK:135" connectaname="T107" connectbname="T240" connectcname="T243" />
     <tracksegment ident="T1" blockname="Midway East frt approach" connect1name="TO3" type1="TURNOUT_C" connect2name="A28" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T3" blockname="Midway East Main passenger approach" connect1name="TO3" type1="TURNOUT_B" connect2name="TO5" type2="TURNOUT_B" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T3" blockname="Midway East Main passenger approach" connect1name="TO3" type1="TURNOUT_B" connect2name="A49" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T4" blockname="Midway below LT52" connect1name="TO1" type1="TURNOUT_C" connect2name="TO2" type2="TURNOUT_B" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T5" blockname="Midway East Engine Pocket" connect1name="TO5" type1="TURNOUT_C" connect2name="TO2" type2="TURNOUT_A" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T6" blockname="Midway East Main passenger approach" connect1name="TO5" type1="TURNOUT_A" connect2name="TO6" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T6" blockname="Midway East Passenger Ladder" connect1name="TO5" type1="TURNOUT_A" connect2name="TO6" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T8" blockname="Midway East Engine Pocket" connect1name="TO2" type1="TURNOUT_C" connect2name="EB1" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
       <decorations>
         <bumper end="stop" color="#000000" linewidth="8" length="8" />
@@ -23480,7 +23498,7 @@
     <tracksegment ident="T24" blockname="Midway West station 3 stop block" connect1name="TO16" type1="TURNOUT_C" connect2name="A47" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T25" blockname="Midway West station 2 stop block" connect1name="TO16" type1="TURNOUT_B" connect2name="A40" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T26" blockname="Midway West passenger throat" connect1name="TO16" type1="TURNOUT_A" connect2name="TO9" type2="TURNOUT_C" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T27" blockname="Midway East Main passenger approach" connect1name="TO15" type1="TURNOUT_A" connect2name="TO6" type2="TURNOUT_C" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T27" blockname="Midway East Passenger Ladder" connect1name="TO15" type1="TURNOUT_A" connect2name="TO6" type2="TURNOUT_C" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T28" blockname="Narrows, Lower" connect1name="TO14" type1="TURNOUT_A" connect2name="A41" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T37" blockname="Powderhorn main" connect1name="TO21" type1="TURNOUT_B" connect2name="TO58" type2="TURNOUT_B" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T38" blockname="Powderhorn siding" connect1name="TO21" type1="TURNOUT_C" connect2name="TO27" type2="TURNOUT_B" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
@@ -23561,7 +23579,7 @@
       </decorations>
     </tracksegment>
     <tracksegment ident="T128" blockname="Kelso" connect1name="A19" type1="POS_POINT" connect2name="TO81" type2="TURNOUT_B" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T129" blockname="Lake" connect1name="TO3" type1="TURNOUT_A" connect2name="A36" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T129" blockname="Lake" connect1name="TO3" type1="TURNOUT_A" connect2name="A19" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T135" blockname="Upton-Vista West" connect1name="A12" type1="POS_POINT" connect2name="TO19" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T123" blockname="Kelso" connect1name="TO79" type1="TURNOUT_C" connect2name="TO80" type2="TURNOUT_A" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T137" blockname="CP DR1" connect1name="A7" type1="POS_POINT" connect2name="TO62" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
@@ -23744,7 +23762,6 @@
     <tracksegment ident="T194" blockname="Zion lead 1" connect1name="TO98" type1="TURNOUT_D" connect2name="A27" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T226" blockname="Midway East frt approach" connect1name="A28" type1="POS_POINT" connect2name="TO1" type2="TURNOUT_A" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T227" blockname="Fox" connect1name="A32" type1="POS_POINT" connect2name="A8" type2="POS_POINT" dashed="no" mainline="yes" hidden="yes" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T230" blockname="Lake" connect1name="A36" type1="POS_POINT" connect2name="A19" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T130" blockname="AUTOBLK:116" connect1name="TO111" type1="TURNOUT_C" connect2name="TO18" type2="TURNOUT_C" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T79" blockname="AUTOBLK:137" connect1name="TO111" type1="TURNOUT_A" connect2name="A31" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T80" blockname="AUTOBLK:143" connect1name="TO46" type1="TURNOUT_B" connect2name="TO111" type2="TURNOUT_B" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
@@ -23778,8 +23795,7 @@
     <tracksegment ident="T240" blockname="AUTOBLK:113" connect1name="TO115" type1="TURNOUT_B" connect2name="TO63" type2="TURNOUT_D" dashed="yes" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T107" blockname="AUTOBLK:135" connect1name="TO115" type1="TURNOUT_A" connect2name="TO70" type2="TURNOUT_C" dashed="yes" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T242" blockname="Midway East frt approach" connect1name="TO1" type1="TURNOUT_B" connect2name="EB45" type2="POS_POINT" dashed="yes" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T243" blockname="AUTOBLK:153" connect1name="EB47" type1="POS_POINT" connect2name="A39" type2="POS_POINT" dashed="yes" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T241" blockname="AUTOBLK:153" connect1name="A39" type1="POS_POINT" connect2name="TO115" type2="TURNOUT_C" dashed="yes" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T243" blockname="AUTOBLK:153" connect1name="EB47" type1="POS_POINT" connect2name="TO115" type2="TURNOUT_C" dashed="yes" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T244" blockname="Osage siding East" connect1name="A38" type1="POS_POINT" connect2name="A20" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T245" blockname="Midway main 2 station" connect1name="A40" type1="POS_POINT" connect2name="TO15" type2="TURNOUT_B" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T239" blockname="Narrows, Lower" connect1name="A37" type1="POS_POINT" connect2name="A4" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
@@ -23793,15 +23809,17 @@
     <tracksegment ident="T249" blockname="Hudson siding" connect1name="A44" type1="POS_POINT" connect2name="TO74" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T250" blockname="Gary siding" connect1name="A45" type1="POS_POINT" connect2name="TO75" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T251" blockname="Gary siding" connect1name="A46" type1="POS_POINT" connect2name="TO76" type2="TURNOUT_A" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T229" blockname="Midway main 3 station" connect1name="A35" type1="POS_POINT" connect2name="TO15" type2="TURNOUT_C" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T229" blockname="Midway East Passenger Ladder" connect1name="A35" type1="POS_POINT" connect2name="TO15" type2="TURNOUT_C" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T252" blockname="Midway West station 3 stop block" connect1name="A47" type1="POS_POINT" connect2name="TO82" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T253" blockname="Midway East Passenger Ladder" connect1name="A48" type1="POS_POINT" connect2name="TO5" type2="TURNOUT_B" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T254" blockname="Midway East Pass App Stopping Block LS26" connect1name="A49" type1="POS_POINT" connect2name="A48" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <positionablepoint ident="EB1" type="END_BUMPER" x="1240.0" y="565.0" connect1name="T8" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A4" type="ANCHOR" x="2112.0" y="854.0" connect1name="T239" connect2name="T9" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A8" type="ANCHOR" x="2471.0" y="535.0" connect1name="T227" connect2name="T118" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A14" type="ANCHOR" x="1920.0" y="535.0" connect1name="T119" connect2name="T120" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="EB10" type="END_BUMPER" x="1744.0" y="595.0" connect1name="T125" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="EB11" type="END_BUMPER" x="1496.0" y="555.0" connect1name="T126" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A19" type="ANCHOR" x="1474.0" y="535.0" connect1name="T128" connect2name="T230" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A19" type="ANCHOR" x="1474.0" y="535.0" connect1name="T128" connect2name="T129" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A12" type="ANCHOR" x="1635.0" y="1103.0" connect1name="T31" connect2name="T135" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A7" type="ANCHOR" x="677.0" y="65.0" connect1name="T102" connect2name="T137" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A15" type="ANCHOR" x="1377.0" y="65.0" connect1name="T95" connect2name="T138" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
@@ -23864,7 +23882,6 @@
     <positionablepoint ident="A27" type="ANCHOR" x="476.0" y="1183.0" connect1name="T225" connect2name="T194" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A28" type="ANCHOR" x="1320.0" y="590.0" connect1name="T1" connect2name="T226" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A32" type="ANCHOR" x="41.0" y="65.0" connect1name="T108" connect2name="T227" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A36" type="ANCHOR" x="1428.0" y="535.0" connect1name="T129" connect2name="T230" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A20" type="ANCHOR" x="1930.0" y="834.0" connect1name="T244" connect2name="T212" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A31" type="ANCHOR" x="2221.0" y="145.0" connect1name="T79" connect2name="T228" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A33" type="ANCHOR" x="351.0" y="575.0" connect1name="T22" connect2name="T231" westboundsensor="NX-MidwayWestFrtApproach-EB" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
@@ -23876,7 +23893,6 @@
     <positionablepoint ident="EB46" type="END_BUMPER" x="666.0" y="575.0" connect1name="T16" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="EB45" type="END_BUMPER" x="1115.0" y="590.0" connect1name="T242" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="EB47" type="END_BUMPER" x="857.0" y="225.0" connect1name="T243" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A39" type="ANCHOR" x="787.0" y="225.0" connect1name="T243" connect2name="T241" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A38" type="ANCHOR" x="1966.0" y="834.0" connect1name="T12" connect2name="T244" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A40" type="ANCHOR" x="706.0" y="485.0" connect1name="T25" connect2name="T245" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A37" type="ANCHOR" x="2174.0" y="854.0" connect1name="T246" connect2name="T239" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
@@ -23888,6 +23904,8 @@
     <positionablepoint ident="A46" type="ANCHOR" x="2326.0" y="495.0" connect1name="T113" connect2name="T251" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A35" type="ANCHOR" x="980.0" y="445.0" connect1name="T144" connect2name="T229" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A47" type="ANCHOR" x="500.0" y="445.0" connect1name="T24" connect2name="T252" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A48" type="ANCHOR" x="1170.0" y="535.0" connect1name="T254" connect2name="T253" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A49" type="ANCHOR" x="1195.0" y="535.0" connect1name="T3" connect2name="T254" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
   </LayoutEditor>
   <filehistory>
     <operation>
@@ -23902,7 +23920,7 @@
     </operation>
     <operation>
       <type>Store</type>
-      <date>Tue Mar 17 15:29:42 EDT 2026</date>
+      <date>Tue Mar 17 16:03:20 EDT 2026</date>
       <filename>/Users/jake/Library/Mobile Documents/com~apple~CloudDocs/Trains/PMRRM/git_repos/PMRRM/Profiles/Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
     </operation>
   </filehistory>
