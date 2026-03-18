@@ -1,3 +1,6 @@
+
+# No longer used since mainline NX (yellow dots) routing has been disabled.
+
 # PMRRM script to throw in-block turnouts when a block is allocated, e.g.
 # when a route is established to/through that block.
 #
