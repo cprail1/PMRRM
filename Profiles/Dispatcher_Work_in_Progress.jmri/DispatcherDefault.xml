@@ -5883,6 +5883,12 @@
       </properties>
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
+      <systemName>LT539</systemName>
+    </turnout>
+    <turnout feedback="MONITORING" inverted="false" automate="Off">
+      <systemName>LT542</systemName>
+    </turnout>
+    <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT550</systemName>
       <properties>
         <property>
@@ -24153,7 +24159,7 @@
     </operation>
     <operation>
       <type>Store</type>
-      <date>Mon Mar 23 13:20:14 PDT 2026</date>
+      <date>Mon Mar 23 14:25:18 PDT 2026</date>
       <filename>/Users/electricalcrew/PMRRM/Profiles/Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
     </operation>
   </filehistory>
