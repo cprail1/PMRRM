@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="CP 4719" fileName="CP_4719.xml" roadNumber="4719" roadName="Canadian Pacific" mfg="Bowser" owner="217 Peter Ely" model="C636" dccAddress="4719" comment="B UNIT MAY NOT LEAD CONSIST" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
-    <dateUpdated>2026-02-08T05:44:12.549+00:00</dateUpdated>
+  <!--Written by JMRI version 5.15.4plus+jenkins+20260305T1324Z+R2910b939945 on Sat Mar 07 13:49:36 PST 2026-->
+  <locomotive id="CP 4719" fileName="CP_4719.xml" roadNumber="4719" roadName="Canadian Pacific" mfg="Bowser" owner="217 Peter Ely" model="C636" dccAddress="4719" comment="B UNIT - MAY NOT LEAD CONSIST" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+    <dateUpdated>2026-03-07T21:49:36.766+00:00</dateUpdated>
     <decoder model="LokSound Select" family="ESU LokSound Select" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="4719" longaddress="yes" />

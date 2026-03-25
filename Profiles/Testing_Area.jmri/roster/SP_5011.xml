@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="SP 5011" fileName="SP_5011.xml" roadNumber="5011" roadName="Southern Pacific" mfg="KTM" owner="265 AJ Chier" model="4-10-2 SP1" dccAddress="5011" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
-    <dateUpdated>2026-02-08T03:58:33.069+00:00</dateUpdated>
+  <!--Written by JMRI version 5.15.4plus+jenkins+20260305T1324Z+R2910b939945 on Sat Mar 14 11:22:23 PDT 2026-->
+  <locomotive id="SP 5011" fileName="SP_5011.xml" roadNumber="5011" roadName="Southern Pacific" mfg="KTM" owner="265 AJ Chier" model="4-10-2 SP1" dccAddress="5011" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+    <dateUpdated>2026-03-14T18:22:23.030+00:00</dateUpdated>
     <decoder model="TSU-2200 Steam-2" family="Tsunami2 Steam" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="5011" longaddress="yes" />
@@ -48,7 +48,7 @@
       </keyvaluepair>
       <keyvaluepair>
         <key>TE</key>
-        <value>33 23</value>
+        <value>33 28 23</value>
       </keyvaluepair>
     </attributepairs>
     <values>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
+<!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
   <locomotive id="UP 930_2" fileName="UP_930_1.xml" roadNumber="930" roadName="Union Pacific" mfg="Rapido" owner="148 Kevin Schiller" model="E8B" dccAddress="930" comment="" developerID="-1" manufacturerID="151" productID="33554588,33554680,33554651" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2026-02-12T06:18:21.970+00:00</dateUpdated>
@@ -11877,4 +11877,6 @@
       <CVvalue name="16.12.378" value="0" />
     </values>
   </locomotive>
+  <!--Written by JMRI version 5.15.3plus+jenkins+20260206T0344Z+Rbfe7cf787e5 on Thu Feb 12 15:21:06 PST 2026-->
+  <!--Written by JMRI version 5.15.4plus+jenkins+20260305T1324Z+R2910b939945 on Thu Mar 05 17:32:46 PST 2026-->
 </locomotive-config>

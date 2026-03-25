@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="BNSF 9366" fileName="BNSF_9366.xml" roadNumber="9366" roadName="BNSF Railway" mfg="Athearn Genesis" owner="94 Bob Cooper" model="SD70ACe" dccAddress="9366" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
-    <dateUpdated>2026-02-08T03:58:27.780+00:00</dateUpdated>
+  <!--Written by JMRI version 5.15.4plus+jenkins+20260305T1324Z+R2910b939945 on Thu Mar 05 17:53:20 PST 2026-->
+  <locomotive id="BNSF 9366" fileName="BNSF_9366.xml" roadNumber="9366" roadName="BNSF Railway" mfg="Athearn Genesis" owner="094 Bob Cooper" model="SD70ACe" dccAddress="9366" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+    <dateUpdated>2026-03-06T01:53:20.948+00:00</dateUpdated>
     <decoder model="SD70ACe" family="Tsunami Diesel Genesis OEM" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="9366" longaddress="yes" />

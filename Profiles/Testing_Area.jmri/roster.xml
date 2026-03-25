@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/roster2array.xsl" type="text/xsl"?>
 <roster-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/roster.xsd">
-  <!--Written by JMRI version 5.15.3plus+jenkins+20260213T2025Z+R099362ba8c on Fri Feb 13 22:10:18 PST 2026-->
   <roster>
     <locomotive id="AMT 12" fileName="AMT_12.xml" roadNumber="5" roadName="Amtrak" mfg="Athearn Genesis" owner="257 Chris Holt" model="P42" dccAddress="5" comment="For 257 2011 Coast Starlight only" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
       <dateUpdated>2026-02-08T03:58:25.096+00:00</dateUpdated>
@@ -3336,6 +3335,37 @@ Unit TE: 31 / 26 / 21</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
+    <locomotive id="ATSF 3759-2" fileName="ATSF_3759_20.xml" roadNumber="3759" roadName="ATSF" mfg="" owner="223 Dan Wexler" model="4-8-4 Northern " dccAddress="3759" comment="" developerID="-1" manufacturerID="141" productID="826103" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-03-06T00:02:53.143+00:00</dateUpdated>
+      <decoder model="TSU-1000 Heavy Steam" family="Tsunami Steam" comment="" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="3759" longaddress="yes" />
+        <number>3759</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels>
+        <functionlabel num="0" lockable="true" visible="true" functionImage="" functionImageSelected="">Headlight</functionlabel>
+        <functionlabel num="1" lockable="true" visible="true" functionImage="" functionImageSelected="">Bell</functionlabel>
+        <functionlabel num="2" lockable="false" visible="true" functionImage="" functionImageSelected="">Whistle</functionlabel>
+        <functionlabel num="3" lockable="true" visible="true" functionImage="" functionImageSelected="">Short Whistle</functionlabel>
+        <functionlabel num="4" lockable="true" visible="true" functionImage="" functionImageSelected="">Steam Release</functionlabel>
+        <functionlabel num="5" lockable="true" visible="true" functionImage="" functionImageSelected="">FX5 Light</functionlabel>
+        <functionlabel num="6" lockable="true" visible="true" functionImage="" functionImageSelected="">FX6 Light</functionlabel>
+        <functionlabel num="7" lockable="true" visible="true" functionImage="" functionImageSelected="">Dimmer</functionlabel>
+        <functionlabel num="8" lockable="true" visible="true" functionImage="" functionImageSelected="">Mute</functionlabel>
+        <functionlabel num="9" lockable="true" visible="true" functionImage="" functionImageSelected="">Water Stop</functionlabel>
+        <functionlabel num="10" lockable="true" visible="true" functionImage="" functionImageSelected="">Injectors</functionlabel>
+        <functionlabel num="11" lockable="true" visible="true" functionImage="" functionImageSelected="">Brake Squeal</functionlabel>
+        <functionlabel num="12" lockable="true" visible="true" functionImage="" functionImageSelected="">Coupler</functionlabel>
+      </functionlabels>
+      <soundlabels />
+      <attributepairs>
+        <keyvaluepair>
+          <key>TE</key>
+          <value>24 / 16</value>
+        </keyvaluepair>
+      </attributepairs>
+    </locomotive>
     <locomotive id="ATSF 3759_2" fileName="ATSF_3759_2.xml" roadNumber="3759" roadName="ATSF" mfg="" owner="223 Dan Wexler" model="4-8-4 Northern " dccAddress="3759" comment="" developerID="-1" manufacturerID="141" productID="826103" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
       <dateUpdated>2026-02-11T14:58:49.748+00:00</dateUpdated>
       <decoder model="TSU-1000 Heavy Steam" family="Tsunami Steam" comment="" maxFnNum="28" />
@@ -3495,6 +3525,23 @@ Unit TE: 31 / 26 / 21</value>
         <keyvaluepair>
           <key>TE</key>
           <value>54 / 20</value>
+        </keyvaluepair>
+      </attributepairs>
+    </locomotive>
+    <locomotive id="ATSF 3806-2" fileName="ATSF_3806_20.xml" roadNumber="3806" roadName="ATSF" mfg="" owner="223 Dan Wexler" model="2-10-2 " dccAddress="3806" comment="" developerID="-1" manufacturerID="101" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-03-06T00:02:48.969+00:00</dateUpdated>
+      <decoder model="4 function decoder (36-550)" family="E-Z Command decoders" comment="" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="3806" longaddress="yes" />
+        <number>3806</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels />
+      <soundlabels />
+      <attributepairs>
+        <keyvaluepair>
+          <key>TE</key>
+          <value>15 / 10</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
@@ -4172,6 +4219,24 @@ Group TE: 57 / 41</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
+    <locomotive id="ATSF 5142-2" fileName="ATSF_5142_20.xml" roadNumber="5147" roadName="ATSF" mfg="Scale Trains" owner="273 Jack Howland" model="SD40-2" dccAddress="5142" comment="2.25 oz 2%" developerID="-1" manufacturerID="151" productID="33554588" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-03-06T00:02:42.872+00:00</dateUpdated>
+      <decoder model="LokSound 5 DCC" family="ESU LokSound 5" comment="" maxFnNum="31" />
+      <locoaddress>
+        <dcclocoaddress number="5142" longaddress="yes" />
+        <number>5142</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels>
+        <functionlabel num="0" lockable="true" visible="true" functionImage="" functionImageSelected="">Light</functionlabel>
+        <functionlabel num="1" lockable="true" visible="true" functionImage="" functionImageSelected="">Bell</functionlabel>
+        <functionlabel num="2" lockable="false" visible="true" functionImage="" functionImageSelected="">Horn</functionlabel>
+      </functionlabels>
+      <soundlabels>
+        <soundlabel num="33">Automatic brake sound</soundlabel>
+        <soundlabel num="34">Gear shift sound</soundlabel>
+      </soundlabels>
+    </locomotive>
     <locomotive id="ATSF 5142_2" fileName="ATSF_5142_2.xml" roadNumber="5147" roadName="ATSF" mfg="Scale Trains" owner="273 Jack Howland" model="SD40-2" dccAddress="5142" comment="" developerID="-1" manufacturerID="151" productID="33554588" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
       <dateUpdated>2026-02-12T06:38:30.456+00:00</dateUpdated>
       <decoder model="LokSound 5 DCC" family="ESU LokSound 5" comment="" maxFnNum="31" />
@@ -4252,8 +4317,8 @@ Group TE: 57 / 41</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="ATSF 5256" fileName="ATSF_5256.xml" roadNumber="5256" roadName="ATSF" mfg="Athearn" owner="SM1501 Mark Cheer" model="SDP40Fu" dccAddress="5256" comment="" developerID="-1" manufacturerID="141" productID="6454" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-02-08T03:58:26.140+00:00</dateUpdated>
+    <locomotive id="ATSF 5256" fileName="ATSF_5256.xml" roadNumber="5256" roadName="ATSF" mfg="Athearn" owner="1501 Mark Cheer" model="SDP40Fu" dccAddress="5256" comment="" developerID="-1" manufacturerID="141" productID="6454" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-03-06T01:37:33.178+00:00</dateUpdated>
       <decoder model="TSU-21PNEM8 SD40T-2 16" family="Tsunami2 Diesel OEM Genesis" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="5256" longaddress="yes" />
@@ -4293,8 +4358,8 @@ Group TE: 57 / 41</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="ATSF 5260" fileName="ATSF_5260.xml" roadNumber="5260" roadName="ATSF" mfg="Athearn" owner="SM1501 Mark Cheer" model="SDP40Fu" dccAddress="5260" comment="" developerID="-1" manufacturerID="141" productID="852005" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-02-08T03:58:26.159+00:00</dateUpdated>
+    <locomotive id="ATSF 5260" fileName="ATSF_5260.xml" roadNumber="5260" roadName="ATSF" mfg="Athearn" owner="1501 Mark Cheer" model="SDP40Fu" dccAddress="5260" comment="" developerID="-1" manufacturerID="141" productID="852005" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-03-06T01:37:40.479+00:00</dateUpdated>
       <decoder model="MC1H104P21" family="MC Motor Decoders" comment="F5 Beacon" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="5260" longaddress="yes" />
@@ -4669,8 +4734,8 @@ Group TE: 57 / 41</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="ATSF 5956" fileName="ATSF_5956.xml" roadNumber="5956" roadName="ATSF" mfg="Athearn" owner="SM1501 Mark Cheer" model="F45u" dccAddress="5956" comment="" developerID="-1" manufacturerID="141" productID="852005" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-02-08T03:58:26.391+00:00</dateUpdated>
+    <locomotive id="ATSF 5956" fileName="ATSF_5956.xml" roadNumber="5956" roadName="ATSF" mfg="Athearn" owner="1501 Mark Cheer" model="F45u" dccAddress="5956" comment="" developerID="-1" manufacturerID="141" productID="852005" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-03-06T01:37:42.916+00:00</dateUpdated>
       <decoder model="MC1H104P21" family="MC Motor Decoders" comment="F5 Beacon" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="5956" longaddress="yes" />
@@ -5047,6 +5112,31 @@ Unit TE: 13 / 10 / 8</value>
         </keyvaluepair>
         <keyvaluepair>
           <key>RosterGroup:DW</key>
+          <value>yes</value>
+        </keyvaluepair>
+      </attributepairs>
+    </locomotive>
+    <locomotive id="ATSF 711" fileName="ATSF_711.xml" roadNumber="711" roadName="ATSF" mfg="Athearn" owner="SM1501 Mark Cheer" model="Ce-8" dccAddress="711" comment="Decoder" developerID="-1" manufacturerID="11" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-03-06T01:50:38.672+00:00</dateUpdated>
+      <decoder model="Athearn Genesis Caboose" family="Rolling Stock Lighting" comment="" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="711" longaddress="yes" />
+        <number>711</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels>
+        <functionlabel num="0" lockable="true" visible="true" functionImage="" functionImageSelected="">Headlight</functionlabel>
+        <functionlabel num="1" lockable="true" visible="true" functionImage="" functionImageSelected="">not used</functionlabel>
+        <functionlabel num="2" lockable="true" visible="true" functionImage="" functionImageSelected="">not used</functionlabel>
+        <functionlabel num="3" lockable="true" visible="true" functionImage="" functionImageSelected="">FWD Sec Marker</functionlabel>
+        <functionlabel num="4" lockable="true" visible="true" functionImage="" functionImageSelected="">REV Sec Marker</functionlabel>
+        <functionlabel num="5" lockable="true" visible="true" functionImage="" functionImageSelected="">Interior</functionlabel>
+        <functionlabel num="6" lockable="true" visible="true" functionImage="" functionImageSelected="">AUX Lights</functionlabel>
+      </functionlabels>
+      <soundlabels />
+      <attributepairs>
+        <keyvaluepair>
+          <key>RosterGroup:Caboose</key>
           <value>yes</value>
         </keyvaluepair>
       </attributepairs>
@@ -5523,6 +5613,42 @@ Group TE: 65 / 48</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
+    <locomotive id="ATSF 83A" fileName="ATSF_83A.xml" roadNumber="83" roadName="Atchison, Topeka, &amp; Santa Fe" mfg="Rapido" owner="J270 Matthew J Zepeda" model="E8B" dccAddress="83" comment="Run with 83L.  &lt;?p?&gt;TE:26,18" developerID="-1" manufacturerID="151" productID="33554588,33554680,33554651" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-03-07T23:30:45.780+00:00</dateUpdated>
+      <decoder model="LokSound 5 DCC" family="ESU LokSound 5" comment="" maxFnNum="31" />
+      <locoaddress>
+        <dcclocoaddress number="83" longaddress="no" />
+        <number>83</number>
+        <protocol>dcc_short</protocol>
+      </locoaddress>
+      <functionlabels>
+        <functionlabel num="0" lockable="true" visible="true" functionImage="" functionImageSelected="">Light</functionlabel>
+        <functionlabel num="1" lockable="true" visible="true" functionImage="" functionImageSelected="">Bell</functionlabel>
+        <functionlabel num="2" lockable="false" visible="true" functionImage="" functionImageSelected="">Horn</functionlabel>
+      </functionlabels>
+      <soundlabels>
+        <soundlabel num="33">Automatic brake sound</soundlabel>
+        <soundlabel num="34">Gear shift sound</soundlabel>
+      </soundlabels>
+    </locomotive>
+    <locomotive id="ATSF 83L" fileName="ATSF_83L.xml" roadNumber="83" roadName="Atchison Topeka &amp; Santa Fe" mfg="Rapido " owner="J270 Matthew J Zepeda" model="EMD E8A" dccAddress="83" comment="TE: 24,16" developerID="-1" manufacturerID="151" productID="33554588,33554680,33554651" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-03-07T23:28:16.610+00:00</dateUpdated>
+      <decoder model="LokSound 5 DCC" family="ESU LokSound 5" comment="" maxFnNum="31" />
+      <locoaddress>
+        <dcclocoaddress number="83" longaddress="no" />
+        <number>83</number>
+        <protocol>dcc_short</protocol>
+      </locoaddress>
+      <functionlabels>
+        <functionlabel num="0" lockable="true" visible="true" functionImage="" functionImageSelected="">Light</functionlabel>
+        <functionlabel num="1" lockable="true" visible="true" functionImage="" functionImageSelected="">Bell</functionlabel>
+        <functionlabel num="2" lockable="false" visible="true" functionImage="" functionImageSelected="">Horn</functionlabel>
+      </functionlabels>
+      <soundlabels>
+        <soundlabel num="33">Automatic brake sound</soundlabel>
+        <soundlabel num="34">Gear shift sound</soundlabel>
+      </soundlabels>
+    </locomotive>
     <locomotive id="ATSF 91" fileName="ATSF_91.xml" roadNumber="91" roadName="ATSF" mfg="Bachmann" owner="190 Brian Neely" model="4-4-0 American" dccAddress="91" comment="" developerID="-1" manufacturerID="141" productID="440" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
       <dateUpdated>2026-02-08T03:58:26.622+00:00</dateUpdated>
       <decoder model="4-4-0 American [HO]" family="Tsunami Steam Bachmann Sound Value" comment="" maxFnNum="28" />
@@ -5850,16 +5976,67 @@ Group TE: 65 / 48</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="BM 114" fileName="BM114.xml" roadNumber="114" roadName="Boston &amp; Maine" mfg="Bachmann" owner="147 Bob Googooian" model="GE 44 Tonner" dccAddress="114" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-02-11T15:02:32.273+00:00</dateUpdated>
+    <locomotive id="BM 114" fileName="BM_114.xml" roadNumber="114" roadName="Boston &amp; Maine" mfg="Bachmann" owner="147 Bob Googooian" model="GE 44 Tonner" dccAddress="114" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-03-07T21:09:47.334+00:00</dateUpdated>
       <decoder model="4 function decoder (36-550)" family="E-Z Command decoders" comment="" maxFnNum="28" />
       <locoaddress>
-        <dcclocoaddress number="114" longaddress="no" />
+        <dcclocoaddress number="114" longaddress="yes" />
         <number>114</number>
-        <protocol>dcc_short</protocol>
+        <protocol>dcc_long</protocol>
       </locoaddress>
       <functionlabels />
       <soundlabels />
+      <attributepairs>
+        <keyvaluepair>
+          <key>RosterGroup:BM</key>
+          <value>yes</value>
+        </keyvaluepair>
+      </attributepairs>
+    </locomotive>
+    <locomotive id="BM 114-2" fileName="BM_114_2.xml" roadNumber="114" roadName="Boston &amp; Maine" mfg="Rapido" owner="147 Bob Googooian" model="GE 44 Tonner" dccAddress="114" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-03-07T21:25:11.168+00:00</dateUpdated>
+      <decoder model="LokSound 5 micro DCC" family="ESU LokSound 5" comment="" maxFnNum="31" />
+      <locoaddress>
+        <dcclocoaddress number="114" longaddress="yes" />
+        <number>114</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels>
+        <functionlabel num="0" lockable="true" visible="true" functionImage="" functionImageSelected="">Light</functionlabel>
+        <functionlabel num="1" lockable="true" visible="true" functionImage="" functionImageSelected="">Bell</functionlabel>
+        <functionlabel num="2" lockable="false" visible="true" functionImage="" functionImageSelected="">Horn</functionlabel>
+      </functionlabels>
+      <soundlabels>
+        <soundlabel num="33">Automatic brake sound</soundlabel>
+        <soundlabel num="34">Gear shift sound</soundlabel>
+      </soundlabels>
+      <attributepairs>
+        <keyvaluepair>
+          <key>RosterGroup:BM</key>
+          <value>yes</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>TE</key>
+          <value>10 / 8 / 6</value>
+        </keyvaluepair>
+      </attributepairs>
+    </locomotive>
+    <locomotive id="BM 1545" fileName="BM_1545.xml" roadNumber="1545" roadName="Boston &amp; Maine" mfg="Bachman" owner="Chris Wilbur" model="RS3" dccAddress="1545" comment="" developerID="-1" manufacturerID="101" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-03-14T18:24:55.051+00:00</dateUpdated>
+      <decoder model="2 function decoder (36-552)" family="E-Z Command decoders" comment="" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="1545" longaddress="yes" />
+        <number>1545</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels />
+      <soundlabels />
+      <attributepairs>
+        <keyvaluepair>
+          <key>RosterGroup:BM</key>
+          <value>yes</value>
+        </keyvaluepair>
+      </attributepairs>
     </locomotive>
     <locomotive id="BM 1749" fileName="BM_1749.xml" roadNumber="1749" roadName="Boston &amp; Maine" mfg="Athearn" owner="254 Aaron Gold" model="GP9" dccAddress="1749" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
       <dateUpdated>2026-02-08T03:58:26.702+00:00</dateUpdated>
@@ -5873,12 +6050,16 @@ Group TE: 65 / 48</value>
       <soundlabels />
       <attributepairs>
         <keyvaluepair>
+          <key>RosterGroup:BM</key>
+          <value>yes</value>
+        </keyvaluepair>
+        <keyvaluepair>
           <key>TE</key>
           <value>TE: 17 / 12</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="BM 4226A" fileName="BM4226A.xml" roadNumber="4226A" roadName="Boston &amp; Maine" mfg="Athearn" owner="254 Aaron Gold" model="F2A" dccAddress="4226" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+    <locomotive id="BM 4226A" fileName="BM_4226A.xml" roadNumber="4226A" roadName="Boston &amp; Maine" mfg="Athearn" owner="254 Aaron Gold" model="F2A" dccAddress="4226" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
       <dateUpdated>2026-02-11T15:03:18.099+00:00</dateUpdated>
       <decoder model="TSU-GN2200 F3/7 w/DB" family="Tsunami2 Diesel OEM Genesis" comment="" maxFnNum="28" />
       <locoaddress>
@@ -5914,12 +6095,16 @@ Group TE: 65 / 48</value>
       <soundlabels />
       <attributepairs>
         <keyvaluepair>
+          <key>RosterGroup:BM</key>
+          <value>yes</value>
+        </keyvaluepair>
+        <keyvaluepair>
           <key>TE</key>
           <value>26 / 18</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="BM 4226B" fileName="BM4226B.xml" roadNumber="4226 (B)" roadName="Boston &amp; Maine" mfg="Athearn" owner="254 Aaron Gold" model="F2B" dccAddress="4226" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+    <locomotive id="BM 4226B" fileName="BM_4226B.xml" roadNumber="4226 (B)" roadName="Boston &amp; Maine" mfg="Athearn" owner="254 Aaron Gold" model="F2B" dccAddress="4226" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
       <dateUpdated>2026-02-11T15:03:29.656+00:00</dateUpdated>
       <decoder model="TSU-GN2200 F3/7 w/DB" family="Tsunami2 Diesel OEM Genesis" comment="" maxFnNum="28" />
       <locoaddress>
@@ -5955,12 +6140,16 @@ Group TE: 65 / 48</value>
       <soundlabels />
       <attributepairs>
         <keyvaluepair>
+          <key>RosterGroup:BM</key>
+          <value>yes</value>
+        </keyvaluepair>
+        <keyvaluepair>
           <key>TE</key>
           <value>22 / 15</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="BM 4228A" fileName="BM4228A.xml" roadNumber="4228 (A)" roadName="Boston &amp; Maine" mfg="Athearn" owner="254 Aaron Gold" model="F3 A" dccAddress="4228" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+    <locomotive id="BM 4228A" fileName="BM_4228A.xml" roadNumber="4228 (A)" roadName="Boston &amp; Maine" mfg="Athearn" owner="254 Aaron Gold" model="F3 A" dccAddress="4228" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
       <dateUpdated>2026-02-11T15:03:04.204+00:00</dateUpdated>
       <decoder model="TSU-GN2200 F3/7 w/DB" family="Tsunami2 Diesel OEM Genesis" comment="" maxFnNum="28" />
       <locoaddress>
@@ -5996,12 +6185,16 @@ Group TE: 65 / 48</value>
       <soundlabels />
       <attributepairs>
         <keyvaluepair>
+          <key>RosterGroup:BM</key>
+          <value>yes</value>
+        </keyvaluepair>
+        <keyvaluepair>
           <key>TE</key>
           <value>26 / 18</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="BM 4228B" fileName="BM4228B.xml" roadNumber="4228 (B)" roadName="Boston &amp; Maine" mfg="Athearn" owner="254 Aaron Gold" model="F3B" dccAddress="4228" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+    <locomotive id="BM 4228B" fileName="BM_4228B.xml" roadNumber="4228 (B)" roadName="Boston &amp; Maine" mfg="Athearn" owner="254 Aaron Gold" model="F3B" dccAddress="4228" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
       <dateUpdated>2026-02-11T15:02:49.959+00:00</dateUpdated>
       <decoder model="TSU-GN2200 F3/7 w/DB" family="Tsunami2 Diesel OEM Genesis" comment="" maxFnNum="28" />
       <locoaddress>
@@ -6036,6 +6229,10 @@ Group TE: 65 / 48</value>
       </functionlabels>
       <soundlabels />
       <attributepairs>
+        <keyvaluepair>
+          <key>RosterGroup:BM</key>
+          <value>yes</value>
+        </keyvaluepair>
         <keyvaluepair>
           <key>TE</key>
           <value>22 / 15</value>
@@ -6078,6 +6275,10 @@ Group TE: 65 / 48</value>
       <soundlabels />
       <attributepairs>
         <keyvaluepair>
+          <key>RosterGroup:BM</key>
+          <value>yes</value>
+        </keyvaluepair>
+        <keyvaluepair>
           <key>TE</key>
           <value>26 / 18</value>
         </keyvaluepair>
@@ -6100,8 +6301,8 @@ Group TE: 65 / 48</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="BN 1383" fileName="BN_1383.xml" roadNumber="1383" roadName="Burlington Northern" mfg="Athearn" owner="94 Bob Cooper" model="GP15-1" dccAddress="1383" comment="Lead unit of two unit set&lt;?p?&gt;with 1385" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-02-12T06:21:20.657+00:00</dateUpdated>
+    <locomotive id="BN 1383" fileName="BN_1383.xml" roadNumber="1383" roadName="Burlington Northern" mfg="Athearn" owner="094 Bob Cooper" model="GP15-1" dccAddress="1383" comment="Lead unit of two unit set&lt;?p?&gt;with 1385" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-03-06T01:53:04.656+00:00</dateUpdated>
       <decoder model="MC1H102P8" family="MC Motor Decoders" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="1383" longaddress="yes" />
@@ -6117,8 +6318,8 @@ Group TE: 65 / 48</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="BN 1385" fileName="BN_1385.xml" roadNumber="1385" roadName="Burlington Northern" mfg="Athearn" owner="94 Bob Cooper" model="GP15-1" dccAddress="1383" comment="Trailing,sound, unit in two unit set with 1383&lt;?p?&gt;Operating address is 1383" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-02-12T06:21:33.186+00:00</dateUpdated>
+    <locomotive id="BN 1385" fileName="BN_1385.xml" roadNumber="1385" roadName="Burlington Northern" mfg="Athearn" owner="094 Bob Cooper" model="GP15-1" dccAddress="1383" comment="Trailing,sound, unit in two unit set with 1383&lt;?p?&gt;Operating address is 1383" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-03-06T01:53:07.206+00:00</dateUpdated>
       <decoder model="GP15-1" family="Tsunami Diesel Genesis OEM" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="1383" longaddress="yes" />
@@ -6381,8 +6582,8 @@ Group TE: 65 / 48</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="BN 578" fileName="BN_578.xml" roadNumber="578" roadName="Burlington Northern" mfg="Athearn " owner="94 Bob Cooper" model="SW1000" dccAddress="578" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-02-12T06:35:03.574+00:00</dateUpdated>
+    <locomotive id="BN 578" fileName="BN_578.xml" roadNumber="578" roadName="Burlington Northern" mfg="Athearn " owner="094 Bob Cooper" model="SW1000" dccAddress="578" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-03-06T01:53:10.596+00:00</dateUpdated>
       <decoder model="DH126D" family="Economy Series 6 with FX3, silent" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="578" longaddress="yes" />
@@ -8404,8 +8605,8 @@ Group TE: 65 / 48</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="BNSF 9366" fileName="BNSF_9366.xml" roadNumber="9366" roadName="BNSF Railway" mfg="Athearn Genesis" owner="94 Bob Cooper" model="SD70ACe" dccAddress="9366" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-02-08T03:58:27.780+00:00</dateUpdated>
+    <locomotive id="BNSF 9366" fileName="BNSF_9366.xml" roadNumber="9366" roadName="BNSF Railway" mfg="Athearn Genesis" owner="094 Bob Cooper" model="SD70ACe" dccAddress="9366" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-03-06T01:53:20.948+00:00</dateUpdated>
       <decoder model="SD70ACe" family="Tsunami Diesel Genesis OEM" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="9366" longaddress="yes" />
@@ -8437,8 +8638,8 @@ Group TE: 65 / 48</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="BNSF 9382" fileName="BNSF_9382.xml" roadNumber="9382" roadName="BNSF Railway" mfg="Athearn Genesis" owner="94 Bob Cooper" model="SD70ACe" dccAddress="9382" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-02-08T03:58:27.789+00:00</dateUpdated>
+    <locomotive id="BNSF 9382" fileName="BNSF_9382.xml" roadNumber="9382" roadName="BNSF Railway" mfg="Athearn Genesis" owner="094 Bob Cooper" model="SD70ACe" dccAddress="9382" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-03-06T01:53:25.076+00:00</dateUpdated>
       <decoder model="SD70ACe" family="Tsunami Diesel Genesis OEM" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="9382" longaddress="yes" />
@@ -8735,6 +8936,31 @@ Group TE: 65 / 48</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
+    <locomotive id="CBQ 1361" fileName="CBQ_1361.xml" roadNumber="1361" roadName="Chicago Burlington &amp; Quincy" mfg="Athearn" owner="148 Kevin Schiller" model="NE 13 Caboose" dccAddress="1361" comment="" developerID="-1" manufacturerID="11" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-03-07T22:42:10.418+00:00</dateUpdated>
+      <decoder model="Athearn Genesis Caboose" family="Rolling Stock Lighting" comment="" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="1361" longaddress="yes" />
+        <number>1361</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels>
+        <functionlabel num="0" lockable="true" visible="true" functionImage="" functionImageSelected="">Headlight</functionlabel>
+        <functionlabel num="1" lockable="true" visible="true" functionImage="" functionImageSelected="">not used</functionlabel>
+        <functionlabel num="2" lockable="true" visible="true" functionImage="" functionImageSelected="">not used</functionlabel>
+        <functionlabel num="3" lockable="true" visible="true" functionImage="" functionImageSelected="">FWD Sec Marker</functionlabel>
+        <functionlabel num="4" lockable="true" visible="true" functionImage="" functionImageSelected="">REV Sec Marker</functionlabel>
+        <functionlabel num="5" lockable="true" visible="true" functionImage="" functionImageSelected="">Interior</functionlabel>
+        <functionlabel num="6" lockable="true" visible="true" functionImage="" functionImageSelected="">AUX Lights</functionlabel>
+      </functionlabels>
+      <soundlabels />
+      <attributepairs>
+        <keyvaluepair>
+          <key>RosterGroup:CBQ</key>
+          <value>yes</value>
+        </keyvaluepair>
+      </attributepairs>
+    </locomotive>
     <locomotive id="CBQ 1364" fileName="CBQ_1364.xml" roadNumber="1364" roadName="Chicago, Burlington &amp; Quincy" mfg="Athearn" owner="148 Kevin Schiller" model="NE 13A caboose" dccAddress="1364" comment="decoder lit" developerID="-1" manufacturerID="11" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
       <dateUpdated>2025-09-06T18:22:19.866+00:00</dateUpdated>
       <decoder model="Athearn Genesis Caboose" family="Rolling Stock Lighting" comment="" maxFnNum="28" />
@@ -8890,6 +9116,30 @@ Group TE: 65 / 48</value>
         <keyvaluepair>
           <key>TE</key>
           <value>24 /  20 /  16</value>
+        </keyvaluepair>
+      </attributepairs>
+    </locomotive>
+    <locomotive id="CBQ 206" fileName="CBQ_206.xml" roadNumber="206" roadName="Chicago Burlington &amp; Quincy" mfg="Athearn" owner="148 Kevin Schiller" model="GP9" dccAddress="206" comment="TE: " developerID="-1" manufacturerID="151" productID="33554588,33554680,33554651" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-02-23T02:16:54.207+00:00</dateUpdated>
+      <decoder model="LokSound 5 DCC" family="ESU LokSound 5" comment="F5 Gryalight" maxFnNum="31" />
+      <locoaddress>
+        <dcclocoaddress number="206" longaddress="yes" />
+        <number>206</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels>
+        <functionlabel num="0" lockable="true" visible="true" functionImage="" functionImageSelected="">Light</functionlabel>
+        <functionlabel num="1" lockable="true" visible="true" functionImage="" functionImageSelected="">Bell</functionlabel>
+        <functionlabel num="2" lockable="false" visible="true" functionImage="" functionImageSelected="">Horn</functionlabel>
+      </functionlabels>
+      <soundlabels>
+        <soundlabel num="33">Automatic brake sound</soundlabel>
+        <soundlabel num="34">Gear shift sound</soundlabel>
+      </soundlabels>
+      <attributepairs>
+        <keyvaluepair>
+          <key>RosterGroup:CBQ</key>
+          <value>yes</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
@@ -9239,6 +9489,42 @@ Group TE: 65 / 48</value>
           <value>TE: 44/31</value>
         </keyvaluepair>
       </attributepairs>
+    </locomotive>
+    <locomotive id="CITX 5392" fileName="CITX_5392.xml" roadNumber="5392" roadName="CIT Leasing" mfg="Bowser" owner="217 Peter Ely" model="GMD SD40-2" dccAddress="5392" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-03-07T23:04:15.997+00:00</dateUpdated>
+      <decoder model="LokSound Select OEM" family="ESU LokSound Select" comment="" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="5392" longaddress="yes" />
+        <number>5392</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels>
+        <functionlabel num="0" lockable="true" visible="true" functionImage="" functionImageSelected="">Light</functionlabel>
+        <functionlabel num="2" lockable="false" visible="true" functionImage="" functionImageSelected="">Horn</functionlabel>
+      </functionlabels>
+      <soundlabels>
+        <soundlabel num="25">Random sounds</soundlabel>
+        <soundlabel num="26">Automatic brake sound</soundlabel>
+        <soundlabel num="27">Gear shift sound</soundlabel>
+      </soundlabels>
+    </locomotive>
+    <locomotive id="CITX 5394" fileName="CITX_5394.xml" roadNumber="5394" roadName="CIT Leasing" mfg="Bowser" owner="217 Peter Ely" model="SMD SD40-2" dccAddress="5394" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-03-07T22:35:47.651+00:00</dateUpdated>
+      <decoder model="LokSound Select OEM" family="ESU LokSound Select" comment="" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="5394" longaddress="yes" />
+        <number>5394</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels>
+        <functionlabel num="0" lockable="true" visible="true" functionImage="" functionImageSelected="">Light</functionlabel>
+        <functionlabel num="2" lockable="false" visible="true" functionImage="" functionImageSelected="">Horn</functionlabel>
+      </functionlabels>
+      <soundlabels>
+        <soundlabel num="25">Random sounds</soundlabel>
+        <soundlabel num="26">Automatic brake sound</soundlabel>
+        <soundlabel num="27">Gear shift sound</soundlabel>
+      </soundlabels>
     </locomotive>
     <locomotive id="Climax 3" fileName="Climax_3.xml" roadNumber="3" roadName="Climax" mfg="Bachman Spectrum" owner="190 Brian Neely" model="Climax" dccAddress="30" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
       <dateUpdated>2026-02-08T03:58:28.131+00:00</dateUpdated>
@@ -9802,8 +10088,8 @@ Group TE: 65 / 48</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="CP 4715" fileName="CP_4715.xml" roadNumber="4715" roadName="Canadian Pacific" mfg="Bowser" owner="217 Peter Ely" model="C636" dccAddress="4715" comment="B UNIT MAY NOT LEAD CONSIST" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-02-08T05:44:02.022+00:00</dateUpdated>
+    <locomotive id="CP 4715" fileName="CP_4715.xml" roadNumber="4715" roadName="Canadian Pacific" mfg="Bowser" owner="217 Peter Ely" model="C636" dccAddress="4715" comment="B UNIT - MAY NOT LEAD CONSIST" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-03-07T21:49:21.778+00:00</dateUpdated>
       <decoder model="LokSound Select" family="ESU LokSound Select" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="4715" longaddress="yes" />
@@ -9830,8 +10116,8 @@ Group TE: 65 / 48</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="CP 4719" fileName="CP_4719.xml" roadNumber="4719" roadName="Canadian Pacific" mfg="Bowser" owner="217 Peter Ely" model="C636" dccAddress="4719" comment="B UNIT MAY NOT LEAD CONSIST" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-02-08T05:44:12.549+00:00</dateUpdated>
+    <locomotive id="CP 4719" fileName="CP_4719.xml" roadNumber="4719" roadName="Canadian Pacific" mfg="Bowser" owner="217 Peter Ely" model="C636" dccAddress="4719" comment="B UNIT - MAY NOT LEAD CONSIST" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-03-07T21:49:36.766+00:00</dateUpdated>
       <decoder model="LokSound Select" family="ESU LokSound Select" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="4719" longaddress="yes" />
@@ -9886,8 +10172,8 @@ Group TE: 65 / 48</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="CP 5648" fileName="CP_5648.xml" roadNumber="5648" roadName="Canadian Pacific" mfg="Bowser" owner="217 Peter Ely" model="SD40-2" dccAddress="5648" comment="CP unit coal train " developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-02-08T05:44:22.870+00:00</dateUpdated>
+    <locomotive id="CP 5648" fileName="CP_5648.xml" roadNumber="5648" roadName="Canadian Pacific" mfg="Bowser" owner="217 Peter Ely" model="GMD SD40-2" dccAddress="5648" comment="CP unit coal train " developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-03-07T21:48:57.808+00:00</dateUpdated>
       <decoder model="LokSound Select OEM" family="ESU LokSound Select" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="5648" longaddress="yes" />
@@ -9946,8 +10232,8 @@ Group TE: 65 / 48</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="CP 5726" fileName="CP_5726.xml" roadNumber="5726" roadName="Canadian Pacific " mfg="Bowser" owner="217 Peter Ely" model="SD40-2" dccAddress="5726" comment="CP unit coal train." developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-02-08T05:44:40.835+00:00</dateUpdated>
+    <locomotive id="CP 5726" fileName="CP_5726.xml" roadNumber="5726" roadName="Canadian Pacific " mfg="Bowser" owner="217 Peter Ely" model="GMD SD40-2" dccAddress="5726" comment="CP unit coal train." developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-03-07T21:49:04.566+00:00</dateUpdated>
       <decoder model="LokSound Select OEM" family="ESU LokSound Select" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="5726" longaddress="yes" />
@@ -10063,8 +10349,8 @@ Group TE: 65 / 48</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="CP 6046" fileName="CP_6046.xml" roadNumber="6046" roadName="Canadian Pacific" mfg="Bowser" owner="217 Peter Ely" model="SD40-2" dccAddress="6046" comment="CP unit coal train." developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-02-08T05:44:59.280+00:00</dateUpdated>
+    <locomotive id="CP 6046" fileName="CP_6046.xml" roadNumber="6046" roadName="Canadian Pacific" mfg="Bowser" owner="217 Peter Ely" model="GMD SD40-2" dccAddress="6046" comment="CP unit coal train." developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-03-07T21:49:13.497+00:00</dateUpdated>
       <decoder model="LokSound Select OEM" family="ESU LokSound Select" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="6046" longaddress="yes" />
@@ -10280,7 +10566,7 @@ Group TE: 65 / 48</value>
       </attributepairs>
     </locomotive>
     <locomotive id="CP 8709" fileName="CP_8709.xml" roadNumber="8709" roadName="Canadian Pacific" mfg="Rapido" owner="217 Peter Ely" model="CLC H16-44" dccAddress="8709" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2025-08-30T23:11:40.028+00:00</dateUpdated>
+      <dateUpdated>2026-02-23T02:45:26.172+00:00</dateUpdated>
       <decoder model="LokSound 5 DCC" family="ESU LokSound 5" comment="" maxFnNum="31" />
       <locoaddress>
         <dcclocoaddress number="8709" longaddress="yes" />
@@ -10298,7 +10584,7 @@ Group TE: 65 / 48</value>
       </soundlabels>
     </locomotive>
     <locomotive id="CP 8712" fileName="CP_8712.xml" roadNumber="8712" roadName="Canadian Pacific" mfg="Rapido" owner="217 Peter Ely" model="CLC H16-44" dccAddress="8712" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2025-08-30T23:32:32.256+00:00</dateUpdated>
+      <dateUpdated>2026-02-23T02:47:42.832+00:00</dateUpdated>
       <decoder model="LokSound 5 DCC" family="ESU LokSound 5" comment="" maxFnNum="31" />
       <locoaddress>
         <dcclocoaddress number="8712" longaddress="yes" />
@@ -11550,7 +11836,7 @@ Group TE: 65 / 48</value>
       <soundlabels />
     </locomotive>
     <locomotive id="CR 9614" fileName="CR_9614.xml" roadNumber="9614" roadName="Conrail" mfg="Athearn RTR" owner="254 Aaron Gold" model="EMD SW1500" dccAddress="9614" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2024-11-17T14:23:10.298+00:00</dateUpdated>
+      <dateUpdated>2026-02-28T20:49:32.149+00:00</dateUpdated>
       <decoder model="TSU-2200 EMD-2 Diesels" family="Tsunami2 Diesel" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="9614" longaddress="yes" />
@@ -11588,6 +11874,12 @@ Group TE: 65 / 48</value>
         <functionlabel num="28" lockable="true" visible="true" functionImage="" functionImageSelected="">FX7,8 Output</functionlabel>
       </functionlabels>
       <soundlabels />
+      <attributepairs>
+        <keyvaluepair>
+          <key>TE</key>
+          <value>ABCD</value>
+        </keyvaluepair>
+      </attributepairs>
     </locomotive>
     <locomotive id="CR 9619" fileName="CR_9619.xml" roadNumber="9619" roadName="Conrail" mfg="Athearn RTR" owner="254 Aaron Gold" model="EMD SW1500" dccAddress="9619" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
       <dateUpdated>2024-11-17T14:20:39.682+00:00</dateUpdated>
@@ -12029,6 +12321,30 @@ Group TE: 52 / 45 / 38</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
+    <locomotive id="CW 684" fileName="CW_684.xml" roadNumber="684" roadName="Chehalis Western" mfg="Bowser" owner="147 Bob Googooian" model="Alco C415" dccAddress="684" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-03-07T21:24:22.270+00:00</dateUpdated>
+      <decoder model="LokSound 5 DCC" family="ESU LokSound 5" comment="" maxFnNum="31" />
+      <locoaddress>
+        <dcclocoaddress number="684" longaddress="yes" />
+        <number>684</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels>
+        <functionlabel num="0" lockable="true" visible="true" functionImage="" functionImageSelected="">Light</functionlabel>
+        <functionlabel num="1" lockable="true" visible="true" functionImage="" functionImageSelected="">Bell</functionlabel>
+        <functionlabel num="2" lockable="false" visible="true" functionImage="" functionImageSelected="">Horn</functionlabel>
+      </functionlabels>
+      <soundlabels>
+        <soundlabel num="33">Automatic brake sound</soundlabel>
+        <soundlabel num="34">Gear shift sound</soundlabel>
+      </soundlabels>
+      <attributepairs>
+        <keyvaluepair>
+          <key>TE</key>
+          <value>15 / 12 / 10</value>
+        </keyvaluepair>
+      </attributepairs>
+    </locomotive>
     <locomotive id="D&amp;RGW 5353" fileName="D_RGW_5353.xml" roadNumber="5353" roadName="D&amp;RGW" mfg="Athearn Genesis" owner="J270 Matthew J Zepeda " model="SD40T-2" dccAddress="5353" comment="" developerID="-1" manufacturerID="141" productID="6240" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
       <dateUpdated>2026-02-08T03:58:29.300+00:00</dateUpdated>
       <decoder model="ECO-RTR SD40T-2 w/gyra" family="Econami Diesel OEM Athearn" comment="" maxFnNum="28" />
@@ -12159,6 +12475,78 @@ Group TE: 52 / 45 / 38</value>
         <keyvaluepair>
           <key>TE</key>
           <value>29 / 13 / 8</value>
+        </keyvaluepair>
+      </attributepairs>
+    </locomotive>
+    <locomotive id="DRGW" fileName="DRGW.xml" roadNumber="01405" roadName="Denver &amp; Rio Grande western" mfg="Rapido" owner="263 John Finnerty" model="Cupola" dccAddress="0" comment="Wand for lights" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-03-06T01:52:25.194+00:00</dateUpdated>
+      <decoder model="No Decoder" family="No Decoder" comment="" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="0" longaddress="yes" />
+        <number>0</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels />
+      <soundlabels />
+      <attributepairs>
+        <keyvaluepair>
+          <key>RosterGroup:Caboose</key>
+          <value>yes</value>
+        </keyvaluepair>
+      </attributepairs>
+    </locomotive>
+    <locomotive id="DRGW 01431" fileName="DRGW_01431.xml" roadNumber="01431" roadName="Denver &amp; Rio Grande Western" mfg="Rapido" owner="148 Kevin Schiller" model="Cupola caboose" dccAddress="0" comment="" developerID="-1" manufacturerID="1000" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-03-06T01:49:46.100+00:00</dateUpdated>
+      <decoder model="No Decoder" family="No Decoder" comment="Wand for lights" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="0" longaddress="yes" />
+        <number>0</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels />
+      <soundlabels />
+      <attributepairs>
+        <keyvaluepair>
+          <key>RosterGroup:Caboose</key>
+          <value>yes</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>RosterGroup:DRGW</key>
+          <value>yes</value>
+        </keyvaluepair>
+      </attributepairs>
+    </locomotive>
+    <locomotive id="DRGW 01438" fileName="DRGW_01438.xml" roadNumber="01438" roadName="Denver &amp; Rio Grande Western" mfg="Rapido" owner="Kevin Schiller" model="Cupola Caboose" dccAddress="3" comment="" developerID="-1" manufacturerID="1000" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-03-07T18:33:48.396+00:00</dateUpdated>
+      <decoder model="No Decoder" family="No Decoder" comment="" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="3" longaddress="no" />
+        <number>3</number>
+        <protocol>dcc_short</protocol>
+      </locoaddress>
+      <functionlabels />
+      <soundlabels />
+      <attributepairs>
+        <keyvaluepair>
+          <key>RosterGroup:Caboose</key>
+          <value>yes</value>
+        </keyvaluepair>
+      </attributepairs>
+    </locomotive>
+    <locomotive id="DRGW 01445" fileName="DRGW_01445.xml" roadNumber="01445" roadName="Denver &amp; Rio Grande Western" mfg="Rapido" owner="148 Kevin Schiller" model="Cupola Caboose" dccAddress="0" comment="" developerID="-1" manufacturerID="1000" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-03-06T01:49:59.118+00:00</dateUpdated>
+      <decoder model="No Decoder" family="No Decoder" comment="Wand for lights" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="0" longaddress="yes" />
+        <number>0</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels />
+      <soundlabels />
+      <attributepairs>
+        <keyvaluepair>
+          <key>RosterGroup:Caboose</key>
+          <value>yes</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
@@ -12293,6 +12681,53 @@ Group TE: 52 / 45 / 38</value>
         <keyvaluepair>
           <key>TE</key>
           <value />
+        </keyvaluepair>
+      </attributepairs>
+    </locomotive>
+    <locomotive id="DRGW 3015" fileName="DRGW_3015.xml" roadNumber="3015" roadName="Denver &amp; Rio Grande Western" mfg="Broadway Limited" owner="263 John Finnerty" model="GP30" dccAddress="3015" comment="" developerID="-1" manufacturerID="38" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-03-06T01:52:41.678+00:00</dateUpdated>
+      <decoder model="Diesel" family="Paragon 4" comment="" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="3015" longaddress="yes" />
+        <number>3015</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels>
+        <functionlabel num="0" lockable="true" visible="true" functionImage="" functionImageSelected="">Headlight</functionlabel>
+        <functionlabel num="1" lockable="true" visible="true" functionImage="" functionImageSelected="">Bell</functionlabel>
+        <functionlabel num="2" lockable="false" visible="true" functionImage="" functionImageSelected="">Horn</functionlabel>
+        <functionlabel num="3" lockable="true" visible="true" functionImage="" functionImageSelected="">Coupler</functionlabel>
+        <functionlabel num="4" lockable="true" visible="true" functionImage="" functionImageSelected="">Compressor</functionlabel>
+        <functionlabel num="5" lockable="true" visible="true" functionImage="" functionImageSelected="">RPM Up</functionlabel>
+        <functionlabel num="6" lockable="true" visible="true" functionImage="" functionImageSelected="">RPM Dn</functionlabel>
+        <functionlabel num="7" lockable="true" visible="true" functionImage="" functionImageSelected="">Smoke Control</functionlabel>
+        <functionlabel num="8" lockable="true" visible="true" functionImage="" functionImageSelected="">Mute/Master Volume</functionlabel>
+        <functionlabel num="9" lockable="true" visible="true" functionImage="" functionImageSelected="">Shutdown and Startup</functionlabel>
+        <functionlabel num="10" lockable="true" visible="true" functionImage="" functionImageSelected="">Cooling Fan</functionlabel>
+        <functionlabel num="11" lockable="true" visible="true" functionImage="" functionImageSelected="">Air Release</functionlabel>
+        <functionlabel num="12" lockable="true" visible="true" functionImage="" functionImageSelected="">Brake Set/Release/Squeal</functionlabel>
+        <functionlabel num="13" lockable="true" visible="true" functionImage="" functionImageSelected="">Horn Grade Crossing</functionlabel>
+        <functionlabel num="14" lockable="true" visible="true" functionImage="" functionImageSelected="">Station Sounds</functionlabel>
+        <functionlabel num="15" lockable="true" visible="true" functionImage="" functionImageSelected="">Yard Sounds</functionlabel>
+        <functionlabel num="16" lockable="true" visible="true" functionImage="" functionImageSelected="">Maintenance Sounds</functionlabel>
+        <functionlabel num="17" lockable="true" visible="true" functionImage="" functionImageSelected="">Radio Chatter</functionlabel>
+        <functionlabel num="18" lockable="true" visible="true" functionImage="" functionImageSelected="">City Sounds</functionlabel>
+        <functionlabel num="19" lockable="true" visible="true" functionImage="" functionImageSelected="">Farm Sounds</functionlabel>
+        <functionlabel num="20" lockable="true" visible="true" functionImage="" functionImageSelected="">Industrial Sounds</functionlabel>
+        <functionlabel num="21" lockable="true" visible="true" functionImage="" functionImageSelected="">Lumber Sounds</functionlabel>
+        <functionlabel num="22" lockable="true" visible="true" functionImage="" functionImageSelected="">Horn2</functionlabel>
+        <functionlabel num="23" lockable="true" visible="true" functionImage="" functionImageSelected="">Track Sounds</functionlabel>
+        <functionlabel num="24" lockable="true" visible="true" functionImage="" functionImageSelected="">Aux Light Control</functionlabel>
+        <functionlabel num="25" lockable="true" visible="true" functionImage="" functionImageSelected="">Long Horn</functionlabel>
+        <functionlabel num="26" lockable="true" visible="true" functionImage="" functionImageSelected="">Play Macro</functionlabel>
+        <functionlabel num="27" lockable="true" visible="true" functionImage="" functionImageSelected="">Record Macro</functionlabel>
+        <functionlabel num="28" lockable="true" visible="true" functionImage="" functionImageSelected="">Brake Squeal</functionlabel>
+      </functionlabels>
+      <soundlabels />
+      <attributepairs>
+        <keyvaluepair>
+          <key>TE</key>
+          <value>TE: 17, 14, 12</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
@@ -12872,6 +13307,38 @@ Group TE: 52 / 45 / 38</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
+    <locomotive id="DRGW 5353" fileName="DRGW_5353.xml" roadNumber="5353" roadName="D&amp;RGW" mfg="Athearn Genesis" owner="J270 Matthew J Zepeda " model="SD40T-2" dccAddress="5353" comment="" developerID="-1" manufacturerID="141" productID="6240" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-02-26T20:11:33.849+00:00</dateUpdated>
+      <decoder model="ECO-RTR SD40T-2 w/gyra" family="Econami Diesel OEM Athearn" comment="" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="5353" longaddress="yes" />
+        <number>5353</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels>
+        <functionlabel num="0" lockable="true" visible="true" functionImage="" functionImageSelected="">Headlight</functionlabel>
+        <functionlabel num="1" lockable="true" visible="true" functionImage="" functionImageSelected="">Bell</functionlabel>
+        <functionlabel num="2" lockable="false" visible="true" functionImage="" functionImageSelected="">Horn</functionlabel>
+        <functionlabel num="3" lockable="true" visible="true" functionImage="" functionImageSelected="">Short Horn</functionlabel>
+        <functionlabel num="4" lockable="true" visible="true" functionImage="" functionImageSelected="">Dynamic Brake</functionlabel>
+        <functionlabel num="5" lockable="true" visible="true" functionImage="" functionImageSelected="">FX3 Output</functionlabel>
+        <functionlabel num="6" lockable="true" visible="true" functionImage="" functionImageSelected="">FX4 Output</functionlabel>
+        <functionlabel num="7" lockable="true" visible="true" functionImage="" functionImageSelected="">Dimmer</functionlabel>
+        <functionlabel num="8" lockable="true" visible="true" functionImage="" functionImageSelected="">Mute</functionlabel>
+        <functionlabel num="11" lockable="true" visible="true" functionImage="" functionImageSelected="">Brake Function</functionlabel>
+        <functionlabel num="13" lockable="true" visible="true" functionImage="" functionImageSelected="">Coupler</functionlabel>
+        <functionlabel num="14" lockable="true" visible="true" functionImage="" functionImageSelected="">Half Speed</functionlabel>
+        <functionlabel num="26" lockable="true" visible="true" functionImage="" functionImageSelected="">RPM+</functionlabel>
+        <functionlabel num="27" lockable="true" visible="true" functionImage="" functionImageSelected="">RPM-</functionlabel>
+      </functionlabels>
+      <soundlabels />
+      <attributepairs>
+        <keyvaluepair>
+          <key>TE</key>
+          <value>26 /  18</value>
+        </keyvaluepair>
+      </attributepairs>
+    </locomotive>
     <locomotive id="DRGW 5362" fileName="DRGW_5362.xml" roadNumber="5362" roadName="D&amp;RGW" mfg="Scale Trains" owner="148 Kevin Schiller" model="SD40T-2" dccAddress="5362" comment="" developerID="-1" manufacturerID="151" productID="33554588" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
       <dateUpdated>2026-02-08T03:58:29.720+00:00</dateUpdated>
       <decoder model="LokSound 5 DCC" family="ESU LokSound 5" comment="" maxFnNum="31" />
@@ -13235,6 +13702,27 @@ Group TE: 52 / 45 / 38</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
+    <locomotive id="DRGW 6001" fileName="DRGW_6001.xml" roadNumber="6001" roadName="D&amp;RGW" mfg="Walthers" owner="J270 Matthew J Zepeda" model="Alco PA 1" dccAddress="6001" comment="" developerID="-1" manufacturerID="151" productID="16777363,16777419" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-02-26T20:13:03.368+00:00</dateUpdated>
+      <decoder model="Essential Sound Unit" family="ESU Miscellaneous decoders" comment="" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="6001" longaddress="yes" />
+        <number>6001</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels>
+        <functionlabel num="0" lockable="true" visible="true" functionImage="" functionImageSelected="">Light</functionlabel>
+        <functionlabel num="1" lockable="true" visible="true" functionImage="" functionImageSelected="">Bell</functionlabel>
+        <functionlabel num="2" lockable="false" visible="true" functionImage="" functionImageSelected="">Horn</functionlabel>
+      </functionlabels>
+      <soundlabels />
+      <attributepairs>
+        <keyvaluepair>
+          <key>RosterGroup:DRGW</key>
+          <value>yes</value>
+        </keyvaluepair>
+      </attributepairs>
+    </locomotive>
     <locomotive id="DRGW 6002" fileName="DRGW_6002.xml" roadNumber="6002" roadName="D&amp;RGW" mfg="Rapido" owner="147 Bob Googooian" model="PB-1" dccAddress="6003" comment="Western Div power for CZ" developerID="-1" manufacturerID="151" productID="33554588,33554680,33554651" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
       <dateUpdated>2024-12-03T18:28:19.384+00:00</dateUpdated>
       <decoder model="LokSound 5 DCC" family="ESU LokSound 5" comment="" maxFnNum="31" />
@@ -13252,6 +13740,33 @@ Group TE: 52 / 45 / 38</value>
         <soundlabel num="33">Automatic brake sound</soundlabel>
         <soundlabel num="34">Gear shift sound</soundlabel>
       </soundlabels>
+      <attributepairs>
+        <keyvaluepair>
+          <key>RosterGroup:DRGW</key>
+          <value>yes</value>
+        </keyvaluepair>
+      </attributepairs>
+    </locomotive>
+    <locomotive id="DRGW 6002.1" fileName="DRGW_6002_1.xml" roadNumber="6002" roadName="D&amp;RGW" mfg="Walthers" owner="J270 Matthew J Zepeda" model="PB 1" dccAddress="6002" comment="" developerID="-1" manufacturerID="151" productID="16777363,16777419" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-02-26T20:13:58.432+00:00</dateUpdated>
+      <decoder model="Essential Sound Unit" family="ESU Miscellaneous decoders" comment="" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="6002" longaddress="yes" />
+        <number>6002</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels>
+        <functionlabel num="0" lockable="true" visible="true" functionImage="" functionImageSelected="">Light</functionlabel>
+        <functionlabel num="1" lockable="true" visible="true" functionImage="" functionImageSelected="">Bell</functionlabel>
+        <functionlabel num="2" lockable="false" visible="true" functionImage="" functionImageSelected="">Horn</functionlabel>
+      </functionlabels>
+      <soundlabels />
+      <attributepairs>
+        <keyvaluepair>
+          <key>RosterGroup:DRGW</key>
+          <value>yes</value>
+        </keyvaluepair>
+      </attributepairs>
     </locomotive>
     <locomotive id="DRGW 6003" fileName="DRGW_6003.xml" roadNumber="6003" roadName="D&amp;RGW" mfg="Rapido" owner="147 Bob Googooian" model="PA/PB" dccAddress="6003" comment="Cal Zephyr West power" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
       <dateUpdated>2026-02-08T03:58:29.834+00:00</dateUpdated>
@@ -13928,8 +14443,8 @@ Group TE: 52 / 45 / 38</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="GN 184" fileName="GN_184.xml" roadNumber="184" roadName="Great Northern" mfg="Atlas" owner="94 Bob Cooper" model="RS1" dccAddress="184" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-02-08T03:58:30.060+00:00</dateUpdated>
+    <locomotive id="GN 184" fileName="GN_184.xml" roadNumber="184" roadName="Great Northern" mfg="Atlas" owner="094 Bob Cooper" model="RS1" dccAddress="184" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-03-06T01:53:28.864+00:00</dateUpdated>
       <decoder model="M1P-15" family="June 2007" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="184" longaddress="yes" />
@@ -13999,8 +14514,8 @@ Group TE: 52 / 45 / 38</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="GN 230" fileName="GN_230.xml" roadNumber="229" roadName="Great Northern" mfg="Bachmann" owner="94 Bob Cooper" model="RS3" dccAddress="229" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2023-11-15T20:23:41.685+00:00</dateUpdated>
+    <locomotive id="GN 230" fileName="GN_230.xml" roadNumber="229" roadName="Great Northern" mfg="Bachmann" owner="094 Bob Cooper" model="RS3" dccAddress="229" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-03-06T01:53:32.581+00:00</dateUpdated>
       <decoder model="Alco RS3" family="Tsunami Diesel Bachmann Sound Value" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="229" longaddress="yes" />
@@ -14023,8 +14538,8 @@ Group TE: 52 / 45 / 38</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="GN 365" fileName="GN_365.xml" roadNumber="365" roadName="Great Northern" mfg="Athearn Genesis" owner="234 MAB" model="F7ab" dccAddress="365" comment="" developerID="-1" manufacturerID="153" productID="4" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-02-08T03:58:30.081+00:00</dateUpdated>
+    <locomotive id="GN 365" fileName="GN_365.xml" roadNumber="365" roadName="Great Northern" mfg="Athearn Genesis" owner="234 Martin Booker" model="F7ab" dccAddress="365" comment="" developerID="-1" manufacturerID="153" productID="4" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-03-06T01:50:54.142+00:00</dateUpdated>
       <decoder model="A4X" family="Jan 2000" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="365" longaddress="yes" />
@@ -14040,8 +14555,8 @@ Group TE: 52 / 45 / 38</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="GN 402A" fileName="GN_402A.xml" roadNumber="402A" roadName="Great Northern" mfg="Stewart" owner="234 MAB" model="FT-ab" dccAddress="402" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-02-08T03:58:30.091+00:00</dateUpdated>
+    <locomotive id="GN 402A" fileName="GN_402A.xml" roadNumber="402A" roadName="Great Northern" mfg="Stewart" owner="234 Martin Booker" model="FT-ab" dccAddress="402" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-03-06T01:50:57.527+00:00</dateUpdated>
       <decoder model="T1" family="Jan 2012" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="402" longaddress="yes" />
@@ -14061,8 +14576,8 @@ Group TE: 52 / 45 / 38</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="GN 402D" fileName="GN_402D.xml" roadNumber="402D" roadName="Great Northern" mfg="Stewart" owner="234 MAB" model="FT-ab" dccAddress="402" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-02-08T03:58:30.107+00:00</dateUpdated>
+    <locomotive id="GN 402D" fileName="GN_402D.xml" roadNumber="402D" roadName="Great Northern" mfg="Stewart" owner="234 Martin Booker" model="FT-ab" dccAddress="402" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-03-06T01:51:07.361+00:00</dateUpdated>
       <decoder model="T1" family="June 2007" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="402" longaddress="yes" />
@@ -14082,8 +14597,8 @@ Group TE: 52 / 45 / 38</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="GN 452" fileName="GN_452.xml" roadNumber="452" roadName="Great Northern" mfg="Athearn Genesis" owner="234 MAB" model="F7ab" dccAddress="452" comment="" developerID="-1" manufacturerID="153" productID="4" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-02-08T03:58:30.118+00:00</dateUpdated>
+    <locomotive id="GN 452" fileName="GN_452.xml" roadNumber="452" roadName="Great Northern" mfg="Athearn Genesis" owner="234 Martin Booker" model="F7ab" dccAddress="452" comment="" developerID="-1" manufacturerID="153" productID="4" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-03-06T01:51:11.106+00:00</dateUpdated>
       <decoder model="A4X" family="Jan 2000" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="452" longaddress="yes" />
@@ -15801,7 +16316,7 @@ Group TE: 70 / 51</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="NH 1219" fileName="NH1219.xml" roadNumber="1219" roadName="New Haven" mfg="Athearn" owner="254 Aaron Gold" model="GP9" dccAddress="1219" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+    <locomotive id="NH 1219" fileName="NH_1219.xml" roadNumber="1219" roadName="New Haven" mfg="Athearn" owner="254 Aaron Gold" model="GP9" dccAddress="1219" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
       <dateUpdated>2026-02-11T15:08:13.882+00:00</dateUpdated>
       <decoder model="GP9" family="Tsunami Diesel Genesis OEM" comment="" maxFnNum="28" />
       <locoaddress>
@@ -15868,8 +16383,71 @@ Group TE: 70 / 51</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="NP 285" fileName="NP_285.xml" roadNumber="285" roadName="Northern Pacific" mfg="Proto 2000" owner="94 Bob Cooper" model="GP9" dccAddress="285" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2018-09-11T22:13:43.000+00:00</dateUpdated>
+    <locomotive id="NH&amp;W 12" fileName="NH_W_12.xml" roadNumber="12" roadName="Norris Harbor &amp; Western" mfg="Bachman" owner="274 Chris Wilbur" model="2-6-0" dccAddress="12" comment="TE: 10, 6, 4" developerID="-1" manufacturerID="141" productID="MC1H104P21" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-03-14T19:01:13.737+00:00</dateUpdated>
+      <decoder model="Bachmann (soundTraxx MC1) 36-557" family="OEM Bachmann E-Z Command decoders" comment="" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="12" longaddress="no" />
+        <number>12</number>
+        <protocol>dcc_short</protocol>
+      </locoaddress>
+      <functionlabels />
+      <soundlabels />
+      <attributepairs>
+        <keyvaluepair>
+          <key>RosterGroup:NH&amp;W</key>
+          <value>yes</value>
+        </keyvaluepair>
+      </attributepairs>
+    </locomotive>
+    <locomotive id="NH&amp;W 42" fileName="NH_W_42.xml" roadNumber="42" roadName="Norris Harbor &amp; western" mfg="Bachmnan" owner="274 Chris Wilbur" model="2-8-0" dccAddress="42" comment="TE:" developerID="-1" manufacturerID="129" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-02-23T02:14:39.990+00:00</dateUpdated>
+      <decoder model="DH127D" family="Economy Series 7 with FX3, silent" comment="" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="42" longaddress="no" />
+        <number>42</number>
+        <protocol>dcc_short</protocol>
+      </locoaddress>
+      <functionlabels />
+      <soundlabels />
+      <attributepairs>
+        <keyvaluepair>
+          <key>RosterGroup:NH&amp;W</key>
+          <value>yes</value>
+        </keyvaluepair>
+      </attributepairs>
+    </locomotive>
+    <locomotive id="NH1219" fileName="NH1219.xml" roadNumber="1219" roadName="New Haven" mfg="Athearn" owner="254 Aaron Gold" model="GP9" dccAddress="1219" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-02-08T00:59:35.770+00:00</dateUpdated>
+      <decoder model="GP9" family="Tsunami Diesel Genesis OEM" comment="" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="1219" longaddress="yes" />
+        <number>1219</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels>
+        <functionlabel num="0" lockable="true" visible="true" functionImage="" functionImageSelected="">Headlight</functionlabel>
+        <functionlabel num="1" lockable="true" visible="true" functionImage="" functionImageSelected="">Bell</functionlabel>
+        <functionlabel num="2" lockable="false" visible="true" functionImage="" functionImageSelected="">Horn</functionlabel>
+        <functionlabel num="3" lockable="true" visible="true" functionImage="" functionImageSelected="">Short Horn</functionlabel>
+        <functionlabel num="4" lockable="true" visible="true" functionImage="" functionImageSelected="">Dynamic Brake</functionlabel>
+        <functionlabel num="5" lockable="true" visible="true" functionImage="" functionImageSelected="">FX5 Light</functionlabel>
+        <functionlabel num="6" lockable="true" visible="true" functionImage="" functionImageSelected="">FX6 Light</functionlabel>
+        <functionlabel num="7" lockable="true" visible="true" functionImage="" functionImageSelected="">Dimmer</functionlabel>
+        <functionlabel num="8" lockable="true" visible="true" functionImage="" functionImageSelected="">Mute</functionlabel>
+        <functionlabel num="9" lockable="true" visible="true" functionImage="" functionImageSelected="">Brake Squeal</functionlabel>
+        <functionlabel num="10" lockable="true" visible="true" functionImage="" functionImageSelected="">Coupler</functionlabel>
+      </functionlabels>
+      <soundlabels />
+      <attributepairs>
+        <keyvaluepair>
+          <key>TE</key>
+          <value>33/12/10</value>
+        </keyvaluepair>
+      </attributepairs>
+    </locomotive>
+    <locomotive id="NP 285" fileName="NP_285.xml" roadNumber="285" roadName="Northern Pacific" mfg="Proto 2000" owner="094 Bob Cooper" model="GP9" dccAddress="285" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-03-06T01:53:41.887+00:00</dateUpdated>
       <decoder model="TSU-1000 EMD 567" family="Tsunami Diesel" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="285" longaddress="yes" />
@@ -15899,8 +16477,8 @@ Group TE: 70 / 51</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="NP 304" fileName="NP_304.xml" roadNumber="304" roadName="Northern Pacific" mfg="Proto 2000" owner="94 Bob Cooper" model="GP9" dccAddress="304" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2018-09-11T22:13:53.000+00:00</dateUpdated>
+    <locomotive id="NP 304" fileName="NP_304.xml" roadNumber="304" roadName="Northern Pacific" mfg="Proto 2000" owner="094 Bob Cooper" model="GP9" dccAddress="304" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-03-06T01:54:05.810+00:00</dateUpdated>
       <decoder model="TSU-750 EMD 567" family="Tsunami Diesel" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="304" longaddress="yes" />
@@ -16744,8 +17322,8 @@ Group TE: 70 / 51</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="NYC 4024" fileName="NYC_4024.xml" roadNumber="4024" roadName="New York Central" mfg="Proto 2000" owner="234 MAB" model="E7a" dccAddress="4024" comment="NYC passenger power" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2024-09-07T21:22:54.696+00:00</dateUpdated>
+    <locomotive id="NYC 4024" fileName="NYC_4024.xml" roadNumber="4024" roadName="New York Central" mfg="Proto 2000" owner="234 Martin Booker" model="E7a" dccAddress="4024" comment="NYC passenger power" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-03-06T01:51:19.530+00:00</dateUpdated>
       <decoder model="P2k E7A" family="QSI Diesel Ver. 7" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="4024" longaddress="yes" />
@@ -16806,8 +17384,8 @@ Group TE: 70 / 51</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="NYC 4070" fileName="NYC_4070.xml" roadNumber="4070" roadName="New York Central" mfg="Proto 2000" owner="234 MAB" model="E8a" dccAddress="4070" comment="Passenger pool power" developerID="-1" manufacturerID="153" productID="16" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2024-10-21T20:48:09.662+00:00</dateUpdated>
+    <locomotive id="NYC 4070" fileName="NYC_4070.xml" roadNumber="4070" roadName="New York Central" mfg="Proto 2000" owner="234 Martin Booker" model="E8a" dccAddress="4070" comment="Passenger pool power" developerID="-1" manufacturerID="153" productID="16" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-03-07T22:42:49.777+00:00</dateUpdated>
       <decoder model="T4X" family="June 2007" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="4070" longaddress="yes" />
@@ -16817,8 +17395,8 @@ Group TE: 70 / 51</value>
       <functionlabels />
       <soundlabels />
     </locomotive>
-    <locomotive id="NYC 4076" fileName="NYC_4076.xml" roadNumber="4076" roadName="New York Central" mfg="Proto 2000" owner="234 MAB" model="E8a" dccAddress="4076" comment="passenger pool power" developerID="-1" manufacturerID="153" productID="16" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2024-10-21T20:57:11.929+00:00</dateUpdated>
+    <locomotive id="NYC 4076" fileName="NYC_4076.xml" roadNumber="4076" roadName="New York Central" mfg="Proto 2000" owner="234 Martin Booker" model="E8a" dccAddress="4076" comment="passenger pool power" developerID="-1" manufacturerID="153" productID="16" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-03-06T02:00:20.103+00:00</dateUpdated>
       <decoder model="T4X" family="June 2007" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="4076" longaddress="yes" />
@@ -16828,8 +17406,8 @@ Group TE: 70 / 51</value>
       <functionlabels />
       <soundlabels />
     </locomotive>
-    <locomotive id="NYC 4108" fileName="NYC_4108.xml" roadNumber="4108" roadName="New York Central" mfg="Proto 2000" owner="234 MAB" model="E7b" dccAddress="4024" comment="NYC Passenger power" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2024-09-07T21:23:13.129+00:00</dateUpdated>
+    <locomotive id="NYC 4108" fileName="NYC_4108.xml" roadNumber="4108" roadName="New York Central" mfg="Proto 2000" owner="234 Martin Booker" model="E7b" dccAddress="4024" comment="NYC Passenger power" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-03-06T02:00:16.228+00:00</dateUpdated>
       <decoder model="P2k E7B" family="QSI Diesel Ver. 7" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="4024" longaddress="yes" />
@@ -16921,8 +17499,8 @@ Group TE: 70 / 51</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="NYC 5019" fileName="NYC_5019.xml" roadNumber="5019" roadName="New York Central" mfg="Power truck" owner="234 MAB" model="BM 70 " dccAddress="5019" comment="Power truck installed- Mail end forward" developerID="-1" manufacturerID="153" productID="14" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2024-10-19T22:05:55.004+00:00</dateUpdated>
+    <locomotive id="NYC 5019" fileName="NYC_5019.xml" roadNumber="5019" roadName="New York Central" mfg="Power truck" owner="234 Martin Booker" model="BM 70 " dccAddress="5019" comment="Power truck installed- Mail end forward" developerID="-1" manufacturerID="153" productID="14" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-03-06T02:00:11.532+00:00</dateUpdated>
       <decoder model="T1" family="June 2007" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="5019" longaddress="yes" />
@@ -17593,7 +18171,7 @@ Group TE: 70 / 51</value>
       </attributepairs>
     </locomotive>
     <locomotive id="ONR 1730" fileName="ONR_1730.xml" roadNumber="1730" roadName="Ontario Northland" mfg="Bowser" owner="217 Peter Ely" model="SD40-2 (GMDD)" dccAddress="1730" comment="Unit train: ONR and/or CNR barrel ore cars.&lt;?p?&gt;Canadian National and/or &lt;?p?&gt;Ontario Northland joint service" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-02-08T03:58:31.537+00:00</dateUpdated>
+      <dateUpdated>2026-03-07T23:12:18.075+00:00</dateUpdated>
       <decoder model="LokSound Select OEM" family="ESU LokSound Select" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="1730" longaddress="yes" />
@@ -17615,6 +18193,24 @@ Group TE: 70 / 51</value>
           <value>24 / 16</value>
         </keyvaluepair>
       </attributepairs>
+    </locomotive>
+    <locomotive id="ONR 1730-2" fileName="ONR_1730_2.xml" roadNumber="1730" roadName="Ontario Northland" mfg="Bowser" owner="217 Peter Ely" model="SD40-2 (GMDD)" dccAddress="1730" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-03-07T23:08:12.949+00:00</dateUpdated>
+      <decoder model="LokSound 5 DCC" family="ESU LokSound 5" comment="" maxFnNum="31" />
+      <locoaddress>
+        <dcclocoaddress number="1730" longaddress="yes" />
+        <number>1730</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels>
+        <functionlabel num="0" lockable="true" visible="true" functionImage="" functionImageSelected="">Light</functionlabel>
+        <functionlabel num="1" lockable="true" visible="true" functionImage="" functionImageSelected="">Bell</functionlabel>
+        <functionlabel num="2" lockable="false" visible="true" functionImage="" functionImageSelected="">Horn</functionlabel>
+      </functionlabels>
+      <soundlabels>
+        <soundlabel num="33">Automatic brake sound</soundlabel>
+        <soundlabel num="34">Gear shift sound</soundlabel>
+      </soundlabels>
     </locomotive>
     <locomotive id="ONR 1732" fileName="ONR_1732.xml" roadNumber="1732" roadName="Ontario Northland" mfg="Bowser" owner="217 Peter Ely" model="SD40-2 (GMDD)" dccAddress="1732" comment="Unit train: ONR and/or CNR barrel ore cars.&lt;?p?&gt;Canadian National and/or &lt;?p?&gt;Ontario Northland joint service" developerID="-1" manufacturerID="151" productID="33554533,33554570" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
       <dateUpdated>2026-02-08T03:58:31.555+00:00</dateUpdated>
@@ -17641,7 +18237,7 @@ Group TE: 70 / 51</value>
       </attributepairs>
     </locomotive>
     <locomotive id="ONR 1733" fileName="ONR_1733.xml" roadNumber="1733" roadName="Ontario Northland" mfg="Bowser" owner="217 Peter Ely" model="SD40-2 (GMDD)" dccAddress="1733" comment="Unit train: ONR and/or CNR barrel ore cars.&lt;?p?&gt;Canadian National and/or &lt;?p?&gt;Ontario Northland joint service" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-02-08T03:58:31.576+00:00</dateUpdated>
+      <dateUpdated>2026-03-07T23:09:58.624+00:00</dateUpdated>
       <decoder model="LokSound Select OEM" family="ESU LokSound Select" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="1733" longaddress="yes" />
@@ -17663,6 +18259,42 @@ Group TE: 70 / 51</value>
           <value>24 / 16</value>
         </keyvaluepair>
       </attributepairs>
+    </locomotive>
+    <locomotive id="ONR 1733-2" fileName="ONR_1733_2.xml" roadNumber="1733" roadName="Ontario Northland" mfg="Bowser" owner="217 Peter Ely" model="SD40-2 (GMDD)" dccAddress="1733" comment="Unit train: ONR and/or CNR barrel ore cars.&lt;?p?&gt;Canadian National and/or &lt;?p?&gt;Ontario Northland joint serviceUnweathered" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-03-07T22:44:45.460+00:00</dateUpdated>
+      <decoder model="LokSound 5 DCC" family="ESU LokSound 5" comment="" maxFnNum="31" />
+      <locoaddress>
+        <dcclocoaddress number="1733" longaddress="yes" />
+        <number>1733</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels>
+        <functionlabel num="0" lockable="true" visible="true" functionImage="" functionImageSelected="">Light</functionlabel>
+        <functionlabel num="1" lockable="true" visible="true" functionImage="" functionImageSelected="">Bell</functionlabel>
+        <functionlabel num="2" lockable="false" visible="true" functionImage="" functionImageSelected="">Horn</functionlabel>
+      </functionlabels>
+      <soundlabels>
+        <soundlabel num="33">Automatic brake sound</soundlabel>
+        <soundlabel num="34">Gear shift sound</soundlabel>
+      </soundlabels>
+    </locomotive>
+    <locomotive id="ONR 1735" fileName="ONR_1735.xml" roadNumber="1735" roadName="Ontario Northland" mfg="Bowser" owner="217 Peter Ely" model="SD40-2 (GMDD)" dccAddress="1735" comment="Unit train: ONR and/or CNR barrel ore cars. Unweathered&lt;?p?&gt;Canadian National and/or &lt;?p?&gt;Ontario Northland joint service" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-03-07T22:48:07.379+00:00</dateUpdated>
+      <decoder model="LokSound 5 DCC" family="ESU LokSound 5" comment="" maxFnNum="31" />
+      <locoaddress>
+        <dcclocoaddress number="1735" longaddress="yes" />
+        <number>1735</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels>
+        <functionlabel num="0" lockable="true" visible="true" functionImage="" functionImageSelected="">Light</functionlabel>
+        <functionlabel num="1" lockable="true" visible="true" functionImage="" functionImageSelected="">Bell</functionlabel>
+        <functionlabel num="2" lockable="false" visible="true" functionImage="" functionImageSelected="">Horn</functionlabel>
+      </functionlabels>
+      <soundlabels>
+        <soundlabel num="33">Automatic brake sound</soundlabel>
+        <soundlabel num="34">Gear shift sound</soundlabel>
+      </soundlabels>
     </locomotive>
     <locomotive id="OSR 180" fileName="OSR_180.xml" roadNumber="180" roadName="Ontario Southland Railway" mfg="Rapido" owner="217 Peter Ely" model="RS-18u" dccAddress="180" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
       <dateUpdated>2023-12-14T21:08:29.082+00:00</dateUpdated>
@@ -18521,8 +19153,44 @@ Group TE: 70 / 51</value>
       </functionlabels>
       <soundlabels />
     </locomotive>
-    <locomotive id="Polar Express 1225" fileName="PE_1225a.xml" roadNumber="1225" roadName="Polar Express" mfg="Lionel" owner="J108 Ron Wong " model="N-1 Berkshire" dccAddress="1225" comment="" developerID="-1" manufacturerID="141" productID="2108" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-02-12T06:16:51.658+00:00</dateUpdated>
+    <locomotive id="PLLX" fileName="PLLX.xml" roadNumber="301" roadName="Progress Locomotive" mfg="Bowser" owner="217 Peter Ely" model="SD40-2 (GMDD)" dccAddress="301" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-03-07T22:54:24.429+00:00</dateUpdated>
+      <decoder model="LokSound Select OEM" family="ESU LokSound Select" comment="" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="301" longaddress="yes" />
+        <number>301</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels>
+        <functionlabel num="0" lockable="true" visible="true" functionImage="" functionImageSelected="">Light</functionlabel>
+        <functionlabel num="2" lockable="false" visible="true" functionImage="" functionImageSelected="">Horn</functionlabel>
+      </functionlabels>
+      <soundlabels>
+        <soundlabel num="25">Random sounds</soundlabel>
+        <soundlabel num="26">Automatic brake sound</soundlabel>
+        <soundlabel num="27">Gear shift sound</soundlabel>
+      </soundlabels>
+    </locomotive>
+    <locomotive id="PLLX 8105" fileName="PLLX_8105.xml" roadNumber="8105" roadName="Progress Rail Leasing" mfg="Bowser" owner="217 Peter Ely" model="SD40-32 (GMDD)" dccAddress="8105" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-03-07T22:57:37.120+00:00</dateUpdated>
+      <decoder model="LokSound Select OEM" family="ESU LokSound Select" comment="" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="8105" longaddress="yes" />
+        <number>8105</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels>
+        <functionlabel num="0" lockable="true" visible="true" functionImage="" functionImageSelected="">Light</functionlabel>
+        <functionlabel num="2" lockable="false" visible="true" functionImage="" functionImageSelected="">Horn</functionlabel>
+      </functionlabels>
+      <soundlabels>
+        <soundlabel num="25">Random sounds</soundlabel>
+        <soundlabel num="26">Automatic brake sound</soundlabel>
+        <soundlabel num="27">Gear shift sound</soundlabel>
+      </soundlabels>
+    </locomotive>
+    <locomotive id="Polar Express 1225" fileName="Polar_Express_12250.xml" roadNumber="1225" roadName="Polar Express" mfg="Lionel" owner="108 Ron Wong " model="N-1 Berkshire" dccAddress="1225" comment="" developerID="-1" manufacturerID="141" productID="2108" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-02-23T02:15:50.537+00:00</dateUpdated>
       <decoder model="TSU-2200 Steam-2" family="Tsunami2 Steam" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="1225" longaddress="yes" />
@@ -18562,8 +19230,8 @@ Group TE: 70 / 51</value>
       </functionlabels>
       <soundlabels />
     </locomotive>
-    <locomotive id="Polar Express 1225_2" fileName="Polar_Express_1225.xml" roadNumber="1225" roadName="Polar Express" mfg="Lionel" owner="J270 Mathtew J Zepeda " model="2-8-4 " dccAddress="1225" comment="" developerID="-1" manufacturerID="1001" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-02-12T06:17:07.864+00:00</dateUpdated>
+    <locomotive id="Polar Express 1225_2" fileName="Polar_Express_1225_2.xml" roadNumber="1225" roadName="Polar Express" mfg="Lionel" owner="J270 Mathtew J Zepeda " model="2-8-4 " dccAddress="1225" comment="" developerID="-1" manufacturerID="1001" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-02-15T00:53:47.589+00:00</dateUpdated>
       <decoder model="TMCC Steam" family="TMCC Steam" comment="" maxFnNum="68" />
       <locoaddress>
         <dcclocoaddress number="1225" longaddress="yes" />
@@ -18621,7 +19289,7 @@ Group TE: 70 / 51</value>
       </attributepairs>
     </locomotive>
     <locomotive id="PRR 2208" fileName="PRR_2208.xml" roadNumber="2208" roadName="Pennsylvania Railroad" mfg="Scaletrains" owner="272 Michael Gibilterra" model="GP30" dccAddress="2208" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-02-08T05:43:55.024+00:00</dateUpdated>
+      <dateUpdated>2026-03-21T16:54:00.796+00:00</dateUpdated>
       <decoder model="LokSound 5" family="ESU LokSound 5" comment="" maxFnNum="31" />
       <locoaddress>
         <dcclocoaddress number="2208" longaddress="yes" />
@@ -18644,12 +19312,12 @@ Group TE: 70 / 51</value>
         </keyvaluepair>
         <keyvaluepair>
           <key>TE</key>
-          <value>40 16 /  13</value>
+          <value>30 / 16 / 13</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
     <locomotive id="PRR 2218" fileName="PRR_2218.xml" roadNumber="2218" roadName="Pennsylvania Railroad" mfg="Scaletrains" owner="272 Michael Gibilterra" model="GP30" dccAddress="2218" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-02-08T05:43:35.794+00:00</dateUpdated>
+      <dateUpdated>2026-03-21T16:54:19.455+00:00</dateUpdated>
       <decoder model="LokSound 5" family="ESU LokSound 5" comment="" maxFnNum="31" />
       <locoaddress>
         <dcclocoaddress number="2218" longaddress="yes" />
@@ -18672,7 +19340,7 @@ Group TE: 70 / 51</value>
         </keyvaluepair>
         <keyvaluepair>
           <key>TE</key>
-          <value>40 /  30 /  16</value>
+          <value>30 / 16 / 13</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
@@ -18920,7 +19588,7 @@ Group TE: 70 / 51</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="PRR 460" fileName="PRR460.xml" roadNumber="460" roadName="Pennsylvania Railroad" mfg="BLI" owner="267 Adam Delia" model="4-4-2 Atlantic" dccAddress="460" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+    <locomotive id="PRR 460" fileName="PRR_460.xml" roadNumber="460" roadName="Pennsylvania Railroad" mfg="BLI" owner="267 Adam Delia" model="4-4-2 Atlantic" dccAddress="460" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
       <dateUpdated>2026-02-11T15:10:33.076+00:00</dateUpdated>
       <decoder model="Steam" family="Paragon 4" comment="" maxFnNum="28" />
       <locoaddress>
@@ -19060,6 +19728,177 @@ Group TE: 70 / 51</value>
         <keyvaluepair>
           <key>TE</key>
           <value>65 /  57 /  48</value>
+        </keyvaluepair>
+      </attributepairs>
+    </locomotive>
+    <locomotive id="PRR 6513" fileName="PRR_6513.xml" roadNumber="6513" roadName="Pennsylvania Railroad" mfg="Korea Brass" owner="272 Micheal Gibilterra" model="U25C" dccAddress="6513" comment="" developerID="-1" manufacturerID="153" productID="1452" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="true" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+      <dateUpdated>2026-03-21T16:47:57.734+00:00</dateUpdated>
+      <decoder model="WOW Diesel 501 SS4 Prime" family="WOW Diesel Sound Set 4 Prime" comment="" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="6513" longaddress="yes" />
+        <number>6513</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels>
+        <functionlabel num="0" lockable="true" visible="true" functionImage="" functionImageSelected="">Headlight</functionlabel>
+        <functionlabel num="1" lockable="true" visible="true" functionImage="" functionImageSelected="">Bell</functionlabel>
+        <functionlabel num="2" lockable="false" visible="true" functionImage="" functionImageSelected="">Horn Long</functionlabel>
+        <functionlabel num="3" lockable="true" visible="true" functionImage="" functionImageSelected="">Horn Short</functionlabel>
+        <functionlabel num="4" lockable="true" visible="true" functionImage="" functionImageSelected="">Horn Quill</functionlabel>
+        <functionlabel num="5" lockable="true" visible="true" functionImage="" functionImageSelected="">Dynamic Brake</functionlabel>
+        <functionlabel num="6" lockable="true" visible="true" functionImage="" functionImageSelected="">Brake Release</functionlabel>
+        <functionlabel num="7" lockable="true" visible="true" functionImage="" functionImageSelected="">Train Brake</functionlabel>
+        <functionlabel num="8" lockable="true" visible="true" functionImage="" functionImageSelected="">Mute</functionlabel>
+        <functionlabel num="9" lockable="true" visible="true" functionImage="" functionImageSelected="">Rotate Horn/Bell</functionlabel>
+        <functionlabel num="10" lockable="true" visible="true" functionImage="" functionImageSelected="">Manual Notch Up</functionlabel>
+        <functionlabel num="11" lockable="true" visible="true" functionImage="" functionImageSelected="">Manual Notch Down</functionlabel>
+        <functionlabel num="12" lockable="true" visible="true" functionImage="" functionImageSelected="">Prime Mover</functionlabel>
+        <functionlabel num="13" lockable="true" visible="true" functionImage="" functionImageSelected="">Coupling</functionlabel>
+        <functionlabel num="14" lockable="true" visible="true" functionImage="" functionImageSelected="">Uncoupling</functionlabel>
+        <functionlabel num="15" lockable="true" visible="true" functionImage="" functionImageSelected="">Mainline/Switching Momentum</functionlabel>
+        <functionlabel num="16" lockable="true" visible="true" functionImage="" functionImageSelected="">Crew Alert</functionlabel>
+        <functionlabel num="17" lockable="true" visible="true" functionImage="" functionImageSelected="">Windshield Wipers</functionlabel>
+        <functionlabel num="18" lockable="true" visible="true" functionImage="" functionImageSelected="">Air Spitter</functionlabel>
+      </functionlabels>
+      <soundlabels />
+      <attributepairs>
+        <keyvaluepair>
+          <key>RosterGroup:PRR</key>
+          <value>yes</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>TE</key>
+          <value>17 / 14 / 12</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>physicsMaxSpeedUnit</key>
+          <value>KMH</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>physicsPowerUnit</key>
+          <value>KW</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>physicsTractiveEffortUnit</key>
+          <value>KN</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>physicsWeightUnit</key>
+          <value>T</value>
+        </keyvaluepair>
+      </attributepairs>
+    </locomotive>
+    <locomotive id="PRR 6516" fileName="PRR_6516.xml" roadNumber="6516" roadName="Pennsylvania Railroad" mfg="Korea Brass" owner="272 Micheal Gibilterra" model="U25C" dccAddress="6516" comment="" developerID="-1" manufacturerID="153" productID="172" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-03-21T16:41:20.280+00:00</dateUpdated>
+      <decoder model="WOW Diesel 501 SS4" family="WOW Diesel Sound Set 4" comment="" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="6516" longaddress="yes" />
+        <number>6516</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels>
+        <functionlabel num="0" lockable="true" visible="true" functionImage="" functionImageSelected="">Headlight</functionlabel>
+        <functionlabel num="1" lockable="true" visible="true" functionImage="" functionImageSelected="">Bell</functionlabel>
+        <functionlabel num="2" lockable="false" visible="true" functionImage="" functionImageSelected="">Horn Long</functionlabel>
+        <functionlabel num="3" lockable="true" visible="true" functionImage="" functionImageSelected="">Horn Short</functionlabel>
+        <functionlabel num="4" lockable="true" visible="true" functionImage="" functionImageSelected="">Horn Quill</functionlabel>
+        <functionlabel num="5" lockable="true" visible="true" functionImage="" functionImageSelected="">Dynamic Brake</functionlabel>
+        <functionlabel num="6" lockable="true" visible="true" functionImage="" functionImageSelected="">Brake Release</functionlabel>
+        <functionlabel num="7" lockable="true" visible="true" functionImage="" functionImageSelected="">Train Brake</functionlabel>
+        <functionlabel num="8" lockable="true" visible="true" functionImage="" functionImageSelected="">Mute</functionlabel>
+        <functionlabel num="9" lockable="true" visible="true" functionImage="" functionImageSelected="">Rotate Horn/Bell</functionlabel>
+        <functionlabel num="10" lockable="true" visible="true" functionImage="" functionImageSelected="">Manual Notch Up</functionlabel>
+        <functionlabel num="11" lockable="true" visible="true" functionImage="" functionImageSelected="">Manual Notch Down</functionlabel>
+        <functionlabel num="12" lockable="true" visible="true" functionImage="" functionImageSelected="">Prime Mover</functionlabel>
+        <functionlabel num="13" lockable="true" visible="true" functionImage="" functionImageSelected="">Coupling</functionlabel>
+        <functionlabel num="14" lockable="true" visible="true" functionImage="" functionImageSelected="">Uncoupling</functionlabel>
+        <functionlabel num="15" lockable="true" visible="true" functionImage="" functionImageSelected="">Mainline/Switching Momentum</functionlabel>
+        <functionlabel num="16" lockable="true" visible="true" functionImage="" functionImageSelected="">Crew Alert</functionlabel>
+        <functionlabel num="17" lockable="true" visible="true" functionImage="" functionImageSelected="">Windshield Wipers</functionlabel>
+        <functionlabel num="18" lockable="true" visible="true" functionImage="" functionImageSelected="">Air Spitter</functionlabel>
+      </functionlabels>
+      <soundlabels />
+      <attributepairs>
+        <keyvaluepair>
+          <key>RosterGroup:PRR</key>
+          <value>yes</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>TE</key>
+          <value>17 / 14 / 12</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>physicsMaxSpeedUnit</key>
+          <value>KMH</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>physicsPowerUnit</key>
+          <value>KW</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>physicsTractiveEffortUnit</key>
+          <value>KN</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>physicsWeightUnit</key>
+          <value>T</value>
+        </keyvaluepair>
+      </attributepairs>
+    </locomotive>
+    <locomotive id="PRR 6518" fileName="PRR_6518.xml" roadNumber="6518" roadName="Pennsylvania Railroad" mfg="Korea Brass" owner="272 Micheal Gibilterra" model="U25C" dccAddress="6518" comment="" developerID="-1" manufacturerID="153" productID="1452" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="true" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+      <dateUpdated>2026-03-21T16:52:17.042+00:00</dateUpdated>
+      <decoder model="WOW Diesel 501 SS4 Prime" family="WOW Diesel Sound Set 4 Prime" comment="" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="6518" longaddress="yes" />
+        <number>6518</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels>
+        <functionlabel num="0" lockable="true" visible="true" functionImage="" functionImageSelected="">Headlight</functionlabel>
+        <functionlabel num="1" lockable="true" visible="true" functionImage="" functionImageSelected="">Bell</functionlabel>
+        <functionlabel num="2" lockable="false" visible="true" functionImage="" functionImageSelected="">Horn Long</functionlabel>
+        <functionlabel num="3" lockable="true" visible="true" functionImage="" functionImageSelected="">Horn Short</functionlabel>
+        <functionlabel num="4" lockable="true" visible="true" functionImage="" functionImageSelected="">Horn Quill</functionlabel>
+        <functionlabel num="5" lockable="true" visible="true" functionImage="" functionImageSelected="">Dynamic Brake</functionlabel>
+        <functionlabel num="6" lockable="true" visible="true" functionImage="" functionImageSelected="">Brake Release</functionlabel>
+        <functionlabel num="7" lockable="true" visible="true" functionImage="" functionImageSelected="">Train Brake</functionlabel>
+        <functionlabel num="8" lockable="true" visible="true" functionImage="" functionImageSelected="">Mute</functionlabel>
+        <functionlabel num="9" lockable="true" visible="true" functionImage="" functionImageSelected="">Rotate Horn/Bell</functionlabel>
+        <functionlabel num="10" lockable="true" visible="true" functionImage="" functionImageSelected="">Manual Notch Up</functionlabel>
+        <functionlabel num="11" lockable="true" visible="true" functionImage="" functionImageSelected="">Manual Notch Down</functionlabel>
+        <functionlabel num="12" lockable="true" visible="true" functionImage="" functionImageSelected="">Prime Mover</functionlabel>
+        <functionlabel num="13" lockable="true" visible="true" functionImage="" functionImageSelected="">Coupling</functionlabel>
+        <functionlabel num="14" lockable="true" visible="true" functionImage="" functionImageSelected="">Uncoupling</functionlabel>
+        <functionlabel num="15" lockable="true" visible="true" functionImage="" functionImageSelected="">Mainline/Switching Momentum</functionlabel>
+        <functionlabel num="16" lockable="true" visible="true" functionImage="" functionImageSelected="">Crew Alert</functionlabel>
+        <functionlabel num="17" lockable="true" visible="true" functionImage="" functionImageSelected="">Windshield Wipers</functionlabel>
+        <functionlabel num="18" lockable="true" visible="true" functionImage="" functionImageSelected="">Air Spitter</functionlabel>
+      </functionlabels>
+      <soundlabels />
+      <attributepairs>
+        <keyvaluepair>
+          <key>RosterGroup:PRR</key>
+          <value>yes</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>TE</key>
+          <value>17 / 14 / 12</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>physicsMaxSpeedUnit</key>
+          <value>KMH</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>physicsPowerUnit</key>
+          <value>KW</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>physicsTractiveEffortUnit</key>
+          <value>KN</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>physicsWeightUnit</key>
+          <value>T</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
@@ -19370,6 +20209,57 @@ Group TE: 70 / 51</value>
         <keyvaluepair>
           <key>TE</key>
           <value>33 /  15 /  10</value>
+        </keyvaluepair>
+      </attributepairs>
+    </locomotive>
+    <locomotive id="PRR460" fileName="PRR460.xml" roadNumber="460" roadName="Pennsylvania Railroad" mfg="BLI" owner="267 Adam Delia" model="4-4-2 Atlantic" dccAddress="460" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-02-08T00:59:36.661+00:00</dateUpdated>
+      <decoder model="Steam" family="Paragon 4" comment="" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="460" longaddress="yes" />
+        <number>460</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels>
+        <functionlabel num="0" lockable="true" visible="true" functionImage="" functionImageSelected="">Headlight</functionlabel>
+        <functionlabel num="1" lockable="true" visible="true" functionImage="" functionImageSelected="">Bell</functionlabel>
+        <functionlabel num="2" lockable="false" visible="true" functionImage="" functionImageSelected="">Whistle</functionlabel>
+        <functionlabel num="3" lockable="true" visible="true" functionImage="" functionImageSelected="">Coupler</functionlabel>
+        <functionlabel num="4" lockable="true" visible="true" functionImage="" functionImageSelected="">Air Pump</functionlabel>
+        <functionlabel num="5" lockable="true" visible="true" functionImage="" functionImageSelected="">Blow Down/Chuff Up</functionlabel>
+        <functionlabel num="6" lockable="true" visible="true" functionImage="" functionImageSelected="">Water Fill/Chuff Dn</functionlabel>
+        <functionlabel num="7" lockable="true" visible="true" functionImage="" functionImageSelected="">Smoke Control</functionlabel>
+        <functionlabel num="8" lockable="true" visible="true" functionImage="" functionImageSelected="">Mute/Master Volume</functionlabel>
+        <functionlabel num="9" lockable="true" visible="true" functionImage="" functionImageSelected="">Shutdown and Startup</functionlabel>
+        <functionlabel num="10" lockable="true" visible="true" functionImage="" functionImageSelected="">Shovel Coal</functionlabel>
+        <functionlabel num="11" lockable="true" visible="true" functionImage="" functionImageSelected="">Water Injector</functionlabel>
+        <functionlabel num="12" lockable="true" visible="true" functionImage="" functionImageSelected="">Brake Set/Release</functionlabel>
+        <functionlabel num="13" lockable="true" visible="true" functionImage="" functionImageSelected="">Horn Grade Crossing</functionlabel>
+        <functionlabel num="14" lockable="true" visible="true" functionImage="" functionImageSelected="">Passenger Sounds</functionlabel>
+        <functionlabel num="15" lockable="true" visible="true" functionImage="" functionImageSelected="">Freight Sounds</functionlabel>
+        <functionlabel num="16" lockable="true" visible="true" functionImage="" functionImageSelected="">Maintenance Sounds</functionlabel>
+        <functionlabel num="17" lockable="true" visible="true" functionImage="" functionImageSelected="">Radio Chatter</functionlabel>
+        <functionlabel num="18" lockable="true" visible="true" functionImage="" functionImageSelected="">City Sounds</functionlabel>
+        <functionlabel num="19" lockable="true" visible="true" functionImage="" functionImageSelected="">Farm Sounds</functionlabel>
+        <functionlabel num="20" lockable="true" visible="true" functionImage="" functionImageSelected="">Industrial Sounds</functionlabel>
+        <functionlabel num="21" lockable="true" visible="true" functionImage="" functionImageSelected="">Lumber Sounds</functionlabel>
+        <functionlabel num="22" lockable="true" visible="true" functionImage="" functionImageSelected="">Horn2</functionlabel>
+        <functionlabel num="23" lockable="true" visible="true" functionImage="" functionImageSelected="">Track Sounds</functionlabel>
+        <functionlabel num="24" lockable="true" visible="true" functionImage="" functionImageSelected="">Aux Light Control</functionlabel>
+        <functionlabel num="25" lockable="true" visible="true" functionImage="" functionImageSelected="">Long Whistle</functionlabel>
+        <functionlabel num="26" lockable="true" visible="true" functionImage="" functionImageSelected="">Play Macro</functionlabel>
+        <functionlabel num="27" lockable="true" visible="true" functionImage="" functionImageSelected="">Record Macro</functionlabel>
+        <functionlabel num="28" lockable="true" visible="true" functionImage="" functionImageSelected="">Brake Squeal</functionlabel>
+      </functionlabels>
+      <soundlabels />
+      <attributepairs>
+        <keyvaluepair>
+          <key>RosterGroup:PRR</key>
+          <value>yes</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>TE</key>
+          <value>33 / 15 / 10</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
@@ -20027,6 +20917,41 @@ Group TE: 70 / 51</value>
           <value>TE: 13 /10  /8</value>
         </keyvaluepair>
       </attributepairs>
+    </locomotive>
+    <locomotive id="SCL 2053" fileName="SCL_2053.xml" roadNumber="2053" roadName="Seaboard Coast Line" mfg="Athearn " owner="j270 Matthew J Zepeda" model="SD45-2" dccAddress="2053" comment="TE:24,16" developerID="-1" manufacturerID="141" productID="6406" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-03-07T23:25:51.249+00:00</dateUpdated>
+      <decoder model="TSU-GN2208 SDP45/SD45-2/F45/FP45 5" family="Tsunami2 Diesel OEM Genesis" comment="" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="2053" longaddress="yes" />
+        <number>2053</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels>
+        <functionlabel num="0" lockable="true" visible="true" functionImage="" functionImageSelected="">Headlight</functionlabel>
+        <functionlabel num="1" lockable="true" visible="true" functionImage="" functionImageSelected="">Bell</functionlabel>
+        <functionlabel num="2" lockable="false" visible="true" functionImage="" functionImageSelected="">Horn</functionlabel>
+        <functionlabel num="3" lockable="true" visible="true" functionImage="" functionImageSelected="">Short Horn</functionlabel>
+        <functionlabel num="4" lockable="true" visible="true" functionImage="" functionImageSelected="">Dynamic Brake</functionlabel>
+        <functionlabel num="5" lockable="true" visible="true" functionImage="" functionImageSelected="">FX3 FX4</functionlabel>
+        <functionlabel num="6" lockable="true" visible="true" functionImage="" functionImageSelected="">FX5 FX6</functionlabel>
+        <functionlabel num="7" lockable="true" visible="true" functionImage="" functionImageSelected="">Dimmer</functionlabel>
+        <functionlabel num="8" lockable="true" visible="true" functionImage="" functionImageSelected="">Mute</functionlabel>
+        <functionlabel num="9" lockable="true" visible="true" functionImage="" functionImageSelected="">Alt Mixer</functionlabel>
+        <functionlabel num="10" lockable="true" visible="true" functionImage="" functionImageSelected="">Straight to Eight</functionlabel>
+        <functionlabel num="11" lockable="true" visible="true" functionImage="" functionImageSelected="">Ind/Train Brake</functionlabel>
+        <functionlabel num="12" lockable="true" visible="true" functionImage="" functionImageSelected="">Brake Select</functionlabel>
+        <functionlabel num="13" lockable="true" visible="true" functionImage="" functionImageSelected="">Coupler</functionlabel>
+        <functionlabel num="14" lockable="true" visible="true" functionImage="" functionImageSelected="">Half Speed</functionlabel>
+        <functionlabel num="15" lockable="true" visible="true" functionImage="" functionImageSelected="">Handbrake</functionlabel>
+        <functionlabel num="16" lockable="true" visible="true" functionImage="" functionImageSelected="">HEP Mode</functionlabel>
+        <functionlabel num="17" lockable="true" visible="true" functionImage="" functionImageSelected="">Fuel Loading</functionlabel>
+        <functionlabel num="18" lockable="true" visible="true" functionImage="" functionImageSelected="">General Service</functionlabel>
+        <functionlabel num="20" lockable="true" visible="true" functionImage="" functionImageSelected="">Steam Generator</functionlabel>
+        <functionlabel num="23" lockable="true" visible="true" functionImage="" functionImageSelected="">All Aboard</functionlabel>
+        <functionlabel num="26" lockable="true" visible="true" functionImage="" functionImageSelected="">RPM+</functionlabel>
+        <functionlabel num="27" lockable="true" visible="true" functionImage="" functionImageSelected="">RPM-</functionlabel>
+      </functionlabels>
+      <soundlabels />
     </locomotive>
     <locomotive id="SCL 6603" fileName="SCL_6603.xml" roadNumber="6603" roadName="Seaboard System" mfg="Atlas" owner="190 Brian Neely" model="GP40" dccAddress="6603" comment="" developerID="-1" manufacturerID="151" productID="33554492,33554511,33554527,33554569" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
       <dateUpdated>2026-02-08T03:58:32.169+00:00</dateUpdated>
@@ -20725,6 +21650,34 @@ Group TE: 41 / 30</value>
       </locoaddress>
       <functionlabels />
       <soundlabels />
+    </locomotive>
+    <locomotive id="SP 2409" fileName="SP_2409.xml" roadNumber="2409" roadName="Southern Pacific" mfg="Bowser English" owner="148 Kevin Schiller" model="C-415" dccAddress="2409" comment="" developerID="-1" manufacturerID="151" productID="33554588,33554680,33554651" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-03-06T01:49:50.496+00:00</dateUpdated>
+      <decoder model="LokSound 5 DCC" family="ESU LokSound 5" comment="F5 Gyralight, F6 Class lights, F9 red Emergency light, F22 Switching mode" maxFnNum="31" />
+      <locoaddress>
+        <dcclocoaddress number="2409" longaddress="yes" />
+        <number>2409</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels>
+        <functionlabel num="0" lockable="true" visible="true" functionImage="" functionImageSelected="">Light</functionlabel>
+        <functionlabel num="1" lockable="true" visible="true" functionImage="" functionImageSelected="">Bell</functionlabel>
+        <functionlabel num="2" lockable="false" visible="true" functionImage="" functionImageSelected="">Horn</functionlabel>
+      </functionlabels>
+      <soundlabels>
+        <soundlabel num="33">Automatic brake sound</soundlabel>
+        <soundlabel num="34">Gear shift sound</soundlabel>
+      </soundlabels>
+      <attributepairs>
+        <keyvaluepair>
+          <key>RosterGroup:SP</key>
+          <value>yes</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>TE</key>
+          <value>15/  12 / 10</value>
+        </keyvaluepair>
+      </attributepairs>
     </locomotive>
     <locomotive id="SP 2455" fileName="SP_2455.xml" roadNumber="2455" roadName="Southern Pacific" mfg="Broadway Limited" owner="190 Brian Neely" model="4-6-2 USRA Light Pacific" dccAddress="2455" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
       <dateUpdated>2026-02-08T03:58:32.491+00:00</dateUpdated>
@@ -21919,7 +22872,7 @@ Group TE: 41 / 30</value>
       </attributepairs>
     </locomotive>
     <locomotive id="SP 4342" fileName="SP_4342.xml" roadNumber="4342" roadName="Southern Pacific" mfg="Tenshodo Brass" owner="261 Mike Davis" model="4-8-2 MT3 " dccAddress="4342" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-02-08T03:58:32.803+00:00</dateUpdated>
+      <dateUpdated>2026-03-14T18:20:48.075+00:00</dateUpdated>
       <decoder model="TSU-1100 Steam-2" family="Tsunami2 Steam" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="4342" longaddress="yes" />
@@ -21964,7 +22917,7 @@ Group TE: 41 / 30</value>
         </keyvaluepair>
         <keyvaluepair>
           <key>TE</key>
-          <value>20 / 13</value>
+          <value>20 16 13</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
@@ -22131,7 +23084,7 @@ Group TE: 41 / 30</value>
       </attributepairs>
     </locomotive>
     <locomotive id="SP 4352_2" fileName="SP_4352_2.xml" roadNumber="4352" roadName="Southern Pacific" mfg="Tenshodo Brass" owner="261 Mike Davis" model="4-8-2 MT-4" dccAddress="4352" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-02-08T03:58:32.832+00:00</dateUpdated>
+      <dateUpdated>2026-03-14T18:19:58.142+00:00</dateUpdated>
       <decoder model="TSU-1100 Steam-2" family="Tsunami2 Steam" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="4352" longaddress="yes" />
@@ -22176,12 +23129,12 @@ Group TE: 41 / 30</value>
         </keyvaluepair>
         <keyvaluepair>
           <key>TE</key>
-          <value>20 / 13</value>
+          <value>20 16 13</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
     <locomotive id="SP 4352_3" fileName="SP_4352_3.xml" roadNumber="4352" roadName="Southern Pacific" mfg="Athearn Genesis" owner="190 Brian Neely" model="4-8-2 MT-4 daylight" dccAddress="4352" comment="" developerID="-1" manufacturerID="141" productID="826102" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-02-08T03:58:32.841+00:00</dateUpdated>
+      <dateUpdated>2026-03-14T18:19:41.935+00:00</dateUpdated>
       <decoder model="TSU-1000 Medium Steam" family="Tsunami Steam" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="4352" longaddress="yes" />
@@ -22207,12 +23160,12 @@ Group TE: 41 / 30</value>
       <attributepairs>
         <keyvaluepair>
           <key>TE</key>
-          <value>20 /  16 /  13</value>
+          <value>20 16 13</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
     <locomotive id="SP 4357" fileName="SP_4357.xml" roadNumber="4357" roadName="Southern Pacific" mfg="Athearn" owner="J270 Matthew J Zepeda" model="MT-4 4-8-2" dccAddress="4357" comment="" developerID="-1" manufacturerID="141" productID="6412" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-02-08T03:58:32.850+00:00</dateUpdated>
+      <dateUpdated>2026-03-14T18:19:21.778+00:00</dateUpdated>
       <decoder model="TSU-21PNEM8 MT-4" family="Tsunami2 Steam OEM Genesis" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="4357" longaddress="yes" />
@@ -22251,7 +23204,7 @@ Group TE: 41 / 30</value>
       <attributepairs>
         <keyvaluepair>
           <key>TE</key>
-          <value>18 / 26</value>
+          <value>26 22 18</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
@@ -22291,7 +23244,7 @@ Group TE: 41 / 30</value>
       </attributepairs>
     </locomotive>
     <locomotive id="SP 4358_1" fileName="SP_4358_1.xml" roadNumber="4358" roadName="Southern Pacific" mfg="Athearn Genesis" owner="265 AJ Chier" model="4-8-2 MT-4" dccAddress="4358" comment="" developerID="-1" manufacturerID="141" productID="MT4" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-02-08T03:58:32.866+00:00</dateUpdated>
+      <dateUpdated>2026-03-14T18:19:09.104+00:00</dateUpdated>
       <decoder model="MT-4 4-8-2" family="Tsunami Steam Genesis OEM" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="4358" longaddress="yes" />
@@ -22317,12 +23270,56 @@ Group TE: 41 / 30</value>
       <attributepairs>
         <keyvaluepair>
           <key>TE</key>
-          <value>17 /  14 /  12</value>
+          <value>17 14 12</value>
+        </keyvaluepair>
+      </attributepairs>
+    </locomotive>
+    <locomotive id="SP 4363" fileName="SP_4363.xml" roadNumber="4363" roadName="Southern Pacific" mfg="Athearn" owner="Mike Gibilterra" model="MT4" dccAddress="4363" comment="" developerID="-1" manufacturerID="141" productID="6412" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-03-14T18:15:00.539+00:00</dateUpdated>
+      <decoder model="TSU-21PNEM8 MT-4" family="Tsunami2 Steam OEM Genesis" comment="" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="4363" longaddress="yes" />
+        <number>4363</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels>
+        <functionlabel num="0" lockable="true" visible="true" functionImage="" functionImageSelected="">Headlight</functionlabel>
+        <functionlabel num="1" lockable="true" visible="true" functionImage="" functionImageSelected="">Bell</functionlabel>
+        <functionlabel num="2" lockable="false" visible="true" functionImage="" functionImageSelected="">Whistle</functionlabel>
+        <functionlabel num="3" lockable="true" visible="true" functionImage="" functionImageSelected="">Short Whistle</functionlabel>
+        <functionlabel num="4" lockable="true" visible="true" functionImage="" functionImageSelected="">Cylinder Cocks</functionlabel>
+        <functionlabel num="5" lockable="true" visible="true" functionImage="" functionImageSelected="">FX3 FX4</functionlabel>
+        <functionlabel num="6" lockable="true" visible="true" functionImage="" functionImageSelected="">FX5 FX6</functionlabel>
+        <functionlabel num="7" lockable="true" visible="true" functionImage="" functionImageSelected="">Dimmer</functionlabel>
+        <functionlabel num="8" lockable="true" visible="true" functionImage="" functionImageSelected="">Mute</functionlabel>
+        <functionlabel num="9" lockable="true" visible="true" functionImage="" functionImageSelected="">Alt Mixer</functionlabel>
+        <functionlabel num="10" lockable="true" visible="true" functionImage="" functionImageSelected="">Blow Down</functionlabel>
+        <functionlabel num="11" lockable="true" visible="true" functionImage="" functionImageSelected="">Brake Set/Release</functionlabel>
+        <functionlabel num="12" lockable="true" visible="true" functionImage="" functionImageSelected="">Brake Select</functionlabel>
+        <functionlabel num="13" lockable="true" visible="true" functionImage="" functionImageSelected="">Coupler</functionlabel>
+        <functionlabel num="14" lockable="true" visible="true" functionImage="" functionImageSelected="">Half Speed</functionlabel>
+        <functionlabel num="15" lockable="true" visible="true" functionImage="" functionImageSelected="">Wheel Chains</functionlabel>
+        <functionlabel num="16" lockable="true" visible="true" functionImage="" functionImageSelected="">Water Stop</functionlabel>
+        <functionlabel num="17" lockable="true" visible="true" functionImage="" functionImageSelected="">Fuel Loading</functionlabel>
+        <functionlabel num="18" lockable="true" visible="true" functionImage="" functionImageSelected="">Ash Dump</functionlabel>
+        <functionlabel num="19" lockable="true" visible="true" functionImage="" functionImageSelected="">Wheel Slip</functionlabel>
+        <functionlabel num="20" lockable="true" visible="true" functionImage="" functionImageSelected="">Injectors</functionlabel>
+        <functionlabel num="21" lockable="true" visible="true" functionImage="" functionImageSelected="">Sander Valve</functionlabel>
+        <functionlabel num="22" lockable="true" visible="true" functionImage="" functionImageSelected="">Cab Chatter</functionlabel>
+        <functionlabel num="23" lockable="true" visible="true" functionImage="" functionImageSelected="">All Abord</functionlabel>
+        <functionlabel num="26" lockable="true" visible="true" functionImage="" functionImageSelected="">Cutoff +</functionlabel>
+        <functionlabel num="27" lockable="true" visible="true" functionImage="" functionImageSelected="">Cutoff -</functionlabel>
+      </functionlabels>
+      <soundlabels />
+      <attributepairs>
+        <keyvaluepair>
+          <key>TE</key>
+          <value>15 12 10</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
     <locomotive id="SP 4376" fileName="SP_4376.xml" roadNumber="4376" roadName="Southern Pacific" mfg="Walthers Proto" owner="257 Chris Holt" model="SD9" dccAddress="4376" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-02-08T03:58:32.877+00:00</dateUpdated>
+      <dateUpdated>2026-03-14T18:15:21.773+00:00</dateUpdated>
       <decoder model="LokSound Select" family="ESU LokSound Select" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="4376" longaddress="yes" />
@@ -22341,12 +23338,12 @@ Group TE: 41 / 30</value>
       <attributepairs>
         <keyvaluepair>
           <key>TE</key>
-          <value>20 / 13</value>
+          <value>20 16 13</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
     <locomotive id="SP 4397" fileName="SP_4397.xml" roadNumber="4397" roadName="Southern Pacific" mfg="Walthers Proto" owner="257 Chris Holt" model="SD9" dccAddress="4397" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-02-08T03:58:32.896+00:00</dateUpdated>
+      <dateUpdated>2026-03-14T18:15:43.338+00:00</dateUpdated>
       <decoder model="LokSound Select" family="ESU LokSound Select" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="4397" longaddress="yes" />
@@ -22369,12 +23366,12 @@ Group TE: 41 / 30</value>
         </keyvaluepair>
         <keyvaluepair>
           <key>TE</key>
-          <value>20 / 13</value>
+          <value>20 16 13</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
     <locomotive id="SP 4438" fileName="SP_4438.xml" roadNumber="4438" roadName="Southern Pacific" mfg="BLI P4" owner="J270 Matthew J Zepeda" model="GS4" dccAddress="4438" comment="" developerID="-1" manufacturerID="38" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-02-08T03:58:32.917+00:00</dateUpdated>
+      <dateUpdated>2026-03-14T18:15:57.700+00:00</dateUpdated>
       <decoder model="Steam" family="Paragon 4" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="4438" longaddress="yes" />
@@ -22416,12 +23413,12 @@ Group TE: 41 / 30</value>
       <attributepairs>
         <keyvaluepair>
           <key>TE</key>
-          <value>37 /  26</value>
+          <value>37 31 26</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
     <locomotive id="SP 4449" fileName="SP_4449.xml" roadNumber="4449" roadName="Southern Pacific" mfg="MTH" owner="J270 Matthew J Zepeda" model="GS4" dccAddress="4449" comment="" developerID="-1" manufacturerID="27" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-02-08T03:58:32.929+00:00</dateUpdated>
+      <dateUpdated>2026-03-14T18:16:06.265+00:00</dateUpdated>
       <decoder model="MTH HO PS3" family="MTH HO PS3" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="4449" longaddress="yes" />
@@ -22433,12 +23430,12 @@ Group TE: 41 / 30</value>
       <attributepairs>
         <keyvaluepair>
           <key>TE</key>
-          <value>37 /  26</value>
+          <value>37 31 26</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
     <locomotive id="SP 4449_1" fileName="SP_4449_1.xml" roadNumber="4449" roadName="Southern Pacific" mfg="Bachmann" owner="J270 Matthew J Zepeda" model="4-8-4 GS4 American Freedom" dccAddress="4449" comment="" developerID="-1" manufacturerID="141" productID="GS4484" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-02-08T03:58:32.939+00:00</dateUpdated>
+      <dateUpdated>2026-03-14T18:16:34.708+00:00</dateUpdated>
       <decoder model="4-8-4 GS-4 - Southern Pacific [HO]" family="Tsunami Steam Bachmann Sound Value" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="4449" longaddress="yes" />
@@ -22459,7 +23456,7 @@ Group TE: 41 / 30</value>
       <attributepairs>
         <keyvaluepair>
           <key>TE</key>
-          <value>20  /  13</value>
+          <value>20 16 13</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
@@ -22558,7 +23555,7 @@ Group TE: 41 / 30</value>
       </attributepairs>
     </locomotive>
     <locomotive id="SP 4800" fileName="SP_4800.xml" roadNumber="4800" roadName="Southern Pacific" mfg="Athearn Genesis" owner="257 Chris Holt" model="GP38-2" dccAddress="4800" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-02-08T03:58:32.969+00:00</dateUpdated>
+      <dateUpdated>2026-03-14T18:16:53.214+00:00</dateUpdated>
       <decoder model="LokSound Select Direct" family="ESU LokSound Select" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="4800" longaddress="yes" />
@@ -22574,12 +23571,12 @@ Group TE: 41 / 30</value>
         </keyvaluepair>
         <keyvaluepair>
           <key>TE</key>
-          <value>17 / 14 / 12</value>
+          <value>17 14 12</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
     <locomotive id="SP 4812" fileName="SP_4812.xml" roadNumber="4812" roadName="Southern Pacific" mfg="Athearn Genesis" owner="257 Chris Holt" model="GP38-2" dccAddress="4812" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-02-08T03:58:32.987+00:00</dateUpdated>
+      <dateUpdated>2026-03-14T18:18:40.859+00:00</dateUpdated>
       <decoder model="LokSound Select Direct" family="ESU LokSound Select" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="4812" longaddress="yes" />
@@ -22595,7 +23592,7 @@ Group TE: 41 / 30</value>
         </keyvaluepair>
         <keyvaluepair>
           <key>TE</key>
-          <value>17 / 14 / 12</value>
+          <value>17 14 12</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
@@ -22621,7 +23618,7 @@ Group TE: 41 / 30</value>
       </attributepairs>
     </locomotive>
     <locomotive id="SP 4837" fileName="SP_4837.xml" roadNumber="4837" roadName="Southern Pacific" mfg="Athearn Genesis" owner="257 Chris Holt" model="GP38-2" dccAddress="4837" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-02-08T03:58:33.033+00:00</dateUpdated>
+      <dateUpdated>2026-03-14T18:20:59.460+00:00</dateUpdated>
       <decoder model="LokSound Select Direct" family="ESU LokSound Select" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="4837" longaddress="yes" />
@@ -22637,12 +23634,12 @@ Group TE: 41 / 30</value>
         </keyvaluepair>
         <keyvaluepair>
           <key>TE</key>
-          <value>17 / 14 / 12</value>
+          <value>17 14 12</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
     <locomotive id="SP 5007" fileName="SP_5007.xml" roadNumber="5007" roadName="Southern Pacific" mfg="Westside" owner="261 Mike Davis" model="4-10-2 SP1" dccAddress="5007" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-02-08T03:58:33.050+00:00</dateUpdated>
+      <dateUpdated>2026-03-14T18:21:41.174+00:00</dateUpdated>
       <decoder model="LokSound V4.0" family="ESU LokSound V4.0" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="5007" longaddress="yes" />
@@ -22681,12 +23678,12 @@ Group TE: 41 / 30</value>
         </keyvaluepair>
         <keyvaluepair>
           <key>TE</key>
-          <value>26 / 22 / 16</value>
+          <value>26 22 16</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
     <locomotive id="SP 5011" fileName="SP_5011.xml" roadNumber="5011" roadName="Southern Pacific" mfg="KTM" owner="265 AJ Chier" model="4-10-2 SP1" dccAddress="5011" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-02-08T03:58:33.069+00:00</dateUpdated>
+      <dateUpdated>2026-03-14T18:22:23.030+00:00</dateUpdated>
       <decoder model="TSU-2200 Steam-2" family="Tsunami2 Steam" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="5011" longaddress="yes" />
@@ -22731,7 +23728,7 @@ Group TE: 41 / 30</value>
         </keyvaluepair>
         <keyvaluepair>
           <key>TE</key>
-          <value>33 23</value>
+          <value>33 28 23</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
@@ -23356,10 +24353,6 @@ Group TE: 41 / 30</value>
       <functionlabels />
       <soundlabels />
       <attributepairs>
-        <keyvaluepair>
-          <key>RosterGroup:SP</key>
-          <value>yes</value>
-        </keyvaluepair>
         <keyvaluepair>
           <key>TE</key>
           <value>20 / 13</value>
@@ -24183,8 +25176,8 @@ Group TE: 41 / 30</value>
         <soundlabel num="34">Gear shift sound</soundlabel>
       </soundlabels>
     </locomotive>
-    <locomotive id="SP 6042" fileName="SP_6042.xml" roadNumber="6042" roadName="Southern Pacific" mfg="Union Terminal" owner="148 Kevin Schiller" model="PA" dccAddress="6042" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2021-05-08T18:00:54.926+00:00</dateUpdated>
+    <locomotive id="SP 6042" fileName="SP_6042.xml" roadNumber="6042" roadName="Southern Pacific" mfg="Union Terminal" owner="148 Kevin Schiller" model="PA" dccAddress="6042" comment="TE: 24, 20, 16" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-02-19T22:49:43.044+00:00</dateUpdated>
       <decoder model="LokSound Select" family="ESU LokSound Select" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="6042" longaddress="yes" />
@@ -25498,7 +26491,44 @@ Group TE: 44 / 37 / 31</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="SP 8141B" fileName="SP_8141b.xml" roadNumber="8141" roadName="Southern Pacific" mfg="BLI" owner="J270 Matthew J Zepeda" model="F7b" dccAddress="6268" comment="Address is 6268" developerID="-1" manufacturerID="38" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+    <locomotive id="SP 8141b" fileName="SP_8141b0.xml" roadNumber="8141" roadName="Southern Pacific" mfg="BLI" owner="J270 Matthew J Zepeda" model="F7b" dccAddress="6268" comment="Address is 6268" developerID="-1" manufacturerID="38" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2025-03-13T18:19:12.106+00:00</dateUpdated>
+      <decoder model="Diesel" family="Paragon 2" comment="" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="6268" longaddress="yes" />
+        <number>6268</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels>
+        <functionlabel num="1" lockable="true" visible="true" functionImage="" functionImageSelected="">Bell</functionlabel>
+        <functionlabel num="2" lockable="false" visible="true" functionImage="" functionImageSelected="">Horn 1</functionlabel>
+        <functionlabel num="3" lockable="true" visible="true" functionImage="" functionImageSelected="">Coupler</functionlabel>
+        <functionlabel num="4" lockable="true" visible="true" functionImage="" functionImageSelected="">Blower</functionlabel>
+        <functionlabel num="5" lockable="true" visible="true" functionImage="" functionImageSelected="">Rev Up</functionlabel>
+        <functionlabel num="6" lockable="true" visible="true" functionImage="" functionImageSelected="">Rev Dn</functionlabel>
+        <functionlabel num="7" lockable="true" visible="true" functionImage="" functionImageSelected="">L1 Effect</functionlabel>
+        <functionlabel num="8" lockable="true" visible="true" functionImage="" functionImageSelected="">Master Volume</functionlabel>
+        <functionlabel num="9" lockable="true" visible="true" functionImage="" functionImageSelected="">Shutdown and Startup</functionlabel>
+        <functionlabel num="10" lockable="true" visible="true" functionImage="" functionImageSelected="">Radiator Cooling Fan</functionlabel>
+        <functionlabel num="11" lockable="true" visible="true" functionImage="" functionImageSelected="">Air Release and Fill</functionlabel>
+        <functionlabel num="12" lockable="true" visible="true" functionImage="" functionImageSelected="">Brake Set/Release/Squeal</functionlabel>
+        <functionlabel num="13" lockable="true" visible="true" functionImage="" functionImageSelected="">Horn Grade Crossing</functionlabel>
+        <functionlabel num="14" lockable="true" visible="true" functionImage="" functionImageSelected="">Passenger Sounds</functionlabel>
+        <functionlabel num="15" lockable="true" visible="true" functionImage="" functionImageSelected="">Freight Sounds</functionlabel>
+        <functionlabel num="16" lockable="true" visible="true" functionImage="" functionImageSelected="">Maintenance Sounds</functionlabel>
+        <functionlabel num="17" lockable="true" visible="true" functionImage="" functionImageSelected="">Radio Chatter</functionlabel>
+        <functionlabel num="18" lockable="true" visible="true" functionImage="" functionImageSelected="">City Sounds</functionlabel>
+        <functionlabel num="19" lockable="true" visible="true" functionImage="" functionImageSelected="">Farm Sounds</functionlabel>
+        <functionlabel num="20" lockable="true" visible="true" functionImage="" functionImageSelected="">Industrial Sounds</functionlabel>
+        <functionlabel num="21" lockable="true" visible="true" functionImage="" functionImageSelected="">Lumber Sounds</functionlabel>
+        <functionlabel num="22" lockable="true" visible="true" functionImage="" functionImageSelected="">Horn2</functionlabel>
+        <functionlabel num="26" lockable="true" visible="true" functionImage="" functionImageSelected="">Play Macro</functionlabel>
+        <functionlabel num="27" lockable="true" visible="true" functionImage="" functionImageSelected="">Record Macro</functionlabel>
+        <functionlabel num="28" lockable="true" visible="true" functionImage="" functionImageSelected="">Brake Squeal</functionlabel>
+      </functionlabels>
+      <soundlabels />
+    </locomotive>
+    <locomotive id="SP 8141B" fileName="SP_8141B.xml" roadNumber="8141" roadName="Southern Pacific" mfg="BLI" owner="J270 Matthew J Zepeda" model="F7b" dccAddress="6268" comment="Address is 6268" developerID="-1" manufacturerID="38" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
       <dateUpdated>2026-02-11T15:13:18.109+00:00</dateUpdated>
       <decoder model="Diesel" family="Paragon 2" comment="" maxFnNum="28" />
       <locoaddress>
@@ -26404,7 +27434,7 @@ Group TE: 61 / 45</value>
       </attributepairs>
     </locomotive>
     <locomotive id="SP 9232" fileName="SP_9232.xml" roadNumber="9232" roadName="Southern Pacific" mfg="Athearn" owner="SM1501 Mark Cheer" model="SD45T-2" dccAddress="9232" comment="" developerID="-1" manufacturerID="141" productID="2062" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-02-08T03:58:34.446+00:00</dateUpdated>
+      <dateUpdated>2026-03-06T01:39:33.351+00:00</dateUpdated>
       <decoder model="ECO-PNP Diesel" family="Econami Diesel" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="9232" longaddress="yes" />
@@ -26464,6 +27494,38 @@ Group TE: 61 / 45</value>
         <keyvaluepair>
           <key>TE</key>
           <value>26 / 18</value>
+        </keyvaluepair>
+      </attributepairs>
+    </locomotive>
+    <locomotive id="SP 9357" fileName="SP_9357.xml" roadNumber="9357" roadName="Southern Pacific" mfg="Athearn" owner="148 Kevin Schiller" model="SD45T-2" dccAddress="9357" comment="TE: 22, 18, 15" developerID="-1" manufacturerID="141" productID="6241" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-03-06T01:49:42.394+00:00</dateUpdated>
+      <decoder model="ECO-RTR SD40T-2 8" family="Econami Diesel OEM Athearn" comment="F5 Gyralight F6 Red emergency light" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="9357" longaddress="yes" />
+        <number>9357</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels>
+        <functionlabel num="0" lockable="true" visible="true" functionImage="" functionImageSelected="">Headlight</functionlabel>
+        <functionlabel num="1" lockable="true" visible="true" functionImage="" functionImageSelected="">Bell</functionlabel>
+        <functionlabel num="2" lockable="false" visible="true" functionImage="" functionImageSelected="">Horn</functionlabel>
+        <functionlabel num="3" lockable="true" visible="true" functionImage="" functionImageSelected="">Short Horn</functionlabel>
+        <functionlabel num="4" lockable="true" visible="true" functionImage="" functionImageSelected="">Dynamic Brake</functionlabel>
+        <functionlabel num="5" lockable="true" visible="true" functionImage="" functionImageSelected="">FX3 Output</functionlabel>
+        <functionlabel num="6" lockable="true" visible="true" functionImage="" functionImageSelected="">FX4 Output</functionlabel>
+        <functionlabel num="7" lockable="true" visible="true" functionImage="" functionImageSelected="">Dimmer</functionlabel>
+        <functionlabel num="8" lockable="true" visible="true" functionImage="" functionImageSelected="">Mute</functionlabel>
+        <functionlabel num="11" lockable="true" visible="true" functionImage="" functionImageSelected="">Brake Function</functionlabel>
+        <functionlabel num="13" lockable="true" visible="true" functionImage="" functionImageSelected="">Coupler</functionlabel>
+        <functionlabel num="14" lockable="true" visible="true" functionImage="" functionImageSelected="">Half Speed</functionlabel>
+        <functionlabel num="26" lockable="true" visible="true" functionImage="" functionImageSelected="">RPM+</functionlabel>
+        <functionlabel num="27" lockable="true" visible="true" functionImage="" functionImageSelected="">RPM-</functionlabel>
+      </functionlabels>
+      <soundlabels />
+      <attributepairs>
+        <keyvaluepair>
+          <key>RosterGroup:SP</key>
+          <value>yes</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
@@ -27395,7 +28457,7 @@ Group TE: 61 / 45</value>
       <functionlabels />
       <soundlabels />
     </locomotive>
-    <locomotive id="UP 1" fileName="UP1.xml" roadNumber="1" roadName="Union Pacific" mfg="OMI" owner="259 Skip Martin" model="GE Turbine" dccAddress="1000" comment="" developerID="-1" manufacturerID="141" productID="2075" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+    <locomotive id="UP 1" fileName="UP_1.xml" roadNumber="1" roadName="Union Pacific" mfg="OMI" owner="259 Skip Martin" model="GE Turbine" dccAddress="1000" comment="" developerID="-1" manufacturerID="141" productID="2075" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
       <dateUpdated>2026-02-11T15:13:36.503+00:00</dateUpdated>
       <decoder model="TSU-2200 Baldwin Diesels" family="Tsunami2 Diesel" comment="" maxFnNum="28" />
       <locoaddress>
@@ -27756,6 +28818,47 @@ Group TE: 61 / 45</value>
           <key>RosterGroup:SM</key>
           <value>yes</value>
         </keyvaluepair>
+        <keyvaluepair>
+          <key>RosterGroup:UP</key>
+          <value>yes</value>
+        </keyvaluepair>
+      </attributepairs>
+    </locomotive>
+    <locomotive id="UP 130B" fileName="UP_130B.xml" roadNumber="168" roadName="Union Pacific" mfg="Athearn" owner="263 John Finnerty" model="GP9B" dccAddress="168" comment="TE: 20, 16, 13" developerID="-1" manufacturerID="141" productID="6234" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-02-23T02:16:21.349+00:00</dateUpdated>
+      <decoder model="TSU-GN2208 GP9" family="Tsunami2 Diesel OEM Genesis" comment="" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="168" longaddress="yes" />
+        <number>168</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels>
+        <functionlabel num="0" lockable="true" visible="true" functionImage="" functionImageSelected="">Headlight</functionlabel>
+        <functionlabel num="1" lockable="true" visible="true" functionImage="" functionImageSelected="">Bell</functionlabel>
+        <functionlabel num="2" lockable="false" visible="true" functionImage="" functionImageSelected="">Horn</functionlabel>
+        <functionlabel num="3" lockable="true" visible="true" functionImage="" functionImageSelected="">Short Horn</functionlabel>
+        <functionlabel num="4" lockable="true" visible="true" functionImage="" functionImageSelected="">Dynamic Brake</functionlabel>
+        <functionlabel num="5" lockable="true" visible="true" functionImage="" functionImageSelected="">FX3 FX4</functionlabel>
+        <functionlabel num="6" lockable="true" visible="true" functionImage="" functionImageSelected="">FX5 FX6</functionlabel>
+        <functionlabel num="7" lockable="true" visible="true" functionImage="" functionImageSelected="">Dimmer</functionlabel>
+        <functionlabel num="8" lockable="true" visible="true" functionImage="" functionImageSelected="">Mute</functionlabel>
+        <functionlabel num="9" lockable="true" visible="true" functionImage="" functionImageSelected="">Alt Mixer</functionlabel>
+        <functionlabel num="10" lockable="true" visible="true" functionImage="" functionImageSelected="">Straight to Eight</functionlabel>
+        <functionlabel num="11" lockable="true" visible="true" functionImage="" functionImageSelected="">Ind/Train Brake</functionlabel>
+        <functionlabel num="12" lockable="true" visible="true" functionImage="" functionImageSelected="">Brake Select</functionlabel>
+        <functionlabel num="13" lockable="true" visible="true" functionImage="" functionImageSelected="">Coupler</functionlabel>
+        <functionlabel num="14" lockable="true" visible="true" functionImage="" functionImageSelected="">Half Speed</functionlabel>
+        <functionlabel num="15" lockable="true" visible="true" functionImage="" functionImageSelected="">Handbrake</functionlabel>
+        <functionlabel num="16" lockable="true" visible="true" functionImage="" functionImageSelected="">HEP Mode</functionlabel>
+        <functionlabel num="17" lockable="true" visible="true" functionImage="" functionImageSelected="">Fuel Loading</functionlabel>
+        <functionlabel num="18" lockable="true" visible="true" functionImage="" functionImageSelected="">General Service</functionlabel>
+        <functionlabel num="20" lockable="true" visible="true" functionImage="" functionImageSelected="">Steam Generator</functionlabel>
+        <functionlabel num="23" lockable="true" visible="true" functionImage="" functionImageSelected="">All Aboard</functionlabel>
+        <functionlabel num="26" lockable="true" visible="true" functionImage="" functionImageSelected="">RPM+</functionlabel>
+        <functionlabel num="27" lockable="true" visible="true" functionImage="" functionImageSelected="">RPM-</functionlabel>
+      </functionlabels>
+      <soundlabels />
+      <attributepairs>
         <keyvaluepair>
           <key>RosterGroup:UP</key>
           <value>yes</value>
@@ -28345,6 +29448,47 @@ Group TE: 61 / 45</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
+    <locomotive id="UP 158B" fileName="UP_158B.xml" roadNumber="168" roadName="Union Pacific" mfg="Athearn" owner="263 John Finnerty" model="GP9B" dccAddress="168" comment="TE: 20, 16, 13" developerID="-1" manufacturerID="141" productID="6234" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-02-23T02:16:27.843+00:00</dateUpdated>
+      <decoder model="TSU-GN2208 GP9" family="Tsunami2 Diesel OEM Genesis" comment="" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="168" longaddress="yes" />
+        <number>168</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels>
+        <functionlabel num="0" lockable="true" visible="true" functionImage="" functionImageSelected="">Headlight</functionlabel>
+        <functionlabel num="1" lockable="true" visible="true" functionImage="" functionImageSelected="">Bell</functionlabel>
+        <functionlabel num="2" lockable="false" visible="true" functionImage="" functionImageSelected="">Horn</functionlabel>
+        <functionlabel num="3" lockable="true" visible="true" functionImage="" functionImageSelected="">Short Horn</functionlabel>
+        <functionlabel num="4" lockable="true" visible="true" functionImage="" functionImageSelected="">Dynamic Brake</functionlabel>
+        <functionlabel num="5" lockable="true" visible="true" functionImage="" functionImageSelected="">FX3 FX4</functionlabel>
+        <functionlabel num="6" lockable="true" visible="true" functionImage="" functionImageSelected="">FX5 FX6</functionlabel>
+        <functionlabel num="7" lockable="true" visible="true" functionImage="" functionImageSelected="">Dimmer</functionlabel>
+        <functionlabel num="8" lockable="true" visible="true" functionImage="" functionImageSelected="">Mute</functionlabel>
+        <functionlabel num="9" lockable="true" visible="true" functionImage="" functionImageSelected="">Alt Mixer</functionlabel>
+        <functionlabel num="10" lockable="true" visible="true" functionImage="" functionImageSelected="">Straight to Eight</functionlabel>
+        <functionlabel num="11" lockable="true" visible="true" functionImage="" functionImageSelected="">Ind/Train Brake</functionlabel>
+        <functionlabel num="12" lockable="true" visible="true" functionImage="" functionImageSelected="">Brake Select</functionlabel>
+        <functionlabel num="13" lockable="true" visible="true" functionImage="" functionImageSelected="">Coupler</functionlabel>
+        <functionlabel num="14" lockable="true" visible="true" functionImage="" functionImageSelected="">Half Speed</functionlabel>
+        <functionlabel num="15" lockable="true" visible="true" functionImage="" functionImageSelected="">Handbrake</functionlabel>
+        <functionlabel num="16" lockable="true" visible="true" functionImage="" functionImageSelected="">HEP Mode</functionlabel>
+        <functionlabel num="17" lockable="true" visible="true" functionImage="" functionImageSelected="">Fuel Loading</functionlabel>
+        <functionlabel num="18" lockable="true" visible="true" functionImage="" functionImageSelected="">General Service</functionlabel>
+        <functionlabel num="20" lockable="true" visible="true" functionImage="" functionImageSelected="">Steam Generator</functionlabel>
+        <functionlabel num="23" lockable="true" visible="true" functionImage="" functionImageSelected="">All Aboard</functionlabel>
+        <functionlabel num="26" lockable="true" visible="true" functionImage="" functionImageSelected="">RPM+</functionlabel>
+        <functionlabel num="27" lockable="true" visible="true" functionImage="" functionImageSelected="">RPM-</functionlabel>
+      </functionlabels>
+      <soundlabels />
+      <attributepairs>
+        <keyvaluepair>
+          <key>RosterGroup:UP</key>
+          <value>yes</value>
+        </keyvaluepair>
+      </attributepairs>
+    </locomotive>
     <locomotive id="UP 1618" fileName="UP_1618.xml" roadNumber="1665" roadName="Union Pacific" mfg="Athearn RTR" owner="257 Chris Holt" model="SD40-2" dccAddress="1618" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
       <dateUpdated>2026-02-08T03:58:34.985+00:00</dateUpdated>
       <decoder model="ECO-RTR SD40 w/gyra" family="Econami Diesel OEM Athearn" comment="" maxFnNum="28" />
@@ -28495,8 +29639,43 @@ Group TE: 61 / 45</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="UP 168" fileName="UP_168.xml" roadNumber="168" roadName="Union Pacific" mfg="Athearn Genesis" owner="263 John Finnerty" model="GP7" dccAddress="168" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2022-02-26T22:09:35.322+00:00</dateUpdated>
+    <locomotive id="up 167B" fileName="up_167B.xml" roadNumber="168" roadName="Union Pacific" mfg="Athearn" owner="263 John Finnerty" model="GP9B" dccAddress="168" comment="TE: 20, 18, 13" developerID="-1" manufacturerID="141" productID="6234" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-02-23T02:16:36.027+00:00</dateUpdated>
+      <decoder model="TSU-GN2208 GP9" family="Tsunami2 Diesel OEM Genesis" comment="" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="168" longaddress="yes" />
+        <number>168</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels>
+        <functionlabel num="0" lockable="true" visible="true" functionImage="" functionImageSelected="">Headlight</functionlabel>
+        <functionlabel num="1" lockable="true" visible="true" functionImage="" functionImageSelected="">Bell</functionlabel>
+        <functionlabel num="2" lockable="false" visible="true" functionImage="" functionImageSelected="">Horn</functionlabel>
+        <functionlabel num="3" lockable="true" visible="true" functionImage="" functionImageSelected="">Short Horn</functionlabel>
+        <functionlabel num="4" lockable="true" visible="true" functionImage="" functionImageSelected="">Dynamic Brake</functionlabel>
+        <functionlabel num="5" lockable="true" visible="true" functionImage="" functionImageSelected="">FX3 FX4</functionlabel>
+        <functionlabel num="6" lockable="true" visible="true" functionImage="" functionImageSelected="">FX5 FX6</functionlabel>
+        <functionlabel num="7" lockable="true" visible="true" functionImage="" functionImageSelected="">Dimmer</functionlabel>
+        <functionlabel num="8" lockable="true" visible="true" functionImage="" functionImageSelected="">Mute</functionlabel>
+        <functionlabel num="9" lockable="true" visible="true" functionImage="" functionImageSelected="">Alt Mixer</functionlabel>
+        <functionlabel num="10" lockable="true" visible="true" functionImage="" functionImageSelected="">Straight to Eight</functionlabel>
+        <functionlabel num="11" lockable="true" visible="true" functionImage="" functionImageSelected="">Ind/Train Brake</functionlabel>
+        <functionlabel num="12" lockable="true" visible="true" functionImage="" functionImageSelected="">Brake Select</functionlabel>
+        <functionlabel num="13" lockable="true" visible="true" functionImage="" functionImageSelected="">Coupler</functionlabel>
+        <functionlabel num="14" lockable="true" visible="true" functionImage="" functionImageSelected="">Half Speed</functionlabel>
+        <functionlabel num="15" lockable="true" visible="true" functionImage="" functionImageSelected="">Handbrake</functionlabel>
+        <functionlabel num="16" lockable="true" visible="true" functionImage="" functionImageSelected="">HEP Mode</functionlabel>
+        <functionlabel num="17" lockable="true" visible="true" functionImage="" functionImageSelected="">Fuel Loading</functionlabel>
+        <functionlabel num="18" lockable="true" visible="true" functionImage="" functionImageSelected="">General Service</functionlabel>
+        <functionlabel num="20" lockable="true" visible="true" functionImage="" functionImageSelected="">Steam Generator</functionlabel>
+        <functionlabel num="23" lockable="true" visible="true" functionImage="" functionImageSelected="">All Aboard</functionlabel>
+        <functionlabel num="26" lockable="true" visible="true" functionImage="" functionImageSelected="">RPM+</functionlabel>
+        <functionlabel num="27" lockable="true" visible="true" functionImage="" functionImageSelected="">RPM-</functionlabel>
+      </functionlabels>
+      <soundlabels />
+    </locomotive>
+    <locomotive id="UP 168" fileName="UP_168.xml" roadNumber="168" roadName="Union Pacific" mfg="Athearn Genesis" owner="263 John Finnerty" model="GP7" dccAddress="168" comment="TE: 20, 16, 13" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-02-22T00:23:41.721+00:00</dateUpdated>
       <decoder model="TSU-GN2200 GP7" family="Tsunami2 Diesel OEM Genesis" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="168" longaddress="yes" />
@@ -28529,6 +29708,12 @@ Group TE: 61 / 45</value>
         <functionlabel num="27" lockable="true" visible="true" functionImage="" functionImageSelected="">RPM-</functionlabel>
       </functionlabels>
       <soundlabels />
+      <attributepairs>
+        <keyvaluepair>
+          <key>RosterGroup:UP</key>
+          <value>yes</value>
+        </keyvaluepair>
+      </attributepairs>
     </locomotive>
     <locomotive id="UP 171" fileName="UP_171.xml" roadNumber="171" roadName="Union Pacific" mfg="Athearn Genesis" owner="259 Skip Martin" model="GP9" dccAddress="171" comment="Run with UP 171B, UP 203B &amp; UP 203" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
       <dateUpdated>2026-02-08T03:58:35.028+00:00</dateUpdated>
@@ -33437,7 +34622,35 @@ Unit TE: 22 / 18 / 15</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="UP 930_2" fileName="UP_930_1.xml" roadNumber="930" roadName="Union Pacific" mfg="Rapido" owner="148 Kevin Schiller" model="E8B" dccAddress="930" comment="" developerID="-1" manufacturerID="151" productID="33554588,33554680,33554651" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+    <locomotive id="UP 930.1" fileName="UP_930_10.xml" roadNumber="930" roadName="Union Pacific" mfg="Rapido" owner="148 Kevin Schiller" model="E8B" dccAddress="930" comment="TE: 28, 24, 20" developerID="-1" manufacturerID="151" productID="33554588,33554680,33554651" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-02-19T19:16:21.133+00:00</dateUpdated>
+      <decoder model="LokSound 5 DCC" family="ESU LokSound 5" comment="F12 turns on lights front and rear" maxFnNum="31" />
+      <locoaddress>
+        <dcclocoaddress number="930" longaddress="yes" />
+        <number>930</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels>
+        <functionlabel num="0" lockable="true" visible="true" functionImage="" functionImageSelected="">Light</functionlabel>
+        <functionlabel num="1" lockable="true" visible="true" functionImage="" functionImageSelected="">Bell</functionlabel>
+        <functionlabel num="2" lockable="false" visible="true" functionImage="" functionImageSelected="">Horn</functionlabel>
+      </functionlabels>
+      <soundlabels>
+        <soundlabel num="33">Automatic brake sound</soundlabel>
+        <soundlabel num="34">Gear shift sound</soundlabel>
+      </soundlabels>
+      <attributepairs>
+        <keyvaluepair>
+          <key>RosterGroup:UP</key>
+          <value>yes</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>TE</key>
+          <value>28, 24, 20</value>
+        </keyvaluepair>
+      </attributepairs>
+    </locomotive>
+    <locomotive id="UP 930_2" fileName="UP_930_2.xml" roadNumber="930" roadName="Union Pacific" mfg="Rapido" owner="148 Kevin Schiller" model="E8B" dccAddress="930" comment="" developerID="-1" manufacturerID="151" productID="33554588,33554680,33554651" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
       <dateUpdated>2026-02-12T06:18:21.970+00:00</dateUpdated>
       <decoder model="LokSound 5 DCC" family="ESU LokSound 5" comment="" maxFnNum="31" />
       <locoaddress>
@@ -33715,9 +34928,9 @@ Group TE: 92 / 80 / 68</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="UP 938.1" fileName="UP_938_1.xml" roadNumber="938" roadName="Union Pacific" mfg="Rapido" owner="148 Kevin Schiller" model="E8A" dccAddress="938" comment="" developerID="-1" manufacturerID="151" productID="33554588,33554680,33554651" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-02-08T03:58:36.203+00:00</dateUpdated>
-      <decoder model="LokSound 5 DCC" family="ESU LokSound 5" comment="" maxFnNum="31" />
+    <locomotive id="UP 938.1" fileName="UP_938_1.xml" roadNumber="938" roadName="Union Pacific" mfg="Rapido" owner="148 Kevin Schiller" model="E8A" dccAddress="938" comment="TE: 26, 22, 18" developerID="-1" manufacturerID="151" productID="33554588,33554680,33554651" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-02-19T19:09:46.506+00:00</dateUpdated>
+      <decoder model="LokSound 5 DCC" family="ESU LokSound 5" comment="F5 Gyralight, F6 Class lights" maxFnNum="31" />
       <locoaddress>
         <dcclocoaddress number="938" longaddress="yes" />
         <number>938</number>
@@ -33786,9 +34999,9 @@ Group TE: 92 / 80 / 68</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="UP 940" fileName="UP_940.xml" roadNumber="940" roadName="Union Pacific" mfg="Rapido" owner="148 Kevin Schiller" model="E8A" dccAddress="940" comment="" developerID="-1" manufacturerID="151" productID="33554588,33554680,33554651" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-02-08T03:58:36.255+00:00</dateUpdated>
-      <decoder model="LokSound 5 DCC" family="ESU LokSound 5" comment="" maxFnNum="31" />
+    <locomotive id="UP 940" fileName="UP_940.xml" roadNumber="940" roadName="Union Pacific" mfg="Rapido" owner="148 Kevin Schiller" model="E8A" dccAddress="940" comment="TE: 26, 22, 18" developerID="-1" manufacturerID="151" productID="33554588,33554680,33554651" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-02-19T19:26:16.259+00:00</dateUpdated>
+      <decoder model="LokSound 5 DCC" family="ESU LokSound 5" comment="F5 Gyralight, F6 Class Lights" maxFnNum="31" />
       <locoaddress>
         <dcclocoaddress number="940" longaddress="yes" />
         <number>940</number>
@@ -33805,6 +35018,10 @@ Group TE: 92 / 80 / 68</value>
       </soundlabels>
       <attributepairs>
         <keyvaluepair>
+          <key>RosterGroup:UP</key>
+          <value>yes</value>
+        </keyvaluepair>
+        <keyvaluepair>
           <key>TE</key>
           <value>28 /  24 /  20</value>
         </keyvaluepair>
@@ -33813,6 +35030,34 @@ Group TE: 92 / 80 / 68</value>
     <locomotive id="UP 941" fileName="UP_941.xml" roadNumber="941" roadName="Union Pacific" mfg="Rapido" owner="148 Kevin Schiller" model="E8B" dccAddress="941" comment="" developerID="-1" manufacturerID="151" productID="33554588,33554680,33554651" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
       <dateUpdated>2026-02-08T03:58:36.297+00:00</dateUpdated>
       <decoder model="LokSound 5 DCC" family="ESU LokSound 5" comment="" maxFnNum="31" />
+      <locoaddress>
+        <dcclocoaddress number="941" longaddress="yes" />
+        <number>941</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels>
+        <functionlabel num="0" lockable="true" visible="true" functionImage="" functionImageSelected="">Light</functionlabel>
+        <functionlabel num="1" lockable="true" visible="true" functionImage="" functionImageSelected="">Bell</functionlabel>
+        <functionlabel num="2" lockable="false" visible="true" functionImage="" functionImageSelected="">Horn</functionlabel>
+      </functionlabels>
+      <soundlabels>
+        <soundlabel num="33">Automatic brake sound</soundlabel>
+        <soundlabel num="34">Gear shift sound</soundlabel>
+      </soundlabels>
+      <attributepairs>
+        <keyvaluepair>
+          <key>RosterGroup:UP</key>
+          <value>yes</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>TE</key>
+          <value>28 /  24 /  20</value>
+        </keyvaluepair>
+      </attributepairs>
+    </locomotive>
+    <locomotive id="UP 941B" fileName="UP_941B.xml" roadNumber="941" roadName="Union Pacific" mfg="Rapido" owner="148 Kevin Schiller" model="E8B" dccAddress="941" comment="TE: 28, 24, 20" developerID="-1" manufacturerID="151" productID="33554588,33554680,33554651" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-02-19T19:12:29.294+00:00</dateUpdated>
+      <decoder model="LokSound 5 DCC" family="ESU LokSound 5" comment="F12 lights front and rear" maxFnNum="31" />
       <locoaddress>
         <dcclocoaddress number="941" longaddress="yes" />
         <number>941</number>
@@ -34081,6 +35326,46 @@ Group TE: 92 / 80 / 68</value>
           <value>yes</value>
         </keyvaluepair>
       </attributepairs>
+    </locomotive>
+    <locomotive id="UP1" fileName="UP1.xml" roadNumber="1" roadName="Union Pacific" mfg="OMI" owner="259 Skip Martin" model="GE Turbine" dccAddress="1000" comment="" developerID="-1" manufacturerID="141" productID="2075" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2024-06-08T20:27:25.094+00:00</dateUpdated>
+      <decoder model="TSU-2200 Baldwin Diesels" family="Tsunami2 Diesel" comment="" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="1000" longaddress="yes" />
+        <number>1000</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels>
+        <functionlabel num="0" lockable="true" visible="true" functionImage="" functionImageSelected="">Headlight</functionlabel>
+        <functionlabel num="1" lockable="true" visible="true" functionImage="" functionImageSelected="">Bell</functionlabel>
+        <functionlabel num="2" lockable="false" visible="true" functionImage="" functionImageSelected="">Horn</functionlabel>
+        <functionlabel num="3" lockable="true" visible="true" functionImage="" functionImageSelected="">Short Horn</functionlabel>
+        <functionlabel num="4" lockable="true" visible="true" functionImage="" functionImageSelected="">Dynamic Brake</functionlabel>
+        <functionlabel num="5" lockable="true" visible="true" functionImage="" functionImageSelected="">RPM+</functionlabel>
+        <functionlabel num="6" lockable="true" visible="true" functionImage="" functionImageSelected="">RPM-</functionlabel>
+        <functionlabel num="7" lockable="true" visible="true" functionImage="" functionImageSelected="">Dimmer</functionlabel>
+        <functionlabel num="8" lockable="true" visible="true" functionImage="" functionImageSelected="">Mute</functionlabel>
+        <functionlabel num="9" lockable="true" visible="true" functionImage="" functionImageSelected="">Xing Signal</functionlabel>
+        <functionlabel num="10" lockable="true" visible="true" functionImage="" functionImageSelected="">Straight to Eight</functionlabel>
+        <functionlabel num="11" lockable="true" visible="true" functionImage="" functionImageSelected="">Ind/Train Brake</functionlabel>
+        <functionlabel num="12" lockable="true" visible="true" functionImage="" functionImageSelected="">Brake Select</functionlabel>
+        <functionlabel num="13" lockable="true" visible="true" functionImage="" functionImageSelected="">Coupler</functionlabel>
+        <functionlabel num="14" lockable="true" visible="true" functionImage="" functionImageSelected="">Half Speed</functionlabel>
+        <functionlabel num="15" lockable="true" visible="true" functionImage="" functionImageSelected="">Handbrake</functionlabel>
+        <functionlabel num="16" lockable="true" visible="true" functionImage="" functionImageSelected="">HEP Mode</functionlabel>
+        <functionlabel num="17" lockable="true" visible="true" functionImage="" functionImageSelected="">Fuel Loading</functionlabel>
+        <functionlabel num="18" lockable="true" visible="true" functionImage="" functionImageSelected="">General Service</functionlabel>
+        <functionlabel num="20" lockable="true" visible="true" functionImage="" functionImageSelected="">Steam Generator</functionlabel>
+        <functionlabel num="21" lockable="true" visible="true" functionImage="" functionImageSelected="">Sander Valve</functionlabel>
+        <functionlabel num="22" lockable="true" visible="true" functionImage="" functionImageSelected="">Cab Chatter</functionlabel>
+        <functionlabel num="23" lockable="true" visible="true" functionImage="" functionImageSelected="">All Aboard</functionlabel>
+        <functionlabel num="24" lockable="true" visible="true" functionImage="" functionImageSelected="">FX3 Output</functionlabel>
+        <functionlabel num="25" lockable="true" visible="true" functionImage="" functionImageSelected="">FX4 Output</functionlabel>
+        <functionlabel num="26" lockable="true" visible="true" functionImage="" functionImageSelected="">FX5 Output</functionlabel>
+        <functionlabel num="27" lockable="true" visible="true" functionImage="" functionImageSelected="">FX6 Output</functionlabel>
+        <functionlabel num="28" lockable="true" visible="true" functionImage="" functionImageSelected="">FX7,8 Output</functionlabel>
+      </functionlabels>
+      <soundlabels />
     </locomotive>
     <locomotive id="VO 4410" fileName="VO4410.xml" roadNumber="4410" roadName="V&amp;O" mfg="Intermountain" owner="J256 Owen Wagganer" model="ES44AC" dccAddress="4410" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
       <dateUpdated>2026-02-11T15:15:09.393+00:00</dateUpdated>
@@ -34430,7 +35715,7 @@ Group TE: 92 / 80 / 68</value>
       <soundlabels />
     </locomotive>
     <locomotive id="WP 728" fileName="WP_728.xml" roadNumber="728" roadName="Western Pacific" mfg="Athearn" owner="214 Don Philpott" model="GP9" dccAddress="728" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2023-08-09T03:53:01.757+00:00</dateUpdated>
+      <dateUpdated>2026-03-14T22:35:04.827+00:00</dateUpdated>
       <decoder model="GP9" family="Tsunami Diesel Genesis OEM" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="728" longaddress="yes" />
@@ -34451,6 +35736,12 @@ Group TE: 92 / 80 / 68</value>
         <functionlabel num="10" lockable="true" visible="true" functionImage="" functionImageSelected="">Coupler</functionlabel>
       </functionlabels>
       <soundlabels />
+      <attributepairs>
+        <keyvaluepair>
+          <key>RosterGroup:WP</key>
+          <value>yes</value>
+        </keyvaluepair>
+      </attributepairs>
     </locomotive>
     <locomotive id="WP 731" fileName="WP_731.xml" roadNumber="731" roadName="Western Pacific" mfg="Athearn" owner="214 Don Philpott" model="GP9" dccAddress="731" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
       <dateUpdated>2026-02-08T03:58:36.599+00:00</dateUpdated>
@@ -34475,6 +35766,10 @@ Group TE: 92 / 80 / 68</value>
       </functionlabels>
       <soundlabels />
       <attributepairs>
+        <keyvaluepair>
+          <key>RosterGroup:WP</key>
+          <value>yes</value>
+        </keyvaluepair>
         <keyvaluepair>
           <key>TE</key>
           <value>TE 10 / 15</value>
@@ -34504,6 +35799,10 @@ Group TE: 92 / 80 / 68</value>
       </functionlabels>
       <soundlabels />
       <attributepairs>
+        <keyvaluepair>
+          <key>RosterGroup:WP</key>
+          <value>yes</value>
+        </keyvaluepair>
         <keyvaluepair>
           <key>TE</key>
           <value>TE 10 / 15</value>
@@ -34551,6 +35850,10 @@ Group TE: 92 / 80 / 68</value>
       </functionlabels>
       <soundlabels />
       <attributepairs>
+        <keyvaluepair>
+          <key>RosterGroup:WP</key>
+          <value>yes</value>
+        </keyvaluepair>
         <keyvaluepair>
           <key>TE</key>
           <value>TE: 15 /12 / 10</value>
@@ -34831,8 +36134,10 @@ Group TE: 92 / 80 / 68</value>
   <rosterGroup>
     <group>BNSF</group>
     <group>NP</group>
+    <group>BM</group>
     <group>BN</group>
     <group>CNW</group>
+    <group>NH&amp;W</group>
     <group>PRR</group>
     <group>DW</group>
     <group>CBQ</group>

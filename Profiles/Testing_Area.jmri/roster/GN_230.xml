@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <!--Written by JMRI version 5.4+R9005ecb4ac on Wed Nov 15 12:23:41 PST 2023-->
-  <locomotive id="GN 230" fileName="GN_230.xml" roadNumber="229" roadName="Great Northern" mfg="Bachmann" owner="94 Bob Cooper" model="RS3" dccAddress="229" comment="" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2023-11-15T20:23:41.685+00:00</dateUpdated>
+  <!--Written by JMRI version 5.15.4plus+jenkins+20260305T1324Z+R2910b939945 on Thu Mar 05 17:53:32 PST 2026-->
+  <locomotive id="GN 230" fileName="GN_230.xml" roadNumber="229" roadName="Great Northern" mfg="Bachmann" owner="094 Bob Cooper" model="RS3" dccAddress="229" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+    <dateUpdated>2026-03-06T01:53:32.581+00:00</dateUpdated>
     <decoder model="Alco RS3" family="Tsunami Diesel Bachmann Sound Value" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="229" longaddress="yes" />
@@ -11,12 +11,12 @@
       <protocol>dcc_long</protocol>
     </locoaddress>
     <functionlabels>
-      <functionlabel num="0" lockable="true" functionImage="" functionImageSelected="">Headlight</functionlabel>
-      <functionlabel num="1" lockable="true" functionImage="" functionImageSelected="">Bell</functionlabel>
-      <functionlabel num="2" lockable="false" functionImage="" functionImageSelected="">Air Horn</functionlabel>
-      <functionlabel num="3" lockable="true" functionImage="" functionImageSelected="">Short Horn</functionlabel>
-      <functionlabel num="7" lockable="true" functionImage="" functionImageSelected="">Dimming</functionlabel>
-      <functionlabel num="8" lockable="true" functionImage="" functionImageSelected="">Mute</functionlabel>
+      <functionlabel num="0" lockable="true" visible="true" functionImage="" functionImageSelected="">Headlight</functionlabel>
+      <functionlabel num="1" lockable="true" visible="true" functionImage="" functionImageSelected="">Bell</functionlabel>
+      <functionlabel num="2" lockable="false" visible="true" functionImage="" functionImageSelected="">Air Horn</functionlabel>
+      <functionlabel num="3" lockable="true" visible="true" functionImage="" functionImageSelected="">Short Horn</functionlabel>
+      <functionlabel num="7" lockable="true" visible="true" functionImage="" functionImageSelected="">Dimming</functionlabel>
+      <functionlabel num="8" lockable="true" visible="true" functionImage="" functionImageSelected="">Mute</functionlabel>
     </functionlabels>
     <soundlabels />
     <attributepairs>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
-<locomotive-config>
+<locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
+  <!--Written by JMRI version 5.15.4plus+jenkins+20260305T1324Z+R2910b939945 on Thu Mar 05 17:39:33 PST 2026-->
   <locomotive id="SP 9232" fileName="SP_9232.xml" roadNumber="9232" roadName="Southern Pacific" mfg="Athearn" owner="SM1501 Mark Cheer" model="SD45T-2" dccAddress="9232" comment="" developerID="-1" manufacturerID="141" productID="2062" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-    <dateUpdated>2026-02-08T03:58:34.446+00:00</dateUpdated>
+    <dateUpdated>2026-03-06T01:39:33.351+00:00</dateUpdated>
     <decoder model="ECO-PNP Diesel" family="Econami Diesel" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="9232" longaddress="yes" />

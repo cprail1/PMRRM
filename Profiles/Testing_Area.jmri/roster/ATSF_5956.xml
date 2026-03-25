@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="ATSF 5956" fileName="ATSF_5956.xml" roadNumber="5956" roadName="ATSF" mfg="Athearn" owner="SM1501 Mark Cheer" model="F45u" dccAddress="5956" comment="" developerID="-1" manufacturerID="141" productID="852005" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-    <dateUpdated>2026-02-08T03:58:26.391+00:00</dateUpdated>
+  <!--Written by JMRI version 5.15.4plus+jenkins+20260305T1324Z+R2910b939945 on Thu Mar 05 17:37:42 PST 2026-->
+  <locomotive id="ATSF 5956" fileName="ATSF_5956.xml" roadNumber="5956" roadName="ATSF" mfg="Athearn" owner="1501 Mark Cheer" model="F45u" dccAddress="5956" comment="" developerID="-1" manufacturerID="141" productID="852005" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+    <dateUpdated>2026-03-06T01:37:42.916+00:00</dateUpdated>
     <decoder model="MC1H104P21" family="MC Motor Decoders" comment="F5 Beacon" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="5956" longaddress="yes" />

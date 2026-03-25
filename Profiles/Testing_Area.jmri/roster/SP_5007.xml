@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="SP 5007" fileName="SP_5007.xml" roadNumber="5007" roadName="Southern Pacific" mfg="Westside" owner="261 Mike Davis" model="4-10-2 SP1" dccAddress="5007" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
-    <dateUpdated>2026-02-08T03:58:33.050+00:00</dateUpdated>
+  <!--Written by JMRI version 5.15.4plus+jenkins+20260305T1324Z+R2910b939945 on Sat Mar 14 11:21:41 PDT 2026-->
+  <locomotive id="SP 5007" fileName="SP_5007.xml" roadNumber="5007" roadName="Southern Pacific" mfg="Westside" owner="261 Mike Davis" model="4-10-2 SP1" dccAddress="5007" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+    <dateUpdated>2026-03-14T18:21:41.174+00:00</dateUpdated>
     <decoder model="LokSound V4.0" family="ESU LokSound V4.0" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="5007" longaddress="yes" />
@@ -42,7 +42,7 @@
       </keyvaluepair>
       <keyvaluepair>
         <key>TE</key>
-        <value>26 / 22 / 16</value>
+        <value>26 22 16</value>
       </keyvaluepair>
     </attributepairs>
     <values>

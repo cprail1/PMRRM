@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="ATSF 5256" fileName="ATSF_5256.xml" roadNumber="5256" roadName="ATSF" mfg="Athearn" owner="SM1501 Mark Cheer" model="SDP40Fu" dccAddress="5256" comment="" developerID="-1" manufacturerID="141" productID="6454" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-    <dateUpdated>2026-02-08T03:58:26.140+00:00</dateUpdated>
+  <!--Written by JMRI version 5.15.4plus+jenkins+20260305T1324Z+R2910b939945 on Thu Mar 05 17:37:33 PST 2026-->
+  <locomotive id="ATSF 5256" fileName="ATSF_5256.xml" roadNumber="5256" roadName="ATSF" mfg="Athearn" owner="1501 Mark Cheer" model="SDP40Fu" dccAddress="5256" comment="" developerID="-1" manufacturerID="141" productID="6454" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+    <dateUpdated>2026-03-06T01:37:33.178+00:00</dateUpdated>
     <decoder model="TSU-21PNEM8 SD40T-2 16" family="Tsunami2 Diesel OEM Genesis" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="5256" longaddress="yes" />

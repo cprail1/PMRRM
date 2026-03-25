@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="CP 6046" fileName="CP_6046.xml" roadNumber="6046" roadName="Canadian Pacific" mfg="Bowser" owner="217 Peter Ely" model="SD40-2" dccAddress="6046" comment="CP unit coal train." developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-    <dateUpdated>2026-02-08T05:44:59.280+00:00</dateUpdated>
+  <!--Written by JMRI version 5.15.4plus+jenkins+20260305T1324Z+R2910b939945 on Sat Mar 07 13:49:13 PST 2026-->
+  <locomotive id="CP 6046" fileName="CP_6046.xml" roadNumber="6046" roadName="Canadian Pacific" mfg="Bowser" owner="217 Peter Ely" model="GMD SD40-2" dccAddress="6046" comment="CP unit coal train." developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+    <dateUpdated>2026-03-07T21:49:13.497+00:00</dateUpdated>
     <decoder model="LokSound Select OEM" family="ESU LokSound Select" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="6046" longaddress="yes" />

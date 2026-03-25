@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
+  <!--Written by JMRI version 5.15.4plus+jenkins+20260305T1324Z+R2910b939945 on Sat Mar 14 11:20:48 PDT 2026-->
   <locomotive id="SP 4342" fileName="SP_4342.xml" roadNumber="4342" roadName="Southern Pacific" mfg="Tenshodo Brass" owner="261 Mike Davis" model="4-8-2 MT3 " dccAddress="4342" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-    <dateUpdated>2026-02-08T03:58:32.803+00:00</dateUpdated>
+    <dateUpdated>2026-03-14T18:20:48.075+00:00</dateUpdated>
     <decoder model="TSU-1100 Steam-2" family="Tsunami2 Steam" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="4342" longaddress="yes" />
@@ -48,7 +48,7 @@
       </keyvaluepair>
       <keyvaluepair>
         <key>TE</key>
-        <value>20 / 13</value>
+        <value>20 16 13</value>
       </keyvaluepair>
     </attributepairs>
     <values>

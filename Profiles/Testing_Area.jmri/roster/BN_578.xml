@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="BN 578" fileName="BN_578.xml" roadNumber="578" roadName="Burlington Northern" mfg="Athearn " owner="94 Bob Cooper" model="SW1000" dccAddress="578" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-    <dateUpdated>2026-02-12T06:35:03.574+00:00</dateUpdated>
+  <!--Written by JMRI version 5.15.4plus+jenkins+20260305T1324Z+R2910b939945 on Thu Mar 05 17:53:10 PST 2026-->
+  <locomotive id="BN 578" fileName="BN_578.xml" roadNumber="578" roadName="Burlington Northern" mfg="Athearn " owner="094 Bob Cooper" model="SW1000" dccAddress="578" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+    <dateUpdated>2026-03-06T01:53:10.596+00:00</dateUpdated>
     <decoder model="DH126D" family="Economy Series 6 with FX3, silent" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="578" longaddress="yes" />

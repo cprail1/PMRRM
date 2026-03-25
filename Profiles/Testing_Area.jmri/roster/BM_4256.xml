@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="BM 4256" fileName="BM_4256.xml" roadNumber="4256" roadName="Boston &amp; Maine" mfg="Athearn" owner="254 Aaron Gold" model="F2A" dccAddress="4256" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+  <!--Written by JMRI version 5.15.4plus+jenkins+20260305T1324Z+R2910b939945 on Sat Mar 14 10:59:27 PDT 2026-->
+  <locomotive id="BM 4256" fileName="BM_4256.xml" roadNumber="4256" roadName="Boston &amp; Maine" mfg="Athearn" owner="254 Aaron Gold" model="F2A" dccAddress="4256" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2026-02-08T03:58:26.715+00:00</dateUpdated>
     <decoder model="TSU-GN2200 F3/7 w/DB" family="Tsunami2 Diesel OEM Genesis" comment="" maxFnNum="28" />
     <locoaddress>
@@ -37,6 +37,10 @@
     </functionlabels>
     <soundlabels />
     <attributepairs>
+      <keyvaluepair>
+        <key>RosterGroup:BM</key>
+        <value>yes</value>
+      </keyvaluepair>
       <keyvaluepair>
         <key>TE</key>
         <value>26 / 18</value>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
+  <!--Written by JMRI version 5.15.4plus+jenkins+20260305T1324Z+R2910b939945 on Sat Mar 14 11:16:06 PDT 2026-->
   <locomotive id="SP 4449" fileName="SP_4449.xml" roadNumber="4449" roadName="Southern Pacific" mfg="MTH" owner="J270 Matthew J Zepeda" model="GS4" dccAddress="4449" comment="" developerID="-1" manufacturerID="27" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-    <dateUpdated>2026-02-08T03:58:32.929+00:00</dateUpdated>
+    <dateUpdated>2026-03-14T18:16:06.265+00:00</dateUpdated>
     <decoder model="MTH HO PS3" family="MTH HO PS3" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="4449" longaddress="yes" />
@@ -15,7 +15,7 @@
     <attributepairs>
       <keyvaluepair>
         <key>TE</key>
-        <value>37 /  26</value>
+        <value>37 31 26</value>
       </keyvaluepair>
     </attributepairs>
     <values>
