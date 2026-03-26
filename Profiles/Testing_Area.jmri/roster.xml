@@ -19317,7 +19317,7 @@ Group TE: 70 / 51</value>
       </attributepairs>
     </locomotive>
     <locomotive id="PRR 2218" fileName="PRR_2218.xml" roadNumber="2218" roadName="Pennsylvania Railroad" mfg="Scaletrains" owner="272 Michael Gibilterra" model="GP30" dccAddress="2218" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-03-21T16:54:19.455+00:00</dateUpdated>
+      <dateUpdated>2026-03-25T20:07:01.380+00:00</dateUpdated>
       <decoder model="LokSound 5" family="ESU LokSound 5" comment="" maxFnNum="31" />
       <locoaddress>
         <dcclocoaddress number="2218" longaddress="yes" />
@@ -19334,6 +19334,10 @@ Group TE: 70 / 51</value>
         <soundlabel num="34">Gear shift sound</soundlabel>
       </soundlabels>
       <attributepairs>
+        <keyvaluepair>
+          <key>InspectionDate</key>
+          <value />
+        </keyvaluepair>
         <keyvaluepair>
           <key>RosterGroup:PRR</key>
           <value>yes</value>
@@ -23084,7 +23088,7 @@ Group TE: 41 / 30</value>
       </attributepairs>
     </locomotive>
     <locomotive id="SP 4352_2" fileName="SP_4352_2.xml" roadNumber="4352" roadName="Southern Pacific" mfg="Tenshodo Brass" owner="261 Mike Davis" model="4-8-2 MT-4" dccAddress="4352" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-03-14T18:19:58.142+00:00</dateUpdated>
+      <dateUpdated>2026-03-25T20:06:06.296+00:00</dateUpdated>
       <decoder model="TSU-1100 Steam-2" family="Tsunami2 Steam" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="4352" longaddress="yes" />
@@ -23126,6 +23130,10 @@ Group TE: 41 / 30</value>
         <keyvaluepair>
           <key>RosterGroup:SP</key>
           <value>yes</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>SpeedRating</key>
+          <value />
         </keyvaluepair>
         <keyvaluepair>
           <key>TE</key>
@@ -23555,7 +23563,7 @@ Group TE: 41 / 30</value>
       </attributepairs>
     </locomotive>
     <locomotive id="SP 4800" fileName="SP_4800.xml" roadNumber="4800" roadName="Southern Pacific" mfg="Athearn Genesis" owner="257 Chris Holt" model="GP38-2" dccAddress="4800" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-03-14T18:16:53.214+00:00</dateUpdated>
+      <dateUpdated>2026-03-25T20:07:38.669+00:00</dateUpdated>
       <decoder model="LokSound Select Direct" family="ESU LokSound Select" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="4800" longaddress="yes" />
@@ -23565,6 +23573,10 @@ Group TE: 41 / 30</value>
       <functionlabels />
       <soundlabels />
       <attributepairs>
+        <keyvaluepair>
+          <key>InspectedBy</key>
+          <value />
+        </keyvaluepair>
         <keyvaluepair>
           <key>RosterGroup:SP</key>
           <value>yes</value>
@@ -26491,8 +26503,8 @@ Group TE: 44 / 37 / 31</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="SP 8141b" fileName="SP_8141b0.xml" roadNumber="8141" roadName="Southern Pacific" mfg="BLI" owner="J270 Matthew J Zepeda" model="F7b" dccAddress="6268" comment="Address is 6268" developerID="-1" manufacturerID="38" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2025-03-13T18:19:12.106+00:00</dateUpdated>
+    <locomotive id="SP 8141B" fileName="SP_8141B.xml" roadNumber="8141" roadName="Southern Pacific" mfg="BLI" owner="J270 Matthew J Zepeda" model="F7b" dccAddress="6268" comment="Address is 6268" developerID="-1" manufacturerID="38" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-02-11T15:13:18.109+00:00</dateUpdated>
       <decoder model="Diesel" family="Paragon 2" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="6268" longaddress="yes" />
@@ -26528,8 +26540,8 @@ Group TE: 44 / 37 / 31</value>
       </functionlabels>
       <soundlabels />
     </locomotive>
-    <locomotive id="SP 8141B" fileName="SP_8141B.xml" roadNumber="8141" roadName="Southern Pacific" mfg="BLI" owner="J270 Matthew J Zepeda" model="F7b" dccAddress="6268" comment="Address is 6268" developerID="-1" manufacturerID="38" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-02-11T15:13:18.109+00:00</dateUpdated>
+    <locomotive id="SP 8141b" fileName="SP_8141b0.xml" roadNumber="8141" roadName="Southern Pacific" mfg="BLI" owner="J270 Matthew J Zepeda" model="F7b" dccAddress="6268" comment="Address is 6268" developerID="-1" manufacturerID="38" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2025-03-13T18:19:12.106+00:00</dateUpdated>
       <decoder model="Diesel" family="Paragon 2" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="6268" longaddress="yes" />
