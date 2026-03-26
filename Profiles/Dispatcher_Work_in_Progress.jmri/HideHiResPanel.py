@@ -8,7 +8,7 @@ class HideHiResPanel(jmri.jmrit.automat.AbstractAutomaton) :
     def handle(self):
         self.waitMsec(2000)
 
-        thisUser = java.lang.System.getProperty("user.name")
+        thisUser = java.lang.System.getProperty("user.name").lower()
         # thisUser = "dispatch"  # here for debugging, comment out for normal operation
         desiredUser = "dispatch"
         if thisUser != desiredUser:
