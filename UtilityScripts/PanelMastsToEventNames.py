@@ -19,7 +19,7 @@ def processAspect(username, aspect) :
     writeNameElement(username, aspectName, eventID)
     
 def writeNameElement(username, aspectName, eventID) :
-    print(f"<entry><eventID>{eventID}</eventID><name>{username}:{aspectName}</name></entry>")
+    print(f"<entry><eventID>{eventID}</eventID><name>Mast {username}:{aspectName}</name></entry>")
     
 # 1. Parse the XML file into a Document object
 dom_tree = xml.dom.minidom.parse("DispatcherDefault.xml")
