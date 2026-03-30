@@ -15,11 +15,14 @@ class HideHiResPanel(jmri.jmrit.automat.AbstractAutomaton) :
             self.log.info("Skip hiding HiRes panel because user '{}' is not '{}'", thisUser, desiredUser)
             return False # done early
             
-        # Now proceed to the proper window
+        # Now proceed to the proper windows
         frame = jmri.util.JmriJFrame.getFrame("PMRRM Dispatcher HiRes")
-        frame.setVisible(False)
-            
+        frame.setVisible(False)         
         self.log.info("Set the HiRes panel invisible")
+
+        frame = jmri.util.JmriJFrame.getFrame("Port Area")
+        frame.setVisible(False)         
+        self.log.info("Set the Port Area panel invisible")
 
 HideHiResPanel().start()
         
