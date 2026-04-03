@@ -24,19 +24,7 @@
     </connections>
     <startup xmlns="http://jmri.org/xml/schema/auxiliary-configuration/startup-4-3-5.xsd">
         <perform xmlns="" class="jmri.util.startup.configurexml.PerformFileModelXml" enabled="yes" name="preference:DispatcherDefault.xml" type="XmlFile"/>
-        <perform xmlns="" class="jmri.util.startup.configurexml.PerformScriptModelXml" enabled="yes" name="preference:HideMemoryIcons.py" type="ScriptFile"/>
-        <perform xmlns="" class="jmri.util.startup.configurexml.PerformScriptModelXml" enabled="yes" name="preference:DontListenDoubleHead.py" type="ScriptFile"/>
-        <perform xmlns="" class="jmri.util.startup.configurexml.PerformScriptModelXml" enabled="yes" name="preference:PMRRM_semaphores.py" type="ScriptFile"/>
-        <perform xmlns="" class="jmri.util.startup.configurexml.PerformScriptModelXml" enabled="yes" name="preference:PMRRM_searchlights.py" type="ScriptFile"/>
-        <perform xmlns="" class="jmri.util.startup.configurexml.PerformScriptModelXml" enabled="yes" name="preference:MenuItemDisable.py" type="ScriptFile"/>
-        <perform xmlns="" class="jmri.util.startup.configurexml.PerformScriptModelXml" enabled="yes" name="preference:HighlightUnknownBlockSensors.py" type="ScriptFile"/>
-        <perform xmlns="" class="jmri.util.startup.configurexml.PerformScriptModelXml" enabled="yes" name="preference:MaintainFileHistory.py" type="ScriptFile"/>
-        <perform xmlns="" class="jmri.util.startup.configurexml.PerformScriptModelXml" enabled="yes" name="preference:QueryLnSensorState.py" type="ScriptFile"/>
-        <perform xmlns="" class="jmri.util.startup.configurexml.PerformScriptModelXml" enabled="no" name="preference:ThrowTurnoutsWhenBlockAllocated.py" type="ScriptFile"/>
-        <perform xmlns="" class="jmri.util.startup.configurexml.PerformScriptModelXml" enabled="yes" name="preference:LnSignalsToLCC.py" type="ScriptFile"/>
-        <perform xmlns="" class="jmri.util.startup.configurexml.PerformScriptModelXml" enabled="yes" name="preference:HideHiResPanel.py" type="ScriptFile"/>
-        <perform xmlns="" class="jmri.util.startup.configurexml.PerformScriptModelXml" enabled="yes" name="preference:SignalMastIconsLit.py" type="ScriptFile"/>
-        <perform xmlns="" class="jmri.util.startup.configurexml.PerformScriptModelXml" enabled="yes" name="preference:ChangeDefaultBackupFileName.py" type="ScriptFile"/>
+        <perform xmlns="" class="jmri.util.startup.configurexml.PerformScriptModelXml" enabled="yes" name="preference:CommonInitializationScript.py" type="ScriptFile"/>
         <perform xmlns="" class="apps.startup.configurexml.TriggerRouteModelXml" enabled="yes" name="Hide Blue Text" type="Action"/>
         <perform xmlns="" class="jmri.util.startup.configurexml.PerformActionModelXml" enabled="yes" name="jmri.web.server.WebServerAction" type="Action">
             <property name="systemPrefix" value=""/>
