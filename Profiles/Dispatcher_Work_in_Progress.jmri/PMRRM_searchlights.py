@@ -15,17 +15,19 @@
 
 import jmri
 import time
-from org.slf4j import LoggerFactory
+import org.slf4j.LoggerFactory
 
 class ControlAbsSearchlight (jmri.jmrit.automat.AbstractAutomaton) :
     def current_milli_time(self):
+        import time
         return int(time.time() * 1000)
         
     def init(self) :
         
         self.minAcceptableTime = 200
 
-        self.log = LoggerFactory.getLogger("PMRRM_searchlights");
+        import org.slf4j.LoggerFactory
+        self.log = org.slf4j.LoggerFactory.getLogger("script.PMRRM_searchlights");
 
         # print checks
         if self.local == None : self.log.error("searchlight {} has null head", self.name)

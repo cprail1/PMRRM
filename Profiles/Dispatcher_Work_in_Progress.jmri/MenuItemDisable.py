@@ -11,8 +11,9 @@ import org.slf4j.Logger
 import org.slf4j.LoggerFactory
 
 def findMenu(frame, menuName) :
+    import org.slf4j.LoggerFactory
     log = org.slf4j.LoggerFactory.getLogger(
-            "jmri.jmrit.jython.exec.script.MenuItemDisable"
+            "script.MenuItemDisable"
     	    )
 
     bar = frame.getJMenuBar()
@@ -31,8 +32,9 @@ def findMenu(frame, menuName) :
     return None # error
 
 def findItem(menu, itemName) :
+    import org.slf4j.LoggerFactory
     log = org.slf4j.LoggerFactory.getLogger(
-            "jmri.jmrit.jython.exec.script.MenuItemDisable"
+            "script.MenuItemDisable"
     	    )
     for i in range(0, menu.getItemCount()) :
         item = menu.getItem(i)
@@ -47,8 +49,9 @@ def findItem(menu, itemName) :
 
 # this includes a delay to make sure the window is created if run during startup
 class MenuItemDisable(jmri.jmrit.automat.AbstractAutomaton) :
+    import org.slf4j.LoggerFactory
     log = org.slf4j.LoggerFactory.getLogger(
-            "jmri.jmrit.jython.exec.script.MenuItemDisable"
+            "script.MenuItemDisable"
         )
         
     def handle(self):
@@ -67,7 +70,7 @@ class MenuItemDisable(jmri.jmrit.automat.AbstractAutomaton) :
         frame = jmri.util.JmriJFrame.getFrame("PanelPro")
 
         fileMenu = findMenu(frame, "File")      
-	#fileMenu.setEnabled(False)
+	    #fileMenu.setEnabled(False)
         
         if fileMenu is not None:
 
@@ -80,6 +83,17 @@ class MenuItemDisable(jmri.jmrit.automat.AbstractAutomaton) :
 
         else :
             self.log.warn("Did not find File menu")
+            
+        editMenu = findMenu(frame, "Edit")      
+        
+        if editMenu is not None:
+
+            # Find items within that menu and disable it
+            item = findItem(fileMenu, "Preferences")
+            if item != None : item.setEnabled(False)
+
+        else :
+            self.log.warn("Did not find Edit menu")
             
         toolsMenu = findMenu(frame, "Tools")
 

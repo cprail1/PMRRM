@@ -1,8 +1,11 @@
 # Hides the in-progress HiRes panel
 
+import jmri
+
 class HideHiResPanel(jmri.jmrit.automat.AbstractAutomaton) :
-    log = org.slf4j.LoggerFactory.getLogger(
-            "jmri.jmrit.jython.exec.script.HideHiResPanel"
+    from org.slf4j import LoggerFactory
+    log = LoggerFactory.getLogger(
+            "script.HideHiResPanel"
         )
         
     def handle(self):
