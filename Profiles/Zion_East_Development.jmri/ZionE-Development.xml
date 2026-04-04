@@ -3,8 +3,8 @@
 <layout-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/layout-5-5-5.xsd">
   <jmriversion>
     <major>5</major>
-    <minor>13</minor>
-    <test>7</test>
+    <minor>15</minor>
+    <test>5</test>
     <modifier>plus</modifier>
   </jmriversion>
   <sensors class="jmri.jmrix.openlcb.configurexml.OlcbSensorManagerXml">
@@ -1858,7 +1858,7 @@
     <positionablelabel x="1126" y="735" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="2" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="1127" y="633" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="3" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
   </paneleditor>
-  <paneleditor class="jmri.jmrit.display.panelEditor.configurexml.PanelEditorXml" name="Zion East" x="642" y="25" height="1047" width="1924" editable="yes" positionable="no" showtooltips="no" controlling="yes" hide="no" panelmenu="no" scrollable="none" redBackground="255" greenBackground="255" blueBackground="255">
+  <paneleditor class="jmri.jmrit.display.panelEditor.configurexml.PanelEditorXml" name="Zion East" x="642" y="30" height="1047" width="1924" editable="yes" positionable="no" showtooltips="no" controlling="yes" hide="no" panelmenu="no" scrollable="none" redBackground="255" greenBackground="255" blueBackground="255">
     <positionablelabel x="0" y="0" level="1" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" icon="yes" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <icon url="preference:resources/Zion East color long 1920x1020.png" degrees="0" scale="1.0">
         <rotation>0</rotation>
@@ -3763,7 +3763,7 @@
       <iconmaps />
     </turnouticon>
   </paneleditor>
-  <paneleditor class="jmri.jmrit.display.panelEditor.configurexml.PanelEditorXml" name="Zion Hard Panel" x="0" y="25" height="655" width="2560" editable="yes" positionable="yes" showtooltips="yes" controlling="yes" hide="yes" panelmenu="yes" scrollable="none" redBackground="255" greenBackground="255" blueBackground="255">
+  <paneleditor class="jmri.jmrit.display.panelEditor.configurexml.PanelEditorXml" name="Zion Hard Panel" x="0" y="30" height="655" width="2560" editable="yes" positionable="yes" showtooltips="yes" controlling="yes" hide="yes" panelmenu="yes" scrollable="none" redBackground="255" greenBackground="255" blueBackground="255">
     <positionablelabel x="0" y="0" level="1" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="true" icon="yes" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <icon url="preference:resources/ZionEastHardwarePanel.png" degrees="0" scale="1.0">
         <rotation>0</rotation>
@@ -3785,22 +3785,4 @@
       <iconmaps />
     </sensoricon>
   </paneleditor>
-  <filehistory>
-    <operation>
-      <type>app</type>
-      <date>Sat Nov 29 12:55:45 EST 2025</date>
-      <filename>PanelPro (v5.13.7)</filename>
-    </operation>
-    <operation>
-      <type>Load OK</type>
-      <date>Sat Nov 29 12:55:51 EST 2025</date>
-      <filename>/Users/jake/Library/Mobile Documents/com~apple~CloudDocs/Trains/PMRRM/git_repos/PMRRM/Profiles/Zion_East_Development.jmri/ZionE-Development.xml</filename>
-    </operation>
-    <operation>
-      <type>Store</type>
-      <date>Sat Nov 29 17:16:06 EST 2025</date>
-      <filename>/Users/jake/Library/Mobile Documents/com~apple~CloudDocs/Trains/PMRRM/git_repos/PMRRM/Profiles/Zion_East_Development.jmri/ZionE-Development.xml</filename>
-    </operation>
-  </filehistory>
-  <!--Written by JMRI version 5.13.7plus+jake+20251129T1754Z+R8c76183584d on Sat Nov 29 17:16:06 EST 2025-->
 </layout-config>
