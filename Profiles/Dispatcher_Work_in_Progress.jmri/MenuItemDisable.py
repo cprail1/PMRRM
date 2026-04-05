@@ -14,7 +14,7 @@ def findMenu(frame, menuName) :
     import org.slf4j.LoggerFactory
     log = org.slf4j.LoggerFactory.getLogger(
             "script.MenuItemDisable"
-    	    )
+            )
 
     bar = frame.getJMenuBar()
     if bar is None:
@@ -22,30 +22,32 @@ def findMenu(frame, menuName) :
         return None
     for i in range(0,bar.getMenuCount()-1) :
         menu = bar.getMenu(i)
-	if menu == None :
-		log.debug("Found menu {} None", i)
-		continue
+        if menu == None :
+            log.debug("Found menu {} None", i)
+            continue
         if menuName == menu.getLabel() : 
-		log.debug("found menu {}", menuName)
-		return menu
+            log.debug("found menu {}", menuName)
+            return menu
     log.error("Did not find menu {}", menuName)
     return None # error
+global findMenu
 
 def findItem(menu, itemName) :
     import org.slf4j.LoggerFactory
     log = org.slf4j.LoggerFactory.getLogger(
             "script.MenuItemDisable"
-    	    )
+            )
     for i in range(0, menu.getItemCount()) :
         item = menu.getItem(i)
-	if item == None :
-		log.debug("Found menu item {} None", i)
-		continue
+        if item == None :
+            log.debug("Found menu item {} None", i)
+            continue
         if itemName == item.getLabel() : 
-		log.debug("found item {}", itemName)
-		return item
+            log.debug("  found item {}", itemName)
+            return item
     log.error("Did not find item {}", itemName)
     return None # error
+global findItem
 
 # this includes a delay to make sure the window is created if run during startup
 class MenuItemDisable(jmri.jmrit.automat.AbstractAutomaton) :
@@ -58,19 +60,21 @@ class MenuItemDisable(jmri.jmrit.automat.AbstractAutomaton) :
         self.waitMsec(8000)
 
         thisUser = java.lang.System.getProperty("user.name").lower()
-        # thisUser = "dispatch"  # here for debugging, comment out for normal operation
+        #thisUser = "dispatch"  # here for debugging, comment out for normal operation
         desiredUser = "dispatch"
         if thisUser != desiredUser:
             self.log.info("Skip disabling menu items because user '{}' is not '{}'", thisUser, desiredUser)
             return False # done early
             
         # start with the PanelPro window
-
+        global findMenu
+        global findItem
+        
         # find the frame containing the menus to disable
         frame = jmri.util.JmriJFrame.getFrame("PanelPro")
 
         fileMenu = findMenu(frame, "File")      
-	    #fileMenu.setEnabled(False)
+        #fileMenu.setEnabled(False)
         
         if fileMenu is not None:
 
@@ -84,17 +88,8 @@ class MenuItemDisable(jmri.jmrit.automat.AbstractAutomaton) :
         else :
             self.log.warn("Did not find File menu")
             
-        editMenu = findMenu(frame, "Edit")      
+        # Preferences... in the Edit menu is not accessible this way  
         
-        if editMenu is not None:
-
-            # Find items within that menu and disable it
-            item = findItem(fileMenu, "Preferences")
-            if item != None : item.setEnabled(False)
-
-        else :
-            self.log.warn("Did not find Edit menu")
-            
         toolsMenu = findMenu(frame, "Tools")
 
         if toolsMenu is not None:

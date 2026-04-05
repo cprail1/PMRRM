@@ -30,6 +30,13 @@ class HideHiResPanel(jmri.jmrit.automat.AbstractAutomaton) :
         frame = jmri.util.JmriJFrame.getFrame("Midway Freight")
         frame.setVisible(False)         
         self.log.info("Set the Midway Freight panel invisible")
+        
+        # and set their Window menu entries disabled
+        try :
+            targets = ["Port Area", "Midway Freight"]
+            jmri.util.WindowMenu.setIgnoredFrames(targets)
+        except AttributeError:
+            self.log.error("Could not adjust JMRI Window menu, you need at least JMRI 5.15.6")
 
 HideHiResPanel().start()
         
