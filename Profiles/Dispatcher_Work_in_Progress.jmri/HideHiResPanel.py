@@ -9,7 +9,7 @@ class HideHiResPanel(jmri.jmrit.automat.AbstractAutomaton) :
         )
         
     def handle(self):
-        self.waitMsec(2000)
+        self.waitMsec(4000)
 
         thisUser = java.lang.System.getProperty("user.name").lower()
         #thisUser = "dispatch"  # here for debugging, comment out for normal operation
@@ -25,15 +25,19 @@ class HideHiResPanel(jmri.jmrit.automat.AbstractAutomaton) :
 
         frame = jmri.util.JmriJFrame.getFrame("Port Area")
         frame.setVisible(False)         
-        self.log.info("Set the Port Area panel invisible")
+        self.log.info("Set the Port Area panel hidden")
 
         frame = jmri.util.JmriJFrame.getFrame("Midway Freight")
         frame.setVisible(False)         
-        self.log.info("Set the Midway Freight panel invisible")
+        self.log.info("Set the Midway Freight panel hidden")
+        
+        frame = jmri.util.JmriJFrame.getFrame("Midway Engine Service")
+        frame.setVisible(False)         
+        self.log.info("Set the Midway Engine Service panel hidden")
         
         # and set their Window menu entries disabled
         try :
-            targets = ["Port Area", "Midway Freight"]
+            targets = ["Port Area", "Midway Freight", "Midway Engine Service"]
             jmri.util.WindowMenu.setIgnoredFrames(targets)
         except AttributeError:
             self.log.error("Could not adjust JMRI Window menu, you need at least JMRI 5.15.6")
