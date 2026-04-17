@@ -9,6 +9,18 @@
   </jmriversion>
   <sensors class="jmri.jmrix.openlcb.configurexml.OlcbSensorManagerXml">
     <sensor inverted="false">
+      <systemName>MS01.01.02.00.00.FF.05.BB</systemName>
+      <userName>ZE PT1 Request</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS01.01.02.00.00.FF.05.BC</systemName>
+      <userName>ZE PT3 Request</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS01.01.02.00.00.FF.05.BD</systemName>
+      <userName>ZE PT2 Request</userName>
+    </sensor>
+    <sensor inverted="false">
       <systemName>MS02.01.57.00.01.B1.00.36;02.01.57.00.01.B1.00.37</systemName>
       <userName>Zion East TE1234 - Passenger Lead</userName>
     </sensor>
@@ -1120,23 +1132,6 @@
       <routeOutputTurnout systemName="Zion East F7-8" state="THROWN" />
       <routeOutputSensor systemName="ZE F8 Ack" state="INACTIVE" />
       <routeOutputSensor systemName="ZE Run West ack" state="ACTIVE" />
-    </route>
-    <route userName="ZE PT1 fires" controlTurnout="ZE PT1 request" controlTurnoutState="THROWN" controlTurnoutFeedback="true">
-      <systemName>IO:AUTO:0040</systemName>
-      <userName>ZE PT1 fires</userName>
-      <routeOutputTurnout systemName="Zion Port PT23-PT1" state="CLOSED" />
-    </route>
-    <route userName="ZE PT2 fires" controlTurnout="ZE PT2 request" controlTurnoutState="THROWN" controlTurnoutFeedback="true">
-      <systemName>IO:AUTO:0041</systemName>
-      <userName>ZE PT2 fires</userName>
-      <routeOutputTurnout systemName="Zion Port PT23-PT1" state="THROWN" />
-      <routeOutputTurnout systemName="Zion Port PT2-PT3" state="CLOSED" />
-    </route>
-    <route userName="ZE PT3 fires" controlTurnout="ZE PT3 request" controlTurnoutState="THROWN" controlTurnoutFeedback="true">
-      <systemName>IO:AUTO:0042</systemName>
-      <userName>ZE PT3 fires</userName>
-      <routeOutputTurnout systemName="Zion Port PT23-PT1" state="THROWN" />
-      <routeOutputTurnout systemName="Zion Port PT2-PT3" state="THROWN" />
     </route>
     <route userName="ZE T5 fires" controlTurnout="ZE T5 request" controlTurnoutState="THROWN" controlTurnoutFeedback="true">
       <systemName>IO:AUTO:0043</systemName>
@@ -3703,6 +3698,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
+    <positionablelabel x="795" y="116" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="&lt;- Needs Update" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
   </paneleditor>
   <paneleditor class="jmri.jmrit.display.panelEditor.configurexml.PanelEditorXml" name="Port and Branch Debug" x="36" y="637" height="803" width="968" editable="yes" positionable="yes" showtooltips="yes" controlling="yes" hide="yes" panelmenu="yes" scrollable="both" redBackground="255" greenBackground="255" blueBackground="255">
     <positionablelabel x="0" y="0" level="1" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="true" icon="yes" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
@@ -4512,7 +4508,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="ZE PT1 ack" x="884" y="215" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="ZE PT1 ack" x="880" y="205" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -4527,7 +4523,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="ZE PT2 ack" x="831" y="215" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="ZE PT2 ack" x="827" y="206" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -4542,7 +4538,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="ZE PT3 ack" x="785" y="212" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="ZE PT3 ack" x="781" y="205" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -4557,59 +4553,53 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <outputindicator turnout="ZE PT1 request" x="885" y="228" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.layoutEditor.configurexml.OutputIndicatorXml">
-      <icons>
-        <closed url="program:resources/icons/USS/plate/levers/code.gif" degrees="0" scale="1.0">
-          <rotation>0</rotation>
-        </closed>
-        <thrown url="program:resources/icons/USS/plate/levers/code-press.gif" degrees="0" scale="1.0">
-          <rotation>0</rotation>
-        </thrown>
-        <unknown url="program:resources/icons/USS/plate/levers/code-unknown.gif" degrees="0" scale="1.0">
-          <rotation>0</rotation>
-        </unknown>
-        <inconsistent url="program:resources/icons/USS/plate/levers/code-inconsistent.gif" degrees="0" scale="1.0">
-          <rotation>0</rotation>
-        </inconsistent>
-      </icons>
+    <sensoricon sensor="ZE PT3 Request" x="782" y="213" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/USS/plate/levers/code-press.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/USS/plate/levers/code.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/USS/plate/levers/code-unknown.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/USS/plate/levers/code-inconsistent.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
       <iconmaps />
-    </outputindicator>
-    <outputindicator turnout="ZE PT2 request" x="832" y="226" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.layoutEditor.configurexml.OutputIndicatorXml">
-      <icons>
-        <closed url="program:resources/icons/USS/plate/levers/code.gif" degrees="0" scale="1.0">
-          <rotation>0</rotation>
-        </closed>
-        <thrown url="program:resources/icons/USS/plate/levers/code-press.gif" degrees="0" scale="1.0">
-          <rotation>0</rotation>
-        </thrown>
-        <unknown url="program:resources/icons/USS/plate/levers/code-unknown.gif" degrees="0" scale="1.0">
-          <rotation>0</rotation>
-        </unknown>
-        <inconsistent url="program:resources/icons/USS/plate/levers/code-inconsistent.gif" degrees="0" scale="1.0">
-          <rotation>0</rotation>
-        </inconsistent>
-      </icons>
+    </sensoricon>
+    <sensoricon sensor="ZE PT2 Request" x="825" y="213" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/USS/plate/levers/code-press.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/USS/plate/levers/code.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/USS/plate/levers/code-unknown.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/USS/plate/levers/code-inconsistent.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
       <iconmaps />
-    </outputindicator>
-    <outputindicator turnout="ZE PT3 request" x="786" y="226" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.layoutEditor.configurexml.OutputIndicatorXml">
-      <icons>
-        <closed url="program:resources/icons/USS/plate/levers/code.gif" degrees="0" scale="1.0">
-          <rotation>0</rotation>
-        </closed>
-        <thrown url="program:resources/icons/USS/plate/levers/code-press.gif" degrees="0" scale="1.0">
-          <rotation>0</rotation>
-        </thrown>
-        <unknown url="program:resources/icons/USS/plate/levers/code-unknown.gif" degrees="0" scale="1.0">
-          <rotation>0</rotation>
-        </unknown>
-        <inconsistent url="program:resources/icons/USS/plate/levers/code-inconsistent.gif" degrees="0" scale="1.0">
-          <rotation>0</rotation>
-        </inconsistent>
-      </icons>
+    </sensoricon>
+    <sensoricon sensor="ZE PT1 Request" x="880" y="213" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/USS/plate/levers/code-press.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/USS/plate/levers/code.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/USS/plate/levers/code-unknown.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/USS/plate/levers/code-inconsistent.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
       <iconmaps />
-    </outputindicator>
+    </sensoricon>
     <layoutturnout ident="TO1" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="913.5" ycen="282.5" xa="920.5" ya="300.5" xb="906.5" yb="264.5" xc="893.5" yc="282.5" xd="920.5" yd="300.5" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Zion Port PT23-PT1" connectaname="T5" connectbname="T4" connectcname="T1" />
-    <layoutturnout ident="TO2" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="852.5" ycen="262.5" xa="861.65" ya="280.79" xb="843.35" yb="244.21" xc="808.21" yc="262.79" xd="861.65" yd="280.79" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Zion Port PT2-PT3" connectaname="T1" connectbname="T3" connectcname="T2" />
+    <layoutturnout ident="TO2" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="852.5" ycen="262.5" xa="861.65" ya="282.79" xb="843.35" yb="242.21" xc="808.21" yc="262.79" xd="861.65" yd="282.79" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Zion Port PT2-PT3" connectaname="T1" connectbname="T3" connectcname="T2" />
     <layoutturnout ident="TO3" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="980.0" ycen="398.0" xa="968.53" ya="381.62" xb="991.47" yb="414.38" xc="999.66" yc="408.65" xd="968.53" yd="381.62" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Zion East Branch East Port-Zion Mirror" secondturnoutname="Zion Branch East Port-Zion" secondturnoutinverted="true" connectaname="T5" connectbname="T6" connectcname="T8" />
     <layoutturnout ident="TO6" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="328.0" ycen="77.0" xa="348.0" ya="77.0" xb="308.0" yb="77.0" xc="312.0" yc="62.0" xd="348.0" yd="77.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Zion Branch East P9-P8" connectaname="T15" connectbname="T11" connectcname="T12" />
     <layoutturnout ident="TO10" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="620.0" ycen="112.0" xa="637.0" ya="130.0" xb="603.0" yb="94.0" xc="588.0" yc="112.0" xd="637.0" yd="130.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Zion Branch East P89-TE5" connectaname="T13" connectbname="T10" connectcname="T9" />
