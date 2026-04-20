@@ -217,6 +217,30 @@
       <systemName>MS02.01.57.40.00.07.04.FA;02.01.57.40.00.07.04.FB</systemName>
       <userName>ZE NX X Main 2 Request</userName>
     </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.40.00.07.06.00;02.01.57.40.00.07.06.01</systemName>
+      <userName>ZE NX Debug P1 set</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.40.00.07.06.02;02.01.57.40.00.07.06.03</systemName>
+      <userName>ZE NX Debug A1 set</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.40.00.07.06.04;02.01.57.40.00.07.06.05</systemName>
+      <userName>ZE NX Debug B1 set</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.40.00.07.06.06;02.01.57.40.00.07.06.07</systemName>
+      <userName>ZE NX Debug P2 set</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.40.00.07.06.08;02.01.57.40.00.07.06.09</systemName>
+      <userName>ZE NX Debug A2 set</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.40.00.07.06.0A;02.01.57.40.00.07.06.0B</systemName>
+      <userName>ZE NX Debug B2 set</userName>
+    </sensor>
   </sensors>
   <sensors class="jmri.jmrix.internal.configurexml.InternalSensorManagerXml">
     <defaultInitialState>unknown</defaultInitialState>
@@ -4688,6 +4712,96 @@
         <rotation>0</rotation>
       </unknown>
       <inconsistent url="program:resources/icons/USS/plate/levers/code-inconsistent.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <sensoricon sensor="ZE NX Debug P1 set" x="1691" y="285" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/mediumschematics/LEDs/GREENLED.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/mediumschematics/LEDs/whiteLED.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/mediumschematics/LEDs/GRAYLED.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/mediumschematics/LEDs/GRAYLED.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <sensoricon sensor="ZE NX Debug A1 set" x="1690" y="324" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/mediumschematics/LEDs/GREENLED.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/mediumschematics/LEDs/whiteLED.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/mediumschematics/LEDs/GRAYLED.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/mediumschematics/LEDs/GRAYLED.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <sensoricon sensor="ZE NX Debug B1 set" x="1691" y="365" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/mediumschematics/LEDs/GREENLED.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/mediumschematics/LEDs/whiteLED.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/mediumschematics/LEDs/GRAYLED.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/mediumschematics/LEDs/GRAYLED.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <sensoricon sensor="ZE NX Debug P2 set" x="1749" y="326" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/mediumschematics/LEDs/GREENLED.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/mediumschematics/LEDs/whiteLED.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/mediumschematics/LEDs/GRAYLED.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/mediumschematics/LEDs/GRAYLED.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <sensoricon sensor="ZE NX Debug A2 set" x="1749" y="366" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/mediumschematics/LEDs/GREENLED.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/mediumschematics/LEDs/whiteLED.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/mediumschematics/LEDs/GRAYLED.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/mediumschematics/LEDs/GRAYLED.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <sensoricon sensor="ZE NX Debug B2 set" x="1750" y="410" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/mediumschematics/LEDs/GREENLED.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/mediumschematics/LEDs/whiteLED.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/mediumschematics/LEDs/GRAYLED.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/mediumschematics/LEDs/GRAYLED.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </inconsistent>
       <iconmaps />
