@@ -67,12 +67,12 @@ Finally, sign into the `dispatch` account and check each of the three profiles f
   
   - Rename the `~electricalcrew/PMRRM/Profile/Dispatcher_Previous.jmri` directory to `~electricalcrew/PMRRM/Profile/Dispatcher_Previous.jmri`
   
-  - Make a *copy* of the `~electricalcrew/PMRRM/Profile/Dispatcher_Work_in_Progress` directory and name it `~electricalcrew/PMRRM/Profile/Dispatcher_Latest`
+  - Make a *copy* of the `~electricalcrew/PMRRM/Profile/Dispatcher_Work_in_Progress.jmri` directory and name it `~electricalcrew/PMRRM/Profile/Dispatcher_Latest.jmri`
   
   - If you're using GitHub Desktop, you can restart it now.
   
   - Check the changes, either with the `git status` command or by looking at changes in GitHub Desktop.  There should be some, but not too many: maybe up to a dozen or so.
-  If you see much more than that, make sure that you've titled the renamed directories properly. Also check that you don't see any changes in the `~electricalcrew/PMRRM/Profile/Dispatcher_Work_in_Progress` directory.
+  If you see much more than that, make sure that you've titled the renamed directories properly. Also check that you don't see any changes in the `~electricalcrew/PMRRM/Profile/Dispatcher_Work_in_Progress.jmri` directory.
   
   - Now we have to *undo* the changes to two files.  With GitHub desktop, this is done by selecting the files in the following lines and telling it to drop changes. From the command line, this is done with (note the third term in the lines below is _two_ hyphens)
     - `git checkout -- ~electricalcrew/PMRRM/Profile/Dispatcher_Previous.jmri/profile/profile.properties`
@@ -82,7 +82,7 @@ Finally, sign into the `dispatch` account and check each of the three profiles f
   
   - Using either the command line or GitHub Desktop, commit all those changes. Push them up to the GitHub repository.
   
-  - Finally, sign into the `dispatch` account and check each of the three profiles for
+  - Finally, start JMRI and check each of the three profiles for
     - basic launching
     - proper steps in startup and layout communications
 
