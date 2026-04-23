@@ -21,17 +21,19 @@
 
 import jmri
 import time
-from org.slf4j import LoggerFactory
+import org.slf4j
 
 class ControlDualSemaphore (jmri.jmrit.automat.AbstractAutomaton) :
     def current_milli_time(self):
+        import time
         return int(time.time() * 1000)
         
     def init(self) :
         
         self.minAcceptableTime = 200
         
-        self.log = LoggerFactory.getLogger("PMRRM_semaphores");
+        import org.slf4j.LoggerFactory
+        self.log = org.slf4j.LoggerFactory.getLogger("script.PMRRM_semaphores");
 
         # print checks
         if self.upper == None : self.log.error("semaphore {} has null upper head", self.name)

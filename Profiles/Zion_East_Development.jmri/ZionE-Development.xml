@@ -3,11 +3,23 @@
 <layout-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/layout-5-5-5.xsd">
   <jmriversion>
     <major>5</major>
-    <minor>13</minor>
-    <test>7</test>
+    <minor>15</minor>
+    <test>6</test>
     <modifier>plus</modifier>
   </jmriversion>
   <sensors class="jmri.jmrix.openlcb.configurexml.OlcbSensorManagerXml">
+    <sensor inverted="false">
+      <systemName>MS01.01.02.00.00.FF.05.BB</systemName>
+      <userName>ZE PT1 Request</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS01.01.02.00.00.FF.05.BC</systemName>
+      <userName>ZE PT3 Request</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS01.01.02.00.00.FF.05.BD</systemName>
+      <userName>ZE PT2 Request</userName>
+    </sensor>
     <sensor inverted="false">
       <systemName>MS02.01.57.00.01.B1.00.36;02.01.57.00.01.B1.00.37</systemName>
       <userName>Zion East TE1234 - Passenger Lead</userName>
@@ -19,6 +31,18 @@
     <sensor inverted="false">
       <systemName>MS02.01.57.00.02.5B.00.BA;02.01.57.00.02.5B.00.BB</systemName>
       <userName>Zion East Branch - Zion</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.00.02.5B.00.C5;02.01.57.00.02.5B.00.C4</systemName>
+      <userName>ZE PT1 ack</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.00.02.5B.00.CD;02.01.57.00.02.5B.00.C4</systemName>
+      <userName>ZE PT2 ack</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.00.02.5B.00.CE;02.01.57.00.02.5B.00.C4</systemName>
+      <userName>ZE PT3 ack</userName>
     </sensor>
     <sensor inverted="false">
       <systemName>MS02.01.57.00.02.A8.00.05</systemName>
@@ -149,18 +173,6 @@
       <userName>ZE F8 power ack</userName>
     </sensor>
     <sensor inverted="false">
-      <systemName>MS02.01.57.11.00.04.07.20;02.01.57.11.00.04.07.21</systemName>
-      <userName>ZE PT1 ack</userName>
-    </sensor>
-    <sensor inverted="false">
-      <systemName>MS02.01.57.11.00.04.07.23;02.01.57.11.00.04.07.24</systemName>
-      <userName>ZE PT2 ack</userName>
-    </sensor>
-    <sensor inverted="false">
-      <systemName>MS02.01.57.11.00.04.07.26;02.01.57.11.00.04.07.27</systemName>
-      <userName>ZE PT3 ack</userName>
-    </sensor>
-    <sensor inverted="false">
       <systemName>MS02.01.57.20.00.1B.05.FA;02.01.57.20.00.1B.05.FB</systemName>
       <userName>Whiskey 1 occupancy</userName>
     </sensor>
@@ -184,6 +196,50 @@
     <sensor inverted="false">
       <systemName>MS02.01.57.20.00.1B.06.04;02.01.57.20.00.1B.06.05</systemName>
       <userName>Xerox 2 occupancy</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.40.00.07.04.F2;02.01.57.40.00.07.04.F3</systemName>
+      <userName>ZE NX Passenger Request</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.40.00.07.04.F4;02.01.57.40.00.07.04.F5</systemName>
+      <userName>ZE NX Freight A Request</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.40.00.07.04.F6;02.01.57.40.00.07.04.F7</systemName>
+      <userName>ZE NX Freight B Request</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.40.00.07.04.F8;02.01.57.40.00.07.04.F9</systemName>
+      <userName>ZE NX X Main 1 Request</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.40.00.07.04.FA;02.01.57.40.00.07.04.FB</systemName>
+      <userName>ZE NX X Main 2 Request</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.40.00.07.06.00;02.01.57.40.00.07.06.01</systemName>
+      <userName>ZE NX Debug P1 set</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.40.00.07.06.02;02.01.57.40.00.07.06.03</systemName>
+      <userName>ZE NX Debug A1 set</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.40.00.07.06.04;02.01.57.40.00.07.06.05</systemName>
+      <userName>ZE NX Debug B1 set</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.40.00.07.06.06;02.01.57.40.00.07.06.07</systemName>
+      <userName>ZE NX Debug P2 set</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.40.00.07.06.08;02.01.57.40.00.07.06.09</systemName>
+      <userName>ZE NX Debug A2 set</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.40.00.07.06.0A;02.01.57.40.00.07.06.0B</systemName>
+      <userName>ZE NX Debug B2 set</userName>
     </sensor>
   </sensors>
   <sensors class="jmri.jmrix.internal.configurexml.InternalSensorManagerXml">
@@ -369,12 +425,23 @@
     <defaultclosedspeed>Normal</defaultclosedspeed>
     <defaultthrownspeed>Restricted</defaultthrownspeed>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
+      <systemName>MTT78</systemName>
+    </turnout>
+    <turnout feedback="MONITORING" inverted="false" automate="Off">
+      <systemName>MTT95</systemName>
+      <userName>Whiskey E 2-1</userName>
+    </turnout>
+    <turnout feedback="MONITORING" inverted="false" automate="Off">
+      <systemName>MTT96</systemName>
+      <userName>Whiskey E 12-Main</userName>
+    </turnout>
+    <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>MTT98</systemName>
-      <userName>Whiskey 1-2</userName>
+      <userName>Whiskey W 2-1</userName>
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>MTT99</systemName>
-      <userName>Whiskey 12-3</userName>
+      <userName>Whiskey W 12-Main</userName>
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>MTT100</systemName>
@@ -402,6 +469,14 @@
       <userName>Yazoo 1-2 XOver D-N</userName>
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
+      <systemName>MTT709</systemName>
+      <userName>Zion E Branch E main-siding</userName>
+    </turnout>
+    <turnout feedback="MONITORING" inverted="false" automate="Off">
+      <systemName>MTT710</systemName>
+      <userName>Zion E Branch W main-siding</userName>
+    </turnout>
+    <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>MTT711</systemName>
       <userName>Zion Branch East Port-Zion</userName>
     </turnout>
@@ -417,9 +492,21 @@
       <systemName>MTT730</systemName>
       <userName>Zion Port PT23-PT1</userName>
     </turnout>
+    <turnout feedback="ONESENSOR" sensor1="ZE PT1 ack" inverted="false" automate="Off">
+      <systemName>MT01.01.02.00.00.FF.05.BB;02.01.57.00.02.5B.FF.FF</systemName>
+      <userName>ZE PT1 request</userName>
+    </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>MTT731</systemName>
       <userName>Zion Port PT2-PT3</userName>
+    </turnout>
+    <turnout feedback="ONESENSOR" sensor1="ZE PT3 ack" inverted="false" automate="Off">
+      <systemName>MT01.01.02.00.00.FF.05.BC;02.01.57.00.02.5B.FF.FF</systemName>
+      <userName>ZE PT3 request</userName>
+    </turnout>
+    <turnout feedback="ONESENSOR" sensor1="ZE PT2 ack" inverted="false" automate="Off">
+      <systemName>MT01.01.02.00.00.FF.05.BD;02.01.57.00.02.5B.FF.FF</systemName>
+      <userName>ZE PT2 request</userName>
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>MT02.01.57.00.01.B1.00.00;02.01.57.00.01.B1.00.01</systemName>
@@ -531,11 +618,13 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>MT02.01.57.20.00.1B.02.07;02.01.57.20.00.1B.02.06</systemName>
-      <userName>Whiskey 1-2 Explicit</userName>
+      <userName>Whiskey W 2-1 Explicit</userName>
+      <comment>This uses explicit event IDs instead of MTT form</comment>
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>MT02.01.57.20.00.1B.02.09;02.01.57.20.00.1B.02.08</systemName>
-      <userName>Whiskey 12-3 Explicit</userName>
+      <userName>Whiskey W 12-Main Explicit</userName>
+      <comment>This uses explicit event IDs instead of MTT form</comment>
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>MT02.01.57.20.00.1B.02.0B;02.01.57.20.00.1B.02.0A</systemName>
@@ -694,18 +783,6 @@
       <systemName>ITZE P9 request</systemName>
       <userName>ZE P9 request</userName>
     </turnout>
-    <turnout feedback="ONESENSOR" sensor1="ZE PT1 ack" inverted="false" automate="Off">
-      <systemName>ITZE PT1 request</systemName>
-      <userName>ZE PT1 request</userName>
-    </turnout>
-    <turnout feedback="ONESENSOR" sensor1="ZE PT2 ack" inverted="false" automate="Off">
-      <systemName>ITZE PT2 request</systemName>
-      <userName>ZE PT2 request</userName>
-    </turnout>
-    <turnout feedback="ONESENSOR" sensor1="ZE PT3 ack" inverted="false" automate="Off">
-      <systemName>ITZE PT3 request</systemName>
-      <userName>ZE PT3 request</userName>
-    </turnout>
     <turnout feedback="ONESENSOR" sensor1="ZE Run West ack" inverted="false" automate="Off">
       <systemName>ITZE Run West request</systemName>
       <userName>ZE Run West request</userName>
@@ -741,6 +818,18 @@
     <turnout feedback="ONESENSOR" sensor1="ZE W3 ack" inverted="false" automate="Off">
       <systemName>ITZE W3 request</systemName>
       <userName>ZE W3 request</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>ITZion East Branch - Zion Mirror</systemName>
+      <userName>Zion East Branch - Zion Mirror</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>ITZion East Branch East Port-Zion Mirror</systemName>
+      <userName>Zion East Branch East Port-Zion Mirror</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>ITZion East F7-8 Mirror</systemName>
+      <userName>Zion East F7-8 Mirror</userName>
     </turnout>
   </turnouts>
   <signalheads class="jmri.managers.configurexml.AbstractSignalHeadManagerXml">
@@ -990,19 +1079,19 @@
     <route userName="ZE W1 fires" controlTurnout="ZE W1 request" controlTurnoutState="THROWN" controlTurnoutFeedback="true">
       <systemName>IO:AUTO:0029</systemName>
       <userName>ZE W1 fires</userName>
-      <routeOutputTurnout systemName="Whiskey 12-3" state="CLOSED" />
+      <routeOutputTurnout systemName="Whiskey W 12-Main" state="CLOSED" />
     </route>
     <route userName="ZE W2 fires" controlTurnout="ZE W2 request" controlTurnoutState="THROWN" controlTurnoutFeedback="true">
       <systemName>IO:AUTO:0030</systemName>
       <userName>ZE W2 fires</userName>
-      <routeOutputTurnout systemName="Whiskey 1-2" state="CLOSED" />
-      <routeOutputTurnout systemName="Whiskey 12-3" state="THROWN" />
+      <routeOutputTurnout systemName="Whiskey W 2-1" state="CLOSED" />
+      <routeOutputTurnout systemName="Whiskey W 12-Main" state="THROWN" />
     </route>
     <route userName="ZE W3 fires" controlTurnout="ZE W3 request" controlTurnoutState="THROWN" controlTurnoutFeedback="true">
       <systemName>IO:AUTO:0031</systemName>
       <userName>ZE W3 fires</userName>
-      <routeOutputTurnout systemName="Whiskey 1-2" state="THROWN" />
-      <routeOutputTurnout systemName="Whiskey 12-3" state="THROWN" />
+      <routeOutputTurnout systemName="Whiskey W 2-1" state="THROWN" />
+      <routeOutputTurnout systemName="Whiskey W 12-Main" state="THROWN" />
     </route>
     <route userName="ZE EABCER Cab fires" controlTurnout="ZE EABECR Cab request" controlTurnoutState="THROWN" controlTurnoutFeedback="true">
       <systemName>IO:AUTO:0032</systemName>
@@ -1088,23 +1177,6 @@
       <routeOutputSensor systemName="ZE F8 Ack" state="INACTIVE" />
       <routeOutputSensor systemName="ZE Run West ack" state="ACTIVE" />
     </route>
-    <route userName="ZE PT1 fires" controlTurnout="ZE PT1 request" controlTurnoutState="THROWN" controlTurnoutFeedback="true">
-      <systemName>IO:AUTO:0040</systemName>
-      <userName>ZE PT1 fires</userName>
-      <routeOutputTurnout systemName="Zion Port PT23-PT1" state="CLOSED" />
-    </route>
-    <route userName="ZE PT2 fires" controlTurnout="ZE PT2 request" controlTurnoutState="THROWN" controlTurnoutFeedback="true">
-      <systemName>IO:AUTO:0041</systemName>
-      <userName>ZE PT2 fires</userName>
-      <routeOutputTurnout systemName="Zion Port PT23-PT1" state="THROWN" />
-      <routeOutputTurnout systemName="Zion Port PT2-PT3" state="CLOSED" />
-    </route>
-    <route userName="ZE PT3 fires" controlTurnout="ZE PT3 request" controlTurnoutState="THROWN" controlTurnoutFeedback="true">
-      <systemName>IO:AUTO:0042</systemName>
-      <userName>ZE PT3 fires</userName>
-      <routeOutputTurnout systemName="Zion Port PT23-PT1" state="THROWN" />
-      <routeOutputTurnout systemName="Zion Port PT2-PT3" state="THROWN" />
-    </route>
     <route userName="ZE T5 fires" controlTurnout="ZE T5 request" controlTurnoutState="THROWN" controlTurnoutFeedback="true">
       <systemName>IO:AUTO:0043</systemName>
       <userName>ZE T5 fires</userName>
@@ -1146,7 +1218,7 @@
   <signalmastlogics class="jmri.managers.configurexml.DefaultSignalMastLogicManagerXml">
     <logicDelay>500</logicDelay>
   </signalmastlogics>
-  <paneleditor class="jmri.jmrit.display.panelEditor.configurexml.PanelEditorXml" name="Zion East Debug" x="620" y="32" height="1204" width="1922" editable="yes" positionable="yes" showtooltips="yes" controlling="yes" hide="yes" panelmenu="yes" scrollable="both" redBackground="255" greenBackground="255" blueBackground="255">
+  <paneleditor class="jmri.jmrit.display.panelEditor.configurexml.PanelEditorXml" name="Zion East Debug" x="638" y="30" height="1204" width="1922" editable="yes" positionable="yes" showtooltips="yes" controlling="yes" hide="yes" panelmenu="yes" scrollable="both" redBackground="255" greenBackground="255" blueBackground="255">
     <positionablelabel x="0" y="0" level="1" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="true" icon="yes" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <icon url="preference:resources/Zion East color long debug -1920x1080.png" degrees="0" scale="1.0">
         <rotation>0</rotation>
@@ -1662,7 +1734,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="Whiskey 12-3" x="1593" y="667" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="Whiskey W 12-Main" x="1593" y="667" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
         <closed url="preference:resources/TurnoutStraight60-R.png" degrees="0" scale="1.0">
           <rotation>0</rotation>
@@ -1679,7 +1751,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="Whiskey 1-2" x="1619" y="721" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="Whiskey W 2-1" x="1619" y="721" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
         <closed url="preference:resources/TurnoutStraight60-R.png" degrees="0" scale="1.0">
           <rotation>0</rotation>
@@ -1858,7 +1930,7 @@
     <positionablelabel x="1126" y="735" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="2" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="1127" y="633" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="3" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
   </paneleditor>
-  <paneleditor class="jmri.jmrit.display.panelEditor.configurexml.PanelEditorXml" name="Zion East" x="642" y="25" height="1047" width="1924" editable="yes" positionable="no" showtooltips="no" controlling="yes" hide="no" panelmenu="no" scrollable="none" redBackground="255" greenBackground="255" blueBackground="255">
+  <paneleditor class="jmri.jmrit.display.panelEditor.configurexml.PanelEditorXml" name="Zion East" x="2732" y="381" height="1047" width="1924" editable="yes" positionable="no" showtooltips="no" controlling="yes" hide="no" panelmenu="no" scrollable="none" redBackground="255" greenBackground="255" blueBackground="255">
     <positionablelabel x="0" y="0" level="1" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" icon="yes" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <icon url="preference:resources/Zion East color long 1920x1020.png" degrees="0" scale="1.0">
         <rotation>0</rotation>
@@ -2422,7 +2494,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="ZE PT1 request" x="754" y="109" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="ZE PT1 request" x="754" y="109" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="true" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
         <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
@@ -2439,7 +2511,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="ZE PT2 request" x="699" y="109" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="ZE PT2 request" x="699" y="109" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="true" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
         <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
@@ -2456,7 +2528,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="ZE PT3 request" x="647" y="109" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="ZE PT3 request" x="647" y="109" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="true" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
         <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
@@ -3671,7 +3743,7 @@
       <iconmaps />
     </turnouticon>
   </paneleditor>
-  <paneleditor class="jmri.jmrit.display.panelEditor.configurexml.PanelEditorXml" name="Port and Branch Debug" x="113" y="625" height="803" width="968" editable="yes" positionable="yes" showtooltips="yes" controlling="yes" hide="yes" panelmenu="yes" scrollable="both" redBackground="255" greenBackground="255" blueBackground="255">
+  <paneleditor class="jmri.jmrit.display.panelEditor.configurexml.PanelEditorXml" name="Port and Branch Debug" x="36" y="637" height="803" width="968" editable="yes" positionable="yes" showtooltips="yes" controlling="yes" hide="yes" panelmenu="yes" scrollable="both" redBackground="255" greenBackground="255" blueBackground="255">
     <positionablelabel x="0" y="0" level="1" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="true" icon="yes" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <icon url="preference:resources/Port_and_Branch.png" degrees="0" scale="1.0">
         <rotation>0</rotation>
@@ -3763,7 +3835,7 @@
       <iconmaps />
     </turnouticon>
   </paneleditor>
-  <paneleditor class="jmri.jmrit.display.panelEditor.configurexml.PanelEditorXml" name="Zion Hard Panel" x="0" y="25" height="655" width="2560" editable="yes" positionable="yes" showtooltips="yes" controlling="yes" hide="yes" panelmenu="yes" scrollable="none" redBackground="255" greenBackground="255" blueBackground="255">
+  <paneleditor class="jmri.jmrit.display.panelEditor.configurexml.PanelEditorXml" name="Zion Hard Panel" x="2645" y="122" height="655" width="2560" editable="yes" positionable="yes" showtooltips="yes" controlling="yes" hide="yes" panelmenu="yes" scrollable="none" redBackground="255" greenBackground="255" blueBackground="255">
     <positionablelabel x="0" y="0" level="1" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="true" icon="yes" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <icon url="preference:resources/ZionEastHardwarePanel.png" degrees="0" scale="1.0">
         <rotation>0</rotation>
@@ -3785,22 +3857,1273 @@
       <iconmaps />
     </sensoricon>
   </paneleditor>
-  <filehistory>
-    <operation>
-      <type>app</type>
-      <date>Sat Nov 29 12:55:45 EST 2025</date>
-      <filename>PanelPro (v5.13.7)</filename>
-    </operation>
-    <operation>
-      <type>Load OK</type>
-      <date>Sat Nov 29 12:55:51 EST 2025</date>
-      <filename>/Users/jake/Library/Mobile Documents/com~apple~CloudDocs/Trains/PMRRM/git_repos/PMRRM/Profiles/Zion_East_Development.jmri/ZionE-Development.xml</filename>
-    </operation>
-    <operation>
-      <type>Store</type>
-      <date>Sat Nov 29 17:16:06 EST 2025</date>
-      <filename>/Users/jake/Library/Mobile Documents/com~apple~CloudDocs/Trains/PMRRM/git_repos/PMRRM/Profiles/Zion_East_Development.jmri/ZionE-Development.xml</filename>
-    </operation>
-  </filehistory>
-  <!--Written by JMRI version 5.13.7plus+jake+20251129T1754Z+R8c76183584d on Sat Nov 29 17:16:06 EST 2025-->
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Zion East Track Diagram" x="40" y="30" windowheight="964" windowwidth="2520" panelheight="813" panelwidth="2870" sliders="yes" scrollable="both" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="no" snaponmove="no" antialiasing="yes" turnoutcircles="no" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="darkGray" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclesize="4" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="192" greenBackground="192" blueBackground="192" gridSize="10" gridSize2nd="10" openDispatcher="no" useDirectTurnoutControl="no">
+    <layoutTrackDrawingOptions name="Zion East Track Diagram" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
+      <mainBallastColor>#000000</mainBallastColor>
+      <mainBallastWidth>0</mainBallastWidth>
+      <mainBlockLineDashPercentageX10>0</mainBlockLineDashPercentageX10>
+      <mainBlockLineWidth>4</mainBlockLineWidth>
+      <mainRailColor>#404040</mainRailColor>
+      <mainRailCount>1</mainRailCount>
+      <mainRailGap>0</mainRailGap>
+      <mainRailWidth>4</mainRailWidth>
+      <mainTieColor>#000000</mainTieColor>
+      <mainTieGap>0</mainTieGap>
+      <mainTieLength>0</mainTieLength>
+      <mainTieWidth>0</mainTieWidth>
+      <sideBallastColor>#000000</sideBallastColor>
+      <sideBallastWidth>0</sideBallastWidth>
+      <sideBlockLineDashPercentageX10>0</sideBlockLineDashPercentageX10>
+      <sideBlockLineWidth>2</sideBlockLineWidth>
+      <sideRailColor>#404040</sideRailColor>
+      <sideRailCount>1</sideRailCount>
+      <sideRailGap>0</sideRailGap>
+      <sideRailWidth>1</sideRailWidth>
+      <sideTieColor>#000000</sideTieColor>
+      <sideTieGap>0</sideTieGap>
+      <sideTieLength>0</sideTieLength>
+      <sideTieWidth>0</sideTieWidth>
+    </layoutTrackDrawingOptions>
+    <positionablelabel x="759" y="28" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="Port" fontFamily="Lucida Grande" fontname="LucidaGrande-Bold" size="16" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="816" y="58" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="PT1" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="769" y="58" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="PT2" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="718" y="58" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="PT3" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1431" y="521" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="Passenger" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1438" y="629" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="Freight A" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1434" y="570" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="Freight B" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1915" y="538" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="Main 1" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1917" y="597" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="Main 2" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1705" y="517" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="Yazoo" fontFamily="Lucida Grande" fontname="LucidaGrande-Bold" size="16" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="2061" y="517" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="Xerox" fontFamily="Lucida Grande" fontname="LucidaGrande-Bold" size="16" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="2388" y="518" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="Whiskey" fontFamily="Lucida Grande" fontname="LucidaGrande-Bold" size="16" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="22" y="438" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="P1" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="22" y="256" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="P7" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="24" y="67" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="T1" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="25" y="735" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="F1" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="21" y="497" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="F8" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="363" y="225" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="G1" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1560" y="151" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="Zion East" fontFamily="Lucida Grande" fontname="LucidaGrande-Bold" size="36" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="968" y="710" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="Engine Pocket" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <sensoricon sensor="Whiskey 3 occupancy" x="2469" y="635" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/mediumschematics/LEDs/REDLED.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/mediumschematics/LEDs/GRAYLED.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/mediumschematics/LEDs/GRAYLED.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/mediumschematics/LEDs/GRAYLED.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <sensoricon sensor="Whiskey 2 occupancy" x="2469" y="595" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/mediumschematics/LEDs/REDLED.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/mediumschematics/LEDs/GRAYLED.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/mediumschematics/LEDs/GRAYLED.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/mediumschematics/LEDs/GRAYLED.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <sensoricon sensor="Whiskey 1 occupancy" x="2466" y="555" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/mediumschematics/LEDs/REDLED.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/mediumschematics/LEDs/GRAYLED.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/mediumschematics/LEDs/GRAYLED.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/mediumschematics/LEDs/GRAYLED.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <sensoricon sensor="Xerox 1 occupancy" x="1927" y="554" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/mediumschematics/LEDs/REDLED.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/mediumschematics/LEDs/GRAYLED.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/mediumschematics/LEDs/GRAYLED.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/mediumschematics/LEDs/GRAYLED.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <sensoricon sensor="Xerox 2 occupancy" x="1935" y="618" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/mediumschematics/LEDs/REDLED.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/mediumschematics/LEDs/GRAYLED.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/mediumschematics/LEDs/GRAYLED.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/mediumschematics/LEDs/GRAYLED.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <positionablelabel x="1545" y="202" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="This follows actual track layout," size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1587" y="219" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="not the hard panel" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <sensoricon sensor="ZE P7 power ack" x="70" y="262" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/smallschematics/LEDs/blue.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/smallschematics/LEDs/white.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/smallschematics/LEDs/gray.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/smallschematics/LEDs/gray.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <sensoricon sensor="ZE P6 power ack" x="71" y="292" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/smallschematics/LEDs/blue.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/smallschematics/LEDs/white.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/smallschematics/LEDs/gray.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/smallschematics/LEDs/gray.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <sensoricon sensor="ZE P5 power ack" x="71" y="320" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/smallschematics/LEDs/blue.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/smallschematics/LEDs/white.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/smallschematics/LEDs/gray.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/smallschematics/LEDs/gray.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <sensoricon sensor="ZE P4 power ack" x="71" y="350" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/smallschematics/LEDs/blue.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/smallschematics/LEDs/white.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/smallschematics/LEDs/gray.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/smallschematics/LEDs/gray.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <sensoricon sensor="ZE P3 power ack" x="70" y="380" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/smallschematics/LEDs/blue.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/smallschematics/LEDs/white.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/smallschematics/LEDs/gray.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/smallschematics/LEDs/gray.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <sensoricon sensor="ZE P2 power ack" x="71" y="411" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/smallschematics/LEDs/blue.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/smallschematics/LEDs/white.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/smallschematics/LEDs/gray.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/smallschematics/LEDs/gray.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <sensoricon sensor="ZE P1 power ack" x="71" y="441" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/smallschematics/LEDs/blue.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/smallschematics/LEDs/white.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/smallschematics/LEDs/gray.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/smallschematics/LEDs/gray.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <sensoricon sensor="ZE F8 power ack" x="71" y="501" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/smallschematics/LEDs/blue.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/smallschematics/LEDs/white.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/smallschematics/LEDs/gray.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/smallschematics/LEDs/gray.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <sensoricon sensor="ZE F7 power ack" x="70" y="531" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/smallschematics/LEDs/blue.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/smallschematics/LEDs/white.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/smallschematics/LEDs/gray.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/smallschematics/LEDs/gray.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <sensoricon sensor="ZE F6 power ack" x="71" y="561" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/smallschematics/LEDs/blue.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/smallschematics/LEDs/white.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/smallschematics/LEDs/gray.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/smallschematics/LEDs/gray.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <sensoricon sensor="ZE F5 power ack" x="70" y="592" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/smallschematics/LEDs/blue.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/smallschematics/LEDs/white.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/smallschematics/LEDs/gray.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/smallschematics/LEDs/gray.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <sensoricon sensor="ZE F4 power ack" x="70" y="651" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/smallschematics/LEDs/blue.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/smallschematics/LEDs/white.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/smallschematics/LEDs/gray.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/smallschematics/LEDs/gray.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <sensoricon sensor="ZE F3 power ack" x="71" y="681" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/smallschematics/LEDs/blue.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/smallschematics/LEDs/white.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/smallschematics/LEDs/gray.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/smallschematics/LEDs/gray.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <sensoricon sensor="ZE F2 power ack" x="71" y="710" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/smallschematics/LEDs/blue.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/smallschematics/LEDs/white.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/smallschematics/LEDs/gray.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/smallschematics/LEDs/gray.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <sensoricon sensor="ZE F1 power ack" x="71" y="740" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/smallschematics/LEDs/blue.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/smallschematics/LEDs/white.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/smallschematics/LEDs/gray.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/smallschematics/LEDs/gray.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <sensoricon sensor="ZE F1 power ack" x="951" y="683" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/smallschematics/LEDs/blue.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/smallschematics/LEDs/white.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/smallschematics/LEDs/gray.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/smallschematics/LEDs/gray.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <sensoricon sensor="ZE F1 power ack" x="551" y="532" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/smallschematics/LEDs/blue.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/smallschematics/LEDs/white.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/smallschematics/LEDs/gray.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/smallschematics/LEDs/gray.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <sensoricon sensor="ZE F1 power ack" x="696" y="562" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/smallschematics/LEDs/blue.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/smallschematics/LEDs/white.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/smallschematics/LEDs/gray.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/smallschematics/LEDs/gray.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <sensoricon sensor="ZE F1 power ack" x="693" y="278" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/smallschematics/LEDs/blue.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/smallschematics/LEDs/white.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/smallschematics/LEDs/gray.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/smallschematics/LEDs/gray.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <sensoricon sensor="ZE P7 power request" x="99" y="250" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/USS/plate/levers/codeButton-Active.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/USS/plate/levers/codeButton-Inactive.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/USS/plate/levers/code-unknown.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/USS/plate/levers/code-inconsistent.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <sensoricon sensor="ZE P6 power request" x="99" y="280" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/USS/plate/levers/codeButton-Active.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/USS/plate/levers/codeButton-Inactive.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/USS/plate/levers/code-unknown.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/USS/plate/levers/code-inconsistent.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <sensoricon sensor="ZE P5 power request" x="99" y="309" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/USS/plate/levers/codeButton-Active.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/USS/plate/levers/codeButton-Inactive.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/USS/plate/levers/code-unknown.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/USS/plate/levers/code-inconsistent.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <sensoricon sensor="ZE P4 power request" x="98" y="338" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/USS/plate/levers/codeButton-Active.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/USS/plate/levers/codeButton-Inactive.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/USS/plate/levers/code-unknown.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/USS/plate/levers/code-inconsistent.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <sensoricon sensor="ZE P3 power request" x="98" y="369" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/USS/plate/levers/codeButton-Active.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/USS/plate/levers/codeButton-Inactive.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/USS/plate/levers/code-unknown.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/USS/plate/levers/code-inconsistent.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <sensoricon sensor="ZE P2 power request" x="98" y="400" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/USS/plate/levers/codeButton-Active.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/USS/plate/levers/codeButton-Inactive.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/USS/plate/levers/code-unknown.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/USS/plate/levers/code-inconsistent.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <sensoricon sensor="ZE P1 power request" x="98" y="430" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/USS/plate/levers/codeButton-Active.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/USS/plate/levers/codeButton-Inactive.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/USS/plate/levers/code-unknown.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/USS/plate/levers/code-inconsistent.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <sensoricon sensor="ZE F8 power request" x="98" y="488" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/USS/plate/levers/codeButton-Active.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/USS/plate/levers/codeButton-Inactive.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/USS/plate/levers/code-unknown.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/USS/plate/levers/code-inconsistent.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <sensoricon sensor="ZE F7 power request" x="99" y="518" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/USS/plate/levers/codeButton-Active.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/USS/plate/levers/codeButton-Inactive.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/USS/plate/levers/code-unknown.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/USS/plate/levers/code-inconsistent.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <sensoricon sensor="ZE F6 power request" x="99" y="549" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/USS/plate/levers/codeButton-Active.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/USS/plate/levers/codeButton-Inactive.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/USS/plate/levers/code-unknown.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/USS/plate/levers/code-inconsistent.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <sensoricon sensor="ZE F5 power request" x="99" y="580" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/USS/plate/levers/codeButton-Active.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/USS/plate/levers/codeButton-Inactive.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/USS/plate/levers/code-unknown.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/USS/plate/levers/code-inconsistent.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <sensoricon sensor="ZE F4 power request" x="99" y="640" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/USS/plate/levers/codeButton-Active.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/USS/plate/levers/codeButton-Inactive.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/USS/plate/levers/code-unknown.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/USS/plate/levers/code-inconsistent.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <sensoricon sensor="ZE F3 power request" x="99" y="669" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/USS/plate/levers/codeButton-Active.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/USS/plate/levers/codeButton-Inactive.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/USS/plate/levers/code-unknown.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/USS/plate/levers/code-inconsistent.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <sensoricon sensor="ZE F2 power request" x="99" y="699" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/USS/plate/levers/codeButton-Active.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/USS/plate/levers/codeButton-Inactive.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/USS/plate/levers/code-unknown.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/USS/plate/levers/code-inconsistent.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <sensoricon sensor="ZE F1 power request" x="99" y="730" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/USS/plate/levers/codeButton-Active.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/USS/plate/levers/codeButton-Inactive.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/USS/plate/levers/code-unknown.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/USS/plate/levers/code-inconsistent.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <sensoricon sensor="ZE Misc power request" x="969" y="672" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/USS/plate/levers/codeButton-Active.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/USS/plate/levers/codeButton-Inactive.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/USS/plate/levers/code-unknown.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/USS/plate/levers/code-inconsistent.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <sensoricon sensor="ZE Misc power request" x="713" y="551" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/USS/plate/levers/codeButton-Active.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/USS/plate/levers/codeButton-Inactive.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/USS/plate/levers/code-unknown.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/USS/plate/levers/code-inconsistent.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <sensoricon sensor="ZE Misc power request" x="579" y="521" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/USS/plate/levers/codeButton-Active.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/USS/plate/levers/codeButton-Inactive.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/USS/plate/levers/code-unknown.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/USS/plate/levers/code-inconsistent.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <sensoricon sensor="ZE Misc power request" x="706" y="294" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/USS/plate/levers/codeButton-Active.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/USS/plate/levers/codeButton-Inactive.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/USS/plate/levers/code-unknown.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/USS/plate/levers/code-inconsistent.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <sensoricon sensor="ZE PT1 ack" x="880" y="205" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/smallschematics/tracksegments/circuit-empty.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <sensoricon sensor="ZE PT2 ack" x="827" y="206" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/smallschematics/tracksegments/circuit-empty.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <sensoricon sensor="ZE PT3 ack" x="781" y="205" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/smallschematics/tracksegments/circuit-empty.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <sensoricon sensor="ZE PT3 Request" x="782" y="213" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/USS/plate/levers/code-press.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/USS/plate/levers/code.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/USS/plate/levers/code-unknown.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/USS/plate/levers/code-inconsistent.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <sensoricon sensor="ZE PT2 Request" x="825" y="213" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/USS/plate/levers/code-press.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/USS/plate/levers/code.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/USS/plate/levers/code-unknown.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/USS/plate/levers/code-inconsistent.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <sensoricon sensor="ZE PT1 Request" x="880" y="213" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/USS/plate/levers/code-press.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/USS/plate/levers/code.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/USS/plate/levers/code-unknown.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/USS/plate/levers/code-inconsistent.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <sensoricon sensor="ZE NX Passenger Request" x="1524" y="528" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/USS/plate/levers/code-press.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/USS/plate/levers/code.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/USS/plate/levers/code-unknown.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/USS/plate/levers/code-inconsistent.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <sensoricon sensor="ZE NX Freight A Request" x="1526" y="578" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/USS/plate/levers/code-press.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/USS/plate/levers/code.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/USS/plate/levers/code-unknown.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/USS/plate/levers/code-inconsistent.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <sensoricon sensor="ZE NX Freight B Request" x="1531" y="637" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/USS/plate/levers/code-press.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/USS/plate/levers/code.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/USS/plate/levers/code-unknown.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/USS/plate/levers/code-inconsistent.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <sensoricon sensor="ZE NX X Main 1 Request" x="1876" y="547" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/USS/plate/levers/code-press.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/USS/plate/levers/code.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/USS/plate/levers/code-unknown.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/USS/plate/levers/code-inconsistent.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <sensoricon sensor="ZE NX X Main 2 Request" x="1877" y="608" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/USS/plate/levers/code-press.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/USS/plate/levers/code.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/USS/plate/levers/code-unknown.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/USS/plate/levers/code-inconsistent.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <sensoricon sensor="ZE NX Debug P1 set" x="1691" y="285" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/mediumschematics/LEDs/GREENLED.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/mediumschematics/LEDs/whiteLED.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/mediumschematics/LEDs/GRAYLED.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/mediumschematics/LEDs/GRAYLED.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <sensoricon sensor="ZE NX Debug A1 set" x="1690" y="324" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/mediumschematics/LEDs/GREENLED.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/mediumschematics/LEDs/whiteLED.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/mediumschematics/LEDs/GRAYLED.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/mediumschematics/LEDs/GRAYLED.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <sensoricon sensor="ZE NX Debug B1 set" x="1691" y="365" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/mediumschematics/LEDs/GREENLED.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/mediumschematics/LEDs/whiteLED.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/mediumschematics/LEDs/GRAYLED.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/mediumschematics/LEDs/GRAYLED.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <sensoricon sensor="ZE NX Debug P2 set" x="1749" y="326" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/mediumschematics/LEDs/GREENLED.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/mediumschematics/LEDs/whiteLED.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/mediumschematics/LEDs/GRAYLED.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/mediumschematics/LEDs/GRAYLED.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <sensoricon sensor="ZE NX Debug A2 set" x="1749" y="366" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/mediumschematics/LEDs/GREENLED.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/mediumschematics/LEDs/whiteLED.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/mediumschematics/LEDs/GRAYLED.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/mediumschematics/LEDs/GRAYLED.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <sensoricon sensor="ZE NX Debug B2 set" x="1750" y="410" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/mediumschematics/LEDs/GREENLED.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/mediumschematics/LEDs/whiteLED.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/mediumschematics/LEDs/GRAYLED.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/mediumschematics/LEDs/GRAYLED.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <layoutturnout ident="TO1" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="913.5" ycen="282.5" xa="920.5" ya="300.5" xb="906.5" yb="264.5" xc="893.5" yc="282.5" xd="920.5" yd="300.5" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Zion Port PT23-PT1" connectaname="T5" connectbname="T4" connectcname="T1" />
+    <layoutturnout ident="TO2" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="852.5" ycen="262.5" xa="861.65" ya="282.79" xb="843.35" yb="242.21" xc="808.21" yc="262.79" xd="861.65" yd="282.79" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Zion Port PT2-PT3" connectaname="T1" connectbname="T3" connectcname="T2" />
+    <layoutturnout ident="TO3" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="980.0" ycen="398.0" xa="968.53" ya="381.62" xb="991.47" yb="414.38" xc="999.66" yc="408.65" xd="968.53" yd="381.62" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Zion East Branch East Port-Zion Mirror" secondturnoutname="Zion Branch East Port-Zion" secondturnoutinverted="true" connectaname="T5" connectbname="T6" connectcname="T8" />
+    <layoutturnout ident="TO6" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="328.0" ycen="77.0" xa="348.0" ya="77.0" xb="308.0" yb="77.0" xc="312.0" yc="62.0" xd="348.0" yd="77.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Zion Branch East P9-P8" connectaname="T15" connectbname="T11" connectcname="T12" />
+    <layoutturnout ident="TO10" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="620.0" ycen="112.0" xa="637.0" ya="130.0" xb="603.0" yb="94.0" xc="588.0" yc="112.0" xd="637.0" yd="130.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Zion Branch East P89-TE5" connectaname="T13" connectbname="T10" connectcname="T9" />
+    <layoutturnout ident="TO11" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="594.72" ycen="175.72" xa="612.87" ya="191.87" xb="576.57" yb="159.57" xc="568.5" yc="175.64" xd="612.87" yd="191.87" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Zion East TE4-3" connectaname="T18" connectbname="T23" connectcname="T20" />
+    <layoutturnout ident="TO12" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="626.0" ycen="206.0" xa="641.14" ya="221.14" xb="610.86" yb="190.86" xc="591.79" yc="205.93" xd="641.14" yd="221.14" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Zion East TE34-2" connectaname="T17" connectbname="T18" connectcname="T21" />
+    <layoutturnout ident="TO13" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="656.28" ycen="235.28" xa="671.42" ya="250.42" xb="641.14" yb="220.14" xc="624.07" yc="235.21" xd="671.42" yd="250.42" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Zion East TE234-1" connectaname="T34" connectbname="T17" connectcname="T22" />
+    <layoutturnout ident="TO15" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="866.0" ycen="484.0" xa="895.14" ya="495.14" xb="836.86" yb="472.86" xc="846.93" yc="467.79" xd="895.14" yd="495.14" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Zion East TE1234 - Passenger Lead" connectaname="T24" connectbname="T66" connectcname="T34" />
+    <layoutturnout ident="TO16" type="LH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="1346.0" ycen="476.0" xa="1337.37" ya="458.99" xb="1371.77" yb="458.93" xc="1354.63" yc="493.01" xd="1320.23" yd="493.07" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHXOverXml" turnoutname="Zion E Branch W main-siding" connectaname="T29" connectbname="T33" connectcname="T31" connectdname="T28" />
+    <layoutturnout ident="TO17" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="1686.0" ycen="493.0" xa="1706.0" ya="493.0" xb="1666.0" yb="493.0" xc="1678.0" yc="479.0" xd="1706.0" yd="493.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Zion E Branch E main-siding" connectaname="T107" connectbname="T31" connectcname="T30" />
+    <layoutturnout ident="TO18" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="606.72" ycen="295.72" xa="620.87" ya="309.87" xb="592.57" yb="281.57" xc="583.5" yc="295.64" xd="620.87" yd="309.87" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Zion East P6-7" connectaname="T35" connectbname="T49" connectcname="T45" />
+    <layoutturnout ident="TO19" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="635.0" ycen="324.0" xa="649.14" ya="338.14" xb="620.86" yb="309.86" xc="610.79" yc="323.93" xd="649.14" yd="338.14" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Zion East P5-67" connectaname="T36" connectbname="T35" connectcname="T44" />
+    <layoutturnout ident="TO20" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="695.0" ycen="385.0" xa="709.14" ya="399.14" xb="680.86" yb="370.86" xc="671.79" yc="384.93" xd="709.14" yd="399.14" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Zion East P34-567" connectaname="T37" connectbname="T36" connectcname="T38" />
+    <layoutturnout ident="TO22" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="634.79" ycen="384.87" xa="654.79" ya="384.93" xb="614.79" yb="384.81" xc="616.82" yc="365.81" xd="654.79" yd="384.93" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Zion East P3-4" connectaname="T38" connectbname="T42" connectcname="T48" />
+    <layoutturnout ident="TO23" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="689.8" ycen="445.76" xa="709.78" ya="445.92" xb="669.82" yb="445.6" xc="672.4" yc="430.61" xd="709.78" yd="445.92" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Zion East P2-1" connectaname="T39" connectbname="T40" connectcname="T47" />
+    <layoutturnout ident="TO24" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="530.0" ycen="594.0" xa="550.0" ya="594.0" xb="510.0" yb="594.0" xc="517.0" yc="584.0" xd="550.0" yd="594.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Zion East F5-678" connectaname="T70" connectbname="T63" connectcname="T59" />
+    <layoutturnout ident="TO29" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="406.0" ycen="505.0" xa="386.0" ya="505.0" xb="426.0" yb="505.0" xc="424.0" yc="516.0" xd="386.0" yd="505.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Zion East F7-8 Mirror" secondturnoutname="Zion East F7-8" secondturnoutinverted="true" connectaname="T60" connectbname="T68" connectcname="T57" />
+    <layoutturnout ident="TO30" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="451.89" ycen="534.94" xa="464.78" ya="543.88" xb="439.0" yb="526.0" xc="429.53" yc="534.94" xd="464.78" yd="543.88" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Zion East F7-8" secondturnoutname="Zion East F7-8 Mirror" secondturnoutinverted="true" connectaname="T58" connectbname="T57" connectcname="T61" />
+    <layoutturnout ident="TO31" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="494.67" ycen="565.83" xa="510.56" ya="576.77" xb="478.78" yb="554.89" xc="472.3" yc="565.83" xd="510.56" yd="576.77" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Zion East F6-78" connectaname="T59" connectbname="T58" connectcname="T62" />
+    <layoutturnout ident="TO32" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="944.0" ycen="588.0" xa="975.0" ya="595.0" xb="913.0" yb="581.0" xc="913.0" yc="594.0" xd="975.0" yd="595.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Zion East Freight B ladder - WEngine, Cab" connectaname="T82" connectbname="T64" connectcname="T74" />
+    <layoutturnout ident="TO33" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="859.47" ycen="564.67" xa="880.0" ya="574.0" xb="838.94" yb="555.34" xc="837.27" yc="565.48" xd="880.0" yd="574.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Zion East W Engine - Cab/Runaround" connectaname="T64" connectbname="T65" connectcname="T73" />
+    <layoutturnout ident="TO34" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="797.78" ycen="535.17" xa="817.95" ya="544.33" xb="777.61" yb="526.01" xc="776.56" yc="535.23" xd="817.95" yd="544.33" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Zion East Cab track - Runaround" connectaname="T65" connectbname="T67" connectcname="T69" />
+    <layoutturnout ident="TO35" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="629.0" ycen="586.0" xa="608.0" ya="594.0" xb="650.0" yb="578.0" xc="660.0" yc="594.0" xd="608.0" yd="594.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Zion East West engine pocket - Freight B" connectaname="T70" connectbname="T72" connectcname="T56" />
+    <layoutturnout ident="TO36" type="LH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="809.0" ycen="625.0" xa="785.81" ya="594.82" xb="877.02" yb="593.66" xc="832.19" yc="655.18" xd="740.98" yd="656.34" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHXOverXml" turnoutname="Zion East Z2 to Z1 West Xover - Straight" connectaname="T56" connectbname="T74" connectcname="T76" connectdname="T71" />
+    <layoutturnout ident="TO37" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="880.0" ycen="655.0" xa="860.0" ya="655.0" xb="900.0" yb="655.0" xc="899.0" yc="671.0" xd="860.0" yd="655.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Zion East East Eng pocket West D-N" connectaname="T76" connectbname="T77" connectcname="T78" />
+    <layoutturnout ident="TO38" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="1137.0" ycen="655.0" xa="1157.0" ya="655.0" xb="1117.0" yb="655.0" xc="1122.0" yc="672.0" xd="1157.0" yd="655.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Zion East East Eng pocket East D-N" connectaname="T84" connectbname="T77" connectcname="T80" />
+    <layoutturnout ident="TO39" type="RH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="1180.0" ycen="570.0" xa="1131.33" ya="545.6" xb="1196.4" yb="545.95" xc="1228.67" yc="594.4" xd="1163.6" yd="594.05" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHXOverXml" turnoutname="Zion East W 2 3 Cross" connectaname="T83" connectbname="T86" connectcname="T81" connectdname="T82" />
+    <layoutturnout ident="TO40" type="RH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="1304.0" ycen="625.0" xa="1241.4" ya="595.08" xb="1324.63" yb="594.59" xc="1366.6" yc="654.92" xd="1283.37" yd="655.41" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHXOverXml" turnoutname="Zion East Z1 to Z2 East Xover - Straight" connectaname="T81" connectbname="T87" connectcname="T88" connectdname="T84" />
+    <layoutturnout ident="TO41" type="RH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="1711.0" ycen="571.0" xa="1657.92" ya="545.16" xb="1729.23" yb="546.32" xc="1764.08" yc="596.84" xd="1692.77" yd="595.68" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHXOverXml" turnoutname="Yazoo 2-3 XOver D-N" connectaname="T86" connectbname="T89" connectcname="T90" connectdname="T85" />
+    <layoutturnout ident="TO42" type="LH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="1623.0" ycen="625.0" xa="1602.83" ya="594.68" xb="1683.91" yb="594.95" xc="1643.17" yc="655.32" xd="1562.09" yd="655.05" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHXOverXml" turnoutname="Yazoo 1-2 XOver D-N" connectaname="T87" connectbname="T85" connectcname="T97" connectdname="T88" />
+    <layoutturnout ident="TO43" type="WYE_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="1831.0" ycen="566.0" xa="1846.4" ya="565.13" xb="1815.09" yb="557.71" xc="1816.12" yc="576.03" xd="1846.91" yd="574.29" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutWyeXml" turnoutname="Yazoo E2 to W2-W3" connectaname="T93" connectbname="T96" connectcname="T95" />
+    <layoutturnout ident="TO44" type="WYE_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="1833.0" ycen="625.0" xa="1852.03" ya="625.98" xb="1814.65" yb="610.81" xc="1813.29" yc="637.22" xd="1851.35" yd="639.19" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutWyeXml" turnoutname="Yazoo E1 to W1-W2" connectaname="T92" connectbname="T94" connectcname="T91" />
+    <layoutturnout ident="TO46" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="2092.0" ycen="564.0" xa="2112.0" ya="564.0" xb="2072.0" yb="564.0" xc="2076.0" yc="579.0" xd="2112.0" yd="564.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Xerox 1-2" connectaname="T101" connectbname="T93" connectcname="T98" />
+    <layoutturnout ident="TO47" type="WYE_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="1786.0" ycen="596.0" xa="1764.64" ya="596.9" xb="1807.85" yb="606.69" xc="1806.87" yc="583.5" xd="1764.15" yd="585.31" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutWyeXml" turnoutname="Yazoo W2 to E1-E2" connectaname="T90" connectbname="T94" connectcname="T95" />
+    <layoutturnout ident="TO48" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="2662.0" ycen="565.0" xa="2682.0" ya="565.0" xb="2642.0" yb="565.0" xc="2649.0" yc="586.0" xd="2682.0" yd="565.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Whiskey E 12-Main" connectaname="T108" connectbname="T102" connectcname="T100" />
+    <layoutturnout ident="TO50" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="2283.0" ycen="565.0" xa="2263.0" ya="565.0" xb="2303.0" yb="565.0" xc="2301.0" yc="591.0" xd="2263.0" yd="565.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Whiskey W 12-Main" connectaname="T101" connectbname="T102" connectcname="T99" />
+    <layoutturnout ident="TO4" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="1151.0" ycen="486.0" xa="1186.0" ya="493.0" xb="1116.0" yb="479.0" xc="1101.0" yc="486.0" xd="1186.0" yd="493.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Zion Branch East Port-Zion" secondturnoutname="Zion East Branch East Port-Zion Mirror" secondturnoutinverted="true" connectaname="T28" connectbname="T8" connectcname="T7" />
+    <layoutturnout ident="TO5" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="757.0" ycen="452.0" xa="780.0" ya="457.0" xb="734.0" yb="447.0" xc="736.0" yc="428.0" xd="780.0" yd="457.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Zion East P34567-12" connectaname="T66" connectbname="T39" connectcname="T37" />
+    <layoutturnout ident="TO7" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="578.0" ycen="655.0" xa="598.0" ya="655.0" xb="558.0" yb="655.0" xc="564.0" yc="668.0" xd="598.0" yd="655.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Zion East F1-234" connectaname="T71" connectbname="T109" connectcname="T51" />
+    <layoutturnout ident="TO26" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="504.0" ycen="655.0" xa="524.0" ya="655.0" xb="484.0" yb="655.0" xc="490.0" yc="667.0" xd="524.0" yd="655.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Zion East F2-34" connectaname="T109" connectbname="T110" connectcname="T50" />
+    <layoutturnout ident="TO21" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="436.0" ycen="655.0" xa="456.0" ya="655.0" xb="416.0" yb="655.0" xc="424.0" yc="668.0" xd="456.0" yd="655.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Zion East F3-4" connectaname="T110" connectbname="T52" connectcname="T32" />
+    <layoutturnout ident="TO14" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="1092.0" ycen="535.0" xa="1112.79" ya="545.16" xb="1071.21" yb="524.84" xc="1060.63" yc="537.24" xd="1112.79" yd="545.16" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Zion East Zion - Port" connectaname="T83" connectbname="T27" connectcname="T26" />
+    <layoutturnout ident="TO25" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="2333.0" ycen="605.0" xa="2313.0" ya="605.0" xb="2353.0" yb="605.0" xc="2346.0" yc="622.0" xd="2313.0" yd="605.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Whiskey W 2-1" connectaname="T99" connectbname="T103" connectcname="T104" />
+    <layoutturnout ident="TO27" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="2615.0" ycen="606.0" xa="2635.0" ya="606.0" xb="2595.0" yb="606.0" xc="2605.0" yc="618.0" xd="2635.0" yd="606.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Whiskey E 2-1" connectaname="T100" connectbname="T103" connectcname="T106" />
+    <layoutturnout ident="TO8" type="RH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="938.0" ycen="478.0" xa="884.29" ya="426.75" xb="969.53" yb="458.55" xc="991.71" yc="529.25" xd="906.47" yd="497.45" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHXOverXml" turnoutname="Zion East Branch - Zion" connectaname="T13" connectbname="T14" connectcname="T26" connectdname="T24" />
+    <tracksegment ident="T1" connect1name="TO2" type1="TURNOUT_A" connect2name="TO1" type2="TURNOUT_C" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T2" connect1name="TO2" type1="TURNOUT_C" connect2name="EC4" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
+      <decorations>
+        <arrow style="1" end="stop" direction="out" color="#000000" linewidth="4" length="8" gap="1" />
+      </decorations>
+    </tracksegment>
+    <tracksegment ident="T3" connect1name="TO2" type1="TURNOUT_B" connect2name="EC5" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
+      <decorations>
+        <arrow style="1" end="stop" direction="out" color="#000000" linewidth="4" length="8" gap="1" />
+      </decorations>
+    </tracksegment>
+    <tracksegment ident="T4" connect1name="TO1" type1="TURNOUT_B" connect2name="EC6" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
+      <decorations>
+        <arrow style="1" end="stop" direction="out" color="#000000" linewidth="4" length="8" gap="1" />
+      </decorations>
+    </tracksegment>
+    <tracksegment ident="T5" connect1name="TO1" type1="TURNOUT_A" connect2name="TO3" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T6" connect1name="TO3" type1="TURNOUT_B" connect2name="X1" type2="LEVEL_XING_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T7" connect1name="X1" type1="LEVEL_XING_D" connect2name="TO4" type2="TURNOUT_C" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T8" connect1name="TO4" type1="TURNOUT_B" connect2name="TO3" type2="TURNOUT_C" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T9" connect1name="TO10" type1="TURNOUT_C" connect2name="EB3" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
+      <decorations>
+        <bumper end="stop" color="#000000" linewidth="8" length="8" />
+      </decorations>
+    </tracksegment>
+    <tracksegment ident="T10" connect1name="TO10" type1="TURNOUT_B" connect2name="A8" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T11" connect1name="TO6" type1="TURNOUT_B" connect2name="EB2" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
+      <decorations>
+        <bumper end="stop" color="#000000" linewidth="8" length="8" />
+      </decorations>
+    </tracksegment>
+    <tracksegment ident="T12" connect1name="TO6" type1="TURNOUT_C" connect2name="A9" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T13" connect1name="TO8" type1="TURNOUT_A" connect2name="TO10" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T14" connect1name="X1" type1="LEVEL_XING_B" connect2name="TO8" type2="TURNOUT_B" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T15" connect1name="A8" type1="POS_POINT" connect2name="TO6" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T16" connect1name="A9" type1="POS_POINT" connect2name="EB1" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
+      <decorations>
+        <bumper end="stop" color="#000000" linewidth="8" length="8" />
+      </decorations>
+    </tracksegment>
+    <tracksegment ident="T17" connect1name="TO13" type1="TURNOUT_B" connect2name="TO12" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T18" connect1name="TO11" type1="TURNOUT_A" connect2name="TO12" type2="TURNOUT_B" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T19" connect1name="EB4" type1="POS_POINT" connect2name="A10" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
+      <decorations>
+        <bumper end="start" color="#000000" linewidth="8" length="8" />
+      </decorations>
+    </tracksegment>
+    <tracksegment ident="T20" connect1name="EB5" type1="POS_POINT" connect2name="TO11" type2="TURNOUT_C" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
+      <decorations>
+        <bumper end="start" color="#000000" linewidth="8" length="8" />
+      </decorations>
+    </tracksegment>
+    <tracksegment ident="T21" connect1name="EB6" type1="POS_POINT" connect2name="TO12" type2="TURNOUT_C" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
+      <decorations>
+        <bumper end="start" color="#000000" linewidth="8" length="8" />
+      </decorations>
+    </tracksegment>
+    <tracksegment ident="T22" connect1name="EB7" type1="POS_POINT" connect2name="TO13" type2="TURNOUT_C" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
+      <decorations>
+        <bumper end="start" color="#000000" linewidth="8" length="8" />
+      </decorations>
+    </tracksegment>
+    <tracksegment ident="T23" connect1name="A10" type1="POS_POINT" connect2name="TO11" type2="TURNOUT_B" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T26" connect1name="TO14" type1="TURNOUT_C" connect2name="TO8" type2="TURNOUT_C" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T27" connect1name="TO14" type1="TURNOUT_B" connect2name="X1" type2="LEVEL_XING_C" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T28" connect1name="TO4" type1="TURNOUT_A" connect2name="TO16" type2="TURNOUT_D" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T29" connect1name="TO16" type1="TURNOUT_A" connect2name="EB8" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
+      <decorations>
+        <bumper end="stop" color="#000000" linewidth="8" length="8" />
+      </decorations>
+    </tracksegment>
+    <tracksegment ident="T30" connect1name="TO17" type1="TURNOUT_C" connect2name="A11" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T31" connect1name="TO17" type1="TURNOUT_B" connect2name="TO16" type2="TURNOUT_C" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T33" connect1name="A11" type1="POS_POINT" connect2name="TO16" type2="TURNOUT_B" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T34" connect1name="TO13" type1="TURNOUT_A" connect2name="TO15" type2="TURNOUT_C" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T35" connect1name="TO18" type1="TURNOUT_A" connect2name="TO19" type2="TURNOUT_B" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T36" connect1name="TO19" type1="TURNOUT_A" connect2name="TO20" type2="TURNOUT_B" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T37" connect1name="TO20" type1="TURNOUT_A" connect2name="TO5" type2="TURNOUT_C" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T38" connect1name="TO22" type1="TURNOUT_A" connect2name="TO20" type2="TURNOUT_C" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T39" connect1name="TO23" type1="TURNOUT_A" connect2name="TO5" type2="TURNOUT_B" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T40" connect1name="EB16" type1="POS_POINT" connect2name="TO23" type2="TURNOUT_B" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
+      <decorations>
+        <bumper end="start" color="#000000" linewidth="8" length="8" />
+      </decorations>
+    </tracksegment>
+    <tracksegment ident="T41" connect1name="EB15" type1="POS_POINT" connect2name="A12" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
+      <decorations>
+        <bumper end="start" color="#000000" linewidth="8" length="8" />
+      </decorations>
+    </tracksegment>
+    <tracksegment ident="T42" connect1name="EB14" type1="POS_POINT" connect2name="TO22" type2="TURNOUT_B" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
+      <decorations>
+        <bumper end="start" color="#000000" linewidth="8" length="8" />
+      </decorations>
+    </tracksegment>
+    <tracksegment ident="T43" connect1name="EB13" type1="POS_POINT" connect2name="A13" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
+      <decorations>
+        <bumper end="start" color="#000000" linewidth="8" length="8" />
+      </decorations>
+    </tracksegment>
+    <tracksegment ident="T44" connect1name="EB12" type1="POS_POINT" connect2name="TO19" type2="TURNOUT_C" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
+      <decorations>
+        <bumper end="start" color="#000000" linewidth="8" length="8" />
+      </decorations>
+    </tracksegment>
+    <tracksegment ident="T45" connect1name="EB11" type1="POS_POINT" connect2name="TO18" type2="TURNOUT_C" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
+      <decorations>
+        <bumper end="start" color="#000000" linewidth="8" length="8" />
+      </decorations>
+    </tracksegment>
+    <tracksegment ident="T46" connect1name="EB10" type1="POS_POINT" connect2name="A14" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
+      <decorations>
+        <bumper end="start" color="#000000" linewidth="8" length="8" />
+      </decorations>
+    </tracksegment>
+    <tracksegment ident="T47" connect1name="A12" type1="POS_POINT" connect2name="TO23" type2="TURNOUT_C" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T48" connect1name="A13" type1="POS_POINT" connect2name="TO22" type2="TURNOUT_C" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T49" connect1name="A14" type1="POS_POINT" connect2name="TO18" type2="TURNOUT_B" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T52" connect1name="EB21" type1="POS_POINT" connect2name="TO21" type2="TURNOUT_B" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
+      <decorations>
+        <bumper end="start" color="#000000" linewidth="8" length="8" />
+      </decorations>
+    </tracksegment>
+    <tracksegment ident="T53" connect1name="EB22" type1="POS_POINT" connect2name="A33" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
+      <decorations>
+        <bumper end="start" color="#000000" linewidth="8" length="8" />
+      </decorations>
+    </tracksegment>
+    <tracksegment ident="T54" connect1name="EB23" type1="POS_POINT" connect2name="A30" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
+      <decorations>
+        <bumper end="start" color="#000000" linewidth="8" length="8" />
+      </decorations>
+    </tracksegment>
+    <tracksegment ident="T55" connect1name="EB24" type1="POS_POINT" connect2name="A27" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
+      <decorations>
+        <bumper end="start" color="#000000" linewidth="8" length="8" />
+      </decorations>
+    </tracksegment>
+    <tracksegment ident="T57" connect1name="TO30" type1="TURNOUT_B" connect2name="TO29" type2="TURNOUT_C" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T58" connect1name="TO31" type1="TURNOUT_B" connect2name="TO30" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T59" connect1name="TO31" type1="TURNOUT_A" connect2name="TO24" type2="TURNOUT_C" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T60" connect1name="EB17" type1="POS_POINT" connect2name="TO29" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
+      <decorations>
+        <bumper end="start" color="#000000" linewidth="8" length="8" />
+      </decorations>
+    </tracksegment>
+    <tracksegment ident="T61" connect1name="TO30" type1="TURNOUT_C" connect2name="EB18" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
+      <decorations>
+        <bumper end="stop" color="#000000" linewidth="8" length="8" />
+      </decorations>
+    </tracksegment>
+    <tracksegment ident="T62" connect1name="EB19" type1="POS_POINT" connect2name="TO31" type2="TURNOUT_C" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
+      <decorations>
+        <bumper end="start" color="#000000" linewidth="8" length="8" />
+      </decorations>
+    </tracksegment>
+    <tracksegment ident="T63" connect1name="TO24" type1="TURNOUT_B" connect2name="EB20" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
+      <decorations>
+        <bumper end="stop" color="#000000" linewidth="8" length="8" />
+      </decorations>
+    </tracksegment>
+    <tracksegment ident="T65" connect1name="TO34" type1="TURNOUT_A" connect2name="TO33" type2="TURNOUT_B" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T66" connect1name="TO5" type1="TURNOUT_A" connect2name="TO15" type2="TURNOUT_B" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T67" connect1name="TO34" type1="TURNOUT_B" connect2name="A16" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T68" connect1name="A16" type1="POS_POINT" connect2name="TO29" type2="TURNOUT_B" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T69" connect1name="EB25" type1="POS_POINT" connect2name="TO34" type2="TURNOUT_C" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
+      <decorations>
+        <bumper end="start" color="#000000" linewidth="8" length="8" />
+      </decorations>
+    </tracksegment>
+    <tracksegment ident="T70" connect1name="TO24" type1="TURNOUT_A" connect2name="TO35" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T73" connect1name="A17" type1="POS_POINT" connect2name="TO33" type2="TURNOUT_C" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T71" connect1name="TO7" type1="TURNOUT_A" connect2name="TO36" type2="TURNOUT_D" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T76" connect1name="TO36" type1="TURNOUT_C" connect2name="TO37" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T77" connect1name="TO37" type1="TURNOUT_B" connect2name="TO38" type2="TURNOUT_B" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T78" connect1name="TO37" type1="TURNOUT_C" connect2name="A19" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T79" connect1name="A19" type1="POS_POINT" connect2name="A20" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T80" connect1name="A20" type1="POS_POINT" connect2name="TO38" type2="TURNOUT_C" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T81" connect1name="TO39" type1="TURNOUT_C" connect2name="TO40" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T82" connect1name="TO32" type1="TURNOUT_A" connect2name="TO39" type2="TURNOUT_D" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T83" connect1name="TO14" type1="TURNOUT_A" connect2name="TO39" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T84" connect1name="TO38" type1="TURNOUT_A" connect2name="TO40" type2="TURNOUT_D" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T85" connect1name="TO41" type1="TURNOUT_D" connect2name="TO42" type2="TURNOUT_B" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T86" connect1name="TO39" type1="TURNOUT_B" connect2name="TO41" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T87" connect1name="TO40" type1="TURNOUT_B" connect2name="TO42" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T88" connect1name="TO40" type1="TURNOUT_C" connect2name="TO42" type2="TURNOUT_D" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T89" connect1name="TO41" type1="TURNOUT_B" connect2name="A21" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T91" connect1name="TO44" type1="TURNOUT_C" connect2name="A22" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T92" connect1name="TO44" type1="TURNOUT_A" connect2name="A23" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T93" connect1name="TO43" type1="TURNOUT_A" connect2name="TO46" type2="TURNOUT_B" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T90" connect1name="TO47" type1="TURNOUT_A" connect2name="TO41" type2="TURNOUT_C" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T94" connect1name="TO47" type1="TURNOUT_B" connect2name="TO44" type2="TURNOUT_B" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T95" connect1name="TO47" type1="TURNOUT_C" connect2name="TO43" type2="TURNOUT_C" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T96" connect1name="A21" type1="POS_POINT" connect2name="TO43" type2="TURNOUT_B" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T97" connect1name="A22" type1="POS_POINT" connect2name="TO42" type2="TURNOUT_C" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T98" connect1name="A23" type1="POS_POINT" connect2name="TO46" type2="TURNOUT_C" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T99" connect1name="TO25" type1="TURNOUT_A" connect2name="TO50" type2="TURNOUT_C" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T100" connect1name="TO27" type1="TURNOUT_A" connect2name="TO48" type2="TURNOUT_C" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T101" connect1name="TO46" type1="TURNOUT_A" connect2name="TO50" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T102" connect1name="TO50" type1="TURNOUT_B" connect2name="TO48" type2="TURNOUT_B" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T103" connect1name="TO27" type1="TURNOUT_B" connect2name="TO25" type2="TURNOUT_B" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T104" connect1name="TO25" type1="TURNOUT_C" connect2name="A24" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T105" connect1name="A24" type1="POS_POINT" connect2name="A25" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T106" connect1name="A25" type1="POS_POINT" connect2name="TO27" type2="TURNOUT_C" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T107" connect1name="TO17" type1="TURNOUT_A" connect2name="EC2" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
+      <decorations>
+        <arrow style="1" end="stop" direction="out" color="#000000" linewidth="5" length="8" gap="1" />
+      </decorations>
+    </tracksegment>
+    <tracksegment ident="T108" connect1name="TO48" type1="TURNOUT_A" connect2name="EC1" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
+      <decorations>
+        <arrow style="1" end="stop" direction="out" color="#000000" linewidth="4" length="8" gap="1" />
+      </decorations>
+    </tracksegment>
+    <tracksegment ident="T109" connect1name="TO26" type1="TURNOUT_A" connect2name="TO7" type2="TURNOUT_B" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T110" connect1name="TO21" type1="TURNOUT_A" connect2name="TO26" type2="TURNOUT_B" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T32" connect1name="A33" type1="POS_POINT" connect2name="TO21" type2="TURNOUT_C" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T50" connect1name="A30" type1="POS_POINT" connect2name="TO26" type2="TURNOUT_C" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T51" connect1name="A27" type1="POS_POINT" connect2name="TO7" type2="TURNOUT_C" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T56" connect1name="TO36" type1="TURNOUT_A" connect2name="TO35" type2="TURNOUT_C" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T72" connect1name="TO35" type1="TURNOUT_B" connect2name="A17" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T64" connect1name="TO33" type1="TURNOUT_A" connect2name="TO32" type2="TURNOUT_B" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T74" connect1name="TO32" type1="TURNOUT_C" connect2name="TO36" type2="TURNOUT_B" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T24" connect1name="TO8" type1="TURNOUT_D" connect2name="TO15" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <positionablepoint ident="EC4" type="EDGE_CONNECTOR" x="733.5" y="84.5" connect1name="T2" linkedpanel="" linkpointid="" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EC5" type="EDGE_CONNECTOR" x="785.5" y="85.5" connect1name="T3" linkedpanel="" linkpointid="" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EC6" type="EDGE_CONNECTOR" x="834.5" y="83.5" connect1name="T4" linkedpanel="" linkpointid="" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB1" type="END_BUMPER" x="52.0" y="44.0" connect1name="T16" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB2" type="END_BUMPER" x="52.0" y="76.0" connect1name="T11" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB3" type="END_BUMPER" x="392.0" y="111.0" connect1name="T9" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A8" type="ANCHOR" x="591.0" y="79.0" connect1name="T10" connect2name="T15" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A9" type="ANCHOR" x="292.0" y="44.0" connect1name="T12" connect2name="T16" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB4" type="END_BUMPER" x="392.0" y="145.0" connect1name="T19" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB5" type="END_BUMPER" x="392.0" y="176.0" connect1name="T20" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB6" type="END_BUMPER" x="393.0" y="206.0" connect1name="T21" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB7" type="END_BUMPER" x="393.0" y="235.0" connect1name="T22" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A10" type="ANCHOR" x="562.79" y="145.79" connect1name="T19" connect2name="T23" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB8" type="END_BUMPER" x="1275.0" y="459.0" connect1name="T29" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A11" type="ANCHOR" x="1666.5" y="460.0" connect1name="T30" connect2name="T33" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB10" type="END_BUMPER" x="52.0" y="266.0" connect1name="T46" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB11" type="END_BUMPER" x="52.0" y="296.0" connect1name="T45" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB12" type="END_BUMPER" x="52.0" y="325.0" connect1name="T44" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB13" type="END_BUMPER" x="51.0" y="354.0" connect1name="T43" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB14" type="END_BUMPER" x="51.0" y="385.0" connect1name="T42" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB15" type="END_BUMPER" x="51.0" y="416.0" connect1name="T41" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB16" type="END_BUMPER" x="52.0" y="446.0" connect1name="T40" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A12" type="ANCHOR" x="651.2" y="413.8" connect1name="T41" connect2name="T47" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A13" type="ANCHOR" x="601.41" y="353.4" connect1name="T43" connect2name="T48" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A14" type="ANCHOR" x="580.29" y="267.29" connect1name="T46" connect2name="T49" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB17" type="END_BUMPER" x="52.0" y="505.0" connect1name="T60" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB18" type="END_BUMPER" x="52.0" y="535.0" connect1name="T61" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB19" type="END_BUMPER" x="52.0" y="565.0" connect1name="T62" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB20" type="END_BUMPER" x="52.0" y="596.0" connect1name="T63" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB21" type="END_BUMPER" x="52.0" y="656.0" connect1name="T52" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB22" type="END_BUMPER" x="52.0" y="685.0" connect1name="T53" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB23" type="END_BUMPER" x="52.0" y="715.0" connect1name="T54" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB24" type="END_BUMPER" x="52.0" y="745.0" connect1name="T55" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A16" type="ANCHOR" x="738.81" y="505.5" connect1name="T67" connect2name="T68" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB25" type="END_BUMPER" x="532.0" y="536.0" connect1name="T69" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A17" type="ANCHOR" x="678.64" y="565.74" connect1name="T73" connect2name="T72" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A19" type="ANCHOR" x="919.5" y="687.5" connect1name="T78" connect2name="T79" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A20" type="ANCHOR" x="1109.25" y="687.75" connect1name="T79" connect2name="T80" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A21" type="ANCHOR" x="1793.16" y="545.01" connect1name="T89" connect2name="T96" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A22" type="ANCHOR" x="1791.23" y="654.27" connect1name="T91" connect2name="T97" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A23" type="ANCHOR" x="2034.02" y="624.99" connect1name="T92" connect2name="T98" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A24" type="ANCHOR" x="2362.5" y="644.04" connect1name="T104" connect2name="T105" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A25" type="ANCHOR" x="2581.5" y="644.54" connect1name="T105" connect2name="T106" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EC1" type="EDGE_CONNECTOR" x="2820.0" y="565.0" connect1name="T108" linkedpanel="" linkpointid="" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EC2" type="EDGE_CONNECTOR" x="1819.0" y="494.0" connect1name="T107" linkedpanel="" linkpointid="" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A27" type="ANCHOR" x="485.0" y="745.0" connect1name="T55" connect2name="T51" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A30" type="ANCHOR" x="440.0" y="716.0" connect1name="T54" connect2name="T50" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A33" type="ANCHOR" x="403.0" y="686.0" connect1name="T53" connect2name="T32" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <levelxing ident="X1" connectaname="T6" connectbname="T14" connectcname="T27" connectdname="T7" xcen="1024.0" ycen="474.0" xa="1008.0" ya="451.0" xb="996.0" yb="466.0" class="jmri.jmrit.display.layoutEditor.configurexml.LevelXingXml" />
+  </LayoutEditor>
 </layout-config>

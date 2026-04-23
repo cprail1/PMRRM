@@ -24,16 +24,16 @@ class WWLdriver(jmri.jmrit.automat.AbstractAutomaton) :
         W1Lamp = sensors.getSensor("ZE W1 ack")
         
         # get inputs to process
-        W123 = turnouts.getTurnout("Whiskey 12-3").state
-        W12 = turnouts.getTurnout("Whiskey 1-2").state      
+        W123 = turnouts.getTurnout("Whiskey W 12-Main").state
+        W12 = turnouts.getTurnout("Whiskey W 2-1").state      
         
         # compute yard configuration
-        if W123 == CLOSED : # track 3
+        if W123 == CLOSED : # originally track 3; now Main
             W3Lamp.state = INACTIVE; W2Lamp.state = INACTIVE; W1Lamp.state = ACTIVE
         elif W123 == THROWN:
             if W12 == CLOSED : # track 2
                 W3Lamp.state = INACTIVE; W2Lamp.state = ACTIVE; W1Lamp.state = INACTIVE
-            elif W12 == THROWN : # track 1
+            elif W12 == THROWN : # originally track 1; now track 3
                 W3Lamp.state = ACTIVE; W2Lamp.state = INACTIVE; W1Lamp.state = INACTIVE
         # UNKNOWN, INCONSISTENT fall through                       
 
