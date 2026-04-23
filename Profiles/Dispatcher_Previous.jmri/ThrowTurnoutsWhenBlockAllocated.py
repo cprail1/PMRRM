@@ -46,7 +46,8 @@ ThrowTurnoutsWhenBlockAllocated("Whiskey siding 2", ["Whiskey Grain silo", "Whis
 
 ThrowTurnoutsWhenBlockAllocated("Troy main", ["Troy station"])
 
-ThrowTurnoutsWhenBlockAllocated("Sierra siding", ["Sierra E 2"])
+ThrowTurnoutsWhenBlockAllocated("Sierra siding east", ["Sierra E 2"])
+ThrowTurnoutsWhenBlockAllocated("Sierra siding west", ["Sierra W 2"])
 ThrowTurnoutsWhenBlockAllocated("Sierra main", ["Sierra camp spur (Bob G guess )"])
 
 ThrowTurnoutsWhenBlockAllocated("Powderhorn main", ["Powderhorn crossover main", "Powderhorn housetrack"])
