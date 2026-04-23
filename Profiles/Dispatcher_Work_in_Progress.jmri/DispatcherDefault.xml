@@ -572,16 +572,19 @@
     </sensor>
     <sensor inverted="false">
       <systemName>LS136</systemName>
+      <comment>Maybe Colton CP 4</comment>
     </sensor>
     <sensor inverted="false">
       <systemName>LS137</systemName>
+      <userName>Colton CP 3</userName>
     </sensor>
     <sensor inverted="false">
       <systemName>LS138</systemName>
+      <userName>Colton CP 2</userName>
     </sensor>
     <sensor inverted="false">
       <systemName>LS139</systemName>
-      <userName>Colton CP</userName>
+      <userName>Colton CP 1</userName>
       <comment>Doesn't change anything on screen</comment>
       <useGlobalDebounceTimer>yes</useGlobalDebounceTimer>
     </sensor>
@@ -12244,7 +12247,7 @@
       <systemName>IB43</systemName>
       <userName>Colton CP</userName>
       <permissive>no</permissive>
-      <occupancysensor>Colton CP</occupancysensor>
+      <occupancysensor>Colton CP 1</occupancysensor>
     </block>
     <block systemName="IB44" length="7620.0" curve="0">
       <systemName>IB44</systemName>
@@ -14938,7 +14941,7 @@
       <systemName>ILB43</systemName>
       <userName>Delta 1</userName>
     </layoutblock>
-    <layoutblock systemName="ILB44" occupancysensor="Delta 2" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="#BEBEFF" memory="Delta main 2">
+    <layoutblock systemName="ILB44" occupancysensor="Delta 2" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Delta main 2">
       <systemName>ILB44</systemName>
       <userName>Delta 2</userName>
     </layoutblock>
@@ -24540,17 +24543,17 @@
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Thu Apr 16 13:18:34 PDT 2026</date>
+      <date>Thu Apr 23 11:56:24 PDT 2026</date>
       <filename>PanelPro (v5.15.5)</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Thu Apr 16 13:18:43 PDT 2026</date>
+      <date>Thu Apr 23 11:56:34 PDT 2026</date>
       <filename>/C:/Users/Electrical Crew/OneDrive/PMRRM-repository/Profiles/Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Thu Apr 16 13:50:48 PDT 2026</date>
+      <date>Thu Apr 23 13:43:30 PDT 2026</date>
       <filename>C:\Users\Electrical Crew\OneDrive\PMRRM-repository\Profiles\Dispatcher_Work_in_Progress.jmri\DispatcherDefault.xml</filename>
     </operation>
   </filehistory>
