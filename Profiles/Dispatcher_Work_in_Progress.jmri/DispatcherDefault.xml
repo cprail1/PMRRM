@@ -4,8 +4,8 @@
   <jmriversion>
     <major>5</major>
     <minor>15</minor>
-    <test>5</test>
-    <modifier />
+    <test>6</test>
+    <modifier>plus</modifier>
   </jmriversion>
   <sensors class="jmri.jmrix.loconet.configurexml.LnSensorManagerXml">
     <globalDebounceTimers>
@@ -544,7 +544,7 @@
     <sensor inverted="false">
       <systemName>LS128</systemName>
       <userName>Delta CP</userName>
-      <comment>Does not change anything on panel</comment>
+      <comment>Currently handles all four Delta CP tracks</comment>
       <useGlobalDebounceTimer>yes</useGlobalDebounceTimer>
     </sensor>
     <sensor inverted="false">
@@ -572,7 +572,8 @@
     </sensor>
     <sensor inverted="false">
       <systemName>LS136</systemName>
-      <comment>Maybe Colton CP 4</comment>
+      <userName>Colton CP 4</userName>
+      <comment>Maybe? Stuck on 2026-04-23</comment>
     </sensor>
     <sensor inverted="false">
       <systemName>LS137</systemName>
@@ -12254,12 +12255,12 @@
       <userName>Delta 1</userName>
       <permissive>no</permissive>
       <occupancysensor>Delta 1</occupancysensor>
+      <path todir="128" fromdir="64" block="IB48" />
       <path todir="64" fromdir="128" block="IB113">
         <beansetting setting="4">
           <turnout systemName="Colton Ind W" />
         </beansetting>
       </path>
-      <path todir="128" fromdir="64" block="IB:AUTO:0012" />
       <path todir="64" fromdir="128" block="IB:AUTO:0037">
         <beansetting setting="2">
           <turnout systemName="Colton Ind W" />
@@ -12271,7 +12272,7 @@
       <userName>Delta 2</userName>
       <permissive>no</permissive>
       <occupancysensor>Delta 2</occupancysensor>
-      <path todir="128" fromdir="64" block="IB:AUTO:0013">
+      <path todir="128" fromdir="64" block="IB48">
         <beansetting setting="2">
           <turnout systemName="Delta 1 to 2" />
         </beansetting>
@@ -12287,7 +12288,7 @@
       <userName>Delta 3</userName>
       <permissive>no</permissive>
       <occupancysensor>Delta 3</occupancysensor>
-      <path todir="128" fromdir="64" block="IB:AUTO:0014">
+      <path todir="128" fromdir="64" block="IB48">
         <beansetting setting="2">
           <turnout systemName="Delta 4 to 3" />
         </beansetting>
@@ -12303,6 +12304,11 @@
       <userName>Delta 4</userName>
       <permissive>no</permissive>
       <occupancysensor>Delta 4</occupancysensor>
+      <path todir="128" fromdir="64" block="IB48">
+        <beansetting setting="2">
+          <turnout systemName="LT19" />
+        </beansetting>
+      </path>
       <path todir="128" fromdir="64" block="IB111">
         <beansetting setting="4">
           <turnout systemName="LT19" />
@@ -12311,11 +12317,6 @@
       <path todir="64" fromdir="128" block="IB112">
         <beansetting setting="4">
           <turnout systemName="LT18" />
-        </beansetting>
-      </path>
-      <path todir="128" fromdir="64" block="IB:AUTO:0015">
-        <beansetting setting="2">
-          <turnout systemName="LT19" />
         </beansetting>
       </path>
       <path todir="128" fromdir="64" block="IB:AUTO:0040">
@@ -12327,34 +12328,68 @@
     <block systemName="IB48" length="3556.0" curve="0">
       <systemName>IB48</systemName>
       <userName>Delta CP</userName>
+      <comment>Handles all four tracks now</comment>
       <permissive>no</permissive>
       <occupancysensor>Delta CP</occupancysensor>
+      <path todir="64" fromdir="128" block="IB44" />
+      <path todir="64" fromdir="128" block="IB45">
+        <beansetting setting="2">
+          <turnout systemName="Delta 1 to 2" />
+        </beansetting>
+        <beansetting setting="2">
+          <turnout systemName="Delta 3 to 2" />
+        </beansetting>
+      </path>
+      <path todir="64" fromdir="128" block="IB46">
+        <beansetting setting="2">
+          <turnout systemName="Delta 4 to 3" />
+        </beansetting>
+      </path>
+      <path todir="64" fromdir="128" block="IB47" />
+      <path todir="128" fromdir="64" block="IB49" />
+      <path todir="128" fromdir="64" block="IB50">
+        <beansetting setting="2">
+          <turnout systemName="Delta 2 to 1" />
+        </beansetting>
+      </path>
+      <path todir="128" fromdir="64" block="IB51">
+        <beansetting setting="2">
+          <turnout systemName="Delta 3 to 2" />
+        </beansetting>
+      </path>
+      <path todir="128" fromdir="64" block="IB96">
+        <beansetting setting="2">
+          <turnout systemName="Delta 4 to 3" />
+        </beansetting>
+      </path>
+      <path todir="16" fromdir="32" block="IB:AUTO:0014" />
+      <path todir="16" fromdir="32" block="IB:AUTO:0014" />
     </block>
     <block systemName="IB49" length="6096.0" curve="0">
       <systemName>IB49</systemName>
       <userName>Echo 1</userName>
       <permissive>no</permissive>
       <occupancysensor>Echo 1</occupancysensor>
+      <path todir="64" fromdir="128" block="IB48" />
       <path todir="128" fromdir="64" block="IB52">
         <beansetting setting="2">
           <turnout systemName="Echo 1" />
         </beansetting>
       </path>
-      <path todir="64" fromdir="128" block="IB:AUTO:0011" />
     </block>
     <block systemName="IB50" length="6096.0" curve="0">
       <systemName>IB50</systemName>
       <userName>Echo 2</userName>
       <permissive>no</permissive>
       <occupancysensor>Echo 2</occupancysensor>
+      <path todir="64" fromdir="128" block="IB48">
+        <beansetting setting="2">
+          <turnout systemName="Delta 2 to 1" />
+        </beansetting>
+      </path>
       <path todir="128" fromdir="64" block="IB52">
         <beansetting setting="2">
           <turnout systemName="Echo 2" />
-        </beansetting>
-      </path>
-      <path todir="64" fromdir="128" block="IB:AUTO:0013">
-        <beansetting setting="2">
-          <turnout systemName="Delta 2 to 1" />
         </beansetting>
       </path>
     </block>
@@ -12363,6 +12398,14 @@
       <userName>Echo 3</userName>
       <permissive>no</permissive>
       <occupancysensor>Echo 3</occupancysensor>
+      <path todir="64" fromdir="128" block="IB48">
+        <beansetting setting="2">
+          <turnout systemName="Delta 3 to 2" />
+        </beansetting>
+        <beansetting setting="2">
+          <turnout systemName="Echo Street" />
+        </beansetting>
+      </path>
       <path todir="128" fromdir="64" block="IB52">
         <beansetting setting="4">
           <turnout systemName="Echo 2" />
@@ -12370,14 +12413,6 @@
       </path>
       <path todir="64" fromdir="128" block="IB119">
         <beansetting setting="4">
-          <turnout systemName="Echo Street" />
-        </beansetting>
-      </path>
-      <path todir="64" fromdir="128" block="IB:AUTO:0014">
-        <beansetting setting="2">
-          <turnout systemName="Delta 3 to 2" />
-        </beansetting>
-        <beansetting setting="2">
           <turnout systemName="Echo Street" />
         </beansetting>
       </path>
@@ -13065,14 +13100,14 @@
       <systemName>IB96</systemName>
       <userName>AUTOBLK:113</userName>
       <permissive>no</permissive>
+      <path todir="64" fromdir="128" block="IB48">
+        <beansetting setting="2">
+          <turnout systemName="Delta 4 to 3" />
+        </beansetting>
+      </path>
       <path todir="128" fromdir="64" block="IB119">
         <beansetting setting="4">
           <turnout systemName="Short Line to Delta 4" />
-        </beansetting>
-      </path>
-      <path todir="64" fromdir="128" block="IB:AUTO:0015">
-        <beansetting setting="2">
-          <turnout systemName="Delta 4 to 3" />
         </beansetting>
       </path>
     </block>
@@ -14229,13 +14264,14 @@
     <block systemName="IB:AUTO:0011" length="0.0" curve="0">
       <systemName>IB:AUTO:0011</systemName>
       <userName>CP DL1</userName>
+      <comment>Not in use due to wiring</comment>
       <permissive>no</permissive>
-      <path todir="128" fromdir="64" block="IB49" />
-      <path todir="64" fromdir="128" block="IB:AUTO:0012">
+      <path todir="64" fromdir="128" block="IB48">
         <beansetting setting="2">
           <turnout systemName="Delta 2 to 1" />
         </beansetting>
       </path>
+      <path todir="128" fromdir="64" block="IB49" />
       <path todir="64" fromdir="128" block="IB:AUTO:0013">
         <beansetting setting="4">
           <turnout systemName="Delta 2 to 1" />
@@ -14245,9 +14281,14 @@
     <block systemName="IB:AUTO:0012" length="0.0" curve="0">
       <systemName>IB:AUTO:0012</systemName>
       <userName>CP DR1</userName>
+      <comment>Not in use due to wiring</comment>
       <permissive>no</permissive>
       <path todir="64" fromdir="128" block="IB44" />
-      <path todir="128" fromdir="64" block="IB:AUTO:0011" />
+      <path todir="128" fromdir="64" block="IB48">
+        <beansetting setting="2">
+          <turnout systemName="Delta 1 to 2" />
+        </beansetting>
+      </path>
       <path todir="128" fromdir="64" block="IB:AUTO:0013">
         <beansetting setting="4">
           <turnout systemName="Delta 1 to 2" />
@@ -14257,64 +14298,23 @@
     <block systemName="IB:AUTO:0013" length="0.0" curve="0">
       <systemName>IB:AUTO:0013</systemName>
       <userName>CP D2</userName>
+      <comment>Not in use due to wiring</comment>
       <permissive>no</permissive>
-      <path todir="64" fromdir="128" block="IB45">
-        <beansetting setting="2">
-          <turnout systemName="Delta 1 to 2" />
-        </beansetting>
-        <beansetting setting="2">
-          <turnout systemName="Delta 3 to 2" />
-        </beansetting>
-      </path>
-      <path todir="128" fromdir="64" block="IB50">
-        <beansetting setting="2">
-          <turnout systemName="Delta 2 to 1" />
-        </beansetting>
-      </path>
-      <path todir="128" fromdir="64" block="IB:AUTO:0011">
-        <beansetting setting="4">
-          <turnout systemName="Delta 2 to 1" />
-        </beansetting>
-      </path>
-      <path todir="64" fromdir="128" block="IB:AUTO:0012">
-        <beansetting setting="4">
-          <turnout systemName="Delta 1 to 2" />
-        </beansetting>
-      </path>
-      <path todir="64" fromdir="128" block="IB:AUTO:0014">
-        <beansetting setting="4">
-          <turnout systemName="Delta 3 to 2" />
-        </beansetting>
-      </path>
+      <path todir="64" fromdir="128" block="IB48" />
+      <path todir="128" fromdir="64" block="IB48" />
     </block>
     <block systemName="IB:AUTO:0014" length="0.0" curve="0">
       <systemName>IB:AUTO:0014</systemName>
       <userName>CP D3</userName>
+      <comment>Not in use due to wiring</comment>
       <permissive>no</permissive>
-      <path todir="64" fromdir="128" block="IB46">
-        <beansetting setting="2">
-          <turnout systemName="Delta 4 to 3" />
-        </beansetting>
-      </path>
-      <path todir="128" fromdir="64" block="IB51">
-        <beansetting setting="2">
-          <turnout systemName="Delta 3 to 2" />
-        </beansetting>
-      </path>
-      <path todir="128" fromdir="64" block="IB:AUTO:0013">
-        <beansetting setting="4">
-          <turnout systemName="Delta 3 to 2" />
-        </beansetting>
-      </path>
-      <path todir="64" fromdir="128" block="IB:AUTO:0015">
-        <beansetting setting="4">
-          <turnout systemName="Delta 4 to 3" />
-        </beansetting>
-      </path>
+      <path todir="32" fromdir="16" block="IB48" />
+      <path todir="32" fromdir="16" block="IB48" />
     </block>
     <block systemName="IB:AUTO:0015" length="0.0" curve="0">
       <systemName>IB:AUTO:0015</systemName>
       <userName>CP D4</userName>
+      <comment>Not in use due to wiring</comment>
       <permissive>no</permissive>
       <path todir="64" fromdir="128" block="IB47" />
       <path todir="128" fromdir="64" block="IB96">
@@ -15087,10 +15087,6 @@
       <systemName>ILB79</systemName>
       <userName>Midway yard</userName>
     </layoutblock>
-    <layoutblock systemName="ILB80" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="white">
-      <systemName>ILB80</systemName>
-      <userName>CP DL1</userName>
-    </layoutblock>
     <layoutblock systemName="ILB81" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="white">
       <systemName>ILB81</systemName>
       <userName>AUTOBLK:81</userName>
@@ -15107,18 +15103,9 @@
       <systemName>ILB84</systemName>
       <userName>Bend CP3-L</userName>
     </layoutblock>
-    <layoutblock systemName="ILB85" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="white">
-      <systemName>ILB85</systemName>
-      <userName>CP DR1</userName>
-    </layoutblock>
     <layoutblock systemName="ILB86" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="white">
       <systemName>ILB86</systemName>
       <userName>AUTOBLK:86</userName>
-    </layoutblock>
-    <layoutblock systemName="ILB87" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="white">
-      <systemName>ILB87</systemName>
-      <userName>CP D2</userName>
-      <metric>75</metric>
     </layoutblock>
     <layoutblock systemName="ILB88" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="white">
       <systemName>ILB88</systemName>
@@ -15139,10 +15126,6 @@
     <layoutblock systemName="ILB92" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="white">
       <systemName>ILB92</systemName>
       <userName>Colton CP1-R</userName>
-    </layoutblock>
-    <layoutblock systemName="ILB93" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="white">
-      <systemName>ILB93</systemName>
-      <userName>CP D4</userName>
     </layoutblock>
     <layoutblock systemName="ILB94" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="white">
       <systemName>ILB94</systemName>
@@ -15585,6 +15568,10 @@
       <systemName>ILB203</systemName>
       <userName>Midway East P 1 Stopping Block</userName>
     </layoutblock>
+    <layoutblock systemName="ILB204" occupancysensor="Delta CP" occupiedsense="2" trackcolor="black" occupiedcolor="black" extracolor="green">
+      <systemName>ILB204</systemName>
+      <userName>Delta CP</userName>
+    </layoutblock>
   </layoutblocks>
   <signalelements class="jmri.jmrit.blockboss.configurexml.BlockBossLogicProviderXml">
     <signalelement signal="E Xerox Main" mode="2" watchedturnout="Xerox E" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false">
@@ -15986,52 +15973,10 @@
   </signalmastlogics>
   <meters class="jmri.managers.configurexml.AbstractMeterManagerXml">
     <meter>
-      <systemName>LVDB210(s/n211)InputCurrent</systemName>
+      <systemName>LVDCS240+(s/n5382)InputCurrent</systemName>
     </meter>
     <meter>
-      <systemName>LVDB210(s/n211)Voltage</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDB210(s/n37)InputCurrent</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDB210(s/n37)Voltage</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDB210(s/n387)InputCurrent</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDB210(s/n387)Voltage</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDB210(s/n397)InputCurrent</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDB210(s/n397)Voltage</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDB210(s/n407)InputCurrent</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDB210(s/n407)Voltage</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDB210(s/n474)InputCurrent</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDB210(s/n474)Voltage</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDB210(s/n489)InputCurrent</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDB210(s/n489)Voltage</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDCS240(s/n1436)InputCurrent</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDCS240(s/n1436)Voltage</systemName>
+      <systemName>LVDCS240+(s/n5382)Voltage</systemName>
     </meter>
   </meters>
   <logixs class="jmri.managers.configurexml.DefaultLogixManagerXml">
@@ -16894,7 +16839,6 @@
       <tooltip>Text Label</tooltip>
     </positionablelabel>
   </paneleditor>
-
   <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Midway Engine Service" x="6" y="33" windowheight="726" windowwidth="1719" panelheight="577" panelwidth="1449" sliders="yes" scrollable="both" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="no" snaponmove="no" antialiasing="yes" turnoutcircles="no" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="2.0" yscale="2.0" sidetrackwidth="2" defaulttrackcolor="darkGray" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclesize="4" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="192" greenBackground="192" blueBackground="192" gridSize="8" gridSize2nd="8" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="Midway Freight" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
@@ -17073,9 +17017,7 @@
       <raytrack angle="320.0" index="15" />
     </layoutturntable>
   </LayoutEditor>
-
-
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Midway Freight" x="566" y="115" windowheight="668" windowwidth="1712" panelheight="532" panelwidth="2552" sliders="yes" scrollable="both" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="no" snaponmove="no" antialiasing="no" turnoutcircles="no" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="2.0" yscale="2.0" sidetrackwidth="2" defaulttrackcolor="darkGray" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclesize="4" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="192" greenBackground="192" blueBackground="192" gridSize="10" gridSize2nd="10" openDispatcher="no" useDirectTurnoutControl="no">
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Midway Freight" x="0" y="33" windowheight="668" windowwidth="1728" panelheight="532" panelwidth="2552" sliders="yes" scrollable="both" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="no" snaponmove="no" antialiasing="no" turnoutcircles="no" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="2.0" yscale="2.0" sidetrackwidth="2" defaulttrackcolor="darkGray" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclesize="4" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="192" greenBackground="192" blueBackground="192" gridSize="10" gridSize2nd="10" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="Midway Freight" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
       <mainBallastWidth>0</mainBallastWidth>
@@ -17264,7 +17206,7 @@
     <positionablepoint ident="A9" type="ANCHOR" x="1652.0" y="64.0" connect1name="T52" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A10" type="ANCHOR" x="900.0" y="460.5" connect1name="T29" connect2name="T53" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
   </LayoutEditor>
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Port Area" x="1384" y="612" windowheight="558" windowwidth="1189" panelheight="416" panelwidth="1035" sliders="yes" scrollable="both" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="no" antialiasing="no" turnoutcircles="no" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="gray" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclesize="4" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="192" greenBackground="192" blueBackground="192" gridSize="10" gridSize2nd="10" openDispatcher="no" useDirectTurnoutControl="no">
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Port Area" x="0" y="33" windowheight="558" windowwidth="1189" panelheight="416" panelwidth="1035" sliders="yes" scrollable="both" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="no" antialiasing="no" turnoutcircles="no" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="gray" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclesize="4" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="192" greenBackground="192" blueBackground="192" gridSize="10" gridSize2nd="10" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="Port Area" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
       <mainBallastWidth>0</mainBallastWidth>
@@ -17448,7 +17390,7 @@
     <positionablepoint ident="A9" type="ANCHOR" x="150.0" y="221.0" connect1name="T3" connect2name="T1" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="EB13" type="END_BUMPER" x="10.0" y="260.0" connect1name="T6" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
   </LayoutEditor>
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="PMRRM Dispatcher" x="2560" y="25" windowheight="1407" windowwidth="2551" panelheight="797" panelwidth="1450" sliders="yes" scrollable="both" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="yes" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="green" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclethrowncolor="orange" turnoutcirclesize="2" turnoutdrawunselectedleg="no" turnoutbx="7.0" turnoutcx="14.0" turnoutwid="14.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="yes" redBackground="192" greenBackground="192" blueBackground="192" gridSize="5" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="PMRRM Dispatcher" x="0" y="33" windowheight="1389" windowwidth="2481" panelheight="797" panelwidth="1450" sliders="yes" scrollable="both" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="yes" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="green" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclethrowncolor="orange" turnoutcirclesize="2" turnoutdrawunselectedleg="no" turnoutbx="7.0" turnoutcx="14.0" turnoutwid="14.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="yes" redBackground="192" greenBackground="192" blueBackground="192" gridSize="5" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="PMRRM Dispatcher" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
       <mainBallastWidth>0</mainBallastWidth>
@@ -20482,18 +20424,18 @@
     <layoutturnout ident="TO59" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="605.0" ycen="40.0" xa="590.0" ya="40.0" xb="620.0" yb="40.0" xc="625.0" yc="20.0" xd="590.0" yd="40.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Colton Ind W" blockname="Delta 1" connectaname="T98" connectbname="T82" connectcname="T185" />
     <layoutturnout ident="TO60" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="610.0" ycen="100.0" xa="626.0" ya="100.0" xb="594.0" yb="100.0" xc="600.0" yc="115.0" xd="626.0" yd="100.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="LT19" blockname="Delta 4" connectaname="T29" connectbname="T101" connectcname="T183" />
     <layoutturnout ident="TO61" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="620.0" ycen="100.0" xa="600.0" ya="100.0" xb="640.0" yb="100.0" xc="635.0" yc="115.0" xd="600.0" yd="100.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="LT18" blockname="Delta 4" connectaname="T29" connectbname="T75" connectcname="T184" />
-    <layoutturnout ident="TO62" type="LH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="410.0" ycen="50.0" xa="400.0" ya="40.0" xb="440.0" yb="40.0" xc="420.0" yc="60.0" xd="380.0" yd="60.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHXOverXml" turnoutname="Delta 1 to 2" blockname="CP DR1" blockcname="CP D2" blockdname="CP D2" connectaname="T137" connectbname="T98" connectcname="T99" connectdname="T77">
+    <layoutturnout ident="TO62" type="LH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="435.0" ycen="50.0" xa="425.0" ya="40.0" xb="465.0" yb="40.0" xc="445.0" yc="60.0" xd="405.0" yd="60.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHXOverXml" turnoutname="Delta 1 to 2" blockname="Delta CP" connectaname="T137" connectbname="T98" connectcname="T99" connectdname="T77">
       <sensorB>NX-D1-WB</sensorB>
       <sensorC>NX-D2-WB</sensorC>
     </layoutturnout>
-    <layoutturnout ident="TO63" type="RH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="440.0" ycen="90.0" xa="410.0" ya="80.0" xb="449.99999" yb="80.0" xc="470.0" yc="100.0" xd="430.00001" yd="100.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHXOverXml" turnoutname="Delta 4 to 3" blockname="CP D3" blockcname="CP D4" blockdname="CP D4" connectaname="T76" connectbname="T100" connectcname="T101" connectdname="T240">
+    <layoutturnout ident="TO63" type="RH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="440.0" ycen="90.0" xa="410.0" ya="80.0" xb="449.99999" yb="80.0" xc="470.0" yc="100.0" xd="430.00001" yd="100.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHXOverXml" turnoutname="Delta 4 to 3" blockname="Delta CP" connectaname="T76" connectbname="T100" connectcname="T101" connectdname="T240">
       <sensorB>NX-D3-WB</sensorB>
       <sensorC>NX-D4-WB</sensorC>
     </layoutturnout>
-    <layoutturnout ident="TO64" type="RH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="380.0" ycen="70.0" xa="355.0" ya="60.0" xb="388.333325" yb="60.0" xc="405.0" yc="80.0" xd="371.666675" yd="80.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHXOverXml" turnoutname="Delta 3 to 2" blockname="CP D2" blockcname="CP D3" blockdname="CP D3" connectaname="T78" connectbname="T77" connectcname="T76" connectdname="T105">
+    <layoutturnout ident="TO64" type="RH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="390.0" ycen="70.0" xa="370.0" ya="60.0" xb="396.66666" yb="60.0" xc="410.0" yc="80.0" xd="383.33334" yd="80.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHXOverXml" turnoutname="Delta 3 to 2" blockname="Delta CP" connectaname="T78" connectbname="T77" connectcname="T76" connectdname="T105">
       <sensorD>NX-E3-EB</sensorD>
     </layoutturnout>
-    <layoutturnout ident="TO65" type="RH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="335.0" ycen="50.0" xa="305.0" ya="40.0" xb="344.99999" yb="40.0" xc="365.0" yc="60.0" xd="325.00001" yd="60.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHXOverXml" turnoutname="Delta 2 to 1" blockname="CP DL1" blockcname="CP D2" blockdname="CP D2" connectaname="T103" connectbname="T102" connectcname="T78" connectdname="T104">
+    <layoutturnout ident="TO65" type="RH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="345.0" ycen="50.0" xa="320.0" ya="40.0" xb="353.333325" yb="40.0" xc="370.0" yc="60.0" xd="336.666675" yd="60.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHXOverXml" turnoutname="Delta 2 to 1" blockname="Delta CP" connectaname="T103" connectbname="T102" connectcname="T78" connectdname="T104">
       <sensorA>NX-E1-EB</sensorA>
       <sensorD>NX-E2-EB</sensorD>
     </layoutturnout>
@@ -20681,8 +20623,8 @@
     <tracksegment ident="T74" blockname="Bend 4" connect1name="TO51" type1="TURNOUT_B" connect2name="TO53" type2="TURNOUT_C" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T75" blockname="Delta 4" connect1name="TO61" type1="TURNOUT_B" connect2name="TO57" type2="TURNOUT_D" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T76" blockname="CP D3" connect1name="TO64" type1="TURNOUT_C" connect2name="TO63" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T77" blockname="CP D2" connect1name="TO62" type1="TURNOUT_D" connect2name="TO64" type2="TURNOUT_B" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T78" blockname="CP D2" connect1name="TO65" type1="TURNOUT_C" connect2name="TO64" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T77" blockname="Delta CP" connect1name="TO62" type1="TURNOUT_D" connect2name="TO64" type2="TURNOUT_B" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T78" blockname="Delta CP" connect1name="TO65" type1="TURNOUT_C" connect2name="TO64" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T81" blockname="Colton CP2" connect1name="TO71" type1="TURNOUT_C" connect2name="TO55" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T82" blockname="Delta 1" connect1name="TO59" type1="TURNOUT_B" connect2name="TO71" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T89" blockname="Bend CP1-L" connect1name="TO48" type1="TURNOUT_B" connect2name="TO108" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
@@ -20697,7 +20639,7 @@
     <tracksegment ident="T99" blockname="Delta 2" connect1name="TO62" type1="TURNOUT_C" connect2name="TO71" type2="TURNOUT_D" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T100" blockname="Delta 3" connect1name="TO63" type1="TURNOUT_B" connect2name="TO57" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T101" blockname="Delta 4" connect1name="TO63" type1="TURNOUT_C" connect2name="TO60" type2="TURNOUT_B" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T102" blockname="CP DL1" connect1name="TO65" type1="TURNOUT_B" connect2name="A7" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T102" blockname="Delta CP" connect1name="TO65" type1="TURNOUT_B" connect2name="A7" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T103" blockname="Echo 1" connect1name="TO66" type1="TURNOUT_B" connect2name="TO65" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T104" blockname="Echo 2" connect1name="TO69" type1="TURNOUT_B" connect2name="TO65" type2="TURNOUT_D" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T105" blockname="Echo 3" connect1name="TO70" type1="TURNOUT_B" connect2name="TO64" type2="TURNOUT_D" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
@@ -20724,7 +20666,7 @@
     <tracksegment ident="T129" blockname="Lake" connect1name="TO3" type1="TURNOUT_A" connect2name="A36" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T135" blockname="Upton-Vista West" connect1name="A12" type1="POS_POINT" connect2name="TO19" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T123" blockname="Kelso" connect1name="TO79" type1="TURNOUT_C" connect2name="TO80" type2="TURNOUT_A" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T137" blockname="CP DR1" connect1name="A7" type1="POS_POINT" connect2name="TO62" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T137" blockname="Delta CP" connect1name="A7" type1="POS_POINT" connect2name="TO62" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T138" blockname="Colton CP1-R" connect1name="A15" type1="POS_POINT" connect2name="TO52" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T2" blockname="Osage siding West" connect1name="TO83" type1="TURNOUT_A" connect2name="TO4" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T112" blockname="Sierra siding west" connect1name="TO68" type1="TURNOUT_A" connect2name="TO26" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
@@ -21043,7 +20985,7 @@
     <positionablepoint ident="A43" type="ANCHOR" x="990.0" y="335.0" connect1name="T245" connect2name="T248" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A44" type="ANCHOR" x="1030.0" y="355.0" connect1name="T14" connect2name="T249" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
   </LayoutEditor>
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="PMRRM Dispatcher HiRes" x="2552" y="0" windowheight="1411" windowwidth="2555" panelheight="1404" panelwidth="2575" sliders="yes" scrollable="both" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="yes" tooltipsinedit="yes" mainlinetrackwidth="6" xscale="1.0" yscale="1.0" sidetrackwidth="3" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="green" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclethrowncolor="orange" turnoutcirclesize="3" turnoutdrawunselectedleg="no" turnoutbx="7.0" turnoutcx="14.0" turnoutwid="14.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="yes" redBackground="192" greenBackground="192" blueBackground="192" gridSize="5" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="PMRRM Dispatcher HiRes" x="1" y="30" windowheight="1407" windowwidth="2559" panelheight="1402" panelwidth="2575" sliders="yes" scrollable="both" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="yes" tooltipsinedit="yes" mainlinetrackwidth="6" xscale="1.0" yscale="1.0" sidetrackwidth="3" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="green" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclethrowncolor="orange" turnoutcirclesize="3" turnoutdrawunselectedleg="no" turnoutbx="7.0" turnoutcx="14.0" turnoutwid="14.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="yes" redBackground="192" greenBackground="192" blueBackground="192" gridSize="5" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="PMRRM Dispatcher HiRes" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
       <mainBallastWidth>0</mainBallastWidth>
@@ -24150,18 +24092,18 @@
     <layoutturnout ident="TO59" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="1120.0" ycen="65.0" xa="1095.0" ya="65.0" xb="1145.0" yb="65.0" xc="1151.0" yc="35.0" xd="1095.0" yd="65.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Colton Ind W" blockname="Delta 1" connectaname="T98" connectbname="T82" connectcname="T185" />
     <layoutturnout ident="TO60" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="1130.0" ycen="185.0" xa="1146.0" ya="185.0" xb="1114.0" yb="185.0" xc="1105.0" yc="225.0" xd="1146.0" yd="185.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="LT19" blockname="Delta 4" connectaname="T29" connectbname="T101" connectcname="T183" />
     <layoutturnout ident="TO61" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="1170.0" ycen="185.0" xa="1150.0" ya="185.0" xb="1190.0" yb="185.0" xc="1191.0" yc="225.0" xd="1150.0" yd="185.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="LT18" blockname="Delta 4" connectaname="T29" connectbname="T75" connectcname="T184" />
-    <layoutturnout ident="TO62" type="LH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="792.0" ycen="85.0" xa="778.0" ya="65.0" xb="834.0" yb="65.0" xc="806.0" yc="105.0" xd="750.0" yd="105.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHXOverXml" turnoutname="Delta 1 to 2" blockname="CP DR1" blockcname="CP D2" blockdname="CP D2" connectaname="T137" connectbname="T98" connectcname="T99" connectdname="T77">
+    <layoutturnout ident="TO62" type="LH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="792.0" ycen="85.0" xa="778.0" ya="65.0" xb="834.0" yb="65.0" xc="806.0" yc="105.0" xd="750.0" yd="105.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHXOverXml" turnoutname="Delta 1 to 2" blockname="Delta CP" connectaname="T137" connectbname="T98" connectcname="T99" connectdname="T77">
       <sensorB>NX-D1-WB</sensorB>
       <sensorC>NX-D2-WB</sensorC>
     </layoutturnout>
-    <layoutturnout ident="TO63" type="RH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="802.0" ycen="165.0" xa="737.0" ya="145.0" xb="823.666645" yb="145.0" xc="867.0" yc="185.0" xd="780.333355" yd="185.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHXOverXml" turnoutname="Delta 4 to 3" blockname="CP D3" blockcname="CP D4" blockdname="CP D4" connectaname="T76" connectbname="T100" connectcname="T101" connectdname="T240">
+    <layoutturnout ident="TO63" type="RH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="802.0" ycen="165.0" xa="760.0" ya="145.0" xb="815.999986" yb="145.0" xc="844.0" yc="185.0" xd="788.000014" yd="185.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHXOverXml" turnoutname="Delta 4 to 3" blockname="Delta CP" connectaname="T76" connectbname="T100" connectcname="T101" connectdname="T240">
       <sensorB>NX-D3-WB</sensorB>
       <sensorC>NX-D4-WB</sensorC>
     </layoutturnout>
-    <layoutturnout ident="TO64" type="RH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="702.0" ycen="125.0" xa="672.0" ya="105.0" xb="711.99999" yb="105.0" xc="732.0" yc="145.0" xd="692.00001" yd="145.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHXOverXml" turnoutname="Delta 3 to 2" blockname="CP D2" blockcname="CP D3" blockdname="CP D3" connectaname="T78" connectbname="T77" connectcname="T76" connectdname="T105">
+    <layoutturnout ident="TO64" type="RH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="702.0" ycen="125.0" xa="672.0" ya="105.0" xb="711.99999" yb="105.0" xc="732.0" yc="145.0" xd="692.00001" yd="145.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHXOverXml" turnoutname="Delta 3 to 2" blockname="Delta CP" connectaname="T78" connectbname="T77" connectcname="T76" connectdname="T105">
       <sensorD>NX-E3-EB</sensorD>
     </layoutturnout>
-    <layoutturnout ident="TO65" type="RH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="607.0" ycen="85.0" xa="562.0" ya="65.0" xb="621.999985" yb="65.0" xc="652.0" yc="105.0" xd="592.000015" yd="105.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHXOverXml" turnoutname="Delta 2 to 1" blockname="CP DL1" blockcname="CP D2" blockdname="CP D2" connectaname="T103" connectbname="T102" connectcname="T78" connectdname="T104">
+    <layoutturnout ident="TO65" type="RH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="607.0" ycen="85.0" xa="562.0" ya="65.0" xb="621.999985" yb="65.0" xc="652.0" yc="105.0" xd="592.000015" yd="105.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHXOverXml" turnoutname="Delta 2 to 1" blockname="Delta CP" connectaname="T103" connectbname="T102" connectcname="T78" connectdname="T104">
       <sensorA>NX-E1-EB</sensorA>
       <sensorD>NX-E2-EB</sensorD>
     </layoutturnout>
@@ -24348,9 +24290,9 @@
     <tracksegment ident="T73" blockname="Bend 1" connect1name="TO50" type1="TURNOUT_B" connect2name="TO52" type2="TURNOUT_B" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T74" blockname="Bend 4" connect1name="TO51" type1="TURNOUT_B" connect2name="TO53" type2="TURNOUT_C" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T75" blockname="Delta 4" connect1name="TO61" type1="TURNOUT_B" connect2name="TO57" type2="TURNOUT_D" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T76" blockname="CP D3" connect1name="TO64" type1="TURNOUT_C" connect2name="TO63" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T77" blockname="CP D2" connect1name="TO62" type1="TURNOUT_D" connect2name="TO64" type2="TURNOUT_B" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T78" blockname="CP D2" connect1name="TO65" type1="TURNOUT_C" connect2name="TO64" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T76" blockname="Delta CP" connect1name="TO64" type1="TURNOUT_C" connect2name="TO63" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T77" blockname="Delta CP" connect1name="TO62" type1="TURNOUT_D" connect2name="TO64" type2="TURNOUT_B" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T78" blockname="Delta CP" connect1name="TO65" type1="TURNOUT_C" connect2name="TO64" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T81" blockname="Colton CP2" connect1name="TO71" type1="TURNOUT_C" connect2name="TO55" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T82" blockname="Delta 1" connect1name="TO59" type1="TURNOUT_B" connect2name="TO71" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T89" blockname="Bend CP1-L" connect1name="TO48" type1="TURNOUT_B" connect2name="TO108" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
@@ -24365,7 +24307,7 @@
     <tracksegment ident="T99" blockname="Delta 2" connect1name="TO62" type1="TURNOUT_C" connect2name="TO71" type2="TURNOUT_D" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T100" blockname="Delta 3" connect1name="TO63" type1="TURNOUT_B" connect2name="TO57" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T101" blockname="Delta 4" connect1name="TO63" type1="TURNOUT_C" connect2name="TO60" type2="TURNOUT_B" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T102" blockname="CP DL1" connect1name="TO65" type1="TURNOUT_B" connect2name="A7" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T102" blockname="Delta CP" connect1name="TO65" type1="TURNOUT_B" connect2name="A7" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T103" blockname="Echo 1" connect1name="TO66" type1="TURNOUT_B" connect2name="TO65" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T104" blockname="Echo 2" connect1name="TO69" type1="TURNOUT_B" connect2name="TO65" type2="TURNOUT_D" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T105" blockname="Echo 3" connect1name="TO70" type1="TURNOUT_B" connect2name="TO64" type2="TURNOUT_D" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
@@ -24392,7 +24334,7 @@
     <tracksegment ident="T129" blockname="Lake" connect1name="TO3" type1="TURNOUT_A" connect2name="A19" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T135" blockname="Upton-Vista West" connect1name="A12" type1="POS_POINT" connect2name="TO19" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T123" blockname="Kelso" connect1name="TO79" type1="TURNOUT_C" connect2name="TO80" type2="TURNOUT_A" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T137" blockname="CP DR1" connect1name="A7" type1="POS_POINT" connect2name="TO62" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T137" blockname="Delta CP" connect1name="A7" type1="POS_POINT" connect2name="TO62" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T138" blockname="Colton CP1-R" connect1name="A15" type1="POS_POINT" connect2name="TO52" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T2" blockname="Osage siding West" connect1name="TO83" type1="TURNOUT_A" connect2name="TO4" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T112" blockname="Sierra siding west" connect1name="TO68" type1="TURNOUT_A" connect2name="TO26" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
@@ -24724,18 +24666,18 @@
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Thu Apr 23 11:56:24 PDT 2026</date>
-      <filename>PanelPro (v5.15.5)</filename>
+      <date>Fri Apr 24 09:10:40 EDT 2026</date>
+      <filename>PanelPro (v5.15.6)</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Thu Apr 23 11:56:34 PDT 2026</date>
-      <filename>/C:/Users/Electrical Crew/OneDrive/PMRRM-repository/Profiles/Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
+      <date>Fri Apr 24 09:10:48 EDT 2026</date>
+      <filename>/Users/jake/Library/Mobile Documents/com~apple~CloudDocs/Trains/PMRRM/git_repos/PMRRM/Profiles/Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Thu Apr 23 13:43:30 PDT 2026</date>
-      <filename>C:\Users\Electrical Crew\OneDrive\PMRRM-repository\Profiles\Dispatcher_Work_in_Progress.jmri\DispatcherDefault.xml</filename>
+      <date>Fri Apr 24 09:10:55 EDT 2026</date>
+      <filename>/Users/jake/Library/Mobile Documents/com~apple~CloudDocs/Trains/PMRRM/git_repos/PMRRM/Profiles/Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
     </operation>
   </filehistory>
 </layout-config>
