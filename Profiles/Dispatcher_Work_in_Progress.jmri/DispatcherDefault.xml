@@ -586,7 +586,6 @@
     <sensor inverted="false">
       <systemName>LS139</systemName>
       <userName>Colton CP 1</userName>
-      <comment>Doesn't change anything on screen</comment>
       <useGlobalDebounceTimer>yes</useGlobalDebounceTimer>
     </sensor>
     <sensor inverted="false">
@@ -12189,7 +12188,7 @@
         </beansetting>
       </path>
       <path todir="64" fromdir="128" block="IB:AUTO:0024" />
-      <path todir="128" fromdir="64" block="IB:AUTO:0038">
+      <path todir="128" fromdir="64" block="IB:AUTO:0037">
         <beansetting setting="2">
           <turnout systemName="LT10" />
         </beansetting>
@@ -12221,7 +12220,7 @@
           <turnout systemName="Bend West 3 to 4" />
         </beansetting>
       </path>
-      <path todir="128" fromdir="64" block="IB:AUTO:0035">
+      <path todir="128" fromdir="64" block="IB:AUTO:0039">
         <beansetting setting="2">
           <turnout systemName="Colton E 4 to 3" />
         </beansetting>
@@ -12248,7 +12247,6 @@
       <systemName>IB43</systemName>
       <userName>Colton CP</userName>
       <permissive>no</permissive>
-      <occupancysensor>Colton CP 1</occupancysensor>
     </block>
     <block systemName="IB44" length="7620.0" curve="0">
       <systemName>IB44</systemName>
@@ -14425,25 +14423,15 @@
     <block systemName="IB:AUTO:0035" length="0.0" curve="0">
       <systemName>IB:AUTO:0035</systemName>
       <userName>Colton CP3-R</userName>
+      <comment>Not wired yet, see CP3-L</comment>
       <permissive>no</permissive>
-      <path todir="64" fromdir="128" block="IB41">
-        <beansetting setting="2">
-          <turnout systemName="Colton E 4 to 3" />
-        </beansetting>
-        <beansetting setting="2">
-          <turnout systemName="Colton E 2 to 3" />
-        </beansetting>
-      </path>
       <path todir="64" fromdir="128" block="IB:AUTO:0036">
         <beansetting setting="4">
           <turnout systemName="Colton E 2 to 3" />
         </beansetting>
       </path>
       <path todir="64" fromdir="128" block="IB:AUTO:0039" />
-      <path todir="96" fromdir="144" block="IB:AUTO:0040">
-        <beansetting setting="4">
-          <turnout systemName="Colton E 4 to 3" />
-        </beansetting>
+      <path todir="64" fromdir="128" block="IB:AUTO:0039">
         <beansetting setting="2">
           <turnout systemName="Colton E 2 to 3" />
         </beansetting>
@@ -14453,6 +14441,7 @@
       <systemName>IB:AUTO:0036</systemName>
       <userName>Colton CP2</userName>
       <permissive>no</permissive>
+      <occupancysensor>LS138</occupancysensor>
       <path todir="64" fromdir="128" block="IB40">
         <beansetting setting="2">
           <turnout systemName="Colton E 1 to 2" />
@@ -14463,9 +14452,9 @@
           <turnout systemName="Colton W 2 to 1" />
         </beansetting>
       </path>
-      <path todir="128" fromdir="64" block="IB:AUTO:0035">
+      <path todir="64" fromdir="128" block="IB:AUTO:0037">
         <beansetting setting="4">
-          <turnout systemName="Colton E 2 to 3" />
+          <turnout systemName="Colton E 1 to 2" />
         </beansetting>
       </path>
       <path todir="128" fromdir="64" block="IB:AUTO:0037">
@@ -14473,14 +14462,14 @@
           <turnout systemName="Colton W 2 to 1" />
         </beansetting>
       </path>
-      <path todir="64" fromdir="128" block="IB:AUTO:0038">
-        <beansetting setting="4">
-          <turnout systemName="Colton E 1 to 2" />
-        </beansetting>
-      </path>
       <path todir="96" fromdir="144" block="IB:AUTO:0039">
         <beansetting setting="4">
           <turnout systemName="Colton W 3 to 2" />
+        </beansetting>
+      </path>
+      <path todir="128" fromdir="64" block="IB:AUTO:0039">
+        <beansetting setting="4">
+          <turnout systemName="Colton E 2 to 3" />
         </beansetting>
       </path>
     </block>
@@ -14488,21 +14477,24 @@
       <systemName>IB:AUTO:0037</systemName>
       <userName>Colton CP1-L</userName>
       <permissive>no</permissive>
+      <occupancysensor>LS139</occupancysensor>
+      <path todir="64" fromdir="128" block="IB39" />
       <path todir="128" fromdir="64" block="IB44" />
       <path todir="64" fromdir="128" block="IB:AUTO:0036">
         <beansetting setting="4">
           <turnout systemName="Colton W 2 to 1" />
         </beansetting>
       </path>
-      <path todir="64" fromdir="128" block="IB:AUTO:0038">
-        <beansetting setting="2">
-          <turnout systemName="Colton W 2 to 1" />
+      <path todir="128" fromdir="64" block="IB:AUTO:0036">
+        <beansetting setting="4">
+          <turnout systemName="Colton E 1 to 2" />
         </beansetting>
       </path>
     </block>
     <block systemName="IB:AUTO:0038" length="0.0" curve="0">
       <systemName>IB:AUTO:0038</systemName>
       <userName>Colton CP1-R</userName>
+      <comment>Not wired yet, see CP1-L</comment>
       <permissive>no</permissive>
       <path todir="64" fromdir="128" block="IB39" />
       <path todir="128" fromdir="64" block="IB:AUTO:0036">
@@ -14510,12 +14502,25 @@
           <turnout systemName="Colton E 1 to 2" />
         </beansetting>
       </path>
-      <path todir="128" fromdir="64" block="IB:AUTO:0037" />
+      <path todir="128" fromdir="64" block="IB:AUTO:0037">
+        <beansetting setting="2">
+          <turnout systemName="Colton E 1 to 2" />
+        </beansetting>
+      </path>
     </block>
     <block systemName="IB:AUTO:0039" length="0.0" curve="0">
       <systemName>IB:AUTO:0039</systemName>
       <userName>Colton CP3-L</userName>
       <permissive>no</permissive>
+      <occupancysensor>LS137</occupancysensor>
+      <path todir="64" fromdir="128" block="IB41">
+        <beansetting setting="2">
+          <turnout systemName="Colton E 4 to 3" />
+        </beansetting>
+        <beansetting setting="2">
+          <turnout systemName="Colton E 2 to 3" />
+        </beansetting>
+      </path>
       <path todir="128" fromdir="64" block="IB46">
         <beansetting setting="2">
           <turnout systemName="Colton W 3 to 4" />
@@ -14524,10 +14529,22 @@
           <turnout systemName="Colton W 3 to 2" />
         </beansetting>
       </path>
-      <path todir="128" fromdir="64" block="IB:AUTO:0035" />
+      <path todir="64" fromdir="128" block="IB:AUTO:0036">
+        <beansetting setting="4">
+          <turnout systemName="Colton E 2 to 3" />
+        </beansetting>
+      </path>
       <path todir="144" fromdir="96" block="IB:AUTO:0036">
         <beansetting setting="4">
           <turnout systemName="Colton W 3 to 2" />
+        </beansetting>
+      </path>
+      <path todir="96" fromdir="144" block="IB:AUTO:0040">
+        <beansetting setting="4">
+          <turnout systemName="Colton E 4 to 3" />
+        </beansetting>
+        <beansetting setting="2">
+          <turnout systemName="Colton E 2 to 3" />
         </beansetting>
       </path>
       <path todir="128" fromdir="64" block="IB:AUTO:0040">
@@ -14542,17 +14559,18 @@
     <block systemName="IB:AUTO:0040" length="0.0" curve="0">
       <systemName>IB:AUTO:0040</systemName>
       <userName>Colton CP4</userName>
+      <comment>No sensor,  LS136 stuck active</comment>
       <permissive>no</permissive>
       <path todir="64" fromdir="128" block="IB42" />
       <path todir="64" fromdir="128" block="IB47" />
-      <path todir="144" fromdir="96" block="IB:AUTO:0035">
-        <beansetting setting="4">
-          <turnout systemName="Colton E 4 to 3" />
-        </beansetting>
-      </path>
       <path todir="64" fromdir="128" block="IB:AUTO:0039">
         <beansetting setting="4">
           <turnout systemName="Colton W 3 to 4" />
+        </beansetting>
+      </path>
+      <path todir="144" fromdir="96" block="IB:AUTO:0039">
+        <beansetting setting="4">
+          <turnout systemName="Colton E 4 to 3" />
         </beansetting>
       </path>
     </block>
@@ -15107,7 +15125,7 @@
       <systemName>ILB86</systemName>
       <userName>AUTOBLK:86</userName>
     </layoutblock>
-    <layoutblock systemName="ILB88" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="white">
+    <layoutblock systemName="ILB88" occupancysensor="LS138" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green">
       <systemName>ILB88</systemName>
       <userName>Colton CP2</userName>
     </layoutblock>
@@ -15115,17 +15133,9 @@
       <systemName>ILB89</systemName>
       <userName>CP D3</userName>
     </layoutblock>
-    <layoutblock systemName="ILB90" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="white">
-      <systemName>ILB90</systemName>
-      <userName>Colton CP3-R</userName>
-    </layoutblock>
-    <layoutblock systemName="ILB91" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="white">
+    <layoutblock systemName="ILB91" occupancysensor="LS139" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green">
       <systemName>ILB91</systemName>
       <userName>Colton CP1-L</userName>
-    </layoutblock>
-    <layoutblock systemName="ILB92" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="white">
-      <systemName>ILB92</systemName>
-      <userName>Colton CP1-R</userName>
     </layoutblock>
     <layoutblock systemName="ILB94" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="white">
       <systemName>ILB94</systemName>
@@ -15159,7 +15169,7 @@
       <systemName>ILB101</systemName>
       <userName>Midway West station 2 stop block</userName>
     </layoutblock>
-    <layoutblock systemName="ILB102" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="white">
+    <layoutblock systemName="ILB102" occupancysensor="LS137" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green">
       <systemName>ILB102</systemName>
       <userName>Colton CP3-L</userName>
     </layoutblock>
@@ -20407,15 +20417,15 @@
     <layoutturnout ident="TO43" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="1335.0" ycen="490.0" xa="1341.0" ya="490.0" xb="1329.0" yb="490.0" xc="1330.0" yc="500.0" xd="1341.0" yd="490.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Powderhorn pocket" blockname="Osage-Powderhorn" connectaname="T157" connectbname="T7" connectcname="T168" />
     <layoutturnout ident="TO50" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="845.0" ycen="40.0" xa="855.0" ya="40.0" xb="835.0" yb="40.0" xc="820.0" yc="20.0" xd="855.0" yd="40.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="LT10" blockname="Bend 1" connectaname="T91" connectbname="T73" connectcname="T181" />
     <layoutturnout ident="TO51" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="855.0" ycen="100.0" xa="875.0" ya="100.0" xb="835.0" yb="100.0" xc="840.0" yc="115.0" xd="875.0" yd="100.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="LT11" blockname="Bend 4" connectaname="T94" connectbname="T74" connectcname="T182" />
-    <layoutturnout ident="TO52" type="LH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="775.0" ycen="50.0" xa="764.883056640625" ya="40.361671447753906" xb="804.9999947949195" yb="40.00000004692603" xc="785.116943359375" yc="59.638328552246094" xd="745.0000052050805" yd="59.99999995307397" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHXOverXml" turnoutname="Colton E 1 to 2" blockname="Colton CP1-R" blockcname="Colton CP2" blockdname="Colton CP2" connectaname="T138" connectbname="T73" connectcname="T92" connectdname="T39">
+    <layoutturnout ident="TO52" type="LH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="775.0" ycen="50.0" xa="764.883056640625" ya="40.361671447753906" xb="804.9999947949195" yb="40.00000004692603" xc="785.116943359375" yc="59.638328552246094" xd="745.0000052050805" yd="59.99999995307397" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHXOverXml" turnoutname="Colton E 1 to 2" blockname="Colton CP1-L" blockcname="Colton CP2" blockdname="Colton CP2" connectaname="T138" connectbname="T73" connectcname="T92" connectdname="T39">
       <sensorB>NX-B1-WB</sensorB>
       <sensorC>NX-B2-WB</sensorC>
     </layoutturnout>
-    <layoutturnout ident="TO53" type="RH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="775.0" ycen="90.0" xa="755.0" ya="80.0" xb="781.5991138282862" yb="79.86658481427396" xc="795.0" yc="100.0" xd="768.4008861717138" yd="100.13341518572604" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHXOverXml" turnoutname="Colton E 4 to 3" blockname="Colton CP3-R" blockcname="Colton CP4" blockdname="Colton CP4" connectaname="T56" connectbname="T93" connectcname="T74" connectdname="T97">
+    <layoutturnout ident="TO53" type="RH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="790.0" ycen="90.0" xa="770.0" ya="80.0" xb="796.5991138282862" yb="79.86658481427396" xc="810.0" yc="100.0" xd="783.4008861717138" yd="100.13341518572604" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHXOverXml" turnoutname="Colton E 4 to 3" blockname="Colton CP3-L" blockcname="Colton CP4" blockdname="Colton CP4" connectaname="T56" connectbname="T93" connectcname="T74" connectdname="T97">
       <sensorB>NX-B3-WB</sensorB>
       <sensorC>NX-B4-WB</sensorC>
     </layoutturnout>
-    <layoutturnout ident="TO54" type="LH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="740.0" ycen="70.0" xa="730.0" ya="60.0" xb="770.0" yb="60.0" xc="750.0" yc="80.0" xd="710.0" yd="80.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHXOverXml" turnoutname="Colton E 2 to 3" blockname="Colton CP2" blockcname="Colton CP3-R" blockdname="Colton CP3-R" connectaname="T96" connectbname="T39" connectcname="T56" connectdname="T36" />
+    <layoutturnout ident="TO54" type="LH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="740.0" ycen="70.0" xa="730.0" ya="60.0" xb="770.0" yb="60.0" xc="750.0" yc="80.0" xd="710.0" yd="80.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHXOverXml" turnoutname="Colton E 2 to 3" blockname="Colton CP2" blockcname="Colton CP3-L" blockdname="Colton CP3-L" connectaname="T96" connectbname="T39" connectcname="T56" connectdname="T36" />
     <layoutturnout ident="TO55" type="RH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="700.0" ycen="70.0" xa="680.0" ya="60.0" xb="706.66666" yb="60.0" xc="720.0" yc="80.0" xd="693.33334" yd="80.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHXOverXml" turnoutname="Colton W 3 to 2" blockname="Colton CP2" blockcname="Colton CP3-L" blockdname="Colton CP3-L" connectaname="T81" connectbname="T96" connectcname="T36" connectdname="T35" />
     <layoutturnout ident="TO57" type="LH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="660.0" ycen="90.0" xa="651.5606079101562" ya="80.27147674560547" xb="685.0000499266823" yb="80.00000009018366" xc="668.4393920898438" yc="99.72852325439453" xd="634.9999500733177" yd="99.99999990981634" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHXOverXml" turnoutname="Colton W 3 to 4" blockname="Colton CP3-L" blockcname="Colton CP4" blockdname="Colton CP4" connectaname="T100" connectbname="T35" connectcname="T97" connectdname="T75">
       <sensorA>NX-D3-EB</sensorA>
@@ -20616,7 +20626,7 @@
     <tracksegment ident="T35" blockname="Colton CP3-L" connect1name="TO57" type1="TURNOUT_B" connect2name="TO55" type2="TURNOUT_D" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T36" blockname="Colton CP3-L" connect1name="TO54" type1="TURNOUT_D" connect2name="TO55" type2="TURNOUT_C" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T39" blockname="Colton CP2" connect1name="TO52" type1="TURNOUT_D" connect2name="TO54" type2="TURNOUT_B" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T56" blockname="Colton CP3-R" connect1name="TO53" type1="TURNOUT_A" connect2name="TO54" type2="TURNOUT_C" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T56" blockname="Colton CP3-L" connect1name="TO53" type1="TURNOUT_A" connect2name="TO54" type2="TURNOUT_C" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T58" blockname="Bend CP3-L" connect1name="TO49" type1="TURNOUT_B" connect2name="TO47" type2="TURNOUT_D" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T61" blockname="Bend CP2" connect1name="TO47" type1="TURNOUT_A" connect2name="TO48" type2="TURNOUT_C" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T73" blockname="Bend 1" connect1name="TO50" type1="TURNOUT_B" connect2name="TO52" type2="TURNOUT_B" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
@@ -20667,7 +20677,7 @@
     <tracksegment ident="T135" blockname="Upton-Vista West" connect1name="A12" type1="POS_POINT" connect2name="TO19" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T123" blockname="Kelso" connect1name="TO79" type1="TURNOUT_C" connect2name="TO80" type2="TURNOUT_A" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T137" blockname="Delta CP" connect1name="A7" type1="POS_POINT" connect2name="TO62" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T138" blockname="Colton CP1-R" connect1name="A15" type1="POS_POINT" connect2name="TO52" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T138" blockname="Colton CP1-L" connect1name="A15" type1="POS_POINT" connect2name="TO52" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T2" blockname="Osage siding West" connect1name="TO83" type1="TURNOUT_A" connect2name="TO4" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T112" blockname="Sierra siding west" connect1name="TO68" type1="TURNOUT_A" connect2name="TO26" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T131" blockname="AUTOBLK:86" connect1name="TO44" type1="TURNOUT_C" connect2name="TO28" type2="TURNOUT_B" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
@@ -20985,7 +20995,7 @@
     <positionablepoint ident="A43" type="ANCHOR" x="990.0" y="335.0" connect1name="T245" connect2name="T248" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A44" type="ANCHOR" x="1030.0" y="355.0" connect1name="T14" connect2name="T249" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
   </LayoutEditor>
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="PMRRM Dispatcher HiRes" x="1" y="30" windowheight="1407" windowwidth="2559" panelheight="1402" panelwidth="2575" sliders="yes" scrollable="both" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="yes" tooltipsinedit="yes" mainlinetrackwidth="6" xscale="1.0" yscale="1.0" sidetrackwidth="3" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="green" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclethrowncolor="orange" turnoutcirclesize="3" turnoutdrawunselectedleg="no" turnoutbx="7.0" turnoutcx="14.0" turnoutwid="14.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="yes" redBackground="192" greenBackground="192" blueBackground="192" gridSize="5" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="PMRRM Dispatcher HiRes" x="0" y="34" windowheight="1390" windowwidth="2540" panelheight="1402" panelwidth="2575" sliders="yes" scrollable="both" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="yes" tooltipsinedit="yes" mainlinetrackwidth="6" xscale="1.0" yscale="1.0" sidetrackwidth="3" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="green" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclethrowncolor="orange" turnoutcirclesize="3" turnoutdrawunselectedleg="no" turnoutbx="7.0" turnoutcx="14.0" turnoutwid="14.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="yes" redBackground="192" greenBackground="192" blueBackground="192" gridSize="5" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="PMRRM Dispatcher HiRes" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
       <mainBallastWidth>0</mainBallastWidth>
@@ -24075,15 +24085,15 @@
     <layoutturnout ident="TO43" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="1583.0" ycen="856.0" xa="1589.0" ya="856.0" xb="1577.0" yb="856.0" xc="1578.0" yc="866.0" xd="1589.0" yd="856.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Powderhorn pocket" blockname="Osage-Powderhorn" connectaname="T157" connectbname="T7" connectcname="T168" />
     <layoutturnout ident="TO50" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="1595.0" ycen="65.0" xa="1605.0" ya="65.0" xb="1585.0" yb="65.0" xc="1565.0" yc="35.0" xd="1605.0" yd="65.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="LT10" blockname="Bend 1" connectaname="T91" connectbname="T73" connectcname="T181" />
     <layoutturnout ident="TO51" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="1617.0" ycen="185.0" xa="1637.0" ya="185.0" xb="1597.0" yb="185.0" xc="1602.0" yc="220.0" xd="1637.0" yd="185.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="LT11" blockname="Bend 4" connectaname="T94" connectbname="T74" connectcname="T182" />
-    <layoutturnout ident="TO52" type="LH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="1498.0" ycen="85.0" xa="1486.7381591796875" ya="65.44204711914062" xb="1530.9997949828028" yb="64.99999960926853" xc="1509.2618408203125" yc="104.55795288085938" xd="1465.0002050171972" yd="105.00000039073147" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHXOverXml" turnoutname="Colton E 1 to 2" blockname="Colton CP1-R" blockcname="Colton CP2" blockdname="Colton CP2" connectaname="T138" connectbname="T73" connectcname="T92" connectdname="T39">
+    <layoutturnout ident="TO52" type="LH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="1498.0" ycen="85.0" xa="1486.7381591796875" ya="65.44204711914062" xb="1530.9997949828028" yb="64.99999960926853" xc="1509.2618408203125" yc="104.55795288085938" xd="1465.0002050171972" yd="105.00000039073147" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHXOverXml" turnoutname="Colton E 1 to 2" blockname="Colton CP1-L" blockcname="Colton CP2" blockdname="Colton CP2" connectaname="T138" connectbname="T73" connectcname="T92" connectdname="T39">
       <sensorB>NX-B1-WB</sensorB>
       <sensorC>NX-B2-WB</sensorC>
     </layoutturnout>
-    <layoutturnout ident="TO53" type="RH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="1517.0" ycen="165.0" xa="1485.0" ya="145.0" xb="1527.666656" yb="145.0" xc="1549.0" yc="185.0" xd="1506.333344" yd="185.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHXOverXml" turnoutname="Colton E 4 to 3" blockname="Colton CP3-R" blockcname="Colton CP4" blockdname="Colton CP4" connectaname="T56" connectbname="T93" connectcname="T74" connectdname="T97">
+    <layoutturnout ident="TO53" type="RH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="1517.0" ycen="165.0" xa="1485.0" ya="145.0" xb="1527.666656" yb="145.0" xc="1549.0" yc="185.0" xd="1506.333344" yd="185.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHXOverXml" turnoutname="Colton E 4 to 3" blockname="Colton CP3-L" blockcname="Colton CP4" blockdname="Colton CP4" connectaname="T56" connectbname="T93" connectcname="T74" connectdname="T97">
       <sensorB>NX-B3-WB</sensorB>
       <sensorC>NX-B4-WB</sensorC>
     </layoutturnout>
-    <layoutturnout ident="TO54" type="LH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="1396.0" ycen="125.0" xa="1384.0" ya="105.0" xb="1432.0" yb="105.0" xc="1408.0" yc="145.0" xd="1360.0" yd="145.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHXOverXml" turnoutname="Colton E 2 to 3" blockname="Colton CP2" blockcname="Colton CP3-R" blockdname="Colton CP3-R" connectaname="T96" connectbname="T39" connectcname="T56" connectdname="T36" />
+    <layoutturnout ident="TO54" type="LH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="1395.0" ycen="125.0" xa="1383.0" ya="105.0" xb="1431.0" yb="105.0" xc="1407.0" yc="145.0" xd="1359.0" yd="145.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHXOverXml" turnoutname="Colton E 2 to 3" blockname="Colton CP2" blockcname="Colton CP3-L" blockdname="Colton CP3-L" connectaname="T96" connectbname="T39" connectcname="T56" connectdname="T36" />
     <layoutturnout ident="TO55" type="RH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="1325.0" ycen="125.0" xa="1301.0" ya="105.0" xb="1332.999992" yb="105.0" xc="1349.0" yc="145.0" xd="1317.000008" yd="145.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHXOverXml" turnoutname="Colton W 3 to 2" blockname="Colton CP2" blockcname="Colton CP3-L" blockdname="Colton CP3-L" connectaname="T81" connectbname="T96" connectcname="T36" connectdname="T35" />
     <layoutturnout ident="TO57" type="LH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="1257.0" ycen="165.0" xa="1241.3333740234375" ya="145.0" xb="1303.9998779296875" yb="145.0" xc="1272.6666259765625" yc="185.0" xd="1210.0001220703125" yd="185.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHXOverXml" turnoutname="Colton W 3 to 4" blockname="Colton CP3-L" blockcname="Colton CP4" blockdname="Colton CP4" connectaname="T100" connectbname="T35" connectcname="T97" connectdname="T75">
       <sensorA>NX-D3-EB</sensorA>
@@ -24284,7 +24294,7 @@
     <tracksegment ident="T35" blockname="Colton CP3-L" connect1name="TO57" type1="TURNOUT_B" connect2name="TO55" type2="TURNOUT_D" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T36" blockname="Colton CP3-L" connect1name="TO54" type1="TURNOUT_D" connect2name="TO55" type2="TURNOUT_C" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T39" blockname="Colton CP2" connect1name="TO52" type1="TURNOUT_D" connect2name="TO54" type2="TURNOUT_B" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T56" blockname="Colton CP3-R" connect1name="TO53" type1="TURNOUT_A" connect2name="TO54" type2="TURNOUT_C" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T56" blockname="Colton CP3-L" connect1name="TO53" type1="TURNOUT_A" connect2name="TO54" type2="TURNOUT_C" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T58" blockname="Bend CP3-L" connect1name="TO49" type1="TURNOUT_B" connect2name="TO47" type2="TURNOUT_D" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T61" blockname="Bend CP2" connect1name="TO47" type1="TURNOUT_A" connect2name="TO48" type2="TURNOUT_C" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T73" blockname="Bend 1" connect1name="TO50" type1="TURNOUT_B" connect2name="TO52" type2="TURNOUT_B" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
@@ -24335,7 +24345,7 @@
     <tracksegment ident="T135" blockname="Upton-Vista West" connect1name="A12" type1="POS_POINT" connect2name="TO19" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T123" blockname="Kelso" connect1name="TO79" type1="TURNOUT_C" connect2name="TO80" type2="TURNOUT_A" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T137" blockname="Delta CP" connect1name="A7" type1="POS_POINT" connect2name="TO62" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T138" blockname="Colton CP1-R" connect1name="A15" type1="POS_POINT" connect2name="TO52" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T138" blockname="Colton CP1-L" connect1name="A15" type1="POS_POINT" connect2name="TO52" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T2" blockname="Osage siding West" connect1name="TO83" type1="TURNOUT_A" connect2name="TO4" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T112" blockname="Sierra siding west" connect1name="TO68" type1="TURNOUT_A" connect2name="TO26" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T131" blockname="AUTOBLK:86" connect1name="TO44" type1="TURNOUT_C" connect2name="TO28" type2="TURNOUT_B" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
@@ -24666,17 +24676,17 @@
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Fri Apr 24 09:10:40 EDT 2026</date>
+      <date>Fri Apr 24 14:00:12 EDT 2026</date>
       <filename>PanelPro (v5.15.6)</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Fri Apr 24 09:10:48 EDT 2026</date>
+      <date>Fri Apr 24 14:00:21 EDT 2026</date>
       <filename>/Users/jake/Library/Mobile Documents/com~apple~CloudDocs/Trains/PMRRM/git_repos/PMRRM/Profiles/Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Fri Apr 24 09:10:55 EDT 2026</date>
+      <date>Fri Apr 24 14:01:31 EDT 2026</date>
       <filename>/Users/jake/Library/Mobile Documents/com~apple~CloudDocs/Trains/PMRRM/git_repos/PMRRM/Profiles/Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
     </operation>
   </filehistory>
