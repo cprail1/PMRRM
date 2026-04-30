@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
-<locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <!--Written by JMRI version 5.15.4plus+jenkins+20260305T1324Z+R2910b939945 on Sat Mar 07 15:30:45 PST 2026-->
-  <locomotive id="ATSF 83A" fileName="ATSF_83A.xml" roadNumber="83" roadName="Atchison, Topeka, &amp; Santa Fe" mfg="Rapido" owner="J270 Matthew J Zepeda" model="E8B" dccAddress="83" comment="Run with 83L.  &#xA;TE:26,18" developerID="-1" manufacturerID="151" productID="33554588,33554680,33554651" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-    <dateUpdated>2026-03-07T23:30:45.780+00:00</dateUpdated>
+<locomotive-config>
+  <locomotive id="ATSF 83A" fileName="ATSF_83A.xml" roadNumber="83" roadName="ATSF" mfg="Rapido" owner="J270 Matthew J Zepeda" model="E8B" dccAddress="83" comment="Don't Separate from 83L.  &#xA;Address is the same as 83L." developerID="-1" manufacturerID="151" productID="33554588,33554680,33554651" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+    <dateUpdated>2026-04-04T21:26:17.905+00:00</dateUpdated>
     <decoder model="LokSound 5 DCC" family="ESU LokSound 5" comment="" maxFnNum="31" />
     <locoaddress>
       <dcclocoaddress number="83" longaddress="no" />
@@ -19,6 +19,12 @@
       <soundlabel num="33">Automatic brake sound</soundlabel>
       <soundlabel num="34">Gear shift sound</soundlabel>
     </soundlabels>
+    <attributepairs>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>TE: 26,18</value>
+      </keyvaluepair>
+    </attributepairs>
     <values>
       <decoderDef>
         <varValue item="Vstart" value="3" />

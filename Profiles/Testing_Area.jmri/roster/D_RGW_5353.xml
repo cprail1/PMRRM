@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
-<!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
-<locomotive-config>
+<locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
   <locomotive id="D&amp;RGW 5353" fileName="D_RGW_5353.xml" roadNumber="5353" roadName="D&amp;RGW" mfg="Athearn Genesis" owner="J270 Matthew J Zepeda " model="SD40T-2" dccAddress="5353" comment="" developerID="-1" manufacturerID="141" productID="6240" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-    <dateUpdated>2026-02-08T03:58:29.300+00:00</dateUpdated>
+    <dateUpdated>2026-04-23T21:45:09.496+00:00</dateUpdated>
     <decoder model="ECO-RTR SD40T-2 w/gyra" family="Econami Diesel OEM Athearn" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="5353" longaddress="yes" />
@@ -64,7 +63,7 @@
         <varValue item="Sound Option 8" value="0" />
         <varValue item="Sound Option 5" value="2" />
         <varValue item="Sound Option 10" value="1" />
-        <varValue item="Sound Setting 1" value="150" />
+        <varValue item="Sound Setting 1" value="40" />
         <varValue item="Sound Setting 2" value="75" />
         <varValue item="Sound Setting 3" value="40" />
         <varValue item="Sound Setting 4" value="135" />
@@ -490,7 +489,7 @@
       <CVvalue name="122" value="0" />
       <CVvalue name="123" value="2" />
       <CVvalue name="124" value="1" />
-      <CVvalue name="128" value="150" />
+      <CVvalue name="128" value="40" />
       <CVvalue name="129" value="75" />
       <CVvalue name="130" value="40" />
       <CVvalue name="131" value="135" />

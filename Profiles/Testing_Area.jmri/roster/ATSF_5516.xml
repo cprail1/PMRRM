@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
   <locomotive id="ATSF 5516" fileName="ATSF_5516.xml" roadNumber="5516" roadName="ATSF" mfg="OMI" owner="148 Kevin Schiller" model="SD45-2B" dccAddress="5516" comment="" developerID="-1" manufacturerID="141" productID="2102" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-    <dateUpdated>2026-02-08T03:58:26.275+00:00</dateUpdated>
+    <dateUpdated>2026-04-04T21:21:20.941+00:00</dateUpdated>
     <decoder model="TSU-1100 EMD-2 Diesels" family="Tsunami2 Diesel" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="5516" longaddress="yes" />
@@ -1002,6 +1003,4 @@
       <CVvalue name="16.3.258" value="180" />
     </values>
   </locomotive>
-  <!--Written by JMRI version 5.15.3plus+jenkins+20260213T2025Z+R099362ba8c on Sat Feb 14 14:50:04 PST 2026-->
-  <!--Written by JMRI version 5.15.4plus+jenkins+20260305T1324Z+R2910b939945 on Thu Mar 05 17:21:23 PST 2026-->
 </locomotive-config>

@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <!--Written by JMRI version 5.5.1+R196d5a62b6 on Sat Aug 05 14:48:22 PDT 2023-->
-  <locomotive id="CSX 2759" fileName="CSX_2759.xml" roadNumber="2759" roadName="CSX" mfg="Athearn Genesis" owner="254 Aaron Gold" model="GP38-2" dccAddress="2759" comment="" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2023-08-05T21:48:22.813+00:00</dateUpdated>
+  <locomotive id="CSX 2759" fileName="CSX_2759.xml" roadNumber="2759" roadName="CSX" mfg="Athearn Genesis" owner="254 Aaron Gold" model="GP38-2" dccAddress="2759" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+    <dateUpdated>2026-04-25T19:38:41.628+00:00</dateUpdated>
     <decoder model="TSU-GN2200 GP38-2 w/ditch" family="Tsunami2 Diesel OEM Genesis" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="2759" longaddress="yes" />
@@ -11,29 +10,29 @@
       <protocol>dcc_long</protocol>
     </locoaddress>
     <functionlabels>
-      <functionlabel num="0" lockable="true" functionImage="" functionImageSelected="">Headlight</functionlabel>
-      <functionlabel num="1" lockable="true" functionImage="" functionImageSelected="">Bell</functionlabel>
-      <functionlabel num="2" lockable="false" functionImage="" functionImageSelected="">Horn</functionlabel>
-      <functionlabel num="3" lockable="true" functionImage="" functionImageSelected="">Short Horn</functionlabel>
-      <functionlabel num="4" lockable="true" functionImage="" functionImageSelected="">Dynamic Brake</functionlabel>
-      <functionlabel num="5" lockable="true" functionImage="" functionImageSelected="">FX3 FX4</functionlabel>
-      <functionlabel num="6" lockable="true" functionImage="" functionImageSelected="">FX5 FX6</functionlabel>
-      <functionlabel num="7" lockable="true" functionImage="" functionImageSelected="">Dimmer</functionlabel>
-      <functionlabel num="8" lockable="true" functionImage="" functionImageSelected="">Mute</functionlabel>
-      <functionlabel num="9" lockable="true" functionImage="" functionImageSelected="">Alt Mixer</functionlabel>
-      <functionlabel num="10" lockable="true" functionImage="" functionImageSelected="">Straight to Eight</functionlabel>
-      <functionlabel num="11" lockable="true" functionImage="" functionImageSelected="">Ind/Train Brake</functionlabel>
-      <functionlabel num="12" lockable="true" functionImage="" functionImageSelected="">Brake Select</functionlabel>
-      <functionlabel num="13" lockable="true" functionImage="" functionImageSelected="">Coupler</functionlabel>
-      <functionlabel num="14" lockable="true" functionImage="" functionImageSelected="">Half Speed</functionlabel>
-      <functionlabel num="15" lockable="true" functionImage="" functionImageSelected="">Handbrake</functionlabel>
-      <functionlabel num="16" lockable="true" functionImage="" functionImageSelected="">HEP Mode</functionlabel>
-      <functionlabel num="17" lockable="true" functionImage="" functionImageSelected="">Fuel Loading</functionlabel>
-      <functionlabel num="18" lockable="true" functionImage="" functionImageSelected="">General Service</functionlabel>
-      <functionlabel num="20" lockable="true" functionImage="" functionImageSelected="">Steam Generator</functionlabel>
-      <functionlabel num="23" lockable="true" functionImage="" functionImageSelected="">All Aboard</functionlabel>
-      <functionlabel num="26" lockable="true" functionImage="" functionImageSelected="">RPM+</functionlabel>
-      <functionlabel num="27" lockable="true" functionImage="" functionImageSelected="">RPM-</functionlabel>
+      <functionlabel num="0" lockable="true" visible="true" functionImage="" functionImageSelected="">Headlight</functionlabel>
+      <functionlabel num="1" lockable="true" visible="true" functionImage="" functionImageSelected="">Bell</functionlabel>
+      <functionlabel num="2" lockable="false" visible="true" functionImage="" functionImageSelected="">Horn</functionlabel>
+      <functionlabel num="3" lockable="true" visible="true" functionImage="" functionImageSelected="">Short Horn</functionlabel>
+      <functionlabel num="4" lockable="true" visible="true" functionImage="" functionImageSelected="">Dynamic Brake</functionlabel>
+      <functionlabel num="5" lockable="true" visible="true" functionImage="" functionImageSelected="">FX3 FX4</functionlabel>
+      <functionlabel num="6" lockable="true" visible="true" functionImage="" functionImageSelected="">FX5 FX6</functionlabel>
+      <functionlabel num="7" lockable="true" visible="true" functionImage="" functionImageSelected="">Dimmer</functionlabel>
+      <functionlabel num="8" lockable="true" visible="true" functionImage="" functionImageSelected="">Mute</functionlabel>
+      <functionlabel num="9" lockable="true" visible="true" functionImage="" functionImageSelected="">Alt Mixer</functionlabel>
+      <functionlabel num="10" lockable="true" visible="true" functionImage="" functionImageSelected="">Straight to Eight</functionlabel>
+      <functionlabel num="11" lockable="true" visible="true" functionImage="" functionImageSelected="">Ind/Train Brake</functionlabel>
+      <functionlabel num="12" lockable="true" visible="true" functionImage="" functionImageSelected="">Brake Select</functionlabel>
+      <functionlabel num="13" lockable="true" visible="true" functionImage="" functionImageSelected="">Coupler</functionlabel>
+      <functionlabel num="14" lockable="true" visible="true" functionImage="" functionImageSelected="">Half Speed</functionlabel>
+      <functionlabel num="15" lockable="true" visible="true" functionImage="" functionImageSelected="">Handbrake</functionlabel>
+      <functionlabel num="16" lockable="true" visible="true" functionImage="" functionImageSelected="">HEP Mode</functionlabel>
+      <functionlabel num="17" lockable="true" visible="true" functionImage="" functionImageSelected="">Fuel Loading</functionlabel>
+      <functionlabel num="18" lockable="true" visible="true" functionImage="" functionImageSelected="">General Service</functionlabel>
+      <functionlabel num="20" lockable="true" visible="true" functionImage="" functionImageSelected="">Steam Generator</functionlabel>
+      <functionlabel num="23" lockable="true" visible="true" functionImage="" functionImageSelected="">All Aboard</functionlabel>
+      <functionlabel num="26" lockable="true" visible="true" functionImage="" functionImageSelected="">RPM+</functionlabel>
+      <functionlabel num="27" lockable="true" visible="true" functionImage="" functionImageSelected="">RPM-</functionlabel>
     </functionlabels>
     <soundlabels />
     <values>
@@ -126,6 +125,7 @@
         <varValue item="Sound Setting 7" value="75" />
         <varValue item="Sound Setting 8" value="15" />
         <varValue item="Sound Setting 11" value="128" />
+        <varValue item="Sound Setting 12" value="100" />
         <varValue item="Sound Setting 16" value="16" />
         <varValue item="Sound Setting 17" value="0" />
         <varValue item="Sound Setting 18" value="128" />
@@ -164,14 +164,15 @@
         <varValue item="Reverb190" value="0" />
         <varValue item="Reverb191" value="0" />
         <varValue item="Reverb192" value="0" />
-        <varValue item="Probability Fireman Shovels Coal" value="128" />
-        <varValue item="Probability Fireman Fills the Tender" value="0" />
-        <varValue item="Probability Fireman Turns His Wrench" value="128" />
-        <varValue item="Probability Fireman Uses His Grease Gun" value="128" />
-        <varValue item="Probability Fireman Uses His Oil Can" value="64" />
-        <varValue item="Probability Fireman Uses the Injector" value="32" />
-        <varValue item="Probability Fireman Uses the Blower" value="128" />
-        <varValue item="Probability Pop Valve Blows Off" value="128" />
+        <varValue item="Sound Group 3 Option 2" value="90" />
+        <varValue item="Cab Doors Event Probability" value="128" />
+        <varValue item="Fuel Loading Event Probability" value="0" />
+        <varValue item="Wrenches Event Probability" value="128" />
+        <varValue item="Pneumatic Oilers Event Probability" value="128" />
+        <varValue item="Cab Chatter Event Probability" value="64" />
+        <varValue item="Toilet Flush Event Probability" value="32" />
+        <varValue item="Air Conditioner Event Probability" value="128" />
+        <varValue item="Relay Clicks Event Probability" value="128" />
         <varValue item="Advanced Group 1 Option 10" value="0" />
         <varValue item="High-Pass Filter Cutoff Frequency" value="20" />
         <varValue item="Equalizer Control" value="3" />
@@ -218,6 +219,7 @@
         <varValue item="Extended Function Map Independent/Train Brake" value="12" />
         <varValue item="Extended Function Map Brake Select" value="255" />
         <varValue item="Extended Function Map Alternate Mixer" value="255" />
+        <varValue item="Extended Function Map Dynamic Brake" value="4" />
         <varValue item="Extended Function Map Straight-to-Eight" value="7" />
         <varValue item="Extended Function Map General Service" value="255" />
         <varValue item="Extended Function Map HEP Mode" value="28" />
@@ -336,10 +338,10 @@
         <varValue item="DDE Filter Control Gain" value="186" />
         <varValue item="Exhaust Low Volume Limit" value="0" />
         <varValue item="Exhaust High Volume Limit" value="255" />
-        <varValue item="Attack Time Constant" value="215" />
-        <varValue item="Release Time Constant" value="215" />
-        <varValue item="Throttle Gain" value="10" />
-        <varValue item="Motor Load Gain" value="0" />
+        <varValue item="Attack Time Constant" value="15" />
+        <varValue item="Release Time Constant" value="40" />
+        <varValue item="Throttle Gain" value="120" />
+        <varValue item="Motor Load Gain" value="030" />
         <varValue item="Sound Group 1 Option 1" value="1" />
         <varValue item="Sound Group 1 Option 2" value="1" />
         <varValue item="Sound Group 3 Option 8" value="180" />
@@ -477,7 +479,6 @@
         <varValue item="Sound Option 11" value="0" />
         <varValue item="Sound Option 12" value="1" />
         <varValue item="Sound Setting 10" value="128" />
-        <varValue item="Sound Setting 12" value="100" />
         <varValue item="Sound Setting 13" value="70" />
         <varValue item="Sound Setting 21" value="70" />
         <varValue item="Sound Setting 22" value="150" />
@@ -490,7 +491,6 @@
         <varValue item="Automatic Brake Squeal Enable (Analog Mode)" value="1" />
         <varValue item="Automatic Bell Enable" value="0" />
         <varValue item="Automatic Brake Squeal Enable" value="0" />
-        <varValue item="Sound Group 3 Option 2" value="90" />
         <varValue item="EMF Static Config" value="48" />
         <varValue item="EMF Dynamic Config" value="16" />
         <varValue item="EMF Option 1" value="180" />
@@ -537,7 +537,6 @@
         <varValue item="Extended Function Map RPM-" value="27" />
         <varValue item="Extended Function Map Airhorn" value="2" />
         <varValue item="Extended Function Map Bell" value="1" />
-        <varValue item="Extended Function Map Dynamic Brake" value="4" />
         <varValue item="Extended Function Map Short Airhorn" value="3" />
         <varValue item="Extended Function Map Coupler" value="255" />
         <varValue item="Extended Function Map Coupler Release" value="255" />
@@ -663,6 +662,34 @@
         <varValue item="Reverse Trim" value="128" />
         <varValue item="User Id #1" value="1" />
         <varValue item="User Id #2" value="2" />
+        <varValue item="CV67 default" value="9" />
+        <varValue item="CV68 default" value="17" />
+        <varValue item="CV69 default" value="25" />
+        <varValue item="CV70 default" value="32" />
+        <varValue item="CV71 default" value="40" />
+        <varValue item="CV72 default" value="48" />
+        <varValue item="CV73 default" value="55" />
+        <varValue item="CV74 default" value="62" />
+        <varValue item="CV75 default" value="71" />
+        <varValue item="CV76 default" value="78" />
+        <varValue item="CV77 default" value="86" />
+        <varValue item="CV78 default" value="93" />
+        <varValue item="CV79 default" value="99" />
+        <varValue item="CV80 default" value="104" />
+        <varValue item="CV81 default" value="110" />
+        <varValue item="CV82 default" value="116" />
+        <varValue item="CV83 default" value="122" />
+        <varValue item="CV84 default" value="129" />
+        <varValue item="CV85 default" value="135" />
+        <varValue item="CV86 default" value="141" />
+        <varValue item="CV87 default" value="148" />
+        <varValue item="CV88 default" value="157" />
+        <varValue item="CV89 default" value="166" />
+        <varValue item="CV90 default" value="184" />
+        <varValue item="CV91 default" value="202" />
+        <varValue item="CV92 default" value="220" />
+        <varValue item="CV93 default" value="238" />
+        <varValue item="CV94 default" value="255" />
       </decoderDef>
       <CVvalue name="29" value="34" />
       <CVvalue name="37" value="0" />
@@ -706,6 +733,7 @@
       <CVvalue name="134" value="75" />
       <CVvalue name="135" value="15" />
       <CVvalue name="138" value="128" />
+      <CVvalue name="139" value="100" />
       <CVvalue name="143" value="16" />
       <CVvalue name="144" value="0" />
       <CVvalue name="145" value="128" />
@@ -744,6 +772,7 @@
       <CVvalue name="190" value="0" />
       <CVvalue name="191" value="0" />
       <CVvalue name="192" value="0" />
+      <CVvalue name="200" value="90" />
       <CVvalue name="201" value="128" />
       <CVvalue name="202" value="0" />
       <CVvalue name="203" value="128" />
@@ -777,6 +806,7 @@
       <CVvalue name="16.1.275" value="12" />
       <CVvalue name="16.1.283" value="255" />
       <CVvalue name="16.1.284" value="255" />
+      <CVvalue name="16.1.299" value="4" />
       <CVvalue name="16.1.301" value="7" />
       <CVvalue name="16.1.302" value="255" />
       <CVvalue name="16.1.303" value="28" />
@@ -831,10 +861,10 @@
       <CVvalue name="16.2.504" value="186" />
       <CVvalue name="16.2.507" value="0" />
       <CVvalue name="16.2.508" value="255" />
-      <CVvalue name="16.2.509" value="215" />
-      <CVvalue name="16.2.510" value="215" />
-      <CVvalue name="16.2.511" value="10" />
-      <CVvalue name="16.2.512" value="0" />
+      <CVvalue name="16.2.509" value="15" />
+      <CVvalue name="16.2.510" value="40" />
+      <CVvalue name="16.2.511" value="120" />
+      <CVvalue name="16.2.512" value="30" />
       <CVvalue name="16.3.257" value="5" />
       <CVvalue name="16.3.258" value="180" />
       <CVvalue name="10" value="0" />
@@ -858,7 +888,6 @@
       <CVvalue name="119" value="204" />
       <CVvalue name="126" value="128" />
       <CVvalue name="137" value="128" />
-      <CVvalue name="139" value="100" />
       <CVvalue name="140" value="70" />
       <CVvalue name="148" value="70" />
       <CVvalue name="149" value="150" />
@@ -869,7 +898,6 @@
       <CVvalue name="196" value="3" />
       <CVvalue name="197" value="4" />
       <CVvalue name="198" value="0" />
-      <CVvalue name="200" value="90" />
       <CVvalue name="209" value="48" />
       <CVvalue name="210" value="16" />
       <CVvalue name="211" value="180" />
@@ -901,7 +929,6 @@
       <CVvalue name="16.1.286" value="27" />
       <CVvalue name="16.1.297" value="2" />
       <CVvalue name="16.1.298" value="1" />
-      <CVvalue name="16.1.299" value="4" />
       <CVvalue name="16.1.300" value="3" />
       <CVvalue name="16.1.305" value="255" />
       <CVvalue name="16.1.306" value="255" />
@@ -974,6 +1001,4 @@
       <CVvalue name="106" value="2" />
     </values>
   </locomotive>
-  <!--Written by JMRI version 5.15.3plus+jenkins+20260213T2025Z+R099362ba8c on Sat Feb 14 14:53:49 PST 2026-->
-  <!--Written by JMRI version 5.15.4plus+jenkins+20260305T1324Z+R2910b939945 on Thu Mar 05 17:24:29 PST 2026-->
 </locomotive-config>
