@@ -16919,7 +16919,7 @@
     <layoutturnout ident="TO19" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="1359.0" ycen="416.0" xa="1399.0" ya="416.0" xb="1319.0" yb="416.0" xc="1319.0" yc="436.0" xd="1399.0" yd="416.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" connectaname="T40" connectbname="T39" connectcname="T44" />
     <layoutturnout ident="TO20" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="1279.0" ycen="416.0" xa="1319.0" ya="416.0" xb="1239.0" yb="416.0" xc="1239.0" yc="436.0" xd="1319.0" yd="416.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" connectaname="T39" connectbname="T45" connectcname="T43" />
     <layoutturnout ident="TO18" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="1237.3442898332885" ycen="317.67214491664424" xa="1266.0" ya="332.0" xb="1208.688579666577" yb="303.3442898332885" xc="1182.0534416449013" yc="316.8496259858685" xd="1266.0" yd="332.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" connectaname="T30" connectbname="T31" connectcname="T59" />
-    <layoutturnout ident="TO21" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="674.0" ycen="307.0" xa="641.0" ya="297.0" xb="707.0" yb="317.0" xc="719.0" yc="350.0" xd="641.0" yd="297.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" connectaname="T18" connectbname="T59" connectcname="T60" />
+    <layoutturnout ident="TO21" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="674.0" ycen="306.0" xa="642.0" ya="296.0" xb="706.0" yb="316.0" xc="719.0" yc="349.0" xd="642.0" yd="296.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" connectaname="T18" connectbname="T59" connectcname="T60" />
     <tracksegment ident="T1" connect1name="EC1" type1="POS_POINT" connect2name="TO1" type2="TURNOUT_A" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
       <decorations>
         <arrow style="1" end="start" direction="out" color="#000000" linewidth="2" length="6" gap="1" />
@@ -24773,7 +24773,7 @@
     </operation>
     <operation>
       <type>Store</type>
-      <date>Sun May 03 16:36:41 MDT 2026</date>
+      <date>Sun May 03 16:38:26 MDT 2026</date>
       <filename>/Users/jake/Library/Mobile Documents/com~apple~CloudDocs/Trains/PMRRM/git_repos/PMRRM/Profiles/Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
     </operation>
   </filehistory>
