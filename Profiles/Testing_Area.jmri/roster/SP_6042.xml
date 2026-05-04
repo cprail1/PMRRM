@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
-<locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <!--Written by JMRI version 5.15.3plus+jenkins+20260213T2025Z+R099362ba8c on Thu Feb 19 14:49:43 PST 2026-->
-  <locomotive id="SP 6042" fileName="SP_6042.xml" roadNumber="6042" roadName="Southern Pacific" mfg="Union Terminal" owner="148 Kevin Schiller" model="PA" dccAddress="6042" comment="TE: 24, 20, 16" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-    <dateUpdated>2026-02-19T22:49:43.044+00:00</dateUpdated>
+<locomotive-config>
+  <locomotive id="SP 6042" fileName="SP_6042.xml" roadNumber="6042" roadName="Southern Pacific" mfg="Union Terminal" owner="148 Kevin Schiller" model="PA" dccAddress="6042" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+    <dateUpdated>2026-04-04T21:27:19.319+00:00</dateUpdated>
     <decoder model="LokSound Select" family="ESU LokSound Select" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="6042" longaddress="yes" />
@@ -20,6 +20,10 @@
       <keyvaluepair>
         <key>RosterGroup:SP</key>
         <value>yes</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>TE: 24, 20, 16</value>
       </keyvaluepair>
     </attributepairs>
     <values>
@@ -5438,5 +5442,4 @@
       <CVvalue name="16.4.384" value="0" />
     </values>
   </locomotive>
-  <!--Written by JMRI version 5.15.4plus+jenkins+20260305T1324Z+R2910b939945 on Thu Mar 05 17:29:32 PST 2026-->
 </locomotive-config>

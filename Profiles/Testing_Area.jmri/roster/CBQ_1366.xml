@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="CBQ 1366" fileName="CBQ_1366.xml" roadNumber="1366" roadName="Chicago, Burlington &amp; Quincy" mfg="Athearn" owner="148 Kevin Schiller" model="NE-13A caboose" dccAddress="1366" comment="" developerID="-1" manufacturerID="11" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-    <dateUpdated>2025-09-06T18:39:08.940+00:00</dateUpdated>
+  <locomotive id="CBQ 1366" fileName="CBQ_1366.xml" roadNumber="1366" roadName="Chicago, Burlington &amp; Quincy" mfg="Athearn" owner="148 Kevin Schiller" model="NE-13A caboose" dccAddress="1366" comment="decoder lit" developerID="-1" manufacturerID="11" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+    <dateUpdated>2026-04-11T18:09:17.753+00:00</dateUpdated>
     <decoder model="Athearn Genesis Caboose" family="Rolling Stock Lighting" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="1366" longaddress="yes" />
@@ -132,6 +133,4 @@
       <CVvalue name="16" value="0" />
     </values>
   </locomotive>
-  <!--Written by JMRI version 5.15.3plus+jenkins+20260213T2025Z+R099362ba8c on Sat Feb 14 14:52:12 PST 2026-->
-  <!--Written by JMRI version 5.15.4plus+jenkins+20260305T1324Z+R2910b939945 on Thu Mar 05 17:23:18 PST 2026-->
 </locomotive-config>

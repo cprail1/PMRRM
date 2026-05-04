@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
-<locomotive-config>
-  <locomotive id="Metrolink 878" fileName="Metrolink_878.xml" roadNumber="878" roadName="Metrolink" mfg="Athearn" owner="J270 Matthew J Zepeda" model="F59PHI" dccAddress="3" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
-    <dateUpdated>2026-02-08T03:58:30.367+00:00</dateUpdated>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
+<locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
+  <locomotive id="Metrolink 878" fileName="Metrolink_878.xml" roadNumber="878" roadName="Metrolink" mfg="Athearn" owner="J270 Matthew J Zepeda" model="F59PHI" dccAddress="878" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+    <dateUpdated>2026-04-04T21:33:48.998+00:00</dateUpdated>
     <decoder model="ECO-RTR F59PHI 2" family="Econami Diesel OEM Athearn" comment="" maxFnNum="28" />
     <locoaddress>
-      <dcclocoaddress number="3" longaddress="no" />
-      <number>3</number>
-      <protocol>dcc_short</protocol>
+      <dcclocoaddress number="878" longaddress="yes" />
+      <number>878</number>
+      <protocol>dcc_long</protocol>
     </locoaddress>
     <functionlabels>
       <functionlabel num="0" lockable="true" visible="true" functionImage="" functionImageSelected="">Headlight</functionlabel>
@@ -418,8 +418,8 @@
         <varValue item="E-Brake App Automatic Effects - REVS" value="0" />
         <varValue item="E-Brake App Automatic Effects - ESTP" value="1" />
         <varValue item="Short Address" value="3" />
-        <varValue item="Long Address" value="0" />
-        <varValue item="Address Format" value="0" />
+        <varValue item="Long Address" value="878" />
+        <varValue item="Address Format" value="1" />
         <varValue item="Vstart" value="0" />
         <varValue item="Vhigh" value="0" />
         <varValue item="Vmid" value="0" />
@@ -471,7 +471,7 @@
         <varValue item="CV93 default" value="215" />
         <varValue item="CV94 default" value="220" />
       </decoderDef>
-      <CVvalue name="29" value="6" />
+      <CVvalue name="29" value="38" />
       <CVvalue name="49" value="15" />
       <CVvalue name="50" value="15" />
       <CVvalue name="51" value="201" />
@@ -615,8 +615,8 @@
       <CVvalue name="16.1.439" value="0" />
       <CVvalue name="16.1.449" value="16" />
       <CVvalue name="1" value="3" />
-      <CVvalue name="17" value="0" />
-      <CVvalue name="18" value="0" />
+      <CVvalue name="17" value="195" />
+      <CVvalue name="18" value="110" />
       <CVvalue name="2" value="0" />
       <CVvalue name="5" value="0" />
       <CVvalue name="6" value="0" />
@@ -662,6 +662,4 @@
       <CVvalue name="106" value="0" />
     </values>
   </locomotive>
-  <!--Written by JMRI version 5.15.3plus+jenkins+20260213T2025Z+R099362ba8c on Sat Feb 14 14:55:10 PST 2026-->
-  <!--Written by JMRI version 5.15.4plus+jenkins+20260305T1324Z+R2910b939945 on Thu Mar 05 17:25:37 PST 2026-->
 </locomotive-config>

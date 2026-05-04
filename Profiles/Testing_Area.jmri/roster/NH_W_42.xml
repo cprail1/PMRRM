@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <!--Written by JMRI version 5.15.3plus+jenkins+20260213T2025Z+R099362ba8c on Sun Feb 22 18:14:40 PST 2026-->
-  <locomotive id="NH&amp;W 42" fileName="NH_W_42.xml" roadNumber="42" roadName="Norris Harbor &amp; western" mfg="Bachmnan" owner="274 Chris Wilbur" model="2-8-0" dccAddress="42" comment="TE:" developerID="-1" manufacturerID="129" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-    <dateUpdated>2026-02-23T02:14:39.990+00:00</dateUpdated>
+  <locomotive id="NH&amp;W 42" fileName="NH_W_42.xml" roadNumber="42" roadName="Norris Harbor &amp; western" mfg="Bachmnan" owner="274 Chris Wilbur" model="2-8-0" dccAddress="42" comment="" developerID="-1" manufacturerID="129" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+    <dateUpdated>2026-04-04T21:22:28.611+00:00</dateUpdated>
     <decoder model="DH127D" family="Economy Series 7 with FX3, silent" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="42" longaddress="no" />
@@ -152,5 +152,4 @@
       <CVvalue name="106" value="0" />
     </values>
   </locomotive>
-  <!--Written by JMRI version 5.15.4plus+jenkins+20260305T1324Z+R2910b939945 on Thu Mar 05 17:26:13 PST 2026-->
 </locomotive-config>

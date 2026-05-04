@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
-<locomotive-config>
-  <locomotive id="SCAX 628" fileName="SCAX_628.xml" roadNumber="628" roadName="Metrolink" mfg="Rapido" owner="265 AJ Chier" model="Bombardier Cab/Coach" dccAddress="3" comment="DO NOT SEPARATE FROM SCAX 868" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
-    <dateUpdated>2026-02-08T03:58:32.014+00:00</dateUpdated>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
+<locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
+  <locomotive id="SCAX 628" fileName="SCAX_628.xml" roadNumber="628" roadName="Metrolink" mfg="Rapido" owner="265 AJ Chier" model="Bombardier Cab/Coach" dccAddress="628" comment="DO NOT SEPARATE FROM SCAX 868" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+    <dateUpdated>2026-04-04T21:36:45.561+00:00</dateUpdated>
     <decoder model="LokSound 5 Fx" family="ESU LokSound 5" comment="" maxFnNum="31" />
     <locoaddress>
-      <dcclocoaddress number="3" longaddress="no" />
-      <number>3</number>
-      <protocol>dcc_short</protocol>
+      <dcclocoaddress number="628" longaddress="yes" />
+      <number>628</number>
+      <protocol>dcc_long</protocol>
     </locoaddress>
     <functionlabels>
       <functionlabel num="0" lockable="true" visible="true" functionImage="" functionImageSelected="">Light</functionlabel>
@@ -108,11 +108,12 @@
         <varValue item="Firmware Build Number" value="0" />
         <varValue item="Firmware Minor Version" value="0" />
         <varValue item="Firmware Major Version" value="0" />
+        <varValue item="Firmware Full Version" value="0" />
         <varValue item="PICV" value="31" />
         <varValue item="SICV" value="32" />
-        <varValue item="Short Address" value="3" />
-        <varValue item="Long Address" value="0" />
-        <varValue item="Address Format" value="0" />
+        <varValue item="Short Address" value="116" />
+        <varValue item="Long Address" value="628" />
+        <varValue item="Address Format" value="1" />
         <varValue item="ESU V4 Selectrix Brake Reverse" value="0" />
         <varValue item="ESU V4 Selectrix Brake Forward" value="0" />
         <varValue item="ESU V5 ABC Shuttle Train" value="0" />
@@ -272,6 +273,8 @@
         <varValue item="Sound Config 34" value="0" />
         <varValue item="Sound Volume Faded" value="128" />
         <varValue item="Sound Fade Time" value="2" />
+        <varValue item="Bass setting" value="16" />
+        <varValue item="Treble setting" value="16" />
         <varValue item="Sound Volume 9" value="128" />
         <varValue item="Sound Drive 9" value="1" />
         <varValue item="Sound Min Speed 9" value="128" />
@@ -500,114 +503,6 @@
         <varValue item="ESU FnOut A2-1 Slider 10" value="0" />
         <varValue item="ESU FnOut A2-1 Slider 6" value="0" />
         <varValue item="ESU FnOut A2-1 Slider 20" value="0" />
-        <varValue item="ESU FnOut HL-2 Mode" value="1" />
-        <varValue item="ESU FnOut HL-2 Slider 1" value="0" />
-        <varValue item="ESU FnOut HL-2 Slider 2" value="0" />
-        <varValue item="ESU FnOut HL-2 Slider 3" value="0" />
-        <varValue item="Brightness CV422" value="31" />
-        <varValue item="ESU FnOut HL-2 Slider 5" value="31" />
-        <varValue item="ESU FnOut HL-2 Option 1" value="1" />
-        <varValue item="ESU FnOut HL-2 Slider 7" value="31" />
-        <varValue item="ESU FnOut HL-2 Slider 11" value="31" />
-        <varValue item="ESU FnOut HL-2 Slider 14" value="31" />
-        <varValue item="ESU FnOut HL-2 Slider 8" value="31" />
-        <varValue item="Special Function CV423" value="0" />
-        <varValue item="ESU FnOut HL-2 Slider 12" value="0" />
-        <varValue item="ESU FnOut HL-2 Slider 15" value="0" />
-        <varValue item="ESU FnOut HL-2 Slider 9" value="0" />
-        <varValue item="ESU FnOut HL-2 Check 6" value="0" />
-        <varValue item="ESU FnOut HL-2 Check 1" value="0" />
-        <varValue item="ESU FnOut HL-2 Check 2" value="0" />
-        <varValue item="ESU FnOut HL-2 Check 3" value="0" />
-        <varValue item="ESU FnOut HL-2 Check 4" value="0" />
-        <varValue item="ESU FnOut HL-2 Check 5" value="0" />
-        <varValue item="Special Function CV424" value="0" />
-        <varValue item="ESU FnOut HL-2 Slider 13" value="0" />
-        <varValue item="ESU FnOut HL-2 Slider 16" value="0" />
-        <varValue item="ESU FnOut HL-2 Slider 10" value="0" />
-        <varValue item="ESU FnOut HL-2 Slider 6" value="0" />
-        <varValue item="ESU FnOut HL-2 Slider 20" value="0" />
-        <varValue item="ESU FnOut RL-2 Mode" value="1" />
-        <varValue item="ESU FnOut RL-2 Slider 1" value="0" />
-        <varValue item="ESU FnOut RL-2 Slider 2" value="0" />
-        <varValue item="ESU FnOut RL-2 Slider 3" value="0" />
-        <varValue item="Brightness CV430" value="31" />
-        <varValue item="ESU FnOut RL-2 Slider 5" value="31" />
-        <varValue item="ESU FnOut RL-2 Option 1" value="1" />
-        <varValue item="ESU FnOut RL-2 Slider 7" value="31" />
-        <varValue item="ESU FnOut RL-2 Slider 11" value="31" />
-        <varValue item="ESU FnOut RL-2 Slider 14" value="31" />
-        <varValue item="ESU FnOut RL-2 Slider 8" value="31" />
-        <varValue item="Special Function CV431" value="0" />
-        <varValue item="ESU FnOut RL-2 Slider 12" value="0" />
-        <varValue item="ESU FnOut RL-2 Slider 15" value="0" />
-        <varValue item="ESU FnOut RL-2 Slider 9" value="0" />
-        <varValue item="ESU FnOut RL-2 Check 6" value="0" />
-        <varValue item="ESU FnOut RL-2 Check 1" value="0" />
-        <varValue item="ESU FnOut RL-2 Check 2" value="0" />
-        <varValue item="ESU FnOut RL-2 Check 3" value="0" />
-        <varValue item="ESU FnOut RL-2 Check 4" value="0" />
-        <varValue item="ESU FnOut RL-2 Check 5" value="0" />
-        <varValue item="Special Function CV432" value="0" />
-        <varValue item="ESU FnOut RL-2 Slider 13" value="0" />
-        <varValue item="ESU FnOut RL-2 Slider 16" value="0" />
-        <varValue item="ESU FnOut RL-2 Slider 10" value="0" />
-        <varValue item="ESU FnOut RL-2 Slider 6" value="0" />
-        <varValue item="ESU FnOut RL-2 Slider 20" value="0" />
-        <varValue item="ESU FnOut A1-2 Mode" value="1" />
-        <varValue item="ESU FnOut A1-2 Slider 1" value="0" />
-        <varValue item="ESU FnOut A1-2 Slider 2" value="0" />
-        <varValue item="ESU FnOut A1-2 Slider 3" value="0" />
-        <varValue item="Brightness CV438" value="31" />
-        <varValue item="ESU FnOut A1-2 Slider 5" value="31" />
-        <varValue item="ESU FnOut A1-2 Option 1" value="1" />
-        <varValue item="ESU FnOut A1-2 Slider 7" value="31" />
-        <varValue item="ESU FnOut A1-2 Slider 11" value="31" />
-        <varValue item="ESU FnOut A1-2 Slider 14" value="31" />
-        <varValue item="ESU FnOut A1-2 Slider 8" value="31" />
-        <varValue item="Special Function CV439" value="0" />
-        <varValue item="ESU FnOut A1-2 Slider 12" value="0" />
-        <varValue item="ESU FnOut A1-2 Slider 15" value="0" />
-        <varValue item="ESU FnOut A1-2 Slider 9" value="0" />
-        <varValue item="ESU FnOut A1-2 Check 6" value="0" />
-        <varValue item="ESU FnOut A1-2 Check 1" value="0" />
-        <varValue item="ESU FnOut A1-2 Check 2" value="0" />
-        <varValue item="ESU FnOut A1-2 Check 3" value="0" />
-        <varValue item="ESU FnOut A1-2 Check 4" value="0" />
-        <varValue item="ESU FnOut A1-2 Check 5" value="0" />
-        <varValue item="Special Function CV440" value="0" />
-        <varValue item="ESU FnOut A1-2 Slider 13" value="0" />
-        <varValue item="ESU FnOut A1-2 Slider 16" value="0" />
-        <varValue item="ESU FnOut A1-2 Slider 10" value="0" />
-        <varValue item="ESU FnOut A1-2 Slider 6" value="0" />
-        <varValue item="ESU FnOut A1-2 Slider 20" value="0" />
-        <varValue item="ESU FnOut A2-2 Mode" value="1" />
-        <varValue item="ESU FnOut A2-2 Slider 1" value="0" />
-        <varValue item="ESU FnOut A2-2 Slider 2" value="0" />
-        <varValue item="ESU FnOut A2-2 Slider 3" value="0" />
-        <varValue item="Brightness CV446" value="31" />
-        <varValue item="ESU FnOut A2-2 Slider 5" value="31" />
-        <varValue item="ESU FnOut A2-2 Option 1" value="1" />
-        <varValue item="ESU FnOut A2-2 Slider 7" value="31" />
-        <varValue item="ESU FnOut A2-2 Slider 11" value="31" />
-        <varValue item="ESU FnOut A2-2 Slider 14" value="31" />
-        <varValue item="ESU FnOut A2-2 Slider 8" value="31" />
-        <varValue item="Special Function CV447" value="0" />
-        <varValue item="ESU FnOut A2-2 Slider 12" value="0" />
-        <varValue item="ESU FnOut A2-2 Slider 15" value="0" />
-        <varValue item="ESU FnOut A2-2 Slider 9" value="0" />
-        <varValue item="ESU FnOut A2-2 Check 6" value="0" />
-        <varValue item="ESU FnOut A2-2 Check 1" value="0" />
-        <varValue item="ESU FnOut A2-2 Check 2" value="0" />
-        <varValue item="ESU FnOut A2-2 Check 3" value="0" />
-        <varValue item="ESU FnOut A2-2 Check 4" value="0" />
-        <varValue item="ESU FnOut A2-2 Check 5" value="0" />
-        <varValue item="Special Function CV448" value="0" />
-        <varValue item="ESU FnOut A2-2 Slider 13" value="0" />
-        <varValue item="ESU FnOut A2-2 Slider 16" value="0" />
-        <varValue item="ESU FnOut A2-2 Slider 10" value="0" />
-        <varValue item="ESU FnOut A2-2 Slider 6" value="0" />
-        <varValue item="ESU FnOut A2-2 Slider 20" value="0" />
         <varValue item="ESU FnOut A3 Mode" value="1" />
         <varValue item="ESU FnOut A3 Slider 1" value="0" />
         <varValue item="ESU FnOut A3 Slider 2" value="0" />
@@ -859,6 +754,114 @@
         <varValue item="ESU FnOut A12 Slider 6" value="0" />
         <varValue item="ESU FnOut A12 Slider 20" value="0" />
         <varValue item="ESU FnOut A12 Slider 19" value="0" />
+        <varValue item="ESU FnOut HL-2 Mode" value="1" />
+        <varValue item="ESU FnOut HL-2 Slider 1" value="0" />
+        <varValue item="ESU FnOut HL-2 Slider 2" value="0" />
+        <varValue item="ESU FnOut HL-2 Slider 3" value="0" />
+        <varValue item="Brightness CV422" value="31" />
+        <varValue item="ESU FnOut HL-2 Slider 5" value="31" />
+        <varValue item="ESU FnOut HL-2 Option 1" value="1" />
+        <varValue item="ESU FnOut HL-2 Slider 7" value="31" />
+        <varValue item="ESU FnOut HL-2 Slider 11" value="31" />
+        <varValue item="ESU FnOut HL-2 Slider 14" value="31" />
+        <varValue item="ESU FnOut HL-2 Slider 8" value="31" />
+        <varValue item="Special Function CV423" value="0" />
+        <varValue item="ESU FnOut HL-2 Slider 12" value="0" />
+        <varValue item="ESU FnOut HL-2 Slider 15" value="0" />
+        <varValue item="ESU FnOut HL-2 Slider 9" value="0" />
+        <varValue item="ESU FnOut HL-2 Check 6" value="0" />
+        <varValue item="ESU FnOut HL-2 Check 1" value="0" />
+        <varValue item="ESU FnOut HL-2 Check 2" value="0" />
+        <varValue item="ESU FnOut HL-2 Check 3" value="0" />
+        <varValue item="ESU FnOut HL-2 Check 4" value="0" />
+        <varValue item="ESU FnOut HL-2 Check 5" value="0" />
+        <varValue item="Special Function CV424" value="0" />
+        <varValue item="ESU FnOut HL-2 Slider 13" value="0" />
+        <varValue item="ESU FnOut HL-2 Slider 16" value="0" />
+        <varValue item="ESU FnOut HL-2 Slider 10" value="0" />
+        <varValue item="ESU FnOut HL-2 Slider 6" value="0" />
+        <varValue item="ESU FnOut HL-2 Slider 20" value="0" />
+        <varValue item="ESU FnOut RL-2 Mode" value="1" />
+        <varValue item="ESU FnOut RL-2 Slider 1" value="0" />
+        <varValue item="ESU FnOut RL-2 Slider 2" value="0" />
+        <varValue item="ESU FnOut RL-2 Slider 3" value="0" />
+        <varValue item="Brightness CV430" value="31" />
+        <varValue item="ESU FnOut RL-2 Slider 5" value="31" />
+        <varValue item="ESU FnOut RL-2 Option 1" value="1" />
+        <varValue item="ESU FnOut RL-2 Slider 7" value="31" />
+        <varValue item="ESU FnOut RL-2 Slider 11" value="31" />
+        <varValue item="ESU FnOut RL-2 Slider 14" value="31" />
+        <varValue item="ESU FnOut RL-2 Slider 8" value="31" />
+        <varValue item="Special Function CV431" value="0" />
+        <varValue item="ESU FnOut RL-2 Slider 12" value="0" />
+        <varValue item="ESU FnOut RL-2 Slider 15" value="0" />
+        <varValue item="ESU FnOut RL-2 Slider 9" value="0" />
+        <varValue item="ESU FnOut RL-2 Check 6" value="0" />
+        <varValue item="ESU FnOut RL-2 Check 1" value="0" />
+        <varValue item="ESU FnOut RL-2 Check 2" value="0" />
+        <varValue item="ESU FnOut RL-2 Check 3" value="0" />
+        <varValue item="ESU FnOut RL-2 Check 4" value="0" />
+        <varValue item="ESU FnOut RL-2 Check 5" value="0" />
+        <varValue item="Special Function CV432" value="0" />
+        <varValue item="ESU FnOut RL-2 Slider 13" value="0" />
+        <varValue item="ESU FnOut RL-2 Slider 16" value="0" />
+        <varValue item="ESU FnOut RL-2 Slider 10" value="0" />
+        <varValue item="ESU FnOut RL-2 Slider 6" value="0" />
+        <varValue item="ESU FnOut RL-2 Slider 20" value="0" />
+        <varValue item="ESU FnOut A1-2 Mode" value="1" />
+        <varValue item="ESU FnOut A1-2 Slider 1" value="0" />
+        <varValue item="ESU FnOut A1-2 Slider 2" value="0" />
+        <varValue item="ESU FnOut A1-2 Slider 3" value="0" />
+        <varValue item="Brightness CV438" value="31" />
+        <varValue item="ESU FnOut A1-2 Slider 5" value="31" />
+        <varValue item="ESU FnOut A1-2 Option 1" value="1" />
+        <varValue item="ESU FnOut A1-2 Slider 7" value="31" />
+        <varValue item="ESU FnOut A1-2 Slider 11" value="31" />
+        <varValue item="ESU FnOut A1-2 Slider 14" value="31" />
+        <varValue item="ESU FnOut A1-2 Slider 8" value="31" />
+        <varValue item="Special Function CV439" value="0" />
+        <varValue item="ESU FnOut A1-2 Slider 12" value="0" />
+        <varValue item="ESU FnOut A1-2 Slider 15" value="0" />
+        <varValue item="ESU FnOut A1-2 Slider 9" value="0" />
+        <varValue item="ESU FnOut A1-2 Check 6" value="0" />
+        <varValue item="ESU FnOut A1-2 Check 1" value="0" />
+        <varValue item="ESU FnOut A1-2 Check 2" value="0" />
+        <varValue item="ESU FnOut A1-2 Check 3" value="0" />
+        <varValue item="ESU FnOut A1-2 Check 4" value="0" />
+        <varValue item="ESU FnOut A1-2 Check 5" value="0" />
+        <varValue item="Special Function CV440" value="0" />
+        <varValue item="ESU FnOut A1-2 Slider 13" value="0" />
+        <varValue item="ESU FnOut A1-2 Slider 16" value="0" />
+        <varValue item="ESU FnOut A1-2 Slider 10" value="0" />
+        <varValue item="ESU FnOut A1-2 Slider 6" value="0" />
+        <varValue item="ESU FnOut A1-2 Slider 20" value="0" />
+        <varValue item="ESU FnOut A2-2 Mode" value="1" />
+        <varValue item="ESU FnOut A2-2 Slider 1" value="0" />
+        <varValue item="ESU FnOut A2-2 Slider 2" value="0" />
+        <varValue item="ESU FnOut A2-2 Slider 3" value="0" />
+        <varValue item="Brightness CV446" value="31" />
+        <varValue item="ESU FnOut A2-2 Slider 5" value="31" />
+        <varValue item="ESU FnOut A2-2 Option 1" value="1" />
+        <varValue item="ESU FnOut A2-2 Slider 7" value="31" />
+        <varValue item="ESU FnOut A2-2 Slider 11" value="31" />
+        <varValue item="ESU FnOut A2-2 Slider 14" value="31" />
+        <varValue item="ESU FnOut A2-2 Slider 8" value="31" />
+        <varValue item="Special Function CV447" value="0" />
+        <varValue item="ESU FnOut A2-2 Slider 12" value="0" />
+        <varValue item="ESU FnOut A2-2 Slider 15" value="0" />
+        <varValue item="ESU FnOut A2-2 Slider 9" value="0" />
+        <varValue item="ESU FnOut A2-2 Check 6" value="0" />
+        <varValue item="ESU FnOut A2-2 Check 1" value="0" />
+        <varValue item="ESU FnOut A2-2 Check 2" value="0" />
+        <varValue item="ESU FnOut A2-2 Check 3" value="0" />
+        <varValue item="ESU FnOut A2-2 Check 4" value="0" />
+        <varValue item="ESU FnOut A2-2 Check 5" value="0" />
+        <varValue item="Special Function CV448" value="0" />
+        <varValue item="ESU FnOut A2-2 Slider 13" value="0" />
+        <varValue item="ESU FnOut A2-2 Slider 16" value="0" />
+        <varValue item="ESU FnOut A2-2 Slider 10" value="0" />
+        <varValue item="ESU FnOut A2-2 Slider 6" value="0" />
+        <varValue item="ESU FnOut A2-2 Slider 20" value="0" />
         <varValue item="Random Function 1" value="0" />
         <varValue item="Random Function 1 Stopped" value="0" />
         <varValue item="Random Function 1 Moving" value="0" />
@@ -8932,7 +8935,7 @@
       <CVvalue name="15" value="0" />
       <CVvalue name="16" value="0" />
       <CVvalue name="28" value="131" />
-      <CVvalue name="29" value="14" />
+      <CVvalue name="29" value="46" />
       <CVvalue name="31" value="16" />
       <CVvalue name="32" value="0" />
       <CVvalue name="47" value="15" />
@@ -8970,9 +8973,9 @@
       <CVvalue name="0.255.286" value="0" />
       <CVvalue name="0.255.287" value="0" />
       <CVvalue name="0.255.288" value="0" />
-      <CVvalue name="1" value="3" />
-      <CVvalue name="17" value="0" />
-      <CVvalue name="18" value="0" />
+      <CVvalue name="1" value="116" />
+      <CVvalue name="17" value="194" />
+      <CVvalue name="18" value="116" />
       <CVvalue name="149" value="0" />
       <CVvalue name="150" value="42" />
       <CVvalue name="151" value="85" />
@@ -9138,6 +9141,8 @@
       <CVvalue name="16.2.271" value="0" />
       <CVvalue name="133" value="128" />
       <CVvalue name="135" value="2" />
+      <CVvalue name="196" value="16" />
+      <CVvalue name="197" value="16" />
       <CVvalue name="16.1.323" value="128" />
       <CVvalue name="16.1.324" value="1" />
       <CVvalue name="16.1.325" value="128" />
@@ -9282,30 +9287,6 @@
       <CVvalue name="16.0.286" value="31" />
       <CVvalue name="16.0.287" value="0" />
       <CVvalue name="16.0.288" value="0" />
-      <CVvalue name="16.0.419" value="1" />
-      <CVvalue name="16.0.420" value="0" />
-      <CVvalue name="16.0.421" value="0" />
-      <CVvalue name="16.0.422" value="31" />
-      <CVvalue name="16.0.423" value="0" />
-      <CVvalue name="16.0.424" value="0" />
-      <CVvalue name="16.0.427" value="1" />
-      <CVvalue name="16.0.428" value="0" />
-      <CVvalue name="16.0.429" value="0" />
-      <CVvalue name="16.0.430" value="31" />
-      <CVvalue name="16.0.431" value="0" />
-      <CVvalue name="16.0.432" value="0" />
-      <CVvalue name="16.0.435" value="1" />
-      <CVvalue name="16.0.436" value="0" />
-      <CVvalue name="16.0.437" value="0" />
-      <CVvalue name="16.0.438" value="31" />
-      <CVvalue name="16.0.439" value="0" />
-      <CVvalue name="16.0.440" value="0" />
-      <CVvalue name="16.0.443" value="1" />
-      <CVvalue name="16.0.444" value="0" />
-      <CVvalue name="16.0.445" value="0" />
-      <CVvalue name="16.0.446" value="31" />
-      <CVvalue name="16.0.447" value="0" />
-      <CVvalue name="16.0.448" value="0" />
       <CVvalue name="16.0.291" value="1" />
       <CVvalue name="16.0.292" value="0" />
       <CVvalue name="16.0.293" value="0" />
@@ -9362,6 +9343,30 @@
       <CVvalue name="16.0.362" value="31" />
       <CVvalue name="16.0.367" value="0" />
       <CVvalue name="16.0.368" value="0" />
+      <CVvalue name="16.0.419" value="1" />
+      <CVvalue name="16.0.420" value="0" />
+      <CVvalue name="16.0.421" value="0" />
+      <CVvalue name="16.0.422" value="31" />
+      <CVvalue name="16.0.423" value="0" />
+      <CVvalue name="16.0.424" value="0" />
+      <CVvalue name="16.0.427" value="1" />
+      <CVvalue name="16.0.428" value="0" />
+      <CVvalue name="16.0.429" value="0" />
+      <CVvalue name="16.0.430" value="31" />
+      <CVvalue name="16.0.431" value="0" />
+      <CVvalue name="16.0.432" value="0" />
+      <CVvalue name="16.0.435" value="1" />
+      <CVvalue name="16.0.436" value="0" />
+      <CVvalue name="16.0.437" value="0" />
+      <CVvalue name="16.0.438" value="31" />
+      <CVvalue name="16.0.439" value="0" />
+      <CVvalue name="16.0.440" value="0" />
+      <CVvalue name="16.0.443" value="1" />
+      <CVvalue name="16.0.444" value="0" />
+      <CVvalue name="16.0.445" value="0" />
+      <CVvalue name="16.0.446" value="31" />
+      <CVvalue name="16.0.447" value="0" />
+      <CVvalue name="16.0.448" value="0" />
       <CVvalue name="16.13.257" value="0" />
       <CVvalue name="16.13.258" value="40" />
       <CVvalue name="16.13.259" value="60" />
@@ -10804,6 +10809,4 @@
       <CVvalue name="16.12.378" value="0" />
     </values>
   </locomotive>
-  <!--Written by JMRI version 5.15.3plus+jenkins+20260213T2025Z+R099362ba8c on Sat Feb 14 14:58:05 PST 2026-->
-  <!--Written by JMRI version 5.15.4plus+jenkins+20260305T1324Z+R2910b939945 on Thu Mar 05 17:27:47 PST 2026-->
 </locomotive-config>

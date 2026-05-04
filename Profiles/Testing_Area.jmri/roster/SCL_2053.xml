@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <!--Written by JMRI version 5.15.4plus+jenkins+20260305T1324Z+R2910b939945 on Sat Mar 07 15:25:51 PST 2026-->
-  <locomotive id="SCL 2053" fileName="SCL_2053.xml" roadNumber="2053" roadName="Seaboard Coast Line" mfg="Athearn " owner="j270 Matthew J Zepeda" model="SD45-2" dccAddress="2053" comment="TE:24,16" developerID="-1" manufacturerID="141" productID="6406" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-    <dateUpdated>2026-03-07T23:25:51.249+00:00</dateUpdated>
+  <locomotive id="SCL 2053" fileName="SCL_2053.xml" roadNumber="2053" roadName="Seaboard Coast Line" mfg="Athearn " owner="J270 Matthew J Zepeda" model="SD45-2" dccAddress="2053" comment="" developerID="-1" manufacturerID="141" productID="6406" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+    <dateUpdated>2026-04-23T21:46:59.976+00:00</dateUpdated>
     <decoder model="TSU-GN2208 SDP45/SD45-2/F45/FP45 5" family="Tsunami2 Diesel OEM Genesis" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="2053" longaddress="yes" />
@@ -132,7 +131,7 @@
         <varValue item="Sound Option 5" value="7" />
         <varValue item="Sound Option 10" value="3" />
         <varValue item="Sound Option 16" value="0" />
-        <varValue item="Sound Setting 1" value="192" />
+        <varValue item="Sound Setting 1" value="40" />
         <varValue item="Sound Setting 2" value="192" />
         <varValue item="Sound Setting 3" value="55" />
         <varValue item="Sound Setting 4" value="200" />
@@ -153,7 +152,7 @@
         <varValue item="Sound Setting 30" value="50" />
         <varValue item="Sound Setting 31" value="40" />
         <varValue item="Sound Setting 32" value="20" />
-        <varValue item="Sound Setting 33" value="30" />
+        <varValue item="Sound Setting 33" value="0" />
         <varValue item="Whistle Reverb Level" value="100" />
         <varValue item="Bell Reverb Level" value="64" />
         <varValue item="Exhaust Reverb Level" value="0" />
@@ -762,7 +761,7 @@
       <CVvalue name="123" value="7" />
       <CVvalue name="124" value="3" />
       <CVvalue name="125" value="0" />
-      <CVvalue name="128" value="192" />
+      <CVvalue name="128" value="40" />
       <CVvalue name="129" value="192" />
       <CVvalue name="130" value="55" />
       <CVvalue name="131" value="200" />
@@ -783,7 +782,7 @@
       <CVvalue name="157" value="50" />
       <CVvalue name="158" value="40" />
       <CVvalue name="159" value="20" />
-      <CVvalue name="160" value="30" />
+      <CVvalue name="160" value="0" />
       <CVvalue name="161" value="100" />
       <CVvalue name="162" value="64" />
       <CVvalue name="163" value="0" />

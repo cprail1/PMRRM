@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
-<locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <!--Written by JMRI version 5.15.4plus+jenkins+20260305T1324Z+R2910b939945 on Sat Mar 14 11:24:55 PDT 2026-->
-  <locomotive id="BM 1545" fileName="B___M_1545.xml" roadNumber="1545" roadName="Boston &amp; Maine" mfg="Bachman" owner="Chris Wilbur" model="RS3" dccAddress="1545" comment="" developerID="-1" manufacturerID="101" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-    <dateUpdated>2026-03-14T18:24:55.051+00:00</dateUpdated>
+<locomotive-config>
+  <locomotive id="BM 1545" fileName="BM_1545.xml" roadNumber="1545" roadName="Boston &amp; Maine" mfg="Bachman" owner="274 Chris Wilbur" model="RS3" dccAddress="1545" comment="" developerID="-1" manufacturerID="101" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+    <dateUpdated>2026-04-04T21:11:17.683+00:00</dateUpdated>
     <decoder model="2 function decoder (36-552)" family="E-Z Command decoders" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="1545" longaddress="yes" />

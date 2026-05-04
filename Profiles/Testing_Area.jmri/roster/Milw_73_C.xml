@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="Milw 73-C" fileName="Milw_73_C.xml" roadNumber="73-C" roadName="Milwaukee Road" mfg="Athearn Genesis" owner="J270 Matthew J Zepeda" model="F7A" dccAddress="73" comment="" developerID="-1" manufacturerID="141" productID="6318" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
-    <dateUpdated>2026-02-08T03:58:30.784+00:00</dateUpdated>
+  <locomotive id="Milw 73-C" fileName="Milw_73_C.xml" roadNumber="73-C" roadName="Milwaukee Road" mfg="Athearn Genesis" owner="J270 Matthew J Zepeda" model="F7A" dccAddress="73" comment="" developerID="-1" manufacturerID="141" productID="6318" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+    <dateUpdated>2026-04-04T21:22:20.555+00:00</dateUpdated>
     <decoder model="TSU-GN2208 F7" family="Tsunami2 Diesel OEM Genesis" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="73" longaddress="no" />
@@ -186,15 +187,16 @@
         <varValue item="Reverb191" value="0" />
         <varValue item="Reverb192" value="0" />
         <varValue item="Sound Group 3 Option 2" value="90" />
-        <varValue item="Probability Fireman Shovels Coal" value="128" />
-        <varValue item="Probability Fireman Fills the Tender" value="0" />
-        <varValue item="Probability Fireman Turns His Wrench" value="128" />
-        <varValue item="Probability Fireman Uses His Grease Gun" value="128" />
-        <varValue item="Probability Fireman Uses His Oil Can" value="64" />
-        <varValue item="Probability Fireman Uses the Injector" value="32" />
-        <varValue item="Probability Fireman Uses the Blower" value="128" />
-        <varValue item="Probability Pop Valve Blows Off" value="128" />
+        <varValue item="Cab Doors Event Probability" value="128" />
+        <varValue item="Fuel Loading Event Probability" value="0" />
+        <varValue item="Wrenches Event Probability" value="128" />
+        <varValue item="Pneumatic Oilers Event Probability" value="128" />
+        <varValue item="Cab Chatter Event Probability" value="64" />
+        <varValue item="Toilet Flush Event Probability" value="32" />
+        <varValue item="Air Conditioner Event Probability" value="128" />
+        <varValue item="Relay Clicks Event Probability" value="128" />
         <varValue item="Advanced Group 1 Option 10" value="0" />
+        <varValue item="Sound Group 3 Option 5" value="128" />
         <varValue item="High-Pass Filter Cutoff Frequency" value="20" />
         <varValue item="Equalizer Control" value="3" />
         <varValue item="62 Hz Cut/Boost" value="128" />
@@ -251,6 +253,7 @@
         <varValue item="Extended Function Map Sander Valve" value="10" />
         <varValue item="Extended Function Map Steam Generator" value="20" />
         <varValue item="Extended Function Map Fuel Loading" value="17" />
+        <varValue item="Extended Function Map Straight-to-Idle" value="19" />
         <varValue item="FX3 Effect Automatic Effects - FWDD" value="0" />
         <varValue item="FX3 Effect Automatic Effects - REVD" value="0" />
         <varValue item="FX3 Effect Automatic Effects - FWDS" value="0" />
@@ -823,6 +826,7 @@
       <CVvalue name="207" value="128" />
       <CVvalue name="208" value="128" />
       <CVvalue name="220" value="0" />
+      <CVvalue name="223" value="128" />
       <CVvalue name="224" value="20" />
       <CVvalue name="225" value="3" />
       <CVvalue name="226" value="128" />
@@ -858,6 +862,7 @@
       <CVvalue name="16.1.309" value="10" />
       <CVvalue name="16.1.312" value="20" />
       <CVvalue name="16.1.313" value="17" />
+      <CVvalue name="16.1.314" value="19" />
       <CVvalue name="16.1.387" value="0" />
       <CVvalue name="16.1.388" value="16" />
       <CVvalue name="16.1.389" value="0" />
@@ -1047,6 +1052,4 @@
       <CVvalue name="106" value="0" />
     </values>
   </locomotive>
-  <!--Written by JMRI version 5.15.3plus+jenkins+20260213T2025Z+R099362ba8c on Sat Feb 14 14:55:35 PST 2026-->
-  <!--Written by JMRI version 5.15.4plus+jenkins+20260305T1324Z+R2910b939945 on Thu Mar 05 17:25:55 PST 2026-->
 </locomotive-config>
