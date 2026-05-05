@@ -23,6 +23,10 @@ There's one profile for the Test and Inspection area machine:
  
  - `Testing Area` - this contains the primary roster
  
+There's a stripped-down profile for laptop use:
+
+ - `PMRRM Direct` - Just LCC and LocoNet connections, no further configuration
+ 
 For more information about how the `Testing Area` profile is used, see the README-Testing-Area.md file.
  
 
