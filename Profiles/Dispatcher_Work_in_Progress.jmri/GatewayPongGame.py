@@ -13,9 +13,11 @@ import org.slf4j.LoggerFactory
 lt = turnouts.provideTurnout("LT2021")
 mt = turnouts.provideTurnout("MTT2021")
 
-closedSound = jmri.jmrit.Sound("resources/sounds/Bell.wav")
-thrownSound = jmri.jmrit.Sound("resources/sounds/bell_stroke.wav")
 failSound = jmri.jmrit.Sound(jmri.util.FileUtil.getExternalFilename("profile:resources/sounds/EndGame.wav"))
+
+closedSound = jmri.jmrit.Sound(jmri.util.FileUtil.getExternalFilename("profile:resources/sounds/Pong1.wav"))
+thrownSound = jmri.jmrit.Sound(jmri.util.FileUtil.getExternalFilename("profile:resources/sounds/Pong2.wav"))
+
 
 log = org.slf4j.LoggerFactory.getLogger(
         "script.GatewayPongGame"
