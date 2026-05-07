@@ -33,7 +33,7 @@ class GatewayPongGame (jmri.jmrit.automat.AbstractAutomaton) :
         
         source.setCommandedState(newstate)
         self.waitMsec(200)
-        print oldstate, newstate, source.getCommandedState(), sink.getKnownState()
+
         if sink.getKnownState() == newstate :
             # success!
             log.debug("{} OK", direction)
