@@ -15,8 +15,8 @@ mt = turnouts.provideTurnout("MTT2021")
 
 failSound = jmri.jmrit.Sound(jmri.util.FileUtil.getExternalFilename("profile:resources/sounds/EndGame.wav"))
 
-closedSound = jmri.jmrit.Sound(jmri.util.FileUtil.getExternalFilename("profile:resources/sounds/Pong1.wav"))
-thrownSound = jmri.jmrit.Sound(jmri.util.FileUtil.getExternalFilename("profile:resources/sounds/Pong2.wav"))
+lt_mt = jmri.jmrit.Sound(jmri.util.FileUtil.getExternalFilename("profile:resources/sounds/Pong1.wav"))
+mt_lt = jmri.jmrit.Sound(jmri.util.FileUtil.getExternalFilename("profile:resources/sounds/Pong2.wav"))
 
 
 log = org.slf4j.LoggerFactory.getLogger(
@@ -24,35 +24,33 @@ log = org.slf4j.LoggerFactory.getLogger(
         )
 
 class GatewayPongGame (jmri.jmrit.automat.AbstractAutomaton) :
+
+    def check(self, source, sink, oksound, direction) :
+        # figure out needed change
+        oldstate = sink.getKnownState()
+        newstate = THROWN
+        if oldstate == THROWN : newstate = CLOSED
+        
+        source.setCommandedState(newstate)
+        self.waitMsec(200)
+        print oldstate, newstate, source.getCommandedState(), sink.getKnownState()
+        if sink.getKnownState() == newstate :
+            # success!
+            log.debug("{} OK", direction)
+            oksound.play()
+        else :
+            # fail - sound and wait a bit
+            log.error("{} failed", direction)
+            failSound.play()
+            self.waitMsec(2000)
         
     def handle(self) : 
-        delay = 3000   # in milliseconds
-        
-        mt.setCommandedState(CLOSED)
-        self.waitMsec(200)
-        if lt.getKnownState() == CLOSED :
-            # OK, play sound and continue
-            closedSound.play()
-        else : 
-            # failed, sound and quit
-            log.error("LCC -> LocoNet failed")            
-            failSound.play()
-            return False
-            
-        self.waitMsec(delay)
-        
-        lt.setCommandedState(THROWN)
-        self.waitMsec(200)
-        if mt.getKnownState() == THROWN :
-            # OK, play sound and continue
-            thrownSound.play()
-        else : 
-            # failed, sound and quit
-            log.error("LocoNet -> LCC failed")
-            failSound.play()
-            return False
-            
-        self.waitMsec(delay)
+
+        self.check(lt, mt, lt_mt, "LocoNet -> LCC")
+        self.waitMsec(3000)
+
+        self.check(mt, lt, mt_lt, "LCC -> LocoNet")
+        self.waitMsec(3000)
         
         # repeat
         return True
