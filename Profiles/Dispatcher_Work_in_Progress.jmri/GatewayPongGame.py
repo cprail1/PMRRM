@@ -18,6 +18,7 @@ failSound = jmri.jmrit.Sound(jmri.util.FileUtil.getExternalFilename("profile:res
 lt_mt = jmri.jmrit.Sound(jmri.util.FileUtil.getExternalFilename("profile:resources/sounds/Pong1.wav"))
 mt_lt = jmri.jmrit.Sound(jmri.util.FileUtil.getExternalFilename("profile:resources/sounds/Pong2.wav"))
 
+status = memories.provideMemory("IMPong")
 
 log = org.slf4j.LoggerFactory.getLogger(
         "script.GatewayPongGame"
@@ -37,10 +38,12 @@ class GatewayPongGame (jmri.jmrit.automat.AbstractAutomaton) :
         if sink.getKnownState() == newstate :
             # success!
             log.debug("{} OK", direction)
+            status.setValue("Gateway OK")
             oksound.play()
         else :
             # fail - sound and wait a bit
             log.error("{} failed", direction)
+            status.setValue("Gateway Failed")
             failSound.play()
             self.waitMsec(2000)
         
