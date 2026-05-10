@@ -23,12 +23,19 @@ import jmri
 import time
 import org.slf4j
 
+global nextdelay
+nextdelay = 10000
+
 class ControlDualSemaphore (jmri.jmrit.automat.AbstractAutomaton) :
     def current_milli_time(self):
         import time
         return int(time.time() * 1000)
         
     def init(self) :
+        
+        global nextdelay
+        nextdelay = nextdelay+500  # stagger startup
+        self.waitMsec(nextdelay)
         
         self.minAcceptableTime = 200
         
