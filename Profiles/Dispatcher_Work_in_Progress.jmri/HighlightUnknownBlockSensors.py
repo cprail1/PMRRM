@@ -10,8 +10,19 @@ from javax.swing import JOptionPane
 import org.slf4j.Logger
 import org.slf4j.LoggerFactory
 
-# special case for debugging: if account is "jake", set all sensors to INACTIVE
+# Special case for debugging: if account is "jake", set all sensors to INACTIVE
 # This is needed for debugging with a physical LocoNet, but no railroad
+class ResetSensorsToInactive(jmri.jmrit.automat.AbstractAutomaton) :
+    def init(self) : 
+        self.setName("Reset Sensors To Inactive")
+        
+    def handle(self) : 
+        self.waitMsec(10000)
+        for sensor in sensors.getNamedBeanSet():
+            sensor.setKnownState(INACTIVE)
+            self.waitMsec(50)
+        return False # to terminate
+    
 thisUser = java.lang.System.getProperty("user.name")
 desiredUser = "jake"
 if thisUser == desiredUser:
@@ -19,10 +30,7 @@ if thisUser == desiredUser:
             "script.HighlightUnknownBlockSensors"
         )
     log.warn("Set all sensors to INACTIVE for debugging")
-    for sensor in sensors.getNamedBeanSet():
-        sensor.setCommandedState(INACTIVE)
-        pass
-
+    ResetSensorsToInactive().start()
 
 # redraw all LayoutEditor panels  - should run on GUI thread
 class RedrawPanels(jmri.util.ThreadingUtil.ThreadAction):
@@ -88,4 +96,4 @@ class HighlightUnknownBlockSensors(jmri.util.ThreadingUtil.ThreadAction) :
         return
     
 # and launch on GUI thread after some delay        
-jmri.util.ThreadingUtil.runOnGUIDelayed(HighlightUnknownBlockSensors(), 8000)  # time related to retry script(s)
+jmri.util.ThreadingUtil.runOnGUIDelayed(HighlightUnknownBlockSensors(), 12000)  # time related to retry script(s)
