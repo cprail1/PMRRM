@@ -17,12 +17,20 @@ import jmri
 import time
 import org.slf4j.LoggerFactory
 
+global nextsearchlightstart
+nextsearchlightstart = 20000
+
 class ControlAbsSearchlight (jmri.jmrit.automat.AbstractAutomaton) :
     def current_milli_time(self):
         import time
         return int(time.time() * 1000)
         
     def init(self) :
+        
+        # stagger starts
+        global nextsearchlightstart
+        nextsearchlightstart = nextsearchlightstart + 500
+        self.waitMsec(nextsearchlightstart)
         
         self.minAcceptableTime = 200
 
