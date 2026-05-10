@@ -4,6 +4,8 @@
 #
 # Written by Bob Jacobsen for the PMRRM 2026
 #
+# To cancel this script, go to the Thread Monitor in the Scripting menu
+# and kill the GatewayPongGame thread.
 
 import java
 import jmri
@@ -18,7 +20,7 @@ failSound = jmri.jmrit.Sound(jmri.util.FileUtil.getExternalFilename("profile:res
 lt_mt = jmri.jmrit.Sound(jmri.util.FileUtil.getExternalFilename("profile:resources/sounds/Pong1.wav"))
 mt_lt = jmri.jmrit.Sound(jmri.util.FileUtil.getExternalFilename("profile:resources/sounds/Pong2.wav"))
 
-status = memories.provideMemory("IMPong")
+status = memories.provideMemory("IMPong")  # for status display on panel
 
 log = org.slf4j.LoggerFactory.getLogger(
         "script.GatewayPongGame"
@@ -45,15 +47,20 @@ class GatewayPongGame (jmri.jmrit.automat.AbstractAutomaton) :
             log.error("{} failed", direction)
             status.setValue("Gateway Failed")
             failSound.play()
-            self.waitMsec(2000)
+            self.waitMsec(10000)
+
+    def init(self) : 
+        self.waitMsec(30000) # wait for layout to stabilize
         
     def handle(self) : 
 
         self.check(lt, mt, lt_mt, "LocoNet -> LCC")
-        self.waitMsec(3000)
+        self.waitMsec(5000)
 
         self.check(mt, lt, mt_lt, "LCC -> LocoNet")
-        self.waitMsec(3000)
+        
+        # Wait a bit before repeating
+        self.waitMsec(5000)
         
         # repeat
         return True
