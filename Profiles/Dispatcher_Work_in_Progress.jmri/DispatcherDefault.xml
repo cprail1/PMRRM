@@ -5358,18 +5358,42 @@
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT489</systemName>
       <userName>Quartz Intermediate Eastward Servo 1A</userName>
+      <properties>
+        <property>
+          <key>Send ON/OFF</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT490</systemName>
       <userName>Quartz Intermediate Eastward Servo 1B</userName>
+      <properties>
+        <property>
+          <key>Send ON/OFF</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT491</systemName>
       <userName>Quartz Intermediate Eastward Servo 2A</userName>
+      <properties>
+        <property>
+          <key>Send ON/OFF</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT492</systemName>
       <userName>Quartz Intermediate Eastward Servo 2B</userName>
+      <properties>
+        <property>
+          <key>Send ON/OFF</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT493</systemName>
@@ -6095,28 +6119,64 @@
       <systemName>LT709</systemName>
       <userName>Branchline runaround east end</userName>
       <comment>Fascia button not on Zion soft panel. Will be on hard</comment>
+      <properties>
+        <property>
+          <key>Send ON/OFF</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT710</systemName>
       <userName>Branchline runaround west end</userName>
       <comment>Fascia button Not on Zion soft panel. Will be on hard</comment>
-    </turnout>
+       <properties>
+        <property>
+          <key>Send ON/OFF</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
+   </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT711</systemName>
       <userName>Branchline to Station or Port throat turnout</userName>
       <comment>Closed=Branch to Port. Thrown Branch to Station</comment>
+      <properties>
+        <property>
+          <key>Send ON/OFF</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT713</systemName>
       <userName>Shortline Zion station west 713</userName>
+      <properties>
+        <property>
+          <key>Send ON/OFF</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT714</systemName>
       <userName>Shortline Zion station west 714</userName>
+      <properties>
+        <property>
+          <key>Send ON/OFF</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT715</systemName>
       <userName>Shortline Zion station west 715</userName>
+      <properties>
+        <property>
+          <key>Send ON/OFF</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT723</systemName>
@@ -6133,86 +6193,200 @@
       <systemName>LT725</systemName>
       <userName>Zion likely unused 2</userName>
       <comment>Did not hear anything move</comment>
+      <properties>
+        <property>
+          <key>Send ON/OFF</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT730</systemName>
       <userName>Zion Port PT1</userName>
       <comment>Top ladder on intermodal</comment>
+      <properties>
+        <property>
+          <key>Send ON/OFF</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT731</systemName>
       <userName>Zion Port E PT2-3</userName>
       <comment>Top ladder on intermodal</comment>
+      <properties>
+        <property>
+          <key>Send ON/OFF</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT733</systemName>
       <userName>Port bt3 crossover 3 in intermodal</userName>
       <comment>Thrown means crossing over</comment>
+      <properties>
+        <property>
+          <key>Send ON/OFF</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT734</systemName>
       <userName>Port bt5</userName>
+      <properties>
+        <property>
+          <key>Send ON/OFF</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
     </turnout>
     <turnout feedback="MONITORING" inverted="true" automate="Off">
       <systemName>LT735</systemName>
       <userName>Port bt7</userName>
+      <properties>
+        <property>
+          <key>Send ON/OFF</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
     </turnout>
     <turnout feedback="MONITORING" inverted="true" automate="Off">
       <systemName>LT736</systemName>
       <userName>Port bt12</userName>
+      <properties>
+        <property>
+          <key>Send ON/OFF</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
     </turnout>
     <turnout feedback="MONITORING" inverted="true" automate="Off">
       <systemName>LT737</systemName>
       <userName>Port bt2 crossover 2</userName>
       <comment>Thrown means crossing over</comment>
+      <properties>
+        <property>
+          <key>Send ON/OFF</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
     </turnout>
     <turnout feedback="MONITORING" inverted="true" automate="Off">
       <systemName>LT738</systemName>
       <userName>Port bt4</userName>
+      <properties>
+        <property>
+          <key>Send ON/OFF</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT739</systemName>
       <userName>Port bt6</userName>
+      <properties>
+        <property>
+          <key>Send ON/OFF</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT740</systemName>
       <userName>Port bt8</userName>
       <comment>Had ballast issue. Do not know if inverted or not</comment>
+      <properties>
+        <property>
+          <key>Send ON/OFF</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
     </turnout>
     <turnout feedback="MONITORING" inverted="true" automate="Off">
       <systemName>LT741</systemName>
       <userName>Port bt1 Cross over 1</userName>
       <comment>Thrown means crossing over</comment>
+      <properties>
+        <property>
+          <key>Send ON/OFF</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT742</systemName>
       <userName>Port bt9</userName>
+      <properties>
+        <property>
+          <key>Send ON/OFF</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT743</systemName>
       <userName>Port bt10</userName>
+      <properties>
+        <property>
+          <key>Send ON/OFF</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
     </turnout>
     <turnout feedback="MONITORING" inverted="true" automate="Off">
       <systemName>LT744</systemName>
       <userName>Port bt11</userName>
+      <properties>
+        <property>
+          <key>Send ON/OFF</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT745</systemName>
       <userName>Port bt13A of crossover</userName>
       <comment>Button moves 745 &amp; 746</comment>
+      <properties>
+        <property>
+          <key>Send ON/OFF</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
     </turnout>
     <turnout feedback="MONITORING" inverted="true" automate="Off">
       <systemName>LT746</systemName>
       <userName>Port BT13B of crossover</userName>
       <comment>Button moves 745 &amp; 746 Thrown means crossing over</comment>
+      <properties>
+        <property>
+          <key>Send ON/OFF</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT747</systemName>
       <userName>Port bt14</userName>
+      <properties>
+        <property>
+          <key>Send ON/OFF</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
     </turnout>
     <turnout feedback="MONITORING" inverted="true" automate="Off">
       <systemName>LT748</systemName>
       <userName>Port bt15</userName>
+      <properties>
+        <property>
+          <key>Send ON/OFF</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT800</systemName>
@@ -6394,30 +6568,72 @@
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT821</systemName>
       <userName>AFW Engine Pocket West</userName>
+      <properties>
+        <property>
+          <key>Send ON/OFF</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT822</systemName>
       <userName>AFW Engine Pocket East</userName>
+      <properties>
+        <property>
+          <key>Send ON/OFF</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT823</systemName>
       <userName>AFW East Xover</userName>
+      <properties>
+        <property>
+          <key>Send ON/OFF</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT824</systemName>
       <userName>APW Car Service S6,D-lead</userName>
+      <properties>
+        <property>
+          <key>Send ON/OFF</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT825</systemName>
       <userName>APW Car Serv D-lead,S1 etc</userName>
+      <properties>
+        <property>
+          <key>Send ON/OFF</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT826</systemName>
       <userName>APW West Xover</userName>
+      <properties>
+        <property>
+          <key>Send ON/OFF</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT827</systemName>
       <userName>APW East Xover</userName>
+      <properties>
+        <property>
+          <key>Send ON/OFF</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT900</systemName>
@@ -6563,23 +6779,59 @@
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT1201</systemName>
       <userName>W Xerox Main is at Stop</userName>
+      <properties>
+        <property>
+          <key>Send ON/OFF</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT1202</systemName>
       <userName>W Xerox Siding is at Stop</userName>
+      <properties>
+        <property>
+          <key>Send ON/OFF</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT1203</systemName>
       <userName>E UN Sem is at Stop</userName>
+      <properties>
+        <property>
+          <key>Send ON/OFF</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT1205</systemName>
+      <properties>
+        <property>
+          <key>Send ON/OFF</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT1206</systemName>
+      <properties>
+        <property>
+          <key>Send ON/OFF</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT1207</systemName>
+      <properties>
+        <property>
+          <key>Send ON/OFF</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT1298</systemName>
@@ -6603,6 +6855,12 @@
       <systemName>LT2021</systemName>
       <userName>Ping Pong gateway DCC sidex</userName>
       <comment>Heart beat test on gateway</comment>
+      <properties>
+        <property>
+          <key>Send ON/OFF</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT2044</systemName>
@@ -6655,33 +6913,81 @@
     <turnout feedback="DIRECT" inverted="false" automate="Off">
       <systemName>IT58</systemName>
       <userName>Midway LT58 temp partner to be checked</userName>
+      <properties>
+        <property>
+          <key>Send ON/OFF</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Off">
       <systemName>IT86</systemName>
       <userName>Vista E 2 MainE -VistaYard E partner</userName>
       <comment>VistaM to yard at east end</comment>
+      <properties>
+        <property>
+          <key>Send ON/OFF</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Off">
       <systemName>IT93</systemName>
       <userName>Vista W 2 MainW -VistaYard W partner</userName>
+      <properties>
+        <property>
+          <key>Send ON/OFF</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Off">
       <systemName>IT104</systemName>
       <userName>Yazoo Lower XOver</userName>
       <comment>Stand-in until LT is identified</comment>
+      <properties>
+        <property>
+          <key>Send ON/OFF</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Off">
       <systemName>IT272</systemName>
       <userName>Sierra camp spur (Bob G guess )</userName>
+      <properties>
+        <property>
+          <key>Send ON/OFF</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Off">
       <systemName>ITPortTrack1Hold</systemName>
+      <properties>
+        <property>
+          <key>Send ON/OFF</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Off">
       <systemName>ITPortTrack2Hold</systemName>
+      <properties>
+        <property>
+          <key>Send ON/OFF</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Off">
       <systemName>ITPortTrack3Hold</systemName>
+      <properties>
+        <property>
+          <key>Send ON/OFF</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
     </turnout>
   </turnouts>
   <turnouts class="jmri.jmrix.openlcb.configurexml.OlcbTurnoutManagerXml">
@@ -6696,6 +7002,12 @@
       <systemName>MTT2021</systemName>
       <userName>Ping Pong gateway LCC side</userName>
       <comment>Heart beat test on gateway</comment>
+      <properties>
+        <property>
+          <key>Send ON/OFF</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
     </turnout>
   </turnouts>
   <memories class="jmri.managers.configurexml.DefaultMemoryManagerXml">
@@ -7945,8 +8257,8 @@
       <userName>YazooE-W-1</userName>
       <comment>Osage Pod</comment>
       <lit>
-        <lit>02.01.57.11.00.F4.00.01</lit>
-        <notlit>02.01.57.11.00.F4.00.02</notlit>
+        <lit>00.00.00.00.00.00</lit>
+        <notlit>00.00.00.00.00.00</notlit>
       </lit>
       <held>
         <held>02.01.57.11.00.F4.01.9E</held>
@@ -7959,7 +8271,7 @@
         <event>02.01.57.11.00.F4.01.73</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>02.01.57.11.00.F4.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F4.01.76</event>
@@ -7976,8 +8288,8 @@
       <userName>YazooE-W-2</userName>
       <comment>Osage Pod</comment>
       <lit>
-        <lit>02.01.57.11.00.F4.00.01</lit>
-        <notlit>02.01.57.11.00.F4.00.02</notlit>
+        <lit>00.00.00.00.00.00</lit>
+        <notlit>00.00.00.00.00.00</notlit>
       </lit>
       <held>
         <held>02.01.57.11.00.F4.01.D6</held>
@@ -7990,7 +8302,7 @@
         <event>02.01.57.11.00.F4.01.AB</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>02.01.57.11.00.F4.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F4.01.AE</event>
@@ -8007,8 +8319,8 @@
       <userName>FoxE-W-1</userName>
       <comment>Osage Pod</comment>
       <lit>
-        <lit>02.01.57.11.00.F4.00.01</lit>
-        <notlit>02.01.57.11.00.F4.00.02</notlit>
+        <lit>00.00.00.00.00.00</lit>
+        <notlit>00.00.00.00.00.00</notlit>
       </lit>
       <held>
         <held>02.01.57.11.00.F4.02.0D</held>
@@ -8021,7 +8333,7 @@
         <event>02.01.57.11.00.F4.01.E3</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>02.01.57.11.00.F4.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F4.01.E6</event>
@@ -8038,8 +8350,8 @@
       <userName>FoxE-W-2</userName>
       <comment>Osage Pod</comment>
       <lit>
-        <lit>02.01.57.11.00.F4.00.01</lit>
-        <notlit>02.01.57.11.00.F4.00.02</notlit>
+        <lit>00.00.00.00.00.00</lit>
+        <notlit>00.00.00.00.00.00</notlit>
       </lit>
       <held>
         <held>02.01.57.11.00.F4.02.45</held>
@@ -8052,7 +8364,7 @@
         <event>02.01.57.11.00.F4.02.1B</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>02.01.57.11.00.F4.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F4.02.1E</event>
@@ -8069,8 +8381,8 @@
       <userName>FoxE-W-3</userName>
       <comment>Osage Pod</comment>
       <lit>
-        <lit>02.01.57.11.00.F4.00.01</lit>
-        <notlit>02.01.57.11.00.F4.00.02</notlit>
+        <lit>00.00.00.00.00.00</lit>
+        <notlit>00.00.00.00.00.00</notlit>
       </lit>
       <held>
         <held>02.01.57.11.00.F4.02.7E</held>
@@ -8083,7 +8395,7 @@
         <event>02.01.57.11.00.F4.02.53</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>02.01.57.11.00.F4.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F4.02.56</event>
@@ -8100,8 +8412,8 @@
       <userName>MidwayW-W-F</userName>
       <comment>Osage Pod</comment>
       <lit>
-        <lit>02.01.57.11.00.F4.00.01</lit>
-        <notlit>02.01.57.11.00.F4.00.02</notlit>
+        <lit>00.00.00.00.00.00</lit>
+        <notlit>00.00.00.00.00.00</notlit>
       </lit>
       <held>
         <held>02.01.57.11.00.F4.02.B5</held>
@@ -8114,7 +8426,7 @@
         <event>02.01.57.11.00.F4.02.8B</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>02.01.57.11.00.F4.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F4.02.8E</event>
@@ -8131,8 +8443,8 @@
       <userName>Narrows-W-S</userName>
       <comment>Osage Pod</comment>
       <lit>
-        <lit>02.01.57.11.00.F4.00.01</lit>
-        <notlit>02.01.57.11.00.F4.00.02</notlit>
+        <lit>00.00.00.00.00.00</lit>
+        <notlit>00.00.00.00.00.00</notlit>
       </lit>
       <held>
         <held>02.01.57.11.00.F4.04.E5</held>
@@ -8145,7 +8457,7 @@
         <event>02.01.57.11.00.F4.04.BB</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>02.01.57.11.00.F4.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F4.04.BE</event>
@@ -8162,8 +8474,8 @@
       <userName>Narrows-W-M</userName>
       <comment>Osage Pod</comment>
       <lit>
-        <lit>02.01.57.11.00.F4.00.01</lit>
-        <notlit>02.01.57.11.00.F4.00.02</notlit>
+        <lit>00.00.00.00.00.00</lit>
+        <notlit>00.00.00.00.00.00</notlit>
       </lit>
       <held>
         <held>02.01.57.11.00.F4.05.1D</held>
@@ -8176,7 +8488,7 @@
         <event>02.01.57.11.00.F4.04.F3</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>02.01.57.11.00.F4.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F4.04.F6</event>
@@ -8193,8 +8505,8 @@
       <userName>BendW-E-1</userName>
       <comment>Osage Pod</comment>
       <lit>
-        <lit>02.01.57.11.00.F0.00.01</lit>
-        <notlit>02.01.57.11.00.F0.00.02</notlit>
+        <lit>00.00.00.00.00.00</lit>
+        <notlit>00.00.00.00.00.00</notlit>
       </lit>
       <held>
         <held>02.01.57.11.00.F0.01.9E</held>
@@ -8207,7 +8519,7 @@
         <event>02.01.57.11.00.F0.01.73</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>02.01.57.11.00.F0.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F0.01.76</event>
@@ -8224,8 +8536,8 @@
       <userName>BendW-E-2</userName>
       <comment>Osage Pod</comment>
       <lit>
-        <lit>02.01.57.11.00.F0.00.01</lit>
-        <notlit>02.01.57.11.00.F0.00.02</notlit>
+        <lit>00.00.00.00.00.00</lit>
+        <notlit>00.00.00.00.00.00</notlit>
       </lit>
       <held>
         <held>02.01.57.11.00.F0.01.D6</held>
@@ -8238,7 +8550,7 @@
         <event>02.01.57.11.00.F0.01.AB</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>02.01.57.11.00.F0.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F0.01.AE</event>
@@ -8255,8 +8567,8 @@
       <userName>BendW-E-3</userName>
       <comment>Osage Pod</comment>
       <lit>
-        <lit>02.01.57.11.00.F0.00.01</lit>
-        <notlit>02.01.57.11.00.F0.00.02</notlit>
+        <lit>00.00.00.00.00.00</lit>
+        <notlit>00.00.00.00.00.00</notlit>
       </lit>
       <held>
         <held>02.01.57.11.00.F0.02.0E</held>
@@ -8269,7 +8581,7 @@
         <event>02.01.57.11.00.F0.01.E3</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>02.01.57.11.00.F0.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F0.01.E6</event>
@@ -8286,8 +8598,8 @@
       <userName>BendW-E-4</userName>
       <comment>BendW Pod</comment>
       <lit>
-        <lit>02.01.57.11.00.F0.00.01</lit>
-        <notlit>02.01.57.11.00.F0.00.02</notlit>
+        <lit>00.00.00.00.00.00</lit>
+        <notlit>00.00.00.00.00.00</notlit>
       </lit>
       <held>
         <held>02.01.57.11.00.F0.02.46</held>
@@ -8300,7 +8612,7 @@
         <event>02.01.57.11.00.F0.02.1B</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>02.01.57.11.00.F0.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F0.02.1E</event>
@@ -8317,8 +8629,8 @@
       <userName>UVint-E-M</userName>
       <comment>BendW Pod</comment>
       <lit>
-        <lit>02.01.57.11.00.F0.00.01</lit>
-        <notlit>02.01.57.11.00.F0.00.02</notlit>
+        <lit>00.00.00.00.00.00</lit>
+        <notlit>00.00.00.00.00.00</notlit>
       </lit>
       <held>
         <held>02.01.57.11.00.F0.02.7E</held>
@@ -8331,7 +8643,7 @@
         <event>02.01.57.11.00.F0.02.53</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>02.01.57.11.00.F0.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F0.02.56</event>
@@ -8348,8 +8660,8 @@
       <userName>UVint-W-M</userName>
       <comment>BendW Pod</comment>
       <lit>
-        <lit>02.01.57.11.00.F0.00.01</lit>
-        <notlit>02.01.57.11.00.F0.00.02</notlit>
+        <lit>00.00.00.00.00.00</lit>
+        <notlit>00.00.00.00.00.00</notlit>
       </lit>
       <held>
         <held>02.01.57.11.00.F0.02.B6</held>
@@ -8362,7 +8674,7 @@
         <event>02.01.57.11.00.F0.02.8B</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>02.01.57.11.00.F0.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F0.02.8E</event>
@@ -8379,8 +8691,8 @@
       <userName>BendE-W-A</userName>
       <comment>BendW Pod</comment>
       <lit>
-        <lit>02.01.57.11.00.F0.00.01</lit>
-        <notlit>02.01.57.11.00.F0.00.02</notlit>
+        <lit>00.00.00.00.00.00</lit>
+        <notlit>00.00.00.00.00.00</notlit>
       </lit>
       <held>
         <held>02.01.57.11.00.F0.02.EE</held>
@@ -8393,7 +8705,7 @@
         <event>02.01.57.11.00.F0.02.C3</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>02.01.57.11.00.F0.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F0.02.C6</event>
@@ -8410,8 +8722,8 @@
       <userName>BendE-W-B</userName>
       <comment>BendW Pod</comment>
       <lit>
-        <lit>02.01.57.11.00.F0.00.01</lit>
-        <notlit>02.01.57.11.00.F0.00.02</notlit>
+        <lit>00.00.00.00.00.00</lit>
+        <notlit>00.00.00.00.00.00</notlit>
       </lit>
       <held>
         <held>02.01.57.11.00.F0.03.26</held>
@@ -8424,7 +8736,7 @@
         <event>02.01.57.11.00.F0.02.FB</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>02.01.57.11.00.F0.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F0.02.FE</event>
@@ -8441,8 +8753,8 @@
       <userName>BendE-W-C</userName>
       <comment>BendW Pod</comment>
       <lit>
-        <lit>02.01.57.11.00.F0.00.01</lit>
-        <notlit>02.01.57.11.00.F0.00.02</notlit>
+        <lit>00.00.00.00.00.00</lit>
+        <notlit>00.00.00.00.00.00</notlit>
       </lit>
       <held>
         <held>02.01.57.11.00.F0.03.5E</held>
@@ -8455,7 +8767,7 @@
         <event>02.01.57.11.00.F0.03.33</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>02.01.57.11.00.F0.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F0.03.36</event>
@@ -8472,8 +8784,8 @@
       <userName>BendE-W-D</userName>
       <comment>BendW Pod</comment>
       <lit>
-        <lit>02.01.57.11.00.F0.00.01</lit>
-        <notlit>02.01.57.11.00.F0.00.02</notlit>
+        <lit>00.00.00.00.00.00</lit>
+        <notlit>00.00.00.00.00.00</notlit>
       </lit>
       <held>
         <held>02.01.57.11.00.F0.03.96</held>
@@ -8486,7 +8798,7 @@
         <event>02.01.57.11.00.F0.03.6B</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>02.01.57.11.00.F0.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F0.03.6E</event>
@@ -8503,8 +8815,8 @@
       <userName>DeltaW-E-4</userName>
       <comment>MidwayES Pod</comment>
       <lit>
-        <lit>02.01.57.11.00.F3.00.01</lit>
-        <notlit>02.01.57.11.00.F3.00.02</notlit>
+        <lit>00.00.00.00.00.00</lit>
+        <notlit>00.00.00.00.00.00</notlit>
       </lit>
       <held>
         <held>02.01.57.11.00.F3.02.EE</held>
@@ -8517,7 +8829,7 @@
         <event>02.01.57.11.00.F3.02.C3</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>02.01.57.11.00.F3.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F3.02.C6</event>
@@ -8534,8 +8846,8 @@
       <userName>HudsonW-W-M</userName>
       <comment>MidwayES Pod</comment>
       <lit>
-        <lit>02.01.57.11.00.F3.00.01</lit>
-        <notlit>02.01.57.11.00.F3.00.02</notlit>
+        <lit>00.00.00.00.00.00</lit>
+        <notlit>00.00.00.00.00.00</notlit>
       </lit>
       <held>
         <held>02.01.57.11.00.F3.03.CE</held>
@@ -8548,7 +8860,7 @@
         <event>02.01.57.11.00.F3.03.A3</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>02.01.57.11.00.F3.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F3.03.A6</event>
@@ -8565,8 +8877,8 @@
       <userName>HudsonW-W-S</userName>
       <comment>MidwayES Pod</comment>
       <lit>
-        <lit>02.01.57.11.00.F3.00.01</lit>
-        <notlit>02.01.57.11.00.F3.00.02</notlit>
+        <lit>00.00.00.00.00.00</lit>
+        <notlit>00.00.00.00.00.00</notlit>
       </lit>
       <held>
         <held>02.01.57.11.00.F3.04.06</held>
@@ -8596,8 +8908,8 @@
       <userName>MidwayW-W-M</userName>
       <comment>MidwayES Pod</comment>
       <lit>
-        <lit>02.01.57.11.00.F3.00.01</lit>
-        <notlit>02.01.57.11.00.F3.00.02</notlit>
+        <lit>00.00.00.00.00.00</lit>
+        <notlit>00.00.00.00.00.00</notlit>
       </lit>
       <held>
         <held>02.01.57.11.00.F3.04.AE</held>
@@ -8610,7 +8922,7 @@
         <event>02.01.57.11.00.F3.04.83</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>02.01.57.11.00.F3.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F3.04.86</event>
@@ -8627,8 +8939,8 @@
       <userName>MidwayW-W-1</userName>
       <comment>MidwayES Pod</comment>
       <lit>
-        <lit>02.01.57.11.00.F3.00.01</lit>
-        <notlit>02.01.57.11.00.F3.00.02</notlit>
+        <lit>00.00.00.00.00.00</lit>
+        <notlit>00.00.00.00.00.00</notlit>
       </lit>
       <held>
         <held>02.01.57.11.00.F3.04.E6</held>
@@ -8641,7 +8953,7 @@
         <event>02.01.57.11.00.F3.04.BB</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>02.01.57.11.00.F3.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F3.04.BE</event>
@@ -8658,8 +8970,8 @@
       <userName>MidwayW-W-2</userName>
       <comment>MidwayES Pod</comment>
       <lit>
-        <lit>02.01.57.11.00.F3.00.01</lit>
-        <notlit>02.01.57.11.00.F3.00.02</notlit>
+        <lit>00.00.00.00.00.00</lit>
+        <notlit>00.00.00.00.00.00</notlit>
       </lit>
       <held>
         <held>02.01.57.11.00.F3.05.1E</held>
@@ -8672,7 +8984,7 @@
         <event>02.01.57.11.00.F3.04.F3</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>02.01.57.11.00.F3.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F3.04.F6</event>
@@ -8689,8 +9001,8 @@
       <userName>JacksonW-W-M</userName>
       <comment>MidwayES Pod</comment>
       <lit>
-        <lit>02.01.57.11.00.F3.00.01</lit>
-        <notlit>02.01.57.11.00.F3.00.02</notlit>
+        <lit>00.00.00.00.00.00</lit>
+        <notlit>00.00.00.00.00.00</notlit>
       </lit>
       <held>
         <held>02.01.57.11.00.F3.05.56</held>
@@ -8703,7 +9015,7 @@
         <event>02.01.57.11.00.F3.05.2B</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>02.01.57.11.00.F3.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F3.05.2E</event>
@@ -8720,8 +9032,8 @@
       <userName>JacksonW-W-S</userName>
       <comment>MidwayES Pod</comment>
       <lit>
-        <lit>02.01.57.11.00.F3.00.01</lit>
-        <notlit>02.01.57.11.00.F3.00.02</notlit>
+        <lit>00.00.00.00.00.00</lit>
+        <notlit>00.00.00.00.00.00</notlit>
       </lit>
       <held>
         <held>02.01.57.11.00.F3.05.8E</held>
@@ -8734,7 +9046,7 @@
         <event>02.01.57.11.00.F3.05.63</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>02.01.57.11.00.F3.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F3.05.66</event>
@@ -8751,8 +9063,8 @@
       <userName>JacksonW-W-I</userName>
       <comment>MidwayES Pod</comment>
       <lit>
-        <lit>02.01.57.11.00.F3.00.01</lit>
-        <notlit>02.01.57.11.00.F3.00.02</notlit>
+        <lit>00.00.00.00.00.00</lit>
+        <notlit>00.00.00.00.00.00</notlit>
       </lit>
       <held>
         <held>02.01.57.11.00.F3.05.C6</held>
@@ -8765,7 +9077,7 @@
         <event>02.01.57.11.00.F3.05.9B</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>02.01.57.11.00.F3.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F3.05.9E</event>
@@ -8782,8 +9094,8 @@
       <userName>GaryE-E-M</userName>
       <comment>Irvine Pod</comment>
       <lit>
-        <lit>02.01.57.11.00.F1.00.01</lit>
-        <notlit>02.01.57.11.00.F1.00.02</notlit>
+        <lit>00.00.00.00.00.00</lit>
+        <notlit>00.00.00.00.00.00</notlit>
       </lit>
       <held>
         <held>02.01.57.11.00.F1.01.9E</held>
@@ -8796,7 +9108,7 @@
         <event>02.01.57.11.00.F1.01.73</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>02.01.57.11.00.F1.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F1.01.76</event>
@@ -8813,8 +9125,8 @@
       <userName>GaryE-E-S</userName>
       <comment>Irvine Pod</comment>
       <lit>
-        <lit>02.01.57.11.00.F1.00.01</lit>
-        <notlit>02.01.57.11.00.F1.00.02</notlit>
+        <lit>00.00.00.00.00.00</lit>
+        <notlit>00.00.00.00.00.00</notlit>
       </lit>
       <held>
         <held>02.01.57.11.00.F1.01.D6</held>
@@ -8827,7 +9139,7 @@
         <event>02.01.57.11.00.F1.01.AB</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>02.01.57.11.00.F1.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F1.01.AE</event>
@@ -8844,8 +9156,8 @@
       <userName>Lake-E-M</userName>
       <comment>Irvine Pod</comment>
       <lit>
-        <lit>02.01.57.11.00.F1.00.01</lit>
-        <notlit>02.01.57.11.00.F1.00.02</notlit>
+        <lit>00.00.00.00.00.00</lit>
+        <notlit>00.00.00.00.00.00</notlit>
       </lit>
       <held>
         <held>02.01.57.11.00.F1.04.3E</held>
@@ -8858,7 +9170,7 @@
         <event>02.01.57.11.00.F1.04.13</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>02.01.57.11.00.F1.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F1.04.16</event>
@@ -8875,8 +9187,8 @@
       <userName>Lake-E-S</userName>
       <comment>Irvine Pod</comment>
       <lit>
-        <lit>02.01.57.11.00.F1.00.01</lit>
-        <notlit>02.01.57.11.00.F1.00.02</notlit>
+        <lit>00.00.00.00.00.00</lit>
+        <notlit>00.00.00.00.00.00</notlit>
       </lit>
       <held>
         <held>02.01.57.11.00.F1.04.76</held>
@@ -8889,7 +9201,7 @@
         <event>02.01.57.11.00.F1.04.4B</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>02.01.57.11.00.F1.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F1.04.4E</event>
@@ -8906,8 +9218,8 @@
       <userName>Irvine-E-M</userName>
       <comment>Irvine Pod</comment>
       <lit>
-        <lit>02.01.57.11.00.F1.00.01</lit>
-        <notlit>02.01.57.11.00.F1.00.02</notlit>
+        <lit>00.00.00.00.00.00</lit>
+        <notlit>00.00.00.00.00.00</notlit>
       </lit>
       <held>
         <held>02.01.57.11.00.F1.06.DE</held>
@@ -8920,7 +9232,7 @@
         <event>02.01.57.11.00.F1.06.B3</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>02.01.57.11.00.F1.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F1.06.B6</event>
@@ -8937,8 +9249,8 @@
       <userName>Irvine-W-M</userName>
       <comment>Irvine Pod</comment>
       <lit>
-        <lit>02.01.57.11.00.F1.00.01</lit>
-        <notlit>02.01.57.11.00.F1.00.02</notlit>
+        <lit>00.00.00.00.00.00</lit>
+        <notlit>00.00.00.00.00.00</notlit>
       </lit>
       <held>
         <held>02.01.57.11.00.F1.07.16</held>
@@ -8951,7 +9263,7 @@
         <event>02.01.57.11.00.F1.06.EB</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>02.01.57.11.00.F1.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F1.06.EE</event>
@@ -8968,8 +9280,8 @@
       <userName>GaryW-W-M</userName>
       <comment>Jackson Pod</comment>
       <lit>
-        <lit>02.01.57.11.00.F2.00.01</lit>
-        <notlit>02.01.57.11.00.F2.00.02</notlit>
+        <lit>00.00.00.00.00.00</lit>
+        <notlit>00.00.00.00.00.00</notlit>
       </lit>
       <held>
         <held>02.01.57.11.00.F2.03.5E</held>
@@ -8982,7 +9294,7 @@
         <event>02.01.57.11.00.F2.03.33</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>02.01.57.11.00.F2.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F2.03.36</event>
@@ -8999,8 +9311,8 @@
       <userName>GaryW-W-S</userName>
       <comment>Jackson Pod</comment>
       <lit>
-        <lit>02.01.57.11.00.F2.00.01</lit>
-        <notlit>02.01.57.11.00.F2.00.02</notlit>
+        <lit>00.00.00.00.00.00</lit>
+        <notlit>00.00.00.00.00.00</notlit>
       </lit>
       <held>
         <held>02.01.57.11.00.F2.03.96</held>
@@ -9013,7 +9325,7 @@
         <event>02.01.57.11.00.F2.03.6B</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>02.01.57.11.00.F2.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F2.03.6E</event>
@@ -9030,8 +9342,8 @@
       <userName>HudsonE-E-M</userName>
       <comment>Jackson Pod</comment>
       <lit>
-        <lit>02.01.57.11.00.F2.00.01</lit>
-        <notlit>02.01.57.11.00.F2.00.02</notlit>
+        <lit>00.00.00.00.00.00</lit>
+        <notlit>00.00.00.00.00.00</notlit>
       </lit>
       <held>
         <held>02.01.57.11.00.F2.04.3E</held>
@@ -9044,7 +9356,7 @@
         <event>02.01.57.11.00.F2.04.13</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>02.01.57.11.00.F2.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F2.04.16</event>
@@ -9061,8 +9373,8 @@
       <userName>HudsonE-E-S</userName>
       <comment>Jackson Pod</comment>
       <lit>
-        <lit>02.01.57.11.00.F2.00.01</lit>
-        <notlit>02.01.57.11.00.F2.00.02</notlit>
+        <lit>00.00.00.00.00.00</lit>
+        <notlit>00.00.00.00.00.00</notlit>
       </lit>
       <held>
         <held>02.01.57.11.00.F2.04.76</held>
@@ -9075,7 +9387,7 @@
         <event>02.01.57.11.00.F2.04.4B</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>02.01.57.11.00.F2.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F2.04.4E</event>
@@ -9092,8 +9404,8 @@
       <userName>MidwayE-E-1</userName>
       <comment>Jackson Pod</comment>
       <lit>
-        <lit>02.01.57.11.00.F2.00.01</lit>
-        <notlit>02.01.57.11.00.F2.00.02</notlit>
+        <lit>00.00.00.00.00.00</lit>
+        <notlit>00.00.00.00.00.00</notlit>
       </lit>
       <held>
         <held>02.01.57.11.00.F2.05.C6</held>
@@ -9106,7 +9418,7 @@
         <event>02.01.57.11.00.F2.05.9B</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>02.01.57.11.00.F2.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F2.05.9E</event>
@@ -9123,8 +9435,8 @@
       <userName>MidwayE-E-2</userName>
       <comment>Jackson Pod</comment>
       <lit>
-        <lit>02.01.57.11.00.F2.00.01</lit>
-        <notlit>02.01.57.11.00.F2.00.02</notlit>
+        <lit>00.00.00.00.00.00</lit>
+        <notlit>00.00.00.00.00.00</notlit>
       </lit>
       <held>
         <held>02.01.57.11.00.F2.05.FE</held>
@@ -9137,7 +9449,7 @@
         <event>02.01.57.11.00.F2.05.D3</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>02.01.57.11.00.F2.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F2.05.D6</event>
@@ -9154,8 +9466,8 @@
       <userName>MidwayE-E-M</userName>
       <comment>Jackson Pod</comment>
       <lit>
-        <lit>02.01.57.11.00.F2.00.01</lit>
-        <notlit>02.01.57.11.00.F2.00.02</notlit>
+        <lit>00.00.00.00.00.00</lit>
+        <notlit>00.00.00.00.00.00</notlit>
       </lit>
       <held>
         <held>02.01.57.11.00.F2.06.36</held>
@@ -9168,7 +9480,7 @@
         <event>02.01.57.11.00.F2.06.0B</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>02.01.57.11.00.F2.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F2.06.0E</event>
@@ -9185,8 +9497,8 @@
       <userName>JacksonE-E-M</userName>
       <comment>Jackson Pod</comment>
       <lit>
-        <lit>02.01.57.11.00.F2.00.01</lit>
-        <notlit>02.01.57.11.00.F2.00.02</notlit>
+        <lit>00.00.00.00.00.00</lit>
+        <notlit>00.00.00.00.00.00</notlit>
       </lit>
       <held>
         <held>02.01.57.11.00.F2.06.6E</held>
@@ -9199,7 +9511,7 @@
         <event>02.01.57.11.00.F2.06.43</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>02.01.57.11.00.F2.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F2.06.46</event>
@@ -9216,8 +9528,8 @@
       <userName>JacksonE-E-S</userName>
       <comment>Jackson Pod</comment>
       <lit>
-        <lit>02.01.57.11.00.F2.00.01</lit>
-        <notlit>02.01.57.11.00.F2.00.02</notlit>
+        <lit>00.00.00.00.00.00</lit>
+        <notlit>00.00.00.00.00.00</notlit>
       </lit>
       <held>
         <held>02.01.57.11.00.F2.06.A6</held>
@@ -9230,7 +9542,7 @@
         <event>02.01.57.11.00.F2.06.7B</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>02.01.57.11.00.F2.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F2.06.7E</event>
@@ -9247,8 +9559,8 @@
       <userName>FoxW-E-M</userName>
       <comment>Osage Pod</comment>
       <lit>
-        <lit>02.01.57.11.00.F4.00.01</lit>
-        <notlit>02.01.57.11.00.F4.00.02</notlit>
+        <lit>00.00.00.00.00.00</lit>
+        <notlit>00.00.00.00.00.00</notlit>
       </lit>
       <held>
         <held>02.01.57.11.00.F4.02.EE</held>
@@ -9261,7 +9573,7 @@
         <event>02.01.57.11.00.F4.02.C3</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>02.01.57.11.00.F4.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F4.02.C6</event>
@@ -9276,13 +9588,13 @@
         <event>02.01.57.11.00.F4.02.CC</event>
       </aspect>
       <aspect defines="Diverging Advanced Approach">
-        <event>02.01.57.11.00.F4.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Secondary Diverging Approach">
         <event>02.01.57.11.00.F4.02.D2</event>
       </aspect>
       <aspect defines="Secondary Diverging Advanced Approach">
-        <event>02.01.57.11.00.F4.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Unlit">
         <event>02.01.57.11.00.F4.00.00</event>
@@ -9298,8 +9610,8 @@
       <userName>MidwayW-E-P</userName>
       <comment>MidwayES Pod</comment>
       <lit>
-        <lit>02.01.57.11.00.F3.00.01</lit>
-        <notlit>02.01.57.11.00.F3.00.02</notlit>
+        <lit>00.00.00.00.00.00</lit>
+        <notlit>00.00.00.00.00.00</notlit>
       </lit>
       <held>
         <held>02.01.57.11.00.F3.03.26</held>
@@ -9312,7 +9624,7 @@
         <event>02.01.57.11.00.F3.02.FB</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>02.01.57.11.00.F3.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F3.02.FE</event>
@@ -9327,13 +9639,13 @@
         <event>02.01.57.11.00.F3.03.04</event>
       </aspect>
       <aspect defines="Diverging Advanced Approach">
-        <event>02.01.57.11.00.F3.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Secondary Diverging Approach">
         <event>02.01.57.11.00.F3.03.0A</event>
       </aspect>
       <aspect defines="Secondary Diverging Advanced Approach">
-        <event>02.01.57.11.00.F3.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Unlit">
         <event>02.01.57.11.00.F3.03.0D</event>
@@ -9363,7 +9675,7 @@
         <event>02.01.57.11.00.F3.05.D3</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>02.01.57.11.00.F3.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F3.05.D6</event>
@@ -9378,13 +9690,13 @@
         <event>02.01.57.11.00.F3.05.DC</event>
       </aspect>
       <aspect defines="Diverging Advanced Approach">
-        <event>02.01.57.11.00.F3.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Secondary Diverging Approach">
         <event>02.01.57.11.00.F3.05.E2</event>
       </aspect>
       <aspect defines="Secondary Diverging Advanced Approach">
-        <event>02.01.57.11.00.F3.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Unlit">
         <event>02.01.57.11.00.F3.05.E5</event>
@@ -9400,8 +9712,8 @@
       <userName>MidwayE-W-M</userName>
       <comment>Jackson Pod</comment>
       <lit>
-        <lit>02.01.57.11.00.F2.00.01</lit>
-        <notlit>02.01.57.11.00.F2.00.02</notlit>
+        <lit>00.00.00.00.00.00</lit>
+        <notlit>00.00.00.00.00.00</notlit>
       </lit>
       <held>
         <held>02.01.57.11.00.F2.05.1E</held>
@@ -9414,7 +9726,7 @@
         <event>02.01.57.11.00.F2.04.F3</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>02.01.57.11.00.F2.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F2.04.F6</event>
@@ -9429,13 +9741,13 @@
         <event>02.01.57.11.00.F2.04.FC</event>
       </aspect>
       <aspect defines="Diverging Advanced Approach">
-        <event>02.01.57.11.00.F2.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Secondary Diverging Approach">
         <event>02.01.57.11.00.F2.05.02</event>
       </aspect>
       <aspect defines="Secondary Diverging Advanced Approach">
-        <event>02.01.57.11.00.F2.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Unlit">
         <event>02.01.57.11.00.F2.05.05</event>
@@ -9451,8 +9763,8 @@
       <userName>YazooW-E-B</userName>
       <comment>Osage Pod</comment>
       <lit>
-        <lit>02.01.57.11.00.F4.00.01</lit>
-        <notlit>02.01.57.11.00.F4.00.02</notlit>
+        <lit>00.00.00.00.00.00</lit>
+        <notlit>00.00.00.00.00.00</notlit>
       </lit>
       <held>
         <held>02.01.57.11.00.F4.03.96</held>
@@ -9465,7 +9777,7 @@
         <event>02.01.57.11.00.F4.03.6B</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>02.01.57.11.00.F4.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F4.03.6E</event>
@@ -9477,7 +9789,7 @@
         <event>02.01.57.11.00.F4.03.74</event>
       </aspect>
       <aspect defines="Diverging Advanced Approach">
-        <event>02.01.57.11.00.F4.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Unlit">
         <event>02.01.57.11.00.F4.03.7D</event>
@@ -9492,8 +9804,8 @@
       <userName>YazooW-E-A</userName>
       <comment>Osage Pod</comment>
       <lit>
-        <lit>02.01.57.11.00.F4.00.01</lit>
-        <notlit>02.01.57.11.00.F4.00.02</notlit>
+        <lit>00.00.00.00.00.00</lit>
+        <notlit>00.00.00.00.00.00</notlit>
       </lit>
       <held>
         <held>02.01.57.11.00.F4.04.06</held>
@@ -9506,7 +9818,7 @@
         <event>02.01.57.11.00.F4.03.DB</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>02.01.57.11.00.F4.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F4.03.DE</event>
@@ -9518,7 +9830,7 @@
         <event>02.01.57.11.00.F4.03.E4</event>
       </aspect>
       <aspect defines="Diverging Advanced Approach">
-        <event>02.01.57.11.00.F4.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Unlit">
         <event>02.01.57.11.00.F4.03.ED</event>
@@ -9533,8 +9845,8 @@
       <userName>YazooW-E-P</userName>
       <comment>Osage Pod</comment>
       <lit>
-        <lit>02.01.57.11.00.F4.00.01</lit>
-        <notlit>02.01.57.11.00.F4.00.02</notlit>
+        <lit>00.00.00.00.00.00</lit>
+        <notlit>00.00.00.00.00.00</notlit>
       </lit>
       <held>
         <held>02.01.57.11.00.F4.04.76</held>
@@ -9547,7 +9859,7 @@
         <event>02.01.57.11.00.F4.04.4B</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>02.01.57.11.00.F4.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F4.04.4E</event>
@@ -9559,7 +9871,7 @@
         <event>02.01.57.11.00.F4.04.54</event>
       </aspect>
       <aspect defines="Diverging Advanced Approach">
-        <event>02.01.57.11.00.F4.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Unlit">
         <event>02.01.57.11.00.F4.04.5D</event>
@@ -9574,8 +9886,8 @@
       <userName>Narrows-E-M</userName>
       <comment>Osage Pod</comment>
       <lit>
-        <lit>02.01.57.11.00.F4.00.01</lit>
-        <notlit>02.01.57.11.00.F4.00.02</notlit>
+        <lit>00.00.00.00.00.00</lit>
+        <notlit>00.00.00.00.00.00</notlit>
       </lit>
       <held>
         <held>02.01.57.11.00.F4.05.56</held>
@@ -9588,7 +9900,7 @@
         <event>02.01.57.11.00.F4.05.2B</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>02.01.57.11.00.F4.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F4.05.2E</event>
@@ -9600,7 +9912,7 @@
         <event>02.01.57.11.00.F4.05.34</event>
       </aspect>
       <aspect defines="Diverging Advanced Approach">
-        <event>02.01.57.11.00.F4.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Unlit">
         <event>02.01.57.11.00.F4.05.3D</event>
@@ -9615,8 +9927,8 @@
       <userName>DeltaW-E-1</userName>
       <comment>MidwayES Pod</comment>
       <lit>
-        <lit>02.01.57.11.00.F3.00.01</lit>
-        <notlit>02.01.57.11.00.F3.00.02</notlit>
+        <lit>00.00.00.00.00.00</lit>
+        <notlit>00.00.00.00.00.00</notlit>
       </lit>
       <held>
         <held>02.01.57.11.00.F3.01.9E</held>
@@ -9629,7 +9941,7 @@
         <event>02.01.57.11.00.F3.01.73</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>02.01.57.11.00.F3.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F3.01.76</event>
@@ -9641,7 +9953,7 @@
         <event>02.01.57.11.00.F3.01.7C</event>
       </aspect>
       <aspect defines="Diverging Advanced Approach">
-        <event>02.01.57.11.00.F3.01.85</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Unlit">
         <event>02.01.57.11.00.F3.00.00</event>
@@ -9655,8 +9967,8 @@
       <userName>DeltaW-E-2</userName>
       <comment>MidwayES Pod</comment>
       <lit>
-        <lit>02.01.57.11.00.F3.00.01</lit>
-        <notlit>02.01.57.11.00.F3.00.02</notlit>
+        <lit>00.00.00.00.00.00</lit>
+        <notlit>00.00.00.00.00.00</notlit>
       </lit>
       <held>
         <held>02.01.57.11.00.F3.02.0E</held>
@@ -9669,7 +9981,7 @@
         <event>02.01.57.11.00.F3.01.E3</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>02.01.57.11.00.F3.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F3.01.E6</event>
@@ -9681,7 +9993,7 @@
         <event>02.01.57.11.00.F3.01.EC</event>
       </aspect>
       <aspect defines="Diverging Advanced Approach">
-        <event>02.01.57.11.00.F3.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Unlit">
         <event>02.01.57.11.00.F3.01.F5</event>
@@ -9696,8 +10008,8 @@
       <userName>DeltaW-E-3</userName>
       <comment>MidwayES Pod</comment>
       <lit>
-        <lit>02.01.57.11.00.F3.00.01</lit>
-        <notlit>02.01.57.11.00.F3.00.02</notlit>
+        <lit>00.00.00.00.00.00</lit>
+        <notlit>00.00.00.00.00.00</notlit>
       </lit>
       <held>
         <held>02.01.57.11.00.F3.02.7E</held>
@@ -9710,7 +10022,7 @@
         <event>02.01.57.11.00.F3.02.53</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>02.01.57.11.00.F3.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F3.02.56</event>
@@ -9722,7 +10034,7 @@
         <event>02.01.57.11.00.F3.02.5C</event>
       </aspect>
       <aspect defines="Diverging Advanced Approach">
-        <event>02.01.57.11.00.F3.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Unlit">
         <event>02.01.57.11.00.F3.02.65</event>
@@ -9737,8 +10049,8 @@
       <userName>HudsonW-E-M</userName>
       <comment>MidwayES Pod</comment>
       <lit>
-        <lit>02.01.57.11.00.F3.00.01</lit>
-        <notlit>02.01.57.11.00.F3.00.02</notlit>
+        <lit>00.00.00.00.00.00</lit>
+        <notlit>00.00.00.00.00.00</notlit>
       </lit>
       <held>
         <held>02.01.57.11.00.F3.04.3E</held>
@@ -9751,7 +10063,7 @@
         <event>02.01.57.11.00.F3.04.13</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>02.01.57.11.00.F3.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F3.04.16</event>
@@ -9763,7 +10075,7 @@
         <event>02.01.57.11.00.F3.04.1C</event>
       </aspect>
       <aspect defines="Diverging Advanced Approach">
-        <event>02.01.57.11.00.F3.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Unlit">
         <event>02.01.57.11.00.F3.04.25</event>
@@ -9778,8 +10090,8 @@
       <userName>GaryE-W-M</userName>
       <comment>Irvine Pod</comment>
       <lit>
-        <lit>02.01.57.11.00.F1.00.01</lit>
-        <notlit>02.01.57.11.00.F1.00.02</notlit>
+        <lit>00.00.00.00.00.00</lit>
+        <notlit>00.00.00.00.00.00</notlit>
       </lit>
       <held>
         <held>02.01.57.11.00.F1.02.0E</held>
@@ -9792,7 +10104,7 @@
         <event>02.01.57.11.00.F1.01.E3</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>02.01.57.11.00.F1.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F1.01.E6</event>
@@ -9804,7 +10116,7 @@
         <event>02.01.57.11.00.F1.01.EC</event>
       </aspect>
       <aspect defines="Diverging Advanced Approach">
-        <event>02.01.57.11.00.F1.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Unlit">
         <event>02.01.57.11.00.F1.01.F5</event>
@@ -9819,8 +10131,8 @@
       <userName>ColtonW-E-1</userName>
       <comment>Irvine Pod</comment>
       <lit>
-        <lit>02.01.57.11.00.F1.00.01</lit>
-        <notlit>02.01.57.11.00.F1.00.02</notlit>
+        <lit>00.00.00.00.00.00</lit>
+        <notlit>00.00.00.00.00.00</notlit>
       </lit>
       <held>
         <held>02.01.57.11.00.F1.02.7E</held>
@@ -9833,7 +10145,7 @@
         <event>02.01.57.11.00.F1.02.53</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>02.01.57.11.00.F1.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F1.02.56</event>
@@ -9845,7 +10157,7 @@
         <event>02.01.57.11.00.F1.02.5C</event>
       </aspect>
       <aspect defines="Diverging Advanced Approach">
-        <event>02.01.57.11.00.F1.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Unlit">
         <event>02.01.57.11.00.F1.02.65</event>
@@ -9860,8 +10172,8 @@
       <userName>ColtonW-E-2</userName>
       <comment>Irvine Pod</comment>
       <lit>
-        <lit>02.01.57.11.00.F1.00.01</lit>
-        <notlit>02.01.57.11.00.F1.00.02</notlit>
+        <lit>00.00.00.00.00.00</lit>
+        <notlit>00.00.00.00.00.00</notlit>
       </lit>
       <held>
         <held>02.01.57.11.00.F1.02.EE</held>
@@ -9874,7 +10186,7 @@
         <event>02.01.57.11.00.F1.02.C3</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>02.01.57.11.00.F1.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F1.02.C6</event>
@@ -9886,7 +10198,7 @@
         <event>02.01.57.11.00.F1.02.CC</event>
       </aspect>
       <aspect defines="Diverging Advanced Approach">
-        <event>02.01.57.11.00.F1.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Unlit">
         <event>02.01.57.11.00.F1.02.D5</event>
@@ -9901,8 +10213,8 @@
       <userName>ColtonW-E-3</userName>
       <comment>Irvine Pod</comment>
       <lit>
-        <lit>02.01.57.11.00.F1.00.01</lit>
-        <notlit>02.01.57.11.00.F1.00.02</notlit>
+        <lit>00.00.00.00.00.00</lit>
+        <notlit>00.00.00.00.00.00</notlit>
       </lit>
       <held>
         <held>02.01.57.11.00.F1.03.5E</held>
@@ -9915,7 +10227,7 @@
         <event>02.01.57.11.00.F1.03.33</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>02.01.57.11.00.F1.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F1.03.36</event>
@@ -9927,7 +10239,7 @@
         <event>02.01.57.11.00.F1.03.3C</event>
       </aspect>
       <aspect defines="Diverging Advanced Approach">
-        <event>02.01.57.11.00.F1.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Unlit">
         <event>02.01.57.11.00.F1.03.45</event>
@@ -9942,8 +10254,8 @@
       <userName>ColtonW-E-4</userName>
       <comment>Irvine Pod</comment>
       <lit>
-        <lit>02.01.57.11.00.F1.00.01</lit>
-        <notlit>02.01.57.11.00.F1.00.02</notlit>
+        <lit>00.00.00.00.00.00</lit>
+        <notlit>00.00.00.00.00.00</notlit>
       </lit>
       <held>
         <held>02.01.57.11.00.F1.03.CE</held>
@@ -9956,7 +10268,7 @@
         <event>02.01.57.11.00.F1.03.A3</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>02.01.57.11.00.F1.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F1.03.A6</event>
@@ -9968,7 +10280,7 @@
         <event>02.01.57.11.00.F1.03.AC</event>
       </aspect>
       <aspect defines="Diverging Advanced Approach">
-        <event>02.01.57.11.00.F1.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Unlit">
         <event>02.01.57.11.00.F1.03.B5</event>
@@ -9983,8 +10295,8 @@
       <userName>Lake-W-M</userName>
       <comment>Irvine Pod</comment>
       <lit>
-        <lit>02.01.57.11.00.F1.00.01</lit>
-        <notlit>02.01.57.11.00.F1.00.02</notlit>
+        <lit>00.00.00.00.00.00</lit>
+        <notlit>00.00.00.00.00.00</notlit>
       </lit>
       <held>
         <held>02.01.57.11.00.F1.04.AE</held>
@@ -9997,7 +10309,7 @@
         <event>02.01.57.11.00.F1.04.83</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>02.01.57.11.00.F1.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F1.04.86</event>
@@ -10009,7 +10321,7 @@
         <event>02.01.57.11.00.F1.04.8C</event>
       </aspect>
       <aspect defines="Diverging Advanced Approach">
-        <event>02.01.57.11.00.F1.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Unlit">
         <event>02.01.57.11.00.F1.04.95</event>
@@ -10024,8 +10336,8 @@
       <userName>ColtonE-W-1</userName>
       <comment>Irvine Pod</comment>
       <lit>
-        <lit>02.01.57.11.00.F1.00.01</lit>
-        <notlit>02.01.57.11.00.F1.00.02</notlit>
+        <lit>00.00.00.00.00.00</lit>
+        <notlit>00.00.00.00.00.00</notlit>
       </lit>
       <held>
         <held>02.01.57.11.00.F1.05.1E</held>
@@ -10038,7 +10350,7 @@
         <event>02.01.57.11.00.F1.04.F3</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>02.01.57.11.00.F1.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F1.04.F6</event>
@@ -10050,7 +10362,7 @@
         <event>02.01.57.11.00.F1.04.FC</event>
       </aspect>
       <aspect defines="Diverging Advanced Approach">
-        <event>02.01.57.11.00.F1.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Unlit">
         <event>02.01.57.11.00.F1.05.05</event>
@@ -10065,8 +10377,8 @@
       <userName>ColtonE-W-2</userName>
       <comment>Irvine Pod</comment>
       <lit>
-        <lit>02.01.57.11.00.F1.00.01</lit>
-        <notlit>02.01.57.11.00.F1.00.02</notlit>
+        <lit>00.00.00.00.00.00</lit>
+        <notlit>00.00.00.00.00.00</notlit>
       </lit>
       <held>
         <held>02.01.57.11.00.F1.05.8E</held>
@@ -10079,7 +10391,7 @@
         <event>02.01.57.11.00.F1.05.63</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>02.01.57.11.00.F1.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F1.05.66</event>
@@ -10091,7 +10403,7 @@
         <event>02.01.57.11.00.F1.05.6C</event>
       </aspect>
       <aspect defines="Diverging Advanced Approach">
-        <event>02.01.57.11.00.F1.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Unlit">
         <event>02.01.57.11.00.F1.05.75</event>
@@ -10106,8 +10418,8 @@
       <userName>ColtonE-W-3</userName>
       <comment>Irvine Pod</comment>
       <lit>
-        <lit>02.01.57.11.00.F1.00.01</lit>
-        <notlit>02.01.57.11.00.F1.00.02</notlit>
+        <lit>00.00.00.00.00.00</lit>
+        <notlit>00.00.00.00.00.00</notlit>
       </lit>
       <held>
         <held>02.01.57.11.00.F1.05.FE</held>
@@ -10120,7 +10432,7 @@
         <event>02.01.57.11.00.F1.05.D3</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>02.01.57.11.00.F1.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F1.05.D6</event>
@@ -10132,7 +10444,7 @@
         <event>02.01.57.11.00.F1.05.DC</event>
       </aspect>
       <aspect defines="Diverging Advanced Approach">
-        <event>02.01.57.11.00.F1.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Unlit">
         <event>02.01.57.11.00.F1.05.E5</event>
@@ -10147,8 +10459,8 @@
       <userName>ColtonE-W-4</userName>
       <comment>Irvine Pod</comment>
       <lit>
-        <lit>02.01.57.11.00.F1.00.01</lit>
-        <notlit>02.01.57.11.00.F1.00.02</notlit>
+        <lit>00.00.00.00.00.00</lit>
+        <notlit>00.00.00.00.00.00</notlit>
       </lit>
       <held>
         <held>02.01.57.11.00.F1.06.6E</held>
@@ -10161,7 +10473,7 @@
         <event>02.01.57.11.00.F1.06.43</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>02.01.57.11.00.F1.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F1.06.46</event>
@@ -10173,7 +10485,7 @@
         <event>02.01.57.11.00.F1.06.4C</event>
       </aspect>
       <aspect defines="Diverging Advanced Approach">
-        <event>02.01.57.11.00.F1.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Unlit">
         <event>02.01.57.11.00.F1.06.55</event>
@@ -10188,8 +10500,8 @@
       <userName>DeltaE-W-1</userName>
       <comment>Jackson Pod</comment>
       <lit>
-        <lit>02.01.57.11.00.F2.00.01</lit>
-        <notlit>02.01.57.11.00.F2.00.02</notlit>
+        <lit>00.00.00.00.00.00</lit>
+        <notlit>00.00.00.00.00.00</notlit>
       </lit>
       <held>
         <held>02.01.57.11.00.F2.01.9E</held>
@@ -10202,7 +10514,7 @@
         <event>02.01.57.11.00.F2.01.73</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>02.01.57.11.00.F2.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F2.01.76</event>
@@ -10214,7 +10526,7 @@
         <event>02.01.57.11.00.F2.01.7C</event>
       </aspect>
       <aspect defines="Diverging Advanced Approach">
-        <event>02.01.57.11.00.F2.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Unlit">
         <event>02.01.57.11.00.F2.01.85</event>
@@ -10229,8 +10541,8 @@
       <userName>DeltaE-W-2</userName>
       <comment>Jackson Pod</comment>
       <lit>
-        <lit>02.01.57.11.00.F2.00.01</lit>
-        <notlit>02.01.57.11.00.F2.00.02</notlit>
+        <lit>00.00.00.00.00.00</lit>
+        <notlit>00.00.00.00.00.00</notlit>
       </lit>
       <held>
         <held>02.01.57.11.00.F2.02.0e</held>
@@ -10243,7 +10555,7 @@
         <event>02.01.57.11.00.F2.01.E3</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>02.01.57.11.00.F2.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F2.01.E6</event>
@@ -10255,7 +10567,7 @@
         <event>02.01.57.11.00.F2.01.EC</event>
       </aspect>
       <aspect defines="Diverging Advanced Approach">
-        <event>02.01.57.11.00.F2.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Unlit">
         <event>02.01.57.11.00.F2.01.F5</event>
@@ -10270,8 +10582,8 @@
       <userName>DeltaE-W-3</userName>
       <comment>Jackson Pod</comment>
       <lit>
-        <lit>02.01.57.11.00.F2.00.01</lit>
-        <notlit>02.01.57.11.00.F2.00.02</notlit>
+        <lit>00.00.00.00.00.00</lit>
+        <notlit>00.00.00.00.00.00</notlit>
       </lit>
       <held>
         <held>02.01.57.11.00.F2.02.7E</held>
@@ -10284,7 +10596,7 @@
         <event>02.01.57.11.00.F2.02.53</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>02.01.57.11.00.F2.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F2.02.56</event>
@@ -10296,7 +10608,7 @@
         <event>02.01.57.11.00.F2.02.5C</event>
       </aspect>
       <aspect defines="Diverging Advanced Approach">
-        <event>02.01.57.11.00.F2.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Unlit">
         <event>02.01.57.11.00.F2.02.65</event>
@@ -10311,8 +10623,8 @@
       <userName>DeltaE-W-4</userName>
       <comment>Jackson Pod</comment>
       <lit>
-        <lit>02.01.57.11.00.F2.00.01</lit>
-        <notlit>02.01.57.11.00.F2.00.02</notlit>
+        <lit>00.00.00.00.00.00</lit>
+        <notlit>00.00.00.00.00.00</notlit>
       </lit>
       <held>
         <held>02.01.57.11.00.F2.02.EE</held>
@@ -10325,7 +10637,7 @@
         <event>02.01.57.11.00.F2.02.C3</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>02.01.57.11.00.F2.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F2.02.C6</event>
@@ -10337,7 +10649,7 @@
         <event>02.01.57.11.00.F2.02.CC</event>
       </aspect>
       <aspect defines="Diverging Advanced Approach">
-        <event>02.01.57.11.00.F2.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Unlit">
         <event>02.01.57.11.00.F2.02.D5</event>
@@ -10352,8 +10664,8 @@
       <userName>GaryW-E-M</userName>
       <comment>Jackson Pod</comment>
       <lit>
-        <lit>02.01.57.11.00.F2.00.01</lit>
-        <notlit>02.01.57.11.00.F2.00.02</notlit>
+        <lit>00.00.00.00.00.00</lit>
+        <notlit>00.00.00.00.00.00</notlit>
       </lit>
       <held>
         <held>02.01.57.11.00.F2.03.CE</held>
@@ -10366,7 +10678,7 @@
         <event>02.01.57.11.00.F2.03.A3</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>02.01.57.11.00.F2.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F2.03.A6</event>
@@ -10378,7 +10690,7 @@
         <event>02.01.57.11.00.F2.03.AC</event>
       </aspect>
       <aspect defines="Diverging Advanced Approach">
-        <event>02.01.57.11.00.F2.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Unlit">
         <event>02.01.57.11.00.F2.03.B5</event>
@@ -10393,8 +10705,8 @@
       <userName>HudsonE-W-M</userName>
       <comment>Jackson Pod</comment>
       <lit>
-        <lit>02.01.57.11.00.F2.00.01</lit>
-        <notlit>02.01.57.11.00.F2.00.02</notlit>
+        <lit>00.00.00.00.00.00</lit>
+        <notlit>00.00.00.00.00.00</notlit>
       </lit>
       <held>
         <held>02.01.57.11.00.F2.04.AE</held>
@@ -10407,7 +10719,7 @@
         <event>02.01.57.11.00.F2.04.83</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>02.01.57.11.00.F2.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F2.04.86</event>
@@ -10419,7 +10731,7 @@
         <event>02.01.57.11.00.F2.04.8C</event>
       </aspect>
       <aspect defines="Diverging Advanced Approach">
-        <event>02.01.57.11.00.F2.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Unlit">
         <event>02.01.57.11.00.F2.04.95</event>
@@ -10434,8 +10746,8 @@
       <userName>JacksonE-W-M</userName>
       <comment>Jackson Pod</comment>
       <lit>
-        <lit>02.01.57.11.00.F2.00.01</lit>
-        <notlit>02.01.57.11.00.F2.00.02</notlit>
+        <lit>00.00.00.00.00.00</lit>
+        <notlit>00.00.00.00.00.00</notlit>
       </lit>
       <held>
         <held>02.01.57.11.00.F2.06.DE</held>
@@ -10448,7 +10760,7 @@
         <event>02.01.57.11.00.F2.06.B3</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>02.01.57.11.00.F2.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F2.06.B6</event>
@@ -10460,7 +10772,7 @@
         <event>02.01.57.11.00.F2.06.BC</event>
       </aspect>
       <aspect defines="Diverging Advanced Approach">
-        <event>02.01.57.11.00.F2.00.00</event>
+        <event>00.00.00.00.00.00.00.00</event>
       </aspect>
       <aspect defines="Unlit">
         <event>02.01.57.11.00.F2.06.C5</event>
