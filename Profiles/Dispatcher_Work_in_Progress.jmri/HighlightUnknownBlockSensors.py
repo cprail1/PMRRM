@@ -17,10 +17,10 @@ class ResetSensorsToInactive(jmri.jmrit.automat.AbstractAutomaton) :
         self.setName("Reset Sensors To Inactive")
         
     def handle(self) : 
-        self.waitMsec(10000)
+        self.waitMsec(20000)
         for sensor in sensors.getNamedBeanSet():
             sensor.setKnownState(INACTIVE)
-            self.waitMsec(50)
+            self.waitMsec(100)
         return False # to terminate
     
 thisUser = java.lang.System.getProperty("user.name")

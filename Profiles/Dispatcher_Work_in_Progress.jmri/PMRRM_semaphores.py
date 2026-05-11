@@ -24,7 +24,7 @@ import time
 import org.slf4j
 
 global nextdelay
-nextdelay = 10000
+nextdelay = 15000
 
 class ControlDualSemaphore (jmri.jmrit.automat.AbstractAutomaton) :
     def current_milli_time(self):
