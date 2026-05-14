@@ -14,7 +14,8 @@ For example, ColtonW-E-2 is a mast located at Colton West, for east-bound traffi
 
 See the `PMRRM SignalLCC-32H heads` spreadsheet for the allocation of heads and masts to boards and pods. Note that in some cases, the head order on the LED signal string may not be the same order as the heads are defined in the SignalLCC-32H board.  These were set up in parallel, and then made ot match using the "Head position in string (1-32)" configuration entry.
 
-We set up every mast with the following appearance rules, though not all are used on every mast.
+We set up masts with the following appearance rules, though not all are used on every mast.
+
 - Rule 1 - Clear
 - Rule 2 - Approach
 - Rule 3 - Stop
@@ -26,9 +27,9 @@ We set up every mast with the following appearance rules, though not all are use
 
 The "Set Aspect" event IDs from these are then configured into the corresponding JMRI OlcbSignalMast. This allows masts displayed on a panel to follow the hardware masts, which is essential for debugging the logic.
 
-The two event IDs for held/not-held are taken from the default isSet/isUnset IDs in rule 16 of each mast. This is done to make sure they're uniquely available.
+The two event IDs for held/not-held are taken from the default isSet/isUnset IDs in rule 16 of each mast. This is done to make sure they're uniquely available. This may be revisited later if we e.g. want to have parallel signal masts use a single held/unheld event pair.
 
-The event IDs for lit/not-lit are currently defaulted to low numbers on from the host board.  This needs to be revisited.
+The event IDs for lit/not-lit are currently defaulted to event ID zero (00.00.00.00.00.00.00.00) so that they don't generate LCC traffic at startup.  The unused aspects in the JMRI signal mast definitions are also given that event ID for the same reason.
 
 Upper heads are placed before middle/lower heads.  
 
@@ -39,6 +40,7 @@ The logic uses the RR-CirKits Track Circuit concept to pass signal aspects from 
 Track Circuits are labeled with the signal that originated them throughout.
 
 The track speeds we use are coded
+
 - 0 - Stop
 - 2 - Approach
 - 7 - Clear
@@ -53,20 +55,21 @@ Occupancy information comes from LocoNet via the Gateway at Bend. It's presented
 The convention for SignalLCC-32H logic cells for a mast not protecting a turnout is:
  - First, a cell that does held/not-held and occupancy, setting Stop
  - Then a cell that does Approach/Clear
- - Followed by one or two empty cells for expansion - _do we have room for this?_
  
+Note: It would have been desirable to leave a cell or two after the above for later expansion.  Unfortunately, cells in the -32H nodes are a scarce resource, so these have  been omitted.  if cells need to be moved later for expansion, consider doing that by editing and reloading a backup file.
  
 ### Single head masts protecting one turnout
 
 The convention for SignalLCC-32H logic cells for a single head mast protecting one turnout is:
+
  - First, a cell that does held/not-held and occupancy, setting Stop
  - Then one or more cells for turnout logic, setting Stop if against
  - Then a cell that does Approach/Clear
- - Followed by one or two empty cells for expansion - _do we have room for this?_
  
 ### Double head masts protecting one turnout
  
 The convention for SignalLCC-32H logic cells for a double head mast protecting one turnout is:
+
  - (Needs work)
 
 ### More complex mast configurations
@@ -80,7 +83,7 @@ The convention for SignalLCC-32H logic cells for a double head mast protecting o
   
 The logic first checks for conditions that set red, then yellow, then if all passes sets the signal to green.  Although not fully prototypical, because a logic term omission could lead to a missed stop signal, this makes the logic much simpler and easy to understand.
 
-Problem: There are only 16 input track circuits in a -Q node. This may be the limiting factor on how many signal masts can be served by a single node.  There are 71 masts, of which 35 (!) don't fit the three simple cases that can be handled in -32H logic.  
+Note: There are 71 masts, of which 35 (!) don't fit the three simple cases that can be handled in -32H logic.  
  
  
  
