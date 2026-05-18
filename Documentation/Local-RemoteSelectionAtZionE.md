@@ -6,7 +6,7 @@ This note discusses how local vs remote control of the turnouts on the Zion East
 
 There are several separate areas of control:
 
- - The main Zion East operator area.  This includes the four yard ladders (Freight A, Freight B, Passenger and Garden), the engine pockets and the areas around them. This is generally represented by wider lines on the hard panel.
+ - The main Zion East operator area.  This includes the four yard ladders (Freight A, Freight B, Passenger and Garden), the engine pockets and the areas around them. This is generally represented by middle-width lines on the hard panel.
  - The Port/Branchline area, indicated by thinner lines on the hard panel. This includes Port itself and its two entry crossovers, the branch line section to the right, and the three tracks to the upper left.
  - The Zion East Branch - Zion crossover, which allows the Zion E operator to route directly to the T1/T2/G5 tracks above the Garden area
  - The Zion East Branch Port - Zion crossover, which allows the Zion East operator to route directly to the Port area vs having a connection from the right branch line to the Port area
@@ -24,19 +24,19 @@ In Remote mode, the desired access is:
 | **ZE-Branch Xover**  |     Yes     |     Yes       |   Yes      |
 | **ZE-B Port Xover**  |     Yes     |     Yes       |   Yes      |
 | **Zion Interlocking**|     Yes     |     Yes       |   Yes      |
-| **Whiskey Sidings**  |     Yes     |     Yes       |    No(?)   |
+| **Whiskey Sidings**  |     Yes     |     Yes       |   _No(?)_  |
 | **Whiskey Local**    |     Yes     |     Yes       |   Yes      |
 
 In Local mode, the desired access is:
   
 |                      |  Hard Panel | Soft Panel(s) | Throttles  |
 | :------------------- | :---------: | :-----------: | :--------: |
-| **ZE operator area** |     Yes     |      No       |    No      |
+| **ZE operator area** |     Yes     |     _No_      |    No      |
 | **Port/Branch**      |     Yes     |     Yes       |   Yes      |
-| **ZE-Branch Xover**  |     Yes     |      No       |    No      |
-| **ZE-B Port Xover**  |     Yes     |      No       |    No      |
-| **Zion Interlocking**|     Yes     |      No       |    No      |
-| **Whiskey Sidings**  |     Yes     |     Yes       |    No      |
+| **ZE-Branch Xover**  |     Yes     |     _No_      |   _No_     |
+| **ZE-B Port Xover**  |     Yes     |     _No_      |   _No_     |
+| **Zion Interlocking**|     Yes     |     _No_      |   _No_     |
+| **Whiskey Sidings**  |     Yes     |     Yes       |   _No(?)_  |
 | **Whiskey Local**    |     Yes     |     Yes       |   Yes      |
 
 
@@ -64,15 +64,15 @@ In Local mode, the desired access is:
 
 ## Proposed Solution 
 
- - Move the remote-vetoed LocoNet hardware addresses up by 1000 and keep those numbers secret
+ - Move the remote-vetoed LocoNet hardware addresses up by 1024 and keep those numbers secret
     - Leave the lower numbers on the panels so that people still use them with throttles when they're functional in remote mode
     - Clear/re-define the pre-existing LT turnout definitions as needed
-    - Run a script in the main layout computer that, if in remote mode, translates from the lower throttle-friendly LocoNet address to the higher actual-hardware LocoNet address.
+    - Run a script in the main layout computer or in a TowerLCC-Q node that, when in remote mode, translates from the lower throttle-friendly LocoNet address to the higher actual-hardware LocoNet address.
  - The Zion E hard panel works directly with those new high addresses as needed and with logic resident in nodes. No separate computer support is needed. 
  - Soft panels will be coded to check the Local/Remote switch position before allowing control of anything in the Zion East area.
     - Initial approach, to be tested, is to use a script to set the 'controllable' attribute on Layout Editor turnout icons from the Local/Remote sensor. This is how the Zion Interlocking is handled on the current soft Dispatcher panel.
  
- Without a computer running, this provides the desired access _except_ for the increased remote-mode throttle access to Zion Interlocking and the two ZionE-Branch crossovers.
+ Without the translator running, this provides the desired access _except_ _for_ the increased remote-mode throttle access to Zion Interlocking and the two ZionE-Branch crossovers.
  
 ## Implementation Notes
  
