@@ -70,11 +70,18 @@ The convention for SignalLCC-32H logic cells for a single head mast protecting o
  
 The convention for SignalLCC-32H logic cells for a double head mast protecting one turnout is:
 
- - (Needs work)
+ - First, a cell that does held/not-held, setting Stop
+ - Then one or more cells conditioned on the Turnout being set, doing occupancy, routing (if needed) and then Approach/Clear
+ - Then one or more cells that does occupancy and Approach/Clear for the other turnout route, because it can now assume that route.
+
 
 ### More complex mast configurations
  
- More complex masts have their logic in the TowerLCC-Q boards.
+ More complex masts have their logic in the TowerLCC-Q boards. There are three of these:
+  - Four-track Westward
+  - Four-track Eastward
+  - Yazoo, including some special cases from other locations. See the `PMRRM SignalLCC-32H heads` spreadsheet for specifics.
+
  
  The "true" state for logic inputs are 
   - track occupied
