@@ -22,12 +22,72 @@
     <defaultclosedspeed>Normal</defaultclosedspeed>
     <defaultthrownspeed>Restricted</defaultthrownspeed>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
+      <systemName>MT02.01.57.00.01.11.00.00;02.01.57.00.01.11.00.01</systemName>
+      <userName>MWIS Line1 Turnout</userName>
+    </turnout>
+    <turnout feedback="MONITORING" inverted="false" automate="Off">
+      <systemName>MT02.01.57.00.01.11.00.0C;02.01.57.00.01.11.00.0D</systemName>
+      <userName>MWIS Line2 NO KNOWN Turnout</userName>
+    </turnout>
+    <turnout feedback="MONITORING" inverted="false" automate="Off">
+      <systemName>MT02.01.57.00.01.11.00.18;02.01.57.00.01.11.00.19</systemName>
+      <userName>MWIS Line3 Turnout</userName>
+    </turnout>
+    <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>MT02.01.57.00.01.11.00.24;02.01.57.00.01.11.00.25</systemName>
-      <userName>MES LIne4</userName>
+      <userName>MWIS Line4 S1S2-S3R1</userName>
+    </turnout>
+    <turnout feedback="MONITORING" inverted="false" automate="Off">
+      <systemName>MT02.01.57.00.01.11.00.30;02.01.57.00.01.11.00.31</systemName>
+      <userName>MWIS Line5 Turnout</userName>
+    </turnout>
+    <turnout feedback="MONITORING" inverted="false" automate="Off">
+      <systemName>MT02.01.57.00.01.11.00.3C;02.01.57.00.01.11.00.3D</systemName>
+      <userName>MWIS Line6 Turnout</userName>
+    </turnout>
+    <turnout feedback="MONITORING" inverted="false" automate="Off">
+      <systemName>MT02.01.57.00.01.11.00.48;02.01.57.00.01.11.00.49</systemName>
+      <userName>MWIS Line7 Turnout</userName>
+    </turnout>
+    <turnout feedback="MONITORING" inverted="false" automate="Off">
+      <systemName>MT02.01.57.00.01.11.00.54;02.01.57.00.01.11.00.55</systemName>
+      <userName>MWIS Line8 Turnout</userName>
+    </turnout>
+    <turnout feedback="MONITORING" inverted="false" automate="Off">
+      <systemName>MT02.01.57.00.01.11.00.60;02.01.57.00.01.11.00.61</systemName>
+      <userName>MWIS Line9 Turnout</userName>
+    </turnout>
+    <turnout feedback="MONITORING" inverted="false" automate="Off">
+      <systemName>MT02.01.57.00.01.11.00.6C;02.01.57.00.01.11.00.6D</systemName>
+      <userName>MWIS Line10 Turnout</userName>
+    </turnout>
+    <turnout feedback="MONITORING" inverted="false" automate="Off">
+      <systemName>MT02.01.57.00.01.11.00.78;02.01.57.00.01.11.00.79</systemName>
+      <userName>MWIS Line11 Turnout</userName>
+    </turnout>
+    <turnout feedback="MONITORING" inverted="false" automate="Off">
+      <systemName>MT02.01.57.00.01.11.00.84;02.01.57.00.01.11.00.85</systemName>
+      <userName>MWIS Line12 Turnout</userName>
+    </turnout>
+    <turnout feedback="MONITORING" inverted="false" automate="Off">
+      <systemName>MT02.01.57.00.01.11.00.90;02.01.57.00.01.11.00.91</systemName>
+      <userName>MWIS Line13 Turnout</userName>
+    </turnout>
+    <turnout feedback="MONITORING" inverted="false" automate="Off">
+      <systemName>MT02.01.57.00.01.11.00.9C;02.01.57.00.01.11.00.9D</systemName>
+      <userName>MWIS Line14 Turnout</userName>
+    </turnout>
+    <turnout feedback="MONITORING" inverted="false" automate="Off">
+      <systemName>MT02.01.57.00.01.11.00.A8;02.01.57.00.01.11.00.A9</systemName>
+      <userName>MWIS Line15 Turnout</userName>
+    </turnout>
+    <turnout feedback="MONITORING" inverted="false" automate="Off">
+      <systemName>MT02.01.57.00.01.11.00.B4;02.01.57.00.01.11.00.B5</systemName>
+      <userName>MWIS Line16 Turnout</userName>
     </turnout>
   </turnouts>
   <memories class="jmri.managers.configurexml.DefaultMemoryManagerXml">
-    <memory value="4:21 PM">
+    <memory value="6:07 PM">
       <systemName>IMCURRENTTIME</systemName>
     </memory>
     <memory value="1.0">
@@ -41,14 +101,31 @@
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Tue May 12 14:46:14 PDT 2026</date>
+      <date>Thu May 14 17:11:46 PDT 2026</date>
       <filename>PanelPro (v5.15.7)</filename>
     </operation>
     <operation>
+      <type>Load OK</type>
+      <date>Thu May 14 17:13:10 PDT 2026</date>
+      <filename>/D:/OneDrive/GitHub/PMRRM/Profiles/PMRRM_Direct.jmri/Peter Midway Investigate.xml</filename>
+      <filehistory>
+        <operation>
+          <type>app</type>
+          <date>Tue May 12 14:46:14 PDT 2026</date>
+          <filename>PanelPro (v5.15.7)</filename>
+        </operation>
+        <operation>
+          <type>Store</type>
+          <date>Tue May 12 16:21:48 PDT 2026</date>
+          <filename>D:\OneDrive\GitHub\PMRRM\Profiles\PMRRM_Direct.jmri\Peter Midway Investigate.xml</filename>
+        </operation>
+      </filehistory>
+    </operation>
+    <operation>
       <type>Store</type>
-      <date>Tue May 12 16:21:48 PDT 2026</date>
+      <date>Thu May 14 18:07:35 PDT 2026</date>
       <filename>D:\OneDrive\GitHub\PMRRM\Profiles\PMRRM_Direct.jmri\Peter Midway Investigate.xml</filename>
     </operation>
   </filehistory>
-  <!--Written by JMRI version 5.15.7+R380e60fa42 on Tue May 12 16:21:48 PDT 2026-->
+  <!--Written by JMRI version 5.15.7+R380e60fa42 on Thu May 14 18:07:35 PDT 2026-->
 </layout-config>
