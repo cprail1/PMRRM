@@ -47,6 +47,9 @@ global Y3InputLast, Y3On, Y3Allocated, Y3Off
 global Route_X1_Y1, Route_X1_Y2, Route_X1_Y3
 global Route_X2_Y1, Route_X2_Y2, Route_X2_Y3
 
+global E2W23state, E1W12state, E12W2state
+global X23state, X12state
+
 X1InputLast = X1On = X1Allocated = False; X1Off = True
 X2InputLast = X2On = X2Allocated = False; X2Off = True
 Y1InputLast = Y1On = Y1Allocated = False; Y1Off = True
@@ -55,6 +58,12 @@ Y3InputLast = Y3On = Y3Allocated = False; Y3Off = True
 
 Route_X1_Y1 = Route_X1_Y2 = Route_X1_Y3 = False
 Route_X2_Y1 = Route_X2_Y2 = Route_X2_Y3 = False
+
+E2W23state = turnouts.getTurnout("Yazoo E2 to W2-W3").state
+E1W12state = turnouts.getTurnout("Yazoo E1 to W1-W2").state
+E12W2state = turnouts.getTurnout("Yazoo W2 to E1-E2").state
+X23state = turnouts.getTurnout("Yazoo 2-3 XOver D-N").state
+X12state = turnouts.getTurnout("Yazoo 1-2 XOver D-N").state
 
 class NXdriver(jmri.jmrit.automat.AbstractAutomaton) :
 
@@ -72,6 +81,9 @@ class NXdriver(jmri.jmrit.automat.AbstractAutomaton) :
         global Route_X1_Y1, Route_X1_Y2, Route_X1_Y3
         global Route_X2_Y1, Route_X2_Y2, Route_X2_Y3
         
+        global E2W23state, E1W12state, E12W2state
+        global X23state, X12state
+
         X1Turnout = turnouts.getTurnout("ZE NX X1 request")
         X2Turnout = turnouts.getTurnout("ZE NX X2 request")
         Y1Turnout = turnouts.getTurnout("ZE NX Y1 request")
@@ -92,6 +104,43 @@ class NXdriver(jmri.jmrit.automat.AbstractAutomaton) :
     
         self.waitMsec(20)  # to simulate -Q node
         
+        # cancel all lights if any turnouts are inconsistent
+        if (
+                E2W23state != E2W23.state or 
+                E1W12state != E1W12.state or 
+                E12W2state != E12W2.state or 
+                X23state != X23.state or 
+                X12state != X12.state 
+                ) :
+            X1On = False 
+            X1Allocated = False
+            X1Off = True
+            X2On = False
+            X2Allocated = False 
+            X2Off = True
+            Y1On = False
+            Y1Allocated = False
+            Y1Off = True
+            Y2On = False
+            Y2Allocated = False
+            Y2Off = True
+            Y3On = False
+            Y3Allocated = False
+            Y3Off = True
+
+            X1Lamp.state = INACTIVE
+            X2Lamp.state = INACTIVE
+            Y1Lamp.state = INACTIVE
+            Y2Lamp.state = INACTIVE
+            Y3Lamp.state = INACTIVE
+            
+            E2W23state = E2W23.state
+            E1W12state = E1W12.state
+            E12W2state = E12W2.state
+            X23state = X23.state
+            X12state = X12.state
+
+            
         # get inputs to process
         X1InputNow = X1Turnout.getCommandedState() == THROWN
         X2InputNow = X2Turnout.getCommandedState() == THROWN
@@ -248,6 +297,7 @@ class NXdriver(jmri.jmrit.automat.AbstractAutomaton) :
             Route_X1_Y1 = True
             # fire Route-X1-Y1 outputs
             E1W12.state = THROWN; X12.state = CLOSED
+            E1W12state = THROWN; X12state = CLOSED
             X1On = True; X1Off = False; X1Allocated = False
             X1Lamp.state = ACTIVE
             Y1On = True; Y1Off = False; Y1Allocated = False
@@ -257,6 +307,7 @@ class NXdriver(jmri.jmrit.automat.AbstractAutomaton) :
             Route_X1_Y2 = True
             # fire Route-X1-Y2 outputs
             E1W12.state = CLOSED; E12W2.state = CLOSED; X12.state = CLOSED; X23.state = CLOSED
+            E1W12state = CLOSED; E12W2state = CLOSED; X12state = CLOSED; X23state = CLOSED
             X1On = True; X1Off = False; X1Allocated = False
             X1Lamp.state = ACTIVE
             Y2On = True; Y2Off = False; Y2Allocated = False
@@ -271,6 +322,7 @@ class NXdriver(jmri.jmrit.automat.AbstractAutomaton) :
             Route_X1_Y3 = True
             # fire Route-X1-Y3 outputs
             E1W12.state = CLOSED; E12W2.state = CLOSED; X23.state = THROWN
+            E1W12state = CLOSED; E12W2state = CLOSED; X23state = THROWN
             X1On = True; X1Off = False; X1Allocated = False
             X1Lamp.state = ACTIVE
             Y3On = True; Y3Off = False; Y3Allocated = False
@@ -285,6 +337,7 @@ class NXdriver(jmri.jmrit.automat.AbstractAutomaton) :
             Route_X2_Y1 = True
             # fire Route-X2-Y1 outputs
             E2W23.state = THROWN; E12W2.state = THROWN; X12.state = THROWN; X23.state = CLOSED
+            E2W23state = THROWN; E12W2state = THROWN; X12state = THROWN; X23state = CLOSED
             X2On = True; X2Off = False; X2Allocated = False
             X2Lamp.state = ACTIVE
             Y1On = True; Y1Off = False; Y1Allocated = False
@@ -299,6 +352,7 @@ class NXdriver(jmri.jmrit.automat.AbstractAutomaton) :
             Route_X2_Y2 = True
             # fire Route-X2-Y2 outputs
             E2W23.state = THROWN; E12W2.state = THROWN; X12.state = CLOSED; X23.state = CLOSED
+            E2W23state = THROWN; E12W2state = THROWN; X12state = CLOSED; X23state = CLOSED
             X2On = True; X2Off = False; X2Allocated = False
             X2Lamp.state = ACTIVE
             Y2On = True; Y2Off = False; Y2Allocated = False
@@ -313,6 +367,7 @@ class NXdriver(jmri.jmrit.automat.AbstractAutomaton) :
             Route_X2_Y3 = True
             # fire Route-X2-Y3 outputs
             E2W23.state = CLOSED; X23.state = CLOSED
+            E2W23state = CLOSED; X23state = CLOSED
             X2On = True; X2Off = False; X2Allocated = False
             X2Lamp.state = ACTIVE
             Y3On = True; Y3Off = False; Y3Allocated = False
