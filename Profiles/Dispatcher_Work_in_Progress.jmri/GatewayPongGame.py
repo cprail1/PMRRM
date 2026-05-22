@@ -35,7 +35,7 @@ class GatewayPongGame (jmri.jmrit.automat.AbstractAutomaton) :
         if oldstate == THROWN : newstate = CLOSED
         
         source.setCommandedState(newstate)
-        self.waitMsec(200)
+        self.waitMsec(1000) # long due to traffic delays during startup
 
         if sink.getKnownState() == newstate :
             # success!
@@ -43,23 +43,24 @@ class GatewayPongGame (jmri.jmrit.automat.AbstractAutomaton) :
             status.setValue("Gateway OK")
             oksound.play()
         else :
-            # fail - sound and wait a bit
+            # fail - play sound
             log.error("{} failed", direction)
             status.setValue("Gateway Failed")
             failSound.play()
+            # and wait a bit to reduce repetition rate of sound
             self.waitMsec(10000)
 
     def init(self) : 
-        self.waitMsec(30000) # wait for layout to stabilize
+        self.waitMsec(45000) # wait for layout to stabilize
         
     def handle(self) : 
 
+        # ping sound
         self.check(lt, mt, lt_mt, "LocoNet -> LCC")
         self.waitMsec(5000)
 
+        # pong sound
         self.check(mt, lt, mt_lt, "LCC -> LocoNet")
-        
-        # Wait a bit before repeating
         self.waitMsec(5000)
         
         # repeat
