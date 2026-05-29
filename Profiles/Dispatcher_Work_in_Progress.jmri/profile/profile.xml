@@ -36,6 +36,16 @@
                     <value>OpenLCB</value>
                 </option>
             </options>
+            <node name="Ident">
+                <parameter name="UserName">Dispatcher PC</parameter>
+                <parameter name="NodeId"/>
+                <parameter name="UserDescription"/>
+            </node>
+            <node name="FastClock">
+                <parameter name="EnableMode">disabled</parameter>
+                <parameter name="ClockCustomId"/>
+                <parameter name="ClockId">default</parameter>
+            </node>
         </connection>
     </connections>
     <startup xmlns="http://jmri.org/xml/schema/auxiliary-configuration/startup-4-3-5.xsd">
