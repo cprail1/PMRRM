@@ -180,8 +180,19 @@ class MenuItemDisable(jmri.jmrit.automat.AbstractAutomaton) :
         # find the LCC menu in the menu bar
         lccMenu = findMenu(frame, "LCC")
         if lccMenu is not None: # skip if run on some other connection
-            lccMenu.setEnabled(False)
 
+            # Find items within that menu and disable it
+            findItem(lccMenu, "Open LccPro").setEnabled(False)
+            findItem(lccMenu, "Start Hub").setEnabled(False)
+            findItem(lccMenu, "Event Table").setEnabled(False)
+            findItem(lccMenu, "Configure Nodes").setEnabled(False)
+            findItem(lccMenu, "Firmware Update").setEnabled(False)
+            findItem(lccMenu, "Ident Tool").setEnabled(False)
+            # leave Traffic Monitor available
+            findItem(lccMenu, "Memory Tool").setEnabled(False)
+            findItem(lccMenu, "STL Editor").setEnabled(False)
+            findItem(lccMenu, "Send Frame").setEnabled(False)
+ 
         debugMenu = findMenu(frame, "Debug")  
         if debugMenu is not None :    
             debugMenu.setEnabled(False)
