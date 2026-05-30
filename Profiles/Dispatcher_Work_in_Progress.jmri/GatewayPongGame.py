@@ -51,6 +51,7 @@ class GatewayPongGame (jmri.jmrit.automat.AbstractAutomaton) :
             self.waitMsec(10000)
 
     def init(self) : 
+        status.setValue("Loading, please wait")
         self.waitMsec(45000) # wait for layout to stabilize
         
     def handle(self) : 
