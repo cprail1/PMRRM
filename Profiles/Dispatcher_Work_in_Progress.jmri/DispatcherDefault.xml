@@ -21514,7 +21514,7 @@
     <positionablepoint ident="A43" type="ANCHOR" x="990.0" y="335.0" connect1name="T245" connect2name="T248" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A44" type="ANCHOR" x="1030.0" y="355.0" connect1name="T14" connect2name="T249" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
   </LayoutEditor>
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="PMRRM Dispatcher HiRes" x="2552" y="-8" windowheight="1408" windowwidth="2576" panelheight="1404" panelwidth="2575" sliders="yes" scrollable="both" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="yes" tooltipsinedit="yes" mainlinetrackwidth="6" xscale="1.0" yscale="1.0" sidetrackwidth="3" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="green" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclethrowncolor="orange" turnoutcirclesize="3" turnoutdrawunselectedleg="no" turnoutbx="7.0" turnoutcx="14.0" turnoutwid="14.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="yes" redBackground="192" greenBackground="192" blueBackground="192" gridSize="5" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="PMRRM Dispatcher HiRes" x="2553" y="0" windowheight="1408" windowwidth="2574" panelheight="1404" panelwidth="2575" sliders="yes" scrollable="both" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="yes" tooltipsinedit="yes" mainlinetrackwidth="6" xscale="1.0" yscale="1.0" sidetrackwidth="3" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="green" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclethrowncolor="orange" turnoutcirclesize="3" turnoutdrawunselectedleg="no" turnoutbx="7.0" turnoutcx="14.0" turnoutwid="14.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="yes" redBackground="192" greenBackground="192" blueBackground="192" gridSize="5" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="PMRRM Dispatcher HiRes" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
       <mainBallastWidth>0</mainBallastWidth>
@@ -24516,7 +24516,7 @@
     <signalmasticon signalmast="JacksonE-W-M" x="1824" y="515" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" clickmode="2" litmode="true" scale="1.0" imageset="discriminated" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
     <signalmasticon signalmast="JacksonE-E-M" x="1784" y="540" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" clickmode="2" litmode="true" scale="1.0" imageset="discriminated" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
     <signalmasticon signalmast="JacksonE-E-S" x="1779" y="575" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" clickmode="2" litmode="true" scale="1.0" imageset="discriminated" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <memoryicon memory="IMPong" x="1485" y="1250" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" fixedWidth="75" justification="left" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif" />
+    <memoryicon memory="IMPong" x="1485" y="1250" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" fixedWidth="150" justification="left" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif" />
     <layoutturnout ident="TO1" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="1200.0" ycen="605.0" xa="1220.0" ya="605.0" xb="1180.0" yb="605.0" xc="1190.0" yc="595.0" xd="1220.0" yd="605.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Midway E F" blockname="Midway East frt approach" connectaname="T226" connectbname="T242" connectcname="T4" />
     <layoutturnout ident="TO2" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="1160.0" ycen="565.0" xa="1145.0" ya="550.0" xb="1175.0" yb="580.0" xc="1185.0" yc="565.0" xd="1145.0" yd="550.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Midway E Engine pocket" blockname="Midway East Engine Pocket" connectaname="T5" connectbname="T4" connectcname="T8" />
     <layoutturnout ident="TO3" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="1372.0" ycen="535.0" xa="1399.0" ya="535.0" xb="1345.0" yb="535.0" xc="1350.0" yc="560.0" xd="1399.0" yd="535.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Lake" blockname="Lake" connectaname="T129" connectbname="T3" connectcname="T1">
@@ -25197,17 +25197,17 @@
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Sat May 30 12:45:45 PDT 2026</date>
+      <date>Sat May 30 13:02:57 PDT 2026</date>
       <filename>PanelPro (v5.15.6)</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Sat May 30 12:45:55 PDT 2026</date>
+      <date>Sat May 30 13:03:07 PDT 2026</date>
       <filename>/C:/Users/Electrical Crew/OneDrive/PMRRM-repository/Profiles/Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Sat May 30 12:53:39 PDT 2026</date>
+      <date>Sat May 30 13:05:30 PDT 2026</date>
       <filename>C:\Users\Electrical Crew\OneDrive\PMRRM-repository\Profiles\Dispatcher_Work_in_Progress.jmri\DispatcherDefault.xml</filename>
     </operation>
   </filehistory>
