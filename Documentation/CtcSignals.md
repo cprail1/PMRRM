@@ -12,7 +12,7 @@ The convention for mast names is
     
 For example, ColtonW-E-2 is a mast located at Colton West, for east-bound traffic, located on track 2. When needed, a -U, -M, or -L would be appended to get the name of a single head on a multi-headed mast. 
 
-See the `PMRRM SignalLCC-32H heads` spreadsheet for the allocation of heads and masts to boards and pods. Note that in some cases, the head order on the LED signal string may not be the same order as the heads are defined in the SignalLCC-32H board.  These were set up in parallel, and then made ot match using the "Head position in string (1-32)" configuration entry.
+See the `PMRRM SignalLCC-32H heads` spreadsheet for the allocation of heads and masts to boards and pods. Note that in some cases, the head order on the LED signal string may not be the same order as the heads are defined in the SignalLCC-32H board.  These were set up in parallel, and then made to match using the "Head position in string (1-32)" configuration entry.
 
 We set up masts with the following appearance rules, though not all are used on every mast.
 

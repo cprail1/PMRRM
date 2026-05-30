@@ -13,7 +13,7 @@ There are several separate areas of control:
  - Zion Interlocking, indicated as such on the hard panel.  This contains the Yazoo and Xerox turnouts and crossovers
  - The turnouts selecting the main and turnouts at Whiskey
  - The turnouts servicing local industries at Whiskey
-     
+
  
 In Remote mode, the desired access is:
   
@@ -46,7 +46,10 @@ In Local mode, the desired access is:
 
  - It's desirable for as much as possible of this to work even when no computer is running.
 
- 
+## Outstanding Questions
+
+ - Do the main areas (throats, individual turnouts) in Zion East need to be operable from a LocoNet throttle?
+
 ## Current Status
 
  - The turnouts in the Zion East operator area are on direct LCC control
@@ -59,7 +62,7 @@ In Local mode, the desired access is:
  - The Port area has turnouts that are directly controlled by fascia buttons connected to their accessory decoders
  - Currently defined LocoNet turnouts on the layout:
     - Between 1000 and 1299 inclusive, there are a half-dozen or so LT turnouts defined that either seem to be not used, or are LT-LCC signal communication which can be moved.
-    - None between 1300 and 2000 inclusive, 
+    - None between 1300 and 2000 inclusive.
  
 
 ## Proposed Solution 
