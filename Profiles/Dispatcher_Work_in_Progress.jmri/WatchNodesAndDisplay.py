@@ -46,6 +46,7 @@ class WatchNodesAndDisplay (jmri.jmrit.automat.AbstractAutomaton) :
         self.waitMsec(15000)
         
         frame = jmri.util.JmriJFrame("LCC Node Status")
+        frame.setDefaultCloseOperation(javax.swing.WindowConstants.HIDE_ON_CLOSE)
         frame.contentPane.setLayout(javax.swing.BoxLayout(frame.contentPane, javax.swing.BoxLayout.Y_AXIS))
         self.status = javax.swing.JLabel("Still scanning network")
         frame.contentPane.add(self.status)

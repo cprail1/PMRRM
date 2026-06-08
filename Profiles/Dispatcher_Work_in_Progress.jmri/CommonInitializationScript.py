@@ -34,4 +34,5 @@ runscript("preference:LnSignalsToLCC.py")
 runscript("preference:HideHiResPanel.py")
 runscript("preference:SignalMastIconsLit.py")
 runscript("preference:ChangeDefaultBackupFileName.py")
+runscript("preference:WatchNodesAndDisplay.py")
 
