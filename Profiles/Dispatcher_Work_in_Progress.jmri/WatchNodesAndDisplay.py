@@ -42,8 +42,6 @@ class WatchNodesAndDisplay (jmri.jmrit.automat.AbstractAutomaton) :
         import javax
         import jmri
         global WatchNodesAndDisplayPanel
-
-        self.waitMsec(15000)
         
         frame = jmri.util.JmriJFrame("LCC Node Status")
         frame.setDefaultCloseOperation(javax.swing.WindowConstants.HIDE_ON_CLOSE)
