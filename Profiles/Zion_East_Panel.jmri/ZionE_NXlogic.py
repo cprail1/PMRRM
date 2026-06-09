@@ -112,6 +112,15 @@ class NXdriver(jmri.jmrit.automat.AbstractAutomaton) :
                 X23state != X23.state or 
                 X12state != X12.state 
                 ) :
+                
+            print ("cancelling")
+            print E2W23state +" "+ E2W23.state 
+            print E1W12state +" "+ E1W12.state 
+            print E12W2state +" "+ E12W2.state
+            print X23state +" "+ X23.state
+            print X12state +" "+ X12.state 
+            print " -- "
+            
             X1On = False 
             X1Allocated = False
             X1Off = True
