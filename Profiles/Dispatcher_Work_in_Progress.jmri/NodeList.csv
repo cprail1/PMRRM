@@ -1,6 +1,5 @@
 Name,ID,Manufacturer,Model,Software,Description
-"",02.01.12.FE.05.91,JMRI,PanelPro,5.15.5+Rb8002ab3ce,
-"",02.01.12.B5.23.7C,JMRI,PanelPro,5.15.6plus+jenkins+2,
+"",02.01.12.FE.05.5F,JMRI,PanelPro,5.15.5+Rb8002ab3ce,
 AES panel TWR1 22-05-28,02.01.57.00.04.9E,"RR-CirKits, Inc.",Tower-LCC,rev-C7e1,Turnout routing buttons on left side of panel. No LEDs. TWR
 AES panel TWR2 22-05-05,02.01.57.00.04.5F,"RR-CirKits, Inc.",Tower-LCC,rev-C7e1,Turnout routing buttons on right side of panel. No LEDs. TWR
 AES turnouts 21-11-11,02.01.57.00.01.B0,"RR-CirKits, Inc.",Tower-LCC,rev-C7e1,Turnout owner. TWR
@@ -26,11 +25,18 @@ APW turnouts 1st 25-06-14,02.01.57.00.02.5C,"RR-CirKits, Inc.",Tower-LCC,rev-C7e
 APW turnouts 2nd 25-06-12,02.01.57.10.01.60,RR-CirKits Inc.,Signal-LCC,rev-C7c,Turnout owner. SIG_LCC
 Bend CP 22-05-12,02.01.57.00.02.E8,"RR-CirKits, Inc.",Tower-LCC,rev-C7e1,Bend-Alhambra throat turnout owner. TWR
 Bend GW 26-05-23 Known DCC Switch on,02.01.57.21.00.69,RR-CirKits,LCC-LocoNet Gateway,rev-B9d-beta1,
-Electrical Crew,02.01.12.00.03.9D,JMRI,PanelPro,5.5.4+R97c494001c,
+Bend West Pod signal1,02.01.57.11.00.F4,RR-CirKits,Signal-LCC-32H,rev-C1c,
+Dispatcher PC Crew,02.01.12.B6.37.78,JMRI,PanelPro,5.15.7plus+jenkins+2,
+Electrical Crew,02.01.12.00.03.98,JMRI,PanelPro,5.5.4+R97c494001c,
 Four-Track Signal Logic East,02.01.57.40.02.26,"RR-CirKits, Inc.",Tower-LCC+Q,v1.15,Eastward DeltaW to BendW
+Four-Track Signal Logic West,02.01.57.40.03.08,"RR-CirKits, Inc.",Tower-LCC+Q,v1.15,Westward BendE to DeltaE
+Irvine Pod signal1,02.01.57.11.00.F2,RR-CirKits,Signal-LCC-32H,rev-C1c,
+Jackson Pod signal1,02.01.57.11.00.F3,RR-CirKits,Signal-LCC-32H,rev-C1c,
+MidwayES Pod signal1,02.01.57.11.00.F1,RR-CirKits,Signal-LCC-32H,rev-C1c,
 Midway relays 22-05-28,02.01.57.00.02.C1,"RR-CirKits, Inc.",Tower-LCC,rev-C7e1,Relays controlling body track power. TWR
 Osage Pod signal1,02.01.57.11.00.F0,RR-CirKits,Signal-LCC-32H,rev-C1c,
 Yazoo Signal Logic,02.01.57.40.00.07,"RR-CirKits, Inc.",Tower-LCC+Q,v1.15,
+Zion E Panel Logic,02.01.57.40.03.09,"RR-CirKits, Inc.",Tower-LCC+Q,v1.15,+Q node for panel-resident logic
 ZionES panel TWR 21-11-11,02.01.57.00.01.BF,"RR-CirKits, Inc.",Tower-LCC,rev-C7e1,Turnout routing buttons on panel. No LEDs. TWR
 ZionE turnouts 1st 24-03-12,02.01.57.00.01.B1,"RR-CirKits, Inc.",Tower-LCC,rev-C7e1,Turnout owner. TWR
 ZionE turnouts 2nd 24-01-18,02.01.57.00.02.5B,"RR-CirKits, Inc.",Tower-LCC,rev-C7e1,Turnout owner. TWR
