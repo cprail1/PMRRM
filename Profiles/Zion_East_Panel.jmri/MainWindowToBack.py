@@ -13,6 +13,8 @@ class MainPanelToBack(jmri.jmrit.automat.AbstractAutomaton) :
         for frame in jmri.util.JmriJFrame.getFrameList() :
             if frame.getTitle() == "PanelPro" :
                 frame.toBack()
+                frame.setVisible(False)
+                print ("PanelPro frame hidden")
                 return
         print ("Did not find main window, probably need a longer delay")
 
