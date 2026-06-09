@@ -45,7 +45,7 @@ class GatewayPongGame (jmri.jmrit.automat.AbstractAutomaton) :
         else :
             # fail - play sound
             log.error("{} failed", direction)
-            status.setValue("Gateway Failed")
+            status.setValue("Gateway Failed: "+direction)
             failSound.play()
             # and wait a bit to reduce repetition rate of sound
             self.waitMsec(10000)
