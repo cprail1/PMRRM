@@ -44,6 +44,10 @@ class InitializeZionEPanel(jmri.jmrit.automat.AbstractAutomaton) :
         sensors.getSensor("ZE NX Y3 ack").state = INACTIVE
         self.waitMsec(50)
 
+	#Yazoo turnouts
+	turnouts.getTurnout("Yazoo W2 to E1-E2").state = THROWN
+	
+
         # Set ladders to a particular track
         turnouts.getTurnout("ZE EABECR FrtA request").state = THROWN
         turnouts.getTurnout("ZE EABECR FrtB request").state = THROWN
