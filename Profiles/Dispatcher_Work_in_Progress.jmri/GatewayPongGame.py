@@ -15,10 +15,10 @@ import org.slf4j.LoggerFactory
 lt = turnouts.provideTurnout("LT2021")
 mt = turnouts.provideTurnout("MTT2021")
 
-failSound = jmri.jmrit.Sound(jmri.util.FileUtil.getExternalFilename("profile:resources/sounds/EndGame.wav"))
+failSound = jmri.jmrit.Sound(jmri.util.FileUtil.getExternalFilename("preference:resources/sounds/EndGame.wav"))
 
-lt_mt = jmri.jmrit.Sound(jmri.util.FileUtil.getExternalFilename("profile:resources/sounds/Pong1.wav"))
-mt_lt = jmri.jmrit.Sound(jmri.util.FileUtil.getExternalFilename("profile:resources/sounds/Pong2.wav"))
+lt_mt = jmri.jmrit.Sound(jmri.util.FileUtil.getExternalFilename("preference:resources/sounds/Pong1.wav"))
+mt_lt = jmri.jmrit.Sound(jmri.util.FileUtil.getExternalFilename("preference:resources/sounds/Pong2.wav"))
 
 status = memories.provideMemory("IMProgramStatus")  # for status display on panel
 
