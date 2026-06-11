@@ -18,9 +18,11 @@ class ResetSensorsToInactive(jmri.jmrit.automat.AbstractAutomaton) :
         
     def handle(self) : 
         self.waitMsec(20000)
-        for sensor in sensors.getNamedBeanSet():
-            sensor.setKnownState(INACTIVE)
-            self.waitMsec(100)
+        loopOver = list(sensors.getNamedBeanSet())
+        for sensor in loopOver:
+            if sensor.systemName.startswith("L"):  # only LocoNet sensors need simulation
+                sensor.setKnownState(INACTIVE)
+                self.waitMsec(20)
         return False # to terminate
     
 thisUser = java.lang.System.getProperty("user.name")
@@ -29,7 +31,7 @@ if thisUser == desiredUser:
     log = org.slf4j.LoggerFactory.getLogger(
             "script.HighlightUnknownBlockSensors"
         )
-    log.warn("Set all sensors to INACTIVE for debugging")
+    log.warn("Set all LocoNet sensors to INACTIVE for debugging")
     ResetSensorsToInactive().start()
 
 # redraw all LayoutEditor panels  - should run on GUI thread
