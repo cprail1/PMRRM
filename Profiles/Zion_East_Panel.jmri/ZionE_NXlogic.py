@@ -59,17 +59,21 @@ Y3InputLast = Y3On = Y3Allocated = False; Y3Off = True
 Route_X1_Y1 = Route_X1_Y2 = Route_X1_Y3 = False
 Route_X2_Y1 = Route_X2_Y2 = Route_X2_Y3 = False
 
-E2W23state = turnouts.getTurnout("Yazoo E2 to W2-W3").state
-E1W12state = turnouts.getTurnout("Yazoo E1 to W1-W2").state
-E12W2state = turnouts.getTurnout("Yazoo W2 to E1-E2").state
-X23state = turnouts.getTurnout("Yazoo 2-3 XOver D-N").state
-X12state = turnouts.getTurnout("Yazoo 1-2 XOver D-N").state
 
 class NXdriver(jmri.jmrit.automat.AbstractAutomaton) :
 
     def init(self):
         signals.getSignalHead("Blinker").setAppearance(FLASHRED)
-        return
+	self.cycles = 0
+	self.waitMsec(200)
+	global E2W23state, E1W12state, E12W2state
+	global X23state, X12state
+	E2W23state = turnouts.getTurnout("Yazoo E2 to W2-W3").state
+	E1W12state = turnouts.getTurnout("Yazoo E1 to W1-W2").state
+	E12W2state = turnouts.getTurnout("Yazoo W2 to E1-E2").state
+	X23state = turnouts.getTurnout("Yazoo 2-3 XOver D-N").state
+	X12state = turnouts.getTurnout("Yazoo 1-2 XOver D-N").state
+	return
         
     def handle(self):
         global X1InputLast, X1On, X1Allocated, X1Off
@@ -103,15 +107,18 @@ class NXdriver(jmri.jmrit.automat.AbstractAutomaton) :
         X12 = turnouts.getTurnout("Yazoo 1-2 XOver D-N")
     
         self.waitMsec(20)  # to simulate -Q node
-        
+        self.cycles = self.cycles + 1
+
         # cancel all lights if any turnouts are inconsistent
-        if (
+        if ( (
                 E2W23state != E2W23.state or 
                 E1W12state != E1W12.state or 
                 E12W2state != E12W2.state or 
                 X23state != X23.state or 
                 X12state != X12.state 
-                ) :
+                )
+		and self.cycles > 500) :
+                
             X1On = False 
             X1Allocated = False
             X1Off = True
@@ -149,7 +156,7 @@ class NXdriver(jmri.jmrit.automat.AbstractAutomaton) :
         Y3InputNow = Y3Turnout.getCommandedState() == THROWN
 
         # blink the Allocated sensors
-        # this is disabled here, as it causes the CpmmandedState to change and 
+        # this is disabled here, as it causes the CommandedState to change and 
         #   creates a spurious input.  I'm keeping the section to remind
         #   me to see whether this can be done in STL via a sacrificial output
         #
@@ -178,7 +185,7 @@ class NXdriver(jmri.jmrit.automat.AbstractAutomaton) :
 
         if not (X1Pressed or X2Pressed or Y1Pressed or Y2Pressed or Y3Pressed) : return True
         
-        # check for turning off one a button
+        # check for turning off a button
         if X1Pressed and (X1On or X1Allocated): # second push of lit button
             X1Off = True; X1On = False; X1Allocated = False 
             X1Lamp.state = INACTIVE

@@ -1143,7 +1143,7 @@
   <signalmastlogics class="jmri.managers.configurexml.DefaultSignalMastLogicManagerXml">
     <logicDelay>500</logicDelay>
   </signalmastlogics>
-  <paneleditor class="jmri.jmrit.display.panelEditor.configurexml.PanelEditorXml" name="Zion East Debug" x="620" y="32" height="1204" width="1922" editable="yes" positionable="yes" showtooltips="yes" controlling="yes" hide="yes" panelmenu="yes" scrollable="both" redBackground="255" greenBackground="255" blueBackground="255">
+  <paneleditor class="jmri.jmrit.display.panelEditor.configurexml.PanelEditorXml" name="Zion East Debug" x="620" y="33" height="1084" width="1922" editable="yes" positionable="yes" showtooltips="yes" controlling="yes" hide="yes" panelmenu="yes" scrollable="both" redBackground="255" greenBackground="255" blueBackground="255">
     <positionablelabel x="0" y="0" level="1" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="true" icon="yes" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <icon url="preference:resources/Zion East color long debug -1920x1080.png" degrees="0" scale="1.0">
         <rotation>0</rotation>
@@ -1846,16 +1846,16 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <positionablelabel x="1752" y="666" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="1" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="1486" y="687" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="1" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="1486" y="791" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="2" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="1749" y="720" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="2" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="1750" y="773" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="3" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="1127" y="836" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="1" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="1126" y="735" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="2" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="1127" y="633" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="3" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1752" y="666" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="1" fontFamily="Dialog" fontname="Dialog" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1486" y="687" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="1" fontFamily="Dialog" fontname="Dialog" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1486" y="791" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="2" fontFamily="Dialog" fontname="Dialog" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1749" y="720" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="2" fontFamily="Dialog" fontname="Dialog" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1750" y="773" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="3" fontFamily="Dialog" fontname="Dialog" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1127" y="836" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="1" fontFamily="Dialog" fontname="Dialog" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1126" y="735" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="2" fontFamily="Dialog" fontname="Dialog" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1127" y="633" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="3" fontFamily="Dialog" fontname="Dialog" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
   </paneleditor>
-  <paneleditor class="jmri.jmrit.display.panelEditor.configurexml.PanelEditorXml" name="Zion East" x="642" y="30" height="1047" width="1924" editable="yes" positionable="no" showtooltips="no" controlling="yes" hide="no" panelmenu="no" scrollable="none" redBackground="255" greenBackground="255" blueBackground="255">
+  <paneleditor class="jmri.jmrit.display.panelEditor.configurexml.PanelEditorXml" name="Zion East" x="0" y="62" height="1047" width="1924" editable="yes" positionable="no" showtooltips="no" controlling="yes" hide="no" panelmenu="no" scrollable="none" redBackground="255" greenBackground="255" blueBackground="255">
     <positionablelabel x="0" y="0" level="1" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" icon="yes" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <icon url="preference:resources/Zion East color long 1920x1020.png" degrees="0" scale="1.0">
         <rotation>0</rotation>
@@ -3595,10 +3595,10 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <positionablelabel x="1404" y="111" level="4" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" text="LOCAL" fontFamily="Dialog" fontname="Dialog" size="14" style="1" red="255" green="255" blue="255" hasBackground="no" fixedWidth="100" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="1702" y="347" level="4" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" text=" LOCAL" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="255" green="255" blue="255" hasBackground="no" fixedWidth="100" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="1705" y="399" level="4" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" text="REMOTE" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="255" green="255" blue="255" hasBackground="no" fixedWidth="100" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="1405" y="175" level="4" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" text="REMOTE" fontFamily="Dialog" fontname="Dialog" size="14" style="1" red="255" green="255" blue="255" hasBackground="no" fixedWidth="100" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1404" y="111" level="4" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" text="LOCAL" fontFamily="Lucida Grande" fontname="LucidaGrande-Bold" size="14" style="1" red="255" green="255" blue="255" hasBackground="no" fixedWidth="100" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1702" y="347" level="4" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" text=" LOCAL" fontFamily="Lucida Grande" fontname="LucidaGrande-Bold" size="12" style="1" red="255" green="255" blue="255" hasBackground="no" fixedWidth="100" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1705" y="399" level="4" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" text="REMOTE" fontFamily="Lucida Grande" fontname="LucidaGrande-Bold" size="12" style="1" red="255" green="255" blue="255" hasBackground="no" fixedWidth="100" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1405" y="175" level="4" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" text="REMOTE" fontFamily="Lucida Grande" fontname="LucidaGrande-Bold" size="14" style="1" red="255" green="255" blue="255" hasBackground="no" fixedWidth="100" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <turnouticon turnout="Zion East Zion - Port" x="744" y="249" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
         <closed url="program:resources/icons/USSpanels/Lamps/lamp-g.gif" degrees="0" scale="1.75">
@@ -3667,6 +3667,16 @@
       </icons>
       <iconmaps />
     </turnouticon>
+    <positionablelabel x="1325" y="875" level="3" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" icon="yes" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <icon url="program:resources/icons/USS/sensor/white-on.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </icon>
+    </positionablelabel>
+    <positionablelabel x="1327" y="952" level="3" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" icon="yes" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <icon url="program:resources/icons/USS/sensor/white-off.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </icon>
+    </positionablelabel>
   </paneleditor>
   <paneleditor class="jmri.jmrit.display.panelEditor.configurexml.PanelEditorXml" name="Port and Branch Debug" x="113" y="625" height="803" width="968" editable="yes" positionable="yes" showtooltips="yes" controlling="yes" hide="yes" panelmenu="yes" scrollable="both" redBackground="255" greenBackground="255" blueBackground="255">
     <positionablelabel x="0" y="0" level="1" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="true" icon="yes" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
