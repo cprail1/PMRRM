@@ -34,8 +34,9 @@ class ControlDualSemaphore (jmri.jmrit.automat.AbstractAutomaton) :
     def init(self) :
         
         global nextdelay
-        nextdelay = nextdelay+500  # stagger startup
+        nextdelay = nextdelay+100  # stagger startup
         self.waitMsec(nextdelay)
+        memories.provideMemory("IMProgramStatus").setValue("Initializing Semaphores ")
         
         self.minAcceptableTime = 200
         

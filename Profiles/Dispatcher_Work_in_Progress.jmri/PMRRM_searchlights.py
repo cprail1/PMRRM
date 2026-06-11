@@ -29,9 +29,10 @@ class ControlAbsSearchlight (jmri.jmrit.automat.AbstractAutomaton) :
         
         # stagger starts
         global nextsearchlightstart
-        nextsearchlightstart = nextsearchlightstart + 500
+        nextsearchlightstart = nextsearchlightstart + 100
         self.waitMsec(nextsearchlightstart)
-        
+        memories.provideMemory("IMProgramStatus").setValue("Initializing Searchlights")
+
         self.minAcceptableTime = 200
 
         import org.slf4j.LoggerFactory

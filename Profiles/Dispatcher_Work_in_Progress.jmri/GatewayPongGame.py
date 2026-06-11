@@ -20,7 +20,7 @@ failSound = jmri.jmrit.Sound(jmri.util.FileUtil.getExternalFilename("profile:res
 lt_mt = jmri.jmrit.Sound(jmri.util.FileUtil.getExternalFilename("profile:resources/sounds/Pong1.wav"))
 mt_lt = jmri.jmrit.Sound(jmri.util.FileUtil.getExternalFilename("profile:resources/sounds/Pong2.wav"))
 
-status = memories.provideMemory("IMPong")  # for status display on panel
+status = memories.provideMemory("IMProgramStatus")  # for status display on panel
 
 log = org.slf4j.LoggerFactory.getLogger(
         "script.GatewayPongGame"

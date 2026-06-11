@@ -11,8 +11,9 @@ class AskForLccInit (jmri.jmrit.automat.AbstractAutomaton) :
         import jmri
         import org.openlcb
         
-        self.waitMsec(20000) # wait for other initialization to end
-
+        self.waitMsec(30000) # wait for other initialization to end
+        memories.provideMemory("IMProgramStatus").setValue("Requesting LCC data")
+        
         # get node table
         olcbConfigMgr = jmri.InstanceManager.getDefault().getInstance(jmri.jmrix.openlcb.OlcbConfigurationManager)
         store = olcbConfigMgr.get(org.openlcb.MimicNodeStore)
