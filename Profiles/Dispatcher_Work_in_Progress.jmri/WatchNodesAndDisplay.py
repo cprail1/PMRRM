@@ -8,7 +8,7 @@
 import java
 import javax
 import jmri
-
+import org.openlcb
 
 global WatchNodesAndDisplayPanel
 class WatchNodesAndDisplayPanel (javax.swing.JPanel) :
@@ -43,7 +43,7 @@ class WatchNodesAndDisplay (jmri.jmrit.automat.AbstractAutomaton) :
         import jmri
         global WatchNodesAndDisplayPanel
         
-        frame = jmri.util.JmriJFrame("LCC Node Status")
+        frame = jmri.util.JmriJFrame("LCC Node Status", True, True)
         frame.setDefaultCloseOperation(javax.swing.WindowConstants.HIDE_ON_CLOSE)
         frame.contentPane.setLayout(javax.swing.BoxLayout(frame.contentPane, javax.swing.BoxLayout.Y_AXIS))
         self.status = javax.swing.JLabel("Still scanning network")
@@ -75,6 +75,7 @@ class WatchNodesAndDisplay (jmri.jmrit.automat.AbstractAutomaton) :
     
     def handle(self) :
         import jmri
+        import org.openlcb
 
         self.waitMsec(10000)
 
