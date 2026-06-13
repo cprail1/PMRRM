@@ -1,14 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <auxiliary-configuration xmlns="http://www.netbeans.org/ns/auxiliary-configuration/1">
     <connections xmlns="http://jmri.org/xml/schema/auxiliary-configuration/connections-2-9-6.xsd">
-        <connection xmlns="" class="jmri.jmrix.can.adapters.gridconnect.lccbuffer.serialdriver.configurexml.ConnectionConfigXml" disabled="no" manufacturer="LCC" port="COM4" reconnectMaxAttempts="100" reconnectMaxInterval="120" speed="57600" systemPrefix="M" turnoutInterval="100" userName="LCC">
-            <options>
-                <option>
-                    <name>Protocol</name>
-                    <value>OpenLCB</value>
-                </option>
-            </options>
-        </connection>
         <connection xmlns="" class="jmri.jmrix.loconet.hexfile.configurexml.ConnectionConfigXml" disabled="no" manufacturer="Digitrax" systemPrefix="L" userName="LocoNet">
             <options>
                 <option>
@@ -18,6 +10,14 @@
                 <option>
                     <name>SensorDefaultState</name>
                     <value>Unknown</value>
+                </option>
+            </options>
+        </connection>
+        <connection xmlns="" class="jmri.jmrix.can.adapters.loopback.configurexml.ConnectionConfigXml" disabled="no" manufacturer="LCC" port="(none)" systemPrefix="M" turnoutInterval="100" userName="LCC">
+            <options>
+                <option>
+                    <name>Protocol</name>
+                    <value>OpenLCB</value>
                 </option>
             </options>
         </connection>
