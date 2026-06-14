@@ -27,12 +27,16 @@ class HideHiResPanel(jmri.jmrit.automat.AbstractAutomaton) :
         frame.setVisible(False)         
         self.log.info("Set the LCC Node Status panel invisible")
 
+        frame = jmri.util.JmriJFrame.getFrame("Midway Yard")
+        frame.setVisible(False)         
+        self.log.info("Set the Midway Yard panel invisible")
+
         # and set some Window menu entries disabled
         try :
             targets = ["Port Area", "Midway Freight", "Midway Engine Service"]
             jmri.util.WindowMenu.setIgnoredFrames(targets)
             for target in targets :
-                self.log.info("Set the {} panel hidden", target)
+                self.log.info("Set the {} fully panel hidden", target)
                 frame = jmri.util.JmriJFrame.getFrame(target)
                 if frame is not None : frame.setVisible(False) 
                 else : self.log.error("Frame {} not found", target)        
