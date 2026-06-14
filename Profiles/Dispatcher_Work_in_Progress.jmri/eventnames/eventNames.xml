@@ -182,16 +182,24 @@
       <name>Turnout LT033:Closed</name>
     </entry>
     <entry>
-      <eventID>01.01.02.00.00.FF.0F.D1</eventID>
-      <name>Ping-Pong Gateway Test Closed</name>
-    </entry>
-    <entry>
       <eventID>01.01.02.00.00.FF.00.48</eventID>
       <name>Turnout LT033:Thrown</name>
     </entry>
     <entry>
       <eventID>01.01.02.00.00.FF.0F.D0</eventID>
-      <name>Ping-Pong Gateway Test Thrown</name>
+      <name>Pong DCC->LCC Test Thrown</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.0F.D1</eventID>
+      <name>Pong DCC->LCC Test Closed</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.0F.D2</eventID>
+      <name>Ping LCC->DCC Test Thrown</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.0F.D3</eventID>
+      <name>Ping LCC->DCC Test Closed</name>
     </entry>
     <entry>
       <eventID>01.01.02.00.00.FF.00.4B</eventID>

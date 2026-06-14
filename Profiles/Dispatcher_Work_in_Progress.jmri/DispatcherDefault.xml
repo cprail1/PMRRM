@@ -6898,8 +6898,19 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT2021</systemName>
-      <userName>Ping Pong gateway DCC sidex</userName>
-      <comment>Heart beat test on gateway</comment>
+      <userName>Ping Pong gateway DCC -> LCC</userName>
+      <comment>Heart beat ping test on gateway</comment>
+      <properties>
+        <property>
+          <key>Send ON/OFF</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
+    </turnout>
+    <turnout feedback="MONITORING" inverted="false" automate="Off">
+      <systemName>LT2022</systemName>
+      <userName>Ping Pong gateway LCC -> DCC</userName>
+      <comment>Heart beat pong test on gateway</comment>
       <properties>
         <property>
           <key>Send ON/OFF</key>

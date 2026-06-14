@@ -12,8 +12,11 @@ import jmri
 import org.slf4j.Logger
 import org.slf4j.LoggerFactory
 
-lt = turnouts.provideTurnout("LT2021")
-mt = turnouts.provideTurnout("MTT2021")
+to_lt = turnouts.provideTurnout("LT2021")
+from_lt = turnouts.provideTurnout("MTT2021")
+
+to_mt = turnouts.provideTurnout("MTT2022")
+from_mt = turnouts.provideTurnout("LT2022")
 
 failSound = jmri.jmrit.Sound(jmri.util.FileUtil.getExternalFilename("preference:resources/sounds/EndGame.wav"))
 
@@ -56,12 +59,12 @@ class GatewayPongGame (jmri.jmrit.automat.AbstractAutomaton) :
         
     def handle(self) : 
 
-        # ping sound
-        self.check(lt, mt, lt_mt, "LocoNet -> LCC")
+        # ping sound - MTT to LT
+        self.check(to_mt, from_mt, mt_lt, "LCC -> LocoNet")
         self.waitMsec(5000)
 
-        # pong sound
-        self.check(mt, lt, mt_lt, "LCC -> LocoNet")
+        # pong sound - LT to MTT
+        self.check(to_lt, from_lt, lt_mt, "LocoNet -> LCC")
         self.waitMsec(5000)
         
         # repeat
