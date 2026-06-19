@@ -6,13 +6,15 @@ There's one profile for the Test and Inspection area in the `Profiles` directory
 
 ## Repository deployment on the PMRRM Testing Area machine
  
-One copy of this repository resides in the Electrical Crew account on the Testing Area machine. That allows the rest of the contents, aside from the `Testing Area` profile, to be protected from access by other accounts.
+One copy of this repository resides in the Electrical Crew account on the Testing Area machine. That allows the rest of the contents, aside from the `Testing Area` profile, to be protected from access by other accounts. 
 
 There are two other Windows accounts that need partial access:
 
  - `Standards` - the account for the Test and Inspection crew to work with the common roster. This has read-write access to just the `Profiles/Testing_Area.jmri` directory that contains the `Testing Area` profile and all its subdirectories.
  
  - `PMRRM` - the account for regular users to work with their roster entries. This has read-write access to just the `Profiles/Testing_Area.jmri` directory that contains the `Testing Area` profile and all its subdirectories.
+
+Note that the repository is deliberately not on OneDrive, because OneDrive does not synchronize changes unless the owning account is logged in.  As this machine will often have the PMRRM or Standards accounts logged in _without_ Electrical Crew logged in, this can cause OneDrive synchronization conflicts with other machines. Instead, the repository is in a local-disk directory.
 
 ## Git operations
 
