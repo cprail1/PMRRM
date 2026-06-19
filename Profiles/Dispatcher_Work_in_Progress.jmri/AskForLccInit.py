@@ -23,7 +23,8 @@ class AskForLccInit (jmri.jmrit.automat.AbstractAutomaton) :
         nid = systemMemo.get(org.openlcb.NodeID)
         
         # assumes that a VerifyNodes has been done and all nodes are in the MimicNodeStore
-        for memo in store.getNodeMemos() :
+        tempMemoList = store.getNodeMemos()  # to avoid concurrent mode if something arrives late anyway
+        for memo in tempMemoList :
             destNodeID = memo.getNodeID()
             m = org.openlcb.IdentifyEventsAddressedMessage(nid, destNodeID);
             connection.put(m, None)
