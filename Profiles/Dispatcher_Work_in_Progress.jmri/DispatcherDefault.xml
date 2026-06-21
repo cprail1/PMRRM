@@ -2147,26 +2147,32 @@
     <sensor inverted="false">
       <systemName>IS1</systemName>
       <userName>MidwayYd E Frt 1 routing</userName>
+      <comment>Ugly Midway Yard panel only</comment>
     </sensor>
     <sensor inverted="false">
       <systemName>IS2</systemName>
       <userName>MidwayYd E Frt 2 routing</userName>
+      <comment>Ugly Midway Yard panel only</comment>
     </sensor>
     <sensor inverted="false">
       <systemName>IS3</systemName>
       <userName>MidwayYd E Frt 3 routing</userName>
+      <comment>Ugly Midway Yard panel only</comment>
     </sensor>
     <sensor inverted="false">
       <systemName>IS4</systemName>
       <userName>MidwayYd E Frt 4 routing</userName>
+      <comment>Ugly Midway Yard panel only</comment>
     </sensor>
     <sensor inverted="false">
       <systemName>IS5</systemName>
       <userName>MidwayYd E Frt 5 routing</userName>
+      <comment>Ugly Midway Yard panel only</comment>
     </sensor>
     <sensor inverted="false">
       <systemName>IS6</systemName>
       <userName>MidwayYd E Frt 6 routing</userName>
+      <comment>Ugly Midway Yard panel only</comment>
     </sensor>
     <sensor inverted="false">
       <systemName>IS7</systemName>
@@ -2175,34 +2181,42 @@
     <sensor inverted="false">
       <systemName>IS8</systemName>
       <userName>MidwayYd E Frt 1:7 routing</userName>
+      <comment>Ugly Midway Yard panel only</comment>
     </sensor>
     <sensor inverted="false">
       <systemName>IS9</systemName>
       <userName>MidwayYd W Frt 1 routing</userName>
+      <comment>Ugly Midway Yard panel only</comment>
     </sensor>
     <sensor inverted="false">
       <systemName>IS10</systemName>
       <userName>MidwayYd W Frt 2 routing</userName>
+      <comment>Ugly Midway Yard panel only</comment>
     </sensor>
     <sensor inverted="false">
       <systemName>IS11</systemName>
       <userName>MidwayYd W Frt 3 routing</userName>
+      <comment>Ugly Midway Yard panel only</comment>
     </sensor>
     <sensor inverted="false">
       <systemName>IS12</systemName>
       <userName>MidwayYd W Frt 4 routing</userName>
+      <comment>Ugly Midway Yard panel only</comment>
     </sensor>
     <sensor inverted="false">
       <systemName>IS13</systemName>
       <userName>MidwayYd W Frt 5 routing</userName>
+      <comment>Ugly Midway Yard panel only</comment>
     </sensor>
     <sensor inverted="false">
       <systemName>IS14</systemName>
       <userName>MidwayYd W Frt 6 routing</userName>
+      <comment>Ugly Midway Yard panel only</comment>
     </sensor>
     <sensor inverted="false">
       <systemName>IS15</systemName>
       <userName>MidwayYd W Frt 7 routing</userName>
+      <comment>Ugly Midway Yard panel only</comment>
     </sensor>
     <sensor inverted="false">
       <systemName>IS18</systemName>
@@ -2808,6 +2822,14 @@
       </properties>
     </turnout>
     <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT206</systemName>
+      <userName>LT206 partner</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT215</systemName>
+      <userName>LT215 partner</userName>
+    </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
       <systemName>IT272</systemName>
       <userName>Sierra camp spur (No turnout motor)</userName>
       <properties>
@@ -3290,7 +3312,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT51</systemName>
-      <userName>Midway E F</userName>
+      <userName>MidwayYd E F</userName>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -3300,7 +3322,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT52</systemName>
-      <userName>Midway E Engine pocket</userName>
+      <userName>MidwayYd E Engine pocket</userName>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -4342,7 +4364,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT203</systemName>
-      <userName>MidwayYd E-F1,F2</userName>
+      <userName>MidwayYd E -F1,F2</userName>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -4352,7 +4374,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT204</systemName>
-      <userName>MidwayYd E-F3,F2</userName>
+      <userName>MidwayYd E -F3,F2</userName>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -4362,7 +4384,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT205</systemName>
-      <userName>MidwayYd E-F ladder, F5</userName>
+      <userName>MidwayYd E -F ladder, F5</userName>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -4467,6 +4489,7 @@
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT215</systemName>
       <userName>MidwayYd W-F6,F7</userName>
+      <comment>Back to Back F6,F6 &amp; ES2 , ladder</comment>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -6641,7 +6664,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT801</systemName>
-      <userName>Midway Yard track 1 power relay</userName>
+      <userName>MidwayYd track 1 power relay</userName>
       <comment>T=ON, C=OFF, LCC</comment>
       <properties>
         <property>
@@ -6652,7 +6675,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT802</systemName>
-      <userName>Midway Yard track 2 power relay</userName>
+      <userName>MidwayYd track 2 power relay</userName>
       <comment>T=ON, C=OFF, LCC</comment>
       <properties>
         <property>
@@ -6663,7 +6686,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT803</systemName>
-      <userName>Midway Yard track 3 power relay</userName>
+      <userName>MidwayYd track 3 power relay</userName>
       <comment>T=ON, C=OFF, LCC</comment>
       <properties>
         <property>
@@ -6674,7 +6697,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT804</systemName>
-      <userName>Midway Yard track 4 power relay</userName>
+      <userName>MidwayYd track 4 power relay</userName>
       <comment>T=ON, C=OFF, LCC</comment>
       <properties>
         <property>
@@ -6685,7 +6708,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT805</systemName>
-      <userName>Midway Yard track 5 power relay</userName>
+      <userName>MidwayYd track 5 power relay</userName>
       <comment>T=ON, C=OFF, LCC</comment>
       <properties>
         <property>
@@ -6696,8 +6719,8 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT806</systemName>
-      <userName>Midway Yard track 6 power relay</userName>
-      <comment>T=ON, C=OFF</comment>
+      <userName>MidwayYd track 6 power relay</userName>
+      <comment>T=ON, C=OFF, LCC</comment>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -7405,10 +7428,10 @@
       <systemName>IM71</systemName>
       <userName>Sierra siding west</userName>
     </memory>
-    <memory value="Sat Jun 20 22:36:27 PDT 2026">
+    <memory value="Sat Jun 20 23:31:04 PDT 2026">
       <systemName>IM$LastWrite</systemName>
     </memory>
-    <memory value="11:31 PM">
+    <memory value="12:29 AM">
       <systemName>IMCURRENTTIME</systemName>
     </memory>
     <memory value="">
@@ -13318,7 +13341,7 @@
       </path>
       <path todir="128" fromdir="64" block="IB148">
         <beansetting setting="4">
-          <turnout systemName="Midway E F" />
+          <turnout systemName="MidwayYd E F" />
         </beansetting>
       </path>
     </block>
@@ -14236,12 +14259,12 @@
       <occupancysensor>Midway LS23 below LT52</occupancysensor>
       <path todir="64" fromdir="128" block="IB74">
         <beansetting setting="4">
-          <turnout systemName="Midway E F" />
+          <turnout systemName="MidwayYd E F" />
         </beansetting>
       </path>
       <path todir="128" fromdir="64" block="IB:AUTO:0057">
         <beansetting setting="2">
-          <turnout systemName="Midway E Engine pocket" />
+          <turnout systemName="MidwayYd E Engine pocket" />
         </beansetting>
       </path>
     </block>
@@ -14676,7 +14699,7 @@
       <permissive>no</permissive>
       <path todir="64" fromdir="128" block="IB74">
         <beansetting setting="2">
-          <turnout systemName="Midway E F" />
+          <turnout systemName="MidwayYd E F" />
         </beansetting>
       </path>
     </block>
@@ -15162,7 +15185,7 @@
       <occupancysensor>Midway LS24 power spur plus turnout</occupancysensor>
       <path todir="64" fromdir="128" block="IB148">
         <beansetting setting="2">
-          <turnout systemName="Midway E Engine pocket" />
+          <turnout systemName="MidwayYd E Engine pocket" />
         </beansetting>
       </path>
       <path todir="144" fromdir="96" block="IB:AUTO:0059">
@@ -16076,6 +16099,7 @@
     <route userName="Mainline Init route" addedDelay="250">
       <systemName>IO:AUTO:0001</systemName>
       <userName>Mainline Init route</userName>
+      <comment>Dispatcher screen</comment>
       <routeOutputTurnout systemName="Bend East A to B" state="CLOSED" />
       <routeOutputTurnout systemName="Bend East B C Straight" state="CLOSED" />
       <routeOutputTurnout systemName="Bend East 4 to 3" state="CLOSED" />
@@ -16112,8 +16136,8 @@
       <routeOutputTurnout systemName="Jackson W siding" state="CLOSED" />
       <routeOutputTurnout systemName="Kelso Woodworking" state="CLOSED" />
       <routeOutputTurnout systemName="Lake" state="CLOSED" />
-      <routeOutputTurnout systemName="Midway E F" state="CLOSED" />
-      <routeOutputTurnout systemName="Midway E Engine pocket" state="CLOSED" />
+      <routeOutputTurnout systemName="MidwayYd E F" state="CLOSED" />
+      <routeOutputTurnout systemName="MidwayYd E Engine pocket" state="CLOSED" />
       <routeOutputTurnout systemName="Midway E P approach" state="CLOSED" />
       <routeOutputTurnout systemName="Midway E P1" state="CLOSED" />
       <routeOutputTurnout systemName="Midway E P2" state="CLOSED" />
@@ -16156,13 +16180,14 @@
       <routeSensor systemName="IS20" mode="onActive" />
       <turnoutsAlignedSensor name="Main init 1 Done" />
     </route>
-    <route userName="Frt 1">
+    <route userName="Midway E Frt 1">
       <systemName>IO:AUTO:0003</systemName>
-      <userName>Frt 1</userName>
+      <userName>Midway E Frt 1</userName>
+      <comment>Ugly Midway Yard panel only</comment>
       <routeOutputTurnout systemName="MidwayYd E Fr5/4" state="THROWN" />
       <routeOutputTurnout systemName="MidwayYd E Fr4/3" state="CLOSED" />
-      <routeOutputTurnout systemName="MidwayYd E-F1,F2" state="CLOSED" />
-      <routeOutputTurnout systemName="MidwayYd E-F ladder, F5" state="CLOSED" />
+      <routeOutputTurnout systemName="MidwayYd E -F1,F2" state="CLOSED" />
+      <routeOutputTurnout systemName="MidwayYd E -F ladder, F5" state="CLOSED" />
       <routeOutputTurnout systemName="MidwayYd E F3-F2,F1" state="CLOSED" />
       <routeOutputSensor systemName="MidwayYd E Frt 2 routing" state="INACTIVE" />
       <routeOutputSensor systemName="MidwayYd E Frt 3 routing" state="INACTIVE" />
@@ -16172,13 +16197,14 @@
       <routeOutputSensor systemName="MidwayYd E Frt 7 routing" state="INACTIVE" />
       <routeSensor systemName="MidwayYd E Frt 1 routing" mode="onActive" />
     </route>
-    <route userName="Frt 2">
+    <route userName="Midway E Frt 2">
       <systemName>IO:AUTO:0004</systemName>
-      <userName>Frt 2</userName>
+      <userName>Midway E Frt 2</userName>
+      <comment>Ugly Midway Yard panel only</comment>
       <routeOutputTurnout systemName="MidwayYd E Fr5/4" state="THROWN" />
       <routeOutputTurnout systemName="MidwayYd E Fr4/3" state="CLOSED" />
-      <routeOutputTurnout systemName="MidwayYd E-F1,F2" state="THROWN" />
-      <routeOutputTurnout systemName="MidwayYd E-F ladder, F5" state="CLOSED" />
+      <routeOutputTurnout systemName="MidwayYd E -F1,F2" state="THROWN" />
+      <routeOutputTurnout systemName="MidwayYd E -F ladder, F5" state="CLOSED" />
       <routeOutputTurnout systemName="MidwayYd E F3-F2,F1" state="CLOSED" />
       <routeOutputSensor systemName="MidwayYd E Frt 1 routing" state="INACTIVE" />
       <routeOutputSensor systemName="MidwayYd E Frt 3 routing" state="INACTIVE" />
@@ -16188,12 +16214,13 @@
       <routeOutputSensor systemName="MidwayYd E Frt 7 routing" state="INACTIVE" />
       <routeSensor systemName="MidwayYd E Frt 2 routing" mode="onActive" />
     </route>
-    <route userName="Frt 3">
+    <route userName="Midway E Frt 3">
       <systemName>IO:AUTO:0005</systemName>
-      <userName>Frt 3</userName>
+      <userName>Midway E Frt 3</userName>
+      <comment>Ugly Midway Yard panel only</comment>
       <routeOutputTurnout systemName="MidwayYd E Fr5/4" state="THROWN" />
       <routeOutputTurnout systemName="MidwayYd E Fr4/3" state="CLOSED" />
-      <routeOutputTurnout systemName="MidwayYd E-F ladder, F5" state="CLOSED" />
+      <routeOutputTurnout systemName="MidwayYd E -F ladder, F5" state="CLOSED" />
       <routeOutputTurnout systemName="MidwayYd E F3-F2,F1" state="THROWN" />
       <routeOutputSensor systemName="MidwayYd E Frt 1 routing" state="INACTIVE" />
       <routeOutputSensor systemName="MidwayYd E Frt 2 routing" state="INACTIVE" />
@@ -16203,12 +16230,13 @@
       <routeOutputSensor systemName="MidwayYd E Frt 7 routing" state="INACTIVE" />
       <routeSensor systemName="MidwayYd E Frt 3 routing" mode="onActive" />
     </route>
-    <route userName="Frt 4">
+    <route userName="Midway E Frt 4">
       <systemName>IO:AUTO:0006</systemName>
-      <userName>Frt 4</userName>
+      <userName>Midway E Frt 4</userName>
+      <comment>Ugly Midway Yard panel only</comment>
       <routeOutputTurnout systemName="MidwayYd E Fr5/4" state="THROWN" />
       <routeOutputTurnout systemName="MidwayYd E Fr4/3" state="THROWN" />
-      <routeOutputTurnout systemName="MidwayYd E-F ladder, F5" state="CLOSED" />
+      <routeOutputTurnout systemName="MidwayYd E -F ladder, F5" state="CLOSED" />
       <routeOutputSensor systemName="MidwayYd E Frt 1 routing" state="INACTIVE" />
       <routeOutputSensor systemName="MidwayYd E Frt 2 routing" state="INACTIVE" />
       <routeOutputSensor systemName="MidwayYd E Frt 3 routing" state="INACTIVE" />
@@ -16217,11 +16245,12 @@
       <routeOutputSensor systemName="MidwayYd E Frt 7 routing" state="INACTIVE" />
       <routeSensor systemName="MidwayYd E Frt 4 routing" mode="onActive" />
     </route>
-    <route userName="Frt 5">
+    <route userName="Midway E Frt 5">
       <systemName>IO:AUTO:0007</systemName>
-      <userName>Frt 5</userName>
+      <userName>Midway E Frt 5</userName>
+      <comment>Ugly Midway Yard panel only</comment>
       <routeOutputTurnout systemName="MidwayYd E Fr5/4" state="CLOSED" />
-      <routeOutputTurnout systemName="MidwayYd E-F ladder, F5" state="CLOSED" />
+      <routeOutputTurnout systemName="MidwayYd E -F ladder, F5" state="CLOSED" />
       <routeOutputSensor systemName="MidwayYd E Frt 1 routing" state="INACTIVE" />
       <routeOutputSensor systemName="MidwayYd E Frt 2 routing" state="INACTIVE" />
       <routeOutputSensor systemName="MidwayYd E Frt 3 routing" state="INACTIVE" />
@@ -16230,11 +16259,12 @@
       <routeOutputSensor systemName="MidwayYd E Frt 7 routing" state="INACTIVE" />
       <routeSensor systemName="MidwayYd E Frt 5 routing" mode="onActive" />
     </route>
-    <route userName="Frt 6">
+    <route userName="Midway E Frt 6">
       <systemName>IO:AUTO:0008</systemName>
-      <userName>Frt 6</userName>
+      <userName>Midway E Frt 6</userName>
+      <comment>Ugly Midway Yard panel only</comment>
       <routeOutputTurnout systemName="MidwayYd E W end of Midway Yard East track F6/F7 near LT208" state="CLOSED" />
-      <routeOutputTurnout systemName="MidwayYd E-F ladder, F5" state="THROWN" />
+      <routeOutputTurnout systemName="MidwayYd E -F ladder, F5" state="THROWN" />
       <routeOutputTurnout systemName="MidwayYd E upper X-over" state="CLOSED" />
       <routeOutputSensor systemName="MidwayYd E Frt 1 routing" state="INACTIVE" />
       <routeOutputSensor systemName="MidwayYd E Frt 2 routing" state="INACTIVE" />
@@ -16244,11 +16274,12 @@
       <routeOutputSensor systemName="MidwayYd E Frt 7 routing" state="INACTIVE" />
       <routeSensor systemName="MidwayYd E Frt 6 routing" mode="onActive" />
     </route>
-    <route userName="Frt 7">
+    <route userName="Midway E Frt 7">
       <systemName>IO:AUTO:0009</systemName>
-      <userName>Frt 7</userName>
+      <userName>Midway E Frt 7</userName>
+      <comment>Ugly Midway Yard panel only</comment>
       <routeOutputTurnout systemName="MidwayYd E W end of Midway Yard East track F6/F7 near LT208" state="THROWN" />
-      <routeOutputTurnout systemName="MidwayYd E-F ladder, F5" state="THROWN" />
+      <routeOutputTurnout systemName="MidwayYd E -F ladder, F5" state="THROWN" />
       <routeOutputTurnout systemName="MidwayYd E upper X-over" state="THROWN" />
       <routeOutputTurnout systemName="MidwayYd E lower X-over" state="CLOSED" />
       <routeOutputTurnout systemName="MidwayYd E -West F8-F7" state="THROWN" />
@@ -16263,6 +16294,7 @@
     <route userName="Main 2 init route" addedDelay="250">
       <systemName>IO:AUTO:0015</systemName>
       <userName>Main 2 init route</userName>
+      <comment>Dispatcher screen</comment>
       <routeOutputTurnout systemName="Sierra camp spur (No turnout motor)" state="CLOSED" />
       <routeOutputTurnout systemName="Midway E Team 1" state="CLOSED" />
       <routeOutputTurnout systemName="Midway W Team 1" state="CLOSED" />
@@ -16278,8 +16310,8 @@
       <routeOutputTurnout systemName="MidwayYd E W end of Midway Yard East track F6/F7 near LT208" state="CLOSED" />
       <routeOutputTurnout systemName="MidwayYd E Fr5/4" state="CLOSED" />
       <routeOutputTurnout systemName="MidwayYd E Fr4/3" state="CLOSED" />
-      <routeOutputTurnout systemName="MidwayYd E-F1,F2" state="CLOSED" />
-      <routeOutputTurnout systemName="MidwayYd E-F ladder, F5" state="CLOSED" />
+      <routeOutputTurnout systemName="MidwayYd E -F1,F2" state="CLOSED" />
+      <routeOutputTurnout systemName="MidwayYd E -F ladder, F5" state="CLOSED" />
       <routeOutputTurnout systemName="MidwayYd E upper X-over" state="CLOSED" />
       <routeOutputTurnout systemName="MidwayYd E lower X-over" state="CLOSED" />
       <routeOutputTurnout systemName="MidwayYd E -West F8-F7" state="CLOSED" />
@@ -16295,9 +16327,10 @@
       <routeSensor systemName="IS18" mode="onActive" />
       <turnoutsAlignedSensor name="Main init 2 Done" />
     </route>
-    <route userName="W Frt 1">
+    <route userName="Midway W Frt 1">
       <systemName>IO:AUTO:0016</systemName>
-      <userName>W Frt 1</userName>
+      <userName>Midway W Frt 1</userName>
+      <comment>Ugly Midway Yard panel only</comment>
       <routeOutputTurnout systemName="MidwayYd W-F1,F2" state="CLOSED" />
       <routeOutputSensor systemName="MidwayYd W Frt 2 routing" state="INACTIVE" />
       <routeOutputSensor systemName="MidwayYd W Frt 3 routing" state="INACTIVE" />
@@ -16307,9 +16340,10 @@
       <routeOutputSensor systemName="MidwayYd W Frt 7 routing" state="INACTIVE" />
       <routeSensor systemName="IS9" mode="onActive" />
     </route>
-    <route userName="W Frt 2">
+    <route userName="Midway W Frt 2">
       <systemName>IO:AUTO:0017</systemName>
-      <userName>W Frt 2</userName>
+      <userName>Midway W Frt 2</userName>
+      <comment>Ugly Midway Yard panel only</comment>
       <routeOutputTurnout systemName="MidwayYd W-F1,F2" state="THROWN" />
       <routeOutputTurnout systemName="MidwayYd W-F2,F3" state="THROWN" />
       <routeOutputSensor systemName="MidwayYd W Frt 1 routing" state="INACTIVE" />
@@ -16320,9 +16354,10 @@
       <routeOutputSensor systemName="MidwayYd W Frt 7 routing" state="INACTIVE" />
       <routeSensor systemName="IS10" mode="onActive" />
     </route>
-    <route userName="W Frt 3">
+    <route userName="Midway W Frt 3">
       <systemName>IO:AUTO:0018</systemName>
-      <userName>W Frt 3</userName>
+      <userName>Midway W Frt 3</userName>
+      <comment>Ugly Midway Yard panel only</comment>
       <routeOutputTurnout systemName="MidwayYd W-F1,F2" state="THROWN" />
       <routeOutputTurnout systemName="MidwayYd W-F2,F3" state="CLOSED" />
       <routeOutputTurnout systemName="MidwayYd W-F3,F4" state="THROWN" />
@@ -16334,9 +16369,10 @@
       <routeOutputSensor systemName="MidwayYd W Frt 7 routing" state="INACTIVE" />
       <routeSensor systemName="IS11" mode="onActive" />
     </route>
-    <route userName="W Frt 4">
+    <route userName="Midway W Frt 4">
       <systemName>IO:AUTO:0019</systemName>
-      <userName>W Frt 4</userName>
+      <userName>Midway W Frt 4</userName>
+      <comment>Ugly Midway Yard panel only</comment>
       <routeOutputTurnout systemName="MidwayYd W-F1,F2" state="THROWN" />
       <routeOutputTurnout systemName="MidwayYd W-F2,F3" state="CLOSED" />
       <routeOutputTurnout systemName="MidwayYd W-F3,F4" state="CLOSED" />
@@ -16349,9 +16385,10 @@
       <routeOutputSensor systemName="MidwayYd W Frt 7 routing" state="INACTIVE" />
       <routeSensor systemName="IS12" mode="onActive" />
     </route>
-    <route userName="W Frt 5">
+    <route userName="Midway W Frt 5">
       <systemName>IO:AUTO:0020</systemName>
-      <userName>W Frt 5</userName>
+      <userName>Midway W Frt 5</userName>
+      <comment>Ugly Midway Yard panel only</comment>
       <routeOutputTurnout systemName="MidwayYd W-F1,F2" state="THROWN" />
       <routeOutputTurnout systemName="MidwayYd W-F2,F3" state="CLOSED" />
       <routeOutputTurnout systemName="MidwayYd W-F3,F4" state="CLOSED" />
@@ -16365,9 +16402,10 @@
       <routeOutputSensor systemName="MidwayYd W Frt 7 routing" state="INACTIVE" />
       <routeSensor systemName="IS13" mode="onActive" />
     </route>
-    <route userName="W Frt 6">
+    <route userName="Midway W Frt 6">
       <systemName>IO:AUTO:0021</systemName>
-      <userName>W Frt 6</userName>
+      <userName>Midway W Frt 6</userName>
+      <comment>Ugly Midway Yard panel only</comment>
       <routeOutputTurnout systemName="MidwayYd W-F1,F2" state="THROWN" />
       <routeOutputTurnout systemName="MidwayYd W-F2,F3" state="CLOSED" />
       <routeOutputTurnout systemName="MidwayYd W-F3,F4" state="CLOSED" />
@@ -16382,9 +16420,10 @@
       <routeOutputSensor systemName="MidwayYd W Frt 7 routing" state="INACTIVE" />
       <routeSensor systemName="IS14" mode="onActive" />
     </route>
-    <route userName="W Frt 7">
+    <route userName="Midway W Frt 7">
       <systemName>IO:AUTO:0022</systemName>
-      <userName>W Frt 7</userName>
+      <userName>Midway W Frt 7</userName>
+      <comment>Ugly Midway Yard panel only</comment>
       <routeOutputTurnout systemName="MidwayYd W-F1,F2" state="THROWN" />
       <routeOutputTurnout systemName="MidwayYd W-F2,F3" state="CLOSED" />
       <routeOutputTurnout systemName="MidwayYd W-F3,F4" state="CLOSED" />
@@ -16402,6 +16441,7 @@
     <route userName="Hide Blue Text">
       <systemName>IO:AUTO:0023</systemName>
       <userName>Hide Blue Text</userName>
+      <comment>Dispatcher screen</comment>
       <routeOutputSensor systemName="Control Blue Text" state="ACTIVE" />
       <routeSensor systemName="IS107" mode="onActive" />
       <routeScriptFile name="preference:HideBlueText.py" />
@@ -16409,6 +16449,7 @@
     <route userName="Show Blue Text">
       <systemName>IO:AUTO:0024</systemName>
       <userName>Show Blue Text</userName>
+      <comment>Dispatcher screen</comment>
       <routeOutputSensor systemName="Control Blue Text" state="INACTIVE" />
       <routeSensor systemName="IS107" mode="onInactive" />
       <routeScriptFile name="preference:ShowBlueText.py" />
@@ -16416,37 +16457,30 @@
     <route userName="Hide Block Entry Boxes">
       <systemName>IO:AUTO:0025</systemName>
       <userName>Hide Block Entry Boxes</userName>
+      <comment>Dispatcher screen</comment>
       <routeSensor systemName="IS108" mode="onInactive" />
       <routeScriptFile name="preference:HideMemoryIcons.py" />
     </route>
     <route userName="Show Block Entry Boxes">
       <systemName>IO:AUTO:0026</systemName>
       <userName>Show Block Entry Boxes</userName>
+      <comment>Dispatcher screen</comment>
       <routeSensor systemName="IS108" mode="onActive" />
       <routeScriptFile name="preference:ShowMemoryIcons.py" />
     </route>
     <route userName="Mainline init reset sensor when done">
       <systemName>IO:AUTO:0027</systemName>
       <userName>Mainline init reset sensor when done</userName>
+      <comment>Dispatcher screen</comment>
       <routeOutputSensor systemName="Main Init 1" state="INACTIVE" />
       <routeSensor systemName="IS69" mode="onActive" />
     </route>
     <route userName="Main 2 init reset sensor when done">
       <systemName>IO:AUTO:0028</systemName>
       <userName>Main 2 init reset sensor when done</userName>
+      <comment>Dispatcher screen</comment>
       <routeOutputSensor systemName="Main init 2" state="INACTIVE" />
       <routeSensor systemName="IS70" mode="onActive" />
-    </route>
-    <route>
-      <systemName>IO:AUTO:0029</systemName>
-    </route>
-    <route userName="Branch line follows Delta 4 closed" controlTurnout="Delta 4 to 3" controlTurnoutState="CLOSED">
-      <systemName>IO:AUTO:0030</systemName>
-      <userName>Branch line follows Delta 4 closed</userName>
-    </route>
-    <route userName="Branch line follows Delta 4 thrown" controlTurnout="Delta 4 to 3" controlTurnoutState="THROWN">
-      <systemName>IO:AUTO:0032</systemName>
-      <userName>Branch line follows Delta 4 thrown</userName>
     </route>
   </routes>
   <signalmastlogics class="jmri.managers.configurexml.DefaultSignalMastLogicManagerXml">
@@ -16473,7 +16507,7 @@
     </conditional>
   </conditionals>
   <timebase class="jmri.jmrit.simpleclock.configurexml.SimpleTimebaseXml" time="Tue May 12 14:46:15 PDT 2026" rate="1.0" startrate="1.0" run="yes" master="yes" sync="no" correct="no" display="no" startstopped="no" startrunning="yes" startsettime="no" startclockoption="0" showbutton="no" startsetrate="yes" />
-  <paneleditor class="jmri.jmrit.display.panelEditor.configurexml.PanelEditorXml" name="Midway Yard" x="403" y="350" height="397" width="1033" editable="yes" positionable="yes" showtooltips="yes" controlling="yes" hide="yes" panelmenu="yes" scrollable="none" redBackground="255" greenBackground="255" blueBackground="255">
+  <paneleditor class="jmri.jmrit.display.panelEditor.configurexml.PanelEditorXml" name="Midway Yard" x="405" y="55" height="397" width="1033" editable="yes" positionable="yes" showtooltips="yes" controlling="yes" hide="yes" panelmenu="yes" scrollable="none" redBackground="255" greenBackground="255" blueBackground="255">
     <positionablelabel x="664" y="46" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="203 " fontFamily="Dialog" fontname="Dialog.bold" size="12" style="1" red="255" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <tooltip>Text Label</tooltip>
     </positionablelabel>
@@ -16588,7 +16622,7 @@
     <positionablelabel x="412" y="189" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Frt 6 " fontFamily="Dialog" fontname="Dialog.plain" size="10" style="0" red="0" green="0" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <tooltip>Text Label</tooltip>
     </positionablelabel>
-    <turnouticon turnout="MidwayYd E-F1,F2" x="627" y="52" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="-135" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="MidwayYd E -F1,F2" x="627" y="52" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="-135" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <tooltip>LT203</tooltip>
       <icons>
         <closed url="program:resources/icons/smallschematics/tracksegments/os-lefthand-east-closed.gif" degrees="225" scale="1.0">
@@ -16642,7 +16676,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="MidwayYd E-F ladder, F5" x="777" y="157" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="MidwayYd E -F ladder, F5" x="777" y="157" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <tooltip>LT205</tooltip>
       <icons>
         <closed url="program:resources/icons/smallschematics/tracksegments/os-lefthand-east-closed.gif" degrees="0" scale="1.0">
@@ -17152,7 +17186,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <turnouticon turnout="Midway Yard track 1 power relay" x="474" y="49" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="MidwayYd track 1 power relay" x="474" y="49" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
         <closed url="program:resources/icons/smallschematics/LEDs/gray.gif" degrees="0" scale="1.0">
           <rotation>0</rotation>
@@ -17169,7 +17203,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="Midway Yard track 3 power relay" x="476" y="106" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="MidwayYd track 3 power relay" x="476" y="106" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
         <closed url="program:resources/icons/smallschematics/LEDs/gray.gif" degrees="0" scale="1.0">
           <rotation>0</rotation>
@@ -17186,7 +17220,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="Midway Yard track 4 power relay" x="476" y="133" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="MidwayYd track 4 power relay" x="476" y="133" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
         <closed url="program:resources/icons/smallschematics/LEDs/gray.gif" degrees="0" scale="1.0">
           <rotation>0</rotation>
@@ -17203,7 +17237,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="Midway Yard track 5 power relay" x="476" y="158" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="MidwayYd track 5 power relay" x="476" y="158" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
         <closed url="program:resources/icons/smallschematics/LEDs/gray.gif" degrees="0" scale="1.0">
           <rotation>0</rotation>
@@ -17220,7 +17254,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="Midway Yard track 6 power relay" x="475" y="186" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="MidwayYd track 6 power relay" x="475" y="186" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
         <closed url="program:resources/icons/smallschematics/LEDs/gray.gif" degrees="0" scale="1.0">
           <rotation>0</rotation>
@@ -17237,7 +17271,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="Midway Yard track 2 power relay" x="475" y="75" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="MidwayYd track 2 power relay" x="475" y="75" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
         <closed url="program:resources/icons/smallschematics/LEDs/gray.gif" degrees="0" scale="1.0">
           <rotation>0</rotation>
@@ -17527,7 +17561,7 @@
       <raytrack angle="15.0" index="16" />
     </layoutturntable>
   </LayoutEditor>
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Midway Freight" x="42" y="8" windowheight="523" windowwidth="1555" panelheight="533" panelwidth="2552" sliders="yes" scrollable="both" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="no" snaponmove="yes" antialiasing="yes" turnoutcircles="no" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="2.0" yscale="2.0" sidetrackwidth="2" defaulttrackcolor="darkGray" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclesize="4" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="192" greenBackground="192" blueBackground="192" gridSize="10" gridSize2nd="10" openDispatcher="no" useDirectTurnoutControl="no">
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Midway Freight" x="49" y="45" windowheight="523" windowwidth="1555" panelheight="533" panelwidth="2552" sliders="yes" scrollable="both" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="no" snaponmove="yes" antialiasing="yes" turnoutcircles="no" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="2.0" yscale="2.0" sidetrackwidth="2" defaulttrackcolor="darkGray" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclesize="4" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="192" greenBackground="192" blueBackground="192" gridSize="10" gridSize2nd="10" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="Midway Freight" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
       <mainBallastWidth>0</mainBallastWidth>
@@ -17606,28 +17640,28 @@
     <positionablelabel x="390" y="450" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="ES1" fontFamily="Dialog" fontname="Dialog.bold" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="390" y="410" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="ES2" fontFamily="Dialog" fontname="Dialog.bold" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <layoutturnout ident="TO1" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="1902.0" ycen="120.0" xa="1862.0" ya="120.0" xb="1942.0" yb="120.0" xc="1942.0" yc="140.0" xd="1862.0" yd="120.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Midway E P approach" connectaname="T45" connectbname="T5" connectcname="T3" />
-    <layoutturnout ident="TO2" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="2303.0" ycen="340.0" xa="2343.0" ya="340.0" xb="2263.0" yb="340.0" xc="2263.0" yc="320.0" xd="2343.0" yd="340.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Midway E F" connectaname="T4" connectbname="T6" connectcname="T2" />
-    <layoutturnout ident="TO3" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="2084.0" ycen="221.0" xa="2049.0" ya="201.0" xb="2119.0" yb="241.0" xc="2135.0" yc="221.0" xd="2049.0" yd="201.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Midway E Engine pocket" connectaname="T3" connectbname="T2" connectcname="T1" />
-    <layoutturnout ident="TO4" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="2208.0" ycen="340.0" xa="2248.0" ya="340.0" xb="2168.0" yb="340.0" xc="2168.0" yc="360.0" xd="2248.0" yd="340.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="MidwayYd E-F ladder, F5" connectaname="T6" connectbname="T7" connectcname="T17" />
+    <layoutturnout ident="TO2" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="2303.0" ycen="340.0" xa="2343.0" ya="340.0" xb="2263.0" yb="340.0" xc="2263.0" yc="320.0" xd="2343.0" yd="340.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="MidwayYd E F" connectaname="T4" connectbname="T6" connectcname="T2" />
+    <layoutturnout ident="TO3" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="2084.0" ycen="221.0" xa="2049.0" ya="201.0" xb="2119.0" yb="241.0" xc="2135.0" yc="221.0" xd="2049.0" yd="201.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="MidwayYd E Engine pocket" connectaname="T3" connectbname="T2" connectcname="T1" />
+    <layoutturnout ident="TO4" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="2208.0" ycen="340.0" xa="2248.0" ya="340.0" xb="2168.0" yb="340.0" xc="2168.0" yc="360.0" xd="2248.0" yd="340.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="MidwayYd E -F ladder, F5" connectaname="T6" connectbname="T7" connectcname="T17" />
     <layoutturnout ident="TO5" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="2068.0" ycen="340.0" xa="2108.0" ya="340.0" xb="2028.0" yb="340.0" xc="2028.0" yc="320.0" xd="2108.0" yd="340.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="MidwayYd E Fr5/4" connectaname="T7" connectbname="T11" connectcname="T9" />
     <layoutturnout ident="TO6" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="1993.0" ycen="300.0" xa="2028.0" ya="320.0" xb="1958.0" yb="280.0" xc="1948.0" yc="299.0" xd="2028.0" yd="320.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="MidwayYd E Fr4/3" connectaname="T9" connectbname="T8" connectcname="T13" />
     <layoutturnout ident="TO7" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="1924.0" ycen="260.0" xa="1959.0" ya="280.0" xb="1889.0" yb="240.0" xc="1879.0" yc="261.0" xd="1959.0" yd="280.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" connectaname="T8" connectbname="T10" connectcname="T14" />
-    <layoutturnout ident="TO8" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="1855.0" ycen="220.0" xa="1890.0" ya="240.0" xb="1820.0" yb="200.0" xc="1810.0" yc="220.0" xd="1890.0" yd="240.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="MidwayYd E-F1,F2" connectaname="T10" connectbname="T12" connectcname="T15" />
-    <layoutturnout ident="TO9" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="2130.0" ycen="380.0" xa="2166.0" ya="362.0" xb="2094.0" yb="398.0" xc="2085.0" yc="380.0" xd="2166.0" yd="362.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="MidwayYd E upper X-over" connectaname="T17" connectbname="T19" connectcname="T18" />
-    <layoutturnout ident="TO11" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="2052.0" ycen="420.0" xa="2012.0" ya="420.0" xb="2092.0" yb="420.0" xc="2092.0" yc="400.0" xd="2012.0" yd="420.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" connectaname="T21" connectbname="T25" connectcname="T19" />
+    <layoutturnout ident="TO8" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="1855.0" ycen="220.0" xa="1890.0" ya="240.0" xb="1820.0" yb="200.0" xc="1810.0" yc="220.0" xd="1890.0" yd="240.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="MidwayYd E -F1,F2" connectaname="T10" connectbname="T12" connectcname="T15" />
+    <layoutturnout ident="TO9" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="2130.0" ycen="380.0" xa="2166.0" ya="362.0" xb="2094.0" yb="398.0" xc="2085.0" yc="380.0" xd="2166.0" yd="362.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="MidwayYd E upper X-over" secondturnoutname="LT206 partner" secondturnoutinverted="true" connectaname="T17" connectbname="T19" connectcname="T18" />
+    <layoutturnout ident="TO11" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="2052.0" ycen="420.0" xa="2012.0" ya="420.0" xb="2092.0" yb="420.0" xc="2092.0" yc="400.0" xd="2012.0" yd="420.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="LT206 partner" secondturnoutname="MidwayYd E upper X-over" secondturnoutinverted="true" connectaname="T21" connectbname="T25" connectcname="T19" />
     <layoutturnout ident="TO12" type="RH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="1992.0" ycen="440.0" xa="1932.0" ya="420.0" xb="2011.99998" yb="420.0" xc="2052.0" yc="460.0" xd="1972.00002" yd="460.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHXOverXml" turnoutname="MidwayYd E lower X-over" connectaname="T20" connectbname="T21" connectcname="T24" connectdname="T23" />
     <layoutturnout ident="TO10" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="1455.0" ycen="420.0" xa="1415.0" ya="420.0" xb="1495.0" yb="420.0" xc="1495.0" yc="440.0" xd="1415.0" yd="420.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="MidwayYd E -West F8-F7" connectaname="T26" connectbname="T20" connectcname="T22" />
     <layoutturnout ident="TO13" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="1339.0" ycen="380.0" xa="1299.0" ya="380.0" xb="1379.0" yb="380.0" xc="1379.0" yc="400.0" xd="1299.0" yd="380.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="MidwayYd E W end of Midway Yard East track F6/F7 near LT208" connectaname="T28" connectbname="T18" connectcname="T26" />
-    <layoutturnout ident="TO14" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="793.0" ycen="419.0" xa="829.0" ya="419.0" xb="757.0" yb="419.0" xc="753.0" yc="439.0" xd="829.0" yd="419.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" connectaname="T30" connectbname="T39" connectcname="T32" />
-    <layoutturnout ident="TO15" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="967.0" ycen="380.0" xa="1007.0" ya="380.0" xb="927.0" yb="380.0" xc="927.0" yc="400.0" xd="1007.0" yd="380.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" connectaname="T27" connectbname="T38" connectcname="T41" />
-    <layoutturnout ident="TO16" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="1047.0" ycen="380.0" xa="1087.0" ya="380.0" xb="1007.0" yb="380.0" xc="1007.0" yc="400.0" xd="1087.0" yd="380.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" connectaname="T28" connectbname="T27" connectcname="T29" />
+    <layoutturnout ident="TO14" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="793.0" ycen="419.0" xa="829.0" ya="419.0" xb="757.0" yb="419.0" xc="753.0" yc="439.0" xd="829.0" yd="419.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="MidwayYd W F7-ES1,ES2" connectaname="T30" connectbname="T39" connectcname="T32" />
+    <layoutturnout ident="TO15" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="967.0" ycen="380.0" xa="1007.0" ya="380.0" xb="927.0" yb="380.0" xc="927.0" yc="400.0" xd="1007.0" yd="380.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="MidwayYd W F6 to Engine service" connectaname="T27" connectbname="T38" connectcname="T41" />
+    <layoutturnout ident="TO16" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="1047.0" ycen="380.0" xa="1087.0" ya="380.0" xb="1007.0" yb="380.0" xc="1007.0" yc="400.0" xd="1087.0" yd="380.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="MidwayYd W middle caboose track" connectaname="T28" connectbname="T27" connectcname="T29" />
     <layoutturnout ident="TO17" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="293.5" ycen="178.63999938964844" xa="264.57000732421875" ya="179.24000549316406" xb="322.42999267578125" yb="178.0399932861328" xc="332.2300109863281" yc="201.0" xd="264.57000732421875" yd="179.24000549316406" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="MidwayYd W-F1,F2" connectaname="T42" connectbname="T16" connectcname="T37" />
     <layoutturnout ident="TO18" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="364.8699951171875" ycen="220.0" xa="330.22998046875" ya="200.0" xb="399.510009765625" yb="240.0" xc="410.510009765625" yc="220.67999267578125" xd="330.22998046875" yd="200.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="MidwayYd W-F2,F3" connectaname="T37" connectbname="T36" connectcname="T15" />
     <layoutturnout ident="TO19" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="437.1499938964844" ycen="262.0" xa="402.5099792480469" ya="242.0" xb="471.7900085449219" yb="282.0" xc="482.7900085449219" yc="262.67999267578125" xd="402.5099792480469" yd="242.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="MidwayYd W-F3,F4" connectaname="T36" connectbname="T35" connectcname="T14" />
     <layoutturnout ident="TO20" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="501.44000244140625" ycen="298.0" xa="466.79998779296875" ya="278.0" xb="536.0800170898438" yb="318.0" xc="546.0800170898438" yc="298.67999267578125" xd="466.79998779296875" yd="278.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="MidwayYd W-F4,F5" connectaname="T35" connectbname="T34" connectcname="T13" />
     <layoutturnout ident="TO21" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="572.719970703125" ycen="340.0" xa="537.0799560546875" ya="319.0" xb="608.3599853515625" yb="361.0" xc="617.3599853515625" yc="340.67999267578125" xd="537.0799560546875" yd="319.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="MidwayYd W-F5,F6" connectaname="T34" connectbname="T33" connectcname="T11" />
-    <layoutturnout ident="TO22" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="643.0" ycen="380.0" xa="609.3599853515625" ya="362.0" xb="676.6400146484375" yb="398.0" xc="687.6400146484375" yc="380.67999267578125" xd="609.3599853515625" yd="362.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="MidwayYd W-F6,F7" connectaname="T33" connectbname="T40" connectcname="T38" />
-    <layoutturnout ident="TO23" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="718.0" ycen="419.0" xa="758.0" ya="419.0" xb="678.0" yb="419.0" xc="678.0" yc="399.0" xd="758.0" yd="419.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" connectaname="T39" connectbname="T46" connectcname="T40" />
+    <layoutturnout ident="TO22" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="643.0" ycen="380.0" xa="609.3599853515625" ya="362.0" xb="676.6400146484375" yb="398.0" xc="687.6400146484375" yc="380.67999267578125" xd="609.3599853515625" yd="362.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="MidwayYd W-F6,F7" secondturnoutname="LT215 partner" secondturnoutinverted="true" connectaname="T33" connectbname="T40" connectcname="T38" />
+    <layoutturnout ident="TO23" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="718.0" ycen="419.0" xa="758.0" ya="419.0" xb="678.0" yb="419.0" xc="678.0" yc="399.0" xd="758.0" yd="419.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="LT215 partner" secondturnoutname="MidwayYd W-F6,F7" secondturnoutinverted="true" connectaname="T39" connectbname="T46" connectcname="T40" />
     <layoutturnout ident="TO24" type="RH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="192.0" ycen="150.0" xa="119.91000366210938" ya="120.96000671386719" xb="216.01383875659295" yb="120.91999816934708" xc="264.0899963378906" yc="179.0399932861328" xd="167.98616124340705" yd="179.08000183065292" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHXOverXml" turnoutname="Midway W Yard" connectaname="T43" connectbname="T47" connectcname="T42" connectdname="T48" />
     <layoutturnout ident="TO25" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="93.0" ycen="121.0" xa="53.0" ya="121.0" xb="133.0" yb="121.0" xc="130.0" yc="97.0" xd="53.0" yd="121.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Midway W P1" connectaname="T49" connectbname="T43" connectcname="T50" />
     <layoutturnout ident="TO26" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="1744.0" ycen="120.0" xa="1784.0" ya="120.0" xb="1704.0" yb="120.0" xc="1707.0" yc="97.0" xd="1784.0" yd="120.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Midway E P1" connectaname="T45" connectbname="T44" connectcname="T52" />
@@ -20884,8 +20918,8 @@
     </sensoricon>
     <memoryicon memory="IM$LastWrite" x="700" y="710" level="4" forcecontroloff="false" hidden="no" valueEditDisabled="yes" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog.bold" size="10" style="1" red="255" green="255" blue="255" hasBackground="no" fixedWidth="200" justification="centre" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif" />
     <memoryicon memory="IMProgramStatus" x="740" y="725" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog.bold" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" fixedWidth="250" justification="left" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif" />
-    <layoutturnout ident="TO1" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="1215.0" ycen="400.0" xa="1230.0" ya="400.0" xb="1200.0" yb="400.0" xc="1195.0" yc="390.0" xd="1230.0" yd="400.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Midway E F" blockname="Midway East frt approach" connectaname="T226" connectbname="T242" connectcname="T4" />
-    <layoutturnout ident="TO2" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="1145.0" ycen="385.0" xa="1135.0" ya="380.0" xb="1155.0" yb="390.0" xc="1160.0" yc="375.0" xd="1135.0" yd="380.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Midway E Engine pocket" blockname="Midway East Engine Pocket" connectaname="T5" connectbname="T4" connectcname="T8" />
+    <layoutturnout ident="TO1" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="1215.0" ycen="400.0" xa="1230.0" ya="400.0" xb="1200.0" yb="400.0" xc="1195.0" yc="390.0" xd="1230.0" yd="400.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="MidwayYd E F" blockname="Midway East frt approach" connectaname="T226" connectbname="T242" connectcname="T4" />
+    <layoutturnout ident="TO2" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="1145.0" ycen="385.0" xa="1135.0" ya="380.0" xb="1155.0" yb="390.0" xc="1160.0" yc="375.0" xd="1135.0" yd="380.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="MidwayYd E Engine pocket" blockname="Midway East Engine Pocket" connectaname="T5" connectbname="T4" connectcname="T8" />
     <layoutturnout ident="TO3" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="1342.0" ycen="355.0" xa="1364.0" ya="355.0" xb="1320.0" yb="355.0" xc="1320.0" yc="375.0" xd="1364.0" yd="355.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Lake" blockname="Lake" connectaname="T129" connectbname="T3" connectcname="T1">
       <sensorB>NX-MidwayEastPsgApproach-EB</sensorB>
       <sensorC>NX-MidwayEastFrtApproach-EB</sensorC>
@@ -24552,8 +24586,8 @@
     <signalmasticon signalmast="JacksonE-E-M" x="1784" y="540" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" clickmode="2" litmode="true" scale="1.0" imageset="discriminated" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
     <signalmasticon signalmast="JacksonE-E-S" x="1779" y="575" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" clickmode="2" litmode="true" scale="1.0" imageset="discriminated" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
     <memoryicon memory="IMProgramStatus" x="1485" y="1250" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog.bold" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" fixedWidth="250" justification="left" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif" />
-    <layoutturnout ident="TO1" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="1200.0" ycen="605.0" xa="1220.0" ya="605.0" xb="1180.0" yb="605.0" xc="1190.0" yc="595.0" xd="1220.0" yd="605.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Midway E F" blockname="Midway East frt approach" connectaname="T226" connectbname="T242" connectcname="T4" />
-    <layoutturnout ident="TO2" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="1160.0" ycen="565.0" xa="1145.0" ya="550.0" xb="1175.0" yb="580.0" xc="1185.0" yc="565.0" xd="1145.0" yd="550.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Midway E Engine pocket" blockname="Midway East Engine Pocket" connectaname="T5" connectbname="T4" connectcname="T8" />
+    <layoutturnout ident="TO1" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="1200.0" ycen="605.0" xa="1220.0" ya="605.0" xb="1180.0" yb="605.0" xc="1190.0" yc="595.0" xd="1220.0" yd="605.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="MidwayYd E F" blockname="Midway East frt approach" connectaname="T226" connectbname="T242" connectcname="T4" />
+    <layoutturnout ident="TO2" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="1160.0" ycen="565.0" xa="1145.0" ya="550.0" xb="1175.0" yb="580.0" xc="1185.0" yc="565.0" xd="1145.0" yd="550.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="MidwayYd E Engine pocket" blockname="Midway East Engine Pocket" connectaname="T5" connectbname="T4" connectcname="T8" />
     <layoutturnout ident="TO3" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="1372.0" ycen="535.0" xa="1399.0" ya="535.0" xb="1345.0" yb="535.0" xc="1350.0" yc="560.0" xd="1399.0" yd="535.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Lake" blockname="Lake" connectaname="T129" connectbname="T3" connectcname="T1">
       <sensorB>NX-MidwayEastPsgApproach-EB</sensorB>
       <sensorC>NX-MidwayEastFrtApproach-EB</sensorC>
@@ -25232,19 +25266,19 @@
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Sat Jun 20 22:50:22 PDT 2026</date>
+      <date>Sat Jun 20 23:38:34 PDT 2026</date>
       <filename>PanelPro (v5.15.8)</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Sat Jun 20 22:50:36 PDT 2026</date>
+      <date>Sat Jun 20 23:38:50 PDT 2026</date>
       <filename>/D:/OneDrive/GitHub/PMRRM/Profiles/Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Sat Jun 20 23:31:04 PDT 2026</date>
+      <date>Sun Jun 21 00:29:08 PDT 2026</date>
       <filename>D:\OneDrive\GitHub\PMRRM\Profiles\Dispatcher_Work_in_Progress.jmri\DispatcherDefault.xml</filename>
     </operation>
   </filehistory>
-  <!--Written by JMRI version 5.15.8+R0f6e5379d8 on Sat Jun 20 23:31:04 PDT 2026-->
+  <!--Written by JMRI version 5.15.8+R0f6e5379d8 on Sun Jun 21 00:29:08 PDT 2026-->
 </layout-config>
