@@ -19,8 +19,8 @@ Temporarily (May 2026), there are also some inactive Dispatcher profiles.  These
  ## Repository deployment on the PMRRM Dispatcher machine
  
  At the Museum, there are two clones of this repository under the `electricalcrew` account:
- - `~electricalcrew/PMRRM` - This is the checkout for development and testing when logged into the `electricalcrew` account.
- - `~electricalcrew/PMRRM-snapshot` - Contains the specific checked-out tag used by the `dispatch` account.
+ - `~electricalcrew/OneDrive/PMRRM-Repository` - This is the checkout for development and testing when logged into the `electricalcrew` account.
+ - `~dispatch/Documents/PMRRM-snapshot` - Contains the specific checked-out tag used by the `dispatch` account.
 
  ## Development
  
