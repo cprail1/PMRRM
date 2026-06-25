@@ -19,9 +19,10 @@ class HideHiResPanel(jmri.jmrit.automat.AbstractAutomaton) :
             return False # done early
             
         # Now proceed to windows that are to be hidden, but left in Windows menu
-        frame = jmri.util.JmriJFrame.getFrame("PMRRM Dispatcher HiRes")
-        frame.setVisible(False)         
-        self.log.info("Set the HiRes panel invisible")
+        
+        #frame = jmri.util.JmriJFrame.getFrame("PMRRM Dispatcher HiRes")
+        #frame.setVisible(False)         
+        #self.log.info("Set the HiRes panel invisible")
 
         frame = jmri.util.JmriJFrame.getFrame("LCC Node Status")
         frame.setVisible(False)         
