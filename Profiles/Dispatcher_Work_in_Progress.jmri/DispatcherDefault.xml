@@ -2139,7 +2139,7 @@
     </sensor>
   </sensors>
   <sensors class="jmri.jmrix.internal.configurexml.InternalSensorManagerXml">
-    <defaultInitialState>unknown</defaultInitialState>
+    <defaultInitialState>inactive</defaultInitialState>
     <globalDebounceTimers>
       <goingActive>0</goingActive>
       <goingInActive>2000</goingInActive>
