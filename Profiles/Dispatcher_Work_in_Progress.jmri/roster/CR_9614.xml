@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
-<locomotive-config>
-  <!--Written by JMRI version 5.15.4plus+jenkins+20260227T1724Z+Ra9c1e78a138 on Sat Feb 28 12:49:32 PST 2026-->
+<locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
   <locomotive id="CR 9614" fileName="CR_9614.xml" roadNumber="9614" roadName="Conrail" mfg="Athearn RTR" owner="254 Aaron Gold" model="EMD SW1500" dccAddress="9614" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-    <dateUpdated>2026-02-28T20:49:32.149+00:00</dateUpdated>
+    <dateUpdated>2026-04-25T18:34:03.488+00:00</dateUpdated>
     <decoder model="TSU-2200 EMD-2 Diesels" family="Tsunami2 Diesel" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="9614" longaddress="yes" />
@@ -171,7 +170,7 @@
         <varValue item="Sound Option 4" value="1" />
         <varValue item="Advanced Group 1 Option 8" value="0" />
         <varValue item="Advanced Group 1 Option 9" value="0" />
-        <varValue item="Sound Option 6" value="21" />
+        <varValue item="Sound Option 6" value="18" />
         <varValue item="Sound Option 7" value="0" />
         <varValue item="Sound Option 8" value="12" />
         <varValue item="Sound Option 5" value="2" />
@@ -252,8 +251,8 @@
         <varValue item="RPM+ Automatic Effects - ESTP" value="0" />
         <varValue item="RPM- Automatic Effects - FWDD" value="0" />
         <varValue item="RPM- Automatic Effects - REVD" value="0" />
-        <varValue item="RPM- Automatic Effects - FWDS" value="0" />
-        <varValue item="RPM- Automatic Effects - REVS" value="0" />
+        <varValue item="RPM- Automatic Effects - FWDS" value="1" />
+        <varValue item="RPM- Automatic Effects - REVS" value="1" />
         <varValue item="RPM- Automatic Effects - ESTP" value="0" />
         <varValue item="Airhorn Automatic Effects - FWDD" value="0" />
         <varValue item="Airhorn Automatic Effects - REVD" value="0" />
@@ -334,7 +333,7 @@
         <varValue item="Alt Sound Setting 32" value="10" />
         <varValue item="Exhaust Low Volume Limit" value="0" />
         <varValue item="Exhaust High Volume Limit" value="255" />
-        <varValue item="Motor Load Gain" value="0" />
+        <varValue item="Motor Load Gain" value="30" />
         <varValue item="EMF Feedback Cutout" value="0" />
         <varValue item="Packet Time-out Value" value="0" />
         <varValue item="Analog Power Conversion" value="1" />
@@ -699,9 +698,9 @@
         <varValue item="Alt Sound Setting 33" value="30" />
         <varValue item="DDE Filter Initial Frequency" value="60" />
         <varValue item="DDE Filter Control Gain" value="150" />
-        <varValue item="Attack Time Constant" value="215" />
-        <varValue item="Release Time Constant" value="215" />
-        <varValue item="Throttle Gain" value="10" />
+        <varValue item="Attack Time Constant" value="15" />
+        <varValue item="Release Time Constant" value="40" />
+        <varValue item="Throttle Gain" value="120" />
         <varValue item="Sound Group 1 Option 1" value="1" />
         <varValue item="Sound Group 1 Option 2" value="1" />
         <varValue item="Sound Group 3 Option 8" value="180" />
@@ -729,7 +728,7 @@
       <CVvalue name="112" value="3" />
       <CVvalue name="114" value="103" />
       <CVvalue name="116" value="0" />
-      <CVvalue name="120" value="21" />
+      <CVvalue name="120" value="18" />
       <CVvalue name="121" value="0" />
       <CVvalue name="122" value="12" />
       <CVvalue name="123" value="2" />
@@ -792,7 +791,7 @@
       <CVvalue name="16.1.411" value="0" />
       <CVvalue name="16.1.412" value="0" />
       <CVvalue name="16.1.413" value="0" />
-      <CVvalue name="16.1.414" value="0" />
+      <CVvalue name="16.1.414" value="12" />
       <CVvalue name="16.1.425" value="0" />
       <CVvalue name="16.1.427" value="0" />
       <CVvalue name="16.1.428" value="0" />
@@ -824,7 +823,7 @@
       <CVvalue name="16.2.319" value="10" />
       <CVvalue name="16.2.507" value="0" />
       <CVvalue name="16.2.508" value="255" />
-      <CVvalue name="16.2.512" value="0" />
+      <CVvalue name="16.2.512" value="30" />
       <CVvalue name="10" value="0" />
       <CVvalue name="11" value="0" />
       <CVvalue name="12" value="1" />
@@ -1018,12 +1017,12 @@
       <CVvalue name="16.2.320" value="30" />
       <CVvalue name="16.2.503" value="60" />
       <CVvalue name="16.2.504" value="150" />
-      <CVvalue name="16.2.509" value="215" />
-      <CVvalue name="16.2.510" value="215" />
-      <CVvalue name="16.2.511" value="10" />
+      <CVvalue name="16.2.509" value="15" />
+      <CVvalue name="16.2.510" value="40" />
+      <CVvalue name="16.2.511" value="120" />
       <CVvalue name="16.3.257" value="5" />
       <CVvalue name="16.3.258" value="180" />
     </values>
   </locomotive>
-  <!--Written by JMRI version 5.15.4plus+jenkins+20260305T1324Z+R2910b939945 on Thu Mar 05 17:24:23 PST 2026-->
+  <!--Written by JMRI version 5.15.8+R0f6e5379d8 on Sat Jun 27 15:19:45 PDT 2026-->
 </locomotive-config>

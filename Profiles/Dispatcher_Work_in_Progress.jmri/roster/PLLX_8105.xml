@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
-<locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <!--Written by JMRI version 5.15.4plus+jenkins+20260305T1324Z+R2910b939945 on Sat Mar 07 14:57:37 PST 2026-->
-  <locomotive id="PLLX 8105" fileName="PLLX_8105.xml" roadNumber="8105" roadName="Progress Rail Leasing" mfg="Bowser" owner="217 Peter Ely" model="SD40-32 (GMDD)" dccAddress="8105" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-    <dateUpdated>2026-03-07T22:57:37.120+00:00</dateUpdated>
+<locomotive-config>
+  <locomotive id="PLLX 8105" fileName="PLLX_8105.xml" roadNumber="8105" roadName="Peter Locomotive Leasing" mfg="Bowser" owner="217 Peter Ely" model="SD40-2 (GMDD)" dccAddress="8105" comment="Unit train: ONR and/or CNR barrel ore cars" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+    <dateUpdated>2026-06-27T20:42:54.275+00:00</dateUpdated>
     <decoder model="LokSound Select OEM" family="ESU LokSound Select" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="8105" longaddress="yes" />
@@ -19,6 +18,20 @@
       <soundlabel num="26">Automatic brake sound</soundlabel>
       <soundlabel num="27">Gear shift sound</soundlabel>
     </soundlabels>
+    <attributepairs>
+      <keyvaluepair>
+        <key>InspectedBy</key>
+        <value>217</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>InspectionDate</key>
+        <value>2026-06-27</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>24 / 20 / 16</value>
+      </keyvaluepair>
+    </attributepairs>
     <values>
       <decoderDef>
         <varValue item="Sound Option 2" value="0" />
@@ -5435,4 +5448,5 @@
       <CVvalue name="16.4.384" value="0" />
     </values>
   </locomotive>
+  <!--Written by JMRI version 5.15.8+R0f6e5379d8 on Sat Jun 27 15:20:40 PDT 2026-->
 </locomotive-config>

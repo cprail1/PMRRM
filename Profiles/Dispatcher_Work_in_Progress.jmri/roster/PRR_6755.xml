@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="PRR 6755" fileName="PRR_6755.xml" roadNumber="6755" roadName="Pennsylvania Railroad" mfg="Sunset Models" owner="272 Michael Gibilterra" model="M1A" dccAddress="6755" comment="" developerID="-1" manufacturerID="141" productID="2108" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-    <dateUpdated>2025-11-28T21:45:12.963+00:00</dateUpdated>
+  <locomotive id="PRR 6755" fileName="PRR_6755.xml" roadNumber="6755" roadName="Pennsylvania Railroad" mfg="Sunset Models" owner="272 Michael Gibilterra" model="M1A" dccAddress="6755" comment="" developerID="-1" manufacturerID="141" productID="2108" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="true" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
+    <dateUpdated>2026-04-04T21:22:35.921+00:00</dateUpdated>
     <decoder model="TSU-2200 Steam-2" family="Tsunami2 Steam" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="6755" longaddress="yes" />
@@ -41,6 +41,28 @@
       <functionlabel num="28" lockable="true" visible="true" functionImage="" functionImageSelected="">FX7,8 Output</functionlabel>
     </functionlabels>
     <soundlabels />
+    <attributepairs>
+      <keyvaluepair>
+        <key>RosterGroup:PRR</key>
+        <value>yes</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>physicsMaxSpeedUnit</key>
+        <value>KMH</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>physicsPowerUnit</key>
+        <value>KW</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>physicsTractiveEffortUnit</key>
+        <value>KN</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>physicsWeightUnit</key>
+        <value>T</value>
+      </keyvaluepair>
+    </attributepairs>
     <values>
       <decoderDef>
         <varValue item="FL(f) controls output 1" value="0" />
@@ -1051,6 +1073,5 @@
       <CVvalue name="16.3.258" value="180" />
     </values>
   </locomotive>
-  <!--Written by JMRI version 5.15.3plus+jenkins+20260213T2025Z+R099362ba8c on Sat Feb 14 14:57:44 PST 2026-->
-  <!--Written by JMRI version 5.15.4plus+jenkins+20260305T1324Z+R2910b939945 on Thu Mar 05 17:27:29 PST 2026-->
+  <!--Written by JMRI version 5.15.8+R0f6e5379d8 on Sat Jun 27 15:20:44 PDT 2026-->
 </locomotive-config>

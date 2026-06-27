@@ -2,7 +2,7 @@
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
   <locomotive id="BN 6592" fileName="BN_6592.xml" roadNumber="6592" roadName="Burlington Northern" mfg="OMI" owner="148 Kevin Schiller" model="SDP45" dccAddress="6592" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-    <dateUpdated>2026-02-08T03:58:27.020+00:00</dateUpdated>
+    <dateUpdated>2026-05-17T18:30:32.519+00:00</dateUpdated>
     <decoder model="TSU-1100 EMD Diesels" family="Tsunami2 Diesel" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="6592" longaddress="yes" />
@@ -50,7 +50,7 @@
       </keyvaluepair>
       <keyvaluepair>
         <key>TE</key>
-        <value>24 /  20 /  16</value>
+        <value>24 / 20 / 16</value>
       </keyvaluepair>
     </attributepairs>
     <values>
@@ -1001,6 +1001,5 @@
       <CVvalue name="16.3.258" value="180" />
     </values>
   </locomotive>
-  <!--Written by JMRI version 5.15.3plus+jenkins+20260213T2025Z+R099362ba8c on Sat Feb 14 14:51:09 PST 2026-->
-  <!--Written by JMRI version 5.15.4plus+jenkins+20260305T1324Z+R2910b939945 on Thu Mar 05 17:22:21 PST 2026-->
+  <!--Written by JMRI version 5.15.8+R0f6e5379d8 on Sat Jun 27 15:19:07 PDT 2026-->
 </locomotive-config>

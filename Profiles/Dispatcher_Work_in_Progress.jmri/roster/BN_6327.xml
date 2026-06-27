@@ -2,7 +2,7 @@
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
   <locomotive id="BN 6327" fileName="BN_6327.xml" roadNumber="6327" roadName="Burlington Northern" mfg="Scale Trains" owner="148 Kevin Schiller" model="SD40-2" dccAddress="6327" comment="" developerID="-1" manufacturerID="151" productID="33554588" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-    <dateUpdated>2026-02-08T03:58:26.902+00:00</dateUpdated>
+    <dateUpdated>2026-05-17T18:28:57.798+00:00</dateUpdated>
     <decoder model="LokSound 5 DCC" family="ESU LokSound 5" comment="" maxFnNum="31" />
     <locoaddress>
       <dcclocoaddress number="6327" longaddress="yes" />
@@ -25,7 +25,7 @@
       </keyvaluepair>
       <keyvaluepair>
         <key>TE</key>
-        <value>26 /  22 /  18</value>
+        <value>26 / 22 / 18</value>
       </keyvaluepair>
     </attributepairs>
     <values>
@@ -11877,6 +11877,5 @@
       <CVvalue name="16.12.378" value="0" />
     </values>
   </locomotive>
-  <!--Written by JMRI version 5.15.3plus+jenkins+20260213T2025Z+R099362ba8c on Sat Feb 14 14:51:05 PST 2026-->
-  <!--Written by JMRI version 5.15.4plus+jenkins+20260305T1324Z+R2910b939945 on Thu Mar 05 17:22:19 PST 2026-->
+  <!--Written by JMRI version 5.15.8+R0f6e5379d8 on Sat Jun 27 15:19:06 PDT 2026-->
 </locomotive-config>

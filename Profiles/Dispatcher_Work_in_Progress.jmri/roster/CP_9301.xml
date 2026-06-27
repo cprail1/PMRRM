@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="CP 9301" fileName="CP_9301.xml" roadNumber="9301" roadName="Canadian Pacific" mfg="Athearn Genesis" owner="217 Peter Ely" model="SD90MAC-H P2" dccAddress="9301" comment="Primarily for CP unit coal train &#xA;but may be used elsewhere with speed &#xA;appropriate CP units . Speed 25 57 72 " developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-    <dateUpdated>2026-02-08T03:58:28.674+00:00</dateUpdated>
+  <locomotive id="CP 9301" fileName="CP_9301.xml" roadNumber="9301" roadName="Canadian Pacific" mfg="Athearn Genesis" owner="217 Peter Ely" model="SD90MAC-H P2" dccAddress="9301" comment="Primarily for CP unit coal train " developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+    <dateUpdated>2026-06-27T20:10:54.588+00:00</dateUpdated>
     <decoder model="TSU-GN2208 SD90MAC-H" family="Tsunami2 Diesel OEM Genesis" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="9301" longaddress="yes" />
@@ -39,6 +39,10 @@
       <keyvaluepair>
         <key>RosterGroup:CP</key>
         <value>yes</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>SpeedRating</key>
+        <value>25 57 72</value>
       </keyvaluepair>
       <keyvaluepair>
         <key>TE</key>
@@ -150,6 +154,7 @@
         <varValue item="Sound Setting 7" value="40" />
         <varValue item="Sound Setting 8" value="15" />
         <varValue item="Sound Setting 11" value="128" />
+        <varValue item="Sound Setting 12" value="100" />
         <varValue item="Sound Setting 16" value="16" />
         <varValue item="Sound Setting 17" value="0" />
         <varValue item="Sound Setting 18" value="128" />
@@ -188,14 +193,15 @@
         <varValue item="Reverb190" value="0" />
         <varValue item="Reverb191" value="0" />
         <varValue item="Reverb192" value="0" />
-        <varValue item="Probability Fireman Shovels Coal" value="128" />
-        <varValue item="Probability Fireman Fills the Tender" value="0" />
-        <varValue item="Probability Fireman Turns His Wrench" value="128" />
-        <varValue item="Probability Fireman Uses His Grease Gun" value="128" />
-        <varValue item="Probability Fireman Uses His Oil Can" value="64" />
-        <varValue item="Probability Fireman Uses the Injector" value="32" />
-        <varValue item="Probability Fireman Uses the Blower" value="128" />
-        <varValue item="Probability Pop Valve Blows Off" value="128" />
+        <varValue item="Sound Group 3 Option 2" value="90" />
+        <varValue item="Cab Doors Event Probability" value="128" />
+        <varValue item="Fuel Loading Event Probability" value="0" />
+        <varValue item="Wrenches Event Probability" value="128" />
+        <varValue item="Pneumatic Oilers Event Probability" value="128" />
+        <varValue item="Cab Chatter Event Probability" value="64" />
+        <varValue item="Toilet Flush Event Probability" value="32" />
+        <varValue item="Air Conditioner Event Probability" value="128" />
+        <varValue item="Relay Clicks Event Probability" value="128" />
         <varValue item="Advanced Group 1 Option 10" value="0" />
         <varValue item="Sound Group 3 Option 5" value="128" />
         <varValue item="High-Pass Filter Cutoff Frequency" value="30" />
@@ -245,6 +251,7 @@
         <varValue item="Extended Function Map Independent/Train Brake" value="11" />
         <varValue item="Extended Function Map Brake Select" value="12" />
         <varValue item="Extended Function Map Alternate Mixer" value="9" />
+        <varValue item="Extended Function Map Dynamic Brake" value="4" />
         <varValue item="Extended Function Map Straight-to-Eight" value="10" />
         <varValue item="Extended Function Map General Service" value="18" />
         <varValue item="Extended Function Map HEP Mode" value="16" />
@@ -520,7 +527,6 @@
         <varValue item="Sound Option 11" value="0" />
         <varValue item="Sound Option 12" value="1" />
         <varValue item="Sound Setting 10" value="128" />
-        <varValue item="Sound Setting 12" value="100" />
         <varValue item="Sound Setting 13" value="70" />
         <varValue item="Sound Setting 21" value="70" />
         <varValue item="Sound Setting 22" value="150" />
@@ -533,7 +539,6 @@
         <varValue item="Automatic Brake Squeal Enable (Analog Mode)" value="1" />
         <varValue item="Automatic Bell Enable" value="0" />
         <varValue item="Automatic Brake Squeal Enable" value="0" />
-        <varValue item="Sound Group 3 Option 2" value="90" />
         <varValue item="EMF Static Config" value="48" />
         <varValue item="EMF Dynamic Config" value="16" />
         <varValue item="EMF Option 1" value="180" />
@@ -580,7 +585,6 @@
         <varValue item="Extended Function Map RPM-" value="27" />
         <varValue item="Extended Function Map Airhorn" value="2" />
         <varValue item="Extended Function Map Bell" value="1" />
-        <varValue item="Extended Function Map Dynamic Brake" value="4" />
         <varValue item="Extended Function Map Short Airhorn" value="255" />
         <varValue item="Extended Function Map Coupler" value="13" />
         <varValue item="Extended Function Map Coupler Release" value="13" />
@@ -706,6 +710,34 @@
         <varValue item="Reverse Trim" value="128" />
         <varValue item="User Id #1" value="11" />
         <varValue item="User Id #2" value="22" />
+        <varValue item="CV67 default" value="0" />
+        <varValue item="CV68 default" value="9" />
+        <varValue item="CV69 default" value="18" />
+        <varValue item="CV70 default" value="28" />
+        <varValue item="CV71 default" value="37" />
+        <varValue item="CV72 default" value="47" />
+        <varValue item="CV73 default" value="56" />
+        <varValue item="CV74 default" value="66" />
+        <varValue item="CV75 default" value="75" />
+        <varValue item="CV76 default" value="85" />
+        <varValue item="CV77 default" value="94" />
+        <varValue item="CV78 default" value="103" />
+        <varValue item="CV79 default" value="113" />
+        <varValue item="CV80 default" value="122" />
+        <varValue item="CV81 default" value="132" />
+        <varValue item="CV82 default" value="141" />
+        <varValue item="CV83 default" value="151" />
+        <varValue item="CV84 default" value="160" />
+        <varValue item="CV85 default" value="170" />
+        <varValue item="CV86 default" value="179" />
+        <varValue item="CV87 default" value="188" />
+        <varValue item="CV88 default" value="198" />
+        <varValue item="CV89 default" value="207" />
+        <varValue item="CV90 default" value="217" />
+        <varValue item="CV91 default" value="226" />
+        <varValue item="CV92 default" value="236" />
+        <varValue item="CV93 default" value="245" />
+        <varValue item="CV94 default" value="255" />
       </decoderDef>
       <CVvalue name="29" value="34" />
       <CVvalue name="37" value="16" />
@@ -752,6 +784,7 @@
       <CVvalue name="134" value="40" />
       <CVvalue name="135" value="15" />
       <CVvalue name="138" value="128" />
+      <CVvalue name="139" value="100" />
       <CVvalue name="143" value="16" />
       <CVvalue name="144" value="0" />
       <CVvalue name="145" value="128" />
@@ -790,6 +823,7 @@
       <CVvalue name="190" value="0" />
       <CVvalue name="191" value="0" />
       <CVvalue name="192" value="0" />
+      <CVvalue name="200" value="90" />
       <CVvalue name="201" value="128" />
       <CVvalue name="202" value="0" />
       <CVvalue name="203" value="128" />
@@ -826,6 +860,7 @@
       <CVvalue name="16.1.275" value="11" />
       <CVvalue name="16.1.283" value="12" />
       <CVvalue name="16.1.284" value="9" />
+      <CVvalue name="16.1.299" value="4" />
       <CVvalue name="16.1.301" value="10" />
       <CVvalue name="16.1.302" value="18" />
       <CVvalue name="16.1.303" value="16" />
@@ -911,7 +946,6 @@
       <CVvalue name="119" value="204" />
       <CVvalue name="126" value="128" />
       <CVvalue name="137" value="128" />
-      <CVvalue name="139" value="100" />
       <CVvalue name="140" value="70" />
       <CVvalue name="148" value="70" />
       <CVvalue name="149" value="150" />
@@ -922,7 +956,6 @@
       <CVvalue name="196" value="3" />
       <CVvalue name="197" value="4" />
       <CVvalue name="198" value="0" />
-      <CVvalue name="200" value="90" />
       <CVvalue name="209" value="48" />
       <CVvalue name="210" value="16" />
       <CVvalue name="211" value="180" />
@@ -954,7 +987,6 @@
       <CVvalue name="16.1.286" value="27" />
       <CVvalue name="16.1.297" value="2" />
       <CVvalue name="16.1.298" value="1" />
-      <CVvalue name="16.1.299" value="4" />
       <CVvalue name="16.1.300" value="255" />
       <CVvalue name="16.1.305" value="13" />
       <CVvalue name="16.1.306" value="13" />
@@ -1027,6 +1059,5 @@
       <CVvalue name="106" value="22" />
     </values>
   </locomotive>
-  <!--Written by JMRI version 5.15.3plus+jenkins+20260213T2025Z+R099362ba8c on Sat Feb 14 14:53:11 PST 2026-->
-  <!--Written by JMRI version 5.15.4plus+jenkins+20260305T1324Z+R2910b939945 on Thu Mar 05 17:23:58 PST 2026-->
+  <!--Written by JMRI version 5.15.8+R0f6e5379d8 on Sat Jun 27 15:19:37 PDT 2026-->
 </locomotive-config>

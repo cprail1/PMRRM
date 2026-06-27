@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <!--Written by JMRI version 5.15.3plus+jenkins+20260213T2025Z+R099362ba8c on Thu Feb 26 12:16:04 PST 2026-->
   <locomotive id="DRGW 6001" fileName="D_RGW_6001.xml" roadNumber="6001" roadName="D&amp;RGW" mfg="Walthers" owner="J270 Matthew J Zepeda" model="Alco PA 1" dccAddress="6001" comment="" developerID="-1" manufacturerID="151" productID="16777363,16777419" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-    <dateUpdated>2026-02-26T20:13:03.368+00:00</dateUpdated>
+    <dateUpdated>2026-06-27T21:07:45.824+00:00</dateUpdated>
     <decoder model="Essential Sound Unit" family="ESU Miscellaneous decoders" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="6001" longaddress="yes" />
@@ -16,12 +15,6 @@
       <functionlabel num="2" lockable="false" visible="true" functionImage="" functionImageSelected="">Horn</functionlabel>
     </functionlabels>
     <soundlabels />
-    <attributepairs>
-      <keyvaluepair>
-        <key>RosterGroup:DRGW</key>
-        <value>yes</value>
-      </keyvaluepair>
-    </attributepairs>
     <values>
       <decoderDef>
         <varValue item="Vstart" value="3" />
@@ -1268,5 +1261,5 @@
       <CVvalue name="235" value="0" />
     </values>
   </locomotive>
-  <!--Written by JMRI version 5.15.4plus+jenkins+20260305T1324Z+R2910b939945 on Thu Mar 05 17:25:05 PST 2026-->
+  <!--Written by JMRI version 5.15.8+R0f6e5379d8 on Sat Jun 27 15:19:57 PDT 2026-->
 </locomotive-config>

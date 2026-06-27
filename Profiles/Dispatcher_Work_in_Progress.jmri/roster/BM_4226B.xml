@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
-<locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <locomotive id="BM 4226B" fileName="BM4226B.xml" roadNumber="4226 (B)" roadName="Boston &amp; Maine" mfg="Athearn" owner="254 Aaron Gold" model="F2B" dccAddress="4226" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+<locomotive-config>
+  <!--Written by JMRI version 5.15.4plus+jenkins+20260305T1324Z+R2910b939945 on Sat Mar 14 10:59:27 PDT 2026-->
+  <locomotive id="BM 4226B" fileName="BM_4226B.xml" roadNumber="4226 (B)" roadName="Boston &amp; Maine" mfg="Athearn" owner="254 Aaron Gold" model="F2B" dccAddress="4226" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2026-02-11T15:03:29.656+00:00</dateUpdated>
     <decoder model="TSU-GN2200 F3/7 w/DB" family="Tsunami2 Diesel OEM Genesis" comment="" maxFnNum="28" />
     <locoaddress>
@@ -36,6 +37,10 @@
     </functionlabels>
     <soundlabels />
     <attributepairs>
+      <keyvaluepair>
+        <key>RosterGroup:BM</key>
+        <value>yes</value>
+      </keyvaluepair>
       <keyvaluepair>
         <key>TE</key>
         <value>22 / 15</value>
@@ -1007,6 +1012,5 @@
       <CVvalue name="106" value="0" />
     </values>
   </locomotive>
-  <!--Written by JMRI version 5.15.3plus+jenkins+20260213T2025Z+R099362ba8c on Sat Feb 14 14:50:52 PST 2026-->
-  <!--Written by JMRI version 5.15.4plus+jenkins+20260305T1324Z+R2910b939945 on Thu Mar 05 17:22:05 PST 2026-->
+  <!--Written by JMRI version 5.15.8+R0f6e5379d8 on Sat Jun 27 15:19:02 PDT 2026-->
 </locomotive-config>

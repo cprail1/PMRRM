@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
-<locomotive-config>
-  <locomotive id="SP 5601" fileName="SP_5601.xml" roadNumber="5601" roadName="Southern Pacific" mfg="WKW" owner="256 AJ Chier" model="GP9" dccAddress="5601" comment="" developerID="-1" manufacturerID="151" productID="33554588" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-    <dateUpdated>2026-02-08T03:58:33.342+00:00</dateUpdated>
+<locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
+  <locomotive id="SP 5601" fileName="SP_5601.xml" roadNumber="5601" roadName="Southern Pacific" mfg="WKW" owner="265 AJ Chier" model="GP9" dccAddress="5601" comment="" developerID="-1" manufacturerID="151" productID="33554588" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+    <dateUpdated>2026-06-27T20:05:03.140+00:00</dateUpdated>
     <decoder model="LokSound 5 DCC" family="ESU LokSound 5" comment="" maxFnNum="31" />
     <locoaddress>
       <dcclocoaddress number="5601" longaddress="yes" />
@@ -1478,6 +1478,12 @@
         <varValue item="ESU Function Row 1 Item 78" value="0" />
         <varValue item="ESU Function Row 1 Item 79" value="0" />
         <varValue item="ESU Function Row 1 Item 80" value="0" />
+        <varValue item="ESU Function Row 1 Item 81" value="0" />
+        <varValue item="ESU Function Row 1 Item 82" value="0" />
+        <varValue item="ESU Function Row 1 Item 83" value="0" />
+        <varValue item="ESU Function Row 1 Item 84" value="0" />
+        <varValue item="ESU Function Row 1 Item 85" value="0" />
+        <varValue item="ESU Function Row 1 Item 86" value="0" />
         <varValue item="ESU Function Row 1 Item 89" value="0" />
         <varValue item="ESU Function Row 1 Item 90" value="0" />
         <varValue item="ESU Function Row 1 Item 91" value="0" />
@@ -1589,6 +1595,12 @@
         <varValue item="ESU Function Row 2 Item 78" value="0" />
         <varValue item="ESU Function Row 2 Item 79" value="0" />
         <varValue item="ESU Function Row 2 Item 80" value="0" />
+        <varValue item="ESU Function Row 2 Item 81" value="0" />
+        <varValue item="ESU Function Row 2 Item 82" value="0" />
+        <varValue item="ESU Function Row 2 Item 83" value="0" />
+        <varValue item="ESU Function Row 2 Item 84" value="0" />
+        <varValue item="ESU Function Row 2 Item 85" value="0" />
+        <varValue item="ESU Function Row 2 Item 86" value="0" />
         <varValue item="ESU Function Row 2 Item 89" value="0" />
         <varValue item="ESU Function Row 2 Item 90" value="0" />
         <varValue item="ESU Function Row 2 Item 91" value="0" />
@@ -1700,6 +1712,12 @@
         <varValue item="ESU Function Row 3 Item 78" value="0" />
         <varValue item="ESU Function Row 3 Item 79" value="0" />
         <varValue item="ESU Function Row 3 Item 80" value="0" />
+        <varValue item="ESU Function Row 3 Item 81" value="0" />
+        <varValue item="ESU Function Row 3 Item 82" value="0" />
+        <varValue item="ESU Function Row 3 Item 83" value="0" />
+        <varValue item="ESU Function Row 3 Item 84" value="0" />
+        <varValue item="ESU Function Row 3 Item 85" value="0" />
+        <varValue item="ESU Function Row 3 Item 86" value="0" />
         <varValue item="ESU Function Row 3 Item 89" value="0" />
         <varValue item="ESU Function Row 3 Item 90" value="0" />
         <varValue item="ESU Function Row 3 Item 91" value="0" />
@@ -1811,6 +1829,12 @@
         <varValue item="ESU Function Row 4 Item 78" value="0" />
         <varValue item="ESU Function Row 4 Item 79" value="0" />
         <varValue item="ESU Function Row 4 Item 80" value="0" />
+        <varValue item="ESU Function Row 4 Item 81" value="0" />
+        <varValue item="ESU Function Row 4 Item 82" value="0" />
+        <varValue item="ESU Function Row 4 Item 83" value="0" />
+        <varValue item="ESU Function Row 4 Item 84" value="0" />
+        <varValue item="ESU Function Row 4 Item 85" value="0" />
+        <varValue item="ESU Function Row 4 Item 86" value="0" />
         <varValue item="ESU Function Row 4 Item 89" value="0" />
         <varValue item="ESU Function Row 4 Item 90" value="0" />
         <varValue item="ESU Function Row 4 Item 91" value="0" />
@@ -1922,6 +1946,12 @@
         <varValue item="ESU Function Row 5 Item 78" value="0" />
         <varValue item="ESU Function Row 5 Item 79" value="0" />
         <varValue item="ESU Function Row 5 Item 80" value="0" />
+        <varValue item="ESU Function Row 5 Item 81" value="0" />
+        <varValue item="ESU Function Row 5 Item 82" value="0" />
+        <varValue item="ESU Function Row 5 Item 83" value="0" />
+        <varValue item="ESU Function Row 5 Item 84" value="0" />
+        <varValue item="ESU Function Row 5 Item 85" value="0" />
+        <varValue item="ESU Function Row 5 Item 86" value="0" />
         <varValue item="ESU Function Row 5 Item 89" value="0" />
         <varValue item="ESU Function Row 5 Item 90" value="0" />
         <varValue item="ESU Function Row 5 Item 91" value="0" />
@@ -2033,6 +2063,12 @@
         <varValue item="ESU Function Row 6 Item 78" value="0" />
         <varValue item="ESU Function Row 6 Item 79" value="0" />
         <varValue item="ESU Function Row 6 Item 80" value="0" />
+        <varValue item="ESU Function Row 6 Item 81" value="0" />
+        <varValue item="ESU Function Row 6 Item 82" value="0" />
+        <varValue item="ESU Function Row 6 Item 83" value="0" />
+        <varValue item="ESU Function Row 6 Item 84" value="0" />
+        <varValue item="ESU Function Row 6 Item 85" value="0" />
+        <varValue item="ESU Function Row 6 Item 86" value="0" />
         <varValue item="ESU Function Row 6 Item 89" value="0" />
         <varValue item="ESU Function Row 6 Item 90" value="0" />
         <varValue item="ESU Function Row 6 Item 91" value="0" />
@@ -2144,6 +2180,12 @@
         <varValue item="ESU Function Row 7 Item 78" value="0" />
         <varValue item="ESU Function Row 7 Item 79" value="0" />
         <varValue item="ESU Function Row 7 Item 80" value="0" />
+        <varValue item="ESU Function Row 7 Item 81" value="0" />
+        <varValue item="ESU Function Row 7 Item 82" value="0" />
+        <varValue item="ESU Function Row 7 Item 83" value="0" />
+        <varValue item="ESU Function Row 7 Item 84" value="0" />
+        <varValue item="ESU Function Row 7 Item 85" value="0" />
+        <varValue item="ESU Function Row 7 Item 86" value="0" />
         <varValue item="ESU Function Row 7 Item 89" value="0" />
         <varValue item="ESU Function Row 7 Item 90" value="0" />
         <varValue item="ESU Function Row 7 Item 91" value="0" />
@@ -2255,6 +2297,12 @@
         <varValue item="ESU Function Row 8 Item 78" value="0" />
         <varValue item="ESU Function Row 8 Item 79" value="0" />
         <varValue item="ESU Function Row 8 Item 80" value="0" />
+        <varValue item="ESU Function Row 8 Item 81" value="0" />
+        <varValue item="ESU Function Row 8 Item 82" value="0" />
+        <varValue item="ESU Function Row 8 Item 83" value="0" />
+        <varValue item="ESU Function Row 8 Item 84" value="0" />
+        <varValue item="ESU Function Row 8 Item 85" value="0" />
+        <varValue item="ESU Function Row 8 Item 86" value="0" />
         <varValue item="ESU Function Row 8 Item 89" value="0" />
         <varValue item="ESU Function Row 8 Item 90" value="0" />
         <varValue item="ESU Function Row 8 Item 91" value="0" />
@@ -2366,6 +2414,12 @@
         <varValue item="ESU Function Row 9 Item 78" value="0" />
         <varValue item="ESU Function Row 9 Item 79" value="0" />
         <varValue item="ESU Function Row 9 Item 80" value="0" />
+        <varValue item="ESU Function Row 9 Item 81" value="0" />
+        <varValue item="ESU Function Row 9 Item 82" value="0" />
+        <varValue item="ESU Function Row 9 Item 83" value="0" />
+        <varValue item="ESU Function Row 9 Item 84" value="0" />
+        <varValue item="ESU Function Row 9 Item 85" value="0" />
+        <varValue item="ESU Function Row 9 Item 86" value="0" />
         <varValue item="ESU Function Row 9 Item 89" value="0" />
         <varValue item="ESU Function Row 9 Item 90" value="0" />
         <varValue item="ESU Function Row 9 Item 91" value="0" />
@@ -2477,6 +2531,12 @@
         <varValue item="ESU Function Row 10 Item 78" value="0" />
         <varValue item="ESU Function Row 10 Item 79" value="0" />
         <varValue item="ESU Function Row 10 Item 80" value="0" />
+        <varValue item="ESU Function Row 10 Item 81" value="0" />
+        <varValue item="ESU Function Row 10 Item 82" value="0" />
+        <varValue item="ESU Function Row 10 Item 83" value="0" />
+        <varValue item="ESU Function Row 10 Item 84" value="0" />
+        <varValue item="ESU Function Row 10 Item 85" value="0" />
+        <varValue item="ESU Function Row 10 Item 86" value="0" />
         <varValue item="ESU Function Row 10 Item 89" value="0" />
         <varValue item="ESU Function Row 10 Item 90" value="0" />
         <varValue item="ESU Function Row 10 Item 91" value="0" />
@@ -2588,6 +2648,12 @@
         <varValue item="ESU Function Row 11 Item 78" value="0" />
         <varValue item="ESU Function Row 11 Item 79" value="0" />
         <varValue item="ESU Function Row 11 Item 80" value="0" />
+        <varValue item="ESU Function Row 11 Item 81" value="0" />
+        <varValue item="ESU Function Row 11 Item 82" value="0" />
+        <varValue item="ESU Function Row 11 Item 83" value="0" />
+        <varValue item="ESU Function Row 11 Item 84" value="0" />
+        <varValue item="ESU Function Row 11 Item 85" value="0" />
+        <varValue item="ESU Function Row 11 Item 86" value="0" />
         <varValue item="ESU Function Row 11 Item 89" value="0" />
         <varValue item="ESU Function Row 11 Item 90" value="0" />
         <varValue item="ESU Function Row 11 Item 91" value="0" />
@@ -2699,6 +2765,12 @@
         <varValue item="ESU Function Row 12 Item 78" value="0" />
         <varValue item="ESU Function Row 12 Item 79" value="0" />
         <varValue item="ESU Function Row 12 Item 80" value="0" />
+        <varValue item="ESU Function Row 12 Item 81" value="0" />
+        <varValue item="ESU Function Row 12 Item 82" value="0" />
+        <varValue item="ESU Function Row 12 Item 83" value="0" />
+        <varValue item="ESU Function Row 12 Item 84" value="0" />
+        <varValue item="ESU Function Row 12 Item 85" value="0" />
+        <varValue item="ESU Function Row 12 Item 86" value="0" />
         <varValue item="ESU Function Row 12 Item 89" value="0" />
         <varValue item="ESU Function Row 12 Item 90" value="0" />
         <varValue item="ESU Function Row 12 Item 91" value="0" />
@@ -2810,6 +2882,12 @@
         <varValue item="ESU Function Row 13 Item 78" value="0" />
         <varValue item="ESU Function Row 13 Item 79" value="0" />
         <varValue item="ESU Function Row 13 Item 80" value="0" />
+        <varValue item="ESU Function Row 13 Item 81" value="0" />
+        <varValue item="ESU Function Row 13 Item 82" value="0" />
+        <varValue item="ESU Function Row 13 Item 83" value="0" />
+        <varValue item="ESU Function Row 13 Item 84" value="0" />
+        <varValue item="ESU Function Row 13 Item 85" value="0" />
+        <varValue item="ESU Function Row 13 Item 86" value="0" />
         <varValue item="ESU Function Row 13 Item 89" value="0" />
         <varValue item="ESU Function Row 13 Item 90" value="0" />
         <varValue item="ESU Function Row 13 Item 91" value="0" />
@@ -2921,6 +2999,12 @@
         <varValue item="ESU Function Row 14 Item 78" value="0" />
         <varValue item="ESU Function Row 14 Item 79" value="0" />
         <varValue item="ESU Function Row 14 Item 80" value="0" />
+        <varValue item="ESU Function Row 14 Item 81" value="0" />
+        <varValue item="ESU Function Row 14 Item 82" value="0" />
+        <varValue item="ESU Function Row 14 Item 83" value="0" />
+        <varValue item="ESU Function Row 14 Item 84" value="0" />
+        <varValue item="ESU Function Row 14 Item 85" value="0" />
+        <varValue item="ESU Function Row 14 Item 86" value="0" />
         <varValue item="ESU Function Row 14 Item 89" value="0" />
         <varValue item="ESU Function Row 14 Item 90" value="0" />
         <varValue item="ESU Function Row 14 Item 91" value="0" />
@@ -3032,6 +3116,12 @@
         <varValue item="ESU Function Row 15 Item 78" value="0" />
         <varValue item="ESU Function Row 15 Item 79" value="0" />
         <varValue item="ESU Function Row 15 Item 80" value="0" />
+        <varValue item="ESU Function Row 15 Item 81" value="0" />
+        <varValue item="ESU Function Row 15 Item 82" value="0" />
+        <varValue item="ESU Function Row 15 Item 83" value="0" />
+        <varValue item="ESU Function Row 15 Item 84" value="0" />
+        <varValue item="ESU Function Row 15 Item 85" value="0" />
+        <varValue item="ESU Function Row 15 Item 86" value="0" />
         <varValue item="ESU Function Row 15 Item 89" value="0" />
         <varValue item="ESU Function Row 15 Item 90" value="0" />
         <varValue item="ESU Function Row 15 Item 91" value="0" />
@@ -3143,6 +3233,12 @@
         <varValue item="ESU Function Row 16 Item 78" value="0" />
         <varValue item="ESU Function Row 16 Item 79" value="0" />
         <varValue item="ESU Function Row 16 Item 80" value="0" />
+        <varValue item="ESU Function Row 16 Item 81" value="0" />
+        <varValue item="ESU Function Row 16 Item 82" value="0" />
+        <varValue item="ESU Function Row 16 Item 83" value="0" />
+        <varValue item="ESU Function Row 16 Item 84" value="0" />
+        <varValue item="ESU Function Row 16 Item 85" value="0" />
+        <varValue item="ESU Function Row 16 Item 86" value="0" />
         <varValue item="ESU Function Row 16 Item 89" value="0" />
         <varValue item="ESU Function Row 16 Item 90" value="0" />
         <varValue item="ESU Function Row 16 Item 91" value="0" />
@@ -3254,6 +3350,12 @@
         <varValue item="ESU Function Row 17 Item 78" value="0" />
         <varValue item="ESU Function Row 17 Item 79" value="0" />
         <varValue item="ESU Function Row 17 Item 80" value="0" />
+        <varValue item="ESU Function Row 17 Item 81" value="0" />
+        <varValue item="ESU Function Row 17 Item 82" value="0" />
+        <varValue item="ESU Function Row 17 Item 83" value="0" />
+        <varValue item="ESU Function Row 17 Item 84" value="0" />
+        <varValue item="ESU Function Row 17 Item 85" value="0" />
+        <varValue item="ESU Function Row 17 Item 86" value="0" />
         <varValue item="ESU Function Row 17 Item 89" value="0" />
         <varValue item="ESU Function Row 17 Item 90" value="0" />
         <varValue item="ESU Function Row 17 Item 91" value="0" />
@@ -3365,6 +3467,12 @@
         <varValue item="ESU Function Row 18 Item 78" value="0" />
         <varValue item="ESU Function Row 18 Item 79" value="0" />
         <varValue item="ESU Function Row 18 Item 80" value="0" />
+        <varValue item="ESU Function Row 18 Item 81" value="0" />
+        <varValue item="ESU Function Row 18 Item 82" value="0" />
+        <varValue item="ESU Function Row 18 Item 83" value="0" />
+        <varValue item="ESU Function Row 18 Item 84" value="0" />
+        <varValue item="ESU Function Row 18 Item 85" value="0" />
+        <varValue item="ESU Function Row 18 Item 86" value="0" />
         <varValue item="ESU Function Row 18 Item 89" value="0" />
         <varValue item="ESU Function Row 18 Item 90" value="0" />
         <varValue item="ESU Function Row 18 Item 91" value="0" />
@@ -3476,6 +3584,12 @@
         <varValue item="ESU Function Row 19 Item 78" value="0" />
         <varValue item="ESU Function Row 19 Item 79" value="0" />
         <varValue item="ESU Function Row 19 Item 80" value="0" />
+        <varValue item="ESU Function Row 19 Item 81" value="0" />
+        <varValue item="ESU Function Row 19 Item 82" value="0" />
+        <varValue item="ESU Function Row 19 Item 83" value="0" />
+        <varValue item="ESU Function Row 19 Item 84" value="0" />
+        <varValue item="ESU Function Row 19 Item 85" value="0" />
+        <varValue item="ESU Function Row 19 Item 86" value="0" />
         <varValue item="ESU Function Row 19 Item 89" value="0" />
         <varValue item="ESU Function Row 19 Item 90" value="0" />
         <varValue item="ESU Function Row 19 Item 91" value="0" />
@@ -3587,6 +3701,12 @@
         <varValue item="ESU Function Row 20 Item 78" value="0" />
         <varValue item="ESU Function Row 20 Item 79" value="0" />
         <varValue item="ESU Function Row 20 Item 80" value="0" />
+        <varValue item="ESU Function Row 20 Item 81" value="0" />
+        <varValue item="ESU Function Row 20 Item 82" value="0" />
+        <varValue item="ESU Function Row 20 Item 83" value="0" />
+        <varValue item="ESU Function Row 20 Item 84" value="0" />
+        <varValue item="ESU Function Row 20 Item 85" value="0" />
+        <varValue item="ESU Function Row 20 Item 86" value="0" />
         <varValue item="ESU Function Row 20 Item 89" value="0" />
         <varValue item="ESU Function Row 20 Item 90" value="0" />
         <varValue item="ESU Function Row 20 Item 91" value="0" />
@@ -3698,6 +3818,12 @@
         <varValue item="ESU Function Row 21 Item 78" value="0" />
         <varValue item="ESU Function Row 21 Item 79" value="0" />
         <varValue item="ESU Function Row 21 Item 80" value="0" />
+        <varValue item="ESU Function Row 21 Item 81" value="0" />
+        <varValue item="ESU Function Row 21 Item 82" value="0" />
+        <varValue item="ESU Function Row 21 Item 83" value="0" />
+        <varValue item="ESU Function Row 21 Item 84" value="0" />
+        <varValue item="ESU Function Row 21 Item 85" value="0" />
+        <varValue item="ESU Function Row 21 Item 86" value="0" />
         <varValue item="ESU Function Row 21 Item 89" value="0" />
         <varValue item="ESU Function Row 21 Item 90" value="0" />
         <varValue item="ESU Function Row 21 Item 91" value="0" />
@@ -3809,6 +3935,12 @@
         <varValue item="ESU Function Row 22 Item 78" value="0" />
         <varValue item="ESU Function Row 22 Item 79" value="0" />
         <varValue item="ESU Function Row 22 Item 80" value="0" />
+        <varValue item="ESU Function Row 22 Item 81" value="0" />
+        <varValue item="ESU Function Row 22 Item 82" value="0" />
+        <varValue item="ESU Function Row 22 Item 83" value="0" />
+        <varValue item="ESU Function Row 22 Item 84" value="0" />
+        <varValue item="ESU Function Row 22 Item 85" value="0" />
+        <varValue item="ESU Function Row 22 Item 86" value="0" />
         <varValue item="ESU Function Row 22 Item 89" value="0" />
         <varValue item="ESU Function Row 22 Item 90" value="0" />
         <varValue item="ESU Function Row 22 Item 91" value="0" />
@@ -3920,6 +4052,12 @@
         <varValue item="ESU Function Row 23 Item 78" value="0" />
         <varValue item="ESU Function Row 23 Item 79" value="0" />
         <varValue item="ESU Function Row 23 Item 80" value="0" />
+        <varValue item="ESU Function Row 23 Item 81" value="0" />
+        <varValue item="ESU Function Row 23 Item 82" value="0" />
+        <varValue item="ESU Function Row 23 Item 83" value="0" />
+        <varValue item="ESU Function Row 23 Item 84" value="0" />
+        <varValue item="ESU Function Row 23 Item 85" value="0" />
+        <varValue item="ESU Function Row 23 Item 86" value="0" />
         <varValue item="ESU Function Row 23 Item 89" value="0" />
         <varValue item="ESU Function Row 23 Item 90" value="0" />
         <varValue item="ESU Function Row 23 Item 91" value="0" />
@@ -4031,6 +4169,12 @@
         <varValue item="ESU Function Row 24 Item 78" value="0" />
         <varValue item="ESU Function Row 24 Item 79" value="0" />
         <varValue item="ESU Function Row 24 Item 80" value="0" />
+        <varValue item="ESU Function Row 24 Item 81" value="0" />
+        <varValue item="ESU Function Row 24 Item 82" value="0" />
+        <varValue item="ESU Function Row 24 Item 83" value="0" />
+        <varValue item="ESU Function Row 24 Item 84" value="0" />
+        <varValue item="ESU Function Row 24 Item 85" value="0" />
+        <varValue item="ESU Function Row 24 Item 86" value="0" />
         <varValue item="ESU Function Row 24 Item 89" value="0" />
         <varValue item="ESU Function Row 24 Item 90" value="0" />
         <varValue item="ESU Function Row 24 Item 91" value="0" />
@@ -4142,6 +4286,12 @@
         <varValue item="ESU Function Row 25 Item 78" value="0" />
         <varValue item="ESU Function Row 25 Item 79" value="0" />
         <varValue item="ESU Function Row 25 Item 80" value="0" />
+        <varValue item="ESU Function Row 25 Item 81" value="0" />
+        <varValue item="ESU Function Row 25 Item 82" value="0" />
+        <varValue item="ESU Function Row 25 Item 83" value="0" />
+        <varValue item="ESU Function Row 25 Item 84" value="0" />
+        <varValue item="ESU Function Row 25 Item 85" value="0" />
+        <varValue item="ESU Function Row 25 Item 86" value="0" />
         <varValue item="ESU Function Row 25 Item 89" value="0" />
         <varValue item="ESU Function Row 25 Item 90" value="0" />
         <varValue item="ESU Function Row 25 Item 91" value="0" />
@@ -4253,6 +4403,12 @@
         <varValue item="ESU Function Row 26 Item 78" value="0" />
         <varValue item="ESU Function Row 26 Item 79" value="0" />
         <varValue item="ESU Function Row 26 Item 80" value="0" />
+        <varValue item="ESU Function Row 26 Item 81" value="0" />
+        <varValue item="ESU Function Row 26 Item 82" value="0" />
+        <varValue item="ESU Function Row 26 Item 83" value="0" />
+        <varValue item="ESU Function Row 26 Item 84" value="0" />
+        <varValue item="ESU Function Row 26 Item 85" value="0" />
+        <varValue item="ESU Function Row 26 Item 86" value="0" />
         <varValue item="ESU Function Row 26 Item 89" value="0" />
         <varValue item="ESU Function Row 26 Item 90" value="0" />
         <varValue item="ESU Function Row 26 Item 91" value="0" />
@@ -4364,6 +4520,12 @@
         <varValue item="ESU Function Row 27 Item 78" value="0" />
         <varValue item="ESU Function Row 27 Item 79" value="0" />
         <varValue item="ESU Function Row 27 Item 80" value="0" />
+        <varValue item="ESU Function Row 27 Item 81" value="0" />
+        <varValue item="ESU Function Row 27 Item 82" value="0" />
+        <varValue item="ESU Function Row 27 Item 83" value="0" />
+        <varValue item="ESU Function Row 27 Item 84" value="0" />
+        <varValue item="ESU Function Row 27 Item 85" value="0" />
+        <varValue item="ESU Function Row 27 Item 86" value="0" />
         <varValue item="ESU Function Row 27 Item 89" value="0" />
         <varValue item="ESU Function Row 27 Item 90" value="0" />
         <varValue item="ESU Function Row 27 Item 91" value="0" />
@@ -4475,6 +4637,12 @@
         <varValue item="ESU Function Row 28 Item 78" value="0" />
         <varValue item="ESU Function Row 28 Item 79" value="0" />
         <varValue item="ESU Function Row 28 Item 80" value="0" />
+        <varValue item="ESU Function Row 28 Item 81" value="0" />
+        <varValue item="ESU Function Row 28 Item 82" value="0" />
+        <varValue item="ESU Function Row 28 Item 83" value="0" />
+        <varValue item="ESU Function Row 28 Item 84" value="0" />
+        <varValue item="ESU Function Row 28 Item 85" value="0" />
+        <varValue item="ESU Function Row 28 Item 86" value="0" />
         <varValue item="ESU Function Row 28 Item 89" value="0" />
         <varValue item="ESU Function Row 28 Item 90" value="0" />
         <varValue item="ESU Function Row 28 Item 91" value="0" />
@@ -4586,6 +4754,12 @@
         <varValue item="ESU Function Row 29 Item 78" value="0" />
         <varValue item="ESU Function Row 29 Item 79" value="0" />
         <varValue item="ESU Function Row 29 Item 80" value="0" />
+        <varValue item="ESU Function Row 29 Item 81" value="0" />
+        <varValue item="ESU Function Row 29 Item 82" value="0" />
+        <varValue item="ESU Function Row 29 Item 83" value="0" />
+        <varValue item="ESU Function Row 29 Item 84" value="0" />
+        <varValue item="ESU Function Row 29 Item 85" value="0" />
+        <varValue item="ESU Function Row 29 Item 86" value="0" />
         <varValue item="ESU Function Row 29 Item 89" value="0" />
         <varValue item="ESU Function Row 29 Item 90" value="0" />
         <varValue item="ESU Function Row 29 Item 91" value="0" />
@@ -4697,6 +4871,12 @@
         <varValue item="ESU Function Row 30 Item 78" value="0" />
         <varValue item="ESU Function Row 30 Item 79" value="0" />
         <varValue item="ESU Function Row 30 Item 80" value="0" />
+        <varValue item="ESU Function Row 30 Item 81" value="0" />
+        <varValue item="ESU Function Row 30 Item 82" value="0" />
+        <varValue item="ESU Function Row 30 Item 83" value="0" />
+        <varValue item="ESU Function Row 30 Item 84" value="0" />
+        <varValue item="ESU Function Row 30 Item 85" value="0" />
+        <varValue item="ESU Function Row 30 Item 86" value="0" />
         <varValue item="ESU Function Row 30 Item 89" value="0" />
         <varValue item="ESU Function Row 30 Item 90" value="0" />
         <varValue item="ESU Function Row 30 Item 91" value="0" />
@@ -4808,6 +4988,12 @@
         <varValue item="ESU Function Row 31 Item 78" value="0" />
         <varValue item="ESU Function Row 31 Item 79" value="0" />
         <varValue item="ESU Function Row 31 Item 80" value="0" />
+        <varValue item="ESU Function Row 31 Item 81" value="0" />
+        <varValue item="ESU Function Row 31 Item 82" value="0" />
+        <varValue item="ESU Function Row 31 Item 83" value="0" />
+        <varValue item="ESU Function Row 31 Item 84" value="0" />
+        <varValue item="ESU Function Row 31 Item 85" value="0" />
+        <varValue item="ESU Function Row 31 Item 86" value="0" />
         <varValue item="ESU Function Row 31 Item 89" value="0" />
         <varValue item="ESU Function Row 31 Item 90" value="0" />
         <varValue item="ESU Function Row 31 Item 91" value="0" />
@@ -4919,6 +5105,12 @@
         <varValue item="ESU Function Row 32 Item 78" value="0" />
         <varValue item="ESU Function Row 32 Item 79" value="0" />
         <varValue item="ESU Function Row 32 Item 80" value="0" />
+        <varValue item="ESU Function Row 32 Item 81" value="0" />
+        <varValue item="ESU Function Row 32 Item 82" value="0" />
+        <varValue item="ESU Function Row 32 Item 83" value="0" />
+        <varValue item="ESU Function Row 32 Item 84" value="0" />
+        <varValue item="ESU Function Row 32 Item 85" value="0" />
+        <varValue item="ESU Function Row 32 Item 86" value="0" />
         <varValue item="ESU Function Row 32 Item 89" value="0" />
         <varValue item="ESU Function Row 32 Item 90" value="0" />
         <varValue item="ESU Function Row 32 Item 91" value="0" />
@@ -5030,6 +5222,12 @@
         <varValue item="ESU Function Row 33 Item 78" value="0" />
         <varValue item="ESU Function Row 33 Item 79" value="0" />
         <varValue item="ESU Function Row 33 Item 80" value="0" />
+        <varValue item="ESU Function Row 33 Item 81" value="0" />
+        <varValue item="ESU Function Row 33 Item 82" value="0" />
+        <varValue item="ESU Function Row 33 Item 83" value="0" />
+        <varValue item="ESU Function Row 33 Item 84" value="0" />
+        <varValue item="ESU Function Row 33 Item 85" value="0" />
+        <varValue item="ESU Function Row 33 Item 86" value="0" />
         <varValue item="ESU Function Row 33 Item 89" value="0" />
         <varValue item="ESU Function Row 33 Item 90" value="0" />
         <varValue item="ESU Function Row 33 Item 91" value="0" />
@@ -5141,6 +5339,12 @@
         <varValue item="ESU Function Row 34 Item 78" value="0" />
         <varValue item="ESU Function Row 34 Item 79" value="0" />
         <varValue item="ESU Function Row 34 Item 80" value="0" />
+        <varValue item="ESU Function Row 34 Item 81" value="0" />
+        <varValue item="ESU Function Row 34 Item 82" value="0" />
+        <varValue item="ESU Function Row 34 Item 83" value="0" />
+        <varValue item="ESU Function Row 34 Item 84" value="0" />
+        <varValue item="ESU Function Row 34 Item 85" value="0" />
+        <varValue item="ESU Function Row 34 Item 86" value="0" />
         <varValue item="ESU Function Row 34 Item 89" value="0" />
         <varValue item="ESU Function Row 34 Item 90" value="0" />
         <varValue item="ESU Function Row 34 Item 91" value="0" />
@@ -5252,6 +5456,12 @@
         <varValue item="ESU Function Row 35 Item 78" value="0" />
         <varValue item="ESU Function Row 35 Item 79" value="0" />
         <varValue item="ESU Function Row 35 Item 80" value="0" />
+        <varValue item="ESU Function Row 35 Item 81" value="0" />
+        <varValue item="ESU Function Row 35 Item 82" value="0" />
+        <varValue item="ESU Function Row 35 Item 83" value="0" />
+        <varValue item="ESU Function Row 35 Item 84" value="0" />
+        <varValue item="ESU Function Row 35 Item 85" value="0" />
+        <varValue item="ESU Function Row 35 Item 86" value="0" />
         <varValue item="ESU Function Row 35 Item 89" value="0" />
         <varValue item="ESU Function Row 35 Item 90" value="0" />
         <varValue item="ESU Function Row 35 Item 91" value="0" />
@@ -5363,6 +5573,12 @@
         <varValue item="ESU Function Row 36 Item 78" value="0" />
         <varValue item="ESU Function Row 36 Item 79" value="0" />
         <varValue item="ESU Function Row 36 Item 80" value="0" />
+        <varValue item="ESU Function Row 36 Item 81" value="0" />
+        <varValue item="ESU Function Row 36 Item 82" value="0" />
+        <varValue item="ESU Function Row 36 Item 83" value="0" />
+        <varValue item="ESU Function Row 36 Item 84" value="0" />
+        <varValue item="ESU Function Row 36 Item 85" value="0" />
+        <varValue item="ESU Function Row 36 Item 86" value="0" />
         <varValue item="ESU Function Row 36 Item 89" value="0" />
         <varValue item="ESU Function Row 36 Item 90" value="0" />
         <varValue item="ESU Function Row 36 Item 91" value="0" />
@@ -5474,6 +5690,12 @@
         <varValue item="ESU Function Row 37 Item 78" value="0" />
         <varValue item="ESU Function Row 37 Item 79" value="0" />
         <varValue item="ESU Function Row 37 Item 80" value="0" />
+        <varValue item="ESU Function Row 37 Item 81" value="0" />
+        <varValue item="ESU Function Row 37 Item 82" value="0" />
+        <varValue item="ESU Function Row 37 Item 83" value="0" />
+        <varValue item="ESU Function Row 37 Item 84" value="0" />
+        <varValue item="ESU Function Row 37 Item 85" value="0" />
+        <varValue item="ESU Function Row 37 Item 86" value="0" />
         <varValue item="ESU Function Row 37 Item 89" value="0" />
         <varValue item="ESU Function Row 37 Item 90" value="0" />
         <varValue item="ESU Function Row 37 Item 91" value="0" />
@@ -5585,6 +5807,12 @@
         <varValue item="ESU Function Row 38 Item 78" value="0" />
         <varValue item="ESU Function Row 38 Item 79" value="0" />
         <varValue item="ESU Function Row 38 Item 80" value="0" />
+        <varValue item="ESU Function Row 38 Item 81" value="0" />
+        <varValue item="ESU Function Row 38 Item 82" value="0" />
+        <varValue item="ESU Function Row 38 Item 83" value="0" />
+        <varValue item="ESU Function Row 38 Item 84" value="0" />
+        <varValue item="ESU Function Row 38 Item 85" value="0" />
+        <varValue item="ESU Function Row 38 Item 86" value="0" />
         <varValue item="ESU Function Row 38 Item 89" value="0" />
         <varValue item="ESU Function Row 38 Item 90" value="0" />
         <varValue item="ESU Function Row 38 Item 91" value="0" />
@@ -5696,6 +5924,12 @@
         <varValue item="ESU Function Row 39 Item 78" value="0" />
         <varValue item="ESU Function Row 39 Item 79" value="0" />
         <varValue item="ESU Function Row 39 Item 80" value="0" />
+        <varValue item="ESU Function Row 39 Item 81" value="0" />
+        <varValue item="ESU Function Row 39 Item 82" value="0" />
+        <varValue item="ESU Function Row 39 Item 83" value="0" />
+        <varValue item="ESU Function Row 39 Item 84" value="0" />
+        <varValue item="ESU Function Row 39 Item 85" value="0" />
+        <varValue item="ESU Function Row 39 Item 86" value="0" />
         <varValue item="ESU Function Row 39 Item 89" value="0" />
         <varValue item="ESU Function Row 39 Item 90" value="0" />
         <varValue item="ESU Function Row 39 Item 91" value="0" />
@@ -5807,6 +6041,12 @@
         <varValue item="ESU Function Row 40 Item 78" value="0" />
         <varValue item="ESU Function Row 40 Item 79" value="0" />
         <varValue item="ESU Function Row 40 Item 80" value="0" />
+        <varValue item="ESU Function Row 40 Item 81" value="0" />
+        <varValue item="ESU Function Row 40 Item 82" value="0" />
+        <varValue item="ESU Function Row 40 Item 83" value="0" />
+        <varValue item="ESU Function Row 40 Item 84" value="0" />
+        <varValue item="ESU Function Row 40 Item 85" value="0" />
+        <varValue item="ESU Function Row 40 Item 86" value="0" />
         <varValue item="ESU Function Row 40 Item 89" value="0" />
         <varValue item="ESU Function Row 40 Item 90" value="0" />
         <varValue item="ESU Function Row 40 Item 91" value="0" />
@@ -5918,6 +6158,12 @@
         <varValue item="ESU Function Row 41 Item 78" value="0" />
         <varValue item="ESU Function Row 41 Item 79" value="0" />
         <varValue item="ESU Function Row 41 Item 80" value="0" />
+        <varValue item="ESU Function Row 41 Item 81" value="0" />
+        <varValue item="ESU Function Row 41 Item 82" value="0" />
+        <varValue item="ESU Function Row 41 Item 83" value="0" />
+        <varValue item="ESU Function Row 41 Item 84" value="0" />
+        <varValue item="ESU Function Row 41 Item 85" value="0" />
+        <varValue item="ESU Function Row 41 Item 86" value="0" />
         <varValue item="ESU Function Row 41 Item 89" value="0" />
         <varValue item="ESU Function Row 41 Item 90" value="0" />
         <varValue item="ESU Function Row 41 Item 91" value="0" />
@@ -6029,6 +6275,12 @@
         <varValue item="ESU Function Row 42 Item 78" value="0" />
         <varValue item="ESU Function Row 42 Item 79" value="0" />
         <varValue item="ESU Function Row 42 Item 80" value="0" />
+        <varValue item="ESU Function Row 42 Item 81" value="0" />
+        <varValue item="ESU Function Row 42 Item 82" value="0" />
+        <varValue item="ESU Function Row 42 Item 83" value="0" />
+        <varValue item="ESU Function Row 42 Item 84" value="0" />
+        <varValue item="ESU Function Row 42 Item 85" value="0" />
+        <varValue item="ESU Function Row 42 Item 86" value="0" />
         <varValue item="ESU Function Row 42 Item 89" value="0" />
         <varValue item="ESU Function Row 42 Item 90" value="0" />
         <varValue item="ESU Function Row 42 Item 91" value="0" />
@@ -6140,6 +6392,12 @@
         <varValue item="ESU Function Row 43 Item 78" value="0" />
         <varValue item="ESU Function Row 43 Item 79" value="0" />
         <varValue item="ESU Function Row 43 Item 80" value="0" />
+        <varValue item="ESU Function Row 43 Item 81" value="0" />
+        <varValue item="ESU Function Row 43 Item 82" value="0" />
+        <varValue item="ESU Function Row 43 Item 83" value="0" />
+        <varValue item="ESU Function Row 43 Item 84" value="0" />
+        <varValue item="ESU Function Row 43 Item 85" value="0" />
+        <varValue item="ESU Function Row 43 Item 86" value="0" />
         <varValue item="ESU Function Row 43 Item 89" value="0" />
         <varValue item="ESU Function Row 43 Item 90" value="0" />
         <varValue item="ESU Function Row 43 Item 91" value="0" />
@@ -6251,6 +6509,12 @@
         <varValue item="ESU Function Row 44 Item 78" value="0" />
         <varValue item="ESU Function Row 44 Item 79" value="0" />
         <varValue item="ESU Function Row 44 Item 80" value="0" />
+        <varValue item="ESU Function Row 44 Item 81" value="0" />
+        <varValue item="ESU Function Row 44 Item 82" value="0" />
+        <varValue item="ESU Function Row 44 Item 83" value="0" />
+        <varValue item="ESU Function Row 44 Item 84" value="0" />
+        <varValue item="ESU Function Row 44 Item 85" value="0" />
+        <varValue item="ESU Function Row 44 Item 86" value="0" />
         <varValue item="ESU Function Row 44 Item 89" value="0" />
         <varValue item="ESU Function Row 44 Item 90" value="0" />
         <varValue item="ESU Function Row 44 Item 91" value="0" />
@@ -6362,6 +6626,12 @@
         <varValue item="ESU Function Row 45 Item 78" value="0" />
         <varValue item="ESU Function Row 45 Item 79" value="0" />
         <varValue item="ESU Function Row 45 Item 80" value="0" />
+        <varValue item="ESU Function Row 45 Item 81" value="0" />
+        <varValue item="ESU Function Row 45 Item 82" value="0" />
+        <varValue item="ESU Function Row 45 Item 83" value="0" />
+        <varValue item="ESU Function Row 45 Item 84" value="0" />
+        <varValue item="ESU Function Row 45 Item 85" value="0" />
+        <varValue item="ESU Function Row 45 Item 86" value="0" />
         <varValue item="ESU Function Row 45 Item 89" value="0" />
         <varValue item="ESU Function Row 45 Item 90" value="0" />
         <varValue item="ESU Function Row 45 Item 91" value="0" />
@@ -6473,6 +6743,12 @@
         <varValue item="ESU Function Row 46 Item 78" value="0" />
         <varValue item="ESU Function Row 46 Item 79" value="0" />
         <varValue item="ESU Function Row 46 Item 80" value="0" />
+        <varValue item="ESU Function Row 46 Item 81" value="0" />
+        <varValue item="ESU Function Row 46 Item 82" value="0" />
+        <varValue item="ESU Function Row 46 Item 83" value="0" />
+        <varValue item="ESU Function Row 46 Item 84" value="0" />
+        <varValue item="ESU Function Row 46 Item 85" value="0" />
+        <varValue item="ESU Function Row 46 Item 86" value="0" />
         <varValue item="ESU Function Row 46 Item 89" value="0" />
         <varValue item="ESU Function Row 46 Item 90" value="0" />
         <varValue item="ESU Function Row 46 Item 91" value="0" />
@@ -6584,6 +6860,12 @@
         <varValue item="ESU Function Row 47 Item 78" value="0" />
         <varValue item="ESU Function Row 47 Item 79" value="0" />
         <varValue item="ESU Function Row 47 Item 80" value="0" />
+        <varValue item="ESU Function Row 47 Item 81" value="0" />
+        <varValue item="ESU Function Row 47 Item 82" value="0" />
+        <varValue item="ESU Function Row 47 Item 83" value="0" />
+        <varValue item="ESU Function Row 47 Item 84" value="0" />
+        <varValue item="ESU Function Row 47 Item 85" value="0" />
+        <varValue item="ESU Function Row 47 Item 86" value="0" />
         <varValue item="ESU Function Row 47 Item 89" value="0" />
         <varValue item="ESU Function Row 47 Item 90" value="0" />
         <varValue item="ESU Function Row 47 Item 91" value="0" />
@@ -6695,6 +6977,12 @@
         <varValue item="ESU Function Row 48 Item 78" value="0" />
         <varValue item="ESU Function Row 48 Item 79" value="0" />
         <varValue item="ESU Function Row 48 Item 80" value="0" />
+        <varValue item="ESU Function Row 48 Item 81" value="0" />
+        <varValue item="ESU Function Row 48 Item 82" value="0" />
+        <varValue item="ESU Function Row 48 Item 83" value="0" />
+        <varValue item="ESU Function Row 48 Item 84" value="0" />
+        <varValue item="ESU Function Row 48 Item 85" value="0" />
+        <varValue item="ESU Function Row 48 Item 86" value="0" />
         <varValue item="ESU Function Row 48 Item 89" value="0" />
         <varValue item="ESU Function Row 48 Item 90" value="0" />
         <varValue item="ESU Function Row 48 Item 91" value="0" />
@@ -6806,6 +7094,12 @@
         <varValue item="ESU Function Row 49 Item 78" value="0" />
         <varValue item="ESU Function Row 49 Item 79" value="0" />
         <varValue item="ESU Function Row 49 Item 80" value="0" />
+        <varValue item="ESU Function Row 49 Item 81" value="0" />
+        <varValue item="ESU Function Row 49 Item 82" value="0" />
+        <varValue item="ESU Function Row 49 Item 83" value="0" />
+        <varValue item="ESU Function Row 49 Item 84" value="0" />
+        <varValue item="ESU Function Row 49 Item 85" value="0" />
+        <varValue item="ESU Function Row 49 Item 86" value="0" />
         <varValue item="ESU Function Row 49 Item 89" value="0" />
         <varValue item="ESU Function Row 49 Item 90" value="0" />
         <varValue item="ESU Function Row 49 Item 91" value="0" />
@@ -6917,6 +7211,12 @@
         <varValue item="ESU Function Row 50 Item 78" value="0" />
         <varValue item="ESU Function Row 50 Item 79" value="0" />
         <varValue item="ESU Function Row 50 Item 80" value="0" />
+        <varValue item="ESU Function Row 50 Item 81" value="0" />
+        <varValue item="ESU Function Row 50 Item 82" value="0" />
+        <varValue item="ESU Function Row 50 Item 83" value="0" />
+        <varValue item="ESU Function Row 50 Item 84" value="0" />
+        <varValue item="ESU Function Row 50 Item 85" value="0" />
+        <varValue item="ESU Function Row 50 Item 86" value="0" />
         <varValue item="ESU Function Row 50 Item 89" value="0" />
         <varValue item="ESU Function Row 50 Item 90" value="0" />
         <varValue item="ESU Function Row 50 Item 91" value="0" />
@@ -7028,6 +7328,12 @@
         <varValue item="ESU Function Row 51 Item 78" value="0" />
         <varValue item="ESU Function Row 51 Item 79" value="0" />
         <varValue item="ESU Function Row 51 Item 80" value="0" />
+        <varValue item="ESU Function Row 51 Item 81" value="0" />
+        <varValue item="ESU Function Row 51 Item 82" value="0" />
+        <varValue item="ESU Function Row 51 Item 83" value="0" />
+        <varValue item="ESU Function Row 51 Item 84" value="0" />
+        <varValue item="ESU Function Row 51 Item 85" value="0" />
+        <varValue item="ESU Function Row 51 Item 86" value="0" />
         <varValue item="ESU Function Row 51 Item 89" value="0" />
         <varValue item="ESU Function Row 51 Item 90" value="0" />
         <varValue item="ESU Function Row 51 Item 91" value="0" />
@@ -7139,6 +7445,12 @@
         <varValue item="ESU Function Row 52 Item 78" value="0" />
         <varValue item="ESU Function Row 52 Item 79" value="0" />
         <varValue item="ESU Function Row 52 Item 80" value="0" />
+        <varValue item="ESU Function Row 52 Item 81" value="0" />
+        <varValue item="ESU Function Row 52 Item 82" value="0" />
+        <varValue item="ESU Function Row 52 Item 83" value="0" />
+        <varValue item="ESU Function Row 52 Item 84" value="0" />
+        <varValue item="ESU Function Row 52 Item 85" value="0" />
+        <varValue item="ESU Function Row 52 Item 86" value="0" />
         <varValue item="ESU Function Row 52 Item 89" value="0" />
         <varValue item="ESU Function Row 52 Item 90" value="0" />
         <varValue item="ESU Function Row 52 Item 91" value="0" />
@@ -7250,6 +7562,12 @@
         <varValue item="ESU Function Row 53 Item 78" value="0" />
         <varValue item="ESU Function Row 53 Item 79" value="0" />
         <varValue item="ESU Function Row 53 Item 80" value="0" />
+        <varValue item="ESU Function Row 53 Item 81" value="0" />
+        <varValue item="ESU Function Row 53 Item 82" value="0" />
+        <varValue item="ESU Function Row 53 Item 83" value="0" />
+        <varValue item="ESU Function Row 53 Item 84" value="0" />
+        <varValue item="ESU Function Row 53 Item 85" value="0" />
+        <varValue item="ESU Function Row 53 Item 86" value="0" />
         <varValue item="ESU Function Row 53 Item 89" value="0" />
         <varValue item="ESU Function Row 53 Item 90" value="0" />
         <varValue item="ESU Function Row 53 Item 91" value="0" />
@@ -7361,6 +7679,12 @@
         <varValue item="ESU Function Row 54 Item 78" value="0" />
         <varValue item="ESU Function Row 54 Item 79" value="0" />
         <varValue item="ESU Function Row 54 Item 80" value="0" />
+        <varValue item="ESU Function Row 54 Item 81" value="0" />
+        <varValue item="ESU Function Row 54 Item 82" value="0" />
+        <varValue item="ESU Function Row 54 Item 83" value="0" />
+        <varValue item="ESU Function Row 54 Item 84" value="0" />
+        <varValue item="ESU Function Row 54 Item 85" value="0" />
+        <varValue item="ESU Function Row 54 Item 86" value="0" />
         <varValue item="ESU Function Row 54 Item 89" value="0" />
         <varValue item="ESU Function Row 54 Item 90" value="0" />
         <varValue item="ESU Function Row 54 Item 91" value="0" />
@@ -7472,6 +7796,12 @@
         <varValue item="ESU Function Row 55 Item 78" value="0" />
         <varValue item="ESU Function Row 55 Item 79" value="0" />
         <varValue item="ESU Function Row 55 Item 80" value="0" />
+        <varValue item="ESU Function Row 55 Item 81" value="0" />
+        <varValue item="ESU Function Row 55 Item 82" value="0" />
+        <varValue item="ESU Function Row 55 Item 83" value="0" />
+        <varValue item="ESU Function Row 55 Item 84" value="0" />
+        <varValue item="ESU Function Row 55 Item 85" value="0" />
+        <varValue item="ESU Function Row 55 Item 86" value="0" />
         <varValue item="ESU Function Row 55 Item 89" value="0" />
         <varValue item="ESU Function Row 55 Item 90" value="0" />
         <varValue item="ESU Function Row 55 Item 91" value="0" />
@@ -7583,6 +7913,12 @@
         <varValue item="ESU Function Row 56 Item 78" value="0" />
         <varValue item="ESU Function Row 56 Item 79" value="0" />
         <varValue item="ESU Function Row 56 Item 80" value="0" />
+        <varValue item="ESU Function Row 56 Item 81" value="0" />
+        <varValue item="ESU Function Row 56 Item 82" value="0" />
+        <varValue item="ESU Function Row 56 Item 83" value="0" />
+        <varValue item="ESU Function Row 56 Item 84" value="0" />
+        <varValue item="ESU Function Row 56 Item 85" value="0" />
+        <varValue item="ESU Function Row 56 Item 86" value="0" />
         <varValue item="ESU Function Row 56 Item 89" value="0" />
         <varValue item="ESU Function Row 56 Item 90" value="0" />
         <varValue item="ESU Function Row 56 Item 91" value="0" />
@@ -7694,6 +8030,12 @@
         <varValue item="ESU Function Row 57 Item 78" value="0" />
         <varValue item="ESU Function Row 57 Item 79" value="0" />
         <varValue item="ESU Function Row 57 Item 80" value="0" />
+        <varValue item="ESU Function Row 57 Item 81" value="0" />
+        <varValue item="ESU Function Row 57 Item 82" value="0" />
+        <varValue item="ESU Function Row 57 Item 83" value="0" />
+        <varValue item="ESU Function Row 57 Item 84" value="0" />
+        <varValue item="ESU Function Row 57 Item 85" value="0" />
+        <varValue item="ESU Function Row 57 Item 86" value="0" />
         <varValue item="ESU Function Row 57 Item 89" value="0" />
         <varValue item="ESU Function Row 57 Item 90" value="0" />
         <varValue item="ESU Function Row 57 Item 91" value="0" />
@@ -7805,6 +8147,12 @@
         <varValue item="ESU Function Row 58 Item 78" value="0" />
         <varValue item="ESU Function Row 58 Item 79" value="0" />
         <varValue item="ESU Function Row 58 Item 80" value="0" />
+        <varValue item="ESU Function Row 58 Item 81" value="0" />
+        <varValue item="ESU Function Row 58 Item 82" value="0" />
+        <varValue item="ESU Function Row 58 Item 83" value="0" />
+        <varValue item="ESU Function Row 58 Item 84" value="0" />
+        <varValue item="ESU Function Row 58 Item 85" value="0" />
+        <varValue item="ESU Function Row 58 Item 86" value="0" />
         <varValue item="ESU Function Row 58 Item 89" value="0" />
         <varValue item="ESU Function Row 58 Item 90" value="0" />
         <varValue item="ESU Function Row 58 Item 91" value="0" />
@@ -7916,6 +8264,12 @@
         <varValue item="ESU Function Row 59 Item 78" value="0" />
         <varValue item="ESU Function Row 59 Item 79" value="0" />
         <varValue item="ESU Function Row 59 Item 80" value="0" />
+        <varValue item="ESU Function Row 59 Item 81" value="0" />
+        <varValue item="ESU Function Row 59 Item 82" value="0" />
+        <varValue item="ESU Function Row 59 Item 83" value="0" />
+        <varValue item="ESU Function Row 59 Item 84" value="0" />
+        <varValue item="ESU Function Row 59 Item 85" value="0" />
+        <varValue item="ESU Function Row 59 Item 86" value="0" />
         <varValue item="ESU Function Row 59 Item 89" value="0" />
         <varValue item="ESU Function Row 59 Item 90" value="0" />
         <varValue item="ESU Function Row 59 Item 91" value="0" />
@@ -8027,6 +8381,12 @@
         <varValue item="ESU Function Row 60 Item 78" value="0" />
         <varValue item="ESU Function Row 60 Item 79" value="0" />
         <varValue item="ESU Function Row 60 Item 80" value="0" />
+        <varValue item="ESU Function Row 60 Item 81" value="0" />
+        <varValue item="ESU Function Row 60 Item 82" value="0" />
+        <varValue item="ESU Function Row 60 Item 83" value="0" />
+        <varValue item="ESU Function Row 60 Item 84" value="0" />
+        <varValue item="ESU Function Row 60 Item 85" value="0" />
+        <varValue item="ESU Function Row 60 Item 86" value="0" />
         <varValue item="ESU Function Row 60 Item 89" value="0" />
         <varValue item="ESU Function Row 60 Item 90" value="0" />
         <varValue item="ESU Function Row 60 Item 91" value="0" />
@@ -8138,6 +8498,12 @@
         <varValue item="ESU Function Row 61 Item 78" value="0" />
         <varValue item="ESU Function Row 61 Item 79" value="0" />
         <varValue item="ESU Function Row 61 Item 80" value="0" />
+        <varValue item="ESU Function Row 61 Item 81" value="0" />
+        <varValue item="ESU Function Row 61 Item 82" value="0" />
+        <varValue item="ESU Function Row 61 Item 83" value="0" />
+        <varValue item="ESU Function Row 61 Item 84" value="0" />
+        <varValue item="ESU Function Row 61 Item 85" value="0" />
+        <varValue item="ESU Function Row 61 Item 86" value="0" />
         <varValue item="ESU Function Row 61 Item 89" value="0" />
         <varValue item="ESU Function Row 61 Item 90" value="0" />
         <varValue item="ESU Function Row 61 Item 91" value="0" />
@@ -8249,6 +8615,12 @@
         <varValue item="ESU Function Row 62 Item 78" value="0" />
         <varValue item="ESU Function Row 62 Item 79" value="0" />
         <varValue item="ESU Function Row 62 Item 80" value="0" />
+        <varValue item="ESU Function Row 62 Item 81" value="0" />
+        <varValue item="ESU Function Row 62 Item 82" value="0" />
+        <varValue item="ESU Function Row 62 Item 83" value="0" />
+        <varValue item="ESU Function Row 62 Item 84" value="0" />
+        <varValue item="ESU Function Row 62 Item 85" value="0" />
+        <varValue item="ESU Function Row 62 Item 86" value="0" />
         <varValue item="ESU Function Row 62 Item 89" value="0" />
         <varValue item="ESU Function Row 62 Item 90" value="0" />
         <varValue item="ESU Function Row 62 Item 91" value="0" />
@@ -8360,6 +8732,12 @@
         <varValue item="ESU Function Row 63 Item 78" value="0" />
         <varValue item="ESU Function Row 63 Item 79" value="0" />
         <varValue item="ESU Function Row 63 Item 80" value="0" />
+        <varValue item="ESU Function Row 63 Item 81" value="0" />
+        <varValue item="ESU Function Row 63 Item 82" value="0" />
+        <varValue item="ESU Function Row 63 Item 83" value="0" />
+        <varValue item="ESU Function Row 63 Item 84" value="0" />
+        <varValue item="ESU Function Row 63 Item 85" value="0" />
+        <varValue item="ESU Function Row 63 Item 86" value="0" />
         <varValue item="ESU Function Row 63 Item 89" value="0" />
         <varValue item="ESU Function Row 63 Item 90" value="0" />
         <varValue item="ESU Function Row 63 Item 91" value="0" />
@@ -8471,6 +8849,12 @@
         <varValue item="ESU Function Row 64 Item 78" value="0" />
         <varValue item="ESU Function Row 64 Item 79" value="0" />
         <varValue item="ESU Function Row 64 Item 80" value="0" />
+        <varValue item="ESU Function Row 64 Item 81" value="0" />
+        <varValue item="ESU Function Row 64 Item 82" value="0" />
+        <varValue item="ESU Function Row 64 Item 83" value="0" />
+        <varValue item="ESU Function Row 64 Item 84" value="0" />
+        <varValue item="ESU Function Row 64 Item 85" value="0" />
+        <varValue item="ESU Function Row 64 Item 86" value="0" />
         <varValue item="ESU Function Row 64 Item 89" value="0" />
         <varValue item="ESU Function Row 64 Item 90" value="0" />
         <varValue item="ESU Function Row 64 Item 91" value="0" />
@@ -8582,6 +8966,12 @@
         <varValue item="ESU Function Row 65 Item 78" value="0" />
         <varValue item="ESU Function Row 65 Item 79" value="0" />
         <varValue item="ESU Function Row 65 Item 80" value="0" />
+        <varValue item="ESU Function Row 65 Item 81" value="0" />
+        <varValue item="ESU Function Row 65 Item 82" value="0" />
+        <varValue item="ESU Function Row 65 Item 83" value="0" />
+        <varValue item="ESU Function Row 65 Item 84" value="0" />
+        <varValue item="ESU Function Row 65 Item 85" value="0" />
+        <varValue item="ESU Function Row 65 Item 86" value="0" />
         <varValue item="ESU Function Row 65 Item 89" value="0" />
         <varValue item="ESU Function Row 65 Item 90" value="0" />
         <varValue item="ESU Function Row 65 Item 91" value="0" />
@@ -8693,6 +9083,12 @@
         <varValue item="ESU Function Row 66 Item 78" value="0" />
         <varValue item="ESU Function Row 66 Item 79" value="0" />
         <varValue item="ESU Function Row 66 Item 80" value="0" />
+        <varValue item="ESU Function Row 66 Item 81" value="0" />
+        <varValue item="ESU Function Row 66 Item 82" value="0" />
+        <varValue item="ESU Function Row 66 Item 83" value="0" />
+        <varValue item="ESU Function Row 66 Item 84" value="0" />
+        <varValue item="ESU Function Row 66 Item 85" value="0" />
+        <varValue item="ESU Function Row 66 Item 86" value="0" />
         <varValue item="ESU Function Row 66 Item 89" value="0" />
         <varValue item="ESU Function Row 66 Item 90" value="0" />
         <varValue item="ESU Function Row 66 Item 91" value="0" />
@@ -8804,6 +9200,12 @@
         <varValue item="ESU Function Row 67 Item 78" value="0" />
         <varValue item="ESU Function Row 67 Item 79" value="0" />
         <varValue item="ESU Function Row 67 Item 80" value="0" />
+        <varValue item="ESU Function Row 67 Item 81" value="0" />
+        <varValue item="ESU Function Row 67 Item 82" value="0" />
+        <varValue item="ESU Function Row 67 Item 83" value="0" />
+        <varValue item="ESU Function Row 67 Item 84" value="0" />
+        <varValue item="ESU Function Row 67 Item 85" value="0" />
+        <varValue item="ESU Function Row 67 Item 86" value="0" />
         <varValue item="ESU Function Row 67 Item 89" value="0" />
         <varValue item="ESU Function Row 67 Item 90" value="0" />
         <varValue item="ESU Function Row 67 Item 91" value="0" />
@@ -8915,6 +9317,12 @@
         <varValue item="ESU Function Row 68 Item 78" value="0" />
         <varValue item="ESU Function Row 68 Item 79" value="0" />
         <varValue item="ESU Function Row 68 Item 80" value="0" />
+        <varValue item="ESU Function Row 68 Item 81" value="0" />
+        <varValue item="ESU Function Row 68 Item 82" value="0" />
+        <varValue item="ESU Function Row 68 Item 83" value="0" />
+        <varValue item="ESU Function Row 68 Item 84" value="0" />
+        <varValue item="ESU Function Row 68 Item 85" value="0" />
+        <varValue item="ESU Function Row 68 Item 86" value="0" />
         <varValue item="ESU Function Row 68 Item 89" value="0" />
         <varValue item="ESU Function Row 68 Item 90" value="0" />
         <varValue item="ESU Function Row 68 Item 91" value="0" />
@@ -9026,6 +9434,12 @@
         <varValue item="ESU Function Row 69 Item 78" value="0" />
         <varValue item="ESU Function Row 69 Item 79" value="0" />
         <varValue item="ESU Function Row 69 Item 80" value="0" />
+        <varValue item="ESU Function Row 69 Item 81" value="0" />
+        <varValue item="ESU Function Row 69 Item 82" value="0" />
+        <varValue item="ESU Function Row 69 Item 83" value="0" />
+        <varValue item="ESU Function Row 69 Item 84" value="0" />
+        <varValue item="ESU Function Row 69 Item 85" value="0" />
+        <varValue item="ESU Function Row 69 Item 86" value="0" />
         <varValue item="ESU Function Row 69 Item 89" value="0" />
         <varValue item="ESU Function Row 69 Item 90" value="0" />
         <varValue item="ESU Function Row 69 Item 91" value="0" />
@@ -9137,6 +9551,12 @@
         <varValue item="ESU Function Row 70 Item 78" value="0" />
         <varValue item="ESU Function Row 70 Item 79" value="0" />
         <varValue item="ESU Function Row 70 Item 80" value="0" />
+        <varValue item="ESU Function Row 70 Item 81" value="0" />
+        <varValue item="ESU Function Row 70 Item 82" value="0" />
+        <varValue item="ESU Function Row 70 Item 83" value="0" />
+        <varValue item="ESU Function Row 70 Item 84" value="0" />
+        <varValue item="ESU Function Row 70 Item 85" value="0" />
+        <varValue item="ESU Function Row 70 Item 86" value="0" />
         <varValue item="ESU Function Row 70 Item 89" value="0" />
         <varValue item="ESU Function Row 70 Item 90" value="0" />
         <varValue item="ESU Function Row 70 Item 91" value="0" />
@@ -9248,6 +9668,12 @@
         <varValue item="ESU Function Row 71 Item 78" value="0" />
         <varValue item="ESU Function Row 71 Item 79" value="0" />
         <varValue item="ESU Function Row 71 Item 80" value="0" />
+        <varValue item="ESU Function Row 71 Item 81" value="0" />
+        <varValue item="ESU Function Row 71 Item 82" value="0" />
+        <varValue item="ESU Function Row 71 Item 83" value="0" />
+        <varValue item="ESU Function Row 71 Item 84" value="0" />
+        <varValue item="ESU Function Row 71 Item 85" value="0" />
+        <varValue item="ESU Function Row 71 Item 86" value="0" />
         <varValue item="ESU Function Row 71 Item 89" value="0" />
         <varValue item="ESU Function Row 71 Item 90" value="0" />
         <varValue item="ESU Function Row 71 Item 91" value="0" />
@@ -9359,6 +9785,12 @@
         <varValue item="ESU Function Row 72 Item 78" value="0" />
         <varValue item="ESU Function Row 72 Item 79" value="0" />
         <varValue item="ESU Function Row 72 Item 80" value="0" />
+        <varValue item="ESU Function Row 72 Item 81" value="0" />
+        <varValue item="ESU Function Row 72 Item 82" value="0" />
+        <varValue item="ESU Function Row 72 Item 83" value="0" />
+        <varValue item="ESU Function Row 72 Item 84" value="0" />
+        <varValue item="ESU Function Row 72 Item 85" value="0" />
+        <varValue item="ESU Function Row 72 Item 86" value="0" />
         <varValue item="ESU Function Row 72 Item 89" value="0" />
         <varValue item="ESU Function Row 72 Item 90" value="0" />
         <varValue item="ESU Function Row 72 Item 91" value="0" />
@@ -11441,6 +11873,5 @@
       <CVvalue name="16.12.378" value="0" />
     </values>
   </locomotive>
-  <!--Written by JMRI version 5.15.3plus+jenkins+20260213T2025Z+R099362ba8c on Sat Feb 14 14:59:51 PST 2026-->
-  <!--Written by JMRI version 5.15.4plus+jenkins+20260305T1324Z+R2910b939945 on Thu Mar 05 17:29:10 PST 2026-->
+  <!--Written by JMRI version 5.15.8+R0f6e5379d8 on Sat Jun 27 15:21:13 PDT 2026-->
 </locomotive-config>

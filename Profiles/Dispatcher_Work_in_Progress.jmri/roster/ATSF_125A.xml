@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
   <locomotive id="ATSF 125A" fileName="ATSF_125A.xml" roadNumber="125A" roadName="ATSF" mfg="Stewart" owner="223 Dan Wexler" model="FTB" dccAddress="125" comment="Reefer block power" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
@@ -107,4 +106,5 @@
       <CVvalue name="94" value="255" />
     </values>
   </locomotive>
+  <!--Written by JMRI version 5.15.8+R0f6e5379d8 on Sat Jun 27 15:18:25 PDT 2026-->
 </locomotive-config>

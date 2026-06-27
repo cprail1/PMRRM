@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="SP 3792" fileName="SP_3792.xml" roadNumber="3792" roadName="Southern Pacific" mfg="Life-Like" owner="257 Chris Holt" model="GP9" dccAddress="3792" comment=" (Kodachrome)   &#xA;FWD LIGHTS ONLY" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-    <dateUpdated>2026-02-08T03:58:32.662+00:00</dateUpdated>
+  <locomotive id="SP 3792" fileName="SP_3792.xml" roadNumber="3792" roadName="Southern Pacific" mfg="Life-Like" owner="257 Chris Holt" model="GP9" dccAddress="3792" comment="FWD LIGHTS ONLY" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+    <dateUpdated>2026-06-27T18:08:52.299+00:00</dateUpdated>
     <decoder model="DH126D" family="Economy Series 6 with FX3, silent" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="3792" longaddress="yes" />
@@ -152,6 +152,5 @@
       <CVvalue name="106" value="0" />
     </values>
   </locomotive>
-  <!--Written by JMRI version 5.15.3plus+jenkins+20260213T2025Z+R099362ba8c on Sat Feb 14 14:58:54 PST 2026-->
-  <!--Written by JMRI version 5.15.4plus+jenkins+20260305T1324Z+R2910b939945 on Thu Mar 05 17:28:24 PST 2026-->
+  <!--Written by JMRI version 5.15.8+R0f6e5379d8 on Sat Jun 27 15:21:01 PDT 2026-->
 </locomotive-config>

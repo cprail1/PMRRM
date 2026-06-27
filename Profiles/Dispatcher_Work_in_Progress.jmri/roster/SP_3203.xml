@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
-<locomotive-config>
+<locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
   <locomotive id="SP 3203" fileName="SP_3203.xml" roadNumber="3203" roadName="Southern Pacific" mfg="Athearn" owner="148 Kevin Schiller" model="SDP45" dccAddress="3203" comment="" developerID="-1" manufacturerID="141" productID="2115" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-    <dateUpdated>2026-02-08T03:58:32.595+00:00</dateUpdated>
+    <dateUpdated>2026-05-16T19:22:08.844+00:00</dateUpdated>
     <decoder model="TSU-PNP8 EMD-2 Diesels" family="Tsunami2 Diesel" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="3203" longaddress="yes" />
@@ -403,7 +403,7 @@
         <varValue item="EMF Dynamic Config" value="16" />
         <varValue item="EMF Option 1" value="180" />
         <varValue item="EMF Option 2" value="255" />
-        <varValue item="Motor PWM Frequency" value="9" />
+        <varValue item="Motor PWM Frequency" value="12" />
         <varValue item="EMF Option 3" value="6" />
         <varValue item="EMF Option 4" value="150" />
         <varValue item="Motor Option 1" value="0" />
@@ -435,10 +435,10 @@
         <varValue item="Long Address" value="3203" />
         <varValue item="Address Format" value="1" />
         <varValue item="Vstart" value="3" />
-        <varValue item="Vhigh" value="255" />
-        <varValue item="Vmid" value="88" />
-        <varValue item="Accel" value="16" />
-        <varValue item="Decel" value="12" />
+        <varValue item="Vhigh" value="100" />
+        <varValue item="Vmid" value="50" />
+        <varValue item="Accel" value="05" />
+        <varValue item="Decel" value="05" />
         <varValue item="Decoder Version" value="0" />
         <varValue item="Manufacturer" value="0" />
         <varValue item="Analog Mode Function Status - F1" value="0" />
@@ -460,11 +460,11 @@
         <varValue item="Consist Address Active For F1" value="0" />
         <varValue item="Consist Address Active For F2" value="0" />
         <varValue item="Consist Address Active For F3" value="0" />
-        <varValue item="Consist Address Active For F4" value="0" />
+        <varValue item="Consist Address Active For F4" value="1" />
         <varValue item="Consist Address Active For F5" value="0" />
         <varValue item="Consist Address Active For F6" value="0" />
         <varValue item="Consist Address Active For F7" value="0" />
-        <varValue item="Consist Address Active For F8" value="0" />
+        <varValue item="Consist Address Active For F8" value="1" />
         <varValue item="Consist Address Active For FL in Forward" value="0" />
         <varValue item="Consist Address Active For FL in Reverse" value="0" />
         <varValue item="Consist Address Active For F9" value="0" />
@@ -890,7 +890,7 @@
       <CVvalue name="210" value="16" />
       <CVvalue name="211" value="180" />
       <CVvalue name="212" value="255" />
-      <CVvalue name="213" value="9" />
+      <CVvalue name="213" value="12" />
       <CVvalue name="214" value="6" />
       <CVvalue name="215" value="150" />
       <CVvalue name="216" value="0" />
@@ -915,16 +915,16 @@
       <CVvalue name="18" value="131" />
       <CVvalue name="29" value="34" />
       <CVvalue name="2" value="3" />
-      <CVvalue name="5" value="255" />
-      <CVvalue name="6" value="88" />
-      <CVvalue name="3" value="16" />
-      <CVvalue name="4" value="12" />
+      <CVvalue name="5" value="100" />
+      <CVvalue name="6" value="50" />
+      <CVvalue name="3" value="5" />
+      <CVvalue name="4" value="5" />
       <CVvalue name="7" value="0" />
       <CVvalue name="8" value="0" />
       <CVvalue name="13" value="0" />
       <CVvalue name="14" value="3" />
       <CVvalue name="19" value="0" />
-      <CVvalue name="21" value="0" />
+      <CVvalue name="21" value="136" />
       <CVvalue name="22" value="0" />
       <CVvalue name="23" value="0" />
       <CVvalue name="24" value="0" />
@@ -1054,6 +1054,5 @@
       <CVvalue name="16.3.258" value="180" />
     </values>
   </locomotive>
-  <!--Written by JMRI version 5.15.3plus+jenkins+20260213T2025Z+R099362ba8c on Sat Feb 14 14:58:50 PST 2026-->
-  <!--Written by JMRI version 5.15.4plus+jenkins+20260305T1324Z+R2910b939945 on Thu Mar 05 17:28:21 PST 2026-->
+  <!--Written by JMRI version 5.15.8+R0f6e5379d8 on Sat Jun 27 15:21:00 PDT 2026-->
 </locomotive-config>

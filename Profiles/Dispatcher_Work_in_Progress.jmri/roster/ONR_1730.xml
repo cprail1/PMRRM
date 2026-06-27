@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <!--Written by JMRI version 5.15.4plus+jenkins+20260305T1324Z+R2910b939945 on Sat Mar 07 15:12:18 PST 2026-->
-  <locomotive id="ONR 1730" fileName="ONR_1730.xml" roadNumber="1730" roadName="Ontario Northland" mfg="Bowser" owner="217 Peter Ely" model="SD40-2 (GMDD)" dccAddress="1730" comment="Unit train: ONR and/or CNR barrel ore cars.&#xA;Canadian National and/or &#xA;Ontario Northland joint service" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-    <dateUpdated>2026-03-07T23:12:18.075+00:00</dateUpdated>
+  <locomotive id="ONR 1730" fileName="ONR_1730.xml" roadNumber="1730" roadName="Ontario Northland" mfg="Bowser" owner="217 Peter Ely" model="SD40-2 (GMDD)" dccAddress="1730" comment="Unit train: ONR and/or CNR barrel ore cars" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+    <dateUpdated>2026-06-27T20:52:53.341+00:00</dateUpdated>
     <decoder model="LokSound Select OEM" family="ESU LokSound Select" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="1730" longaddress="yes" />
@@ -21,8 +20,16 @@
     </soundlabels>
     <attributepairs>
       <keyvaluepair>
+        <key>InspectedBy</key>
+        <value>217</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>InspectionDate</key>
+        <value>2026-06-27</value>
+      </keyvaluepair>
+      <keyvaluepair>
         <key>TE</key>
-        <value>24 / 16</value>
+        <value>24 / 20 / 16</value>
       </keyvaluepair>
     </attributepairs>
     <values>
@@ -33,8 +40,8 @@
         <varValue item="Sound Select 3" value="0" />
         <varValue item="Sound Select 4" value="0" />
         <varValue item="Vstart" value="3" />
-        <varValue item="Accel" value="40" />
-        <varValue item="Decel" value="56" />
+        <varValue item="Accel" value="60" />
+        <varValue item="Decel" value="40" />
         <varValue item="Vhigh" value="255" />
         <varValue item="Vmid" value="88" />
         <varValue item="Decoder Version" value="255" />
@@ -139,7 +146,7 @@
         <varValue item="Speed Table" value="1,10,19,29,38,48,57,66,76,85,95,104,113,123,132,142,151,160,170,179,189,198,207,217,226,236,245,255" />
         <varValue item="Reverse Trim" value="128" />
         <varValue item="User Id #1" value="6" />
-        <varValue item="User Id #2" value="24" />
+        <varValue item="User Id #2" value="25" />
         <varValue item="ProId" value="0" />
         <varValue item="ProId 2" value="0" />
         <varValue item="SerNo" value="0" />
@@ -4431,8 +4438,8 @@
       </decoderDef>
       <CVvalue name="48" value="0" />
       <CVvalue name="2" value="3" />
-      <CVvalue name="3" value="40" />
-      <CVvalue name="4" value="56" />
+      <CVvalue name="3" value="60" />
+      <CVvalue name="4" value="40" />
       <CVvalue name="5" value="255" />
       <CVvalue name="6" value="88" />
       <CVvalue name="7" value="255" />
@@ -4516,7 +4523,7 @@
       <CVvalue name="94" value="255" />
       <CVvalue name="95" value="128" />
       <CVvalue name="105" value="6" />
-      <CVvalue name="106" value="24" />
+      <CVvalue name="106" value="25" />
       <CVvalue name="0.255.261" value="0" />
       <CVvalue name="0.255.262" value="0" />
       <CVvalue name="0.255.263" value="0" />
@@ -5441,4 +5448,5 @@
       <CVvalue name="16.4.384" value="0" />
     </values>
   </locomotive>
+  <!--Written by JMRI version 5.15.8+R0f6e5379d8 on Sat Jun 27 15:20:33 PDT 2026-->
 </locomotive-config>
