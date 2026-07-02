@@ -1,14 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <auxiliary-configuration xmlns="http://www.netbeans.org/ns/auxiliary-configuration/1">
     <connections xmlns="http://jmri.org/xml/schema/auxiliary-configuration/connections-2-9-6.xsd">
-        <connection xmlns="" class="jmri.jmrix.can.adapters.loopback.configurexml.ConnectionConfigXml" disabled="no" manufacturer="LCC" port="(none)" systemPrefix="M" turnoutInterval="100" userName="LCC">
-            <options>
-                <option>
-                    <name>Protocol</name>
-                    <value>OpenLCB</value>
-                </option>
-            </options>
-        </connection>
         <connection xmlns="" class="jmri.jmrix.loconet.hexfile.configurexml.ConnectionConfigXml" disabled="no" manufacturer="Digitrax" systemPrefix="L" userName="LocoNet">
             <options>
                 <option>
@@ -17,9 +9,26 @@
                 </option>
                 <option>
                     <name>SensorDefaultState</name>
-                    <value>Inactive</value>
+                    <value>Unknown</value>
+                </option>
+            </options>
+        </connection>
+        <connection xmlns="" class="jmri.jmrix.can.adapters.loopback.configurexml.ConnectionConfigXml" disabled="no" manufacturer="LCC" port="(none)" systemPrefix="M" turnoutInterval="100" userName="LCC">
+            <options>
+                <option>
+                    <name>Protocol</name>
+                    <value>OpenLCB</value>
                 </option>
             </options>
         </connection>
     </connections>
+    <startup xmlns="http://jmri.org/xml/schema/auxiliary-configuration/startup-4-3-5.xsd">
+        <perform xmlns="" class="jmri.util.startup.configurexml.PerformFileModelXml" enabled="yes" name="preference:DispatcherDefault.xml" type="XmlFile"/>
+        <perform xmlns="" class="jmri.util.startup.configurexml.PerformScriptModelXml" enabled="yes" name="preference:CommonInitializationScript.py" type="ScriptFile"/>
+        <perform xmlns="" class="apps.startup.configurexml.TriggerRouteModelXml" enabled="yes" name="Hide Blue Text" type="Action"/>
+        <perform xmlns="" class="jmri.util.startup.configurexml.PerformActionModelXml" enabled="yes" name="jmri.web.server.WebServerAction" type="Action">
+            <property name="systemPrefix" value=""/>
+        </perform>
+        <perform xmlns="" class="jmri.util.startup.configurexml.PerformScriptModelXml" enabled="yes" name="preference:GatewayPongGame.py" type="ScriptFile"/>
+    </startup>
 </auxiliary-configuration>
